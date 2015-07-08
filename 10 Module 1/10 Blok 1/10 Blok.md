@@ -17,7 +17,7 @@
 
 Als je een programma hebt geschreven kun je het uitvoeren (*runnen*). De computer loopt dan stap voor stap door je programma en voert de instructies uit die op elke regel staan.
 
-Maak tekstbestand **oef1.py** en zet er de volgende regels in:
+Maak tekstbestand **les1.py** en zet er de volgende regels in:
 
     print "Hallo, wereld!"
     print "Hee, hallo daar."
@@ -48,6 +48,8 @@ Nu gaan we berekeningen en letterlijke tekstjes combineren:
     print "Het 4e getal van Fibonacci is %d" % (1 + 2)
     print "Het 5e getal van Fibonacci is %d" % (2 + 3)
 
+Als je dit programma uitvoert, dan zie je dat precies waar `%d` stond, nu de uitkomst van de berekening is geplaatst.
+
 <span class="glyphicon glyphicon-pushpin dropcap"></span> Prima. We kunnen nu allerlei dingen printen en uitrekenen. We kunnen ook de resultaten van een berekening op een nette manier printen, zodat de *gebruiker* van het programma begrijpt waar we mee bezig zijn.
 
 # Commentaar
@@ -64,11 +66,11 @@ Voeg nu commentaar toe aan je bestand **les1.py** om duidelijk te maken wat de v
 
 In je programma kun je grootheden (*waarden*) opslaan onder een zelfgekozen naam. Zo kun je bijvoorbeeld het resultaat van een berekening op de ene regel ook gebruiken op een andere regel later in het programma.
 
-Als je een getal hebt, bijvoorbeeld 20 (het aantal studenten in je groep), en dat wilt onthouden, dan schrijf je dit:
+Als je een getal hebt, bijvoorbeeld het aantal studenten in je groep (20), en dat wilt onthouden, dan schrijf je dit:
 
 	aantal = 20
 
-We hebben gekozen voor `aantal`, maar we hadden net zogoed kunnen kiezen voor de naam `afstand` of `dx`, of iets anders. Zorg altijd dat de naam van de variabele leesbaar is voor de gebruiker (en jezelf als je je eigen code een week later terugkijkt).
+We hebben gekozen voor `aantal`, maar we hadden net zo goed kunnen kiezen voor de naam `afstand` of `dx`, of iets anders. Zorg dat de naam van de variabele goed te begrijpen is, zodat je een week later weer makkelijk door kunt gaan met het uitbreiden van je programma.
 
 Als je de *waarde* van de variabele op het scherm wil printen dan doe je dat als volgt:
 
@@ -84,7 +86,7 @@ De variabele kun je ook tussentijds manipuleren. Als één van de je medestudent
 	aantal = aantal - 1
 	print aantal
 
-Op regel 3 krijgt `aantal` een nieuwe waarde. Deze wordt berekend uit de 'oude' waarde van `aantal`.
+Op regel 3 krijgt `aantal` een nieuwe waarde (19). Deze wordt berekend uit de 'oude' waarde van `aantal` (20).
 
 # Conditionals
 
