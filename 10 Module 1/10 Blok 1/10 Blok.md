@@ -88,15 +88,23 @@ De variabele kun je ook tussentijds manipuleren. Als één van de je medestudent
 
 Op regel 3 krijgt `aantal` een nieuwe waarde (19). Deze wordt berekend uit de 'oude' waarde van `aantal` (20).
 
-# Conditionals
+# if-Statements
 
-Je kan ok testen of een variabele aan een bepaalde set voorwaardes voldoet. Met behulp van het `if` statement kan je het programma iets laten doen uitsluitend in het geval er aan de voorwaardes is voldaan.
+Tot nu toe hebben we een lang tekstbestand gemaakt met drie soorten regels:
 
-Als je wilt kijken of een getal positief is bijvoorbeeld.
+- instructies (die Python kent)
+- commentaar (waar Python niets mee doet, maar die wij kunnen lezen)
+- lege regels (waar Python niets mee doet, en die helpen onderscheid te maken tussen stukken code)
+
+Nu gaan we een nieuwe Python-instructie (*statement*) toevoegen: `if`. In deze instructie combineer je een *voorwaarde* met een aantal regels die *alleen uitgevoerd worden als de voorwaarde "waar" is*.
+
+Als je wilt kijken of een getal positief is bijvoorbeeld. Tik het maar over.
 	
 	x = 15
 	if x > 0:
-		print "het getal", x, " is positief"
+		print "Het getal %d is positief." % x
+
+Je ziet dat er een voorwaarde is: `x > 0`, ofwel `x` moet positief zijn. En er is een regel die alléén wordt uitgevoerd als `x > 0`. Probeer het maar uit.
 
 Om te printen of een getal een negatief is zou je een extra regel toe kunnen voegen, maar je kan de 'stroom' van het programma ook sturen als er juist niet aan de voorwaarde voldaan is. Als je bijvoorbeeld wilt testen of een getal positief of negatief is dan kan je naast de `'if` ook de `else` constructie gebruiken.
 
@@ -118,15 +126,10 @@ Je kan ook verschillende voorwaardes ook combineren. Als je wilt weten of een ge
 De conditions die we hier gebruiken zijn:
 
 - `>` 	groter dan
-
-- `>=`	groter en gelijk aan
-
+- `>=`	groter of gelijk aan
 - `<` 	kleiner dan
-
-- `<=`	kleiner en gelijk aan
-
-- `==`	is precies gelijk aan
-
+- `<=`	kleiner dan of gelijk aan
+- `==`	is gelijk aan
 - `!=`	is niet gelijk aan
 
 
