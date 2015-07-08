@@ -1,9 +1,37 @@
-# Printen en variabelen
+<span class="glyphicon glyphicon-pushpin"></span> Het doel van deze oefening is om kennis te maken met de elementen om programma's mee te schrijven. Oefen met elk van de vijf elementen, zodat je in de volgende oefening een eerste programma kunt schrijven.
 
-Een computer kan een bepaalde grootheid ergens in zijn geheugen opslaan, waarbij hij er een unieke naam aan toekent waarmee je in de rest van het programma aan de variabele kan refereren.
+<span class="glyphicon glyphicon-pushpin"></span> Oefenen doe je in deze cursus door elk voorbeeld letterlijk over te tikken. Gebruik niet de *copy-paste* functie, want dan maak je geen fouten en dan leer je veel minder. Tik dus alle voorbeelden over en verbeter ze als je een fout krijgt!
+
+# Printen
+
+Als je een programma hebt geschreven kun je het uitvoeren (*runnen*). De computer loopt dan stap voor stap door je programma en voert de instructies uit die op elke regel staan.
+
+Maak tekstbestand **oef1.py** en zet er de volgende regels in:
+
+    print "Hallo, wereld!"
+    print "Hee, hallo daar."
+    print "Zo tikt het lekker door."
+    print "Grappig"
+    print 'Hee, print dit nog?'
+    print "Ivo's computer doet het vandaag niet."
+    print 'Hij zei: "Hallo."'
+
+Start nu het programma. Wat komt er uit? Voeg vervolgens ook nog de volgende regels toe:
+
+    print 1
+    print 1
+    print 1+1
+    print 1+1+1
+    print 3 + 2
+    print 8
+    print 5+8+8-8
+
+# Variabelen
+
+Een computer kan een bepaalde grootheid ergens in het geheugen opslaan, waarbij hij er een unieke naam aan toekent waarmee je in de rest van het programma aan de variabele kan refereren.
 
 Als je een getal hebt, bijvoorbeeld 20 (het aantal studenten in je groep) en dat wilt onthouden dan kan je dan in de computer opslaan onder een zelfgekozen naam.
- 
+
 	x = 20
 
 We hebben gekozen voor x, maar we hadden net zogoed kunnen kiezen voor de naam `afstand` of 'dx' of iets anders. Zorg altijd dat de naam van de variabele leesbaar is voor de gebruiker (en jezelf als je je eigen code een week later terugkijkt). 
