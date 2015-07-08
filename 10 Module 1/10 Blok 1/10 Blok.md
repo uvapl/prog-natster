@@ -9,7 +9,7 @@
 }
 </style>
 
-<span class="glyphicon glyphicon-pushpin dropcap"></span> Het doel van deze oefening is om kennis te maken met de elementen om programma's mee te schrijven. Oefen met elk van de vijf elementen, zodat je in de volgende oefening een eerste programma kunt schrijven.
+<span class="glyphicon glyphicon-pushpin dropcap"></span> Het doel van deze oefening is om kennis te maken met de elementen om programma's mee te schrijven. Oefen met elk van de vijf elementen, zodat je in de volgende oefening een eerste programma kunt schrijven.
 
 <span class="glyphicon glyphicon-pushpin dropcap"></span> Oefenen doe je in deze cursus door elk voorbeeld letterlijk over te tikken. Gebruik niet de *copy-paste* functie, want dan maak je geen fouten en dan leer je veel minder. Tik dus alle voorbeelden over en verbeter ze als je een fout krijgt!
 
@@ -48,36 +48,43 @@ Nu gaan we berekeningen en letterlijke tekstjes combineren:
     print "Het 4e getal van Fibonacci is %d" % (1 + 2)
     print "Het 5e getal van Fibonacci is %d" % (2 + 3)
 
-<span class="glyphicon glyphicon-pushpin dropcap"></span> Prima. We kunnen nu allerlei dingen printen en uitrekenen. We kunnen ook de resultaten van een berekening op een nette manier printen, zodat de *gebruiker* van het programma begrijpt waar we mee bezig zijn.
+<span class="glyphicon glyphicon-pushpin dropcap"></span> Prima. We kunnen nu allerlei dingen printen en uitrekenen. We kunnen ook de resultaten van een berekening op een nette manier printen, zodat de *gebruiker* van het programma begrijpt waar we mee bezig zijn.
+
+# Commentaar
+
+Als je in één bestand redelijk wat Python-code hebt geschreven, dan is het handig om duidelijk te maken *wat waar staat* (voor de lezer van de code zelf, niet voor de gebruiker!). Daarom kun je regels commentaar toevoegen in je programma. Die zien er zo uit:
+
+    # Hier gaan we berekeningen en tekstjes combineren
+
+Met zo'n hekje (`#`) laat je zien dat het geen *instructie* betreft, maar een stukje tekst waar de computer niets mee hoeft te doen.
+
+Voeg nu commentaar toe aan je bestand **les1.py** om duidelijk te maken wat de verschillende onderdelen doen.
 
 # Variabelen
 
-Een computer kan een bepaalde grootheid ergens in het geheugen opslaan, waarbij hij er een unieke naam aan toekent waarmee je in de rest van het programma aan de variabele kan refereren.
+In je programma kun je grootheden (*waarden*) opslaan onder een zelfgekozen naam. Zo kun je bijvoorbeeld het resultaat van een berekening op de ene regel ook gebruiken op een andere regel later in het programma.
 
-Als je een getal hebt, bijvoorbeeld 20 (het aantal studenten in je groep) en dat wilt onthouden dan kan je dan in de computer opslaan onder een zelfgekozen naam.
+Als je een getal hebt, bijvoorbeeld 20 (het aantal studenten in je groep), en dat wilt onthouden, dan schrijf je dit:
 
-	x = 20
+	aantal = 20
 
-We hebben gekozen voor x, maar we hadden net zogoed kunnen kiezen voor de naam `afstand` of 'dx' of iets anders. Zorg altijd dat de naam van de variabele leesbaar is voor de gebruiker (en jezelf als je je eigen code een week later terugkijkt). 
+We hebben gekozen voor `aantal`, maar we hadden net zogoed kunnen kiezen voor de naam `afstand` of `dx`, of iets anders. Zorg altijd dat de naam van de variabele leesbaar is voor de gebruiker (en jezelf als je je eigen code een week later terugkijkt).
 
-Als je de variabele op het scherm wilt printen dan doe je dat als volgt: 
+Als je de *waarde* van de variabele op het scherm wil printen dan doe je dat als volgt:
 
-	x = 20
-	print x
-	
-Deze variabele kan je ook manipuleren. Als een van de je mede studenten besluit toch maar biologie te gaan studeren dan is er 1 student minder in de groep.
+	aantal = 20
+	print aantal
 
-	x = 20
-	print "Het aantal studenten in de klas is ", x
-	x = x-1
-	print "Het aantal studenten in de klas is nu ", x, " geworden".
+Omdat de computer de regels in je programma van boven naar beneden uitvoert, kun je in regel 1 een waarde opslaan onder de naam `aantal` en op regel 2 deze naam gebruiken om te printen. De computer zoekt dan op wat de waarde is van deze variabele, en print deze waarde.
 
-In het laatste geval heeft x de waarde 20 aangenomen.
+De variabele kun je ook tussentijds manipuleren. Als één van de je medestudenten besluit toch maar biologie te gaan studeren dan is er 1 student minder in de groep.
 
+	aantal = 20
+    print aantal
+	aantal = aantal - 1
+	print aantal
 
-Er zijn verschillende soorten variabelen.   
-   
-
+Op regel 3 krijgt `aantal` een nieuwe waarde. Deze wordt berekend uit de 'oude' waarde van `aantal`.
 
 # Conditionals
 
