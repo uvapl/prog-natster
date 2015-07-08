@@ -1,14 +1,48 @@
-# gebruik standaard modules
+# Gebruik functies en importeren standaard modules
+
+Je habt in de vorige opgaves gezien dat er stukjes code zijn die je kan hergebruiken. Deze stukjes code die en wel gedefinieerde taak uitvoeren noemen we *functies* en die zullen we in module 2 en 3 in meer detail bekijken en gebruiken.
+
+In python zijn er een beperkt aantal standaard functies beschikbaar. Je kan bijvoorbeeld een getal printen op het scherm mbv `print`, maar je kan niet sin(0.5) uitrekenen. Je hebt daarvoor de functie sinus nodig. Die is niet beschikbaar in standaard Python, maar is ondergebracht in de zogenaamde wiskunde bibliotheek (`math library`). Om gebruik te maken van de sinus functie moet je dus eerst zorgen dat de wiskunde bibliotheek en alle functies daarin beschikbaar komen in jouw programma. Dat doe je als volgt. 
 
 
+	import math			# importeer de wiskunde bibliotheek
+	
+	x = 0.5
+	print math.sin(x)
 
-# plotjes maken
+Als je de functie `sin()` wilt gebruiken moet je altijd duidelijk aangeven in welke bibliotheek Python die functie moet vinden. In dit geval de wiskunde bibliotheek. 
+
+*Informatie over libraries:*
+
+- De functies die beschikbaar zijn in de math library kan je vinden in de documentatie:
+  https://docs.python.org/2/library/math.html
+- Er zijn een aantal standaard libraries: https://docs.python.org/2/library/
+- Voor elk vakgebied of toepassing is wel een aparte library te vinden en zodra je zelf later in je studie aan grotere programma's gaat werken zal het handig zijn om standaard code in een library onder te brengen. Het komt de overzichtelijkheid ten goede en je kan je code zo ook goed delen met andere mensen.
+
+Een voorbeeld van een wiskunde-georienteerde library is de `numpy` library. Een overzicht, documentatie en voorbeelden kan je hier vinden: http://www.numpy.org Een handige functie die we in deze cursus een paar keer zullen gebruiken is arange.
+
+De functie `range()` die we eerder in de cursus gebruikt hebben in `for loops` werkt alleen met gehele getallen. Vaak wil je echter kleine stapjes nemen. Als je bijvoorbeeld alle waardes van 2 tot 9 wilt gebruiken in stapjes van 0.01 dan is dat niet heel makkelijk te programmeren. Met behulp van de `numpy.arange()`` functie kan dat in 1 regel: handig!
+
+	import numpy
+
+	for x in numpy.arange(2.0, 9.0, 0.01):
+    	print x
+
+# Opgave: kleine stapjes maken
+
+Schrij een programma (`stapjes.py`)dat dezelfde output geeft als het programma hierboven (getallen van 2 tot 9 in stapjes van 0.01 op het scherm geprint), maar dan zonder gebruik te maken van `numpy.arange()`. Gebruik dus een gewone `for loop` en maak van zowel de startwaarde, de eindwaarde en de stapgrootte een aparte variabele: *x_min = 2.0, x_max = 9.0 en dx = 0.01*. Het is goed om dit een keer (1 keer) zelf gedaan te hebben en hopelijk zie je na dit geimplementeerd te hebben de meerwaarde van de functie `arange()`.
 
 
+# Visualisatie: plotten en grafieken
+
+In veel toepassingen is het handig om je resultaten te visualiseren. Denk hierbij aan een grafiek of zelfs een filmpje. Om je boodschap en conclusies goed over te brengen is het belangrijk dat je aandacht besteedt aan hoe je je resultaten weergeeft zodat het voor je publiek duidelijk is. Dit is cruciaal. Vaak duurt het oplossen van het probleem zelf uren/dagen/weken. Neem dan even 10 minuten de tijd om de grafiek netjes te maken. 
+
+Er is een standaard pakket om resultaten visualiseren in python: Matplotlib. Het is een zeer omvangrijk pakket waarvan we maar een fractie nodig zullen hebben. Een goede tutorial kan je hier vinden:
 http://matplotlib.org/users/pyplot_tutorial.html
 
+Hieronder drie simpele voorbeelden zodat je de basiscommando's kent waarmee je de opgaves van deze week kan maken. 
 
-![](plotje1.png)
+We beginnen met het plotten van wat punten waarvan we de x-waardes (0,1,2,3,4,5) en de y-waardes (0,1,4,9,16,25) hebben. In dit geval is het precies de functie x-kwadraat, maar dat hoeft natuurlijk niet. Om daar een grafiek van te maken doen we het volgende:
 
     import matplotlib.pyplot                   # importeer grafiekmaak module
 	
@@ -20,6 +54,10 @@ http://matplotlib.org/users/pyplot_tutorial.html
     matplotlib.pyplot.show()                   # laat de grafiek op het scherm zien
 
 Hierbij is ervoor gekozen om de 'marker' (figuur waarmee elk elk punt weergegeven wordt) weer te geven als een groen puntje. Vandaar het commando `'go'`. Als je een rode lijn had gewild die elk van de punten verbindt dat had je ook voor `'r-'` kunnen kiezen.
+
+
+![](plotje1.png)
+
 
 Om veel schrijven te voorkomen kan je een lange modulenaam ook intern in je code een kortere naam weergeven.
 
@@ -77,5 +115,27 @@ Hier hebben we een klein aantal punten gekozen waarbij je de waardes zelf in moe
 
 
 ![](plotje3.png)
+
+
+# Opgave: priemgetallen tellen 
+
+Schrijf een programma dat een grafiek maakt van de functie $\pi$(x), waarbij $\pi$(x) het aantal priemgetallen weergeeft kleiner dan of gelijk aan x. Maak hierbij gebruik van je programma uit opgave 3 en gkijk alleen naar getallen onder x = 10000.
+
+het begin van de functie $\pi$(x): 
+- $\pi(1)$ = 0  (2 is eerste priemgetal)
+- $\pi(2)$ = 1  (priemgetallen 2)
+- $\pi(3)$ = 2  (priemgetallen 2,3)
+- $\pi(4)$ = 2  (priemgetallen 2,3) 
+- $\pi(5)$ = 3  (priemgetallen 2,3,5)
+- ...
+
+Aan het eind van de 18e eeuw is door Gauss en Legendre gepostuleerd dat de functie voor grote getallen benaderd wordt door $\pi$(x) = x/ln(x). Teken dus door de grafiek van $\pi$(x) die je zelf gevonden hebt ook de functie 
+
+De grafiek en wat (getaltheorie)wiskunde erachter kan je hier:
+https://en.wikipedia.org/wiki/Prime-counting_function
+
+
+
+
 
 
