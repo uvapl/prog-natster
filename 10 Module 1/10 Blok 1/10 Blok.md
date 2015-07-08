@@ -1,3 +1,14 @@
+<style>
+.dropcap
+{
+    display: block;
+    float: left;
+    font-size: 2em;
+    line-height: 40px;
+    padding: 4px 8px 0 0;
+}
+</style>
+
 <span class="glyphicon glyphicon-pushpin dropcap"></span> Het doel van deze oefening is om kennis te maken met de elementen om programma's mee te schrijven. Oefen met elk van de vijf elementen, zodat je in de volgende oefening een eerste programma kunt schrijven.
 
 <span class="glyphicon glyphicon-pushpin dropcap"></span> Oefenen doe je in deze cursus door elk voorbeeld letterlijk over te tikken. Gebruik niet de *copy-paste* functie, want dan maak je geen fouten en dan leer je veel minder. Tik dus alle voorbeelden over en verbeter ze als je een fout krijgt!
@@ -20,14 +31,24 @@ Start nu het programma. Wat komt er uit? Voeg vervolgens ook nog de volgende reg
 
     print 1
     print 1
-    print 1+1
-    print 1+1+1
+    print 1 + 1
+    print 1 + 1 + 1
     print 3 + 2
     print 8
-    print 5+8+8-8
-    print "5+8+8-8"
+    print 5 + 8 + 8 - 8
+    print "5 + 8 + 8 - 8"
 
 Je kunt dus ook rekenen. Het resultaat wordt eerst uitgerekend, en dan pas wordt er geprint. Behalve die laatste dan: daar staat de formule (*expressie*) tussen aanhalingstekens, en dan wordt het precies zo naar het scherm geprint. Net als hierboven bij de tekstjes.
+
+Nu gaan we berekeningen en letterlijke tekstjes combineren:
+
+    print "Het 1e getal van Fibonacci is %d" % 1
+    print "Het 2e getal van Fibonacci is %d" % 1
+    print "Het 3e getal van Fibonacci is %d" % (1 + 1)
+    print "Het 4e getal van Fibonacci is %d" % (1 + 2)
+    print "Het 5e getal van Fibonacci is %d" % (2 + 3)
+
+<span class="glyphicon glyphicon-pushpin dropcap"></span> Prima. We kunnen nu allerlei dingen printen en uitrekenen. We kunnen ook de resultaten van een berekening op een nette manier printen, zodat de *gebruiker* van het programma begrijpt waar we mee bezig zijn.
 
 # Variabelen
 
@@ -213,23 +234,3 @@ Of kijken op hoeveel dagen de temperatuur boven de 20 graden uitkwam
     print "Op ", hete_dagen, " was de temperatuur boven de 20 graden"
 		
 Van lijsten is het belangrijk dat je weet hoe je een lijst definiert, hoe je elementen toevoegt aan een lijst en hoe je de individuele elementen afzonderlijk lukt bekijken.
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
-
-
-
-
-
