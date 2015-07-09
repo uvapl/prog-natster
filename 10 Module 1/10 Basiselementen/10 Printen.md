@@ -11,8 +11,6 @@
 
 <span class="glyphicon glyphicon-pushpin dropcap"></span> Het doel van deze oefening is om kennis te maken met de elementen om programma's mee te schrijven. Oefen met elk van de vijf elementen, zodat je in de volgende oefening een eerste programma kunt schrijven.
 
-<span class="glyphicon glyphicon-pushpin dropcap"></span> Oefenen doe je in deze cursus door elk voorbeeld letterlijk over te tikken. Gebruik niet de *copy-paste* functie, want dan maak je geen fouten en dan leer je veel minder. Tik dus alle voorbeelden over en verbeter ze als je een fout krijgt!
-
 # Printen
 
 Als je een programma hebt geschreven kun je het uitvoeren (*runnen*). De computer loopt dan stap voor stap door je programma en voert de instructies uit die op elke regel staan.
@@ -26,6 +24,8 @@ Maak tekstbestand **les1.py** en zet er de volgende regels in:
     print 'Hee, print dit nog?'
     print "Ivo's computer doet het vandaag niet."
     print 'Hij zei: "Hallo."'
+
+<span class="glyphicon glyphicon-pushpin dropcap"></span> Oefenen doe je in deze cursus door elk voorbeeld letterlijk over te tikken. Gebruik niet de *copy-paste* functie, want dan maak je geen fouten en dan leer je veel minder. Tik dus alle voorbeelden over en verbeter ze als je een fout krijgt!
 
 Start nu het programma. Wat komt er uit? Voeg vervolgens ook nog de volgende regels toe:
 
