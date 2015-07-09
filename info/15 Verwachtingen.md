@@ -1,4 +1,4 @@
-## Verwachtingen
+# Verwachtingen
 
 Deze cursus bevat 3 workshops, 4 problem sets en 1 tentamen (zie *Onderdelen* voor de invulling). Ter voorbereiding is er leesstof opgegeven.
 

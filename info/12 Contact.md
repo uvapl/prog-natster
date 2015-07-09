@@ -1,10 +1,10 @@
-## Contact
+# Contact
 
 De staf bestaat uit je docent en diverse studentassistenten. Door de omvang van
 de cursus kan de staf doorgaans niet reageren op e-mail over problem sets.
 Probeer voor afspraken en hulp zoveel mogelijk de studentassistenten en de docent tijdens het practicum aan te spreken. Heb je een praktische vraag? Mail dan gerust naar <progns@mprog.nl>. We proberen je binnen 24 uur te antwoorden.
 
-### Docenten
+## Docenten
 
 Bij de docenten kun je terecht voor:
 
@@ -23,7 +23,7 @@ ze te spreken, bijvoorbeeld voor het maken van persoonlijke afspraken, kun je al
 Martijn Stegeman (Python practice in weken 1, 3 en 5)  
 Ivo van Vulpen (Natuurkunde-programmeren in weken 2, 4, 6 en 7)  
 
-### Studentassistenten
+## Studentassistenten
 
 Bij de studentassistenten kun je terecht voor:
 
