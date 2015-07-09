@@ -122,7 +122,8 @@ Hier hebben we een klein aantal punten gekozen waarbij je de waardes zelf in moe
 Schrijf een programma dat een grafiek maakt van de functie $$\pi$$(x), waarbij $$\pi$$(x) het aantal priemgetallen weergeeft kleiner dan of gelijk aan x. Maak hierbij gebruik van je programma uit opgave 3 en gkijk alleen naar getallen onder x = 10000.
 
 het begin van de functie $$\pi$$(x): 
-- $$\pi(1)$$ = 0  (2 is eerste priemgetal)
+
+- $$\pi(1) = 0$$  (2 is eerste priemgetal)
 - $$\pi(2)$$ = 1  (priemgetallen 2)
 - $$\pi(3)$$ = 2  (priemgetallen 2,3)
 - $$\pi(4)$$ = 2  (priemgetallen 2,3) 
