@@ -16,6 +16,18 @@ Vóór aanvang van alle lesweken moet je een aantal hoofdstukken uit de syllabus
 lezen. We verwachten we dat je zelf naar de assistenten toekomt als je vragen
 hebt over de stof.
 
+## Literatuur
+
+Het volgende boek is verplichte literatuur. In de cursus staat vermeld wanneer
+je delen van deze boeken moet lezen en proberen te begrijpen. Zorg dat je het
+leeswerk één keer aan het begin van de week doet en gedurende de week nog eens.
+
+> Allen Downey  
+> *Think Python*  
+> Green Tea Press, 2013  
+
+Het boek is open source. De betreffende hoofdstukken staan gelinkt bij elke opdracht.
+
 ## Workshops
 
 In weken 1, 3 en 5 volg je workshops waarin je met kleine opdrachten de basis
