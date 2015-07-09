@@ -1,15 +1,4 @@
-<style>
-.dropcap
-{
-    display: block;
-    float: left;
-    font-size: 2em;
-    line-height: 40px;
-    padding: 4px 8px 0 0;
-}
-</style>
-
-<span class="glyphicon glyphicon-pushpin dropcap"></span> Het doel van deze oefening is om kennis te maken met de elementen om programma's mee te schrijven. Oefen met elk van de vijf elementen, zodat je in de volgende oefening een eerste programma kunt schrijven.
+> Het doel van deze oefening is om kennis te maken met de elementen om programma's mee te schrijven. Oefen met elk van de vijf elementen, zodat je in de volgende oefening een eerste programma kunt schrijven.
 
 # Printen
 
@@ -25,7 +14,7 @@ Maak tekstbestand **les1.py** en zet er de volgende regels in:
     print "Ivo's computer doet het vandaag niet."
     print 'Hij zei: "Hallo."'
 
-<span class="glyphicon glyphicon-pushpin dropcap"></span> Oefenen doe je in deze cursus door elk voorbeeld letterlijk over te tikken. Gebruik niet de *copy-paste* functie, want dan maak je geen fouten en dan leer je veel minder. Tik dus alle voorbeelden over en verbeter ze als je een fout krijgt!
+> Oefenen doe je in deze cursus door elk voorbeeld letterlijk over te tikken. Gebruik niet de *copy-paste* functie, want dan maak je geen fouten en dan leer je veel minder. Tik dus alle voorbeelden over en verbeter ze als je een fout krijgt!
 
 Start nu het programma. Wat komt er uit? Voeg vervolgens ook nog de volgende regels toe:
 
