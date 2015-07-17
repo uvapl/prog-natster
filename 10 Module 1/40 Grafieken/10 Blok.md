@@ -122,13 +122,18 @@ Hier hebben we een klein aantal punten gekozen waarbij je de waardes zelf in moe
 ![](plotje3.png)
 
 
-# Opgave: priemgetallen tellen 
 
-Schrijf een programma dat een grafiek maakt van de functie $$\pi$$(x), waarbij $$\Ppi$$(x) het aantal priemgetallen weergeeft kleiner dan of gelijk aan x. Maak hierbij gebruik van je programma uit opgave 3 en kijk alleen naar getallen onder x = 10000.
+# Opgave: de grafiek $$x^x$$
+
+Maak een grafiek (blauwe lijn) van de functie $$f(x) = x^x$$ tussen x = 0 en x=1.5 stapjes van 0.01. Bekijk ook bij welke x-waarde de functie zijn minimum bereikt. Teken dat minimum met behulp van een rode stop in de grafiek en print de waarde van het punt (x,y) op het scherm. Bereken dit punt ook analytisch met behulp van pen en papier.
+
+
+# Hackeropgave: priemgetallen tellen 
+
+Schrijf een programma dat een grafiek maakt van de functie $$\pi$$(x), waarbij $$\pi$$(x) het aantal priemgetallen weergeeft kleiner dan of gelijk aan x. Maak hierbij gebruik van je programma uit opgave 3 en kijk alleen naar getallen onder x = 10000.
 
 het begin van de functie $$\pi$$(x): 
 
-- $$\pi$$(1) = 0  (2 is eerste priemgetal)
 - $$\pi$$(2) = 1  (priemgetallen 2)
 - $$\pi$$(3) = 2  (priemgetallen 2,3)
 - $$\pi$$(4) = 2  (priemgetallen 2,3) 
@@ -138,6 +143,7 @@ het begin van de functie $$\pi$$(x):
 Aan het eind van de 18e eeuw is door Gauss en Legendre gepostuleerd dat de functie voor grote getallen benaderd wordt door $$\pi$$(x) = x/ln(x). Teken dus door de grafiek van $$\pi$$(x) die je zelf gevonden hebt ook de functie van Gauss en Legendre. En ?
 
 De grafiek zelf en wat (getaltheorie)wiskunde erachter kan je hier:
+
 https://en.wikipedia.org/wiki/Prime-counting_function
 
 
