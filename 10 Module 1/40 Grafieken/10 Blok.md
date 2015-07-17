@@ -36,6 +36,7 @@ De functie `range()` die we eerder in de cursus gebruikt hebben in `for loops` w
 Schrij een programma (`stapjes.py`)dat dezelfde output geeft als het programma hierboven (getallen van 2 tot 9 in stapjes van 0.01 op het scherm geprint), maar dan zonder gebruik te maken van `numpy.arange()`. Gebruik dus een gewone `for loop` en maak van zowel de startwaarde, de eindwaarde en de stapgrootte een aparte variabele: *x_min = 2.0, x_max = 9.0 en dx = 0.01*. Het is goed om dit een keer (1 keer) zelf gedaan te hebben en hopelijk zie je na dit geimplementeerd te hebben de meerwaarde van de functie `arange()`.
 
 
+
 # Visualisatie: plotten en grafieken
 
 Het is vaak handig om je resultaten te visualiseren (grafiek of zelfs een filmpje). Dit is erg belangrijk om aan het eind van het project je resultaten weer te geven, maar ook tijdens het ontwikkelen van (lees 'vechten met') je code. Tijdens het programmeren loop je vaak tegen problemen waarbij de computer niet lijkt te doen wat jij wilt. Dit zogenaamde debuggen, het uitzoeken waar je programa een andere lijn volgt dan de logica die jij erin denk te hebben gestopt, gebeurt vaak door op bepaalde plekken dingen te printen. Een visueel beeld is ook heel sterk omdat het je vaak in 1 oogopslag zien waar het probleem zit.
@@ -44,6 +45,9 @@ Om je boodschap en conclusies goed over te brengen is het belangrijk dat je aand
 
 Er is een standaard pakket om resultaten visualiseren in python: `Matplotlib`. Het is een zeer omvangrijk pakket waarvan we maar een fractie nodig zullen hebben. Een goede tutorial kan je hier vinden:
 http://matplotlib.org/users/pyplot_tutorial.html
+
+
+> Er bestaat een enorme variatie in de manier waarop data en resultaten gevisualiseerd worden. Denk altijd na hoe *jij* denk dat je het best de informatie weer kan geven zodat de gebruiker de juiste conclusie trekt. Zoek vervolgens in de Matplotlib documentatie op hoe je dat voor elkaar kan krijgen.
 
 Hieronder drie simpele voorbeelden zodat je de basiscommando's kent waarmee je de opgaves van deze week kan maken. 
 
@@ -58,7 +62,7 @@ We beginnen met het plotten van wat punten waarvan we de x-waardes (0,1,2,3,4,5)
 	
     matplotlib.pyplot.show()                   # laat de grafiek op het scherm zien
 
-Hierbij is ervoor gekozen om de 'marker' (figuur waarmee elk elk punt weergegeven wordt) weer te geven als een groen puntje. Vandaar het commando `'go'`. Als je een rode lijn had gewild die elk van de punten verbindt dat had je ook voor `'r-'` kunnen kiezen. Denk altijd na hoe *jij* denk dat je het best de resultaten weer kan geven en zoek in de Matplotlib documentatie op hoe je dat voor elkaar kan krijgen.
+Hierbij is ervoor gekozen om de 'marker' (figuur waarmee elk elk punt weergegeven wordt) weer te geven als een groen puntje. Vandaar het commando `'go'`. Als je een rode lijn had gewild die elk van de punten verbindt dat had je ook voor `'r-'` kunnen kiezen. 
 
 
 ![](plotje1.png)
@@ -125,7 +129,7 @@ Hier hebben we een klein aantal punten gekozen waarbij je de waardes zelf in moe
 
 # Opgave: de grafiek $$x^x$$
 
-Maak een grafiek (blauwe lijn) van de functie $$f(x) = x^x$$ tussen x = 0 en x=1.5 stapjes van 0.01. Bekijk ook bij welke x-waarde de functie zijn minimum bereikt. Teken dat minimum met behulp van een rode stop in de grafiek en print de waarde van het punt (x,y) op het scherm. Bereken dit punt ook analytisch met behulp van pen en papier.
+Maak een grafiek (blauwe lijn) van de functie $$f(x) = x^x$$ tussen x = 0 en x=1.5 stapjes van 0.01. Bekijk ook bij welke x-waarde de functie zijn minimum bereikt. Teken dat minimum met behulp van een rode stip in de grafiek en print de waarde van het punt (x,y) op het scherm. Bereken dit punt ook analytisch met behulp van pen en papier.
 
 
 # Hackeropgave: priemgetallen tellen 
