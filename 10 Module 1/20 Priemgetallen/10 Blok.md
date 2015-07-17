@@ -1,4 +1,4 @@
-# code-bouwsteen: is een getal een priemgetal
+# code-bouwsteen: is een getal wel of niet een priemgetal 
 
 Schrijf een stuk code (`blok2a.py`) dat van een bepaald getal onderzoekt of het een priemgetal is of niet. Aan het eind van het programma moet duidelijk op het scherm geprint worden of het getal een priemgetal is of niet.
 
@@ -9,14 +9,18 @@ Het getal 37 mag de gebruiker van jouw code natuurlijk zelf veranderen en aan he
 
   	Het getal 37 is een priemgetal 
 	
-In deze eerste opgave gaan we eerst 'dom' kijken (later gaan we het slimmer aanpakken). Bekijk voor elk van de gehele getallen onder het te onderzoeken getal x of het een deler is van x. Gebruik hiervoor een `for loop` en de `%` operatie. Bepaal het aantal delers van x en bepaal aan de hand daarvan aan het eind van de loop of het getal een priemgetal is of niet. Print je conclusie uiteindelijk op het scherm.
+###strategie:
+In deze eerste opgave gaan we het probleem eerst brute-force('dom') aanpakken. Gebruik een `for loop` en de `%` operatie om te bepalen hoeveel van de gehele getallen (onder ons kandidaat-priemgetal x) te kijken of het een deler is van x. Houd bij hoeveel delers x heeft en bepaal aan de hand daarvan aan het eind van de loop of het getal x een priemgetal is of niet. Print je conclusie uiteindelijk op het scherm.
 
 *Optioneel:* zorg dat je code bij het invoeren 1,0 of een negatief getal gelijk zegt dat het geen priemgetal is en print ook op het scherm de boodschap naar de gebruiker van je programma dat hij een geheel en positief getal in moet voeren dat groter of gelijk aan 2 is.
 
 
 # code-bouwsteen: bepaal alle priemgetallen onder de 100
 
-Het vorige stukje code bekeek alleen of een specfiek getal een priemgetal was of niet. We kunnen dit stukje code recyclen en voor elk getal onder de 100 bepalen of het een priemgetal is of niet. Maak een apart programma (`blok2b.py`) en gebruik de `for loop` om alle getallen onder de 100 te genereren en bepaal voor elk van deze getallen of het wel of niet een priemgetal is. Voor elk getal moet je weer de delers vinden en je zal dus een tweede `for loops` moeten gebruiken binnen de loop die de 100 getallen maakt. Dit zijn zogenaamde nested-loops. 
+Het vorige stukje code bekeek alleen of een specfiek getal een priemgetal was of niet. We kunnen dit stukje code recyclen en voor elk getal onder de 100 bepalen of het een priemgetal is of niet. 
+
+###strategie:
+Maak een apart programma (`blok2b.py`) en gebruik de `for loop` om alle getallen onder de 100 te genereren en bepaal voor elk van deze getallen of het wel of niet een priemgetal is. Voor elk getal moet je dus weer het delers bepalen en je zal dus een tweede `for loop` moeten gebruiken binnen de loop die de 100 getallen maakt. Dit zijn zogenaamde nested-loops. 
 
 Een extra opdracht hierbij is om, als je een getal identificeert als een priemgetal, het te bewaren in een lijst. Print aan het eind de volledige lijst priemgetallen.
 

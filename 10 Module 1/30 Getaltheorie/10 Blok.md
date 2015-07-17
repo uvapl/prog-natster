@@ -5,7 +5,7 @@ Twee dingen zijn belangrijk om te leren voor je met de opgave aan de slag gaat:
  - Een computer is niet 'slim'. Hij voert gewoon commando's uit. Als programmeur ben jij om de computer alleen de hoogst noodzakelijke dingen te laten doen. 
  - Bepaal altijd met pen en papier je strategie en ga dus niet gelijk tikken. De 5-10 minuten die je hieraan besteedt verdien je dik terug tijdens de opdracht.
  
-# Opgave 1: het 1000ste priemgetal
+# Opgave 1: het $$1000^{\rm ste}$$ priemgetal
 
 schrijf een programma `Primes1000.py` dat het duizendste priemgetal bepaalt en op het scherm print. Print ook de lijst van alle 1000 priemgetallen.
 
