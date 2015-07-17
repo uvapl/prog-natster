@@ -7,9 +7,9 @@ Twee dingen zijn belangrijk om te leren voor je met de opgave aan de slag gaat:
  
 # Opgave 1: het $$1000^{\rm ste}$$ priemgetal
 
-schrijf een programma `Primes1000.py` dat het duizendste priemgetal bepaalt en op het scherm print. Print ook de lijst van alle 1000 priemgetallen.
+Schrijf een programma `primes1000.py` dat het duizendste priemgetal bepaalt en op het scherm print. Print ook de lijst van alle 1000 priemgetallen.
 
-Hoewel een computer je in staat stelt om snel te rekenen is het toch belangrijk om voor elk probleem de optimale strategie te bepalen. Het loont om voor je gaat programmeren eerst met pen en pepier je strategie uit te denken. In dit geval zijn er een aantal elementen van wiskunde kennis die je kan gebruiken om je programma een stuk sneller te maken:
+Hoewel een computer je in staat stelt om snel te rekenen is het toch belangrijk om voor elk probleem de optimale strategie te bepalen. Het loont om voor je gaat programmeren eerst met pen en papier je strategie uit te denken. In dit geval zijn er een aantal elementen van wiskunde kennis die je kan gebruiken om je programma een stuk sneller te maken:
 
 - Behalve 2 zijn even getallen nooit een priemgetal
 - Als je een deler vindt hoef je niet verder te zoeken
@@ -21,7 +21,7 @@ Hoewel een computer je in staat stelt om snel te rekenen is het toch belangrijk 
 
 Als je wilt controleren of je programma goed werkt kan je je gevonden lijst priemgetallen hier matchen met een lijst bekende priemgetallen <http://primes.utm.edu/lists/small/1000.txt>
 
-*Hacker opgave (optioneel: snel sneller snelst*
+*Hacker opgave (optioneel: snel sneller snelst)*
 
 Maak je priemgetallen-zoek-programma zo snel mogelijk en kijk wat het grootste priemgetal is dat jouw programma in 1 minuut uit kan rekenen. Maak bij het testen van een getal n nu bijvoorbeeld gebruik van de kennis over de priemgetallen onder de n.
 

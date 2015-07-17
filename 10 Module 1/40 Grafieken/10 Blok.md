@@ -140,7 +140,7 @@ zelf in moet vullen. De grafiek ziet er dan ook niet bepaald mooi uit. Je kan na
 
 Maak een grafiek (blauwe lijn) van de functie $$f(x) = x^x$$ tussen x = 0 en x=1.5 stapjes van 0.01. Zorg ook dat je aan het eind van het berekenen van alle punten weet bij welke x-waarde de functie zijn minimum bereikt. Teken dat minimum met behulp van een rode stip in de grafiek en print de waarde van het minimum aan het eind van je programma. Als extra kan je ook proberen de waarde van het punt in de grafiek zelf te zetten.
 
-Je bent niet voor niks natuurkundige he: bereken dit punt ook analytisch met behulp van pen en papier. 
+Je bent niet voor niks natuurkundige naturlijk: bereken dit punt ook analytisch met behulp van pen en papier. 
 
 ![](plotje4.png)
 
