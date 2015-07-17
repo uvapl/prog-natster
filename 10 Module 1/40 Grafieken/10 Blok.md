@@ -38,7 +38,7 @@ Schrij een programma (`stapjes.py`)dat dezelfde output geeft als het programma h
 
 # Visualisatie: plotten en grafieken
 
-Het is vaak handig om je resultaten te visualiseren (grafiek of zelfs een filmpje). Dit is erg belangrijk om aan et eind van het project je resultaten te communiceren aan je publiek, maar ook tijdens het 'vechten' met de code. Tijdens het programmeren loop je vaak tegen problemen waarbij de computer niet lijkt te doen wat jij wilt. Dit zogenaamde debuggen, het  uitzoeken waar het mis gaat en waar de computer een andere lijn volgt dan de logica die jij erin denk te hebben gestopt, gebeurt vaak door op bepaalde plekken de uitkomst van een stap weer te geven op het scherm door het te printen. Een visueel beeld is ook heel sterk omdat het je vaak in 1 oogopslag zien waar het probleem zit.
+Het is vaak handig om je resultaten te visualiseren (grafiek of zelfs een filmpje). Dit is erg belangrijk om aan het eind van het project je resultaten weer te geven, maar ook tijdens het ontwikkelen van (lees 'vechten met') je code. Tijdens het programmeren loop je vaak tegen problemen waarbij de computer niet lijkt te doen wat jij wilt. Dit zogenaamde debuggen, het uitzoeken waar je programa een andere lijn volgt dan de logica die jij erin denk te hebben gestopt, gebeurt vaak door op bepaalde plekken dingen te printen. Een visueel beeld is ook heel sterk omdat het je vaak in 1 oogopslag zien waar het probleem zit.
 
 Om je boodschap en conclusies goed over te brengen is het belangrijk dat je aandacht besteedt aan hoe je je resultaten weergeeft zodat het voor je publiek duidelijk is. Dit is cruciaal. Vaak duurt het oplossen van het probleem zelf uren/dagen/weken. Neem dan even 10 minuten de tijd om de grafiek netjes en duidelijk te maken. 
 
@@ -49,16 +49,16 @@ Hieronder drie simpele voorbeelden zodat je de basiscommando's kent waarmee je d
 
 We beginnen met het plotten van wat punten waarvan we de x-waardes (0,1,2,3,4,5) en de y-waardes (0,1,4,9,16,25) hebben. In dit geval is het precies de functie x-kwadraat, maar dat hoeft natuurlijk niet. Om daar een grafiek van te maken doen we het volgende:
 
-    import matplotlib.pyplot                   # importeer grafiekmaak module
+    import matplotlib.pyplot                   # importeer grafiek-maak module Matplotlib
 	
-    L_x = [0,1,2,3,4,5]                        # definieer lijst met x-waardes van de punten
-    L_y = [0,1,4,9,16,25]                      # definieer lijst met y-waardes van de punten
+    L_x = [0,1,2,3,4,5]                        # definieer lijst met x-waardes punten
+    L_y = [0,1,4,9,16,25]                      # definieer lijst met y-waardes punten
 	
     matplotlib.pyplot.plot(L_x, L_y,'go')      # plot punten (y tegen x) met groene rondjes	
 	
     matplotlib.pyplot.show()                   # laat de grafiek op het scherm zien
 
-Hierbij is ervoor gekozen om de 'marker' (figuur waarmee elk elk punt weergegeven wordt) weer te geven als een groen puntje. Vandaar het commando `'go'`. Als je een rode lijn had gewild die elk van de punten verbindt dat had je ook voor `'r-'` kunnen kiezen.
+Hierbij is ervoor gekozen om de 'marker' (figuur waarmee elk elk punt weergegeven wordt) weer te geven als een groen puntje. Vandaar het commando `'go'`. Als je een rode lijn had gewild die elk van de punten verbindt dat had je ook voor `'r-'` kunnen kiezen. Denk altijd na hoe *jij* denk dat je het best de resultaten weer kan geven en zoek in de Matplotlib documentatie op hoe je dat voor elkaar kan krijgen.
 
 
 ![](plotje1.png)
@@ -94,7 +94,7 @@ En natuurlijk behoren de assen labels te hebben, kan je 2 verschillende grafieke
 
 ![](plotje2.png)
 
-Hier hebben we een klein aantal punten gekozen waarbij je de waardes zelf in moet vullen. Je kan ook zelf x-waardes en y-waardes berekenen en in lijsten opslaan. Als we de functie sin(x) willen plotten in stapjes van 0.01 tussen 0 en 2*pi dan knopen we de verschillende dingen die we dit blok geleerd hebben aan elkaar en doen we het volgende:
+Hier hebben we een klein aantal punten gekozen waarbij je de waardes zelf in moet vullen. De grafiek ziet er dan ook niet bepaald mooi uit. Je kan natuurlijk met de computer ook zelf x-waardes en bijbehorende y-waardes berekenen en in lijsten opslaan. Als we bijvoorbeeld de functie sin(x) willen plotten in stapjes van 0.01 tussen 0 en 2*pi dan knopen we de verschillende dingen die we dit blok geleerd hebben aan elkaar en doen we het volgende:
 
 	import numpy as np               # numpy mdule: nodig voor arange-functie
 	import math                      # math module: nodig voor sin()-functie
@@ -128,11 +128,11 @@ Schrijf een programma dat een grafiek maakt van de functie $$\pi$$(x), waarbij $
 
 het begin van de functie $$\pi$$(x): 
 
-- $$\pi(1) = 0$$  (2 is eerste priemgetal)
-- $$\pi(2)$$ = 1  (priemgetallen 2)
-- $$\pi(3)$$ = 2  (priemgetallen 2,3)
-- $$\pi(4)$$ = 2  (priemgetallen 2,3) 
-- $$\pi(5)$$ = 3  (priemgetallen 2,3,5)
+- $\pi$(1) = 0  (2 is eerste priemgetal)
+- $\pi$(2) = 1  (priemgetallen 2)
+- $\pi$(3) = 2  (priemgetallen 2,3)
+- $\pi$(4) = 2  (priemgetallen 2,3) 
+- $\pi$(5) = 3  (priemgetallen 2,3,5)
 - ...
 
 Aan het eind van de 18e eeuw is door Gauss en Legendre gepostuleerd dat de functie voor grote getallen benaderd wordt door $$\pi$$(x) = x/ln(x). Teken dus door de grafiek van $$\pi$$(x) die je zelf gevonden hebt ook de functie 
