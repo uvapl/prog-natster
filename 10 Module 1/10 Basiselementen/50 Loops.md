@@ -22,7 +22,7 @@ Als je de som van alle getallen van 1 tot en met 20 wilt uitrekenen en vervolgen
     som = 0
 	for getal in range(1,21):
     	som = som + getal
-	print "de som van de getallen van 1 tot en met 20 is ", som 
+	print "de som van de getallen van 1 tot en met 20 is %d" % (som) 
 
 Voordat je over de getallen 'loopt' zet je de variabele som op 0. Vervolgens tel je bij elke stap (elk getal) de waarde van het getal op bij de variabele som en verhoog je getal met 1. Nadat je alle getallen hebt doorlopen laat je de computer op het scherm printen wat de waarde van de variabele som is.
 
@@ -32,15 +32,30 @@ Je kan de getallen natuurlijk ook verschillend behandelen. Als we bijvoorbeeld d
 	for getal in range(1,21):
         if getal%2 == 0:
            som = som + getal
-	print "de som van de even getallen van 1 tot en met 20 is ", som 
+	print "de som van de even getallen van 1 tot en met 20 is %d" % (som)
 
 In dit geval test je voor elk van de getallen eerst of het een even getal is (is de rest 0 als je door 2 deelt). Als dat zo is tel je het getal op bij de variabele som. Aan het eind van de loop print je de waarde weer op het scherm.
 
-Je kan binnen een `if statement` ook verschillende dingen doen. Als je ook elk even getal op het scherm wilt zien dan kan je binnen het if statement ook verschillende handelingen uitvoeren. Hier is weer duidelijk dat indentatie cruciaal is. Alles wat onder elkaar staat hoort bij elkaar.
+Je kan binnen een `if statement` ook verschillende dingen doen. Als je ook elk even getal op het scherm wilt zien dan kan je binnen het if statement ook verschillende handelingen uitvoeren. Hier is weer duidelijk dat indentatie in Python cruciaal is. Alles wat onder elkaar staat hoort bij elkaar.
 
     som = 0
 	for getal in range(1,21):
         if getal%2 == 0:
            print "Yes!", getal, " is een even getal"
            som = som + getal
-	print "de som van de even getallen van 1 tot en met 20 is ", som 
+	print "de som van de even getallen van 1 tot en met 20 is %d" % (som)
+
+
+Dit stukje code rekent heel specifiek de som van de even getallen van 1 tot en met 20 uit. Als je nu gevraagd wordt om de even getallen tussen 1 tot en met 88 bij elkaar op te tellen moet je op 2 plekken in de code een aanpassing maken (zie je welke ?). Bij een klein stukje code gaat dat nog wel, maar bij grotere problemen is dat al snel niet meer te overzien. 
+
+Zorg daarom dat je, nadat je het specifieke probleem hebt opgelost, je code altijd zo 'universeel' mogelijk maakt. Het onderstaand stukje code rekent de som uit van de even getallen van 1 tot en met max_getal. Die variabele hoef je dus alleen in het begin van je code een waarde te geven (20, 138613 of in dit geval 88) en verder werkt je in je programma alleen met de naam van de variabele. Op elke plek in de code weet het programma namelijk wat de waarde van die variabele is.
+
+    som = 0
+    max_getal = 88
+	for getal in range(1,max_getal+1):
+        if getal%2 == 0:
+           print "Yes!", getal, " is een even getal"
+           som = som + getal
+	print "de som van de even getallen van 1 tot en met %d is %d" % (max_getal, som) 
+
+

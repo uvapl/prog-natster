@@ -49,7 +49,9 @@ http://matplotlib.org/users/pyplot_tutorial.html
 
 > Er bestaat een enorme variatie in de manier waarop data en resultaten gevisualiseerd worden. Denk altijd na hoe *jij* denk dat je het best de informatie weer kan geven zodat de gebruiker de juiste conclusie trekt. Zoek vervolgens in de Matplotlib documentatie op hoe je dat voor elkaar kan krijgen.
 
-Hieronder drie simpele voorbeelden zodat je de basiscommando's kent waarmee je de opgaves van deze week kan maken. 
+Hieronder drie simpele voorbeelden zodat je de basiscommando's kent waarmee je de opgaves van deze week kan maken.
+
+## Stap 1: lijst met punten (x,y) plotten op het scherm 
 
 We beginnen met het plotten van wat punten waarvan we de x-waardes (0,1,2,3,4,5) en de y-waardes (0,1,4,9,16,25) hebben. In dit geval is het precies de functie x-kwadraat, maar dat hoeft natuurlijk niet. Om daar een grafiek van te maken doen we het volgende:
 
@@ -68,7 +70,8 @@ Hierbij is ervoor gekozen om de 'marker' (figuur waarmee elk elk punt weergegeve
 ![](plotje1.png)
 
 
-Om veel schrijven te voorkomen kan je een lange modulenaam ook intern in je code een kortere naam weergeven.
+###Tip:
+Om veel schrijven te voorkomen kan je een lange modulenaam ook intern in jouw stuk code een functie of mudule men een lange naam een zelfgekozen kortere naam weergeven.
 
     import matplotlib.pyplot as plt
 	
@@ -78,6 +81,8 @@ Om veel schrijven te voorkomen kan je een lange modulenaam ook intern in je code
     plt.plot(L_x, L_y,'go')
 
     plt.show()
+
+## Stap 2: verschillende grafieken tegelijk, tekst en asbijschriften
 
 En natuurlijk behoren de assen labels te hebben, kan je 2 verschillende grafieken in 1 plot zetten en kan je zelf tekst weergeven. Om ook de grafiek x^3 in de grafiek te zetten (met rode lijnen) doe je het volgende:
 
@@ -98,7 +103,11 @@ En natuurlijk behoren de assen labels te hebben, kan je 2 verschillende grafieke
 
 ![](plotje2.png)
 
-Hier hebben we een klein aantal punten gekozen waarbij je de waardes zelf in moet vullen. De grafiek ziet er dan ook niet bepaald mooi uit. Je kan natuurlijk met de computer ook zelf x-waardes en bijbehorende y-waardes berekenen en in lijsten opslaan. Als we bijvoorbeeld de functie sin(x) willen plotten in stapjes van 0.01 tussen 0 en 2*pi dan knopen we de verschillende dingen die we dit blok geleerd hebben aan elkaar en doen we het volgende:
+
+## Stap 3: hoge resolutie grafieken
+
+In stap 2 hebben we een klein aantal punten gekozen waarbij je de waardes 
+zelf in moet vullen. De grafiek ziet er dan ook niet bepaald mooi uit. Je kan natuurlijk met de computer ook zelf x-waardes en bijbehorende y-waardes berekenen en in lijsten opslaan. Als we bijvoorbeeld de functie sin(x) willen plotten in stapjes van 0.01 tussen 0 en 2*pi dan knopen we de verschillende dingen die we dit blok geleerd hebben aan elkaar en doen we het volgende:
 
 	import numpy as np               # numpy mdule: nodig voor arange-functie
 	import math                      # math module: nodig voor sin()-functie
@@ -129,8 +138,9 @@ Hier hebben we een klein aantal punten gekozen waarbij je de waardes zelf in moe
 
 # Opgave: de grafiek $$x^x$$
 
-Maak een grafiek (blauwe lijn) van de functie $$f(x) = x^x$$ tussen x = 0 en x=1.5 stapjes van 0.01. Bekijk ook bij welke x-waarde de functie zijn minimum bereikt. Teken dat minimum met behulp van een rode stip in de grafiek en print de waarde van het punt (x,y) op het scherm. Bereken dit punt ook analytisch met behulp van pen en papier.
+Maak een grafiek (blauwe lijn) van de functie $$f(x) = x^x$$ tussen x = 0 en x=1.5 stapjes van 0.01. Bekijk ook bij welke x-waarde de functie zijn minimum bereikt. Teken dat minimum met behulp van een rode stip in de grafiek en print de waarde van het minimum aan het eind van je programma. Je bent niet voor niks natuurkundige: bereken dit punt ook analytisch met behulp van pen en papier. Als extra kan je ook proberen de waarde van het punt in de grafiek zelf te zetten.
 
+![](plotje4.png)
 
 # Hackeropgave: priemgetallen tellen 
 
