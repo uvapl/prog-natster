@@ -2,7 +2,7 @@
 
 Je hebt in de vorige opgaves gezien dat er stukjes code zijn die je kan hergebruiken. Deze stukjes code die en wel gedefinieerde taak uitvoeren noemen we *functies* en die zullen we in module 2 en 3 in meer detail bekijken en gebruiken.
 
-In python zijn er een beperkt aantal standaard functies beschikbaar. Je kan bijvoorbeeld een getal printen op het scherm mbv `print`, maar je kan niet sin(0.5) uitrekenen. Je hebt daarvoor de functie sinus nodig. Die is niet beschikbaar in standaard Python, maar is ondergebracht in de zogenaamde wiskunde bibliotheek (`math library`). Om gebruik te maken van de sinus functie moet je dus eerst zorgen dat de wiskunde bibliotheek en alle functies daarin beschikbaar komen in jouw programma. Dat doe je als volgt. 
+In python zijn er een beperkt aantal standaard functies beschikbaar. Je kan bijvoorbeeld een getal printen op het scherm mbv `print`, maar je kan niet sin(0.5) uitrekenen. Je hebt daarvoor de functie `sinus` nodig. Die is niet beschikbaar in standaard Python, maar is ondergebracht in de zogenaamde wiskunde bibliotheek (`math library`). Om gebruik te maken van de `sinus` functie moet je dus eerst zorgen dat de wiskunde bibliotheek en alle functies daarin beschikbaar komen in jouw programma. Dat doe je als volgt. 
 
 
 	import math			# importeer de wiskunde bibliotheek
@@ -10,13 +10,16 @@ In python zijn er een beperkt aantal standaard functies beschikbaar. Je kan bijv
 	x = 0.5
 	print math.sin(x)
 
-Als je de functie `sin()` wilt gebruiken moet je altijd duidelijk aangeven in welke bibliotheek Python die functie moet vinden. In dit geval de wiskunde bibliotheek. 
+Als je de functie `sin()` wilt gebruiken moet je altijd duidelijk aangeven in welke bibliotheek Python die functie moet vinden. Er zouden in andere bibliotheken namelijk ook `sin` functies gedefinieerd kunnen zijn die misschien helemaal niks met de sinus uitrekenen te maken hebben. Je moet hier dus expliciet aangeven dat je de `sin` functie uit de wiskunde bibliotheek wilt gebruiken.
 
 *Informatie over libraries:*
 
 - De functies die beschikbaar zijn in de math library kan je vinden in de documentatie:
+
   https://docs.python.org/2/library/math.html
-- Er zijn een aantal standaard libraries: https://docs.python.org/2/library/
+- Er zijn een aantal standaard libraries:
+
+  https://docs.python.org/2/library/
 - Voor elk vakgebied of toepassing is wel een aparte library te vinden en zodra je zelf later in je studie aan grotere programma's gaat werken zal het handig zijn om standaard code in een library onder te brengen. Het komt de overzichtelijkheid ten goede en je kan je code zo ook goed delen met andere mensen.
 
 Een voorbeeld van een wiskunde-georienteerde library is de `numpy` library. Een overzicht, documentatie en voorbeelden kan je hier vinden: http://www.numpy.org Een handige functie die we in deze cursus een paar keer zullen gebruiken is arange.
@@ -35,9 +38,11 @@ Schrij een programma (`stapjes.py`)dat dezelfde output geeft als het programma h
 
 # Visualisatie: plotten en grafieken
 
-In veel toepassingen is het handig om je resultaten te visualiseren. Denk hierbij aan een grafiek of zelfs een filmpje. Om je boodschap en conclusies goed over te brengen is het belangrijk dat je aandacht besteedt aan hoe je je resultaten weergeeft zodat het voor je publiek duidelijk is. Dit is cruciaal. Vaak duurt het oplossen van het probleem zelf uren/dagen/weken. Neem dan even 10 minuten de tijd om de grafiek netjes te maken. 
+Het is vaak handig om je resultaten te visualiseren (grafiek of zelfs een filmpje). Dit is erg belangrijk om aan et eind van het project je resultaten te communiceren aan je publiek, maar ook tijdens het 'vechten' met de code. Tijdens het programmeren loop je vaak tegen problemen waarbij de computer niet lijkt te doen wat jij wilt. Dit zogenaamde debuggen, het  uitzoeken waar het mis gaat en waar de computer een andere lijn volgt dan de logica die jij erin denk te hebben gestopt, gebeurt vaak door op bepaalde plekken de uitkomst van een stap weer te geven op het scherm door het te printen. Een visueel beeld is ook heel sterk omdat het je vaak in 1 oogopslag zien waar het probleem zit.
 
-Er is een standaard pakket om resultaten visualiseren in python: Matplotlib. Het is een zeer omvangrijk pakket waarvan we maar een fractie nodig zullen hebben. Een goede tutorial kan je hier vinden:
+Om je boodschap en conclusies goed over te brengen is het belangrijk dat je aandacht besteedt aan hoe je je resultaten weergeeft zodat het voor je publiek duidelijk is. Dit is cruciaal. Vaak duurt het oplossen van het probleem zelf uren/dagen/weken. Neem dan even 10 minuten de tijd om de grafiek netjes en duidelijk te maken. 
+
+Er is een standaard pakket om resultaten visualiseren in python: `Matplotlib`. Het is een zeer omvangrijk pakket waarvan we maar een fractie nodig zullen hebben. Een goede tutorial kan je hier vinden:
 http://matplotlib.org/users/pyplot_tutorial.html
 
 Hieronder drie simpele voorbeelden zodat je de basiscommando's kent waarmee je de opgaves van deze week kan maken. 
