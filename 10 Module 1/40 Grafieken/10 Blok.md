@@ -1,6 +1,6 @@
 # Gebruik functies en importeren standaard modules
 
-Je habt in de vorige opgaves gezien dat er stukjes code zijn die je kan hergebruiken. Deze stukjes code die en wel gedefinieerde taak uitvoeren noemen we *functies* en die zullen we in module 2 en 3 in meer detail bekijken en gebruiken.
+Je hebt in de vorige opgaves gezien dat er stukjes code zijn die je kan hergebruiken. Deze stukjes code die en wel gedefinieerde taak uitvoeren noemen we *functies* en die zullen we in module 2 en 3 in meer detail bekijken en gebruiken.
 
 In python zijn er een beperkt aantal standaard functies beschikbaar. Je kan bijvoorbeeld een getal printen op het scherm mbv `print`, maar je kan niet sin(0.5) uitrekenen. Je hebt daarvoor de functie sinus nodig. Die is niet beschikbaar in standaard Python, maar is ondergebracht in de zogenaamde wiskunde bibliotheek (`math library`). Om gebruik te maken van de sinus functie moet je dus eerst zorgen dat de wiskunde bibliotheek en alle functies daarin beschikbaar komen in jouw programma. Dat doe je als volgt. 
 
