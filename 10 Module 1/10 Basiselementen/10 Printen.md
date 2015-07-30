@@ -1,5 +1,3 @@
-> Het doel van deze oefening is om kennis te maken met de elementen om programma's mee te schrijven. Oefen met elk van de vijf elementen, zodat je in de volgende oefening een eerste programma kunt schrijven.
-
 # Printen
 
 Als je een programma hebt geschreven kun je het uitvoeren (*runnen*). De computer loopt dan stap voor stap door je programma en voert de instructies uit die op elke regel staan.
