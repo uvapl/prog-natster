@@ -1,0 +1,166 @@
+
+# Bouwstenen van deze week
+
+In deze week zullen we twee concepten aanpakken uit de wiskunde en natuurkunde waarbij de coputer een essentiele rol speelt:
+
+  - Numeriek integreren:       
+    Hoe berekent een computer een integraal die niet analytisch oplosbaar is ?	We zullen dit op 2 verschillende manieren doen: de Riemannsom en de Monte Carlo methode 
+
+  - Model fitten:
+    Hoe bepaal je de parameters in een model nadat je een set metingen hebt gedaan en wat is de onzekerheid op die schatting ?
+
+Elk van deze onderwerpen is ondergebracht in een aparte module waarin we steeds in een stuk tekst en een korte film het concept uitleggen. Naast de nieuwe wiskunde/natuurkunde concepten zijn er ook twee nieuwe programmeer-functionaliteit die je moet leren gebruiken: 
+
+   - gebruik van de `arange()` functie uit de numpy bibliotheek
+   - manipuleren en gebruik van *random getallen*
+   - het printen van reeele getallen
+
+## [1] Het printen van reele getallen
+
+We hebben geleerd dat je een geheel getal als volgt print:
+
+    x = 100
+    print "x heeft de waarde %d" % (x)
+
+Zodra de computer de string naar het scherm print zet hij op de plek waar `%d` staat de waarde die in de variabele *x* opgeslagen staat. In ons geval 100. De vorm `%d` geeft aan dat het een *geheel* getal is.
+
+Vaak is een variabele die je gebruikt helemaal geen geheel getal.
+
+    breuk = 3./17.
+    print "breuk = %d" % (breuk)
+
+Als je dit print zal je zien dat, hoewel de variabele `breuk` de waarde 0.176471 heeft, dit programma toch de waarde 0 op het scherm print. Het programma ziet namelijk dat je een geheel getal wilt printen (dat geef je aan met het `%d` karakter) en maakt dus van het getal 0.176471 het eerste gehele getal eronder en dan is 0.
+
+Als je wilt dat de computer een reeel getal, een `float` in computertaal, print op het scherm dat geef je dat aan met het `%f` karakter.
+
+    breuk = 3./17.
+    print "breuk = %f" % (breuk)
+
+Nu zal wel de volledige waarde geprint worden op het scherm. In veel toepassingen wil je vaak maar een beperk aantal decimalen weergeven. Als je 2 getallen achter de komma wilt aangeven dan gebruik je de volgende syntax:
+
+    breuk = 3./17.
+    print "breuk = %.2f" % (breuk)
+
+Probeer een aantal opties. Net als bij het printen kan het ook misgaan als reele getallen en gehele getallen gemixt worden in je programma zelf. Lees zeker het onderstaande stukje over een van de bekende valkuilen en de manier waarop je die kan omzeilen.
+
+### Bekende valkuil: mix van gehele en reeele getallen
+
+Een veel voorkomende fout die gemaakt wordt in programma's is dat een computer denkt dat elke bewerking van gehele getallen zelf ook weer een geheel getal is. Het volgende programma zal aan de variabele z de waarde 1 toekennen, het eerste gehele getal onder de 1.3333. En dat is natuurlijk niet wat je bedoelde.
+
+    x = 4
+    y = 3
+    z = x/y
+    print z
+
+Zodra een van de getallen in de wiskundige operatie een reeel getal is zal het resultaat ook een reeel getal zijn. De manier om de variabele z de waarde 1.3333 te geven is een van de variabelen (x of y of beide) een reeel getal te maken. De 2 meest gebruikte manieren om dat te doen:
+
+Oplossing 1:
+
+    x = 4.0
+    y = 3
+    z = x/y
+    print z
+
+Oplossing 2:
+
+    x = float(4)
+    y = 3
+    z = x/y
+    print z
+
+
+
+
+## [2] Een rij reeele getallen met behulp van numpy.arange()
+
+In Module 1 hebben we de for-loop gebruikt om een variabele steeds met 1 op te hogen. In de for-loop constructie gebruikten we daarvoor de `range()` functie. De getallen 1 tot (en niet tot en met) 9, printen op het scherm, ze in een lijst stoppen en die printen aan het eind van het programma deden we als volgt.
+
+    L_x = []
+    for x in range(1,10):
+	   print "x heeft nu de waarde %d" % (x)
+	   L_x.append(x)
+	print L_x
+
+
+In Module 1 hebben we tijdens het tekenen van onze grafieken gezien hoe we punten (een lijst met x-waardes en een lijst met y-waardes) op het scherm kunnen tekenen. Om een functie te tekenen met een hoge precisie, in ons geval sin(x) leerden we dat we als we de functie wilde tekenen tussen 0 en 2pi we kleine stapjes, stel 0.01 moeten nemen. In Python is er een standaard functie die dat voor je kan doen, de `arange()` functie. Het is een functie die opgenomen is in de numpy bibliotheek.
+
+	import numpy as np               # numpy mdule: nodig voor arange-functie
+	import math                      # math module: nodig voor sin()-functie
+	L_x = []
+	L_y = []
+	for x in np.arange(0,2*math.pi, 0.01):  # x loopt van 0 tot 2pi in stapjes van 0.01
+          y = sin(x)
+		  L_x.append(x)
+		  L_y.append(y)
+		  
+
+Als je bijvoorbeeld de getallen van 2 tot 3 op het scherm wilt printen in stapjes van 0.02 dan kan doe je dat als volgt:
+
+    import numpy as np
+	x_begin = 2
+	x_eind = 3
+    dx = 0.02
+	for x in np.arange(x_begin, x_eind, dx):
+	    print x
+		  
+### Bekende valkuil: subtiel verschil tussen 'tot' en 'tot en met'
+
+In het laatste voorbeeld zal het getal 2.0 wel, maar het getal 3.0 niet op het scherm geprint worden. In een van de opgaves zal je wel degelijk het eindpunt moeten gebruiken. Let daarop. Probeer bovenstaande voorbeeld iets aan te passen zodat het eindpunt wel degelijk geprint wordt 		  
+		 
+## [3] Gebruik van random getallen
+
+Een zeer handige bouwsteen in computer is het random getal. In de bibliotheek `random` zit een functie `random() die een random getal produceren tussen 0 en 1
+
+    import random 
+    x = random.random()
+    print x
+
+Tien random getallen onder elkaar doe je dus als volgt:
+
+    import random 
+    for i in range(1,11):
+       x = random.random()
+       print x
+
+
+###  bouwen met bouwstenen
+
+Als de computer een random getal tussen 0 en 1 kan produceren kan je die zelf transformeren in een random getal tussen een getal a en b.
+
+Voorbeeld: tien random getallen tussen 0 en 2
+
+    import random 
+    for i in range(1,11):
+       x = random.random()
+       y = 2*x
+       print y
+
+
+# Opgave 1: 10 random getallen tussen a en b
+
+Schrijf een programma dat 10 random getallen op het scherm print tussen *a* en *b* waarbij je de waardes van a en b zelf kan kiezen.
+
+    import random 
+    a = 2
+	b = 3 
+    for i in range(1,11):
+       x = random.random()
+       <schrijf hier jouw code>
+       print y
+
+Bekijk goed het voorbeeld hierboven waarbij we een random getal tussen 0 en 2 maakten en probeer eerst uit te vinden hoe je een random getal tussen de -1 en +1 zou kunnen maken. Daarna kan je dat abstract programmeren naar een algemene *a* en *b* als begin en eidwaardes van het interval waarbinnen je random getallen wilt gebruiken.
+
+
+#  Opgave 2: gemiddelde afstand tussen 2 punten in een vierkant
+
+
+ksjgk
+
+
+
+
+
+
+
+
+
