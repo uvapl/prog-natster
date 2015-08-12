@@ -1,3 +1,5 @@
+# Getaltheorie voor beginners: priemgetallen
+
 In dit blok gaan we de code die je aan het eind van in blok 2 ontwikkeld hebben iets uitbreiden en sneller maken door het iets slimmer aan te pakken. We gaan proberen het duizendste priemgetal te bepalen.
 
 Twee dingen zijn belangrijk om te leren voor je met de opgave aan de slag gaat:
@@ -9,20 +11,27 @@ Twee dingen zijn belangrijk om te leren voor je met de opgave aan de slag gaat:
 
 Schrijf een programma `primes1000.py` dat het duizendste priemgetal bepaalt en op het scherm print. Print ook de lijst van alle 1000 priemgetallen.
 
-Hoewel een computer je in staat stelt om snel te rekenen is het toch belangrijk om voor elk probleem de optimale strategie te bepalen. Het loont om voor je gaat programmeren eerst met pen en papier je strategie uit te denken. In dit geval zijn er een aantal elementen van wiskunde kennis die je kan gebruiken om je programma een stuk sneller te maken:
+Hoewel een computer je in staat stelt om snel te rekenen is het toch belangrijk om voor elk probleem de optimale strategie te bepalen. Het loont om voor je gaat programmeren eerst met pen en papier je strategie uit te denken. 
 
-- Behalve 2 zijn even getallen nooit een priemgetal
-- Als je een deler vindt hoef je niet verder te zoeken
-- Als je wilt bepalen of 37 een priemgetal welke kandidaat delers bekijk je dan voordat je zeker weet dat het een priemgetal is ? Doe dit op pen en papier. Het zijn er maar 3 nl.
+Strategie (algemeen):
+
 - Verzin hoe je per priem-kandidaat bijhoudt of het wel/niet priem is als je over de mogelijke delers heenloopt. 
 - Bedenk van tevoren hoe je de lijst met gevonden priemgetallen gaat opslaan.
 - Problemen ? Print voor elke kandidaat informatie zodat je weet waar je bent in de berekening en je ziet of de computer ook echt jouw briljante strategie volgt
-- Zorg dat het programma stopt bij het 1000ste priemgetal. Bedenk dat je programma waarschijnlijk niet het eerste priemgetal heeft gegenereerd (2)
+- Begin altijd klein. Zorg dat je programma eerst de priemetallen tot 20 kan vinden. Dat is klein genoeg zodat je goed de logica volgt die computer aanhoudt en daar mogelijke fouten in kan ontdekken
+- Extra: als je een deler vindt hoef je niet verder te zoeken
+- Extra: zorg dat het programma stopt bij het 1000ste priemgetal. Bedenk dat je programma waarschijnlijk niet het eerste priemgetal heeft gegenereerd (2)
+
+Hoewel het in deze opgave niet echt gaat om de snelheid van het programma is in deze specifieke opgave veel tijd te winnen door slim gebruik te maken van een aantal elementen uit de wiskunde. 
+
+Strategie (wiskunde):
+
+- Behalve 2 zijn even getallen nooit een priemgetal
+- Als je wilt bepalen of 37 een priemgetal welke kandidaat delers bekijk je dan voordat je zeker weet dat het een priemgetal is ? Doe dit op pen en papier. Het zijn er maar 3 nl.
 
 Als je wilt controleren of je programma goed werkt kan je je gevonden lijst priemgetallen hier matchen met een lijst bekende priemgetallen <http://primes.utm.edu/lists/small/1000.txt>
 
-*Hacker opgave (optioneel: snel sneller snelst)*
-
+### Hacker opgave (optioneel: snel sneller snelst)
 Maak je priemgetallen-zoek-programma zo snel mogelijk en kijk wat het grootste priemgetal is dat jouw programma in 1 minuut uit kan rekenen. Maak bij het testen van een getal n nu bijvoorbeeld gebruik van de kennis over de priemgetallen onder de n.
 
 
