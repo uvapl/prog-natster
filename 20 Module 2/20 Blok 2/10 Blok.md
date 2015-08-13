@@ -37,8 +37,8 @@ Zoals je ziet het je 'alleen' de waarde van de functie nodig op de $$N+1$$ hoekp
   - specifiek voor Riemannnsom: Als je het interval in $$N$$ stukjes verdeeld zijn er $$N+1$$ hoekpunten.
 
 
-### Extra: hogere orde (meer precieze) benaderingen}
-Het is mogelijk de evaluatie van de integraal te verbeteren door niet te uit te gaan van de (te simpele) lineaire benadering. De *Simpsonregel* bijvoorbeeld is een parabolische benadering (let op, N=even) waarbij $$f(x)$$ op het interval $$(x_{i-1},x_{i+1})$$ wordt benaderd door een parabool door de 3 punten $$(f_{i-1},f_{i},f_{i+1})$$. Zoek op of werk zelf uit als je deze wilt gebruiken.
+### Hacker uitbreiding: hogere orde (meer precieze) benaderingen}
+NHet is mogelijk de evaluatie van de integraal te verbeteren door niet te uit te gaan van de (te simpele) lineaire benadering. De *Simpsonregel* bijvoorbeeld is een parabolische benadering (let op, N=even) waarbij $$f(x)$$ op het interval $$(x_{i-1},x_{i+1})$$ wordt benaderd door een parabool door de 3 punten $$(f_{i-1},f_{i},f_{i+1})$$. Zoek op of werk zelf uit en evalueer de integralen opnieuw. Hoeveel beter is deze benadering ?
 
 
 # Opgaves
@@ -47,10 +47,9 @@ Het is mogelijk de evaluatie van de integraal te verbeteren door niet te uit te 
 Hint: test je functie door te testen of je programma de integraal $$\int_{0}^{1}x^2 dx$$ goed voorspelt
 
 ## opgave 2: $$\int_{0.1}^{2} sin(x) dx$$
-Hint: test je functie door te testen of je programma de integraal $$\int_{0}^{\pi]}sin(x) dx$$ goed voorspelt
+Hint: test je functie door te testen of je programma de integraal $$\int_{0}^{\pi}sin(x) dx$$ goed voorspelt
 
 ## opgave 3: $$\int_{0}^{\pi} sin(x^2) dx$$
-Hint: teken de functie en let op de integratiegebieden onder de y-as.
 
 
 
