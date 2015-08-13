@@ -17,16 +17,24 @@ Hierbij is $$x_i$$ het hoekpunt van een van de intervallen. Er zijn $$N+1$$ hoek
 Benader nu de deel-integralen in elk van de subsecties door het voor te stellen als een rechthoek. De breedte van de rechthoek is natuurlijk 
 $$\Delta x = (x_{i+1} - x_{i})$$. Een (simpele) schatting van de hoogte van het rechthoek dat het best de integraal op dit kleine interval weergeeft is simpelweg het gemiddelde te nemen van de waarde van $$f(x)$$ op de linkerkant en de rechterkant van het interval. De integraal op het deelinterval is dan te schrijven als:
 
-$$\int_{x_i}^{x_{i+1}} f(x)~dx = \frac{f_{i+1}+f_i}{2}\Delta x$$
+$$\int_{x_i}^{x_{i+1}} f(x)~dx = \frac{f_{i+1}+f_i}{2}~\Delta x$$
 
 De volledige integraal is dan te schrijven als (werk dit ook zelf uit op papier):
 
 $$\int_a^b f(x)~dx \approx \frac{\Delta x}{2} (f_0 + 2 f_1 + 2 f_2 + ... +  2 f_{N-1} + f_N)~+~\mathcal{O}((\Delta x)^2)\\
-                       ~~ \approx \Delta x(f_1 + f_2 + ... +  f_{N-1}) +\frac{\Delta x}{2}(f_0+f_N) $$
+                       ~~ \approx \Delta~x(f_1 + f_2 + ... +  f_{N-1}) ~+~ \frac{\Delta x}{2}(f_0+f_N) $$
 
 ### d) Implementatie in Python 
-Je hebt dan dus $$N+1$$ waardes van x-waardes $$x_i$$ die elk $$Delta
- x = \frac{b-a}{N}$$ uit elkaar liggen. 
+Zoals je ziet het je 'alleen' de waarde van de functie nodig op de $$N+1$$ hoekpunten van de intervallen. Zorg dat je het aantal intervallen $$(N)$$ in je programma vrij kan veranderen en bepaal aan de hand daarvan de hoekpunten $$x_i$$ en de waarde van de grafiek op elk van die hoekpunten $$f(x_i)$$. Bereken aan het eind van het programma de integraal en print het op het scherm.
+
+
+## Tips:
+
+  - Maak altijd een plaatje van je grafiek zodat je duidelijk ziet welk gebied je aan het integreren bent.
+
+  - test je programma altijd op een integraal die je wel analytisch kan uitrekenen. Als je programma de juiste waarde bepeeld voor de bekende integraal $$\int_{0}^{1}x^2 dx$$ dan kan je daarna de functie veranderen en op zoek gaan naar $$\int_{0}^{1}x^x dx$$.
+
+  - specifiek voor Riemannnsom: Als je het interval in $$N$$ stukjes verdeeld zijn er $$N+1$$ hoekpunten.
 
 
 ### Extra: hogere orde (meer precieze) benaderingen}
