@@ -26,8 +26,28 @@ $$
 $$
 
 ### Extra informatie:
+In 'echte' toepassingen wordt voor efficientie maximalisatie de box zo gekozen dat hij de integraal zo nauw mogelijk omsluit: grootste fractie 'goede' worpen.
 
-In 'echte' toepassingen wordt voor effici$$\"{e}$$ntie maximalisatie de box zo gekozen dat hij de integraal zo nauw mogelijk omsluit: grootste fractie 'goede' worpen.
+## Tips:
+
+  - Maak altijd een plaatje van je grafiek zodat je duidelijk ziet welk gebied je aan het integreren bent.
+
+  - test je programma altijd op een (vergelijkbare) integraal die je wel analytisch kan uitrekenen. 
+
+  - specifiek voor Monte Carlo: bij 'negatieve' integratieregio's de gebieden splitsen
+
+
+
+# Opgaves
+
+## opgave 1: $$\int_{0}^{1}x^x dx$$
+Hint: test je functie door te testen of je programma de integraal $$\int_{0}^{1}x^2 dx$$ goed voorspelt
+
+## opgave 2: $$\int_{0.1}^{2} sin(x) dx$$
+Hint: test je functie door te testen of je programma de integraal $$\int_{0}^{\pi}sin(x) dx$$ goed voorspelt
+
+## opgave 3: $$\int_{0}^{\pi} sin(x^2) dx$$
+Hint: Let goed op wat je doet met de negatieve integratieregio's. Het is handig om de oppervlakte van die gebieden zelfstandig te evalueren.
 
 
 
