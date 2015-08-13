@@ -1,8 +1,6 @@
 
 # Bouwstenen van deze week
 
-blablabla
-
 In deze week zullen we twee concepten aanpakken uit de wiskunde en natuurkunde waarbij de coputer een essentiele rol speelt:
 
   - Numeriek integreren:       
@@ -45,7 +43,7 @@ Nu zal wel de volledige waarde geprint worden op het scherm. In veel toepassinge
 
 Probeer een aantal opties. Net als bij het printen kan het ook misgaan als reele getallen en gehele getallen gemixt worden in je programma zelf. Lees zeker het onderstaande stukje over een van de bekende valkuilen en de manier waarop je die kan omzeilen.
 
-### Bekende valkuil: mix van gehele en reeele getallen
+### Bekende valkuil: mix van gehele en reele getallen
 
 Een veel voorkomende fout die gemaakt wordt in programma's is dat een computer denkt dat elke bewerking van gehele getallen zelf ook weer een geheel getal is. Het volgende programma zal aan de variabele z de waarde 1 toekennen, het eerste gehele getal onder de 1.3333. En dat is natuurlijk niet wat je bedoelde.
 
@@ -73,7 +71,7 @@ Oplossing 2:
 
 
 
-## [2] Een rij reeele getallen met behulp van numpy.arange()
+## [2] Een rij reele getallen met behulp van numpy.arange()
 
 In Module 1 hebben we de for-loop gebruikt om een variabele steeds met 1 op te hogen. In de for-loop constructie gebruikten we daarvoor de `range()` functie. De getallen 1 tot (en niet tot en met) 9, printen op het scherm, ze in een lijst stoppen en die printen aan het eind van het programma deden we als volgt.
 
@@ -155,10 +153,17 @@ Bekijk goed het voorbeeld hierboven waarbij we een random getal tussen 0 en 2 ma
 
 #  Opgave 2: gemiddelde afstand tussen 2 punten in een vierkant
 
+Schrijf een functie `Vierkant()` die de gemiddelde afstand tussen 2 punten in een vierkant met afmeting 1x1 berekent. Gebruik de volgende strategie:
 
-ksjgk
+    - Genereer twee random punten: dus 2 keer een
+      random x-waarde en 2x een random y-waarde
+      en bereken de afstand tussen de punten
+    - Doe dit bovenstaande een groot aantal (N) keer
+      en bewaar de totale afstand (som afstanden)
+    - Bereken de gemiddelde afstand door de totale \\
+      afstand te delen door $N$.
 
-
+![](vierkant.png)
 
 
 
