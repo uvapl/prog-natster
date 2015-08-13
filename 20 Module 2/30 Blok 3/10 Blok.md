@@ -7,14 +7,14 @@ Gegeven $$f(x)$$ op $$a \leq x \leq b$$, bereken $$\int_a^b f(x)~dx$$
 
 ### b) De oplossingsstrategie
 
-Definieer een gebied (vaak een rechthoek) die het de integraalregio omsluit. Definieer dus een $$x_{min}$$, $$x_{max}$$, $$y_{min}$$ en $$y_{max}$$ zodanig dat geldt: $$x_{min} \leq a$$ en $$x_{max} \geq b$$ en dat ook geldt:
+Stap 1) Definieer een gebied (vaak een rechthoek) dat het de integraalregio omsluit. Definieer dus een $$x_{min}$$, $$x_{max}$$, $$y_{min}$$ en $$y_{max}$$ zodanig dat geldt: $$x_{min} \leq a$$ en $$x_{max} \geq b$$ en dat ook geldt:
 $$
    \mbox{ voor } a \leq x \leq b \mbox{ : } y_{min} \leq f(x)  \leq y_{max}
 $$
 
 Note: in de meeste toepassingen wordt gekozen voor $x_{min} = a$ en $x_{max} = b$.
 
-Gooi een groot aantal random punten $$(x_i, y_i)$$ in het rechthoek dat het integratiegebied om sluit en bekijk voor elk punt of het binnen het integratiegebied valt ('goed') of erbuiten ('fout'). Hou bij welke fratie van de punten in het integratiegebied vald: $$f_{goed}_$$.
+Stap 2) Gooi een groot aantal random punten $$(x_i, y_i)$$ in het rechthoek dat het integratiegebied om sluit en bekijk voor elk punt of het binnen het integratiegebied valt ('goed') of erbuiten ('fout'). Hou bij welke fratie van de punten in het integratiegebied vald: $$f_{goed}_$$.
 
 De integraal is vervlogens te schrijven als:
 
