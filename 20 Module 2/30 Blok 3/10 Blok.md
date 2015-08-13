@@ -32,6 +32,8 @@ $$
 
 ## Voorbeeld:
 
+In de evaluatie van de integraal $$\int_{0}^{1}x^2 dx$$ hebben we een box gedefinieert om het integratiegebied heen en 2000 random punten gegooid. Daarvan bleek 63.15% (1263/2000) binnen het integratiegebied te vallen. De schatting die we maken van de integraal met behulp van deze 2000 punten is dan ook: 0.6315$$\pi \approx 1.984$$. Zodra dit werkt kunnen we natuurlijk ook 1 miljoen punten gooien in plaats van 2000. 
+
 ![](MonteCarloExample.png)
 
 
@@ -41,6 +43,8 @@ In 'echte' toepassingen wordt voor efficientie maximalisatie de box zo gekozen d
 ## Tips:
 
   - Maak altijd een plaatje van je grafiek zodat je duidelijk ziet welk gebied je aan het integreren bent.
+
+  - Maak ook een grafiek met rode en groene punten zoals in bovenstaand voorbeeld. Mocht je een fout gemaakt hebben in je logica dan zie je dat in een plaatje in 1 keer terwijl je daar anders uren naar moet zoeken in de code zelf.
 
   - test je programma altijd op een (vergelijkbare) integraal die je wel analytisch kan uitrekenen. 
 
