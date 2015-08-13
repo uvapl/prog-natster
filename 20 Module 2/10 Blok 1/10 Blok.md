@@ -1,6 +1,8 @@
 
 # Bouwstenen van deze week
 
+blablabla
+
 In deze week zullen we twee concepten aanpakken uit de wiskunde en natuurkunde waarbij de coputer een essentiele rol speelt:
 
   - Numeriek integreren:       
