@@ -32,11 +32,32 @@ Zoals je ziet het je 'alleen' de waarde van de functie nodig op de $$N+1$$ hoekp
 
   - Maak altijd een plaatje van je grafiek zodat je duidelijk ziet welk gebied je aan het integreren bent.
 
-  - test je programma altijd op een integraal die je wel analytisch kan uitrekenen. Als je programma de juiste waarde bepeeld voor de bekende integraal $$\int_{0}^{1}x^2 dx$$ dan kan je daarna de functie veranderen en op zoek gaan naar $$\int_{0}^{1}x^x dx$$.
+  - test je programma altijd op een (vergelijkbare) integraal die je wel analytisch kan uitrekenen. 
 
   - specifiek voor Riemannnsom: Als je het interval in $$N$$ stukjes verdeeld zijn er $$N+1$$ hoekpunten.
 
 
 ### Extra: hogere orde (meer precieze) benaderingen}
 Het is mogelijk de evaluatie van de integraal te verbeteren door niet te uit te gaan van de (te simpele) lineaire benadering. De *Simpsonregel* bijvoorbeeld is een parabolische benadering (let op, N=even) waarbij $$f(x)$$ op het interval $$(x_{i-1},x_{i+1})$$ wordt benaderd door een parabool door de 3 punten $$(f_{i-1},f_{i},f_{i+1})$$. Zoek op of werk zelf uit als je deze wilt gebruiken.
+
+
+# Opgaves
+
+## opgave 1: $$\int_{0}^{1}x^x dx$$
+Hint: test je functie door te testen of je programma de integraal $$\int_{0}^{1}x^2 dx$$ goed voorspelt
+
+## opgave 2: $$\int_{0.1}^{2} sin(x) dx$$
+Hint: test je functie door te testen of je programma de integraal $$\int_{0}^{\pi]}sin(x) dx$$ goed voorspelt
+
+## opgave 3: $$\int_{0}^{\pi} sin(x^2) dx$$
+Hint: teken de functie en let op de integratiegebieden onder de y-as.
+
+
+
+
+
+
+
+
+
 
