@@ -7,7 +7,7 @@ Gegeven $$f(x)$$ op $$a \leq x \leq b$$, bereken $$\int_a^b f(x)~dx$$
 
 ### b) De oplossingsstrategie
 
-Definieer een gebied (vaak een rechthoek) die het de integraalregio omsluit. Definieer dus een $$x_{min}$$, $$x_{max}$$, $$y_{min}$$ en y_{max}$$ zodanig dat geldt: $$x_{min} \leq a$$ en $$x_{max} \geq b$$ en dat ook geldt:
+Definieer een gebied (vaak een rechthoek) die het de integraalregio omsluit. Definieer dus een $$x_{min}$$, $$x_{max}$$, $$y_{min}$$ en $$y_{max}$$ zodanig dat geldt: $$x_{min} \leq a$$ en $$x_{max} \geq b$$ en dat ook geldt:
 $$
    \mbox{ voor } a \leq x \leq b \mbox{ : } y_{min} \leq f(x)  \leq y_{max}
 $$
