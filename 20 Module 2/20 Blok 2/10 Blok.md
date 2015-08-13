@@ -15,11 +15,11 @@ Hierbij is $$x_i$$ het hoekpunt van een van de intervallen. Er zijn $$N+1$$ hoek
 ### c) Benadering hoogte elk rechthoek mbv de trapeziumregel en uitwerking integraal
 
 Benader nu de deel-integralen in elk van de subsecties door het voor te stellen als een rechthoek. De breedte van de rechthoek is natuurlijk 
-$$\Delta x = (x_{i+1} - x_{i}). Een (simpele) schatting van de hoogte van het rechthoek dat het best de integraal op dit kleine interval weergeeft is simpelweg het gemiddelde te nemen van de waarde van $$f(x)$$ op de linkerkant en de rechterkant van het interval. De integraal op het deelinterval is dan te schrijven als:
+$$\Delta x = (x_{i+1} - x_{i})$$. Een (simpele) schatting van de hoogte van het rechthoek dat het best de integraal op dit kleine interval weergeeft is simpelweg het gemiddelde te nemen van de waarde van $$f(x)$$ op de linkerkant en de rechterkant van het interval. De integraal op het deelinterval is dan te schrijven als:
 
 $$\int_{x_i}^{x_{i+1}} f(x)~dx = \frac{f_{i+1}+f_i}{2}\Delta x$$
 
-De volledige integraal is dan te schrijven als (doe het zelf ook op papier):
+De volledige integraal is dan te schrijven als (werk dit ook zelf uit op papier):
 
 $$\int_a^b f(x)~dx \approx \frac{\Delta x}{2} (f_0 + 2 f_1 + 2 f_2 + ... +  2 f_{N-1} + f_N)~+~\mathcal{O}((\Delta x)^2)\\
                        ~~ \approx \Delta x(f_1 + f_2 + ... +  f_{N-1}) +\frac{\Delta x}{2}(f_0+f_N) $$
