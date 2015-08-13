@@ -7,7 +7,9 @@ Gegeven $$f(x)$$ op $$a \leq x \leq b$$, bereken $$\int_a^b f(x)~dx$$
 
 ### b) De oplossingsstrategie
 
-Stap 1) Definieer een gebied (vaak een rechthoek) dat het de integraalregio omsluit: definieer $$x_{min}$$, $$x_{max}$$, $$y_{min}$$ en $$y_{max}$$ zodanig dat geldt dat $$x_{min} \leq a$$ en $$x_{max} \geq b$$ en dat:
+Stap 1) Definieer rechthoek dat het integratiegebied omsluit
+
+Definieer een gebied (vaak een rechthoek) dat het de integraalregio omsluit: definieer $$x_{min}$$, $$x_{max}$$, $$y_{min}$$ en $$y_{max}$$ zodanig dat geldt dat $$x_{min} \leq a$$ en $$x_{max} \geq b$$ en dat:
 
 $$
    \mbox{ voor } a \leq x \leq b \mbox{ : } y_{min} \leq f(x)  \leq y_{max}
@@ -15,7 +17,9 @@ $$
 
 Note: in de meeste toepassingen wordt gekozen voor $$x_{min} = a$$ en $$x_{max} = b$$.
 
-Stap 2) Gooi een groot aantal random punten $$(x_i, y_i)$$ in het rechthoek dat het integratiegebied om sluit en bekijk voor elk punt of het binnen het integratiegebied valt ('goed') of erbuiten ('fout'). Hou bij welke fratie van de punten in het integratiegebied vald: $$f_{goed}$$.
+Stap 2) Gooi random punten in het rechthoek
+
+Gooi een groot aantal random punten $$(x_i, y_i)$$ in het rechthoek dat het integratiegebied om sluit en bekijk voor elk punt of het binnen het integratiegebied valt ('goed') of erbuiten ('fout'). Hou bij welke fratie van de punten in het integratiegebied vald: $$f_{goed}$$.
 
 Stap 3) Bepaal de integraal
 
@@ -24,6 +28,12 @@ In ons geval (rechthoek als box) geldt dan:
 $$
     \int_a^b f(x)~dx = f_{goed}~~ (x_{max}-x_{min})(y_{max}-y_{min})
 $$
+
+
+## Voorbeeld:
+
+![](MonteCarloExample.png)
+
 
 ### Extra informatie:
 In 'echte' toepassingen wordt voor efficientie maximalisatie de box zo gekozen dat hij de integraal zo nauw mogelijk omsluit: grootste fractie 'goede' worpen.
