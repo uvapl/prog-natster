@@ -34,8 +34,6 @@ In de evaluatie van de integraal $$\int_{0}^{\pi}sin(x)~dx$$ hebben we het integ
 ![](RiemannExample.png)
 
 
-
-
 ## Tips:
 
   - Maak altijd een plaatje van je grafiek zodat je duidelijk ziet welk gebied je aan het integreren bent.
