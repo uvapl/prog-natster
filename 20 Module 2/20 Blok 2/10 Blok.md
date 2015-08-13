@@ -2,29 +2,29 @@
 
 Een van de manieren om een integraal te evalueren is door het te schrijven als de som van kleine rechthoekjes, de Riemannsom.
 
-### Het probleem: 
+### a) Het probleem: 
 Gegeven $$f(x)$$ op $$a \leq x \leq b$$, bereken $$\int_a^b f(x)~dx$$
 
-### De oplossingsstrategie
+### b) De oplossingsstrategie
 Algemeen: verdeel het interval $$(a,b)$$ in $$N$$ intervallen van gelijke lengte $$\Delta x$$ en schrijf de integraal als de som van de deel-integralen op elk van deze intervallen:
 
 $$ \int_a^b f(x)~dx = \sum_{i=0}^{N-1} \int_{x_i}^{x_{i+1}} f(x)~dx$$
 
-### Benadering hoogte elk rechthoek mbv de trapeziumregel en uitwerking integraal
+Hierbij is $$x_i$$ het hoekpunt van een van de intervallen. Er zijn $$N+1$$ hoekpunten die lopen van $$x_0$$ tot $$x_{N+1}$$.
 
-In elk van de subsecties gaan we de deelintegraal benaderen door het voor te stellen als een rechthoek. De breedte van de rechthoek is natuurlijk 
-$$\Delta x$$ (x_{i+1}- x_{i}). De hoogte van de rechthoek zou de gemiddelde hoogte moeten zijn op het interval. De simpelste schatting is om gewoon het gemiddelde te nemen van de functie $$f(x)$$ op de linkerkant van het interval ($$f_{i}$$) en de waarde van de  de functie $$f(x)$$ op de rechterkant van het interval ($$f_{i+1}$$). In deze lineaire benadering op het interval $(x_i,x_{i+1})$ is $f(x)$ dan te schrijven als:
+### c) Benadering hoogte elk rechthoek mbv de trapeziumregel en uitwerking integraal
 
-$$f(x) = \frac{f_{i+1}+f_i}{2}~+~\mathcal{O}(\Delta x)$$
+Benader nu de deel-integralen in elk van de subsecties door het voor te stellen als een rechthoek. De breedte van de rechthoek is natuurlijk 
+$$\Delta x = (x_{i+1} - x_{i}). Een (simpele) schatting van de hoogte van het rechthoek dat het best de integraal op dit kleine interval weergeeft is simpelweg het gemiddelde te nemen van de waarde van $$f(x)$$ op de linkerkant en de rechterkant van het interval. De integraal op het deelinterval is dan te schrijven als:
 
-De sommatie voor de integraal is dan te schrijven als:
+$$\int_{x_i}^{x_{i+1}} f(x)~dx = \frac{f_{i+1}+f_i}{2}\Delta x$$
 
-$$
-   \int_a^b f(x)~dx &\approx& \frac{\Delta x}{2} (f_0 + 2 f_1 + 2 f_2 + ... +  2 f_{N-1} + f_N)~+~\mathcal{O}((\Delta x)^2)\\
-                       ~~ &\approx& \Delta x(f_1 + f_2 + ... +  f_{N-1}) +\frac{\Delta x}{2}(f_0+f_N)                         
-$$
+De volledige integraal is dan te schrijven als (doe het zelf ook op papier):
 
-### in Python
+$$\int_a^b f(x)~dx \approx \frac{\Delta x}{2} (f_0 + 2 f_1 + 2 f_2 + ... +  2 f_{N-1} + f_N)~+~\mathcal{O}((\Delta x)^2)\\
+                       ~~ \approx \Delta x(f_1 + f_2 + ... +  f_{N-1}) +\frac{\Delta x}{2}(f_0+f_N) $$
+
+### d) Implementatie in Python 
 Je hebt dan dus $$N+1$$ waardes van x-waardes $$x_i$$ die elk $$Delta
  x = \frac{b-a}{N}$$ uit elkaar liggen. 
 
