@@ -16,7 +16,7 @@ een  $$x_{min}$$, $$x_{max}$$, $$y_{min}$$ en $$y_{max}$$ zodanig dat geldt
 
   - $$x_{min} \leq a$$ en $$x_{max} \geq b$$ en dat:
 
-  - $$\mbox{ voor } a \leq x \leq b \mbox{ : } y_{min} \leq f(x)  \leq y_{max}$$
+  - voor $$a \leq x \leq b$$ : $$y_{min} \leq f(x)  \leq y_{max}$$
 
 Note: in de meeste toepassingen wordt gekozen voor $$x_{min} = a$$ en $$x_{max} = b$$.
 
