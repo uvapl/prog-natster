@@ -68,7 +68,7 @@ $$ \chi^2(c=56)~=~ \left{ \frac{(55-56)}{5} \right} $$
 
 
 $$
-   \chi^2(c=56)~=~    \left{ \frac{(55-56)}{5} \right}^2
+   \chi^2(c=56)~=~    \left( \frac{(55-56)}{5} \right)^2
    \left{ \frac{(50-56)}{4} \right}^2
    \left{ \frac{(39-56)}{9} \right}^2
    \left{ \frac{(58-56)}{4} \right}^2
