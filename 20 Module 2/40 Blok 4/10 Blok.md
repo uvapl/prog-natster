@@ -19,7 +19,7 @@ $$\chi^2 = \sum_{i~ {\rm (datapunten)}}  \left(\frac{  y_i - f(x_i|\vec{\alpha})
 
 Hierbij is $$\vec{\alpha}$$ de vector met de parameters die je gebruikt in je model. 
 Voor elke keuze van de parameters je model verandert de afstand van elk meetpunt tot je model en krijg je 
-dus een nieuwe $$\chi^2$$.
+dus een nieuwe $$\chi^2$$. Ter volledigheid: de $$\chi^2$$ is gewoon een getal.
 
 ## De beste waarde van je model ($$\alpha_{best}$$) en de onzekerheid daarop ($$\Delta_{alpha}$$)
 
@@ -41,18 +41,31 @@ als je de parameters respectievelijk kleiner en groter maakt.
 
 # Voorbeeld fit: de fractie goede passes van Wesley Sneijder
 
-Iemand heeft heel keurig de fractie goede passes (y-waarde) bepaald die Wesley Sneijder heeft gegeven 
+Iemand heeft heel keurig het percentage goede passes (y-waarde) bepaald die Wesley Sneijder heeft gegeven 
 tijdens de verschillende wedstrijden (x-waarde) tijdens de kwalificatie voor het WK voetbal. Omdat 
-de nauwkeurigheid waarmee de fractie goede passes bepaald wordt afhangt van het aantal passes in een 
-wedstrijd is de fout op de fractie goede passes niet in elke wedstrijd constant.
+de nauwkeurigheid waarmee het percentage bepaald wordt afhangt van het aantal passes in een 
+wedstrijd is de fout erop niet voor elke wedstrijd hetzelfde.
 
 
-wedstrijdnummer (x)     |  1 ||  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 
-$$f_{goed}$$ (y)        | 55 || 50 | 39 | 58 | 54 | 57 | 78 | 66 | 62 | 82 
-$$\sigma$$ (fout op y)  |  5 ||  4 |  9 |  4 |  5 |  5 |  7 |  3 |  6 | 6
+wedstrijdnummer (x)     |  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 
+$$f_{goed}$$ (y)        | 55 | 50 | 39 | 58 | 54 | 57 | 78 | 66 | 62 | 82 
+$$\sigma$$ (fout op y)  |  5 |  4 |  9 |  4 |  5 |  5 |  7 |  3 |  6 | 6
 
 ![](FitExampleCombined.png)
 
+We nemen aan dat zijn prestaties constant zijn en nemen daarom aan dat het model dat deze data het best 
+beschrijft een constante is. We nemen dus aan dat de vector $$\vec{alpha}$$ maar uit 1 parameter bestaat. 
+Meet precies, ons model neemt de vorm aan van $$f(x)=c$$. De vraag is nu: *welke waarde van $$c$$ beschrijft 
+de data het best en welke onzekerheid moeten we aan die schatting toekennen ?*
+
+### uitrekenen $$\chi^2$$
+
+We gaan verschillende waardes van $$c$$ proberen en rekenen voor elke de $$\chi^2$$ uit. Als we bijvoorbeeld 
+als hypothese $$c=56%% nemen dan hoort daar de volgende $$\chi^2$$ bij:
+
+$$
+   \chi^2(c=56)~=~ \left( \frac{(55-56)}{5} \right)^2
+$$
 
 
 
