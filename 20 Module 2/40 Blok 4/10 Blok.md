@@ -1,26 +1,44 @@
 # Fitten van data en foutenbepaling 
 
-Om de onderliggende fenomenen van (natuurkundige) verschijnselen te achterhalen wordt data verzameld om afhankelijkheden te onderzoeken. Dat kan de massa van het Higgs boson zijn, de vervaltijd van uranium, maar ook het aantal kinderen in een gezin als functie van de gemiddelde lengte van de ouders. Je kan dan zoeken naar een (causaal) verband: lineair, exponentieel,etc. en daarbij ook de bijbehorende parameters bepalen met hun onzekerheid. Als je een goede beschrijving hebt gevonden kan je daarmee vervolgens ook voorspellingen doen.
+Om de onderliggende fenomenen van (natuurkundige) verschijnselen te achterhalen wordt data verzameld om 
+afhankelijkheden te onderzoeken. Dat kan de massa van het Higgs boson zijn, de vervaltijd van uranium, 
+maar ook het aantal kinderen in een gezin als functie van de gemiddelde lengte van de ouders. Je kan dan 
+zoeken naar een (causaal) verband: lineair, exponentieel,etc. en daarbij ook de bijbehorende parameters 
+bepalen met hun onzekerheid. Als je een goede beschrijving hebt gevonden kan je daarmee vervolgens ook 
+voorspellingen doen. Elk meetpunt komt met een onzekerheid die de precisie aangeeft waaramee een grootheid 
+gemeten is. Hoe kleiner de fout, hoe nauwkeuriger de meting en hoe 'belangrijker' hij is als je gaat kijken 
+of de meetpunten wel met je model overeenkomen. 
 
-Om de 'beste' waarde te vinden hebben we een maat (metriek) nodig die de *goedheid* van de fit beschrijft. We doen dat hier met de $$\chi^2$$-maat: de som van de gemiddelde afwijking van de meetpunten tot het model gewogen met hun fout. Voor elk punt bepalen we dus *hoeveel standaardafwijkingen ligt dit punt weg van mijn model/voorspelling ?*
+Om de 'beste' waarde te vinden hebben we een maat (metriek) nodig die de *goedheid* van de fit beschrijft. 
+We doen dat hier met de $$\chi^2$$-maat: de som van de gemiddelde afwijking van de meetpunten tot het model 
+gewogen met hun fout. 
+
+Voor elk punt bepalen we dus *hoeveel standaardafwijkingen ligt dit punt weg van mijn model/voorspelling ?*
 
 $$\chi^2 = \sum_{i~ {\rm (datapunten)}}  \left(\frac{  y_i - f(x_i|\vec{\alpha}) }{\sigma_i}\right)^2$$
 
-Hierbij is $$\vec{\alpha}$$ de vector met de parameters die je gebruikt in je model.
+Hierbij is $$\vec{\alpha}$$ de vector met de parameters die je gebruikt in je model. 
+Voor elke keuze van de parameters je model verandert de afstand van elk meetpunt tot je model en krijg je 
+dus een nieuwe $$\chi^2$$.
 
-## De beste waarde van je model: $$\alpha_{best}_$$
+## De beste waarde van je model: $$\alpha_{best}$$
 
-In de fitprocedure zoeken we naar de waarde van de parameters in je model die de kleinste $$\Chi^2$$ opleveren. Dat zijn namelijk de 'beste' waardes van het model omdat met die waarde van de parameters je model de data het best beschrijft.
+In de fitprocedure zoeken we naar de waarde van de parameters in je model die de kleinste $$\Chi^2$$ opleveren. 
+Dat zijn namelijk de 'beste' waardes van het model omdat met die waarde van de parameters je model de data het 
+best beschrijft.
 
-## De onzekerheid op $$\alpha_{best}_$$: $$\Delta_{alpha}$$
+## De onzekerheid op $$\alpha_{best}$$: $$\Delta_{alpha}$$
 
-Elke waarde van je parameters die anders is dat $$\alpha_{best}_$$ zal de waarde van de $$\Chi^2$$ veranderen (die wordt slechter). De waarde van de $$\alpha$$ waarbij de $$\Chi^2$$ precies 1 unit toeneemt noemen we de onzekerheid. 
+Elke waarde van je parameters die anders is dat $$\alpha_{best}$$ zal de waarde van de $$\Chi^2$$ veranderen 
+(die wordt groter wat een slechtere overeenkomst met de data betekent). De waarde van de $$\alpha$$ waarbij 
+de $$\Chi^2$$ precies 1 unit toeneemt noemen we de onzekerheid. Dit onzekerheid in de parameters kan asymmetrisch 
+zijn.
 
-## Het resultaat van je fit aan de data
+## Representeren fit aan de data
 
-Het resultaat van je fit presenteer je dan als volgt
+Het resultaat van je fit presenteer je dan als volgt:
 
- $$ \alpha = \alpha_{best}~^{+(\Delta_\alpha)^r}_{-(\Delta_\alpha)^l}$
+$$\alpha = \alpha_{best}~^{+(\Delta_{\alpha})^r}_{-(\Delta_{\alpha})^l}$
 
 # Voorbeeld:
 In onderstaand voorbeeld 
