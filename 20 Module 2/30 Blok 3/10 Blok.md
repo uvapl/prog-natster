@@ -30,7 +30,7 @@ $$
 $$
 
 
-## Voorbeeld:
+## Voorbeeld: $$\int_{0}^{\pi}sin(x)~dx$$
 
 In de evaluatie van de integraal $$\int_{0}^{\pi}sin(x)~dx$$ hebben we een box gedefinieert om het integratiegebied heen en 2000 random punten gegooid. Daarvan bleek 63.15% (1263/2000) binnen het integratiegebied te vallen. De schatting die we maken van de integraal met behulp van deze 2000 punten is dan ook: 0.6315$$\pi \approx 1.984$$. Zodra dit werkt kunnen we natuurlijk ook 1 miljoen punten gooien in plaats van 2000. 
 
