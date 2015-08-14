@@ -100,12 +100,12 @@ percentage goede passes = $$ 60.3 \pm1.5$$
 
 Schrijf een programma dat het bovenstaande resultaat verifieert.
 
-  - a) Maak een plot van deze data met fouten
+  a) Maak een plot van deze data met fouten
   
       Computing tip: gebruik de functie `plt.errorbar(x,y, yerr=yerror)`
       Zoek op internet op hoe dit precies werkt.
 
-  - b) Bereken de beste waarde van c en de bijbehorende onzekerheid $$\Delta_c$$
+  b) Bereken de beste waarde van c en de bijbehorende onzekerheid $$\Delta_c$$
 
-  - c) Hoe verandert het resultaat als de fout op elk van de metingen 2x zo groot wordt ?
+  c) Hoe verandert het resultaat als de fout op elk van de metingen 2x zo groot wordt ?
 
