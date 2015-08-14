@@ -1,6 +1,8 @@
 # Numeriek integreren [Monte Carlo methode]
 
-Benader de integraal door gebruik te maken van random getallen. Gooi in een gebied (van bekende grootte) rond de integratie regio random punten en kijk welke fractie binnen het integratiegebied valt.
+Benader de integraal door gebruik te maken van random getallen. Gooi in een gebied (van bekende 
+grootte) rond de integratie regio random punten en kijk welke fractie binnen het integratiegebied 
+valt.
 
 ### a) Het probleem: 
 Gegeven $$f(x)$$ op $$a \leq x \leq b$$, bereken $$\int_a^b f(x)~dx$$
@@ -9,24 +11,27 @@ Gegeven $$f(x)$$ op $$a \leq x \leq b$$, bereken $$\int_a^b f(x)~dx$$
 
 Stap 1) Definieer rechthoek dat het integratiegebied omsluit
 
-Definieer een gebied (vaak een rechthoek) dat het de integraalregio omsluit: definieer $$x_{min}$$, $$x_{max}$$, $$y_{min}$$ en $$y_{max}$$ zodanig dat geldt dat $$x_{min} \leq a$$ en $$x_{max} \geq b$$ en dat:
+Definieer een gebied (vaak een rechthoek) dat het de integraalregio omsluit. Kies dus 
+een  $$x_{min}$$, $$x_{max}$$, $$y_{min}$$ en $$y_{max}$$ zodanig dat geldt 
 
-$$
-   \mbox{ voor } a \leq x \leq b \mbox{ : } y_{min} \leq f(x)  \leq y_{max}
-$$
+  - $$x_{min} \leq a$$ en $$x_{max} \geq b$$ en dat:
+
+  - $$\mbox{ voor } a \leq x \leq b \mbox{ : } y_{min} \leq f(x)  \leq y_{max}$$
 
 Note: in de meeste toepassingen wordt gekozen voor $$x_{min} = a$$ en $$x_{max} = b$$.
 
 Stap 2) Gooi random punten in het rechthoek
 
-Gooi een groot aantal random punten $$(x_i, y_i)$$ in het rechthoek dat het integratiegebied om sluit en bekijk voor elk punt of het binnen het integratiegebied valt ('goed') of erbuiten ('fout'). Hou bij welke fratie van de punten in het integratiegebied vald: $$f_{goed}$$.
+Gooi een groot aantal random punten $$(x_i, y_i)$$ in het rechthoek dat het integratiegebied om sluit en 
+bekijk voor elk punt of het binnen het integratiegebied valt ('goed') of erbuiten ('fout'). Hou bij welke 
+fratie van de punten in het integratiegebied vald: $$f_{goed}$$.
 
 Stap 3) Bepaal de integraal
 
 De integraal is de fractie punten die binnen de grafiek vallen keer de oppervlakte van de totale box. 
-In ons geval (rechthoek als box) geldt dan:
+In het geval van een rechthoek wordt dat gegeven door :
 $$
-    \int_a^b f(x)~dx = f_{goed}~~ (x_{max}-x_{min})(y_{max}-y_{min})
+    \int_a^b f(x)~dx = f_{goed}~~\cdot~(x_{max}-x_{min})\cdot(y_{max}-y_{min})
 $$
 
 
