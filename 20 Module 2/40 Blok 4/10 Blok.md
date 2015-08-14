@@ -23,25 +23,25 @@ dus een nieuwe $$\chi^2$$.
 
 ## De beste waarde van je model ($$\alpha_{best}$$) en de onzekerheid daarop ($$\Delta_{alpha}$$)
 
-In de fitprocedure zoeken we naar de waarde van de parameters in je model die de kleinste $$\Chi^2$$ opleveren. 
+In de fitprocedure zoeken we naar de waarde van de parameters in je model die de kleinste $$\chi^2$$ opleveren. 
 Dat zijn namelijk de 'beste' waardes van het model omdat met die waarde van de parameters je model de data het 
 best beschrijft.
 
-Elke waarde van je parameters die anders is dat $$\alpha_{best}$$ zal de waarde van de $$\Chi^2$$ veranderen 
-(die wordt groter wat een slechtere overeenkomst met de data betekent). De waarde van de $$\alpha$$ waarbij 
-de $$\Chi^2$$ precies 1 unit toeneemt noemen we de onzekerheid. Dit onzekerheid in de parameters kan asymmetrisch 
-zijn.
-
-## Representeren fit aan de data
+Elke waarde van je parameters die anders is dat $$\alpha_{best}$$ zal de waarde van de $$\chi^2$$ veranderen 
+(die wordt groter wat een slechtere overeenkomst met de data betekent). Het verschil tussen de waarde van de 
+$$\alpha$$ waarbij de $$\chi^2$$ precies 1 unit toeneemt en $$\alpha_{best}$$ noemen we de onzekerheid. 
 
 Het resultaat van je fit presenteer je dan als volgt:
 
-$$\alpha = \alpha_{best}~^{+(\Delta_{\alpha})^r}_{-(\Delta_{\alpha})^l}$
+$$\alpha = \alpha_{best} \pm \Delta_{\alpha}$$
 
-# Voorbeeld:
+Hoewel we hier aannemen dat de fout in $$\alpha$$ symmetrisch is hoeft dat niet altijd het geval te zijn. 
+Evalueer dus altijd de negatieve en positieve fout afzonderlijk door te kijken hoe de $$\chi^2$$ verandert 
+als je de parameters respectievelijk kleiner en groter maakt.
+
+
+# Voorbeeld fit
 In onderstaand voorbeeld 
-
-
 
 
 ![](FitExampleCombined.png)
