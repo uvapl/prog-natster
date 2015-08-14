@@ -64,6 +64,9 @@ de data het best en welke onzekerheid moeten we aan die schatting toekennen ?*
 We gaan verschillende waardes van $$c$$ proberen en rekenen voor elke de $$\chi^2$$ uit. Als we bijvoorbeeld 
 als hypothese $$c=56%% nemen dan hoort daar de volgende $$\chi^2$$ bij:
 
+$$ \chi^2(c=56)~=~ \frac{(55-56)}{5}$$
+
+
 $$
    \chi^2(c=56)~=~    \left{ \frac{(55-56)}{5} \right}^2
    \left{ \frac{(50-56)}{4} \right}^2
