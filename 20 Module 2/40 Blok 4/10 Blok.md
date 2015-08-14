@@ -55,9 +55,8 @@ $$\sigma$$ (fout op y)  |  5 |  4 |  9 |  4 |  5 |  5 |  7 |  3 |  6 | 6
 
 De data is weergegeven in de linker plot hieronder. 
 We nemen aan dat zijn prestaties constant zijn en nemen daarom aan dat het model dat deze data het best 
-beschrijft een constante is. We nemen dus aan dat de vector $$\vec{alpha}$$ maar uit 1 parameter bestaat. 
-Meet precies, ons model neemt de vorm aan van $$f(x)=c$$. De vraag is nu: *welke waarde van $$c$$ beschrijft 
-de data het best en welke onzekerheid moeten we aan die schatting toekennen ?*
+beschrijft een constante is. Ons model heeft dus maar 1 parameter: $$f(x)=c$$. De vraag is nu: 
+*welke waarde van $$c$$ beschrijft de data het best en welke onzekerheid moeten we aan die schatting toekennen ?*
 
 ### uitrekenen $$\chi^2$$
 
@@ -99,28 +98,12 @@ percentage goede passes = $$ 60.3 \pm1.5$$
 
 # Opgave: fitten van een model aan de data
 
+Schrijf een programma dat het bovenstaande resultaat verifieert.
 
-~~\\
-{\bf opgave [2]: fitten van een model aan de data}\\
-~~\\De onderstaande data-set geeft voor een specifieke voetballer het percentage goede passes ($y$) weer als functie van het aantal gespeelde wedstrijden in oranje ($x$). De onzekerheid op het aantal goede passes is weergegeven als $\sigma_y$.\\
-\begin{center}
-\begin{tabular}{|c||r|r|r|r|r|r|r|r|r|r|}
-     \hline
-     $x$            &   1  &   2  &    3  &   4  &   5  &   6   &   7   &  8   &   9   &10\\
-     \hline
-      $y$           & 55  & 50  &  39  & 58  & 54  & 57   & 78  & 66   & 62  & 82\\
-     \hline
-   $\sigma_y$ &   5  &   4  &    9  &   4  &   5  &   5   &   7   &  3   &   6  &   6\\
-     \hline
-\end{tabular}
-\end{center}
+  - a) Maak een plot van deze data met fouten\\ 
+    Computing tip: gebruik de functie {\tt plt.errorbar(x,y, yerr=yerror)}\\
 
-\begin{tabbing}
-a)~\=maak een plot van deze data met fouten\\ 
-    \>Computing tip: gebruik de functie {\tt plt.errorbar(x,y, yerr=yerror)}\\
-~~\\
-b) \>bereken de beste waarde van c als $f(x)=$c en de bijbehorende onzekerheid $\Delta$c.\\
-~~\\
-c) \>Wat gebeurt er met $\Delta$c als de fout in elk meetpunt 2x kleiner wordt ?
-\end{tabbing}
+  - b) Bereken de beste waarde van c en de bijbehorende onzekerheid $$\Delta_c$$
 
+  - c) Hoe verandert het resultaat als de fout op elk van de metingen 2x zo groot wordt ?
+  
