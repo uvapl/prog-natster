@@ -85,8 +85,7 @@ $$
 
 Je kan nu verschillende waardes van $$c$$ proberen en voor elk de $$\chi^2$$ berekenen. De distributie 
 is getekend in de rechterplot hierboven. Er is een duidelijk minimum zichtbaar: bij $$c=60.3$$ is de 
-$$\chi^2$$ minimaal, namelijk $$\chi^2_{min} = 38.87$$. Dat is de waarde van $$c$$ die de distributie 
-het best beschrijft.
+$$\chi^2$$ minimaal, namelijk $$\chi^2_{min} = 38.87$$. De waarde $$c=60.3$$ beschrijft de data het best.
 
 Bij het berekenen van de $$\chi^2$$ zien we dat er een gebied is $$ 58.8 < c <61.8$$ waarvoor de $$\chi^2$$ 
 minder dan 1 unit verschilt van $$\chi^2_{min}$$. De linkergrens en rechtergrens in hypotheses van $$c$$ 
