@@ -68,15 +68,15 @@ $$
 \begin{eqnarray}
    \chi^2(c=56)&=&    
    \tiny{
-   \left( \frac{(55-56)}{5} \right)^2
-   \left( \frac{(50-56)}{4} \right)^2
-   \left( \frac{(39-56)}{9} \right)^2
-   \left( \frac{(58-56)}{4} \right)^2
-   \left( \frac{(54-56)}{5} \right)^2
-   \left( \frac{(57-56)}{5} \right)^2
-   \left( \frac{(78-56)}{7} \right)^2
-   \left( \frac{(66-56)}{3} \right)^2
-   \left( \frac{(62-56)}{6} \right)^2
+   \left( \frac{(55-56)}{5} \right)^2+
+   \left( \frac{(50-56)}{4} \right)^2+
+   \left( \frac{(39-56)}{9} \right)^2+
+   \left( \frac{(58-56)}{4} \right)^2+
+   \left( \frac{(54-56)}{5} \right)^2+
+   \left( \frac{(57-56)}{5} \right)^2+
+   \left( \frac{(78-56)}{7} \right)^2+
+   \left( \frac{(66-56)}{3} \right)^2+
+   \left( \frac{(62-56)}{6} \right)^2+
    \left( \frac{(82-56)}{6} \right)^2
    }\\
    &=&47.07
@@ -84,21 +84,17 @@ $$
 $$
 
 
-### zoeken naar de waarde van $$c$$ die de $$\chi^2$$ minimaliseert: $$c_{best}$$
-
 Je kan nu verschillende waardes van $$c$$ proberen en voor elk de $$\chi^2$$ berekenen. De distributie 
 is getekend in de rechterplot hierboven. Er is een duidelijk minimum zichtbaar: bij $$c=60.3$$ is de 
 $$\chi^2$$ minimaal, namelijk $$\chi^2_{min} = 38.87$$. Dat is de waarde van $$c$$ die de distributie 
 het best beschrijft.
 
-### zoeken naar de $$\chi^2$$ minimaliseert
 Bij het berekenen van de $$\chi^2$$ zien we dat er een gebied is $$ 58.8 < c <61.8$$ waarvoor de $$\chi^2$$ 
 minder dan 1 unit verschilt van $$\chi^2_{min}$$. De linkergrens en rechtergrens in hypotheses van $$c$$ 
 zijn beide 1.5 van  $$c_{best}$$ verwijderd. De onzekerheid op $$c$$ is dus 1.5.
 
 Het resultaat van de fit van ons model aan de data is als volgt:
-
-Percentage goede passes = $$ 60.3 \pm1.5$$
+percentage goede passes = $$ 60.3 \pm1.5$$
 
 
 # Opgave: fitten van een model aan de data
