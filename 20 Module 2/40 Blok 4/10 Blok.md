@@ -44,9 +44,9 @@ als je de parameters respectievelijk kleiner en groter maakt.
 
 In onderstaand voorbeeld 
 
-a|b|c
-d|e|f
-
+x-waarde:     |a|b|c
+y-waarde:|d|e|f
+fout op y:| 
 
 
 ![](FitExampleCombined.png)
