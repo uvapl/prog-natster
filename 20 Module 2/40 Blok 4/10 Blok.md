@@ -39,15 +39,17 @@ Hoewel we hier aannemen dat de fout in $$\alpha$$ symmetrisch is hoeft dat niet 
 Evalueer dus altijd de negatieve en positieve fout afzonderlijk door te kijken hoe de $$\chi^2$$ verandert 
 als je de parameters respectievelijk kleiner en groter maakt.
 
+# Voorbeeld fit: de fractie goede passes van Wesley Sneijder
 
-# Voorbeeld fit
+Iemand heeft heel keurig de fractie goede passes (y-waarde) bepaald die Wesley Sneijder heeft gegeven 
+tijdens de verschillende wedstrijden (x-waarde) tijdens de kwalificatie voor het WK voetbal. Omdat 
+de nauwkeurigheid waarmee de fractie goede passes bepaald wordt afhangt van het aantal passes in een 
+wedstrijd is de fout op de fractie goede passes niet in elke wedstrijd constant.
 
-In onderstaand voorbeeld 
 
-x-waarde:     |a|b|c
-y-waarde:|d|e|f
-fout op y:| 
-
+wedstrijdnummer (x)     |  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 
+$$f_{goed}$$ (y)        | 55 | 50 | 39 | 58 | 54 | 57 | 78 | 66 | 62 | 82 
+$$\sigma$$ (fout op y)  |  5 |  4 |  9 |  4 |  5 |  5 |  7 |  3 |  6 | 6
 
 ![](FitExampleCombined.png)
 
