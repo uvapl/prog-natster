@@ -65,8 +65,8 @@ We gaan verschillende waardes van $$c$$ proberen en rekenen voor elke de $$\chi^
 als hypothese $$c=56%% nemen dan hoort daar de volgende $$\chi^2$$ bij:
 
 $$
-\tiny
    \chi^2(c=56)~=~    
+   \tiny{
    \left( \frac{(55-56)}{5} \right)^2
    \left( \frac{(50-56)}{4} \right)^2
    \left( \frac{(39-56)}{9} \right)^2
@@ -77,6 +77,7 @@ $$
    \left( \frac{(66-56)}{3} \right)^2
    \left( \frac{(62-56)}{6} \right)^2
    \left( \frac{(82-56)}{6} \right)^2
+   }
    ~=~47.07
 $$
 
