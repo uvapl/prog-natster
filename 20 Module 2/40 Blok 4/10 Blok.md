@@ -80,6 +80,7 @@ $$
    \left( \frac{(82-56)}{6} \right)^2
    }\\
    &=&47.07
+\end{eqnarray}
 $$
 
 
