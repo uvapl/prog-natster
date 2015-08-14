@@ -64,21 +64,18 @@ de data het best en welke onzekerheid moeten we aan die schatting toekennen ?*
 We gaan verschillende waardes van $$c$$ proberen en rekenen voor elke de $$\chi^2$$ uit. Als we bijvoorbeeld 
 als hypothese $$c=56%% nemen dan hoort daar de volgende $$\chi^2$$ bij:
 
-$$ \chi^2(c=56)~=~ \left(\frac{(55-56)}{5} \right) $$
-
-s
-
 $$
-   \chi^2(c=56)~=~    \left( \frac{(55-56)}{5} \right)^2
-   \left{ \frac{(50-56)}{4} \right}^2
-   \left{ \frac{(39-56)}{9} \right}^2
-   \left{ \frac{(58-56)}{4} \right}^2
-   \left{ \frac{(54-56)}{5} \right}^2
-   \left{ \frac{(57-56)}{5} \right}^2
-   \left{ \frac{(78-56)}{7} \right}^2
-   \left{ \frac{(66-56)}{3} \right}^2
-   \left{ \frac{(62-56)}{6} \right}^2
-   \left{ \frac{(82-56)}{6} \right}^2
+   \chi^2(c=56)~=~    
+   \left( \frac{(55-56)}{5} \right)^2
+   \left( \frac{(50-56)}{4} \right)^2
+   \left( \frac{(39-56)}{9} \right)^2
+   \left( \frac{(58-56)}{4} \right)^2
+   \left( \frac{(54-56)}{5} \right)^2
+   \left( \frac{(57-56)}{5} \right)^2
+   \left( \frac{(78-56)}{7} \right)^2
+   \left( \frac{(66-56)}{3} \right)^2
+   \left( \frac{(62-56)}{6} \right)^2
+   \left( \frac{(82-56)}{6} \right)^2
    ~=~47.07
 $$
 
