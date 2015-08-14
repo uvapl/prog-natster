@@ -65,7 +65,8 @@ We gaan verschillende waardes van $$c$$ proberen en rekenen voor elke de $$\chi^
 als hypothese $$c=56$$ nemen dan hoort daar de volgende $$\chi^2$$ bij:
 
 $$
-   \chi^2(c=56)~=~    
+\begin{eqnarray}
+   \chi^2(c=56)&=&    
    \tiny{
    \left( \frac{(55-56)}{5} \right)^2
    \left( \frac{(50-56)}{4} \right)^2
@@ -78,7 +79,7 @@ $$
    \left( \frac{(62-56)}{6} \right)^2
    \left( \frac{(82-56)}{6} \right)^2
    }\\
-   ~=~47.07
+   &=&47.07
 $$
 
 
