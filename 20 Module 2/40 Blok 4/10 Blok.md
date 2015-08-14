@@ -47,9 +47,9 @@ de nauwkeurigheid waarmee de fractie goede passes bepaald wordt afhangt van het 
 wedstrijd is de fout op de fractie goede passes niet in elke wedstrijd constant.
 
 
-wedstrijdnummer (x)     |  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 
-$$f_{goed}$$ (y)        | 55 | 50 | 39 | 58 | 54 | 57 | 78 | 66 | 62 | 82 
-$$\sigma$$ (fout op y)  |  5 |  4 |  9 |  4 |  5 |  5 |  7 |  3 |  6 | 6
+wedstrijdnummer (x)     |  1 ||  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 
+$$f_{goed}$$ (y)        | 55 || 50 | 39 | 58 | 54 | 57 | 78 | 66 | 62 | 82 
+$$\sigma$$ (fout op y)  |  5 ||  4 |  9 |  4 |  5 |  5 |  7 |  3 |  6 | 6
 
 ![](FitExampleCombined.png)
 
