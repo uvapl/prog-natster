@@ -102,7 +102,9 @@ Schrijf een programma dat het bovenstaande resultaat verifieert.
 
 a) Maak een plot van deze data met fouten
   
-   Computing tip: gebruik de functie `plt.errorbar(x,y, yerr=yerror)`. Zoek op internet op hoe dit precies werkt.
+   Computing tip: gebruik de functie `plt.errorbar(x,y, yerr=yerror)`. 
+   
+   Zoek op internet op hoe je deze functie moet gebruiken.
 
 b) Bereken de beste waarde van c en de bijbehorende onzekerheid $$\Delta_c$$
 
