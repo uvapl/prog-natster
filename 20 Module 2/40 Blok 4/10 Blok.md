@@ -33,7 +33,7 @@ $$\alpha$$ waarbij de $$\chi^2$$ precies 1 unit toeneemt en $$\alpha_{best}$$ no
 
 Het resultaat van je fit presenteer je dan als volgt:
 
-$$\alpha = \alpha_{best} \pm \Delta_{\alpha}$$
+$$\alpha = \alpha_{best} \pm \Delta_{alpha}$$
 
 Hoewel we hier aannemen dat de fout in $$\alpha$$ symmetrisch is hoeft dat niet altijd het geval te zijn. 
 Evalueer dus altijd de negatieve en positieve fout afzonderlijk door te kijken hoe de $$\chi^2$$ verandert 
@@ -41,7 +41,12 @@ als je de parameters respectievelijk kleiner en groter maakt.
 
 
 # Voorbeeld fit
+
 In onderstaand voorbeeld 
+
+a|b|c
+d|e|f
+
 
 
 ![](FitExampleCombined.png)
