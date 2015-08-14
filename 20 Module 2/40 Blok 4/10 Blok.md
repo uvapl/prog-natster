@@ -21,13 +21,11 @@ Hierbij is $$\vec{\alpha}$$ de vector met de parameters die je gebruikt in je mo
 Voor elke keuze van de parameters je model verandert de afstand van elk meetpunt tot je model en krijg je 
 dus een nieuwe $$\chi^2$$.
 
-## De beste waarde van je model: $$\alpha_{best}$$
+## De beste waarde van je model ($$\alpha_{best}$$) en de onzekerheid daarop ($$\Delta_{alpha}$$)
 
 In de fitprocedure zoeken we naar de waarde van de parameters in je model die de kleinste $$\Chi^2$$ opleveren. 
 Dat zijn namelijk de 'beste' waardes van het model omdat met die waarde van de parameters je model de data het 
 best beschrijft.
-
-## De onzekerheid op $$\alpha_{best}$$: $$\Delta_{alpha}$$
 
 Elke waarde van je parameters die anders is dat $$\alpha_{best}$$ zal de waarde van de $$\Chi^2$$ veranderen 
 (die wordt groter wat een slechtere overeenkomst met de data betekent). De waarde van de $$\alpha$$ waarbij 
