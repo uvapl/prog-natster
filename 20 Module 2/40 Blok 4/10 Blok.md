@@ -26,6 +26,14 @@ Het resultaat van je fit presenteer je dan als volgt
 In onderstaand voorbeeld 
 
 
+
+
+![](FitExampleCombined.png)
+
+
+
+
+
 # Opgave: fitten van een model aan de data
 
 

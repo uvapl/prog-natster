@@ -14,7 +14,7 @@ Stap 1) Definieer rechthoek dat het integratiegebied omsluit
 Definieer een gebied (vaak een rechthoek) dat het de integraalregio omsluit. Kies dus 
 een  $$x_{min}$$, $$x_{max}$$, $$y_{min}$$ en $$y_{max}$$ zodanig dat geldt 
 
-  - $$x_{min} \leq a$$ en $$x_{max} \geq b$$ en dat:
+  - $$x_{min} \leq a$$ en $$x_{max} \geq b$$
 
   - voor $$a \leq x \leq b$$ : $$y_{min} \leq f(x)  \leq y_{max}$$
 
