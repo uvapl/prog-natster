@@ -6,14 +6,12 @@ In deze week zullen we twee concepten aanpakken uit de wiskunde en natuurkunde w
   - Numeriek integreren:       
     Hoe berekent een computer een integraal die niet analytisch oplosbaar is ?	We zullen dit op 2 verschillende manieren doen: de Riemannsom en de Monte Carlo methode 
 
-  - Model fitten:
-    Hoe bepaal je de parameters in een model nadat je een set metingen hebt gedaan en wat is de onzekerheid op die schatting ?
-
 Elk van deze onderwerpen is ondergebracht in een aparte module waarin we steeds in een stuk tekst en een korte film het concept uitleggen. Naast de nieuwe wiskunde/natuurkunde concepten zijn er ook twee nieuwe programmeer-functionaliteit die je moet leren gebruiken: 
 
    - gebruik van de `arange()` functie uit de numpy bibliotheek
    - manipuleren en gebruik van *random getallen*
    - het printen van reeele getallen
+   - Het visualiseren van data met behulp van een frequentie distributie (histogram)
 
 ## [1] Het printen van reele getallen
 
@@ -122,7 +120,6 @@ Tien random getallen onder elkaar doe je dus als volgt:
        x = random.random()
        print x
 
-
 ###  bouwen met bouwstenen
 
 Als de computer een random getal tussen 0 en 1 kan produceren kan je die zelf transformeren in een random getal tussen een getal a en b.
@@ -169,6 +166,49 @@ Dit is een typisch voorbeeld van een duidelijk en simpel probleem dat analytisch
 ### Tip: bedenk van tevoren welk antwoord je verwacht
 Net zoals je bij een gewone natuurkunde of wiskunde opgave is het belangrijk om vooraf een schattimng te maken van de uitkomst zodat je een duidelijk verkeerd antwoord gelijk herkent. Wat denk je dat het antwoord moet zijn ? Als je programma klaar is kan je ook heel makkelijk de gemiddelde afstand in een vierkant van 2x2 uitrekenen. Wat denk je ? Is dat 'gewoon' 2 keer zo groot als je antwoord bij het 1x1 vierkant .... of is het misschien $$x^2$$ keer zo groot ... of juist $$\sqrt{2}$$ ? 
 
+
+# [4] Visualisatie van data: histogrammen
+
+Een grafiek tekenen zoals in Module 1 is een van de manieren om data te visualiseren. Het is niet altijd de meest logische manier om data te representeren. Als de Volkskrant bijvoorbeeld een grafiek maakt van de lengte van iedereen in Nederland dan gebruiken ze een zogenaamd `histogram` (staafdiagram of frequentiedistributie) waarbij een deel van de data gegroepeerd wordt. Er wordt bijvoorbeeld bijgehouden hoeveel (procent van de) mensen een lengte hebben in een bepaald interval, bijvoorbeeld tussen 160 en 165 cm, maar ook in de gebieden 165-170, 170-175 etc etc. Die manier om de data te representeren geeft gelijk een goed beeld. 
+
+In Python gebruik je daarvoor de optie `plt.hist` om de data te groeperen en laat het dan pas zien mbv `plt.show()`. je kunt bij het groeperen opgeven in hoeveel stukjes (bins) je de data op wilt delen. 
+
+
+### voorbeeld: distributie van 10.000 random getallen
+
+Het idee van een random getal is dat het uniform verdeeld is tussen 0 en 1. Om een indruk te kijken of de verdeling inderdaad 'vlak' is kunnen we van 10.000 random getallen kijken wat de frequentie is van de getallen die gegenereerd zijn. 
+
+Hieronder een klein programma dat eerst 10.000 random getallen genereert en ze in een lijst stopt. Bij het commando `plt.hist()` wordt opgegeven dat we de frequentie willen bepalen van getallen in gebieden van 0.02 (immers 50 bins tussen de minimale en maximale waarde die we verwachten: 0.00 en 1.00).
+
+    import matplotlib.pyplot as plt
+    from pylab import plot,hist, show,ylim, xlim,ylabel,xlabel,text
+
+    #--/ lijst waar je de random getallen in bewaart
+    L_random_getallen = []
+    
+    #--/ genereer 10.000 random getallen
+    n = 10000
+    for i_getal in range(n):
+        getal = random()          
+        L_random_getallen.append(getal)
+    
+     #--/ plot de frequentie-distributie (50 bins)
+     plt.xlim(-0.1,1.1)
+     plt.hist(L_random_getallen,bins=50)
+     plt.show()
+       
+
+![](HistogramExample.png)
+
+Note: de extra optie `xlim` gebruiken we hier om te laten zien dat er geen getallen buiten het interval 0.00-1.00 zijn gegenereerd. Kijk in de documentatie op het web welke opties er allemaal zijn om het histogram de vorm te geven die jij wilt: relevant aantal bins, kleur, asbijschriften, legenda, tekst, etc etc.
+
+# Opgave 3: distributie van de som van een groepje random getallen
+
+Dat de random getallen zelf keurig uniform tussen 0 en 1 verdeeld zijn hebben we net gezien, maar hoe zit het eigenlijk met de verdeling van de som van 100 random getallen ? Als we een 'experiment' doen waarbij we 100 random getallen getallen genereren en bij elkaar optellen zal daar gemiddeld 50 uitkomen (omdat het gemiddelde getal 0.5 is), maar voor een individueel experiment is dat zelden precies 50 natuurlijk. De vraag is nou: hoe vaak vind je toevallig dat de som minder is dat 40 ? En komt dat evenveel voor als het aantal experimenten waarbij de som meer dan 60 is ? 
+
+Schrijf een programma `SomRandomGetallen()` dat de distributie weergeeft van 10.000 experimenten. Teken de resultaten tussen x=30 en x = 70.
+
+Genereer voor elk 'experiment' 100 random getallen en reken de som daarvan uit. Herhaal dit 10.000 keer en bewaar voor elk van de experimenten de som in een lijst. Maak uiteindelijk een frequentie-distributie (histogram) van de verdeling. Schrijf ook naar het scherm wat het percentage (in procent) van de  experimenten is waarbij de som respectievelijk minder dan 40 en meer dan 60 is.     
 
 
 

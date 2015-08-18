@@ -60,17 +60,24 @@ In 'echte' toepassingen wordt voor efficientie maximalisatie de box zo gekozen d
   - specifiek voor Monte Carlo: bij 'negatieve' integratieregio's de gebieden splitsen
 
 
-
 # Opgaves
 
-## opgave 1: $$\int_{0}^{1}x^x dx$$
+## opgave 7: $$\int_{0}^{1}x^x dx$$
 Hint: test je functie door te testen of je programma de integraal $$\int_{0}^{1}x^2 dx$$ goed voorspelt
 
-## opgave 2: $$\int_{0.1}^{2} sin(x) dx$$
+## opgave 8: $$\int_{0.1}^{2} sin(x) dx$$
 Hint: test je functie door te testen of je programma de integraal $$\int_{0}^{\pi}sin(x) dx$$ goed voorspelt
 
-## opgave 3: $$\int_{0}^{\pi} sin(x^2) dx$$
+## opgave 9: $$\int_{0}^{\pi} sin(x^2) dx$$
 Hint: Let goed op wat je doet met de negatieve integratieregio's. Het is handig om de oppervlakte van die gebieden zelfstandig te evalueren.
+
+# Opgave 10: het Twitter-ei
+Schrijf een programma `TwitterEi()` dat de integraal van het Twitter-Ei berekent. Teken de 'slechte' punten op het scherm zodat je een figuur krijgt dat op het standaard figuur lijkt. 
+
+![](TwitterEiCombi.png)
+
+Bewaar na elke 100 punten dat je gooit de schatting van de integraal op dat moment en teken aan het eind van je programma ook de verdeling van de schatting van de integraal als functie van het aantal punten dat je gegooit hebt. Hopelijk zie je dat het antwoord convergeert en dat je een betere schatting krijgt naarmate je meer punten gooit.
+
 
 
 

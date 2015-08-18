@@ -49,13 +49,13 @@ NHet is mogelijk de evaluatie van de integraal te verbeteren door niet te uit te
 
 # Opgaves
 
-## opgave 1: $$\int_{0}^{1}x^x dx$$
+## opgave 4: $$\int_{0}^{1}x^x dx$$
 Hint: test je functie door te testen of je programma de integraal $$\int_{0}^{1}x^2 dx$$ goed voorspelt
 
-## opgave 2: $$\int_{0.1}^{2} sin(x) dx$$
+## opgave 5: $$\int_{0.1}^{2} sin(x) dx$$
 Hint: test je functie door te testen of je programma de integraal $$\int_{0}^{\pi}sin(x) dx$$ goed voorspelt
 
-## opgave 3: $$\int_{0}^{\pi} sin(x^2) dx$$
+## opgave 6: $$\int_{0}^{\pi} sin(x^2) dx$$
 
 
 
