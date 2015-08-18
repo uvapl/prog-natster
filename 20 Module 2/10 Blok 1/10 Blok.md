@@ -122,7 +122,6 @@ Tien random getallen onder elkaar doe je dus als volgt:
        x = random.random()
        print x
 
-
 ###  bouwen met bouwstenen
 
 Als de computer een random getal tussen 0 en 1 kan produceren kan je die zelf transformeren in een random getal tussen een getal a en b.
@@ -170,7 +169,43 @@ Dit is een typisch voorbeeld van een duidelijk en simpel probleem dat analytisch
 Net zoals je bij een gewone natuurkunde of wiskunde opgave is het belangrijk om vooraf een schattimng te maken van de uitkomst zodat je een duidelijk verkeerd antwoord gelijk herkent. Wat denk je dat het antwoord moet zijn ? Als je programma klaar is kan je ook heel makkelijk de gemiddelde afstand in een vierkant van 2x2 uitrekenen. Wat denk je ? Is dat 'gewoon' 2 keer zo groot als je antwoord bij het 1x1 vierkant .... of is het misschien $$x^2$$ keer zo groot ... of juist $$\sqrt{2}$$ ? 
 
 
+# [4] Visualisatie van data: histogrammen
 
+Een grafiek tekenen zoals in Module 1 is een van de manieren om data te visualiseren. Het is niet altijd de meest logische manier om data te representeren. Als de Volkskrant bijvoorbeeld een grafiek maakt van de lengte van iedereen in Nederland dan gebruiken ze een zogenaamd `histogram` (staafdiagram of frequentiedistributie) waarbij een deel van de data gegroepeerd wordt. Er wordt bijvoorbeeld bijgehouden hoeveel (procent van de) mensen een lengte hebben in een bepaald interval, bijvoorbeeld tussen 160 en 165 cm, maar ook in de gebieden 165-170, 170-175 etc etc. Die manier om de data te representeren geeft gelijk een goed beeld. 
+
+In Python gebruik je daarvoor de optie `plt.hist` om de data te groeperen en laat het dan pas zien mbv `plt.show()`. je kunt bij het groeperen opgeven in hoeveel stukjes (bins) je de data op wilt delen. 
+
+
+### voorbeeld: distributie van 10.000 random getallen
+
+Het idee van een random getal is dat het uniform verdeeld is tussen 0 en 1. Om een indruk te kijken of de verdeling inderdaad 'vlak' is kunnen we van 10.000 random getallen kijken wat de frequentie is van de getallen die gegenereerd zijn. 
+
+Hieronder een klein programma dat eerst 10.000 random getallen genereert en ze in een lijst stopt. Bij het commando `plt.hist()` wordt opgegeven dat we de frequentie willen bepalen van getallen in gebieden van 0.02 (immers 50 bins tussen de minimale en maximale waarde die we verwachten: 0.00 en 1.00).
+
+    import matplotlib.pyplot as plt
+    from pylab import plot,hist, show,ylim, xlim,ylabel,xlabel,text
+
+
+    L_random_getallen = []
+    
+    #--/ trek 1 10.000 random getallen
+    for i_getal in range(10000):
+        getal = random()          
+        L_random_getallen.append(getal)
+    
+     #--/ plot de frequentie-distributie (50 bins)
+     plt.xlim(-0.1,1.1)
+     plt.hist(L_random_getallen,bins=50)
+     plt.show()
+       
+
+![](HistogramExample.png)
+
+Note: de extra optie `xlim` gebruiken we hier om te laten zien dat er geen getallen buiten het interval 0.00-1.00 zijn gegenereerd. Kijk in de documentatie op het web welke opties er allemaal zijn om het histogram de vorm te geven die jij wilt: relevant aantal bins, kleur, asbijschriften, legenda, tekst, etc etc.
+
+# Opgave 3: distributie van de som van een groepje random getallen
+
+Schrijf een programma `SomRandomGetallen()` dat de
 
 
 
