@@ -73,10 +73,9 @@ Hint: Let goed op wat je doet met de negatieve integratieregio's. Het is handig 
 
 # Opgave 10: het Twitter-ei
 Schrijf een programma `TwitterEi()` dat de integraal van het Twitter-Ei berekent. De omtrek van het ei wordt gegeven door: 
-test
-$$ \sqrt{x^2+y^2} + \frac{2}{3}\sqrt{x^2+\left(\frac{5}{6}-y^2 \right)^2 }$$
+$$ \sqrt{x^2+y^2} + \frac{2}{3}\sqrt{x^2+\left(\frac{5}{6}-y \right)^2 } = 1$$
 
-Teken de 'slechte' punten op het scherm zodat je een figuur krijgt dat op het standaard figuur lijkt. 
+Teken de 'slechte' punten in het blauw op het scherm zoals in onderstaande voorbeeld.
 
 ![](TwitterEiCombi.png)
 
