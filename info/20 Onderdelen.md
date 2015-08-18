@@ -42,29 +42,8 @@ uitwerken en invullen. De bedoeling is dat je enigszins zelfstandig de
 opdrachten leert lezen en begrijpen, waarna je een oplossing kunt formuleren en
 implementeren. Elk ingeleverd programma wordt beoordeeld op de volgende factoren:
 
-* Correctness --- heb je alles geprobeerd?
-
-	1. belangrijk deel niet gedaan of teveel bugs om werkend te krijgen
-	2. moet gewijzigd om werkend te krijgen
-	3. basis staat, het werkt wel, maar niet alles afgemaakt
-	4. alles gedaan, maar niet altijd goede antwoord
-	5. werkt perfect met alle voorbeelden uit de opgave
-
-* Design --- hoe ordelijk is je code?
-
-	1. veel onnodig ingewikkelde constructies, zoals vermijden `for`-loop
-	2. ingewikkeld, maar toont kennis van mogelijkheden
-	3. ongecompliceerd, details misschien inefficiënt
-	4. goed gebruik van de mogelijkheden die te taal biedt
-	5. perfectie, je hebt erover gelezen en het uitstekend toegepast
-
-* Style --- hoe leesbaar is je code?
-
-	1. over het algemeen niet goed leesbaar
-	2. elementen uit de stijlgids zijn toegepast maar niet consistent
-	3. leesbaar en behoorlijk consistent, misschien nog een enkel probleem
-	4. helemaal consistent, inclusief afwijkingen van de stijlgids
-	5. perfectie, veel eigen principes maar volledig consistent
+* Scope --- heb je alles geprobeerd? heb je alles helemaal precies zoals in de opdracht?
+* Style --- hoe ordelijk en leesbaar is je code?
 
 Voor de berekening van het cijfer van je problem set geven we ongeveer de volgende gewichten aan je deelcijfers: correctness > design > style.
 
