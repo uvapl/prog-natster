@@ -185,11 +185,12 @@ Hieronder een klein programma dat eerst 10.000 random getallen genereert en ze i
     import matplotlib.pyplot as plt
     from pylab import plot,hist, show,ylim, xlim,ylabel,xlabel,text
 
-
+    #--/ lijst waar je de random getallen in bewaart
     L_random_getallen = []
     
-    #--/ trek 1 10.000 random getallen
-    for i_getal in range(10000):
+    #--/ genereer 10.000 random getallen
+    n = 10000
+    for i_getal in range(n):
         getal = random()          
         L_random_getallen.append(getal)
     
