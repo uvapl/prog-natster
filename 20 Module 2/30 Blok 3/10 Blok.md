@@ -72,7 +72,10 @@ Hint: test je functie door te testen of je programma de integraal $$\int_{0}^{\p
 Hint: Let goed op wat je doet met de negatieve integratieregio's. Het is handig om de oppervlakte van die gebieden zelfstandig te evalueren.
 
 # Opgave 10: het Twitter-ei
-Schrijf een programma `TwitterEi()` dat de integraal van het Twitter-Ei berekent. Teken de 'slechte' punten op het scherm zodat je een figuur krijgt dat op het standaard figuur lijkt. 
+Schrijf een programma `TwitterEi()` dat de integraal van het Twitter-Ei berekent. De omtrek van het ei wordt gegeven door: 
+$$ \sqrt{x^2+y^2} + \frac{2}{3}\sqrt{x^2+\left(\frac{5}{6}-y^2 \right)^2 }$$
+
+Teken de 'slechte' punten op het scherm zodat je een figuur krijgt dat op het standaard figuur lijkt. 
 
 ![](TwitterEiCombi.png)
 
