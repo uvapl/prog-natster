@@ -206,7 +206,13 @@ Note: de extra optie `xlim` gebruiken we hier om te laten zien dat er geen getal
 
 # Opgave 3: distributie van de som van een groepje random getallen
 
-Schrijf een programma `SomRandomGetallen()` dat de
+Dat de random getallen zelf keurig uniform tussen 0 en 1 verdeeld zijn hebben we net gezien, maar hoe zit het eigenlijk met de verdeling van de som van 100 random getallen ? Als we een 'experiment' doen waarbij we 100 random getallen getallen genereren en bij elkaar optellen zal daar gemiddeld 50 uitkomen (omdat het gemiddelde getal 0.5 is), maar voor een individueel experiment is dat zelden precies 50 natuurlijk. De vraag is nou: hoe vaak vind je toevallig dat de som minder is dat 40 ? En komt dat evenveel voor als het aantal experimenten waarbij de som meer dan 60 is ? 
+
+Schrijf een programma `SomRandomGetallen()` dat de distributie weergeeft van 10.000 experimenten. Teken de resultaten tussen x=30 en x = 70.
+
+Genereer voor elk 'experiment' 100 random getallen en reken de som daarvan uit. Herhaal dit 10.000 keer en bewaar voor elk van de experimenten de som in een lijst. Maak uiteindelijk een frequentie-distributie (histogram) van de verdeling. Schrijf ook naar het scherm wat het percentage (in procent) van de  experimenten is waarbij de som respectievelijk minder dan 40 en meer dan 60 is.     
+
+
 
 
 
