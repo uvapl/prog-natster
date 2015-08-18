@@ -6,14 +6,12 @@ In deze week zullen we twee concepten aanpakken uit de wiskunde en natuurkunde w
   - Numeriek integreren:       
     Hoe berekent een computer een integraal die niet analytisch oplosbaar is ?	We zullen dit op 2 verschillende manieren doen: de Riemannsom en de Monte Carlo methode 
 
-  - Model fitten:
-    Hoe bepaal je de parameters in een model nadat je een set metingen hebt gedaan en wat is de onzekerheid op die schatting ?
-
 Elk van deze onderwerpen is ondergebracht in een aparte module waarin we steeds in een stuk tekst en een korte film het concept uitleggen. Naast de nieuwe wiskunde/natuurkunde concepten zijn er ook twee nieuwe programmeer-functionaliteit die je moet leren gebruiken: 
 
    - gebruik van de `arange()` functie uit de numpy bibliotheek
    - manipuleren en gebruik van *random getallen*
    - het printen van reeele getallen
+   - Het visualiseren van data met behulp van een frequentie distributie (histogram)
 
 ## [1] Het printen van reele getallen
 
