@@ -9,13 +9,13 @@ In dit blok zullen we twee verschillende concepten behandelen:
 
 ## [1] Gebruik van random getallen
 
-Een zeer handige bouwsteen in computer is het random getal. In de bibliotheek `random` zit een functie `random() die een random getal produceren tussen 0 en 1
+Een zeer handige bouwsteen in computer is het random getal. In de bibliotheek `random` zit een functie `random() die een random getal produceert tussen 0 en 1 volgens. In Python gebruik je de functie als volgt:
 
     import random 
     x = random.random()
     print x
 
-Tien random getallen onder elkaar doe je dus als volgt:
+Elke keer dat je de functie aanroept zal het een nieuw getal opleveren. Tien random getallen achter elkaar doe je dus als volgt:
 
     import random 
     for i in range(1,11):
@@ -24,7 +24,7 @@ Tien random getallen onder elkaar doe je dus als volgt:
 
 ### bouwen met bouwstenen
 
-Als de computer een random getal tussen 0 en 1 kan produceren kan je die zelf transformeren in een random getal tussen een getal a en b.
+Zodra je een bouwsteen hebt kan je met behulp van logica en wiskundige manipulaties hier zelf andere objecten van bouwen. Als de computer bijvoorbeeld een random getal tussen 0 en 1 kan produceren dan kunnen we die zo omschrijven dat het transformeert in een random getal tussen een getal a en b.
 
 Voorbeeld: tien random getallen tussen 0 en 2
 
@@ -34,20 +34,27 @@ Voorbeeld: tien random getallen tussen 0 en 2
        y = 2*x
        print y
 
-
 # Opgave 1: 10 random getallen tussen a en b
 
-Schrijf een programma dat 10 random getallen op het scherm print tussen *a* en *b* waarbij je de waardes van a en b zelf kan kiezen.
+Schrijf een programma dat 10 random getallen op het scherm print tussen *a* en *b* waarbij je de waardes van a en b zelf kan kiezen en een aparte functie de transformatie uitvoert.
 
     import random 
+
+    #--/ functie die een random getal produceert tussen a en b
+    def MijnNieuweRandomGetal(a,b):
+     
+         getal = <hier jouw code>           
+
+         return getal
+     
+    #--/ main code
     a = 2
 	b = 3 
     for i in range(1,11):
-       x = random.random()
-       <schrijf hier jouw code>
-       print y
+       x = MijnRandomGetal(a,b)
+       print x
 
-Bekijk goed het voorbeeld hierboven waarbij we een random getal tussen 0 en 2 maakten en probeer eerst uit te vinden hoe je een random getal tussen de -1 en +1 zou kunnen maken. Daarna kan je dat abstract programmeren naar een algemene *a* en *b* als begin en eidwaardes van het interval waarbinnen je random getallen wilt gebruiken.
+Bekijk goed het voorbeeld hierboven waarbij we een random getal tussen 0 en 2 maakten en probeer eerst uit te vinden hoe je een random getal tussen de -1 en +1 zou kunnen maken. Daarna kan je dat abstract programmeren naar een algemene *a* en *b* als begin en eindwaardes van het interval waarbinnen je random getallen wilt gebruiken.
 
 
 #  Opgave 2: gemiddelde afstand tussen 2 punten in een vierkant
