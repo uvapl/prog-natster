@@ -22,13 +22,10 @@ Bereken voor elke nieuw stapje in de tijd en in deze volgorde:
 Je hebt dan een nieuwe positie en snelheid gekregen en je kan vervolgens een stapje in de tijd maken en deze cyclus herhalen.
 
 
-### Laat je programma: 
-
-   * print na hoeveel seconden de appel de gron raakt.
-
-### 1b) Laat je programma printen met welke snelheid hij de grond raakt.
-
-### opdracht 1c) Laat je programma printen na hoeveel seconden de appel een snelheid van 100 km/uur heeft behaald. Is een vallende appel eerder bij 100 km/uur dan een Formule 1 auto of niet ?
+### 1a) Na hoeveel seconden raakt de appel de grond
+### 1b) Met welke snelheid raakt de appel de grond
+### 1c) Na hoeveel seconden heeft de appel een snelheid van 100 km/uur bereikt ?
+Is een vallende appel eerder bij 100 km/uur dan een Formule 1 auto of niet ?
 
 
 # Opgave 2: vrije val van base jumpers
