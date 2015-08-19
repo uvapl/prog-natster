@@ -14,10 +14,8 @@ Bereken voor elke nieuw stapje in de tijd
 
   - a) de kracht die er op de appel werkt (F)
   - b) de versnelling die de appel daardoor krijgt (a)
-  - c) de nieuwe snelheid die de appel daardoor krijgt (v)    
-       Gebruik: $$v_{\rm nieuw} = v + a \Delta t$$
-  - d) de nieuwe positie van de appel (v)
-       Gebruik: $$x_{\rm nieuw} = x + v \Delta t$$
+  - c) de nieuwe snelheid die de appel daardoor krijgt (v). Gebruik: $$v_{\rm nieuw} = v + a \Delta t$$
+  - d) de nieuwe positie van de appel (v). Gebruik: $$x_{\rm nieuw} = x + v \Delta t$$
 
 Je hebt dan een nieuwe positie en snelheid gekregen en je kan vervolgens een stapje in de tijd maken en deze cyclus herhalen.
 
