@@ -43,7 +43,8 @@ Schrijf een programma `BaseJump.py` die ook de luchtweerstand meeneemt. Volg dez
 ### a) Maak een grafiek van de snelheid als functie van de tijd
 Print op het scherm de maximale snelheid die de base-jumper bereikt.
 
-### b) Maak een grafiek van de hoogte als functie van de tijd. Teken 2 lijnen in dezelfde figuur: in het groen/blauw de situatie als we luchtweerstand wel/niet verwaarlozen.
+### b) Maak een grafiek van de hoogte als functie van de tijd. 
+Teken 2 lijnen in dezelfde figuur: in het groen/blauw de situatie als we luchtweerstand wel/niet verwaarlozen.
     
 ### c) Op 100 meter moet de base jumper zijn parachute opengooien. Hoeveel langer heeft de base-jumper om te genieten van de vrije val dankzij de luchtweerstand ?
 
