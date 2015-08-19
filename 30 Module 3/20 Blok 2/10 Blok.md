@@ -2,7 +2,7 @@
 # Simulaties
 
 
-![](Gravity.png)
+![](GravityOverzicht.png)
 
 ![](Freefall.png)
 
