@@ -1,20 +1,20 @@
 
-# Bouwstenen van deze week
+# Opzet en doel van Module 2
 
-In deze week zullen we twee concepten aanpakken uit de wiskunde en natuurkunde waarbij de coputer een essentiele rol speelt:
+In deze module zullen we een aantal nieuwe concepten behandelen en die gebruiken om een aantal problemen uit de wiskunde en natuurkunde aan te pakken.
 
   - Numeriek integreren:       
-    Hoe berekent een computer een integraal die niet analytisch oplosbaar is ?	We zullen dit op 2 verschillende manieren doen: de Riemannsom en de Monte Carlo methode 
+    Hoe berekent een computer een integraal die niet analytisch oplosbaar is ?	We zullen dit op 2 verschillende manieren doen: de Riemannsom (blok 3)en de Monte Carlo methode (blok 4).
 
 Elk van deze onderwerpen is ondergebracht in een aparte module waarin we steeds in een stuk tekst en een korte film het concept uitleggen. Naast de nieuwe wiskunde/natuurkunde concepten zijn er ook twee nieuwe programmeer-functionaliteit die je moet leren gebruiken: 
 
-   - gebruik van de `arange()` functie uit de numpy bibliotheek
-   - gebruik van functies
-   - manipuleren en gebruik van *random getallen*
+   - gebruik van functies (Module 1)
    - het printen van reeele getallen
+   - gebruik van de `arange()` functie uit de numpy bibliotheek
+   - manipuleren en gebruik van *random getallen* (Module 2)
    - Het visualiseren van data met behulp van een frequentie distributie (histogram)
    
-
+   
 ## [1] Het printen van reele getallen
 
 We hebben geleerd dat je een geheel getal als volgt print:
@@ -105,12 +105,41 @@ Als je bijvoorbeeld de getallen van 2 tot 3 op het scherm wilt printen in stapje
 
 In het laatste voorbeeld zal het getal 2.0 wel, maar het getal 3.0 niet op het scherm geprint worden. In een van de opgaves zal je wel degelijk het eindpunt moeten gebruiken. Let daarop. Probeer bovenstaande voorbeeld iets aan te passen zodat het eindpunt wel degelijk geprint wordt 		  
 		 
-
-
-
 # Functies
 
+Bij het programmeren zal je vaak merken je een stuk code kan (of moet) hergebruiken. Zo'n stuk code kan je in een apart stuk van je programma onderbrengen als aparte entiteit. De 'echte' code wordt zo een stuk overzichtelijker en je kan dat aparte stukje functionaliteit (een functie) vervolgens ook gebruiken in andere programma's die je gaat schrijven.
 
-sclkhsdv
+In je hoofdcode kan je een functie vervolgens vragen een opdracht uit te voeren. Hoewel het niet noodzakelijk is heeft zo'n stuk code heet een functie en heeft altijd een input (de variabelen waar hij iets mee moet doen) en een output (het resultaat van zijn werk). De manier waarop je een functie definieert en input en output manipuleert worden hopelijk duidelijk in onderstaande voorbeelde. Als je meer wilt weten kan je dat XXX vinden
+
+### voorbeeld functies [a]: kwadraat
+
+Als je van de getallen van 1 tot en met 20 de getallen zelf en hun kwadraten op het scherm wilt printen kan je gebruik maken van de 
+
+
+    import math
+
+    for x in range(1,21):
+        x_kwadraat = math.pow(x,2) 
+        print " %d in het kwadraat = %d" % (x, x_kwadraat) 
+   
+
+
+
+### voorbeeld functies [b]: het grootste getal
+
+
+### voorbeeld functies [c]: lijsten als input en return values
+
+
+
+
+
+
+
+
+
+
+
+
 
 
