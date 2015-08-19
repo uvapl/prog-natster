@@ -2,8 +2,8 @@
 # Simulaties
 
 
-![](Gravity.gif)
+![](Gravity.png)
 
-![](Freefall.gif)
+![](Freefall.png)
 
-![](EarthHole.gif)
+![](EarthHole.png)
