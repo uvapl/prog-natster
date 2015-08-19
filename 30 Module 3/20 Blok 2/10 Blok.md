@@ -61,11 +61,11 @@ Schrijf een programma die de beweging van de appel door de aarde heen beschrijft
 
 ### Tips:
    - verwaarloos luchtweerstand in deze opgave
-   - de effectieve massa van de aarde (als je in de aarde zelf bent) is 
-     de massa van de bol die gegeven is door de straal waar jij zelf bent.
+   - de effectieve massa van de aarde, de massa 'die aan je trekt' is
+     wordt kleiner naarmate je dichter bij het centrum komt.
      Dus: als de aarde $$M_{\rm aarde}$$ weegt en je 50% van de afstand tot het
      centrum van de aarde hebt afgelegd 'weegt' de aarde in de formule van
-     Newton nog maar $$\left)\frac{1}{2}\right)^3M_{\rm aarde}$$ maar de
+     Newton nog maar $$\left(\frac{1}{2}\right)^3M_{\rm aarde}$$ maar de
      volledige massa van de aarde.
    - Neem aan dat de aarde een bol met constante dichtheid is.
    
