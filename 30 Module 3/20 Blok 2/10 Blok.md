@@ -21,14 +21,20 @@ Bereken voor elke nieuw stapje in de tijd en in deze volgorde:
 
 Je hebt dan een nieuwe positie en snelheid gekregen en je kan vervolgens een stapje in de tijd maken en deze cyclus herhalen.
 
+Tip:
+
+  - Gebruik bovenstaande formule en start de appel dus op x = $${\rm R_{earth}}$$ + 100 meter. Als je wilt weten hoe hoog de appel is, de grootheid die je iets zegt en die je ook in de plots gebruikt, gebruik dan h = x - $${\rm R_{earth}}$$.
+- Let goed op het teken van de krachten en snelheden. je begint bij positieve $$x$$ en beweegt dan naar $$x=0$$ toe.
+- In dit voorbeeld kan je de antwoorden ook zelf uitrekenen met behulp van pen en papier.
+
 Zorg dat de volgende grootheden bepaald worden en op het scherm weergegeven worden aan het eind van je programma:
 
 ### a) Na hoeveel seconden raakt de appel de grond ?
 
-### b) Met welke snelheid raakt de appel de grond ?
+### b) Met welke snelheid (km/uur) raakt de appel de grond ?
 
 ### c) Na hoeveel seconden heeft de appel een snelheid van 100 km/uur bereikt ?
-bereikt een vallende appel sneller de 100 km/uur dan een Formule 1 auto of niet ?
+Is een vallende appel daarmee sneller dan Bugatti Veyron (2.46 seconden) of niet ?
 
 # Opgave 2: vrije val van base jumpers
 
