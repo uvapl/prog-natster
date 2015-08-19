@@ -111,7 +111,7 @@ Bij het programmeren zal je vaak merken je een stuk code kan (of moet) hergebrui
 
 In je hoofdcode kan je een functie vervolgens vragen een opdracht uit te voeren. Hoewel het niet noodzakelijk is heeft zo'n stuk code heet een functie en heeft altijd een input (de variabelen waar hij iets mee moet doen) en een output (het resultaat van zijn werk). De manier waarop je een functie definieert en input en output manipuleert worden hopelijk duidelijk in onderstaande voorbeeld. Als je meer wilt weten kan je dat XXX vinden
 
-### voorbeeld functies [a]: kwadraat
+## [voorbeeld 1]: kwadraten berekenen
 
 Als je van de getallen van 1 tot en met 20 de getallen zelf en hun kwadraten op het scherm wilt printen kan je gebruik maken van de standaard functie uit de wiskunde bibliotheek die kan machtsverheffen `pow()`:
 
@@ -127,6 +127,7 @@ Je kan zo'n functie ook zelf schrijven natuurlijk. We zullen die `MijnKwadraatFu
         antwoord = getal*getal
         return antwoord
 
+    #--/ main code
     for x in range(1,21):
         x_kwadraat = MijnKwadraatFunctie(x) 
         print " %d in het kwadraat = %d" % (x, x_kwadraat) 
@@ -137,7 +138,7 @@ Belangrijk om hier op te merken is ook dat de naam van de variabelen in de funct
 
 Bestudeer dit voorbeeld goed en probeer zelf de naam en functionaliteit te veranderen zodat het bijvoorbeeld de derdemacht van het getal uitrekent. In dit geval lijkt het een beetje overbodig om een aparte functie te maken voor een simpele opdracht, maar je zal al snel merken dat sommige stukken code die je in een functie onderbrengt al snel vrij groot kunnen worden.
 
-### voorbeeld functies [b]: meerder input variabelen
+## [voorbeeld  2]: meerder input variabelen
 
 Je kan ook meerdere input-variabelen meegeven. Dit is bijvoorbeeld een functie die het grootste getal bepaald aan de hand van 2 getallen die meegegeven worden aan de functie. Dus 2 input variabelen en 1 output.
 
@@ -150,20 +151,36 @@ Je kan ook meerdere input-variabelen meegeven. Dit is bijvoorbeeld een functie d
         return grootste
 
 
-    #--/ hoofdcode
+    #--/ main code
     getal_1 = 126
     getal_2 = 14
     largest_number =  GrootsteGetal(getal_1, getal_2)
     print "het grootste getal = %d" % (largest_number)    
 
 
-### voorbeeld functies [c]: lijsten als input en output
+### [voorbeeld 3]: lijsten als input en output
 
 Je kan meerdere variabelen meegeven als aparte waardes zoals hierboven, maar je kan ze ook in een lijst meegeven. Daarnaast is de uitkomst van een functie niet altijd 1 enkel getal, maar kan net zo goed een rij getallen zijn of een meer complex object.
 
+In het onderstaande voorbeeld wordt in de hoofdcode een lijst met x-waardes geproduceerd waarna een functie gevraagd wordt alle bijbehorende y-waardes uit te rekenen (volgens de functie $$f(x)= 8x^2-5x+9$$) en in een lijst te stoppen zodat het op het scherm geplot kan worden.
 
+    import matplotlib.pyplot as plt
 
+    def MijnPolynoom(L_x):
+        L_y = []
+        for x in L_x:
+            y = 8*x*x-5*x+9
+            L_y.append(y)                 
+        return L_y
+ 
 
+    #--/ main code
+    L_xwaardes = [1,2,3,4,5,6]
+    L_ywaardes = MijnPolynoom(L_xwaardes)
+
+    plt.plot(L_xwaardes, L_ywaardes, 'g-')
+    plt.show()
+ 
 
 
 
