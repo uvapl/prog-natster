@@ -1,13 +1,13 @@
 # Random getallen en data visualisatie
 
+In dit blok zullen we twee verschillende concepten behandelen:
+    
+ - [1] random getallen
+
+ - [2] Het visualiseren van data met behulp van een frequentie distributie (histogram)
 
 
-
-
-
-
-
-## [3] Gebruik van random getallen
+## [1] Gebruik van random getallen
 
 Een zeer handige bouwsteen in computer is het random getal. In de bibliotheek `random` zit een functie `random() die een random getal produceren tussen 0 en 1
 
@@ -22,7 +22,7 @@ Tien random getallen onder elkaar doe je dus als volgt:
        x = random.random()
        print x
 
-###  bouwen met bouwstenen
+### bouwen met bouwstenen
 
 Als de computer een random getal tussen 0 en 1 kan produceren kan je die zelf transformeren in een random getal tussen een getal a en b.
 
@@ -69,7 +69,7 @@ Dit is een typisch voorbeeld van een duidelijk en simpel probleem dat analytisch
 Net zoals je bij een gewone natuurkunde of wiskunde opgave is het belangrijk om vooraf een schattimng te maken van de uitkomst zodat je een duidelijk verkeerd antwoord gelijk herkent. Wat denk je dat het antwoord moet zijn ? Als je programma klaar is kan je ook heel makkelijk de gemiddelde afstand in een vierkant van 2x2 uitrekenen. Wat denk je ? Is dat 'gewoon' 2 keer zo groot als je antwoord bij het 1x1 vierkant .... of is het misschien $$x^2$$ keer zo groot ... of juist $$\sqrt{2}$$ ? 
 
 
-# [4] Visualisatie van data: histogrammen
+# [2] Visualisatie van data: histogrammen
 
 Een grafiek tekenen zoals in Module 1 is een van de manieren om data te visualiseren. Het is niet altijd de meest logische manier om data te representeren. Als de Volkskrant bijvoorbeeld een grafiek maakt van de lengte van iedereen in Nederland dan gebruiken ze een zogenaamd `histogram` (staafdiagram of frequentiedistributie) waarbij een deel van de data gegroepeerd wordt. Er wordt bijvoorbeeld bijgehouden hoeveel (procent van de) mensen een lengte hebben in een bepaald interval, bijvoorbeeld tussen 160 en 165 cm, maar ook in de gebieden 165-170, 170-175 etc etc. Die manier om de data te representeren geeft gelijk een goed beeld. 
 
