@@ -1,111 +1,86 @@
-# Fitten van data en foutenbepaling 
+# Numeriek integreren [Monte Carlo methode]
 
-Om de onderliggende fenomenen van (natuurkundige) verschijnselen te achterhalen wordt data verzameld om 
-afhankelijkheden te onderzoeken. Dat kan de massa van het Higgs boson zijn, de vervaltijd van uranium, 
-maar ook het aantal kinderen in een gezin als functie van de gemiddelde lengte van de ouders. Je kan dan 
-zoeken naar een (causaal) verband: lineair, exponentieel,etc. en daarbij ook de bijbehorende parameters 
-bepalen met hun onzekerheid. Als je een goede beschrijving hebt gevonden kan je daarmee vervolgens ook 
-voorspellingen doen. Elk meetpunt komt met een onzekerheid die de precisie aangeeft waaramee een grootheid 
-gemeten is. Hoe kleiner de fout, hoe nauwkeuriger de meting en hoe 'belangrijker' hij is als je gaat kijken 
-of de meetpunten wel met je model overeenkomen. 
+Benader de integraal door gebruik te maken van random getallen. Gooi in een gebied (van bekende 
+grootte) rond de integratie regio random punten en kijk welke fractie binnen het integratiegebied 
+valt.
 
-Om de 'beste' waarde te vinden hebben we een maat (metriek) nodig die de *goedheid* van de fit beschrijft. 
-We doen dat hier met de $$\chi^2$$-maat: de som van de gemiddelde afwijking van de meetpunten tot het model 
-gewogen met hun fout. 
+### a) Het probleem: 
+Gegeven $$f(x)$$ op $$a \leq x \leq b$$, bereken $$\int_a^b f(x)~dx$$
 
-Voor elk punt bepalen we dus *hoeveel standaardafwijkingen ligt dit punt weg van mijn model/voorspelling ?*
+### b) De oplossingsstrategie
 
-$$\chi^2 = \sum_{i~ {\rm (datapunten)}}  \left(\frac{  y_i - f(x_i|\vec{\alpha}) }{\sigma_i}\right)^2$$
+Stap 1) Definieer rechthoek dat het integratiegebied omsluit
 
-Hierbij is $$\vec{\alpha}$$ de vector met de parameters die je gebruikt in je model. 
-Voor elke keuze van de parameters je model verandert de afstand van elk meetpunt tot je model en krijg je 
-dus een nieuwe $$\chi^2$$. Ter volledigheid: de $$\chi^2$$ is gewoon een getal.
+Definieer een gebied (vaak een rechthoek) dat het de integraalregio omsluit. Kies dus 
+een  $$x_{min}$$, $$x_{max}$$, $$y_{min}$$ en $$y_{max}$$ zodanig dat geldt 
 
-## De beste waarde van je model ($$\alpha_{best}$$) en de onzekerheid daarop ($$\Delta_{alpha}$$)
+  - $$x_{min} \leq a$$ en $$x_{max} \geq b$$
 
-In de fitprocedure zoeken we naar de waarde van de parameters in je model die de kleinste $$\chi^2$$ opleveren. 
-Dat zijn namelijk de 'beste' waardes van het model omdat met die waarde van de parameters je model de data het 
-best beschrijft.
+  - voor $$a \leq x \leq b$$ : $$y_{min} \leq f(x)  \leq y_{max}$$
 
-Elke waarde van je parameters die anders is dat $$\alpha_{best}$$ zal de waarde van de $$\chi^2$$ veranderen 
-(die wordt groter wat een slechtere overeenkomst met de data betekent). Het verschil tussen de waarde van de 
-$$\alpha$$ waarbij de $$\chi^2$$ precies 1 unit toeneemt en $$\alpha_{best}$$ noemen we de onzekerheid. 
+Note: in de meeste toepassingen wordt gekozen voor $$x_{min} = a$$ en $$x_{max} = b$$.
 
-Het resultaat van je fit presenteer je dan als volgt:
+Stap 2) Gooi random punten in het rechthoek
 
-$$\alpha = \alpha_{best} \pm \Delta_{alpha}$$
+Gooi een groot aantal random punten $$(x_i, y_i)$$ in het rechthoek dat het integratiegebied om sluit en 
+bekijk voor elk punt of het binnen het integratiegebied valt ('goed') of erbuiten ('fout'). Hou bij welke 
+fratie van de punten in het integratiegebied vald: $$f_{goed}$$.
 
-Hoewel we hier aannemen dat de fout in $$\alpha$$ symmetrisch is hoeft dat niet altijd het geval te zijn. 
-Evalueer dus altijd de negatieve en positieve fout afzonderlijk door te kijken hoe de $$\chi^2$$ verandert 
-als je de parameters respectievelijk kleiner en groter maakt.
+Stap 3) Bepaal de integraal
 
-# Voorbeeld fit: de fractie goede passes van Wesley Sneijder
-
-Iemand heeft heel keurig het percentage goede passes (y-waarde) bepaald die Wesley Sneijder heeft gegeven 
-tijdens de verschillende wedstrijden (x-waarde) tijdens de kwalificatie voor het WK voetbal. Omdat 
-de nauwkeurigheid waarmee het percentage bepaald wordt afhangt van het aantal passes in een 
-wedstrijd is de fout erop niet voor elke wedstrijd hetzelfde.
-
-
-wedstrijdnummer (x)     |  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 
-$$f_{goed}$$ (y)        | 55 | 50 | 39 | 58 | 54 | 57 | 78 | 66 | 62 | 82 
-$$\sigma$$ (fout op y)  |  5 |  4 |  9 |  4 |  5 |  5 |  7 |  3 |  6 | 6
-
-![](FitExampleCombined.png)
-
-De data is weergegeven in de linker plot hieronder. 
-We nemen aan dat zijn prestaties constant zijn en nemen daarom aan dat het model dat deze data het best 
-beschrijft een constante is. Ons model heeft dus maar 1 parameter: $$f(x)=c$$. De vraag is nu: 
-*welke waarde van $$c$$ beschrijft de data het best en welke onzekerheid moeten we aan die schatting toekennen ?*
-
-### uitrekenen $$\chi^2$$
-
-We gaan verschillende waardes van $$c$$ proberen en rekenen voor elke de $$\chi^2$$ uit. Als we bijvoorbeeld 
-als hypothese $$c=56$$ nemen dan hoort daar de volgende $$\chi^2$$ bij:
-
+De integraal is de fractie punten die binnen de grafiek vallen keer de oppervlakte van de totale box. 
+In het geval van een rechthoek wordt dat gegeven door :
 $$
-\begin{eqnarray}
-   \chi^2(c=56)&=&    
-   \tiny{
-   \left( \frac{(55-56)}{5} \right)^2+
-   \left( \frac{(50-56)}{4} \right)^2+
-   \left( \frac{(39-56)}{9} \right)^2+
-   \left( \frac{(58-56)}{4} \right)^2+
-   \left( \frac{(54-56)}{5} \right)^2+
-   \left( \frac{(57-56)}{5} \right)^2+
-   \left( \frac{(78-56)}{7} \right)^2+
-   \left( \frac{(66-56)}{3} \right)^2+
-   \left( \frac{(62-56)}{6} \right)^2+
-   \left( \frac{(82-56)}{6} \right)^2
-   }\\
-   &=&47.07
-\end{eqnarray}
+    \int_a^b f(x)~dx = f_{goed}~~\cdot~(x_{max}-x_{min})\cdot(y_{max}-y_{min})
 $$
 
 
-Je kan nu verschillende waardes van $$c$$ proberen en voor elk de $$\chi^2$$ berekenen. De distributie 
-is getekend in de rechterplot hierboven. Er is een duidelijk minimum zichtbaar: bij $$c=60.3$$ is de 
-$$\chi^2$$ minimaal, namelijk $$\chi^2_{min} = 38.87$$. De waarde $$c=60.3$$ beschrijft de data het best.
+## Voorbeeld: $$\int_{0}^{\pi}sin(x)~dx$$
 
-Bij het berekenen van de $$\chi^2$$ zien we dat er een gebied is $$ 58.8 < c <61.8$$ waarvoor de $$\chi^2$$ 
-minder dan 1 unit verschilt van $$\chi^2_{min}$$. De linkergrens en rechtergrens in hypotheses van $$c$$ 
-zijn beide 1.5 van  $$c_{best}$$ verwijderd. De onzekerheid op $$c$$ is dus 1.5.
+Van de functie $$sin(x)$$ weten we dat het op het domein $$0 < x < \pi$$ tussen de 0 en de 1 ingesloten ligt. We 
+definieren dan ook een box om het integratiegebied heen en 2000 random punten gegooid. Daarvan bleek 63.15% 
+(1263/2000) binnen het integratiegebied te vallen. De schatting die we maken van de integraal met behulp van 
+deze 2000 punten is dan ook: 0.6315$$\pi \approx 1.984$$. Zodra dit werkt kunnen we natuurlijk ook 1 miljoen 
+punten gooien in plaats van 2000. 
 
-Het resultaat van de fit van ons model aan de data is als volgt:
-percentage goede passes = $$ 60.3 \pm1.5$$
+![](MonteCarloExample.png)
 
 
-# Opgave: fitten van een model aan de data
+### Extra informatie:
+In 'echte' toepassingen wordt voor efficientie maximalisatie de box zo gekozen dat hij de integraal zo nauw mogelijk omsluit: grootste fractie 'goede' worpen.
 
-Schrijf een programma dat het bovenstaande resultaat verifieert.
+## Tips:
 
-a) Maak een plot van deze data met fouten
-  
-   Computing tip: gebruik de functie `plt.errorbar(x,y, yerr=yerror)`. 
-   
-   Zoek op internet op hoe je deze functie moet gebruiken.
+  - Maak altijd een plaatje van je grafiek zodat je duidelijk ziet welk gebied je aan het integreren bent.
 
-b) Bereken de beste waarde van c en de bijbehorende onzekerheid $$\Delta_c$$
+  - Maak ook een grafiek met rode en groene punten zoals in bovenstaand voorbeeld. Mocht je een fout gemaakt hebben in je logica dan zie je dat in een plaatje in 1 keer terwijl je daar anders uren naar moet zoeken in de code zelf.
 
-c) Hoe verandert het resultaat als de fout op elk van de metingen 2x zo groot wordt ?
+  - test je programma altijd op een (vergelijkbare) integraal die je wel analytisch kan uitrekenen. 
+
+  - specifiek voor Monte Carlo: bij 'negatieve' integratieregio's de gebieden splitsen
+
+
+# Opgaves
+
+## opgave 7: $$\int_{0}^{1}x^x dx$$
+Hint: test je functie door te testen of je programma de integraal $$\int_{0}^{1}x^2 dx$$ goed voorspelt
+
+## opgave 8: $$\int_{0.1}^{2} sin(x) dx$$
+Hint: test je functie door te testen of je programma de integraal $$\int_{0}^{\pi}sin(x) dx$$ goed voorspelt
+
+## opgave 9: $$\int_{0}^{\pi} sin(x^2) dx$$
+Hint: Let goed op wat je doet met de negatieve integratieregio's. Het is handig om de oppervlakte van die gebieden zelfstandig te evalueren.
+
+# Opgave 10: het Twitter-ei
+Schrijf een programma `TwitterEi()` dat de integraal van het Twitter-Ei berekent. De omtrek van het ei wordt gegeven door: 
+$$ \sqrt{x^2+y^2} + \frac{2}{3}\sqrt{x^2+\left(\frac{5}{6}-y \right)^2 } = 1$$
+
+Teken de 'slechte' punten in het blauw op het scherm zoals in onderstaande voorbeeld.
+
+![](TwitterEiCombi.png)
+
+Bewaar na elke 100 punten dat je gooit de schatting van de integraal op dat moment en teken aan het eind van je programma ook de verdeling van de schatting van de integraal als functie van het aantal punten dat je gegooit hebt. Hopelijk zie je dat het antwoord convergeert en dat je een betere schatting krijgt naarmate je meer punten gooit.
+
+
+
 
