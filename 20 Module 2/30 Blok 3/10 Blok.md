@@ -1,85 +1,67 @@
-# Numeriek integreren [Monte Carlo methode]
+# Numeriek integreren [Riemann sommatie]
 
-Benader de integraal door gebruik te maken van random getallen. Gooi in een gebied (van bekende 
-grootte) rond de integratie regio random punten en kijk welke fractie binnen het integratiegebied 
-valt.
+Een van de manieren om een integraal te evalueren is door het te schrijven als de som van kleine rechthoekjes, de Riemannsom.
 
 ### a) Het probleem: 
 Gegeven $$f(x)$$ op $$a \leq x \leq b$$, bereken $$\int_a^b f(x)~dx$$
 
 ### b) De oplossingsstrategie
+Algemeen: verdeel het interval $$(a,b)$$ in $$N$$ intervallen van gelijke lengte $$\Delta x$$ en schrijf de integraal als de som van de deel-integralen op elk van deze intervallen:
 
-Stap 1) Definieer rechthoek dat het integratiegebied omsluit
+$$ \int_a^b f(x)~dx = \sum_{i=0}^{N-1} \int_{x_i}^{x_{i+1}} f(x)~dx$$
 
-Definieer een gebied (vaak een rechthoek) dat het de integraalregio omsluit. Kies dus 
-een  $$x_{min}$$, $$x_{max}$$, $$y_{min}$$ en $$y_{max}$$ zodanig dat geldt 
+Hierbij is $$x_i$$ het hoekpunt van een van de intervallen. Er zijn $$N+1$$ hoekpunten die lopen van $$x_0$$ tot $$x_{N+1}$$.
 
-  - $$x_{min} \leq a$$ en $$x_{max} \geq b$$
+### c) Benadering hoogte elk rechthoek mbv de trapeziumregel en uitwerking integraal
 
-  - voor $$a \leq x \leq b$$ : $$y_{min} \leq f(x)  \leq y_{max}$$
+Benader nu de deel-integralen in elk van de subsecties door het voor te stellen als een rechthoek. De breedte van de rechthoek is natuurlijk 
+$$\Delta x = (x_{i+1} - x_{i})$$. Een (simpele) schatting van de hoogte van het rechthoek dat het best de integraal op dit kleine interval weergeeft is simpelweg het gemiddelde te nemen van de waarde van $$f(x)$$ op de linkerkant en de rechterkant van het interval. De integraal op het deelinterval is dan te schrijven als:
 
-Note: in de meeste toepassingen wordt gekozen voor $$x_{min} = a$$ en $$x_{max} = b$$.
+$$\int_{x_i}^{x_{i+1}} f(x)~dx = \frac{f_{i+1}+f_i}{2}~\Delta x$$
 
-Stap 2) Gooi random punten in het rechthoek
+De volledige integraal is dan te schrijven als (werk dit ook zelf uit op papier):
 
-Gooi een groot aantal random punten $$(x_i, y_i)$$ in het rechthoek dat het integratiegebied om sluit en 
-bekijk voor elk punt of het binnen het integratiegebied valt ('goed') of erbuiten ('fout'). Hou bij welke 
-fratie van de punten in het integratiegebied vald: $$f_{goed}$$.
+$$\int_a^b f(x)~dx \approx \frac{\Delta x}{2} (f_0 + 2 f_1 + 2 f_2 + ... +  2 f_{N-1} + f_N)~+~\mathcal{O}((\Delta x)^2)\\
+                       ~~ \approx \Delta~x(f_1 + f_2 + ... +  f_{N-1}) ~+~ \frac{\Delta x}{2}(f_0+f_N) $$
 
-Stap 3) Bepaal de integraal
+### d) Implementatie in Python 
+Zoals je ziet het je 'alleen' de waarde van de functie nodig op de $$N+1$$ hoekpunten van de intervallen. Zorg dat je het aantal intervallen $$(N)$$ in je programma vrij kan veranderen en bepaal aan de hand daarvan de hoekpunten $$x_i$$ en de waarde van de grafiek op elk van die hoekpunten $$f(x_i)$$. Bereken aan het eind van het programma de integraal en print het op het scherm.
 
-De integraal is de fractie punten die binnen de grafiek vallen keer de oppervlakte van de totale box. 
-In het geval van een rechthoek wordt dat gegeven door :
-$$
-    \int_a^b f(x)~dx = f_{goed}~~\cdot~(x_{max}-x_{min})\cdot(y_{max}-y_{min})
-$$
+## Voorbeeld:
 
+In de evaluatie van de integraal $$\int_{0}^{\pi}sin(x)~dx$$ hebben we het integratiegebied in $$x$$ opgedeeld in 13 gebieden van gelijke grootte. We hebben dan dus in totaal 14 x-waardes. De hoogte van elk vcan de 13 rechthoeken is het gemiddelde van de waarde aan de linkerkant en de rechterkant van het kleine integratiegebied. De uiteindelijke integraal kunnen we evalueren door de oppervlaktes van alle rechthoeken op te tellen. Let op, kan iets slimmer mbv de bovenstaande formule. Zodra dit werkt kan je natuurlijk de rechthoekjes steeds kleiner maken en in plaats van 13 1000 gebieden definieren.
 
-## Voorbeeld: $$\int_{0}^{\pi}sin(x)~dx$$
+![](RiemannExample.png)
 
-Van de functie $$sin(x)$$ weten we dat het op het domein $$0 < x < \pi$$ tussen de 0 en de 1 ingesloten ligt. We 
-definieren dan ook een box om het integratiegebied heen en 2000 random punten gegooid. Daarvan bleek 63.15% 
-(1263/2000) binnen het integratiegebied te vallen. De schatting die we maken van de integraal met behulp van 
-deze 2000 punten is dan ook: 0.6315$$\pi \approx 1.984$$. Zodra dit werkt kunnen we natuurlijk ook 1 miljoen 
-punten gooien in plaats van 2000. 
-
-![](MonteCarloExample.png)
-
-
-### Extra informatie:
-In 'echte' toepassingen wordt voor efficientie maximalisatie de box zo gekozen dat hij de integraal zo nauw mogelijk omsluit: grootste fractie 'goede' worpen.
 
 ## Tips:
 
   - Maak altijd een plaatje van je grafiek zodat je duidelijk ziet welk gebied je aan het integreren bent.
 
-  - Maak ook een grafiek met rode en groene punten zoals in bovenstaand voorbeeld. Mocht je een fout gemaakt hebben in je logica dan zie je dat in een plaatje in 1 keer terwijl je daar anders uren naar moet zoeken in de code zelf.
-
   - test je programma altijd op een (vergelijkbare) integraal die je wel analytisch kan uitrekenen. 
 
-  - specifiek voor Monte Carlo: bij 'negatieve' integratieregio's de gebieden splitsen
+  - specifiek voor Riemannnsom: Als je het interval in $$N$$ stukjes verdeeld zijn er $$N+1$$ hoekpunten.
+
+
+### Hacker uitbreiding: hogere orde (meer precieze) benaderingen}
+NHet is mogelijk de evaluatie van de integraal te verbeteren door niet te uit te gaan van de (te simpele) lineaire benadering. De *Simpsonregel* bijvoorbeeld is een parabolische benadering (let op, N=even) waarbij $$f(x)$$ op het interval $$(x_{i-1},x_{i+1})$$ wordt benaderd door een parabool door de 3 punten $$(f_{i-1},f_{i},f_{i+1})$$. Zoek op of werk zelf uit en evalueer de integralen opnieuw. Hoeveel beter is deze benadering ?
 
 
 # Opgaves
 
-## opgave 7: $$\int_{0}^{1}x^x dx$$
+## opgave 4: $$\int_{0}^{1}x^x dx$$
 Hint: test je functie door te testen of je programma de integraal $$\int_{0}^{1}x^2 dx$$ goed voorspelt
 
-## opgave 8: $$\int_{0.1}^{2} sin(x) dx$$
+## opgave 5: $$\int_{0.1}^{2} sin(x) dx$$
 Hint: test je functie door te testen of je programma de integraal $$\int_{0}^{\pi}sin(x) dx$$ goed voorspelt
 
-## opgave 9: $$\int_{0}^{\pi} sin(x^2) dx$$
-Hint: Let goed op wat je doet met de negatieve integratieregio's. Het is handig om de oppervlakte van die gebieden zelfstandig te evalueren.
+## opgave 6: $$\int_{0}^{\pi} sin(x^2) dx$$
 
-# Opgave 10: het Twitter-ei
-Schrijf een programma `TwitterEi()` dat de integraal van het Twitter-Ei berekent. De omtrek van het ei wordt gegeven door: 
-$$ \sqrt{x^2+y^2} + \frac{2}{3}\sqrt{x^2+\left(\frac{5}{6}-y \right)^2 } = 1$$
 
-Teken de 'slechte' punten in het blauw op het scherm zoals in onderstaande voorbeeld.
 
-![](TwitterEiCombi.png)
 
-Bewaar na elke 100 punten dat je gooit de schatting van de integraal op dat moment en teken aan het eind van je programma ook de verdeling van de schatting van de integraal als functie van het aantal punten dat je gegooit hebt. Hopelijk zie je dat het antwoord convergeert en dat je een betere schatting krijgt naarmate je meer punten gooit.
+
+
 
 
 
