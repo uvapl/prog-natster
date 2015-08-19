@@ -158,7 +158,7 @@ Je kan ook meerdere input-variabelen meegeven. Dit is bijvoorbeeld een functie d
     print "het grootste getal = %d" % (largest_number)    
 
 
-### [voorbeeld 3]: lijsten als input en output
+## [voorbeeld 3]: lijsten als input en output
 
 Je kan meerdere variabelen meegeven als aparte waardes zoals hierboven, maar je kan ze ook in een lijst meegeven. Daarnaast is de uitkomst van een functie niet altijd 1 enkel getal, maar kan net zo goed een rij getallen zijn of een meer complex object.
 
@@ -182,10 +182,18 @@ In het onderstaande voorbeeld wordt in de hoofdcode een lijst met x-waardes gepr
     plt.show()
  
 
+# Opgave 1: nulpunten vinden van een tweedegraads-polynoom en plotten
+
+Schrijf een programma dat een functie van de vorm $$f(x)=ax^2+bx+c$$ op het scherm plot en ook de nulpunten vindt. Het vinden van de nulpunten  (de x-waardes waarvoor geldt $$f(x)=0$$) moet in een aparte functie `Nulpunten(a,b,c)` gebeuren die als input de parameters van de polynoom meekrijgt en de 2 nulpunten in een lijst teruggeeft.
+
+Begin je programma met de waardes (a,b,c) = (1,2,-10). Die polynoom heeft namelijk 2 nulpunten.
+
+Breid je functie nu uit zodat je functie ook raad weet met polynomen die helemaal geen nulpunten hebben. In dat geval moet je nog steeds de functie op het scherm printen, maar moet er op het scherm netjes verschijnen dat deze polynoom geen nulpunten heeft.
+
+Extra: als je nog tijd over hebt kan je misschien de figuur 'mooi' te maken. Probeer bijvoorbeeld de polynoom zelf en de nulpunten duidelijk weer te geven op het scherm zoals in de figuur hieronder.
 
 
-
-
+![](PolynoomAnalyse.png)
 
 
 
