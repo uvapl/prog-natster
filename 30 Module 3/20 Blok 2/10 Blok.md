@@ -28,10 +28,15 @@ Zorg dat de volgende grootheden bepaald worden en op het scherm weergegeven word
 ### b) Met welke snelheid raakt de appel de grond ?
 
 ### c) Na hoeveel seconden heeft de appel een snelheid van 100 km/uur bereikt ?
-Is een vallende appel eerder bij 100 km/uur dan een Formule 1 auto of niet ?
-
+bereikt een vallende appel sneller de 100 km/uur dan een Formule 1 auto of niet ?
 
 # Opgave 2: vrije val van base jumpers
+
+In de vorige opgave is de luchtwrijving verwaarloosd waardoor je ook met behulp van de natuurkunde van de middelbare school de antwoorden kon controleren. We gaan nu een stuk realisme toevoegen: luchtwrijving. 
+
+De luchtweerstand die een vallend voorwerp ondervindt is evenredig met het kwadraat van de snelheid. 
+
+$$ F = \xi v^2$$, met $$ \ksi = 12$$
 
 ![](Freefall.png)
 
