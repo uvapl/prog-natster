@@ -12,11 +12,11 @@ Zorg dat je programma kleine stapjes in de tijd maakt (0.01 seconden bijv) en ho
 
 Bereken voor elke nieuw stapje in de tijd
 
-  - a) de kracht die er op de appel werkt (F)
-  - b) de versnelling die de appel daardoor krijgt (a)
-  - c) de nieuwe snelheid die de appel daardoor krijgt (v). 
+  1. de kracht die er op de appel werkt (F)
+  2. de versnelling die de appel daardoor krijgt (a)
+  3. de nieuwe snelheid die de appel daardoor krijgt (v). 
        Gebruik: $$v_{\rm nieuw} = v + a \Delta t$$
-  - d) de nieuwe positie van de appel (v). 
+  4. de nieuwe positie van de appel (v). 
        Gebruik: $$x_{\rm nieuw} = x + v \Delta t$$
 
 Je hebt dan een nieuwe positie en snelheid gekregen en je kan vervolgens een stapje in de tijd maken en deze cyclus herhalen.
