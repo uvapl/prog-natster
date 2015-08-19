@@ -107,28 +107,59 @@ In het laatste voorbeeld zal het getal 2.0 wel, maar het getal 3.0 niet op het s
 		 
 # Functies
 
-Bij het programmeren zal je vaak merken je een stuk code kan (of moet) hergebruiken. Zo'n stuk code kan je in een apart stuk van je programma onderbrengen als aparte entiteit. De 'echte' code wordt zo een stuk overzichtelijker en je kan dat aparte stukje functionaliteit (een functie) vervolgens ook gebruiken in andere programma's die je gaat schrijven.
+Bij het programmeren zal je vaak merken je een stuk code kan (of moet) hergebruiken. Zo'n stuk code kan je in een apart stuk van je programma onderbrengen als aparte entiteit. De 'echte' code wordt zo een stuk overzichtelijker en je kan dat aparte stukje functionaliteit (een functie) vervolgens ook gebruiken in andere programma's die je gaat schrijven. Een aantal functies die we al zijn tegengekomen zijn bijvoorbeeld de functie die de sinus van een getal berekent: de `in()` functie die in de wiskunde bibliotheek is ondergebracht:`math.sin()`. Zulke functies kan je zelf ook schrijven en zullen we in de opgaves vandaag gaan doen.
 
-In je hoofdcode kan je een functie vervolgens vragen een opdracht uit te voeren. Hoewel het niet noodzakelijk is heeft zo'n stuk code heet een functie en heeft altijd een input (de variabelen waar hij iets mee moet doen) en een output (het resultaat van zijn werk). De manier waarop je een functie definieert en input en output manipuleert worden hopelijk duidelijk in onderstaande voorbeelde. Als je meer wilt weten kan je dat XXX vinden
+In je hoofdcode kan je een functie vervolgens vragen een opdracht uit te voeren. Hoewel het niet noodzakelijk is heeft zo'n stuk code heet een functie en heeft altijd een input (de variabelen waar hij iets mee moet doen) en een output (het resultaat van zijn werk). De manier waarop je een functie definieert en input en output manipuleert worden hopelijk duidelijk in onderstaande voorbeeld. Als je meer wilt weten kan je dat XXX vinden
 
 ### voorbeeld functies [a]: kwadraat
 
-Als je van de getallen van 1 tot en met 20 de getallen zelf en hun kwadraten op het scherm wilt printen kan je gebruik maken van de 
-
+Als je van de getallen van 1 tot en met 20 de getallen zelf en hun kwadraten op het scherm wilt printen kan je gebruik maken van de standaard functie uit de wiskunde bibliotheek die kan machtsverheffen `pow()`:
 
     import math
 
     for x in range(1,21):
         x_kwadraat = math.pow(x,2) 
         print " %d in het kwadraat = %d" % (x, x_kwadraat) 
-   
+
+Je kan zo'n functie ook zelf schrijven natuurlijk. We zullen die `MijnKwadraatFunctie()` noemen. De functie heeft 1 input (het getal zelf) en 1 output (het getal in het kwadraat).   
+
+    def MijnKwadraatFunctie(getal):
+        antwoord = getal*getal
+        return antwoord
+
+    for x in range(1,21):
+        x_kwadraat = MijnKwadraatFunctie(x) 
+        print " %d in het kwadraat = %d" % (x, x_kwadraat) 
+
+Eerst komt dus de definitie van de functie en zijn naam. Tussen de haakjes geef je aan welke variabelen er als input beschikbaar zijn. In dit geval de variabale `getal` waarna je het antwoord uitrekent. Dit antwoord, ook een getal, wordt vervolgens 'teruggegeven' aan de gebruiker die er vervolgens in de hoofdcode weer verder mee kan werken. In dit geval wordt het antwoord van de functie in de hoofdcode in een variabele (`x-kwadraat`) gestopt en vervolgens op het scherm geprint.
+
+Belangrijk om hier op te merken is ook dat de naam van de variabelen in de functie zelf helemaal losstaat van de waarde en de naam van variabelen in de hoofdcode zelf. In de functie zelf weet het programma bijvoorbeeld niet wat `x` is. Het ius een gesloten wereld en je kan in de functie alleen werken met de variabele `getal`. 
+
+Bestudeer dit voorbeeld goed en probeer zelf de naam en functionaliteit te veranderen zodat het bijvoorbeeld de derdemacht van het getal uitrekent. In dit geval lijkt het een beetje overbodig om een aparte functie te maken voor een simpele opdracht, maar je zal al snel merken dat sommige stukken code die je in een functie onderbrengt al snel vrij groot kunnen worden.
+
+### voorbeeld functies [b]: meerder input variabelen
+
+Je kan ook meerdere input-variabelen meegeven. Dit is bijvoorbeeld een functie die het grootste getal bepaald aan de hand van 2 getallen die meegegeven worden aan de functie. Dus 2 input variabelen en 1 output.
+
+    def GrootsteGetal(a,b):
+        grootste = 0
+        if a>b:
+           grootste = a
+        else:
+           grootste = b
+        return grootste
 
 
+    #--/ hoofdcode
+    getal_1 = 126
+    getal_2 = 14
+    largest_number =  GrootsteGetal(getal_1, getal_2)
+    print "het grootste getal = %d" % (largest_number)    
 
-### voorbeeld functies [b]: het grootste getal
 
+### voorbeeld functies [c]: lijsten als input en output
 
-### voorbeeld functies [c]: lijsten als input en return values
+Je kan meerdere variabelen meegeven als aparte waardes zoals hierboven, maar je kan ze ook in een lijst meegeven. Daarnaast is de uitkomst van een functie niet altijd 1 enkel getal, maar kan net zo goed een rij getallen zijn of een meer complex object.
 
 
 
