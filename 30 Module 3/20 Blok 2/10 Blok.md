@@ -23,11 +23,11 @@ Je hebt dan een nieuwe positie en snelheid gekregen en je kan vervolgens een sta
 
 Zorg dat de volgende grootheden bepaald worden en op het scherm weergegeven worden aan het eind van je programma:
 
-### 1a) Na hoeveel seconden raakt de appel de grond ?
+### a) Na hoeveel seconden raakt de appel de grond ?
 
-### 1b) Met welke snelheid raakt de appel de grond ?
+### b) Met welke snelheid raakt de appel de grond ?
 
-### 1c) Na hoeveel seconden heeft de appel een snelheid van 100 km/uur bereikt ?
+### c) Na hoeveel seconden heeft de appel een snelheid van 100 km/uur bereikt ?
 Is een vallende appel eerder bij 100 km/uur dan een Formule 1 auto of niet ?
 
 
