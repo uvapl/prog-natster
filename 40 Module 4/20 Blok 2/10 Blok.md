@@ -12,9 +12,9 @@ is in De Bilt.
 
 Data Files: 
 
-   - Maximum temperatuur: [DeBiltTempMax.txt](http://www.nikhef.nl/ ̃ivov/Python/KlimaatData/DeBiltTempMax.txt) 
+   - Maximum temperatuur: [DeBiltTempMax.txt](http://www.nikhef.nl/̃ivov/Python/KlimaatData/DeBiltTempMax.txt) 
 
-   - Minimum temperatuur: [DeBiltTempMin.txt](http://www.nikhef.nl/ ̃ivov/Python/KlimaatData/DeBiltTempMin.txt) 
+   - Minimum temperatuur: [DeBiltTempMin.txt](http://www.nikhef.nl/̃ivov/Python/KlimaatData/DeBiltTempMin.txt) 
 
 Download de file, open ze en lees bovenin hoe de data gecodeerd is. We zien dat de 
 maximum(minimum) temperatuur op 1 januari 1901 -3.1(-6.8) ◦C was.
