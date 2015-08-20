@@ -83,9 +83,9 @@ Schrijf een programma `Tunnel.py` die de beweging van de appel door de aarde hee
    
 ### a) Maak een grafiek van de snelheid van de appel als functie van de tijd
 
-### b) Maak een grafiek van de positie ( als functie van de tijd
+### b) Maak een grafiek van de positie als functie van de tijd
 
-### c) Wat is de maximale snelheid die de appel bereikt
+### c) Bereken de maximale snelheid die de appel bereikt
 
 ### d) Hoe lang duurt het voor de appel weer terug is op de plek waar je hem losgelaten hebt ?
 
