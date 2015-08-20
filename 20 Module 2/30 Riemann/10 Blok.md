@@ -43,10 +43,6 @@ In de evaluatie van de integraal $$\int_{0}^{\pi}sin(x)~dx$$ hebben we het integ
   - specifiek voor Riemannnsom: Als je het interval in $$N$$ stukjes verdeeld zijn er $$N+1$$ hoekpunten.
 
 
-### Hacker uitbreiding: hogere orde (meer precieze) benaderingen}
-NHet is mogelijk de evaluatie van de integraal te verbeteren door niet te uit te gaan van de (te simpele) lineaire benadering. De *Simpsonregel* bijvoorbeeld is een parabolische benadering (let op, N=even) waarbij $$f(x)$$ op het interval $$(x_{i-1},x_{i+1})$$ wordt benaderd door een parabool door de 3 punten $$(f_{i-1},f_{i},f_{i+1})$$. Zoek op of werk zelf uit en evalueer de integralen opnieuw. Hoeveel beter is deze benadering ?
-
-
 # Opgaves
 
 ## opgave 4: $$\int_{0}^{1}x^x dx$$
