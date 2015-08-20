@@ -45,6 +45,7 @@ De luchtweerstand die een vallend voorwerp ondervindt is evenredig met het kwadr
 $$ F = \xi v^2$$, met $$ \xi = 0.0033$$
 
 Meer informatie kan je hier vinden:
+
 https://en.wikipedia.org/wiki/Terminal_velocity
 
 Schrijf een programma `BaseJump.py` die ook de luchtweerstand meeneemt. Volg dezelfde strategie als in vraag 1. We beschrijven de val van een parachute springer die van de top van de Burj Khalifa in Dubai (828 m) naar beneden springt.
