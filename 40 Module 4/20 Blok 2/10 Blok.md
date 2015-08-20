@@ -31,7 +31,7 @@ het scherm print. Zeg dus niet:
 
 maar      
 
-     De hoogste temperatuur die ooit werd gemeten was 34,5 graden Celcius op 13 mei 1967
+     De hoogste temperatuur was 34,5 graden Celcius werd gemeten op 13 mei 1967
 
 
 ### Vraag 2b) koud kouder koudst
