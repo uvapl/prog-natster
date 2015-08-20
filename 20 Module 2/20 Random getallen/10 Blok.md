@@ -49,7 +49,7 @@ Schrijf een programma dat 10 random getallen op het scherm print tussen *a* en *
      
     #--/ main code
     a = 2
-	b = 3 
+	b = 5 
     for i in range(1,11):
        x = MijnRandomGetal(a,b)
        print x
