@@ -47,12 +47,12 @@ Maak een grafiek waarom (tegelijkertijd) het aantal zomerse en tropische dagen p
 jaar te zien is voor alle jaren waar we data van hebben.
 
 
-### Vraag 2c) hittegolf in 2015
+### Vraag 2d) hittegolf in 2015
 
 We spreken in Nederland van een hittegolf als:
 
-     de maximumtemperatuur is ten minste vijf dagen achtereen minstens 25,0 °C 
+     Hittegolf: de maximumtemperatuur is ten minste vijf dagen achtereen minstens 25,0 °C 
      (zomerse dagen) waarvan ten minste op drie dagen 30,0 °C of meer (tropische dagen). 
 
-Is er een hittegolf geweest in 2015 ?
+Bekijk of er een officiele hittegolf geweest in 2015 ?
    
