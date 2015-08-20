@@ -23,11 +23,14 @@ Schrijf een programma `Temperatuur.py` die de file regel voor regel inleest en
 beantwoord de volgende vragen.
 
 ### Vraag 2a) extreme temperaturen
-Wat waren de hoogste en laagste temperatuur die in De Bilt in de 20ste eeuw zijn 
-gemeten ? Op welke dagen was dat ? Zorg dat je programma de datum netjes op het scherm 
-print. Zeg dus niet: 
+Wat waren de hoogste en laagste temperatuur die in De Bilt zijn gemeten sinds het begin 
+van de 20ste eeuw ? Op welke dagen was dat ? Zorg dat je programma de datum netjes op 
+het scherm print. Zeg dus niet: 
+
      Max 34,5 op 19670513
+
 maar      
+
      De maximum was 34,5 graden Celcius en werd gemeten op 13 mei 1967
 
 
