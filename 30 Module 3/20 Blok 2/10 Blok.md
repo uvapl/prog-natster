@@ -44,14 +44,13 @@ De luchtweerstand die een vallend voorwerp ondervindt is evenredig met het kwadr
 
 $$F = \xi v^2$$, met $$ \xi = 0.0033$$
 
-
-Hoewel de luchtweerstand ook afhankelijkheid is van de oppervlakte en massa van het object en de dichtheid van de lucht zullen we in deze opdracht alleen het effect van de snelheid bestuderen. Meer informatie kan je hier vinden:
-https://en.wikipedia.org/wiki/Terminal_velocity
+Hoewel de luchtweerstand ook afhankelijkheid is van de oppervlakte en massa van het object en de dichtheid van de lucht zullen we in deze opdracht alleen het effect van de snelheid bestuderen. De wrijving betekent dat er een maximale snelheid is die een parachutespringer kan bereiken.  Deze snelheid, ongeveer 196 km/uur wordt terminal velocity genoemd (https://en.wikipedia.org/wiki/Terminal_velocity).
 
 Schrijf een programma `BaseJump.py` die de val beschrijft van een base jumper die van de top van de Burj Khalifa in Dubai (828 m) naar beneden springt. Volg dezelfde strategie als in opgave 1, maar neem nu ook de luchtweerstand mee zoals gegeven in bovenstaande formule.
 
-### a) Maak een grafiek van de snelheid als functie van de tijd
-Print op het scherm de maximale snelheid die de base-jumper bereikt. Deze snelheid wordt ook wel 'terminal velocity' genoemd.
+### a) Maak een grafiek van de snelheid als functie van de tijd.
+
+Tip: maak de toren artificieel 2000 meter hoog en kijk of je inderdaad vindt dat de terminal velocity ongeveer 196 km/uur is.
 
 ### b) Maak een grafiek van de hoogte als functie van de tijd. 
 Teken 2 lijnen in dezelfde figuur: in het groen/blauw de situatie als we luchtweerstand wel/niet verwaarlozen.
