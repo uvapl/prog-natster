@@ -33,9 +33,11 @@ De functie `range()` die we eerder in de cursus gebruikt hebben in `for loops` w
 
 # Opgave: hoek tussen 2 vectoren
 
-Schrijf een functie `Hoek.py` dat de hoek tussen 2 vectoren berekent in graden (en dus niet in radialen) en op het scherm print.\\
+Schrijf een functie `Hoek.py` dat de hoek tussen 2 vectoren berekent in graden (en dus niet in radialen) en op het scherm print.
 
-Het inproduct van 2 vectoren $$V_1$$ en $$V_2$$ ($$V_1 \cdot V_2$$) is te schrijven als het produkt van de lengtes van de vectoren en de cosinus van de openingshoek:
+![](Vectoren.png)
+
+Het inprodukt van 2 vectoren $$V_1$$ en $$V_2$$ ($$V_1 \cdot V_2$$) is te schrijven als het produkt van de lengtes van de vectoren en de cosinus van de openingshoek tussen de 2 vectoren:
 
 $$ V_1 \cdot V_2 = |V_1|~|V_2|\cos(\theta)$$
 
@@ -46,7 +48,6 @@ Zorg dat de output op het scherm is:
 
 ### Tip: gebruik de functie {\tt acos} uit de {\tt math} library.
 
-![](Vectoren.png)
 
 
 # Visualisatie: plotten en grafieken
