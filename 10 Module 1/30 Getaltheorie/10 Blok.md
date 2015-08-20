@@ -76,13 +76,5 @@ En als je voor elk van de getallen 1 tot en met 40 wilt bekijken of ze in de lij
 	  if x in L_priem:
          print "Ja, het getal ", x, " komt voor in mijn priemlijst""
 	  
-# Opgave 4: bevriende getallen:
 
-Twee getallen A en B zijn *bevriende* getallen als de som van de delers van A (niet A zelf, maar inclusief 1) precies B oplevert. Tegelijkertijd moet de som van de delers van B precies A opleveren. Het eerste paar bevriende getallen is al lang bekend (220,284). Er geldt immers:
-
-	som delers 220 = 1 + 2 + 4 + 5 + 10 + 11 + 20 + 22 + 44 + 55 + 110 = 284
-	som delers 284 = 1 + 2 + 4 + 71 + 142 = 220
-
-Schrijf een programma dat het volgende paar bevriende getallen vindt en beschrijf je strategie.
- 
 
