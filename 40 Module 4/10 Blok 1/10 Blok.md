@@ -24,17 +24,47 @@ b) inlezen en uitschrijven file:
     output_filehandle.close()
     
     
-# Opgave     
+# Opgave 1: Sensor Data 
     
-    
-![](KaartNederlandKlein.png)
+Een iPhone bevat veel delicate sensoren die informatie verzamelen over de 
+positie, snelheid, versnelling. We hebben gedurende een korte auto-rit de 
+data opgeslagen en in een file weggeschreven met een frequentie van 1 [Hz]. 
+De sensor data is beschikbaar in de file `AutoRitData.csv` en is te downloaden 
+vanaf de volgende website: 
 
-Laten we een steentje bijdragen aan de klimaatdiscussie en data analyseren die door de ECA (European Climate Assessment) beschikbaar wordt gemaakt in grote ASCII files. Data sets zijn hier beschikbaar: ECA data-sets.
-We beginnen bescheiden: de temper- atuur in De Bilt (station 162). Omdat
-de data sets groot zijn hebben we
-die van De Bilt beschikbaar gemaakt op http://www.nikhef.nl/ ̃ivov/Python/KlimaatData/.
-Download de file TX STAID000162.txt (max. temp.) en TN STAID000162.txt (min. temp.), open ze en lees bovenin hoe de data gecodeerd is. We zien dat de max.(min.) temperatuur op 1 januari 1901 -3.1(-6.8) ◦C was. Schrijf een programma dat de file doorloopt en beantwoord de volgende vragen.
-a) maximumtemperatuur
-Wat waren de hoogste en laagste temperatuur die in De Bilt in de 20ste eeuw zijn gemeten ? Op welke dagen was dat ?
-b) koud koud koud
-Wat is de langste periode dat het aaneengesloten heeft gevroren (maximumtemper- atuur onder 0 ◦C). Wanneer eindigde deze periode ?
+[abc] (http://www.nikhef.nl/~ivov/Python/SensorData/ "hoihoi")
+
+
+[def] (http://www.nikhef.nl/~ivov/Python/SensorData/)
+
+
+
+
+Bovenin de file staat kort welke informatie elk veld bevat.}}
+\end{minipage}
+~~~~~~~~~
+\begin{minipage}{7.0cm}
+ \begin{center}
+   \includegraphics[width=7.0cm]{Amsterdam.pdf}
+~~\\
+ \end{center}
+\end{minipage}
+\end{figure}
+
+Het verzamelen van de data begon toen de auto zich bevond op de plek waar de snelweg A4 op de A10 aansluit. Het verzamelen van de data stopte toen de auto op het Nikhef was aangekomen. Schrijf een programma dat de file doorloopt en beantwoord de volgende vragen. \\
+
+{\bf a) afstand}\\
+Maak een grafiek van de snelheid van de auto (in km/uur) als functie van de tijd en gebruik de data om een schatting te maken van de totaal afgelegde weg.\\
+~~\\
+{\bf b) route (niet verplicht)}\\
+Maak een grafiek van de positie van de auto en kleur de route groen(rood) op de stukken van de route waar de snelheid van de auto groter(kleiner) was dan 50 km/uur.
+~~\\
+~~\\
+%\framebox{  \minibox{  
+%{\bf hacker edition:}  Vraag a),  maar nu alleen met behulp van de versnellings-data.\\
+%}}
+
+
+
+![](KaartAmsterdam.png)
+
