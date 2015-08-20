@@ -43,16 +43,14 @@ onder 0 ◦C). Wat was de laatste dag van deze periode ?
 We spreken van een zomerse (tropische) dag als de maximumtemperatuur meer dan 25 
 (30 graden Celcius was.
 
-Maak een grafiek waarom (tegelijkertijd) het aantal zomerse en tropische dagen per 
-jaar te zien is voor alle jaren waar we data van hebben.
-
+Maak een grafiek waarin voor elk jaar zowel het aantal zomerse als het aantal 
+tropische dagen weergegeven wordt.
 
 ### Vraag 2d) hittegolf in 2015
 
-We spreken in Nederland van een hittegolf als:
-
-     Hittegolf: de maximumtemperatuur is ten minste vijf dagen achtereen minstens 25,0 °C 
-     (zomerse dagen) waarvan ten minste op drie dagen 30,0 °C of meer (tropische dagen). 
+We spreken in Nederland van een hittegolf als de maximumtemperatuur ten minste vijf 
+dagen achtereen minstens 25,0 °C was (zomerse dagen) waarvan ten minste op drie 
+dagen 30,0 °C of meer (tropische dagen). 
 
 Bekijk of er een officiele hittegolf geweest in 2015 ?
    
