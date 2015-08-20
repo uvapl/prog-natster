@@ -50,7 +50,7 @@ Schrijf een programma `BaseJump.py` die de val beschrijft van een base jumper di
 
 ### a) Maak een grafiek van de snelheid als functie van de tijd.
 
-Tip: maak de toren artificieel 2000 meter hoog en kijk of je inderdaad vindt dat de terminal velocity ongeveer 196 km/uur is.
+Tip: test je programma door net te doen of de toren 2000 meter hoog is en te kijken of je inderdaad vindt dat de terminal velocity ongeveer 196 km/uur is.
 
 ### b) Maak een grafiek van de hoogte als functie van de tijd. 
 Teken 2 lijnen in dezelfde figuur: in het groen/blauw de situatie als we luchtweerstand wel/niet verwaarlozen.
