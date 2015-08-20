@@ -42,9 +42,7 @@ In de vorige opgave is de luchtwrijving verwaarloosd waardoor je ook met behulp 
 
 De luchtweerstand die een vallend voorwerp ondervindt is evenredig met het kwadraat van de snelheid. 
 
-$$ F = \xi v^2$$, met $$ \xi = 12$$
-
-$$\xi$$ heeft de waarde 0.0033.
+$$ F = \xi v^2$$, met $$ \xi = 0.0033$$
 
 Meer informatie kan je hier vinden:
 https://en.wikipedia.org/wiki/Terminal_velocity
