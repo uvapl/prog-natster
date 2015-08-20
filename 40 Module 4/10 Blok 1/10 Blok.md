@@ -45,13 +45,13 @@ snelweg A4 op de A10 aansluit. Het verzamelen van de data stopte toen de auto
 op het Nikhef was aangekomen. Schrijf een programma `Autorit.py` dat de file 
 doorloopt, de data verwerkt en beantwoord de volgende vragen.
 
-## vraag 1a) afgelegde afstand
+## Vraag 1a) afgelegde afstand
 Maak een grafiek van de snelheid van de auto (in km/uur) als functie van de 
 tijd en gebruik de data om een schatting te maken van de totaal afgelegde weg.
 
-## vraag 1b) teken de afgelegde route
-Maak een grafiek van de positie van de auto en kleur de route groen(rood) 
-op de stukken van de route waar de snelheid van de auto groter(kleiner) 
+## Vraag 1b) teken de afgelegde route
+Maak een grafiek van de positie van de auto en kleur de route groen (rood) 
+op de stukken van de route waar de snelheid van de auto meer (minder) 
 was dan 50 km/uur.
 
 
