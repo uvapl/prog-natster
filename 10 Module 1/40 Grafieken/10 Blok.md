@@ -40,14 +40,10 @@ Schrijf een functie `Hoek.py` dat de hoek tussen 2 vectoren berekent in graden (
 Het inprodukt van 2 vectoren $$V_1$$ en $$V_2$$ ($$V_1 \cdot V_2$$) is te schrijven als het produkt van de lengtes van de vectoren en de cosinus van de openingshoek tussen de 2 vectoren:
 
 $$ V_1 \cdot V_2 = |V_1|~|V_2|\cos(\theta)$$
-bls
-In deze uitdrukking 
 
-is $$V_1 \cdot V_2 = x_1x_2 + y_1y_2$$ 
-
-bls 
-
-en $$|V_i|$$ de lengte van vector $$V_i$$.
+In deze uitdrukking is $$V_1 \cdot V_2 = x_1x_2 + y_1y_2$$ en  
+ 
+en $$V_i$$ de lengte van vector $$V_i$$.
 
 Zorg dat de output op het scherm is:
     De hoek tussen (x1,y1) en (x2,y2)  is ..... graden
