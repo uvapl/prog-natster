@@ -127,7 +127,7 @@ Je kan zo'n functie ook zelf schrijven natuurlijk. We zullen die `MijnKwadraatFu
         antwoord = getal*getal
         return antwoord
 
-    # hier begint het programma
+    #-- hier begint het programma
     for x in range(1,21):
         x_kwadraat = MijnKwadraatFunctie(x) 
         print " %d in het kwadraat = %d" % (x, x_kwadraat) 
@@ -151,7 +151,7 @@ Je kan ook meerdere input-variabelen meegeven. Dit is bijvoorbeeld een functie d
         return grootste
 
 
-    # hier begint het programma
+    #-- hier begint het programma
     getal_1 = 126
     getal_2 = 14
     largest_number =  GrootsteGetal(getal_1, getal_2)
@@ -174,7 +174,7 @@ In het onderstaande voorbeeld wordt in de hoofdcode een lijst met x-waardes gepr
         return L_y
  
 
-    # hier begint het programma
+    #-- hier begint het programma
     L_xwaardes = [1,2,3,4,5,6]
     L_ywaardes = MijnPolynoom(L_xwaardes)
 

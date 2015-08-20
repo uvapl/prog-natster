@@ -40,14 +40,12 @@ Schrijf een programma dat 10 random getallen op het scherm print tussen *a* en *
 
     import random 
 
-    #------------------------
+    #-- functie die een random getal produceert tussen a en b
     def MijnRandomGetal(a,b):
-    #------------------------
-    #--/ functie die een random getal produceert tussen a en b
          getal = <hier jouw code>           
          return getal
      
-    #--/ main code
+    #-- hier begint het programma
     a = 2
 	b = 5 
     for i in range(1,11):
