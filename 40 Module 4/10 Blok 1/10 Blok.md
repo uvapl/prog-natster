@@ -30,7 +30,7 @@ Een iPhone bevat veel delicate sensoren die informatie verzamelen over de
 positie, snelheid, versnelling. We hebben gedurende een korte auto-rit de 
 data opgeslagen en in een file weggeschreven met een frequentie van 1 [Hz]. 
 
-![](KaartAmsterdam.png)
+![](KaartAmsterdamKlein.png)
 
 
 De sensor data is beschikbaar in de file `AutoRitData.csv` en is te downloaden 
