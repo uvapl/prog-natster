@@ -48,7 +48,7 @@ Gebruik als vectoren $$V_1$$ = (2,5) en $$V_2$$ = (1,2) en zorg dat de output op
     De hoek tussen (2,5) en (1,2)  is <youw resultaat> graden.
 
 
-### Tip: gebruik de functie {\tt acos} uit de {\tt math} library.
+### Tip: gebruik de functie `acos()` uit de `math` bibliotheek.
 
 
 
