@@ -43,7 +43,11 @@ $$ V_1 \cdot V_2 = |V_1|~|V_2|\cos(\theta)$$
 bls
 In deze uitdrukking 
 
-is $$V_1 \cdot V_2 = x_1x_2 + y_1y_2$$ en $$|V_i|$$ de lengte van vector $$V_i$$.
+is $$V_1 \cdot V_2 = x_1x_2 + y_1y_2$$ 
+
+bls 
+
+en $$|V_i|$$ de lengte van vector $$V_i$$.
 
 Zorg dat de output op het scherm is:
     De hoek tussen (x1,y1) en (x2,y2)  is ..... graden
