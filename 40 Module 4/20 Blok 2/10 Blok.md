@@ -11,11 +11,43 @@ We hebben maar 1 dag de tijd dus we beperken ons tot de data die verzameld
 is in De Bilt.
 
 Data Files: 
-[TXSOUID100522.txt](http://www.nikhef.nl/ ̃ivov/Python/KlimaatData/TXSOUID100522.txt) 
+Maximum temperatuur: [DeBiltTempMax.txt](http://www.nikhef.nl/ ̃ivov/Python/KlimaatData/DeBiltTempMax.txt) 
+Minimum temperatuur: [DeBiltTempMin.txt](http://www.nikhef.nl/ ̃ivov/Python/KlimaatData/DeBiltTempMin.txt) 
+
+Download de file, open ze en lees bovenin hoe de data gecodeerd is. We zien dat de 
+maximum(minimum) temperatuur op 1 januari 1901 -3.1(-6.8) ◦C was.
+
+Schrijf een programma `Temperatuur.py` die de file regel voor regel inleest en 
+beantwoord de volgende vragen.
+
+### Vraag 2a) extreme temperaturen
+Wat waren de hoogste en laagste temperatuur die in De Bilt in de 20ste eeuw zijn 
+gemeten ? Op welke dagen was dat ? Zorg dat je programma de datum netjes op het scherm 
+print. Zeg dus niet: 
+     Max 34,5 op 19670513
+maar      
+     De maximum was 34,5 graden Celcius en werd gemeten op 13 mei 1967
 
 
-Download de file TX STAID000162.txt (max. temp.) en TN STAID000162.txt (min. temp.), open ze en lees bovenin hoe de data gecodeerd is. We zien dat de max.(min.) temperatuur op 1 januari 1901 -3.1(-6.8) ◦C was. Schrijf een programma dat de file doorloopt en beantwoord de volgende vragen.
-a) maximumtemperatuur
-Wat waren de hoogste en laagste temperatuur die in De Bilt in de 20ste eeuw zijn gemeten ? Op welke dagen was dat ?
-b) koud koud koud
-Wat is de langste periode dat het aaneengesloten heeft gevroren (maximumtemper- atuur onder 0 ◦C). Wanneer eindigde deze periode ?
+### Vraag 2b) koud kouder koudst
+Wat is de langste periode dat het aaneengesloten heeft gevroren (maximumtemperatuur 
+onder 0 ◦C). Wat was de laatste dag van deze periode ?
+
+### Vraag 2c) zomerse en tropische dagen
+   
+We spreken van een zomerse (tropische) dag als de maximumtemperatuur meer dan 25 
+(30 graden Celcius was.
+
+Maak een grafiek waarom (tegelijkertijd) het aantal zomerse en tropische dagen per 
+jaar te zien is voor alle jaren waar we data van hebben.
+
+
+### Vraag 2c) hittegolf in 2015
+
+We spreken in Nederland van een hittegolf als:
+
+     de maximumtemperatuur is ten minste vijf dagen achtereen minstens 25,0 °C 
+     (zomerse dagen) waarvan ten minste op drie dagen 30,0 °C of meer (tropische dagen). 
+
+Is er een hittegolf geweest in 2015 ?
+   
