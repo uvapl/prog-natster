@@ -31,10 +31,10 @@ De functie `range()` die we eerder in de cursus gebruikt hebben in `for loops` w
 	for x in numpy.arange(2.0, 9.0, 0.01):
     	print x
 
-# Opgave: zelf kleine stapjes maken
+# Opgave: hoek tussen 2 vectoren
 
-Schrij een programma (`stapjes.py`)dat dezelfde output geeft als het programma hierboven (getallen van 2 tot 9 in stapjes van 0.01 op het scherm geprint), maar dan zonder gebruik te maken van `numpy.arange()`. Gebruik dus een gewone `for loop` en maak van zowel de startwaarde, de eindwaarde en de stapgrootte een aparte variabele: *x_min = 2.0, x_max = 9.0 en dx = 0.01*. Het is goed om dit een keer (1 keer) zelf gedaan te hebben en hopelijk zie je na dit geimplementeerd te hebben de meerwaarde van de functie `arange()`.
 
+![](Vectoren.png)
 
 
 # Visualisatie: plotten en grafieken
