@@ -46,6 +46,8 @@ $$F = \xi v^2$$, met $$ \xi = 0.0033$$
 
 Hoewel de luchtweerstand ook afhankelijkheid is van de oppervlakte en massa van het object en de dichtheid van de lucht zullen we in deze opdracht alleen het effect van de snelheid bestuderen. De wrijving betekent dat er een snelheid is waarbij de zwaartekracht en de wrijving elkaar in evenwicht houden. Deze maximum snelheid die een parachutespringer kan bereiken, ongeveer 196 km/uur wordt terminal velocity genoemd (https://en.wikipedia.org/wiki/Terminal_velocity).
 
+![](Freefall.png)
+
 Schrijf een programma `BaseJump.py` die de val beschrijft van een base jumper die van de top van de Burj Khalifa in Dubai (828 m) naar beneden springt. Volg dezelfde strategie als in opgave 1, maar neem nu ook de luchtweerstand mee zoals gegeven in bovenstaande formule.
 
 ### a) Maak een grafiek van de snelheid als functie van de tijd.
@@ -57,7 +59,7 @@ Teken 2 lijnen in dezelfde figuur: in het groen/blauw de situatie als we luchtwe
     
 ### c) Op 100 meter moet de base jumper zijn parachute opengooien. Hoeveel langer heeft de base-jumper om te genieten van de vrije val dankzij de luchtweerstand ?
 
-![](Freefall.png)
+
 
 Zoals altijd heb je ook hier mensen die het randje opzoeken:
 https://en.wikipedia.org/wiki/Speed_skydiving
