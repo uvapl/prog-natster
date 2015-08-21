@@ -47,7 +47,9 @@ Het doel van het voorbeeld is op op het scherm te printen:
 ## Stap 1: openen van de file, inlezen van de regels
 
 Omdat het doorlopen van files in een computertaal een standaard procedure is 
-zijn er een aantal gemakkelijke commando's beschikbaar. De volgende code opent 
+zijn er een aantal gemakkelijke commando's beschikbaar. Het `open` commando bijvoorbeeld 
+dat vervolgens gebruikt kan worden om dingen uit die file te lezen of juist in weg te 
+schrijven. De volgende code opent 
 de file en gebruikt een for-loop om steeds de volgende regel in te lezen. De 
 informatie in een regel van de file wordt opgeslagen in de variable `line` (die 
 kan je elke naam geven die je wilt trouwens). Dit korte programma doet niks met 
@@ -60,8 +62,8 @@ Versie 1 programma:
         print line
 	input_filehandle.close()
 
-Als je dit programma uitvoert zal je zien dat bijvoorbeeld de regel van 1988 zo op 
-het scherm verschijnt:
+De 'r' in het `open()` commando betekent 'read', lezen dus. Als je dit programma uitvoert 
+zal je zien dat bijvoorbeeld de regel van 1988 zo op het scherm verschijnt:
 
     198889, AC Milan, 33, 19 
 
@@ -151,9 +153,32 @@ Versie 3 programma:
     print "TOTAAL: In totaal scoorde Van Basten %d clubdoelpunten" % (Ndoelpunten_tot)
     input_filehandle.close()
     
+# Oefening:
+Download de file met de doelpunten statistiek van Van Basten en probeer de bovenstaande 
+resultaten te reproduceren.
 
 
-b) inlezen en uitschrijven file:
+# Schrijven naar een file
+
+Hoewel we dat in deze cursus niet tegen zullen komen is het belangrijk dat je weet 
+hoe je gegevens naar een file schrijft in plaats van ze alleen maar in te lezen. Het 
+is vrij eenvoudig zoals je in de volgende 2 voorbeelden zult zien. Belangrijkste is 
+dat je bij het gebruik van het `open()` commando nu de extra parameter 'w' ('write', 
+schrijven) meegeeft. 
+
+## Voorbeeld 1: tekst schrijven naar een file
+
+Dit stuk code opent een file 'Mijnfile.txt', schrijft daar 1 regel tekst in weg 
+en sluit de file weer.
+
+	output_filehandle = open(’outputfile.txt’, ’w’)
+    output_filehandle.write("Het vak Inleiding Programmeren ie bere-interessant")
+    output_filehandle.close()
+
+## Voorbeeld 2: extra tekst achter bestaande regel plakken
+
+Dit stuk code opent de file inputfile, plakt achter elke regel de letters "XXX" en 
+schrijft deze nieuwe regel vervolgens weg in een outputfile.
 
 	input_filehandle = open(’inputfile.txt’, ’r’)
 	output_filehandle = open(’outputfile.txt’, ’w’)
@@ -165,9 +190,7 @@ b) inlezen en uitschrijven file:
     output_filehandle.close()
 
 
-    
 
-    
     
 # Opgave 1: Sensor Data 
     
