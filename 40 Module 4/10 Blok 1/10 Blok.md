@@ -42,7 +42,7 @@ Het doel van het voorbeeld is op op het scherm te printen:
    
    - de seizoenen waarin Van Basten meer dan 20 keer gescoord heeft
 
-   - het totaal aantal doelpunten te berekenen dat Van Basten voor zijn clubs heeft gescoord.
+   - het totaal aantal doelpunten dat Van Basten voor al zijn clubs heeft gescoord
     
 ## Stap 1: openen van de file, inlezen van de regels
 
@@ -52,6 +52,8 @@ de file en gebruikt een for-loop om steeds de volgende regel in te lezen. De
 informatie in een regel van de file wordt opgeslagen in de variable `line` (die 
 kan je elke naam geven die je wilt trouwens). Dit korte programma doet niks met 
 de regel en print alleen `line` naar het scherm. 
+
+Versie 1 programma:
 
 	input_filehandle = open('/Users/ivo/Desktop/VanBasten.txt', 'r')
 	for line in input_filehandle:
@@ -73,6 +75,8 @@ het volgende commando uit: `line.split(',')`. Dit commando produceert een lijst
 met elementen die de losse stukken bevatten. Hierop kan je afzonderlijke bewerkingen 
 uitvoeren.
 
+Versie 2 programma:
+
 	input_filehandle = open('/Users/ivo/Desktop/VanBasten.txt', 'r')
 	for line in input_filehandle:
         print line
@@ -81,8 +85,10 @@ uitvoeren.
    	 input_filehandle.close()
 
 De regel met 1988 is nu in stukken geknipt en de Python-lis 
+
     ['198889', ' AC Milan', ' 33', ' 19\t\n']
 
+De karakters "\t" (tab) en "\n" (return aan eind van de regel) zijn ook zichtbaar.
 
 ## Stap 3: opslaan van de informatie in variabelen
 
@@ -95,7 +101,7 @@ Die informatie kunnen we nu dus opslaan in een variabele:
     seizoen = data_opgeknipt[0]
     doelpunten = data_opgeknipt[2]
 
-### subtiliteit 1: uitpakken variabelen
+### Issue 1: uitpakken variabelen
 Zoals je ziet hebben de makers van de file het seizoen 1988-1889 in 1 getal 
 weergegeven: 198889. Slim van ze, maar wij zijn alleen geinteresseerd in het 
 jaar dat het seizoen is gestart. Dat is verpakt in de eerst 4 karakters. Om 
@@ -105,7 +111,7 @@ alleen de eerste 4 karakters selecteren.
     seizoen = data_opgeknipt[0][0:4]
     doelpunten = data_opgeknipt[2]
 
-### subtiliteit 2: getallen versus woorden
+### Issue 2: getallen versus tekst
 
 De regel wordt ingelezen als tekst. Zodra je met het `split()` commando de regel 
 in stukken hebt geknipt zijn elk van die delen stukken *tekst*. De computer ziet 
@@ -124,6 +130,8 @@ bouwstenen die je eerder in deze cursus hebt verkregen de data manipuleren.
 We wilden het aantal totaal aantal doelpunten uitreken dat Van Basten voor zijn 
 clubs heeft gescoord en ook aangeven in welke seizoenen hij meer dan 20 doelpunten 
 maakte.
+
+Versie 3 programma:
 
 	input_filehandle = open('/Users/ivo/Desktop/VanBasten.txt', 'r')
 
