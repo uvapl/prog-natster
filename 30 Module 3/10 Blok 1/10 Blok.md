@@ -53,12 +53,3 @@ De code die we hiervoor gebruiken is als volgt:
 
     #--/ teken beide grafieken op het scherm
     plt.show()
-    
-    
-    
-    
-# Animaties
-
-Hoe Sommige zaken zijn niet makkelijkvoor te stellen 
-
-![](collidingballs1.gif)
