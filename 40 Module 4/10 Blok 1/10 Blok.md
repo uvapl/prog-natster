@@ -136,6 +136,7 @@ Versie 3 programma:
 	input_filehandle = open('/Users/ivo/Desktop/VanBasten.txt', 'r')
 
     Ndoelpunten_tot = 0
+
 	for line in input_filehandle:
         data_opgeknipt = line.split(',')
         
@@ -148,8 +149,7 @@ Versie 3 programma:
            print "In %d scoorde Van Basten > 20 doelpunten, nl %d" % (seizoen, doelpunten)
 
     print "TOTAAL: In totaal scoorde Van Basten %d clubdoelpunten" % (Ndoelpunten_tot)
-
-   	input_filehandle.close()
+    input_filehandle.close()
     
 
 
