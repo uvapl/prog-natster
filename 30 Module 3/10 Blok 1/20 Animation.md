@@ -47,7 +47,3 @@ inzichtelijker een animatie te maken
             #--/ pauzeer na elk stapje kort
             plt.pause(0.0001)
 
-
-
-
-![](collidingballs1.gif)
