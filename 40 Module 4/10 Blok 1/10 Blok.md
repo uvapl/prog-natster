@@ -81,7 +81,7 @@ Versie 2 programma:
 	for line in input_filehandle:
         print line
         data_opgeknipt = line.split(',')
-        print data_opgeknipt        
+        print data_opgeknipt   
    	 input_filehandle.close()
 
 De regel met 1988 is nu in stukken geknipt en de Python-lis 
@@ -145,7 +145,7 @@ Versie 3 programma:
         Ndoelpunten_tot = Ndoelpunten_tot + doelpunten   
 
         if(doelpunten > 20) :
-           print "In het seizoen %d scoorde Van Basten meer dan 20 doelpunten, nl %d" % (seizoen, doelpunten)
+           print "In seizoen %d scoorde Van Basten meer dan 20 doelpunten, nl %d" % (seizoen, doelpunten)
 
     print "TOTAAL: In zijn hele carriere scoorde Van Basten %d clubdoelpunten" % (Ndoelpunten_tot)
    	input_filehandle.close()
@@ -159,6 +159,7 @@ b) inlezen en uitschrijven file:
 	for line in input_filehandle:
         newline = line + " XXXX"
         output_filehandle.write(newline)
+
     input_filehandle.close()
     output_filehandle.close()
 
