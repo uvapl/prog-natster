@@ -12,7 +12,8 @@ Net zoals je getallen in het decimale, hexadecimale of binaire formaat weer kan 
 wordt ook data in verschillende formaten bewaard in data-bases. Hier zullen we data
 bekijken die is opgeslagen in het zogenaamde CSV formaat (comma separate values): 
 'platte tekst', waarbij op elke regel verschillende variabelen gescheiden zijn door 
-een komma. 
+een komma. Dit is trouwens ook het formaat dat je krijgt als je je banktransacties 
+download of een Excel file wegschrijft.
 
 We gaan het inlezen en verwerken van data doen aan de hand van een voorbeeld: 
 de statistieken van Marco van Basten. Iemand heeft in een file bijgehouden 
