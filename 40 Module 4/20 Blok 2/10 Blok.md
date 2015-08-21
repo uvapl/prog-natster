@@ -6,9 +6,8 @@
 Laten we een steentje bijdragen aan de klimaatdiscussie en data analyseren die 
 door de ECA (European Climate Assessment) beschikbaar wordt gemaakt in grote 
 data files. Data sets zijn hier beschikbaar: [ECA data-sets](http://eca.knmi.nl/dailydata/predefinedseries.php)
-
-We hebben maar 1 dag de tijd dus we beperken ons tot de data die verzameld 
-is in De Bilt.
+We hebben maar 1 dag de tijd dus we beperken ons tot data die de maximum en minimum 
+temperatuur beschrijft voor elke dag in De Bilt sinds 1901.
 
 Data Files: 
 
