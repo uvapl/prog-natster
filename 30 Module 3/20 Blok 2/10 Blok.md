@@ -1,6 +1,15 @@
 
-# Simulaties
+# Simuleren natuurkundige processen
 
+Als je al weet dat je 4 om elkaar heendraaiende ballen niet analytisch uit kan rekenen 
+dan is het duidelijk dat er enorm veel (bijna alle) problemen uiteindelijk met een 
+computersimulatie doorgerekend worden. Met een computer kan je kleine stapjes in de 
+tijd nemen en op elk tijdstip alle krachten berekenen die er op een voorwerp werken en 
+zo per deeljte kan kijken welke kant hij op zal bewegen en met welke snelheid.
+
+In Opgave 1 begint met een probleem waarbij je de antwoorden zelf nog kunt controleren 
+en uitrekenen, maar in opgave 2 ben je op je programmeer-skills en je natuurkundige 
+intuitie aangewezen om uiteindelijk tot het het antwoord te komen.
 
 # Opgave 1: appel valt van de Dom in Utrecht
 
@@ -58,8 +67,6 @@ Tip: test je programma door net te doen of de toren 2000 meter hoog is en te kij
 Teken 2 lijnen in dezelfde figuur: in het groen/blauw de situatie als we luchtweerstand wel/niet verwaarlozen.
     
 ### c) Op 100 meter moet de base jumper zijn parachute opengooien. Hoeveel langer heeft de base-jumper om te genieten van de vrije val dankzij de luchtweerstand ?
-
-
 
 Zoals altijd heb je ook hier mensen die het randje opzoeken:
 https://en.wikipedia.org/wiki/Speed_skydiving
