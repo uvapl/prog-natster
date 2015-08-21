@@ -45,11 +45,9 @@ De code die we hiervoor gebruiken is als volgt:
     #--/ gemeenschappelijke figuur (bevat beide sub-figuren)
     plt.figure(1)
 
-    #--/ sub-plot 1
     plt.subplot(121)
     plt.plot(L_x, L_sinx, 'b-',L_x, L_cosx, 'r--')
 
-    #--/ sub-plot 1
     plt.subplot(122)
     plt.plot(L_x, L_x2, 'g-')
 
