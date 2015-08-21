@@ -5,7 +5,7 @@
 
 Laten we een steentje bijdragen aan de klimaatdiscussie en data analyseren die 
 door de ECA (European Climate Assessment) beschikbaar wordt gemaakt in grote 
-ASCII files. Data sets zijn hier beschikbaar: ECA data-sets.
+data files. Data sets zijn hier beschikbaar: [ECA data-sets](http://eca.knmi.nl/dailydata/predefinedseries.php)
 
 We hebben maar 1 dag de tijd dus we beperken ons tot de data die verzameld 
 is in De Bilt.
