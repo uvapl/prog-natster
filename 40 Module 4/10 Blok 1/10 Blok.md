@@ -18,7 +18,7 @@ We gaan het inlezen en verwerken van data doen aan de hand van een voorbeeld:
 de statistieken van Marco van Basten. Iemand heeft in een file bijgehouden 
 hoeveel wedstrijden hij gespeeld heeft en hoeveel doelpunten hij gemaakt heeft.
 
-De file VanBasten.txt:
+De file [VanBasten.txt](http://www.nikhef.nl/~ivov/Python/Voetbal/VanBasten.txt):
 
     198182, Ajax, 1, 1	
     198283, Ajax, 20, 9	
