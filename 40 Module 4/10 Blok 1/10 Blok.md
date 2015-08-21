@@ -73,7 +73,7 @@ uitvoeren.
 	for line in input_filehandle:
         print line
         data_opgeknipt = line.split(',')
-        print data_opgeknipt
+        print data_opgeknipt        
    	input_filehandle.close()
 
 De regel met 1988 is nu in stukken geknipt en de Python-lis 
