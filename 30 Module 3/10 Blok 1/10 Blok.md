@@ -21,6 +21,10 @@ Het kernwoord in het teken van meerdere figuren is `subplot`. Als voorbeeld prob
 we in een linker grafiek zowel de cosinus als de sinus weer te geven en in een grafiek 
 ernaast tekenen we, voor hetzelfde gebied in *x* de grafiek $$x^2$$.
 
+
+![](DubbelgrafiekenExample.gif)
+
+
 De code die we hiervoor gebruiken is als volgt:
 
     import math
@@ -51,6 +55,9 @@ De code die we hiervoor gebruiken is als volgt:
 
     #--/ teken beide grafieken op het scherm
     plt.show()
+    
+    
+    
     
 # Animaties
 
