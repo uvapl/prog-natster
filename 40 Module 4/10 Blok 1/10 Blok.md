@@ -36,6 +36,7 @@ De file [VanBasten.txt](http://www.nikhef.nl/~ivov/Python/Voetbal/VanBasten.txt)
     199394, AC Milan, 0, 0	
     199495, AC Milan, 0, 0	
 
+![](VanBastenKlein.png)
 
 Het doel van het voorbeeld is op op het scherm te printen:
    - de seizoenen waarin Van Basten meer dan 20 keer gescoord heeft
