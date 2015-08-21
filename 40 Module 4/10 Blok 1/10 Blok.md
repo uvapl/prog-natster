@@ -14,7 +14,11 @@ bekijken die is opgeslagen in het zogenaamde CSV formaat (comma separate values)
 'platte tekst', waarbij op elke regel verschillende variabelen gescheiden zijn door 
 een komma. 
 
-De file VanBasten.txt bevat 
+We gaan het inlezen en verwerken van data doen aan de hand van een voorbeeld: 
+de statistieken van Marco van Basten. Iemand heeft in een file bijgehouden 
+hoeveel wedstrijden hij gespeeld heeft en hoeveel doelpunten hij gemaakt heeft.
+
+De file VanBasten.txt:
 
     198182, Ajax, 1, 1	
     198283, Ajax, 20, 9	
@@ -31,14 +35,16 @@ De file VanBasten.txt bevat
     199394, AC Milan, 0, 0	
     199495, AC Milan, 0, 0	
 
-
-
 Data wordt in veel verschillende formaten opgeslagen.
 
+## Stap 1: openen van de file, inlezen van de regels
 
-a) lezen file:
+Omdat het doorlopen van files in een computertaal een standaard procedure is 
+zijn er een aantal gemakkelijke commando's beschikbaar. De volgende code opent 
+de file en gebruikt een for-loop om steeds de volgende regel in te lezen. De 
+informatie in een regel van de file wordt opgeslagen in de var 
 
-	input_filehandle = open(’inputfile.txt’, ’r’)
+	input_filehandle = open('/Users/ivo/Desktop/VanBasten.txt', 'r')
 	for line in input_filehandle:
         print line
 	input_filehandle.close()
