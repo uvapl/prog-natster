@@ -39,8 +39,10 @@ De file [VanBasten.txt](http://www.nikhef.nl/~ivov/Python/Voetbal/VanBasten.txt)
 ![](VanBastenKlein.jpg)
 
 Het doel van het voorbeeld is op op het scherm te printen:
+   
    - de seizoenen waarin Van Basten meer dan 20 keer gescoord heeft
-   - het totaal aantal doelpunten te berekenen die Van Baste voor zijn clubs heeft gescoord.
+
+   - het totaal aantal doelpunten te berekenen dat Van Basten voor zijn clubs heeft gescoord.
     
 ## Stap 1: openen van de file, inlezen van de regels
 
