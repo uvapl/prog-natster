@@ -38,7 +38,6 @@ Wat is de langste periode dat het aaneengesloten heeft gevroren (maximumtemperat
 onder 0 ◦C). Wat was de laatste dag van deze periode ?
 
 ### Vraag 2c) zomerse en tropische dagen
-   
 We spreken van een zomerse (tropische) dag als de maximumtemperatuur meer dan 25 
 (30 graden Celcius was.
 

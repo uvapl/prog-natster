@@ -1,7 +1,40 @@
 
 # Opzet en doel Module 4
 
-Een veel voorkomende toepassing van computerprogramma’s is het inlezen en ver- werken van grote data bestanden. We zullen in Module 4 een korte toepassing bekijken hiervan.
+Een veel voorkomende toepassing van computerprogramma’s is het inlezen, verwerken 
+en analyseren van grote data bestanden. Big data! We zullen in Module 4 een leren 
+hoe we data inlezen en gebruiken onze kennis van Python om de data te rubriceren en 
+te grafieken te maken van onze resultaten.
+
+# Inlezen files en verwerken van de data
+
+Net zoals je getallen in het decimale, hexadecimale of binaire formaat weer kan geven
+wordt ook data in verschillende formaten bewaard in data-bases. Hier zullen we data
+bekijken die is opgeslagen in het zogenaamde CSV formaat (comma separate values): 
+'platte tekst', waarbij op elke regel verschillende variabelen gescheiden zijn door 
+een komma. 
+
+De file VanBasten.txt bevat 
+
+    198182, Ajax, 1, 1	
+    198283, Ajax, 20, 9	
+    198384, Ajax, 26, 28	
+    198485, Ajax, 33, 22	
+    198586, Ajax, 26, 37	
+    198687, Ajax, 27, 31	
+    198788, AC Milan, 11, 3	
+    198889, AC Milan, 33, 19	
+    198990, AC Milan, 26, 19	
+    199091, AC Milan, 31, 11	
+    199192, AC Milan, 31, 25	
+    199293, AC Milan, 15, 13	
+    199394, AC Milan, 0, 0	
+    199495, AC Milan, 0, 0	
+
+
+
+Data wordt in veel verschillende formaten opgeslagen.
+
 
 a) lezen file:
 
@@ -22,6 +55,10 @@ b) inlezen en uitschrijven file:
         output_filehandle.write(newline)
     input_filehandle.close()
     output_filehandle.close()
+
+
+    
+
     
     
 # Opgave 1: Sensor Data 
