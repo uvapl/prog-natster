@@ -47,3 +47,5 @@ inzichtelijker een animatie te maken
             #--/ pauzeer na elk stapje kort
             plt.pause(0.0001)
 
+Hier het uiteindelijke resultaat:
+![](AnimationExample2.gif)
