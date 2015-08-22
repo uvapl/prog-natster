@@ -53,3 +53,6 @@ De code die we hiervoor gebruiken is als volgt:
 
     #--/ teken beide grafieken op het scherm
     plt.show()
+    
+![](AnimationExample2.png)
+    
