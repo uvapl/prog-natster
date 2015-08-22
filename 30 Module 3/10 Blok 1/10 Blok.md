@@ -21,9 +21,8 @@ Het kernwoord in het teken van meerdere figuren is `subplot`. Als voorbeeld prob
 we in een linker grafiek zowel de cosinus als de sinus weer te geven en in een grafiek 
 ernaast tekenen we, voor hetzelfde gebied in *x* de grafiek $$x^2$$.
 
-
+test
 ![](DubbelGrafiekExample.png)
-
 
 De code die we hiervoor gebruiken is als volgt:
 
@@ -54,5 +53,5 @@ De code die we hiervoor gebruiken is als volgt:
     #--/ teken beide grafieken op het scherm
     plt.show()
     
-![](AnimationExample2.png)
+
     
