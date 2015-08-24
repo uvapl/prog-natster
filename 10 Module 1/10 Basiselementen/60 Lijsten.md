@@ -73,4 +73,4 @@ Van lijsten is het belangrijk dat je weet hoe je een lijst definiert, hoe je ele
 
 ## Oefening
 
-Probeer nu eens een programma te schrijven dat een lijstje met temperaturen in graden Celcius omrekent naar een nieuw lijstje met overeenkomstige temperaturen in graden Fahrenheit. De formule zoek je natuurlijk even op in een zoekmachine. Sla dit programma op in een bestand `temperaturen.py` en bewaar het goed voor inleveren.
+Probeer nu eens een programma te schrijven dat een lijstje met temperaturen in graden Celcius omrekent naar een nieuw lijstje met overeenkomstige temperaturen in graden Fahrenheit. De formule zoek je natuurlijk even op in een zoekmachine. Sla dit programma op in een bestand **temperaturen.py** en bewaar het goed voor inleveren.
