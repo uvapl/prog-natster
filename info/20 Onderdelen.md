@@ -32,12 +32,13 @@ We willen graag dat je de oefeningen inlevert, maar deze worden niet streng nage
 
 ### Deadline
 
-De deadline is op je vrijdag om 23:59 voor alle studenten. Op dat moment wordt het ingeleverde werk
-verdeeld onder de nakijkers en gaan zij aan de slag. Er is geen mogelijkheid om het later in te
-leveren; wél eerder natuurlijk!
+De deadline is na het laatste werkcollege van de module, in de groep waarin je
+ingedeeld bent. Op dat moment wordt het ingeleverde werk verdeeld onder de
+nakijkers en gaan zij aan de slag. Er is geen mogelijkheid om het later in te
+leveren.
 
-Het is prima om, voor je instuurt, de assistent nog even te vragen naar je opgave te kijken, zodat
-je nog verbeteringen kunt aanbrengen.
+Het is prima om, voor je instuurt, de assistent nog even te vragen naar je
+opgave te kijken, zodat je nog verbeteringen kunt aanbrengen.
 
 ## Tentamen
 

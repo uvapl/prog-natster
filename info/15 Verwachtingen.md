@@ -4,7 +4,7 @@ Deze cursus bevat 4 modules en 1 tentamen (zie *Onderdelen* voor de invulling). 
 is er leesstof opgegeven.
 
 * We verwachten dat je van alle vier modules aan het eind van de week de gemaakte opdrachten en
-  oefeningen inlevert. De deadline is altijd op vrijdag om 23:59. Ook vragen we soms je opdrachten
+  oefeningen inlevert. De deadline is altijd na je laatste werkcollege van de week. Ook vragen we soms je opdrachten
   al voor de deadline te laten zien aan een assistent.
 
 * We verwachten dat je reeds vóór het practicum je huiswerk hebt gedaan en dat je eventuele vragen
