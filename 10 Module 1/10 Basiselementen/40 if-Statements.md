@@ -22,22 +22,22 @@ Om te printen of een getal een negatief is zou je een extra regel toe kunnen voe
 
 	x = 15
 	if x > 0:
-		print "het getal", x, " is positief"
+	    print "het getal %d is positief" % x
 	else
-		print "het getal", x, " is negatief"
+        print "het getal %d is negatief" % x
 
 > Hierboven ziet je dat er twee regels beginnen met vier spaties: één na de `if` en één na de `else`. Dat betekent dus dat precies die regels onder controle van respectievelijk de `if` en de `else` staan.
 
-Je kunt ook verschillende voorwaardes ook combineren. Als je wilt weten of een getal zich in een bepaalde range bevindt (bijvoorbeeld tussen de 3 en de 39) dan kan je met `and` verschillende condities (voorwaardes) combineren:
+Je kunt ook verschillende voorwaardes ook combineren. Als je wilt weten of een getal zich in een bepaald bereik bevindt (bijvoorbeeld tussen de 3 en de 39) dan kan je met `and` verschillende condities (voorwaardes) combineren:
 
 	x = 15
     x_min = 3
     x_max = 39	
 	if x > x_min and x < x_max:
-		print "het getal", x, " bevindt zich in de range"
+	    print "het getal", x, " bevindt zich in het bereik"
 
 
-De conditions die we hier gebruiken zijn:
+De condities die we hier gebruiken zijn:
 
 - `>` 	groter dan
 - `>=`	groter of gelijk aan

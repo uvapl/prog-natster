@@ -8,8 +8,8 @@ Met zo'n hekje (`#`) laat je zien dat het geen *instructie* betreft, maar een st
 
 Naast commentaar boven een regel code is het ook handig om helemaal bovenaan een bestand duidelijk te vermelden waar het voor dient. Nu is dat nog een beetje lastig, maar denk aan:
 
-	# Oefeningen met Python week 1
+	# Oefeningen met Python module 1
 	# M. Stegeman
 	# 24-8-2015
 
-Voeg nu commentaar toe aan je bestand **les1.py** om duidelijk te maken wat de verschillende onderdelen doen. Laat even zien aan een assistent of je medestudenten. Je kunt namelijk op veel manieren commentaar in je code zetten, en het is interesssant om te kijken welke manieren goed helpen om de code verduidelijken.
+Voeg nu commentaar toe aan je bestand **module1.py** om duidelijk te maken wat de verschillende onderdelen doen. Laat even zien aan een assistent of je medestudenten. Je kunt namelijk op veel manieren commentaar in je code zetten, en het is interesssant om te kijken welke manieren goed helpen om de code verduidelijken.
