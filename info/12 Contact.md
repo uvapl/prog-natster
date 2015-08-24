@@ -6,7 +6,7 @@ Probeer voor afspraken en hulp zoveel mogelijk de studentassistenten en de docen
 
 ## Docenten
 
-Bij de docenten kun je terecht voor:
+Bij de docenten Ivo van Vulpen en Martijn Stegeman kun je terecht voor:
 
 * persoonlijke afspraken, uitzonderingen
 * bespreken van de becijfering van een problem set
@@ -19,9 +19,6 @@ De docenten zijn regelmatig tijdens het practicum aanwezig om te spreken met
 studenten, om af spraken te maken en die na te komen, en om te luisteren naar
 studenten die problemen signaleren. Als je even wat meer tijd nodig hebt om met
 ze te spreken, bijvoorbeeld voor het maken van persoonlijke afspraken, kun je altijd een korte afspraak inplannen via de e-mail. Mail bij voorkeur naar <progns@mprog.nl>.
-
-Martijn Stegeman (Python practice in weken 1, 3 en 5)  
-Ivo van Vulpen (Natuurkunde-programmeren in weken 2, 4, 6 en 7)  
 
 ## Studentassistenten
 
