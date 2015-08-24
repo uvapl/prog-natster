@@ -1,4 +1,4 @@
-# Studiewijzer
+# Programmeren voor Natuur- en Sterrenkunde
 
 *Versie: September 2015 (nog niet klaar!)*
 
