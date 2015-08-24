@@ -78,6 +78,6 @@ Je kunt in `range` ook de stapgrootte opgeven. `for` telt dan van begin tot eind
 
 Elke stap in de `for`-loop zal dan steeds 10 verder zijn dan de vorige. Denk even na welke stappen gemaakt zouden worden bij de loop hierboven!
 
-## Oefening
+## Opdracht
 
-Schrijf nu zelf een stukje code met `for`-loop die de som van de oneven getallen van 1 tot en met 20 uitrekent. Sla dit programmaatje apart op, in een bestand genaamd **oneven.py**. Gebruik de stapgrootte van `range` om alleen de oneven getallen te genereren!
+Schrijf nu zelf een stukje code met `for`-loop die de som van de oneven getallen van 1 tot en met 20 uitrekent. Sla dit programmaatje apart op, in een bestand genaamd **oneven.py**. Gebruik de stapgrootte van `range` om alleen de oneven getallen te genereren, zodat het programma efficiënt werkt. Vergeet niet om commentaar toe te voegen!
