@@ -14,6 +14,8 @@ In deze eerste opgave gaan we het probleem eerst brute-force('dom') aanpakken. G
 
 *Optioneel:* zorg dat je code bij het invoeren 1,0 of een negatief getal gelijk zegt dat het geen priemgetal is en print ook op het scherm de boodschap naar de gebruiker van je programma dat hij een geheel en positief getal in moet voeren dat groter of gelijk aan 2 is.
 
+Optimalisatietips.
+
 
 # code-bouwsteen: bepaal alle priemgetallen onder de 100
 

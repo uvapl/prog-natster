@@ -56,8 +56,15 @@ Zorg daarom dat je, nadat je het specifieke probleem hebt opgelost, je code alti
         if getal%2 == 0:
            print "Yes!", getal, " is een even getal"
            som = som + getal
-	print "de som van de even getallen van 1 tot en met %d is %d" % (max_getal, som) 
+	print "de som van de even getallen van 1 tot en met %d is %d" % (max_getal, som)
+
+Je kunt in `range` ook de stapgrootte opgeven. `for` telt dan van begin tot einde, rekening houdend met de stapgrootte. Dit ziet er zo uit:
+
+    for getal in range(1,100,10):
+       ...
+
+Elke stap in de `for`-loop zal dan steeds 10 verder zijn dan de vorige. Denk even na welke stappen gemaakt zouden worden bij de loop hierboven!
 
 ## Oefening
 
-Schrijf nu zelf een stukje code met `for`-loop die de som van de oneven getallen van 1 tot en met 20 uitrekent. Sla dit programmaatje apart op, in een bestand genaamd `oneven.py`.
+Schrijf nu zelf een stukje code met `for`-loop die de som van de oneven getallen van 1 tot en met 20 uitrekent. Sla dit programmaatje apart op, in een bestand genaamd `oneven.py`. Gebruik de stapgrootte van `range`!
