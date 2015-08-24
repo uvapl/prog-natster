@@ -5,7 +5,7 @@ Dit ben je per week kwijt aan dit vak:
 * 8 uur computerpracticum
 * een uurtje thuis voorbereiden en een beetje programmeren
 
-Dat betekent een wekelijkse studielast per week van *gemiddeld* 11 uur. Hou er
+Dat betekent een wekelijkse studielast per week van *gemiddeld* 9 uur. Hou er
 rekening mee dat je best wat meer tijd kwijt kan zijn, studenten verschillen nu
 eenmaal. Als je nog niet eerder geprogrammeerd hebt moet je even over een
 drempel heen voordat je het begint te begrijpen.
