@@ -58,4 +58,6 @@ Zorg daarom dat je, nadat je het specifieke probleem hebt opgelost, je code alti
            som = som + getal
 	print "de som van de even getallen van 1 tot en met %d is %d" % (max_getal, som) 
 
+## Oefening
 
+Schrijf nu zelf een stukje code met `for`-loop die de som van de oneven getallen van 1 tot en met 20 uitrekent. Sla dit programmaatje apart op, in een bestand genaamd `oneven.py`.

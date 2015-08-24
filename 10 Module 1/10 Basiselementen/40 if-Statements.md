@@ -16,7 +16,7 @@ Als je wilt kijken of een getal positief is bijvoorbeeld. Tik het maar over.
 
 Je ziet dat er een voorwaarde is: `x > 0`, ofwel `x` moet positief zijn. En er is een regel die alléén wordt uitgevoerd als `x > 0`. Probeer het maar uit.
 
-Een belangrijk punt is dat de regel meteen na de `if` begint met vier spaties. Met deze spaties laat je zien dat dit de regels zijn die bij de `if` horen.
+> De regel na de `if` begint met vier spaties. Dat noemen we *inspringen*. Met deze spaties laat je zien dat dit een regel is die onder controle van de `if` staat: wordt alleen gedaan als aan de voorwaarden is voldaan. Als de volgende regel weer zónder vier spaties is, dan valt deze niet meer 'onder' de `if`.
 
 Om te printen of een getal een negatief is zou je een extra regel toe kunnen voegen, maar je kan de 'stroom' van het programma ook sturen als er juist niet aan de voorwaarde voldaan is. Als je bijvoorbeeld wilt testen of een getal positief of negatief is dan kan je naast de `'if` ook de `else` constructie gebruiken.
 
@@ -26,7 +26,9 @@ Om te printen of een getal een negatief is zou je een extra regel toe kunnen voe
 	else
 		print "het getal", x, " is negatief"
 
-Je kan ook verschillende voorwaardes ook combineren. Als je wilt weten of een getal zich in een bepaalde range bevindt (bijvoorbeeld tussen de 3 en de 39) dan kan je met `and` verschillende condities (voorwaardes) combineren:
+> Hierboven ziet je dat er twee regels beginnen met vier spaties: één na de `if` en één na de `else`. Dat betekent dus dat precies die regels onder controle van respectievelijk de `if` en de `else` staan.
+
+Je kunt ook verschillende voorwaardes ook combineren. Als je wilt weten of een getal zich in een bepaalde range bevindt (bijvoorbeeld tussen de 3 en de 39) dan kan je met `and` verschillende condities (voorwaardes) combineren:
 
 	x = 15
     x_min = 3

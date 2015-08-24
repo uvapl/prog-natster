@@ -38,22 +38,3 @@ Nu gaan we berekeningen en letterlijke tekstjes combineren:
 Als je dit programma uitvoert, dan zie je dat precies waar `%d` stond, nu de uitkomst van de berekening is geplaatst.
 
 > Prima. We kunnen nu allerlei dingen printen en uitrekenen. We kunnen ook de resultaten van een berekening op een nette manier printen, zodat de *gebruiker* van het programma begrijpt waar we mee bezig zijn.
-
-### reele getallen
-
-Vaak werken we in computer programma's niet met gehele getallen (integers), maar met reele getallen (floats/doubles). Om die getallen te printen om het scherm gebruik je niet het `%d`, maar het ``%f` symbool.
-
-    fractie_gezakt = 33./122.    # Let op de 
-	print " Percentage gezakte studenten = %f procent" % (100*fractie_gezakt)
-	
-De output hiervan (27.049180327868854) is niet wat je op het scherm wilt hebben. In dit geval is werken met 1 decimaal meer dan voldoende. Om te zorgen dat Python maar 1 decimaal gebruikt (met in totaal 5 plekken voor het getal zelf) gebruik je:
-
-    fractie_gezakt = 33./122.    # Let op de 
-	print " Percentage gezakte studenten = %5.2f procent" % (100*fractie_gezakt)
-
-Bekijk het verschil.
-
-
-
-
-
