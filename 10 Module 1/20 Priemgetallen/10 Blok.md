@@ -6,12 +6,12 @@ We willen de computer graag gebruiken voor het berekenen van zaken die uit ons b
 
 Schrijf een stuk code in een bestand `priem.py` dat van een bepaald getal onderzoekt of het een priemgetal is of niet. Aan het eind van het programma moet duidelijk op het scherm geprint worden of het getal een priemgetal is of niet. Het begint met een variabele x, waarin we de waarde zetten die onderzocht moet worden:
 
-  	x = 37
-	[jouw code]
+    x = 37
+    [jouw code]
 
 Het getal 37 mag de lezer van jouw code natuurlijk zelf veranderen. Maar in dit geval moet aan eind van het programma geprint worden:
 
-  	Het getal 37 is een priemgetal 
+    Het getal 37 is een priemgetal 
 
 ## Tips
 
