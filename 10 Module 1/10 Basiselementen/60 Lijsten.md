@@ -42,31 +42,33 @@ Je kunt ook elk element de lijst apart bekijken met behulp van een `for`-loop:
 
 	metingen_science_park = [12.7, 18.8, 24.9, 14.5, 19.0]
     metingen_science_park.append(20.5)
-    for i in range(0,len(metingen_science_park)):
-	    print "meting %d was %d graden" % (i, metingen_science_park[i])
+    for meting in metingen_science_park:
+	    print "de meting was %d graden" % meting
 
-Hierbij loopt het getal `i` (de *index*) van 0 tot het aantal elementen in de lijst en kan je de index gebruiken om het ie element in de lijst te printen. 
+Zo zie je dat we direct over de elementen van een lijst kunnen loopen. We gebruiken dan niet meer het `range`-commando. Nu is het in dit geval alleen wel informatief om mooi neer te zetten over *welke* meting het gaat. Dan moeten we zelf een tellertje bijhouden:
 
-En daarmee kan je ook het gemiddelde bepalen:
+    teller = 0
+    for meting in metingen_science_park:
+        teller = teller + 1
+        print "de %d e meting was %d graden" % (teller, meting)
 
-	L_temp = [12.7, 18.8, 24.9, 14.5, 19.0]
-    L_temp.append(20.5)
-    som_temp = 0
-    for i in range(0,len(L_temp)):
-	   print "meting ", i, " was ", L_temp[i], " graden" 
-       som_temp = som_temp + L_temp[i]
-    gemiddelde_temp	= som_temp / len(L_temp)
-	print "De gemiddelde temperatuur was ", gemiddelde_temp, " graden"
+Met behulp van al deze informatie kunnen we ook makkelijk het *gemiddelde* uitrekenen. Bedenk dan dat `teller` aan het einde van de loop precies de telling van het totaal aantal elementen van de lijst bevat!
 
-Of kijken op hoeveel dagen de temperatuur boven de 20 graden uitkwam
+    som = 0
+    teller = 0
+    for meting in metingen_science_park:
+        teller = teller + 1
+        som = som + meting
+        print "De %d e meting was %d graden." % (teller, meting)
+    gemiddelde_temp = som / teller
+    print "De gemiddelde temperatuur was %d graden." % gemiddelde_temp
 
-	L_temp = [12.7, 18.8, 24.9, 14.5, 19.0]
-    L_temp.append(20.5)
+Of we kunnen met zo'n loopje bijhouden op hoeveel dagen de temperatuur boven de 20 graden uitkwam:
+
     hete_dagen = 0
-    for i in range(0,len(L_temp)):
-       if L_temp[i] > 20 :
-     	  hete_dagen = hete_dagen + 1
-		  
+    for meting in metingen_science_park:
+        if meting > 20:
+            hete_dagen = hete_dagen + 1
     print "Op ", hete_dagen, " was de temperatuur boven de 20 graden"
 
 Van lijsten is het belangrijk dat je weet hoe je een lijst definiert, hoe je elementen toevoegt aan een lijst en hoe je de individuele elementen afzonderlijk lukt bekijken.
