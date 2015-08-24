@@ -31,8 +31,8 @@ Als je nu een zesde meting doet (20.5 graden) en die toe wilt voegen dan kan dat
 
 In plaats van de lijst printen kunnen we ook de individuele elementen van de lijst printen of het aantal elementen in de lijst berekenen.
 
-    print "Het eerste element van de lijst is ", metingen_science_park[0]
-    print "Het aantal elementen in de lijst is ", len(metingen_science_park)
+    print "Het eerste element van de lijst is %d" % metingen_science_park[0]
+    print "Het aantal elementen in de lijst is %d" % len(metingen_science_park)
 
 Nu kunnen we dus in ieder geval de hele lijst gebruiken, en invididuele elementen uitprinten.
 
