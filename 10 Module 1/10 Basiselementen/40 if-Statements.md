@@ -2,11 +2,11 @@
 
 Tot nu toe hebben we een lang tekstbestand gemaakt met drie soorten regels:
 
-- instructies (die Python kent)
+- instructies (die Python kent, zoals `print`)
 - commentaar (waar Python niets mee doet, maar die wij kunnen lezen)
 - lege regels (waar Python niets mee doet, en die helpen onderscheid te maken tussen stukken code)
 
-Nu gaan we een nieuwe Python-instructie (*statement*) gebruiken: `if`. Bij deze instructie combineer je een *voorwaarde* met een aantal regels die alleen uitgevoerd worden als de voorwaarde "waar" is.
+Nu gaan we een nieuwe Python-instructie (een *statement*) gebruiken: `if`. Bij deze instructie combineer je een *voorwaarde* met een aantal regels die alleen uitgevoerd worden als de voorwaarde "waar" is.
 
 Als je wilt kijken of een getal positief is bijvoorbeeld. Tik het maar over.
 	
