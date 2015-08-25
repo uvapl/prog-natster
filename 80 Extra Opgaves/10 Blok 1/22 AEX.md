@@ -5,8 +5,7 @@ Bij veel banken en verzekeraars werken wis- en natuurkundigen in de zogenaamde e
 
 De eindstand van de AEX kan je vinden op de [AEX wiki](https://nl.wikipedia.org/wiki/AEX):
 
-![](AEXeindstand_Tabel.png)
-
+![](AEXeindstandTabel.png)
 
 # Opgave: voorspel de AEX einstand in het jaar 2000
 
