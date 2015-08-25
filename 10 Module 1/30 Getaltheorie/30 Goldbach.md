@@ -1,6 +1,6 @@
 # Het vermoeden van Goldbach
 
-Het vermoeden van Goldbach is een van de oudste onopgeloste problemen in de wiskunde. Goldbach stelde dat:
+Het vermoeden van Goldbach is een van de oudste onopgeloste problemen in de wiskunde. Goldbach stelde:
 
 *"Elk even getal groter dan 2 kan geschreven worden als de som van twee priemgetallen."*
 
