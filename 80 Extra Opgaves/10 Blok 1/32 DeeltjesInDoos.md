@@ -25,19 +25,3 @@ Genereer een beginsituatie door voor een groot aantal punten $$i$$ de snelheid $
    
    - Hou van elk deeltje op elk tijdstip *alleen* zijn positie (x,y) en zijn snelheid (vx, vy) bij. Je hoeft dat dus niet te doen als functie van de tijd. Dat is alleen nodig als je een baan van een deeltje zou willen plotten op het scherm.
 
-# Opgave: voorspel de AEX einstand in het jaar 2000
-
-### a) Maak een grafiek van het aantal deeltjes aan de rechterkant van de doos ($$x_i>0.5$$) als functie van de tijd.
-
-### b) Maak een grafiek van de gemiddelde afstand tussen de deeltjes ans functie van de tijd.
-
-We gaan nu een van de aannames laten vallen en maken een gat in de doos: ($$y_{\rm gat} = 0$$ en $$0.8< x_{\rm gat} = 0 < 0.9$$). Het is dan mogelijk dat er deeltjes uit de doos ontsnappen.
-
-### c) Maak een grafiek van het aantal deeltjes in de doos als functie van de tijd. Wat is de gemiddelde tijd waarop de helft van de deeltjes uit de doos is ontsnapt: $$t_{1/2}$$ ? Probeer ook zonder je programma een schatting te geven. 
-
-### d) Stel nou dat de deeltjes gemiddeld met een 2x hogere snelheid beginnen ($$0<v_i<0.2$$). Maak dezelfde grafiek als bij vraag c) en bepaal opnieuw $$t_{1/2}$$ . Hoe verschilt deze van je antwoord bij vraag c) ? Wat verwachtte je ?
-
-Maak een grafiek van het aantal deeltjes in de doos als functie van de 
-
-
-
