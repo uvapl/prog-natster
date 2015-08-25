@@ -29,18 +29,24 @@ Onze aannames in dit deel van de opgave:
 
    - de deeltjes hebben geen afmeting en kunnen niet botsen
    
-### Vraag 1a) Maak een grafiek van het aantal deeltjes aan de rechter kant van de doos ($$x_i>0/5$$) als functie van de tijd.
+### Vraag 1a) 
+Maak een grafiek van het aantal deeltjes aan de rechter kant van de doos ($$x_i>0/5$$) als functie van de tijd.
 
-### Vraag 1b) Maak een grafiek van de gemiddelde afstand tussen de deeltjes als functie van de tijd. 
+### Vraag 1b) 
 
+Maak een grafiek van de gemiddelde afstand tussen de deeltjes als functie van de tijd. 
 
 ## Deeltjes in de doos (deel 2): gat in een van de wanden
 
 Stel nou eens dat er een gat in een van de wanden van de doos zit: $$y_{\rm gat} = 0.00$$ en $$0.8<x_{\rm gat}<0.9$$. Het is nu mogelijk dat deeltjes uit de doos ontsnappen.
 
-### Vraag 1c) Maak een grafiek van het aantal deeltjes in de doos als functie van de tijd. Bepaal ook de gemiddelde tijd waarop de helft van de deeltjes uit de doos is ontsnapt: $$t_{1/2}$$. Probeer ook zelf een schatting te maken zonder gebruik te maken van een computerprogramma.
+### Vraag 1c) 
 
-### Vraag 1d) Stel nou dat de deeltjes gemiddeld met een 2x hogere snelheid beginnen in de beginsituatie: $$0 < v_i< 0.20$$. Maak weer dezelfde grafiek als bij c) en bepaal opnieuw $$t_{1/2}$$. Hoe verschilt deze van je antwoord bij c) ? Wat verwachttte je ?
+Maak een grafiek van het aantal deeltjes in de doos als functie van de tijd. Bepaal ook de gemiddelde tijd waarop de helft van de deeltjes uit de doos is ontsnapt: $$t_{1/2}$$. Probeer ook zelf een schatting te maken zonder gebruik te maken van een computerprogramma.
+
+### Vraag 1d) 
+
+Stel nou dat de deeltjes gemiddeld met een 2x hogere snelheid beginnen in de beginsituatie: $$0 < v_i< 0.20$$. Maak weer dezelfde grafiek als bij c) en bepaal opnieuw $$t_{1/2}$$. Hoe verschilt deze van je antwoord bij c) ? Wat verwachttte je ?
 
 
 ## Deeltjes in de doos (deel 3): realisme toevoegen
