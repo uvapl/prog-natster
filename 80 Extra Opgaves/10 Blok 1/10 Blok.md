@@ -3,3 +3,5 @@
 
 Een nieuwe pagina
 
+![](dummy.png)
+
