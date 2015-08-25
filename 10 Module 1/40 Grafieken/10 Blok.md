@@ -52,21 +52,20 @@ Nu werkt deze `range`-functie alleen met gehele getallen. In wiskundige toepassi
     for x in numpy.arange(2.0, 9.0, 0.1):
         print x
 
-# Opgave
+## Opgave
 
 Schrijf een programma **hoek.py** dat de hoek tussen 2 vectoren berekent in graden (en dus niet in radialen) en de uitkomst op het scherm print.
 
 ![](Vectoren.png){:.inline}
 
-Het inprodukt van 2 vectoren $$V_1$$ en $$V_2$$ ($$V_1 \cdot V_2$$) is te schrijven als het produkt van de lengtes van de vectoren en de cosinus van de openingshoek tussen de 2 vectoren:
+Het *inprodukt* van 2 vectoren $$V_1$$ en $$V_2$$ ($$V_1 \cdot V_2$$) is te schrijven als het product van de lengtes van de vectoren en de cosinus van de openingshoek tussen de 2 vectoren:
 
 $$ V_1 \cdot V_2 = |V_1|~|V_2|\cos(\theta)$$
 
 In deze uitdrukking is $$V_1 \cdot V_2 = x_1x_2 + y_1y_2$$, $$\|V_i\|$$ de lengte van vector $$V_i$$ en $$\theta$$ de openingshoek in radialen.
 
-Gebruik als vectoren $$V_1$$ = (2,5) en $$V_2$$ = (1,2) en zorg dat de output op het scherm weergegeven wordt als :
+Gebruik als vectoren $$V_1$$ = (2,5) en $$V_2$$ = (1,2) en zorg dat de output op het scherm weergegeven wordt als:
 
-    De hoek tussen (2,5) en (1,2)  is <youw resultaat> graden.
-
+    De hoek tussen (2,5) en (1,2) is ??? graden.
 
 Gebruik de functie `acos()` uit de `math`-bibliotheek.
