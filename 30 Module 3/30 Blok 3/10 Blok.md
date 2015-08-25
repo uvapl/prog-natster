@@ -29,8 +29,20 @@ precies ?
 
 ### c) Bereken de maximale snelheid die de appel bereikt
 
-### d) Hoe lang duurt het voor de appel weer terug is op de plek waar je 
-hem losgelaten hebt ?
+### d) Hoe lang duurt het voor de appel weer terug is op de plek waar je hem losgelaten hebt ?
 
 
+## Natuurkunde inzicht achteraf
 
+Hoewel dit een ingewikkeld probleem lijkt was het toch mogelijk geweest deze opgave op te lossen met pen en papier.
+
+De effectieve kracht die op een deeltje werkt groeit lineair als functie van de afstand tot het middelpunt van de aarde. Als een deeltje vanuit het centrum van de aarde (x=0) naar buiten beweegt (positie x=r) geldt immers:
+
+  - de effectieve gravitatieconstante groeit als $$r^3$$ omdat de effectieve massa van de bol die aan het object trekt groeit met $$r^3$$. Er geldt dus: $$F\propto r^3$$.  
+
+  - de kracht zelf neemt af met $$1/r^2$$ omdat de kracht nou eenmaal omgekeerd evenredig afneemt met het kwadraat van de afstand. Er geldt dus: $$F\propto r^{-2}$$
+  
+Uiteindelijk zal de kracht op een deeltje dat steeds verder uit het centrum beweegt lineair afnemen met de afstand. Dat is precies dezelfde situatie als een klassieke veer waarvoor de we bewegingsvergelijking wel kennen: de [wet van Hooke] (https://nl.wikipedia.org/wiki/Wet_van_Hooke).
+
+  
+  
