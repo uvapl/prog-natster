@@ -4,7 +4,7 @@ We gaan nu verder werken met de ideeën uit het vorige hoofdstuk en voorbeelden 
 
 > Twee dingen zijn belangrijk om te leren voor je met de opgave aan de slag gaat:
 > 
-> - Een computer is niet 'slim'. Hij voert gewoon commando's uit. Als programmeur ben jij om de computer alleen de hoogst noodzakelijke dingen te laten doen. 
+> - Een computer is niet 'slim', maar voert droog commando's uit. Het is jouw taak als programmeur  om de computer alleen de hoogst noodzakelijke dingen te laten doen. 
 > - Bepaal altijd met pen en papier je strategie en ga dus niet gelijk tikken. De 5-10 minuten die je hieraan besteedt verdien je dik terug tijdens de opdracht.
  
 ## Opgave
