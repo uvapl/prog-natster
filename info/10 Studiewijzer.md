@@ -1,6 +1,6 @@
-# Studiewijzer
+# Programmeren voor Natuur- en Sterrenkunde
 
-*Versie: September 2014 (4.1)*
+*Versie: September 2015 (nog niet klaar!)*
 
 Welkom bij deze cursus *Inleiding Programmeren*. We gaan programmeren in Python, een eenvoudige taal met vele mogelijkheden. Je leert over de basis van het programmeren, maar je gaat ook aan de slag met toepassingen uit de wiskunde, natuurkunde en sterrenkunde.
 

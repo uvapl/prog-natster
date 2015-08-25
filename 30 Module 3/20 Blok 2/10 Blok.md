@@ -1,6 +1,15 @@
 
-# Simulaties
+# Simuleren natuurkundige processen
 
+Als je al weet dat je 4 om elkaar heendraaiende ballen niet analytisch uit kan rekenen 
+dan is het duidelijk dat er enorm veel (bijna alle) problemen uiteindelijk met een 
+computersimulatie doorgerekend worden. Met een computer kan je kleine stapjes in de 
+tijd nemen en op elk tijdstip alle krachten berekenen die er op een voorwerp werken en 
+zo per deeljte kan kijken welke kant hij op zal bewegen en met welke snelheid.
+
+In Opgave 1 begint met een probleem waarbij je de antwoorden zelf nog kunt controleren 
+en uitrekenen, maar in opgave 2 ben je op je programmeer-skills en je natuurkundige 
+intuitie aangewezen om uiteindelijk tot het het antwoord te komen.
 
 # Opgave 1: appel valt van de Dom in Utrecht
 
@@ -59,37 +68,10 @@ Teken 2 lijnen in dezelfde figuur: in het groen/blauw de situatie als we luchtwe
     
 ### c) Op 100 meter moet de base jumper zijn parachute opengooien. Hoeveel langer heeft de base-jumper om te genieten van de vrije val dankzij de luchtweerstand ?
 
-
-
 Zoals altijd heb je ook hier mensen die het randje opzoeken:
 https://en.wikipedia.org/wiki/Speed_skydiving
 
 Omdat hij zijn sprong maakte in een gebied waar de luchtdruk enorm laag was is het record met 1342 km/uur veilig in handen van Felix Baumgartner.
-
-# Opgave 3: de ultieme free-fall
-
-De appel in vraag 1 bereikt na iets meer dan 4 seconden het aardoppervlak. Stel nou eens dat precies op de plek waar de appel neervalt een tunnel is gegraven dwars door de aarde heen. 
-
-Schrijf een programma `Tunnel.py` die de beweging van de appel door de aarde heen beschrijft. Het deeltje beweegt langs de x-as met x=0 in het centrum van de aarde, start met snelheid 0 op hoogte 0 meter boven het aardoppervlak. Wat gebeurt er precies ?
- 
-![](EarthHole.png)
-
-### Tips:
-   - verwaarloos luchtweerstand in deze opgave
-   - de effectieve massa van de aarde, de massa 'die aan je trekt' is
-     wordt kleiner naarmate je dichter bij het centrum komt.
-     Dus: als de aarde $$M_{\rm aarde}$$ weegt en je 50% van de afstand tot het
-     centrum van de aarde hebt afgelegd 'weegt' de aarde in de formule van
-     Newton nog maar $$\left(\frac{1}{2}\right)^3M_{\rm aarde}$$.
-   - Neem aan dat de aarde een bol met constante dichtheid is.
-   
-### a) Maak een grafiek van de snelheid van de appel als functie van de tijd
-
-### b) Maak een grafiek van de positie als functie van de tijd
-
-### c) Bereken de maximale snelheid die de appel bereikt
-
-### d) Hoe lang duurt het voor de appel weer terug is op de plek waar je hem losgelaten hebt ?
 
 
 

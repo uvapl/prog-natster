@@ -5,19 +5,17 @@ persoonlijke programmeervaardigheid te ontwikkelen. Bij vervolgvakken is het
 vaak wél mogelijk om samen te programmeren.
 
 Tijdens de practica is het natuurlijk prima als je de opgave bespreekt met de
-student die naast je zit. Het is echter niet toegestaan om ook maar één regel
-code van je medestudenten, of van internet, over te nemen.
+student die naast je zit. Het is echter niet toegestaan om een regel
+code van je medestudenten of van internet over te nemen.
 
 Een belangrijk verschil dus: je kunt discussiëren over de manier waarop je een
-probleem aanpakt, maar je kopieert nooit code van anderen. Om het jezelf niet
-te makkelijk te maken, kijk je dus doorgaans ook niet op het scherm van een
-ander.
+probleem aanpakt, maar je kopieert niet de code van anderen. Om het jezelf niet
+te makkelijk te maken, is het slim om niet op het scherm van je buren te kijken.
 
 Als je merkt dat je zodanig aan het overleggen bent dat je dezelfde code krijgt
-als een medestudent, wordt het tijd om te stoppen met samenwerken en de
-assistent om hulp te vragen.
+als een medestudent, is het hoog tijd om de assistent om hulp te vragen!
 
-Kom je in tijdnood? Bespreek het even met de docent. We willen het graag zo
+Kom je in tijdnood? Bespreek het even met de docenten. We willen het graag zo
 oplossen dat je het vak zelfstandig kunt halen. Programmeren is echt iets dat
 je zelf even onder de knie moet krijgen.
 

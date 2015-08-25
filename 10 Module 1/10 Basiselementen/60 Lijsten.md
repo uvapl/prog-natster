@@ -1,64 +1,78 @@
 # Lijsten
 
-Naast getallen en strings zijn lijsten ook een basiselementen bij veel programmeertalen.  Dit is handig om data te groeperen en als 1 object te behandelen.
+Naast getallen en strings zijn lijsten ook een basiselement van veel
+programmeertalen. Lijsten is handig om data te groeperen en vervolgens als geheel te verwerken in bijvoorbeeld een berekening.
 
-Een lijstje met namen van docenten kan je bijvoorbeeld zo bewaren:
-	L_docenten = ["Martijn", "Rico", "Nick", "Rick", "Kelly"]
+## Voorbeeld
 
-Elk element in deze lijst is een string, maar de lijst kan zowel getallen, strings en zelf weer lijsten bevatten. Ook door elkaar heen. Je kan elementen uit een lijst opvragen, ze veranderen of elementen toevoegen. 
+Een lijstje met namen van docenten kun je zo bewaren:
 
-Tip:
-   - elementen in een lijst beginnen bij 0
-   - gebruik je keuze van je variabelenaam om aan te geven of iets een lijst is of gewoon een getal.
-     ik heb hier L_ gebruikt zodat ik zelf weet dat het een lijst is. Kies wat je zelf handig vindt.
-	 
+	docenten = ["Martijn", "Ivo", "Rico", "Nick", "Rick", "Kelly"]
+
+Elk element in deze lijst is een *string*, maar de lijst kan ook getallen of zelfs lijsten bevatten. Ook door elkaar heen. Je kunt elementen uit een lijst opvragen, ze veranderen of elementen toevoegen. Zo vraag je bijvoorbeeld een element op, om deze direct uit te printen:
+
+    print docenten[2]
+
+Probeer dit uit, want het antwoord is misschien niet precies wat je verwacht. Probeer daarom ook even het getal `2` te veranderen in andere getallen.
+
+## Elementen toevoegen
+
 Stel dat je een lijst met 5 temperatuurmetingen hebt (op het Science Park) en die wil je in een lijst opslaan en vervolgens wilt printen op het scherm dan gaat dat als volgt:
 
-	L_temp = [12.7, 18.8, 24.9, 14.5, 19.0]
-    print L_temp
-	
-Als je nu een zesde meting doet (20.5 graden) en die toe wilt voegen dan kan dat met behulp van het `append` commando
+	metingen_science_park = [12.7, 18.8, 24.9, 14.5, 19.0]
+    print metingen_science_park
 
-	L_temp = [12.7, 18.8, 24.9, 14.5, 19.0]
-    L_temp.append(20.5)
-    print L_temp
+Zoals je ziet kun je ook in één keer een hele lijst printen. Het hoeft niet per element.
 
-In plaats van de lijst zelf printen kunnen we ook de individuele elementen van de lijst printen of het aantal elementen in de lijst berekenen.
+Als je nu een zesde meting doet (20.5 graden) en die toe wilt voegen dan kan dat met behulp van het `append` commando:
 
-	L_temp = [12.7, 18.8, 24.9, 14.5, 19.0]
-    L_temp.append(20.5)
-    print "Het eerste element van de lijst = ", L_temp[0]
-    print "Het aantal elementen in de lijst is ", len(L_temp)
+    metingen_science_park.append(20.5)
+    print metingen_science_park
 
-Je kunnen we ook over een voor een de elementen in de lijst bekijken met behulp van de for loop:
+In plaats van de lijst printen kunnen we ook de individuele elementen van de lijst printen of het aantal elementen in de lijst berekenen.
 
-	L_temp = [12.7, 18.8, 24.9, 14.5, 19.0]
-    L_temp.append(20.5)
-    for i in range(0,len(L_temp)):
-	   print "meting ", i, " was ", L_temp[i], " graden" 
+    print "Het eerste element van de lijst is %d" % metingen_science_park[0]
+    print "Het aantal elementen in de lijst is %d" % len(metingen_science_park)
 
-Hierbij loopt het getal (index) i van 0 tot het aantal elementen in de lijst en kan je de index gebruiken om het ie element in de lijst te printen. 
+Nu kunnen we dus in ieder geval de hele lijst gebruiken, en invididuele elementen uitprinten.
 
-En daarmee kan je ook het gemiddelde bepalen:
+## Loopen met een lijst
 
-	L_temp = [12.7, 18.8, 24.9, 14.5, 19.0]
-    L_temp.append(20.5)
-    som_temp = 0
-    for i in range(0,len(L_temp)):
-	   print "meting ", i, " was ", L_temp[i], " graden" 
-       som_temp = som_temp + L_temp[i]
-    gemiddelde_temp	= som_temp / len(L_temp)
-	print "De gemiddelde temperatuur was ", gemiddelde_temp, " graden"
+Je kunt ook elk element de lijst apart bekijken met behulp van een `for`-loop:
 
-Of kijken op hoeveel dagen de temperatuur boven de 20 graden uitkwam
+	metingen_science_park = [12.7, 18.8, 24.9, 14.5, 19.0]
+    metingen_science_park.append(20.5)
+    for meting in metingen_science_park:
+	    print "de meting was %d graden" % meting
 
-	L_temp = [12.7, 18.8, 24.9, 14.5, 19.0]
-    L_temp.append(20.5)
+Zo zie je dat we direct over de elementen van een lijst kunnen loopen. We gebruiken dan niet meer het `range`-commando. Nu is het in dit geval alleen wel informatief om mooi neer te zetten over *welke* meting het gaat. Dan moeten we zelf een tellertje bijhouden:
+
+    teller = 0
+    for meting in metingen_science_park:
+        teller = teller + 1
+        print "de %d e meting was %d graden" % (teller, meting)
+
+Met behulp van al deze informatie kunnen we ook makkelijk het *gemiddelde* uitrekenen. Bedenk dan dat `teller` aan het einde van de loop precies de telling van het totaal aantal elementen van de lijst bevat!
+
+    som = 0
+    teller = 0
+    for meting in metingen_science_park:
+        teller = teller + 1
+        som = som + meting
+        print "De %d e meting was %d graden." % (teller, meting)
+    gemiddelde_temp = som / teller
+    print "De gemiddelde temperatuur was %d graden." % gemiddelde_temp
+
+Of we kunnen met zo'n loopje bijhouden op hoeveel dagen de temperatuur boven de 20 graden uitkwam:
+
     hete_dagen = 0
-    for i in range(0,len(L_temp)):
-       if L_temp[i] > 20 :
-     	  hete_dagen = hete_dagen + 1
-		  
+    for meting in metingen_science_park:
+        if meting > 20:
+            hete_dagen = hete_dagen + 1
     print "Op ", hete_dagen, " was de temperatuur boven de 20 graden"
-		
+
 Van lijsten is het belangrijk dat je weet hoe je een lijst definiert, hoe je elementen toevoegt aan een lijst en hoe je de individuele elementen afzonderlijk lukt bekijken.
+
+## Opdracht
+
+Probeer nu eens een programma te schrijven dat een lijstje met temperaturen in graden Celcius omrekent naar een nieuw lijstje met overeenkomstige temperaturen in graden Fahrenheit. De formule zoek je natuurlijk even op in een zoekmachine. Sla dit programma op in een bestand **temperaturen.py** en bewaar het goed voor inleveren.
