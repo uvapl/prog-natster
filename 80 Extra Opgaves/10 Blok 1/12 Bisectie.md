@@ -29,3 +29,12 @@ Er zijn snellers methodes om te convergeren, maar dat is nu niet belangrijk.
 
 ![](Bisectie.png)
 
+## Opgave 1: bereken $$\sqrt{5}$$
+
+Maak gebruik van de bisectiemethode om $$\sqrt{5}$$ te berekenen stop als $$|x^2-5|<0.0001$$.
+
+## Opgave 2: convergentiesnelheid
+
+Maak een grafiek van de 'afstand' van jouw oplossing tot het 'echte' nulpunt (`math.sqrt(5)`) als functie van het aantal iteraties die je gemaakt hebt. Wat is de maximale precisie die je kan halen en wat definieert dat op een computer ?
+
+
