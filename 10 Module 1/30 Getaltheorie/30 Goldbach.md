@@ -4,7 +4,7 @@ Het vermoeden van Goldbach is een van de oudste onopgeloste problemen in de wisk
 
 *"Elk even getal groter dan 2 kan geschreven worden als de som van twee priemgetallen."*
 
-Een priemgetal mag hierbij twee keer gebruikt worden. Hoewel dit inderdaad klopt voor alle getallen tot $4\cdot10^{18}$ is er nog altijd geen bewijs. We gaan ons steentje bijdragen. 
+Een priemgetal mag hierbij twee keer gebruikt worden. Hoewel dit inderdaad klopt voor alle getallen tot $$4\cdot10^{18}$$ is er nog altijd geen bewijs. We gaan ons steentje bijdragen. 
 
 ## Opgave
 
