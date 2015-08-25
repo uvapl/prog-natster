@@ -34,9 +34,7 @@ precies ?
 
 ## Natuurkunde inzicht achteraf
 
-Hoewel dit een ingewikkeld probleem lijkt was het toch mogelijk geweest deze opgave op te lossen met pen en papier.
-
-De effectieve kracht die op een deeltje werkt groeit lineair als functie van de afstand tot het middelpunt van de aarde. Als een deeltje vanuit het centrum van de aarde (x=0) naar buiten beweegt (positie x=r) geldt immers:
+Hoewel dit een ingewikkeld probleem lijkt was het toch mogelijk geweest deze opgave op te lossen met pen en papier. De effectieve kracht die op een deeltje werkt groeit lineair als functie van de afstand tot het middelpunt van de aarde. Als een deeltje vanuit het centrum van de aarde (x=0) naar buiten beweegt (positie x=r) geldt immers:
 
   - de effectieve gravitatieconstante groeit als $$r^3$$ omdat de effectieve massa van de bol die aan het object trekt groeit met $$r^3$$. Er geldt dus: $$F\propto r^3$$.  
 
