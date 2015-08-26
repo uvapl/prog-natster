@@ -74,10 +74,10 @@ Geef 1 van de deeltjes een andere afmeting en zorg dat de massa van dat deeltje 
 
 ![](BouncingBallsGif.gif)
 
-## Deeltjes in de doos (deel 4): Boltzmann verdeling
+## Deeltjes in de doos (deel 4): Maxwell-Boltzmann verdeling
 
 Zodra twee deeltjes botsen veranderen zowel de snelheid als de bewegingsrichting
-van de deeltjes. Interessant is dat de snelheidsverdeling uiteindelijk de Boltzmannverdeling zal volgen, onafhankelijk van de begincondities. We willen dat graag bewijzen door de verdeling te bekijken na een tijd lang botsen.
+van de deeltjes. Interessant is dat de snelheidsverdeling uiteindelijk de Maxwell-Boltzmannverdeling zal volgen, onafhankelijk van de begincondities. We willen dat graag bewijzen door de verdeling te bekijken na een tijd lang botsen.
 
 ### Vraag 1i)
 
@@ -90,7 +90,7 @@ Verzin een manier om fluctuaties te voorkomen. Je zou bijvoorbeeld een 'gemiddel
 
 ### Vraag 1k)
 
-De claim is dat de snelheidsverdeling de Boltzmann zal worden *onafhankelijk* van de begincondities. Test die claim door met varierende begincondities te werken. Begin eens met een beginsituatie waarin alle deeltjes dezelfde snelheid hebben en vergelijk de uiteindelijke snelheidsverdeling met die uit de vorige vraag. Wat valt je op ? Wat is de gemiddelde snelheid ? Zijn ze inderdaad hetzelfde ? Een ander optie is om alle deeltjes stil te zetten, op 1 deeltje na dat een heel hoge snelheid heeft.  
+De claim is dat de snelheidsverdeling de Maxwell-Boltzmann zal worden *onafhankelijk* van de begincondities. Test die claim door met varierende begincondities te werken. Begin eens met een beginsituatie waarin alle deeltjes dezelfde snelheid hebben en vergelijk de uiteindelijke snelheidsverdeling met die uit de vorige vraag. Wat valt je op ? Wat is de gemiddelde snelheid ? Zijn ze inderdaad hetzelfde ? Een ander optie is om alle deeltjes stil te zetten, op 1 deeltje na dat een heel hoge snelheid heeft.  
 
 
 
