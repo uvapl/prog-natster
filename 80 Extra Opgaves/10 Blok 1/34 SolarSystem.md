@@ -4,7 +4,7 @@ Ons zonnestelsel bestaat uit 8 planeten die elk met een eigen omwentelingssnelhe
 
 ![](SolarSystemCombined.png)
 
-# Opgave 1: positie planeten
+## Opgave 1: positie planeten
 
 Neem stapjes in de tijd en bepaal voor elke stap in de tijd de as (hoek $$\beta$$) waarvoor de planeten het meest gealinieerd zijn. Doe dit door de som van de afwijkingen ($$\Delta_i$$) in hoek tussen $$\beta$$ en die van de individuele planeten te minimaliseren: $$\Delta_{\rm tot} = \Sum_{i}$$.
 
