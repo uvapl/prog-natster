@@ -1,4 +1,4 @@
-# if-Statements
+# if-statements
 
 Tot nu toe hebben we een lang tekstbestand gemaakt met drie soorten regels:
 
@@ -34,7 +34,7 @@ Je kunt ook verschillende voorwaardes ook combineren. Als je wilt weten of een g
     x_min = 3
     x_max = 39	
 	if x > x_min and x < x_max:
-	    print "het getal", x, " bevindt zich in het bereik"
+	    print "het getal %d bevindt zich tussen %d en %d" % (getal, x_min, x_max)
 
 
 De condities die we hier gebruiken zijn:
