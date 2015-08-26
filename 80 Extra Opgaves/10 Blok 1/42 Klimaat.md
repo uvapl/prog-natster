@@ -15,7 +15,7 @@ Ter info: de data bestanden met de temperatuurgegevens zijn hier te downloaden: 
 
 ### Vraag 1b): reproduceer de onderste grafiek
 
-### Vraag 1c): waarom heeft de Volkskrant dit formaat gekozen boven 'gewoon' de gemiddelde temperatuur ?
+### Vraag 1c): waarom heeft de Volkskrant deze manier gekozen om de data te representeren ?
  
 
 
