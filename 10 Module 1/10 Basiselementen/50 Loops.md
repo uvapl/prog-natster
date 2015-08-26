@@ -36,7 +36,18 @@ Voordat je over de getallen 'loopt' zet je de variabele `som` op 0. Die gebruike
 
 ## Een loop met een if
 
-Je kunt tijdens de loop de getallen ook verschillend behandelen. Als we bijvoorbeeld de som van de even getallen tussen 1 en 20 willen printen kunnen we een `if`-statement gebruiken:
+Je kunt tijdens de loop de getallen ook verschillend behandelen. Als we bijvoorbeeld de som van de even 
+getallen tussen 1 en 20 willen printen kunnen we een `if`-statement gebruiken. 
+
+We introduceren in het onderstaande stukje code ook 'ongemerkt' de `%` (modulo-operator) om te bepalen 
+of een getal deelbaar is door 2. De modulo operator geeft je het getal dat overblijft als je het getal 
+voor de % deltj door het getal erna (wordt ook wel de rest genoemd). De functie 7%2 geeft je dus 1, 
+35%8 = 3 etc etc. Om nou te kijken of een getal x *precies* een deler is van een ander getal y kan je 
+kijken of de rest 0: als 679875%37 nou precies gelijk is aan 0 betekent dat dat 679875 een veelvoud is 
+van 37. Zo'n bouwsteen als de modulo operator kan je ook prima inzetten om te kijken of een getal een 
+even getal is of niet.
+
+Het printen van de some van de *even* getallen tussen 1 en 20 gaat dan ook als volgt:
 
     som = 0
 	for getal in range(1,21):
@@ -44,9 +55,13 @@ Je kunt tijdens de loop de getallen ook verschillend behandelen. Als we bijvoorb
            som = som + getal
 	print "De som van de even getallen van 1 tot en met 20 is %d" % (som)
 
-In dit geval test je voor elk van de getallen eerst of het een even getal is (rest 0 als je door 2 deelt). Als dat zo is tel je het getal op bij de variabele som. Aan het eind van de loop print je de waarde weer op het scherm. Alle oneven getallen worden helemaal genegeerd!
+In dit geval test je voor elk van de getallen eerst of het een even getal is (rest 0 
+als je door 2 deelt). Als dat zo is tel je het getal op bij de variabele som. Aan het 
+eind van de loop print je de waarde weer op het scherm. Alle oneven getallen worden 
+helemaal genegeerd!
 
-Het volgende voorbeeld laat zien dat indentatie in Python cruciaal is. Alles wat recht onder elkaar staat hoort bij elkaar:
+Het volgende voorbeeld laat zien dat indentatie in Python cruciaal is. Alles wat recht 
+onder elkaar staat hoort bij elkaar:
 
     som = 0
 	for getal in range(1, 21):
