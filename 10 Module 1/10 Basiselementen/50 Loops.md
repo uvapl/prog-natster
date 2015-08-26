@@ -60,8 +60,10 @@ als je door 2 deelt). Als dat zo is tel je het getal op bij de variabele som. Aa
 eind van de loop print je de waarde weer op het scherm. Alle oneven getallen worden 
 helemaal genegeerd!
 
-### Let op het gebruik van het `==` (dubbele =-teken). Een veelvoorkomende fout in programma's 
-is dat hier een enkelen `=` gebruikt wordt. 
+### Let op:
+
+We gebruiken het `==` (dubbele =-teken) om te kijken of 2 getallen aan elkaar gelijk zijn. Het antwoord daarop 
+is 'ja' of 'nee'. Een veelvoorkomende fout in programma's is dat hier een enkele `=` gebruikt wordt. 
 
 Het volgende voorbeeld laat zien dat indentatie in Python cruciaal is. Alles wat recht 
 onder elkaar staat hoort bij elkaar:
