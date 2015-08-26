@@ -72,8 +72,9 @@ Laat de deeltjes realistisch botsen, dus met de echte afmeting. Hier een korte a
 
 Geef 1 van de deeltjes een andere afmeting en zorg dat de massa van dat deeltje evenredig is met zijn oppervlak. Dat zal de botsing met de lichtere deeltjes beinvloeden. Bestudeer verschillende scenario's.
 
+![](BouncingBallsGif.gif)
 
-## Deeltjes in de doos (deel 4): natuukunde
+## Deeltjes in de doos (deel 4): Boltzmann verdeling
 
 Zodra twee deeltjes botsen veranderen zowel de snelheid als de bewegingsrichting
 van de deeltjes. Interessant is dat de snelheidsverdeling uiteindelijk de Boltzmannverdeling zal volgen, onafhankelijk van de begincondities. We willen dat graag bewijzen door de verdeling te bekijken na een tijd lang botsen.
