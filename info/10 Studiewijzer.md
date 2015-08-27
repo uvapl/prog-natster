@@ -8,7 +8,7 @@ Welkom bij deze cursus *Inleiding Programmeren*. We gaan programmeren in Python,
 
 ## Docenten
 
-Ivo van Vulpen (Nikhef/UvA)
+Ivo van Vulpen (Nikhef/UvA)  
 Martijn Stegeman (UvA)
 
 Mail bij voorkeur naar <progns@mprog.nl> als je praktische vragen hebt of problemen wil melden. Als we bij het practicum zijn, kun je ons natuurlijk ook aanspreken!
