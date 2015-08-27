@@ -1,61 +1,60 @@
-# Cursusonderdelen
-
+# Hoe werkt de cursus?
 
 ## Leerdoelen
 
-* Je kunt een specificatie van een programma omzetten naar werkende code.
-* Je kunt bij programmeertalen bijgeleverde bibliotheken gebruiken in je eigen
-  programma’s.
-* Je kunt programma’s overzichtelijk en beter leesbaar maken door een
+Wat willen we dat je kunt aan het einde van deze cursus?
+
+* Je kunt een omschrijving van een programma omzetten naar werkende code.
+* Je kunt bijgeleverde bibliotheken gebruiken in je eigen programma's.
+* Je kunt code overzichtelijk en beter leesbaar maken door een
   consistente stijl toe te passen.
-* Je kunt programmeerfouten opsporen en verbeteren: syntaxfouten in de code en
-  logische fouten in de achterliggende algoritmes.
-* Je kunt uitleggen hoe je enkele numerieke technieken als programma kunt implementeren.
+* Je kunt programmeerfouten opsporen en verbeteren.
+* Je kunt uitleggen hoe je een aantal numerieke technieken als programma kunt implementeren.
 
-## Tijdsbesteding
+## Opdrachten
 
-Dit ben je per week kwijt aan dit vak:
+Vanaf de eerste dag van de cursus ga je oefenen met het omzetten van een idee
+voor een programma naar werkende Python-code. Per module doe je kleine
+oefeningen, en pak je wat grotere opdrachten aan. Het geheel lever je aan het
+einde van de module in, en dan wordt het beoordeeld:
 
-* 8 uur computerpracticum
-* een uurtje thuis voorbereiden en een beetje programmeren
+* Omvang --- heb je alle opdrachten geprobeerd of heb je dingen overgeslagen?
+  Heb je alles precies gedaan zoals de omschrijving vereist?
 
-Dat betekent een wekelijkse studielast per week van *gemiddeld* 9 uur. Hou er
-rekening mee dat je best wat meer tijd kwijt kan zijn, studenten verschillen nu
-eenmaal. Als je nog niet eerder geprogrammeerd hebt moet je even over een
-drempel heen voordat je het begint te begrijpen.
+* Stijl --- hoe ordelijk en leesbaar is je code? Dit kan een zwaarwegende factor worden!
 
-## Opdrachten en oefeningen
+## Dagelijks ritme
 
-De bedoeling van deze cursus is dat je enigszins zelfstandig de opdrachten leert lezen en
-begrijpen, waarna je een oplossing kunt formuleren en implementeren. Daarom ga je daar vanaf de
-eerste dag mee oefenen.
+De opdrachten zijn ingedeeld in blokken van één practicum dag. De bedoeling is dat elk blok gemiddeld een uur of vier aan werk is. Mocht je het niet afhebben, dan is het de bedoeling dat je de opdracht thuis nog af maakt. Kom je in de problemen? Neem dan contact op!
 
-### Opdrachten
+## Aanwezigheid
 
-Elke ingeleverde opdracht wordt beoordeeld op de volgende factoren:
+De bedoeling is dat je op alle practicumuren aanwezig bent. Wij leren je namelijk ter plaatse nog dingen die je niet in je eentje kunt leren: bijvoorbeeld het opsporen en verbeteren van fouten in je programma's.
 
-* Scope --- heb je alles geprobeerd? heb je alles helemaal precies zoals in de opdracht?
-* Stijl --- hoe ordelijk en leesbaar is je code?
+## Deadline
 
-Stijl *kan* een zwaarwegende factor kan worden als je bijvoorbeeld bij herhaling geen vooruitgang
-maakt en je feedback niet verwerkt!
-
-### Oefeningen
-
-We willen graag dat je de oefeningen inlevert, maar deze worden niet streng nagekeken op functionaliteit en stijl. Het zijn immers oefeningen.
-
-### Deadline
-
-De deadline is na het laatste werkcollege van de module, in de groep waarin je
-ingedeeld bent. Op dat moment wordt het ingeleverde werk verdeeld onder de
-nakijkers en gaan zij aan de slag. Er is geen mogelijkheid om het later in te
-leveren.
-
-Het is prima om, voor je instuurt, de assistent nog even te vragen naar je
-opgave te kijken, zodat je nog verbeteringen kunt aanbrengen.
+De deadline is op de dag van het laatste werkcollege van de module, in de groep
+waarin je ingedeeld bent. Op dat moment wordt het ingeleverde werk verdeeld
+onder de nakijkers en gaan zij aan de slag. Er is geen mogelijkheid om het
+later in te leveren! Lever dus sowieso in wat je hebt! Het is prima om, voor je
+instuurt, de assistent nog even te vragen naar je opgave te kijken, zodat je
+nog verbeteringen kunt aanbrengen.
 
 ## Tentamen
 
-Omdat het mogelijk is ongemerkt mee te liften met een medestudent tijdens het maken van de practica
-(als je steevast overlegt over de manier van code schrijven), checken we met behulp van het
-tentamen nog een keer of je zelfstandig de leerdoelen van het vak gehaald hebt.
+Omdat het mogelijk is ongemerkt mee te liften met een medestudent tijdens het
+maken van de practica (als je steevast overlegt over de manier van code
+schrijven), checken we met behulp van het tentamen nog een keer of je
+zelfstandig de leerdoelen van het vak gehaald hebt. Je moet het tentamen voldoende maken, maar het telt verder niet mee.
+
+## Eindcijfer
+
+Je krijgt een eindcijfer voor dit vak als je:
+
+* voldoende uren aanwezig bent geweest tijdens de practica;
+* elke module op tijd en naar verwachting hebt ingeleverd;
+* een voldoende hebt gehaald voor het tentamen.
+
+Het eindcijfer bestaat in de basis uit het gemiddelde van de problem sets. Een
+klein deel van het cijfer wordt bepaald door hoe je beter bent gaan
+programmeren tijdens het vak (de voortgang dus!).

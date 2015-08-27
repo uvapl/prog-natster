@@ -1,6 +1,6 @@
 # Samenwerken, fraude en plagiaat
 
-Samenwerken tijdens dit vak is niet toegestaan. Dit vak heeft als doel jouw
+Samenwerken tijdens dit vak is *niet* toegestaan. Dit vak heeft als doel jouw
 persoonlijke programmeervaardigheid te ontwikkelen. Bij vervolgvakken is het
 vaak wél mogelijk om samen te programmeren.
 
