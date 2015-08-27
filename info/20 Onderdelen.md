@@ -1,5 +1,19 @@
 # Cursusonderdelen
 
+
+## Leerdoelen
+
+* Je kunt een specificatie van een programma omzetten naar werkende code.
+* Je kunt bij programmeertalen bijgeleverde bibliotheken gebruiken in je eigen
+  programma’s.
+* Je kunt programma’s overzichtelijk en beter leesbaar maken door een
+  consistente stijl toe te passen.
+* Je kunt programmeerfouten opsporen en verbeteren: syntaxfouten in de code en
+  logische fouten in de achterliggende algoritmes.
+* Je kunt uitleggen hoe je enkele numerieke technieken als programma kunt implementeren.
+
+## Tijdsbesteding
+
 Dit ben je per week kwijt aan dit vak:
 
 * 8 uur computerpracticum
