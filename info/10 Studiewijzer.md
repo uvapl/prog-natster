@@ -16,9 +16,9 @@ Universiteit van Amsterdam
 
 E-mail: <progns@mprog.nl>
 
-### Assistenten
+## Assistenten
 
 Kelly Weerman  
-Nick de Dycker
+Nick de Dycker  
 Rick Hutten  
-Rico Visser  
+Rico Visser
