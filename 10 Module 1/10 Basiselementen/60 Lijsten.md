@@ -69,7 +69,7 @@ Of we kunnen met zo'n loopje bijhouden op hoeveel dagen de temperatuur boven de 
     for meting in metingen_science_park:
         if meting > 20:
             hete_dagen = hete_dagen + 1
-    print "Op ", hete_dagen, " was de temperatuur boven de 20 graden"
+    print "Op %d was de temperatuur boven de 20 graden" % hete_dagen
 
 Van lijsten is het belangrijk dat je weet hoe je een lijst definiert, hoe je elementen toevoegt aan een lijst en hoe je de individuele elementen afzonderlijk lukt bekijken.
 
