@@ -8,3 +8,6 @@ Op *Windows* bestaat de download uit een **.exe**-bestand. Dubbelklik om de inst
   
 Op *Mac* is het een **.dmg**-bestand. Indien nodig, dubbelklik om het te openen. Sleep dan "Canopy" naar *Applications* en start het daarna op om de installatie af te ronden. In principe kun je alle standaardopties accepteren, maar [hier](http://docs.enthought.com/canopy/quick-start/install_macos.html) staat nog wat meer uitleg.
 
+Kijk hier hoe je Canopy kunt gebruiken:
+
+![embed](https://player.vimeo.com/video/137728514)
