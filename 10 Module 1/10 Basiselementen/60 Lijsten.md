@@ -63,6 +63,12 @@ Met behulp van al deze informatie kunnen we ook makkelijk het *gemiddelde* uitre
     gemiddelde_temp = som / teller
     print "De gemiddelde temperatuur was %d graden." % gemiddelde_temp
 
+
+Zoals je ziet in bovenstaande voorbeeld zal het programma het gemiddelde afronden. Het `%d` 
+format zegt Python dat je een geheel getal op het scherm wilt printen. Als je een reeel getal 
+wilt printen zal je het `%f` commando moeten gebruiken. We zullen dat later in de cursus in 
+meer detail bekijken.
+
 Of we kunnen met zo'n loopje bijhouden op hoeveel dagen de temperatuur boven de 20 graden uitkwam:
 
     hete_dagen = 0
