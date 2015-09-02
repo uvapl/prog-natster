@@ -46,7 +46,7 @@ ziet wat er precies gebeurt.
 
     som = 0
     for getal in range(1,100):
-        som += getal
+        som = som + getal
         print getal, " ", som
         if (som > 50): 
             break
