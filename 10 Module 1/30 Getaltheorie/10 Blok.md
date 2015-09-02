@@ -20,6 +20,9 @@ Hoewel een computer je in staat stelt om snel te rekenen is het toch belangrijk 
 
 > Misschien is het raar of vervelend om een programma in te tikken, waarna je ontdekt dat het niet goed werkt. Dat is het lot van de programmeur: het is gewoon heel moeilijk om een precies algoritme te formuleren en dan helemaal correct om te zetten naar programmacode. Soms ben je een uitzondering vergeten, maar net zo goed heb je ergens een tikfout gemaakt. Onthou dat de beste programmeurs op deze manier werken!
 
+     
+print "Ik stop omdat de som meer dan 50 is"   
+
 ### Wiskundetips
 
 Hoewel het in deze opgave niet echt gaat om de snelheid van het programma is in deze specifieke opgave veel tijd te winnen door slim gebruik te maken van een aantal elementen uit de wiskunde. Maar let op! Doe dit pas als je zeker weet dat je programma hierboven correct is. Je kunt dan optimalisaties toepassen en snel vergelijken of je niet een *bug* in je code hebt geïntroduceerd. Dat zou jammer zijn voor een beetje tijdswinst!
@@ -31,3 +34,23 @@ Hoewel het in deze opgave niet echt gaat om de snelheid van het programma is in 
 - Als je wilt bepalen of 37 een priemgetal welke kandidaat delers bekijk je dan voordat je zeker weet dat het een priemgetal is? Doe dit op pen en papier. Het zijn er maar 3 namelijk!
 
 Als je wilt controleren of je programma goed werkt kun je je gevonden lijst priemgetallen hier controleren met een lijst bekende priemgetallen <http://primes.utm.edu/lists/small/1000.txt>
+
+
+### Python tips
+
+Soms is het handig om een loop eerder af te breken. Er zijn in Python verschillende mogelijkheden. De `while-loop` is 
+de meest gebruikte, maar omdat dat aan het begin van jullie programmeer-carriere in dit korte introductievak tot 
+verwarring kan leiden gaan we die niet introduceren. Een andere optie is de `break` constructie. Hoewel het niet 
+strikt noodzakelijk is voor de opgave van vandaag kan een stop misschien wel handig zijn. Op het moment dat Python 
+`break` ziet zal het de for-loop afbreken en verder gaan met de code. Hieronder een voorbeeld waarbij we de for-loop 
+af willen breken zodra de som van de getallen tot dan toe groter is dan 50. Probeer onderstaande code te runnen zodat je 
+ziet wat er precies gebeurt.
+
+    som = 0
+    for getal in range(1,100):
+        som += getal
+        print getal, " ", som
+        if (som > 50): 
+            break
+            
+    print "Ik stop omdat de som meer dan 50 is"  
