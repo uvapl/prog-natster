@@ -48,7 +48,7 @@ dan toe groter is dan 50. Probeer onderstaande code te runnen zodat je ziet wat 
     som = 0
     for getal in range(1,100):
         som = som + getal
-        print getal, " ", som
+        print "%d  som = %d" (getal, som)
         if (som > 50): 
             break
             
