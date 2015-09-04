@@ -29,7 +29,10 @@ Hoewel het in deze opgave niet echt gaat om de snelheid van het programma is in 
 
 - Als je een deler vindt hoef je niet verder te zoeken
 
-- Als je wilt bepalen of 37 een priemgetal welke kandidaat delers bekijk je dan voordat je zeker weet dat het een priemgetal is? Doe dit op pen en papier. Het zijn er maar 3 namelijk!
+- Als je wilt bepalen of 137 een priemgetal welke kandidaat delers bekijk je dan voordat je zeker 
+  weet dat het een priemgetal is? Doe dit op pen en papier. Delen door 2 en alle oneven getallen 
+  tot het getal is een beetje teveel van het goede. Ivo zouden delen door 2, 3, 5, 7, 9, 11 maar 
+  Ionica Smeets door 2, 3, 5, 7, 11. Bedenk goed waarom.
 
 Als je wilt controleren of je programma goed werkt kun je je gevonden lijst priemgetallen hier controleren met een lijst bekende priemgetallen <http://primes.utm.edu/lists/small/1000.txt>
 
