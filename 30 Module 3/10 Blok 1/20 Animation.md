@@ -21,7 +21,7 @@ effect: de functie $$f_2(x) = \frac{1}{2}cos(5x) $$ getekend met een rode lijn.
     L_x  = []   # list of x-values
     L_y2 = []   # list of y-values for 1 of the functions
 
-    #--/ take small steps in x
+    #--/ kleine stapjes in x
     for x in np.arange(0,math.pi,0.02):
 
         y1 = math.sin(x)
