@@ -14,7 +14,7 @@ $$f_1(x) = sin(x)$$ (blauwe punt) en $$ f_3(x) = 0$$ (groene punt).
 ### Voorbeeld: bewegende lijn
 Een grafiek tekenen we met behulp van lijsten: een lijst met x-waardes en een lijst 
 met y-waardes. Als je die lijsten steeds uitbreidt dan krijg je het onderstaande 
-effect: de functie $$f_2(x) = 0.5*cos(5*x)$$ getekend met een rode lijn.
+effect: de functie $$f_2(x) = \frac{1}{2}cos(5x) $$ getekend met een rode lijn.
 
     fig, ax = plt.subplots()
 
