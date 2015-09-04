@@ -45,3 +45,29 @@ effect: de functie $$f_2(x) = \frac{1}{2}cos(5x) $$ getekend met een rode lijn.
 
 Hier het uiteindelijke resultaat:
 ![](AnimationExample.gif)
+
+## Opgave 1: animatie van spiraliserende stip
+
+Een balletje draait met een bepaalde hoeksnelheid rond en met elke stap in de tijd 
+verandert niet alleen de hoek, maar wordt ook de straal steeds kleiner tot hij 
+uiteindelijk precies in het midden stilstaat
+
+![](AnimationInspiral.gif)
+
+
+## Opgave 2: random walk
+
+Een dronken student (die natuurlijk geen natuurkunde studeert, want dan lag hij keurig 
+vroeg in bed) neemt elke seconde een stap. De grootte van de stap is steeds hetzelfde 
+(R = 1), maar de richting waarin hij die stap neemt is volledig random. Kies bij elke 
+stap in de tijd een random hoek $$\alpha$$ en bepaald vervolgens de nieuwe x-positie en 
+y-positie. Teken niet alleen de student als blauwe stip, maar ook het pad dat hij gevolgd 
+heeft.
+
+![](AnimationRandomWalk.gif)
+
+Probeer eens of je (met en en papier) iets kan zeggen over de gemiddelde afstand die de 
+student van zijn startpunt verwijderd is na een bepaald aantal stappen.
+
+Filmpje opslaan ? Probeer GifGrabber (app) te gebruiken om een animated gif te maken. Die kan je weer in een webbrowser bekijken.
+
