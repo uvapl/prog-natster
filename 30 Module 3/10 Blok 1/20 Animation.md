@@ -48,4 +48,4 @@ inzichtelijker een animatie te maken
             plt.pause(0.0001)
 
 Hier het uiteindelijke resultaat:
-![](AnimationExample2.gif)
+![](AnimationExample.gif)
