@@ -60,7 +60,7 @@ andere variabelen gebruiken ($$\alpha$$,R), waarbij $$\alpha$$ de hoek is met de
 positieve x-as en R de afstand tot de oorsprong. De variabelen kunnen in elkaar omgeschreven 
 worden zoals in de grafiek is aangegeven.
 
-![](UitlegPolarCoordinates.gif)
+![](UitlegPolarCoordinates.png)
 
 Details voor de animatie: 
    - $$\alpha$$ varieert van 0 tot 20 in stappen van 0.1
