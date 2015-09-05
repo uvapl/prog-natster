@@ -97,7 +97,7 @@ zelf in moet vullen. De grafiek ziet er dan ook niet bepaald mooi uit. Je kan na
 
 # Opgave
 
-1. Maak nu zelf een grafiek van de functie $$f(x) = x^x$$ tussen x = 0 en x=1.5 stapjes van 0.01. Gebruik hiervoor een blauwe lijn.
+1. Maak nu zelf een programma **grafiek.py** met een grafiek van de functie $$f(x) = x^x$$ tussen x = 0 en x=1.5 stapjes van 0.01. Gebruik hiervoor een blauwe lijn.
 
 2. Zorg vervolgens dat je aan het eind van het berekenen van alle punten weet bij welke x-waarde de functie zijn minimum bereikt. Teken dat minimum met behulp van een rode stip in de grafiek en print de waarde van het minimum aan het eind van je programma. Als extra kun je ook proberen de waarde van het punt in de grafiek zelf te zetten.
 

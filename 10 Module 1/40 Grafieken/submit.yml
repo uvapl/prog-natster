@@ -1,0 +1,12 @@
+name: module1
+required:
+    - module1.py
+    - oneven.py
+    - temperaturen.py
+    - priem.py
+    - priem100.py
+    - primes1000.py
+    - priem_reeks.py
+    - goldbach.py
+    - hoek.py
+    - grafiek.py
