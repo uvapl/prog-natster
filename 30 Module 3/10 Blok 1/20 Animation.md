@@ -55,6 +55,18 @@ uiteindelijk precies in het midden stilstaat
 
 ![](AnimationInspiral.gif)
 
+Op elk moment wordt een punt beschreven door 2 coordinaten (x,y), maar je kan ook 2 
+andere variabelen gebruiken ($$\alpha$$,R), waarbij $$\alpha$$ de hoek is met de 
+positieve x-as en R de afstand tot de oorsprong. De variabelen kunnen in elkaar omgeschreven 
+worden zoals in de grafiek is aangegeven.
+
+![](UitlegPolarCoordinates.gif)
+
+Details voor de animatie: 
+   - $$\alpha$$ varieert van 0 tot 20 in stappen van 0.1
+   - R hangt af van $$\alpha$$, nl: $$R=10-0.5\alpha$$ 
+
+
 ## Opgave 2: dronken studenten
 
 Een dronken student (die natuurlijk geen natuurkunde studeert, want dan lag hij keurig 
