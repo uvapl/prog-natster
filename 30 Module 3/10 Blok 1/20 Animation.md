@@ -16,7 +16,8 @@ Een grafiek tekenen we met behulp van lijsten: een lijst met x-waardes en een li
 met y-waardes. Als je die lijsten steeds uitbreidt dan krijg je het onderstaande 
 effect: de functie $$f_2(x) = \frac{1}{2}cos(5x) $$ getekend met een rode lijn.
 
-    fig, ax = plt.subplots()
+    import math
+    import matplotlib.pyplot as plt
 
     L_x  = []   # list of x-values
     L_y2 = []   # list of y-values for 1 of the functions
@@ -54,20 +55,26 @@ uiteindelijk precies in het midden stilstaat
 
 ![](AnimationInspiral.gif)
 
-
-## Opgave 2: random walk
+## Opgave 2: dronken studenten
 
 Een dronken student (die natuurlijk geen natuurkunde studeert, want dan lag hij keurig 
 vroeg in bed) neemt elke seconde een stap. De grootte van de stap is steeds hetzelfde 
 (R = 1), maar de richting waarin hij die stap neemt is volledig random. Kies bij elke 
 stap in de tijd een random hoek $$\alpha$$ en bepaald vervolgens de nieuwe x-positie en 
-y-positie. Teken niet alleen de student als blauwe stip, maar ook het pad dat hij gevolgd 
-heeft.
+y-positie. Hieronder zie je de student als blauwe stip en het ook het pad dat hij gevolgd 
+heeft. Dit staat bekend als een *random walk*.
 
 ![](AnimationRandomWalk.gif)
 
-Probeer eens of je (met en en papier) iets kan zeggen over de gemiddelde afstand die de 
-student van zijn startpunt verwijderd is na een bepaald aantal stappen.
+Als 2 studenten dronken zijn en ze elkaar uit het oog verliezen wordt het erg onwaarschijnlijk 
+dat ze elkaar nog terugvinden. Probeer de volgende animatie na te maken waarin je de beide studenten 
+ziet lopen. Laat op het scherm ook zien hoe lang de kijken nog moet wachten tot het programma 
+afgelopen is.
+
+![](AnimationRandomWalkDouble.gif)
+
+Probeer ook eens of je (met en en papier) iets kan zeggen over de gemiddelde afstand die de 
+studenten van elkaar verwijderd zijn als functie van het aantal stappen dat ze nemen.
 
 Filmpje opslaan ? Probeer GifGrabber (app) te gebruiken om een animated gif te maken. Die kan je weer in een webbrowser bekijken.
 
