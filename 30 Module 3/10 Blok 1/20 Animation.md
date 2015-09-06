@@ -12,8 +12,9 @@ dezefunctionaliteit een groot scala aan animaties te maken.
 ## Voorbeeld (stap 1): bewegend punt
 Als je een punt tekent (1 x-waarde en 1 y-waarde) waarvan je x en y steeds verandert 
 dan lijkt het of het punt over het scherm beweegt. In de code hieronder nemen we 
-steeds stapjes in x, rekenen y uit en tekenen het punt op het scherm. We kiezen de 
-assen ook zodat het constant hetzelfde is. 
+steeds stapjes in x, rekenen y uit en tekenen het punt op het scherm. We gebruiken 
+ook de commando's `xlim` en `ylim` om in de plot aan te geven welke x-waardes en 
+y-waardes we willen zien.
 
     import math
     import numpy as np
@@ -56,7 +57,7 @@ effect: de functie $$f(x) = sin(x) $$ getekend met een rode lijn.
         L_y.append(y)
 
         #-- plot grafiek
-        plt.plot(L_x, L_y, 'r-')            #-- rode lijn
+        plt.plot(L_x, L_y, 'r-')   #-- rode lijn
         plt.xlim(0,2*math.pi)
         plt.ylim(-1,1)
         plt.draw()           #-- update grafiek
@@ -91,7 +92,8 @@ informatie weergeven over de (x,y) positie van het punt op het scherm.
         L_y.append(y)
 
         #-- plot grafiek
-        plt.plot(L_x, L_y, 'r-',x, y, 'bo', markersize = 10)  #-- stip en lijn tegelijk
+        plt.plot(L_x, L_y, 'r-')               #-- rode lijn
+        plt.plot(x, y, 'bo', markersize = 10)  #-- blauwe stip
         plt.xlim(0,2*math.pi)
         plt.ylim(-1,1)
 
@@ -122,7 +124,9 @@ worden zoals in de grafiek is aangegeven.
 ![](UitlegPolarCoordinates.png)
 
 Details voor de animatie: 
+
    - $$\alpha$$ varieert van 0 tot 20 in stappen van 0.1
+
    - R hangt af van $$\alpha$$, nl: $$R=10-0.5\alpha$$ 
 
 
