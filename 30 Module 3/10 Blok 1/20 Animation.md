@@ -12,13 +12,14 @@ dezefunctionaliteit een groot scala aan animaties te maken.
 ### Voorbeeld (stap 1): bewegend punt
 Als je een punt tekent (1 x-waarde en 1 y-waarde) waarvan je x en y steeds verandert 
 dan lijkt het of het punt over het scherm beweegt. In de code hieronder nemen we 
-steeds stapjes in x, rekenen y uit en tekenen het punt op het scherm
+steeds stapjes in x, rekenen y uit en tekenen het punt op het scherm. We kiezen de 
+assen ook zodat het constant hetzelfde is. 
 
     import math
     import numpy as np
     import matplotlib.pyplot as plt
     
-     #-- neem kleine stappen in x tussen 0 en 2pi
+    #-- neem kleine stappen in x tussen 0 en 2pi
     for x in np.arange(0,2*math.pi,0.05):
 
         y = math.sin(x)
@@ -31,18 +32,41 @@ steeds stapjes in x, rekenen y uit en tekenen het punt op het scherm
         plt.pause(0.001)
         plt.clf()            #-- clear grafiek
 
+![](AnimationExampleSin1.gif)
 
 
-
-### Voorbeeld: bewegende lijn
+### Voorbeeld (stap 2): bewegende lijn
 Een grafiek tekenen we met behulp van lijsten: een lijst met x-waardes en een lijst 
 met y-waardes. Als je die lijsten steeds uitbreidt dan krijg je het onderstaande 
-effect: de functie $$f_2(x) = \frac{1}{2}cos(5x) $$ getekend met een rode lijn.
+effect: de functie $$f(x) = sin(x) $$ getekend met een rode lijn.
+
+    import math
+    import numpy as np
+    import matplotlib.pyplot as plt
+    
+    L_x = []
+    L_y = []
+
+    #--/ take small steps in x
+    for x in np.arange(0,2*math.pi,0.1):
+
+        y = math.sin(x)
+
+        L_x.append(x)
+        L_y.append(y)
+
+        #-- plot grafiek
+        plt.plot(L_x, L_y, 'r-')            #-- rode lijn
+        plt.xlim(0,2*math.pi)
+        plt.ylim(-1,1)
+        plt.draw()           #-- update grafiek
+        plt.pause(0.001)
+        plt.clf()            #-- clear grafiek
 
 
 
-Hier het uiteindelijke resultaat:
-#![](AnimationExample.gif)
+![](AnimationExampleSin2.gif)
+
 
 ## Opgave 1: animatie van spiraliserende stip
 
