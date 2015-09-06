@@ -9,7 +9,7 @@ een beweging aan te geven. We bouwen hier een kort voorbeeld, waarin we een lijn
 functie op in 3 stappen waarbij we telkens 1 element toevoegen. Met behulp van 
 dezefunctionaliteit een groot scala aan animaties te maken.
 
-### Voorbeeld (stap 1): bewegend punt
+## Voorbeeld (stap 1): bewegend punt
 Als je een punt tekent (1 x-waarde en 1 y-waarde) waarvan je x en y steeds verandert 
 dan lijkt het of het punt over het scherm beweegt. In de code hieronder nemen we 
 steeds stapjes in x, rekenen y uit en tekenen het punt op het scherm. We kiezen de 
@@ -35,7 +35,7 @@ assen ook zodat het constant hetzelfde is.
 ![](AnimationExampleSin1.gif)
 
 
-### Voorbeeld (stap 2): bewegende lijn
+## Voorbeeld (stap 2): bewegende lijn
 Een grafiek tekenen we met behulp van lijsten: een lijst met x-waardes en een lijst 
 met y-waardes. Als je die lijsten steeds uitbreidt dan krijg je het onderstaande 
 effect: de functie $$f(x) = sin(x) $$ getekend met een rode lijn.
@@ -48,7 +48,7 @@ effect: de functie $$f(x) = sin(x) $$ getekend met een rode lijn.
     L_y = []
 
     #--/ take small steps in x
-    for x in np.arange(0,2*math.pi,0.1):
+    for x in np.arange(0,2*math.pi,0.05):
 
         y = math.sin(x)
 
@@ -64,9 +64,47 @@ effect: de functie $$f(x) = sin(x) $$ getekend met een rode lijn.
         plt.clf()            #-- clear grafiek
 
 
+Zoals je ziet is de code maar op 3 regels anders dan in 
+voorbeeld 1. Het resultaat ziet er als volgt uit:
 
 ![](AnimationExampleSin2.gif)
 
+## Voorbeeld (stap 3): stip en lijn tegelijk en tekst op het scherm
+
+Je kan de stip en de lijn ook tegelijk tekenen en op het scherm ook 
+informatie weergeven over de (x,y) positie van het punt op het scherm.
+
+
+    import math
+    import numpy as np
+    import matplotlib.pyplot as plt
+    
+    L_x = []
+    L_y = []
+
+    #--/ take small steps in x
+    for x in np.arange(0,2*math.pi,0.05):
+
+        y = math.sin(x)
+
+        L_x.append(x)
+        L_y.append(y)
+
+        #-- plot grafiek
+        plt.plot(L_x, L_y, 'r-',x, y, 'bo', markersize = 10)  #-- stip en lijn tegelijk
+        plt.xlim(0,2*math.pi)
+        plt.ylim(-1,1)
+
+        #--/ text op scherm      
+        plt.text( 0.25, -0.8, "(%.2f,%.2f)" % (x,y) )  
+
+        plt.draw()           #-- update grafiek
+        plt.pause(0.001)
+        plt.clf()            #-- clear grafiek
+
+
+
+![](AnimationExampleSin3.gif)
 
 ## Opgave 1: animatie van spiraliserende stip
 
