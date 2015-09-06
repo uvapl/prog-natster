@@ -142,14 +142,15 @@ heeft. Dit staat bekend als een *random walk*.
 ![](AnimationRandomWalk.gif)
 
 Als 2 studenten dronken zijn en ze elkaar uit het oog verliezen wordt het erg onwaarschijnlijk 
-dat ze elkaar nog terugvinden. Probeer de volgende animatie na te maken waarin je de beide studenten 
-ziet lopen. Laat op het scherm ook zien hoe lang de kijken nog moet wachten tot het programma 
-afgelopen is.
+dat ze elkaar nog terugvinden. Probeer de volgende animatie na te maken waarin je de beide 
+studenten ziet lopen. Geef op het scherm ook aan hoe lang de gebruiker van je programma nog 
+moet wachten tot het programma afgelopen is.
 
 ![](AnimationRandomWalkDouble.gif)
 
 Probeer ook eens of je (met en en papier) iets kan zeggen over de gemiddelde afstand die de 
-studenten van elkaar verwijderd zijn als functie van het aantal stappen dat ze nemen.
+studenten van elkaar verwijderd zijn als functie van het aantal stappen dat ze nemen. 
 
-Filmpje opslaan ? Probeer GifGrabber (app) te gebruiken om een animated gif te maken. Die kan je weer in een webbrowser bekijken.
+Filmpje opslaan ? Probeer een tool als GifGrabber (app) te gebruiken om een animated gif te 
+maken. Die kan je vervolgens weer in een web browser bekijken.
 
