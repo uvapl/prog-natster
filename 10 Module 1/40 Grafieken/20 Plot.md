@@ -74,8 +74,8 @@ zelf in moet vullen. De grafiek ziet er dan ook niet bepaald mooi uit. Je kan na
     import math                      # math module: nodig voor sin()-functie
     import matplotlib.pyplot as plt  # pyplot module: nodig voor plotten
 
-    L_x = []
-    L_y = []
+    L_x = []   # lijst met x-waardes
+    L_y = []   # lijst met y-waardes
 
     # x loopt van 0 tot 2pi in stapjes van 0.01
     for x in np.arange(0, 2*math.pi, 0.01):
