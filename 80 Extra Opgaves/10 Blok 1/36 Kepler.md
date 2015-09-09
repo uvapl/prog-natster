@@ -7,9 +7,8 @@ $$F = \alpha\frac{m_i \cdot m_j}{dr_{ij}} $$
 
 Om te zorgen dat we met makkelijke getallen kunnen rekenen (het gaat ons uiteindelijk om de dynamiek van het systeem) kiezen we de volgende getallen:
 
-
-   - $$\alpha$$ de constante van Newton maar $$10^{16}$$
-     $$\alpha = 6.67384 \cdot 10^{-11} * 1 \cdot 10^{16} $$
+   - $$\alpha$$ de constante van Newton maal $$10^{16}$$: 
+     $$\alpha = 6.67384 \cdot 10^{-11} \cdot 1 \cdot 10^{16} $$
    - deeltje 1 heeft een massa van 10 en begint op (0,0) in stilstand
    - deeltje 2 heeft een massa van  5 en begint op (1000,0) met v = +100   
    - deeltje 2 heeft een massa van  2 en begint op (-1000,0) met v=-70
@@ -18,7 +17,7 @@ Om te zorgen dat we met makkelijke getallen kunnen rekenen (het gaat ons uiteind
 
 ## Opgave 1: positie planeten
 
-Maak een animatie waarbij je de evolutie van de planeten checkt
+Maak een animatie waarbij je de positie en het pad van de drie planeten laat zien. Probeer ook verschillende beginsituaties.
 
 ![](KeplerAnimation.gif)
 
