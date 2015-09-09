@@ -95,7 +95,7 @@ Hieronder een klein programma dat eerst 10.000 random getallen genereert en ze i
     #--/ genereer 10.000 random getallen
     n = 10000
     for i_getal in range(n):
-        getal = random()          
+        getal = random.random()          
         L_random_getallen.append(getal)
     
      #--/ plot de frequentie-distributie (50 bins)
