@@ -48,12 +48,12 @@ En natuurlijk behoren de assen labels te hebben, kan je 2 verschillende grafieke
 
     import matplotlib.pyplot as plt
 	
-    x_es      = [0,1,2,3,4,5]
+    x_values  = [0,1,2,3,4,5]
     x_squared = [0,1,4,9,16,25]
 	x_cubed   = [0,1,8,27,64,125]
 	
     # let op: grafiek met twee datasets!
-	plt.plot(x_es, x_squared, 'go', x_es, x_cubed, 'r-')
+	plt.plot(x_values, x_squared, 'go', x_values, x_cubed, 'r-')
 	
 	plt.xlabel('de x-ax is klein')
 	plt.ylabel('de y-as ix groot', fontsize = 25)
