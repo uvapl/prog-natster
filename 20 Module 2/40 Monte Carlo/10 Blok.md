@@ -1,10 +1,16 @@
-# Numeriek integreren [Monte Carlo methode]
+# Numeriek integreren met Monte Carlo
 
 Benader de integraal door gebruik te maken van random getallen. Gooi in een gebied (van bekende 
 grootte) rond de integratie regio random punten en kijk welke fractie binnen het integratiegebied 
 valt.
 
 ![embed](https://player.vimeo.com/video/138378068)
+
+## Inleveren
+
+Werk alles van vandaag uit in één Python-bestand genaamd **montecarlo.py**.
+
+
 
 ### a) Het probleem: 
 Gegeven $$f(x)$$ op $$a \leq x \leq b$$, bereken $$\int_a^b f(x)~dx$$

@@ -1,4 +1,3 @@
-
 # Opzet en doel van Module 2
 
 In deze module zullen we een aantal nieuwe concepten behandelen en die gebruiken om een aantal problemen uit de wiskunde en natuurkunde aan te pakken.
@@ -13,8 +12,12 @@ Elk van deze onderwerpen is ondergebracht in een aparte module waarin we steeds 
    - gebruik van de `arange()` functie uit de numpy bibliotheek
    - manipuleren en gebruik van *random getallen* (Module 2)
    - Het visualiseren van data met behulp van een frequentie distributie (histogram)
-   
-   
+
+## Inleveren
+
+Werk alles van vandaag uit in één Python-bestand genaamd **functies.py**.
+
+
 ## [1] Het printen van reele getallen
 
 We hebben geleerd dat je een geheel getal als volgt print:

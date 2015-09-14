@@ -1,6 +1,13 @@
-# Numeriek integreren [Riemann sommatie]
+# Numeriek integreren met Riemann
 
 Een van de manieren om een integraal te evalueren is door het te schrijven als de som van kleine rechthoekjes, de Riemannsom.
+
+## Inleveren
+
+Werk alles van vandaag uit in één Python-bestand genaamd **riemann.py**.
+
+
+
 
 ### a) Het probleem: 
 Gegeven $$f(x)$$ op $$a \leq x \leq b$$, bereken $$\int_a^b f(x)~dx$$

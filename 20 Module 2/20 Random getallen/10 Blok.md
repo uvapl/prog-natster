@@ -1,10 +1,16 @@
-# Random getallen en data visualisatie
+# Random getallen en datavisualisatie
 
 In dit blok zullen we twee verschillende concepten behandelen:
     
  - [1] random getallen
 
  - [2] Het visualiseren van data met behulp van een frequentie distributie (histogram)
+
+## Inleveren
+
+Werk alles van vandaag uit in één Python-bestand genaamd **random.py**.
+
+
 
 
 ## [1] Gebruik van random getallen
