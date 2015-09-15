@@ -8,7 +8,7 @@ In dit blok zullen we twee verschillende concepten behandelen:
 
 ## Inleveren
 
-Werk alles van vandaag uit in één Python-bestand genaamd **random.py**.
+Werk alles van vandaag uit in één Python-bestand genaamd **random\_getallen.py**.
 
 
 
