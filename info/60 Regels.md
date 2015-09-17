@@ -38,9 +38,6 @@ uitwerking van internet, dan zijn er twee mogelijkheden.
   welke inzendingen overeenkomen, waarna de commissie beslist over te nemen
   maatregelen.
 
-Vorig jaar is één student uitgesloten van deelname na het kopiëren van een
-practicumopdracht. Andere studenten hebben een waarschuwing gekregen.
-
 Zie ook:
 
 * de [fraude- en plagiaatwebsite](http://www.uva.nl/plagiaat), en
