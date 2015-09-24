@@ -1,0 +1,6 @@
+name: module2
+required:
+    - functies.py
+    - random_getallen.py
+    - riemann.py
+    - montecarlo.py
