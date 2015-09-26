@@ -1,27 +1,24 @@
+# Animaties
 
-# Doel en opzet van Module 3
+Module 3 bestaat uit twee delen:
 
-Hoe doel van Module 3 bestaat uit 2 delen:
+- het simuleren van een natuurkundig proces 
+- het analyseren van een meting en een dataset
 
-  - het simuleren van een natuurkundig proces 
-  - het analyseren van een meting en een data-set
-  
-
-
-# Data visualisatie: meerdere grafieken tegelijk
+## Datavisualisatie: meerdere grafieken tegelijk
    
-We gkunnen maar een zeer klein aantal mogelijkheden laten zien die Matplotlib 
-ons biedt om data tevisualiseren. Als laatste item zullen we kijken hoe we 2 
-grafieken naast elkaar kunnen tekenen. In de opgaves van de rest van deze modules 
-zullen we dit ook morgen zullen we dit ook gebruiken op het moment dat er gevraagd 
-wordt zowel de snelheid als de positie van een object te tekenen als functie van 
-de tijd.
+We kunnen maar een zeer klein aantal mogelijkheden laten zien die Matplotlib
+ons biedt om data te visualiseren. Als laatste item zullen we kijken hoe we 2
+grafieken naast elkaar kunnen tekenen. In de opgaves van de rest van deze
+modules zullen we dit ook morgen zullen we dit ook gebruiken op het moment dat
+er gevraagd wordt zowel de snelheid als de positie van een object te tekenen
+als functie van de tijd.
 
-Het kernwoord in het teken van meerdere figuren is `subplot`. Als voorbeeld proberen 
-we in een linker grafiek zowel de cosinus als de sinus weer te geven en in een grafiek 
-ernaast tekenen we, voor hetzelfde gebied in *x* de grafiek $$x^2$$.
+Het kernwoord in het teken van meerdere figuren is `subplot`. Als voorbeeld
+proberen we in een linker grafiek zowel de cosinus als de sinus weer te geven
+en in een grafiek ernaast tekenen we, voor hetzelfde gebied in *x* de grafiek
+$$x^2$$.
 
-test
 ![](DubbelGrafiekExample.png)
 
 De code die we hiervoor gebruiken is als volgt:
@@ -52,6 +49,3 @@ De code die we hiervoor gebruiken is als volgt:
 
     #--/ teken beide grafieken op het scherm
     plt.show()
-    
-
-    
