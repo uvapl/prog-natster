@@ -9,7 +9,7 @@ onder invloed van de zwaartekracht gaan bewegen.
 
 Als de bal de grond raakt zal hij terugstuiteren en weer omhoog bewegen. 
 Naast de grond is er nog een object dat de beweging van de bak kan beinvloeden: 
-de balk. Er is een balk op een hoogte $$y=20$$ en van $$10 < x < 20$$. Er is 
+de balk, maar $$y_{balk}=20$$ en $$10 < x_{balk} < 20$$. Er is 
 een gat in de balk, namelijk: $$ 12 < x_{gat} < 14$$.
 
 Schrijf een programma `AngryBirds.py` die bestudeert welke hoeken zorgen 
