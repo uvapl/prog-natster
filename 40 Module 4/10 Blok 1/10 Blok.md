@@ -153,6 +153,11 @@ Versie 3 programma:
     print "TOTAAL: In totaal scoorde Van Basten %d clubdoelpunten" % (Ndoelpunten_tot)
     input_filehandle.close()
     
+    
+Let op:    
+   - Zorg dat in het `open()` commando wordt verwezen naar de locatie van het bestand op jouw computer
+   
+    
 # Oefening:
 Download de file met de doelpunten statistiek van Van Basten en probeer de bovenstaande 
 resultaten te reproduceren.
@@ -172,7 +177,7 @@ Dit stuk code opent een file 'Mijnfile.txt', schrijft daar 1 regel tekst in weg
 en sluit de file weer.
 
 	output_filehandle = open(’outputfile.txt’, ’w’)
-    output_filehandle.write("Het vak Inleiding Programmeren ie bere-interessant")
+    output_filehandle.write("Het vak Inleiding Programmeren is bere-interessant")
     output_filehandle.close()
 
 ## Voorbeeld 2: extra tekst achter bestaande regel plakken

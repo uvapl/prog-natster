@@ -33,7 +33,7 @@ Tips:
 
 3. Bereken de maximale snelheid die de appel bereikt
 
-3. Hoe lang duurt het voor de appel weer terug is op de plek waar je hem losgelaten hebt ?
+4. Hoe lang duurt het voor de appel weer terug is op de plek waar je hem losgelaten hebt ?
 
 ## Natuurkunde inzicht achteraf
 
