@@ -2,9 +2,9 @@
 
 Schrijf een programma `AngryBirds.py` die de beweging van de kogel/vogel
  
-![](AngryBirdsLogo.png)
+![](AngryBirdLogo.png)
 
-![](AngryBirdsOverview.png)
+![](AngryBirdOverview.png)
 
 
 Tips:
