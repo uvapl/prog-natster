@@ -49,7 +49,7 @@ het is natuurlik veel leuker om in plaats van een stipje een plaatje van een
 vogel te laten rondvliegen. Je hebt daar de volgende constructie voor nodig. 
 Het stuk `plt.imshow` tekent het plaatje op het scherm. Je moet hierbij duidelijk 
 het gebied aangeven waar het plaatje afgebeeld wordt. Hier is gekozen als 
-positie die van de kogel en een afmeting van 0.5 in x en 1.0 in y.
+positie die van de kogel en een afmeting van 0.5 in x en 2.0 in y.
 
     import matplotlib.image as image
 
