@@ -54,17 +54,21 @@ geleerd hebben is de volgende:
     plt.plot(x_kogel, y_kogel, 'bo')  
 
 Het is natuurlijk veel leuker om in plaats van een stipje een plaatje van een 
-vogel te laten rondvliegen. Je hebt daar de volgende constructie voor nodig. 
-Het stuk `plt.imshow` tekent het plaatje op het scherm. Je moet hierbij duidelijk 
-het gebied aangeven waar het plaatje afgebeeld wordt. Hier is gekozen als 
-positie die van de kogel en een afmeting van $$0.5$$ in $$x$$ en $$2.0$$ in $$y$$ respectievelijk.
+vogel te laten rondvliegen. 
+
+![](AngryBirdLogo.png)
+
+Je hebt daar de volgende constructie voor nodig. Het stuk `plt.imshow` tekent het 
+plaatje op het scherm. Je moet hierbij duidelijk het gebied aangeven waar het plaatje 
+afgebeeld wordt. Hier is gekozen als positie die van de kogel en een afmeting van 
+$$0.5$$ in $$x$$ en $$2.0$$ in $$y$$ respectievelijk.
 
     import matplotlib.image as image
 
     im = image.imread('/Users/ivo/Desktop/AngryBirdsLogo.png')
     plt.imshow(im, aspect='auto', extent=(x_kogel, x_kogel+0.5, y_kogel, y_kogel+2), zorder=-1)
 
-![](AngryBirdLogo.png)
+![](AngryBirdAnimatedMin81.gif)
 
 
 
