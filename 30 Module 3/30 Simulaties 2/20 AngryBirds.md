@@ -14,7 +14,7 @@ strekt zich uit van $$10 < x_{sensor} < 20$$.
 
 Schrijf een programma `AngryBirds.py` die bestudeert welke hoeken zorgen 
 dat de weggeschoten kogel de druksensor zal raken (van boven of van onder)
-als het met een snelheid $v=16$ [m/s] wordt weggeschoten. Varieer hierbij 
+als het met een snelheid $$v=16$$ [m/s] wordt weggeschoten. Varieer hierbij 
 de hoek $\alpha$ tussen -88 en +88 graden in stappen van 1 graad en maak 
 een grafiek waarin duidelijk wordt welke hoeken wel/niet voor een contact 
 met de druksensor zorgen.
@@ -47,11 +47,11 @@ geleerd hebben is de volgende:
 
     plt.plot(x_kogel, y_kogel, 'bo')  
 
-het is natuurlik veel leuker om in plaats van een stipje een plaatje van een 
+Het is natuurlijk veel leuker om in plaats van een stipje een plaatje van een 
 vogel te laten rondvliegen. Je hebt daar de volgende constructie voor nodig. 
 Het stuk `plt.imshow` tekent het plaatje op het scherm. Je moet hierbij duidelijk 
 het gebied aangeven waar het plaatje afgebeeld wordt. Hier is gekozen als 
-positie die van de kogel en een afmeting van 0.5 in x en 2.0 in y.
+positie die van de kogel en een afmeting van 0.5 in x en 2.0 in y respectievelijk.
 
     import matplotlib.image as image
 
