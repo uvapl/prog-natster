@@ -2,7 +2,7 @@
 
 We bekijken een situatie zoals in het plaatje hieronder getekend waarbij 
 een object wordt weggeschoten vanaf de positie (x=0, y=20) met snelheid 
-$v$ onder een hoek ($\alpha$). Net als in de vorige opgaves zal de kogel 
+$$v$$ onder een hoek ($$\alpha$$). Net als in de vorige opgaves zal de kogel 
 onder invloed van de zwaartekracht gaan bewegen.
 
 ![](AngryBirdOverview.png)
