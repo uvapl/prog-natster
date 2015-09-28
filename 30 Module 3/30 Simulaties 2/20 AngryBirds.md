@@ -1,44 +1,50 @@
 # Opgave 4: Angry Birds
 
 We bekijken een situatie zoals in het plaatje hieronder getekend waarbij 
-een object wordt weggeschoten vanaf de positie (x=0, y=20) met snelheid 
-$$v$$ onder een hoek ($$\alpha$$). Net als in de vorige opgaves zal de kogel 
-onder invloed van de zwaartekracht gaan bewegen.
+een bal wordt weggeschoten vanaf de positie (x=0, y=20) met snelheid 
+$$v$$ onder een hoek ($$\alpha$$). Maak het programma `AngryBirds.py` 
+aan waarin we gaan bestuderen welk pad de bal zal afleggen. Net as in de 
+vorige opgaves zal dat gebeuren onder invloed van de zwaartekracht.
+
+![](AngryBirdOverviewLeeg.png)
+
+
+## vraag 4a): animatie stuiterende bal (functie)
+
+Schrijf een functie die de beweging van de bal beschrijft en als mogelijkheid 
+heeft om de beweging met behulp van een animatie op het scherm te tekenen. De
+animatie geeft snel inzicht, maar is erg langzaam en wil je dus niet altijd doen.
+
+  - Inputvariabelen:
+    snelheid, hoek (in graden) en optie of er wel/geen animatie getoond moet worden  
+
+Let op: als de bal de grond raakt zal hij weer omhoog stuiteren zonder 
+daarbij energie te verliezen.
+
+
+## vraag 4b): een druksensor
+
+We voegen een extra element toe in het probleem; een druksensor die reageert als 
+er een bal tegenaan botst. Dit kan zowel vanaf de bovenkant als de onderkant zijn. 
+De druksensor bevindt zich op een hoogte $$y_{sensor}=20$$ en strekt zich uit van 
+$$12 < x_{sensor} < 14$$ zoals getekend in onderstaande schets.
+
+Schrijf een programma dat bestudeert welke hoeken zorgen dat de weggeschoten kogel 
+de druksensor zal raken als het met een snelheid $$v=16$$ [m/s] wordt weggeschoten. 
+Gebruik hiervoor de functie die je in vraag 4a gemaakt hebt. Varieer de hoek 
+$$\alpha$$ tussen -88 en +88 graden in stappen van 1 graad en maak een grafiek waarin 
+duidelijk wordt welke hoeken wel/niet voor een contact met de druksensor zorgen.
 
 ![](AngryBirdOverview.png)
 
-Als de bal de grond raakt zal hij terugstuiteren en weer omhoog bewegen. In 
-het probleem is ook een druksensor aanwezig dat reageert op een contact met 
-een object. De druksensor bevindt zich op een hoogte $$y_{sensor}=20$$ en 
-strekt zich uit van $$10 < x_{sensor} < 20$$. 
-
-Schrijf een programma `AngryBirds.py` die bestudeert welke hoeken zorgen 
-dat de weggeschoten kogel de druksensor zal raken (van boven of van onder)
-als het met een snelheid $$v=16$$ [m/s] wordt weggeschoten. Varieer hierbij 
-de hoek $\alpha$ tussen -88 en +88 graden in stappen van 1 graad en maak 
-een grafiek waarin duidelijk wordt welke hoeken wel/niet voor een contact 
-met de druksensor zorgen.
- 
-Probeer ook deze opdracht in kleine stapjes aan te pakken:
-
-   - Maak eerst een functie dat de beweging van het kogeltje laat zien 
-     op het scherm met behulp van een animatie. Zorg dat deze functie 
-     als inputparameter de hoek waaronder de kogel weggeschoten mee krijgt.
-
-   - zorg dat je bij aanroep van de functie kan kiezen of de animatie 
-     wel/niet op het scherm getekend wordt. Dat tekenen duurt erg lang 
-     en wil je niet altijd doen.
+Tip bij deze opgave:
 
    - bepaal of je kan bepalen of de kogel door de lijn y=20 heengaat 
      ergens tussen x=12 en x=14.
 
-   - zorg dat de functie een return-value geeft die weergeeft of de kogel 
-     wel/niet door het gat is gegaan.
+   - zorg dat de functie die je in vraag 4a gemaakt hebt een return-value geeft 
+     die weergeeft of de bal wel/niet de druksensor heeft geraakt
    
-   - varieer in een nieuw stuk programma de hoeken, roep de functie steeds 
-     aan en maak een grafiek waarbij duidelijk wordt welke hoeken wel/niet 
-     zorgen dat de kogel door het gat gaat
-
 
 ## Extra (optioneel):
 
