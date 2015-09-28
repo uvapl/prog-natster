@@ -216,7 +216,7 @@ Bovenin de file staat kort welke informatie elk veld bevat.
 
 Het verzamelen van de data begon toen de auto zich bevond op de plek waar de 
 snelweg A4 op de A10 aansluit. Het verzamelen van de data stopte toen de auto 
-op het Nikhef was aangekomen. Schrijf een programma `Autorit.py` dat de file 
+op het Nikhef was aangekomen. Schrijf een programma **autorit.py** dat de file 
 doorloopt, de data verwerkt en beantwoord de volgende vragen.
 
 ## Vraag 1a) afgelegde afstand

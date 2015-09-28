@@ -15,11 +15,11 @@ Data Files:
 
    - Minimum temperatuur: [DeBiltTempMin.txt](http://www.nikhef.nl/~ivov/Python/KlimaatData/DeBiltTempMin.txt) 
 
-Download de file, open ze en lees bovenin hoe de data gecodeerd is. We zien dat de 
-maximum(minimum) temperatuur op 1 januari 1901 -3.1(-6.8) ◦C was.
+Download de file, open ze en lees bovenin hoe de data gecodeerd is. We zien dat
+de maximum(minimum) temperatuur op 1 januari 1901 -3.1(-6.8) ◦C was.
 
-Schrijf een programma `Temperatuur.py` die de file regel voor regel inleest en 
-beantwoord de volgende vragen.
+Schrijf een programma **temperatuur.py** die de file regel voor regel inleest
+en beantwoord de volgende vragen.
 
 ### Vraag 2a) extreme temperaturen
 Wat waren de hoogste en laagste temperatuur die in De Bilt zijn gemeten sinds het begin 

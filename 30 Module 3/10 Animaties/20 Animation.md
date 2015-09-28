@@ -1,4 +1,4 @@
-# Animation
+# Animaties
 
 Hoewel een grafiek heel handig kan zijn om een simulatie te visualiseren is het
 soms inzichtelijker een animatie te maken. Python biedt je de mogelijkheid om

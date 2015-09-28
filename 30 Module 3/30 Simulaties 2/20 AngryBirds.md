@@ -2,12 +2,11 @@
 
 We bekijken een situatie zoals in het plaatje hieronder getekend waarbij 
 een bal wordt weggeschoten vanaf de positie (x=0, y=20) met snelheid 
-$$v$$ onder een hoek ($$\alpha$$). In het programma `AngryBirds.py` gaan 
+$$v$$ onder een hoek ($$\alpha$$). In het programma **AngryBirds.py** gaan 
 we bestuderen welk pad de bal zal afleggen. Net as in de vorige opgaves 
 gebeurt dat onder invloed van de zwaartekracht.
 
 ![](AngryBirdOverviewLeeg.png)
-
 
 ## Vraag a : animatie stuiterende bal (functie)
 
@@ -43,12 +42,9 @@ de druksensor zorgen.
 
 Tip bij deze opgave:
 
-   - bepaal of je kan herkennen als de bal de lijn y=20 kruist en test of *als* 
-     dat gebeurt het is in het gebied van de druksensor: $$ 12 < x < +14$. 
+- bepaal of je kan herkennen als de bal de lijn $$y=20$$ kruist en test of *als* dat gebeurt het is in het gebied van de druksensor: $$ 12 < x < +14$. 
 
-   - zorg dat de functie die je in vraag a gemaakt hebt een return-value geeft 
-     die weergeeft of de bal wel/niet de druksensor heeft geraakt
-   
+- zorg dat de functie die je in vraag a gemaakt hebt een return-value geeft die weergeeft of de bal wel/niet de druksensor heeft geraakt
 
 ## Extra (optioneel):
 
@@ -61,7 +57,7 @@ Het is natuurlijk veel leuker om in plaats van een stipje een plaatje van een
 vogel te laten rondvliegen. Je hebt daar de volgende constructie voor nodig. 
 Het stuk `plt.imshow` tekent het plaatje op het scherm. Je moet hierbij duidelijk 
 het gebied aangeven waar het plaatje afgebeeld wordt. Hier is gekozen als 
-positie die van de kogel en een afmeting van 0.5 in x en 2.0 in y respectievelijk.
+positie die van de kogel en een afmeting van $$0.5$$ in $$x$$ en $$2.0$$ in $$y$$ respectievelijk.
 
     import matplotlib.image as image
 

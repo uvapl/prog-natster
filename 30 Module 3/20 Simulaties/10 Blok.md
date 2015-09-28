@@ -13,7 +13,7 @@ natuurkundige intuitie aangewezen om uiteindelijk tot het het antwoord te komen.
 
 # Opgave 1: appel valt van de Dom
 
-Schrijf een programma `appel.py` dat de beweging van de appel beschrijft als
+Schrijf een programma **appel.py** dat de beweging van de appel beschrijft als
 die op een hoogte van 100 meter wordt losgelaten.
 
 ![](GravityOverzicht.png)

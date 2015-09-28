@@ -1,4 +1,4 @@
-# Animaties
+# Visualisatie en animaties
 
 Module 3 bestaat uit twee delen:
 

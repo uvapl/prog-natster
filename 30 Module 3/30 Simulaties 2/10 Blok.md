@@ -6,7 +6,7 @@ gegraven dwars door de aarde heen.
 
 # Opgave 3: de ultieme free-fall
 
-Schrijf een programma `tunnel.py` die de beweging van de appel door de aarde
+Schrijf een programma **tunnel.py** die de beweging van de appel door de aarde
 heen beschrijft. Het deeltje beweegt langs de $$x$$-as met $$x=0$$ in het
 centrum van de aarde, start met snelheid $$0$$ op hoogte $$0$$ meter boven het
 aardoppervlak. Wat gebeurt er precies?
