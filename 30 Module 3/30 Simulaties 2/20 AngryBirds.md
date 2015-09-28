@@ -52,7 +52,7 @@ Tip bij deze opgave:
 
 ## Extra (optioneel):
 
-De standaard manier om de positie van de kogel te tekenen die we in deze cursus 
+De standaard manier om de positie van de bal te tekenen die we in deze cursus 
 geleerd hebben is de volgende:
 
     plt.plot(x_kogel, y_kogel, 'bo')  
