@@ -35,8 +35,9 @@ bal de druksensor zal raken als de bal met een snelheid van $$v=16$$ [m/s] wordt
 weggeschoten. 
 
 Gebruik hiervoor de functie die je in vraag a gemaakt hebt. Varieer de hoek 
-$$\alpha$$ tussen -88 en +88 graden in stappen van 1 graad en maak een grafiek waarin 
-duidelijk wordt welke hoeken wel/niet voor een contact met de druksensor zorgen.
+$$\alpha$$ ($$-88 < \alpha < +88graden$$ in stappen van 1 graad) en maak een 
+grafiek waarin duidelijk wordt welke hoeken wel/niet voor een contact met de 
+druksensor zorgen.
 
 ![](AngryBirdOverview.png)
 
