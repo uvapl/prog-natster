@@ -7,35 +7,37 @@ onder invloed van de zwaartekracht gaan bewegen.
 
 ![](AngryBirdOverview.png)
 
-Als de bal de grond raakt zal hij terugstuiteren en weer omhoog bewegen. 
-Naast de grond is er nog een object dat de beweging van de bak kan beinvloeden: 
-een balk. De balk bevindt zich op een hoogte $$y_{balk}=20$$ en strekt zich 
-uit van $$10 < x_{balk} < 20$$. En, let op, er zit een gat in de balk, 
-namelijk: $$ 12 < x_{gat} < 14$$.
+Als de bal de grond raakt zal hij terugstuiteren en weer omhoog bewegen. In 
+het probleem is ook een druksensor aanwezig dat reageert op een contact met 
+een object. De druksensor bevindt zich op een hoogte $$y_{sensor}=20$$ en 
+strekt zich uit van $$10 < x_{sensor} < 20$$. 
 
 Schrijf een programma `AngryBirds.py` die bestudeert welke hoeken zorgen 
-dat de weggeschoten kogel door het gat heen gaat als het met $v=16$ [m/s] 
-wordt weggeschoten. Varieer hierbij de hoek $\alpha$ tussen -88 en +88 
-graden in stapjes van 2 graden 
+dat de weggeschoten kogel de druksensor zal raken (van boven of van onder)
+als het met een snelheid $v=16$ [m/s] wordt weggeschoten. Varieer hierbij 
+de hoek $\alpha$ tussen -88 en +88 graden in stappen van 1 graad en maak 
+een grafiek waarin duidelijk wordt welke hoeken wel/niet voor een contact 
+met de druksensor zorgen.
  
 Probeer ook deze opdracht in kleine stapjes aan te pakken:
 
    - Maak eerst een functie dat de beweging van het kogeltje laat zien 
-op het scherm met behulp van een animatie. Zorg dat deze functie als
-input variabelen de snelheid en hoek mee kan krijgen. vergeet hierbij 
-de balk.
+     op het scherm met behulp van een animatie. Zorg dat deze functie 
+     als inputparameter de hoek waaronder de kogel weggeschoten mee krijgt.
 
-   - vergeet de balk, maar kijk of je kan bepalen of de kogel door de lijn y=15
-heengaat ergens tussen x=12 en x=14.
+   - zorg dat je bij aanroep van de functie kan kiezen of de animatie 
+     wel/niet op het scherm getekend wordt. Dat tekenen duurt erg lang 
+     en wil je niet altijd doen.
 
-   - voeg de balk toe en zorg dat de functie een return-value geeft die laat 
-zien of de kogel wel/niet door het gat is gegaan.
+   - bepaal of je kan bepalen of de kogel door de lijn y=20 heengaat 
+     ergens tussen x=12 en x=14.
 
-   - Zorg dat je bij aanroep van de functie kan kiezen of je wel/niet de animatie 
-     op et scherm tekent. Dat tekene duurt erg lang en wil je niet altijd doen.
-    
-   - Varieer de hoeken en maak een grafiek waarbij duidelijk wordt welke 
-     hoeken wel/niet zorgen dat de kogel door het gat gaat
+   - zorg dat de functie een return-value geeft die weergeeft of de kogel 
+     wel/niet door het gat is gegaan.
+   
+   - varieer in een nieuw stuk programma de hoeken, roep de functie steeds 
+     aan en maak een grafiek waarbij duidelijk wordt welke hoeken wel/niet 
+     zorgen dat de kogel door het gat gaat
 
 
 ## Extra (optioneel):
