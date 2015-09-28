@@ -2,20 +2,21 @@
 
 We bekijken een situatie zoals in het plaatje hieronder getekend waarbij 
 een bal wordt weggeschoten vanaf de positie (x=0, y=20) met snelheid 
-$$v$$ onder een hoek ($$\alpha$$). Maak het programma `AngryBirds.py` 
-aan waarin we gaan bestuderen welk pad de bal zal afleggen. Net as in de 
-vorige opgaves zal dat gebeuren onder invloed van de zwaartekracht.
+$$v$$ onder een hoek ($$\alpha$$). In het programma `AngryBirds.py` gaan 
+we bestuderen welk pad de bal zal afleggen. Net as in de vorige opgaves 
+gebeurt dat onder invloed van de zwaartekracht.
 
 ![](AngryBirdOverviewLeeg.png)
 
 
-## vraag 4a): animatie stuiterende bal (functie)
+## Vraag a : animatie stuiterende bal (functie)
 
 Schrijf een functie die de beweging van de bal beschrijft en als mogelijkheid 
-heeft om de beweging met behulp van een animatie op het scherm te tekenen. De
-animatie geeft snel inzicht, maar is erg langzaam en wil je dus niet altijd doen.
+heeft om de beweging met behulp van een animatie op het scherm te tekenen. Een
+animatie geeft duidelijk inzicht, maar is erg langzaam en wil je dus niet altijd doen.
 
   - Inputvariabelen:
+  
     snelheid, hoek (in graden) en optie of er wel/geen animatie getoond moet worden  
 
 Let op: als de bal de grond raakt zal hij weer omhoog stuiteren zonder 
