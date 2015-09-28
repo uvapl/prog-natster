@@ -2,7 +2,7 @@
 
 We bekijken een situatie zoals in het plaatje hieronder getekend waarbij 
 een bal wordt weggeschoten vanaf de positie (x=0, y=20) met snelheid 
-$$v$$ onder een hoek ($$\alpha$$). In het programma **AngryBirds.py** gaan 
+$$v$$ onder een hoek ($$\alpha$$). In het programma **angry_birds.py** gaan 
 we bestuderen welk pad de bal zal afleggen. Net as in de vorige opgaves 
 gebeurt dat onder invloed van de zwaartekracht.
 

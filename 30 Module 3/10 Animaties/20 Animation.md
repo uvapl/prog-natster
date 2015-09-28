@@ -110,7 +110,7 @@ weergeven over de $$(x,y)$$ positie van het punt op het scherm.
 
 Een balletje draait met een bepaalde hoeksnelheid rond en met elke stap in de
 tijd verandert niet alleen de hoek, maar wordt ook de straal steeds kleiner tot
-hij uiteindelijk precies in het midden stilstaat
+hij uiteindelijk precies in het midden stilstaat:
 
 ![](AnimationInspiral.gif)
 
@@ -122,7 +122,7 @@ aangegeven.
 
 ![](UitlegPolarCoordinates.png)
 
-Details voor de animatie:
+Schrijf een programma **spiraal.py** waarin de stip geanimeerd wordt zoals hierboven beschreven. Details voor de animatie:
 
    - $$\alpha$$ varieert van $$0$$ tot $$20$$ in stappen van $$0.1$$
    - $$R$$ hangt af van $$\alpha$$, nl: $$R=10-0.5\alpha$$
@@ -147,10 +147,12 @@ programma afgelopen is.
 
 ![](AnimationRandomWalkDouble.gif)
 
+Schrijf een programma **student.py** waarin de stip geanimeerd wordt zoals hierboven beschreven.
+
 Probeer ook eens of je (met en en papier) iets kan zeggen over de gemiddelde
 afstand die de studenten van elkaar verwijderd zijn als functie van het aantal
 stappen dat ze nemen.
 
-Filmpje opslaan ? Probeer een tool als [GifGrabber](http://www.gifgrabber.com)
+Filmpje opslaan? Probeer een tool als [GifGrabber](http://www.gifgrabber.com)
 te gebruiken om een animated gif te maken. Die kan je in een webbrowser
 bekijken.

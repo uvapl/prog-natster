@@ -111,7 +111,7 @@ percentage goede passes = $$ 60.3 \pm1.5$$
 
 ## Opgave: fitten van een model aan de data
 
-Schrijf een programma dat het bovenstaande resultaat verifieert.
+Schrijf een programma **fit.py** dat het bovenstaande resultaat verifieert.
 
 1. Maak een plot van deze data met fouten
 
