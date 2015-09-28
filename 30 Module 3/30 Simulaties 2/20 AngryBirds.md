@@ -23,16 +23,18 @@ Let op: als de bal de grond raakt zal hij weer omhoog stuiteren zonder
 daarbij energie te verliezen.
 
 
-## vraag 4b): een druksensor
+## Vraag b: druksensor
 
 We voegen een extra element toe in het probleem; een druksensor die reageert als 
 er een bal tegenaan botst. Dit kan zowel vanaf de bovenkant als de onderkant zijn. 
 De druksensor bevindt zich op een hoogte $$y_{sensor}=20$$ en strekt zich uit van 
 $$12 < x_{sensor} < 14$$ zoals getekend in onderstaande schets.
 
-Schrijf een programma dat bestudeert welke hoeken zorgen dat de weggeschoten kogel 
-de druksensor zal raken als het met een snelheid $$v=16$$ [m/s] wordt weggeschoten. 
-Gebruik hiervoor de functie die je in vraag 4a gemaakt hebt. Varieer de hoek 
+Schrijf een programma dat bestudeert welke hoeken er voor zorgen dat de weggeschoten 
+bal de druksensor zal raken als de bal met een snelheid van $$v=16$$ [m/s] wordt 
+weggeschoten. 
+
+Gebruik hiervoor de functie die je in vraag a gemaakt hebt. Varieer de hoek 
 $$\alpha$$ tussen -88 en +88 graden in stappen van 1 graad en maak een grafiek waarin 
 duidelijk wordt welke hoeken wel/niet voor een contact met de druksensor zorgen.
 
