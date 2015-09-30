@@ -62,8 +62,7 @@ het object en de dichtheid van de lucht zullen we in deze opdracht alleen het
 effect van de snelheid bestuderen. De wrijving betekent dat er een snelheid is
 waarbij de zwaartekracht en de wrijving elkaar in evenwicht houden. Deze
 maximum snelheid die een parachutespringer kan bereiken, ongeveer 196 km/uur
-wordt terminal velocity genoemd
-(https://en.wikipedia.org/wiki/Terminal_velocity).
+wordt [terminal velocity](https://en.wikipedia.org/wiki/Terminal_velocity) genoemd.
 
 ![](Freefall.png)
 
