@@ -54,7 +54,7 @@ In de vorige opgave is de luchtwrijving verwaarloosd waardoor je ook met behulp 
 
 De luchtweerstand die een vallend voorwerp ondervindt is evenredig met het kwadraat van de snelheid. 
 
-$$F = \xi v^2$$, met $$ \xi = 0.0033$$
+$$F = m_"persoon" \xi v^2$$, met $$ \xi = 0.0033$$
 
 Hoewel de luchtweerstand ook afhankelijkheid is van de oppervlakte en massa van
 het object en de dichtheid van de lucht zullen we in deze opdracht alleen het
