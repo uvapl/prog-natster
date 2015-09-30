@@ -50,11 +50,12 @@ Zorg dat de volgende grootheden bepaald worden en op het scherm weergegeven word
 
 # Opgave 2: vrije val van base jumpers
 
-In de vorige opgave is de luchtwrijving verwaarloosd waardoor je ook met behulp van de natuurkunde van de middelbare school de antwoorden kon controleren. We gaan nu een stuk realisme toevoegen: luchtwrijving. 
+In de vorige opgave is de luchtwrijving verwaarloosd waardoor je ook met behulp van de natuurkunde 
+van de middelbare school de antwoorden kon controleren. We gaan nu een stuk realisme toevoegen: luchtwrijving. 
 
 De luchtweerstand die een vallend voorwerp ondervindt is evenredig met het kwadraat van de snelheid. 
 
-$$F = m_{persoon} \xi v^2$$, met $$ \xi = 0.0033$$
+$$F = \xi v^2$$, met $$ \xi = 0.24$$
 
 Hoewel de luchtweerstand ook afhankelijkheid is van de oppervlakte en massa van
 het object en de dichtheid van de lucht zullen we in deze opdracht alleen het
@@ -69,7 +70,7 @@ wordt terminal velocity genoemd
 Schrijf een programma **basejump.py** dat de val beschrijft van een base jumper
 die van de top van de Burj Khalifa in Dubai (828 m) naar beneden springt. Volg
 dezelfde strategie als in de eerste, maar neem nu ook de luchtweerstand mee
-zoals gegeven in bovenstaande formule.
+zoals gegeven in bovenstaande formule. Nee hierbij aan dat de basejumper 72 kilo weegt.
 
 1. Maak een grafiek van de snelheid als functie van de tijd.
 
