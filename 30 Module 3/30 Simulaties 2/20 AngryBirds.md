@@ -42,7 +42,7 @@ de druksensor zorgen.
 
 Tip bij deze opgave:
 
-- bepaal of je kan herkennen als de bal de lijn $$y=20$$ kruist en test of *als* dat gebeurt het is in het gebied van de druksensor: $$ 12 < x < +14$. 
+- bepaal of je kan herkennen als de bal de lijn $$y=20$$ kruist en test of *als* dat gebeurt het is in het gebied van de druksensor: $$12<x<+14$$. 
 
 - zorg dat de functie die je in vraag a gemaakt hebt een return-value geeft die weergeeft of de bal wel/niet de druksensor heeft geraakt
 
