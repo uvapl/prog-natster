@@ -1,0 +1,4 @@
+name: module4
+required:
+    - autorit.py
+    - temperatuur.py
