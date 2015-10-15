@@ -1,10 +1,9 @@
+# Big Data
 
-# Opzet en doel Module 4
-
-Een veel voorkomende toepassing van computerprogramma’s is het inlezen, verwerken 
-en analyseren van grote data bestanden. Big data! We zullen in Module 4 een leren 
-hoe we data inlezen en gebruiken onze kennis van Python om de data te rubriceren en 
-te grafieken te maken van onze resultaten.
+Een veel voorkomende toepassing van computerprogramma’s is het inlezen,
+verwerken en analyseren van grote databestanden. Big data! We zullen in Module
+4 een leren hoe we data inlezen en gebruiken onze kennis van Python om de data
+te rubriceren en te grafieken te maken van onze resultaten.
 
 # Inlezen files en verwerken van de data
 

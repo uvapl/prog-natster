@@ -1,5 +1,4 @@
-
-# Opgave 2: Klimaat in Nederland
+# Klimaatdiscussie
 
 ![](KaartNederlandKlein.png)
 
