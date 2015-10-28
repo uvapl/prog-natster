@@ -1,0 +1,27 @@
+calculation:
+    resit:
+        her: 0
+        psets: 100
+    normal:
+        tent: 0
+        psets: 100
+
+psets:
+    type: integer
+    grades:
+        module1: 1
+        module2: 1
+        module3: 1
+        module4: 1
+
+tent:
+    type: pass
+    required: true
+    grades:
+        quiz: 1
+
+her:
+    type: pass
+    required: true
+    grades:
+        resit: 1
