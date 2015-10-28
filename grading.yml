@@ -18,10 +18,10 @@ tent:
     type: pass
     required: true
     grades:
-        quiz: 1
+        tent: 1
 
 her:
     type: pass
     required: true
     grades:
-        resit: 1
+        her: 1
