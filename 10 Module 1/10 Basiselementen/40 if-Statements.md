@@ -23,7 +23,7 @@ Om te printen of een getal een negatief is zou je een extra regel toe kunnen voe
 	x = 15
 	if x > 0:
 	    print "het getal %d is positief" % x
-	else
+	else:
         print "het getal %d is negatief" % x
 
 > Hierboven ziet je dat er twee regels beginnen met vier spaties: één na de `if` en één na de `else`. Dat betekent dus dat precies die regels onder controle van respectievelijk de `if` en de `else` staan.
@@ -34,7 +34,7 @@ Je kunt ook verschillende voorwaardes ook combineren. Als je wilt weten of een g
     x_min = 3
     x_max = 39	
 	if x > x_min and x < x_max:
-	    print "het getal %d bevindt zich tussen %d en %d" % (getal, x_min, x_max)
+	    print "het getal %d bevindt zich tussen %d en %d" % (x, x_min, x_max)
 
 
 De condities die we hier gebruiken zijn:

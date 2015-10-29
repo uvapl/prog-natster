@@ -20,7 +20,6 @@ Hoewel een computer je in staat stelt om snel te rekenen is het toch belangrijk 
 
 > Misschien is het raar of vervelend om een programma in te tikken, waarna je ontdekt dat het niet goed werkt. Dat is het lot van de programmeur: het is gewoon heel moeilijk om een precies algoritme te formuleren en dan helemaal correct om te zetten naar programmacode. Soms ben je een uitzondering vergeten, maar net zo goed heb je ergens een tikfout gemaakt. Onthou dat de beste programmeurs op deze manier werken!
 
-     
 ### Wiskundetips
 
 Hoewel het in deze opgave niet echt gaat om de snelheid van het programma is in deze specifieke opgave veel tijd te winnen door slim gebruik te maken van een aantal elementen uit de wiskunde. Maar let op! Doe dit pas als je zeker weet dat je programma hierboven correct is. Je kunt dan optimalisaties toepassen en snel vergelijken of je niet een *bug* in je code hebt geïntroduceerd. Dat zou jammer zijn voor een beetje tijdswinst!
@@ -37,7 +36,7 @@ Hoewel het in deze opgave niet echt gaat om de snelheid van het programma is in 
 Als je wilt controleren of je programma goed werkt kun je je gevonden lijst priemgetallen hier controleren met een lijst bekende priemgetallen <http://primes.utm.edu/lists/small/1000.txt>
 
 
-### Python tips
+### Pythontips
 
 Soms is het handig om een loop eerder af te breken. Er zijn in Python verschillende mogelijkheden. De `while-loop` is 
 de meest gebruikte, maar omdat dat aan het begin van jullie programmeer-carriere in dit korte introductievak tot 
@@ -55,4 +54,4 @@ dan toe groter is dan 50. Probeer onderstaande code te runnen zodat je ziet wat 
         if (som > 50): 
             break
             
-    print "Ik stop omdat de som meer dan 50 is"  
+    print "Ik stop omdat de som meer dan 50 is"

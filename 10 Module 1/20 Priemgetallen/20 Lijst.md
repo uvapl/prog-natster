@@ -15,3 +15,16 @@ Schrijf bovenstaande procedure en maak deze goed werkend. Vervolgens willen we h
     print priemgetallen
    
 Geef dan ook nog na het printen van de lijst aan hoeveel priemgetallen je gevonden hebt. Hoe weet je hoeveel priemgetallen er in de lijst staan? Klopt je antwoord? Check het op internet!
+
+## Sanity check
+
+Let op dat je alleen de volgende Python-onderdelen hebt gebruikt in je oplossingen:
+
+- `print`
+- `if`
+- `else`
+- `for` (en `in`)
+- `range()`
+- `len()`
+- `.append()`
+- en natuurlijk alle operators zoals `=`, `+`, `/`, `%`, `>`, `[]`

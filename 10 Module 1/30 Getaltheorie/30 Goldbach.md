@@ -33,3 +33,18 @@ En als je voor elk van de getallen 1 tot en met 40 wilt bekijken of ze in de lij
     for x in range(1,41):
 	    if x in priemen:
             print "Ja, het getal %d komt voor in mijn priemlijst" % x
+
+## Sanity check
+
+Let op dat je alleen de volgende Python-onderdelen hebt gebruikt in je oplossingen:
+
+- `print`
+- `if`
+- `else`
+- `for`
+- `in`
+- `range()`
+- `break`
+- `len()`
+- `.append()`
+- en natuurlijk alle operators zoals `=`, `+`, `/`, `%`, `>`, `[]`

@@ -45,7 +45,14 @@ Je kunt ook elk element de lijst apart bekijken met behulp van een `for`-loop:
     for meting in metingen_science_park:
 	    print "de meting was %d graden" % meting
 
-Zo zie je dat we direct over de elementen van een lijst kunnen loopen. We gebruiken dan niet meer het `range`-commando. Nu is het in dit geval alleen wel informatief om mooi neer te zetten over *welke* meting het gaat. Dan moeten we zelf een tellertje bijhouden:
+Zo zie je dat we direct over de elementen van een lijst kunnen loopen. We gebruiken dan niet meer het `range`-commando.
+
+Zoals je ziet in bovenstaande voorbeeld zal het programma het gemiddelde
+afronden. Het `%d` format zegt Python dat je een geheel getal op het scherm
+wilt printen. Als je een reeel getal wilt printen zal je het `%f` commando
+moeten gebruiken. We zullen dat later in de cursus in meer detail bekijken.
+
+Nu is het in dit geval alleen wel informatief om mooi neer te zetten over *welke* meting het gaat. Dan moeten we zelf een tellertje bijhouden:
 
     teller = 0
     for meting in metingen_science_park:
@@ -63,22 +70,33 @@ Met behulp van al deze informatie kunnen we ook makkelijk het *gemiddelde* uitre
     gemiddelde_temp = som / teller
     print "De gemiddelde temperatuur was %d graden." % gemiddelde_temp
 
-
-Zoals je ziet in bovenstaande voorbeeld zal het programma het gemiddelde afronden. Het `%d` 
-format zegt Python dat je een geheel getal op het scherm wilt printen. Als je een reeel getal 
-wilt printen zal je het `%f` commando moeten gebruiken. We zullen dat later in de cursus in 
-meer detail bekijken.
-
 Of we kunnen met zo'n loopje bijhouden op hoeveel dagen de temperatuur boven de 20 graden uitkwam:
 
     hete_dagen = 0
     for meting in metingen_science_park:
         if meting > 20:
             hete_dagen = hete_dagen + 1
-    print "Op %d was de temperatuur boven de 20 graden" % hete_dagen
+    print "Op %d dagen was de temperatuur boven de 20 graden" % hete_dagen
 
 Van lijsten is het belangrijk dat je weet hoe je een lijst definiert, hoe je elementen toevoegt aan een lijst en hoe je de individuele elementen afzonderlijk lukt bekijken.
 
 ## Opdracht
 
-Probeer nu eens een programma te schrijven dat een lijstje met temperaturen in graden Celcius omrekent naar een nieuw lijstje met overeenkomstige temperaturen in graden Fahrenheit. De formule zoek je natuurlijk even op in een zoekmachine. Sla dit programma op in een bestand **temperaturen.py** en bewaar het goed voor inleveren.
+Probeer nu eens een programma te schrijven dat een lijstje met temperaturen in graden Celcius omrekent naar een nieuw lijstje met overeenkomstige temperaturen in graden Fahrenheit. De formule zoek je natuurlijk even op in een zoekmachine. 
+
+> Let op! Zorg dat de uitkomsten van je algoritme goed controleert met voorbeelden. Als je met breuken van natuurlijke getallen gaat werken (bijvoorbeeld `3/4`) dan zal Python de tussenresultaten afkappen. Zorg dus dat je een hint geeft dat je met reeële getallen wil werken: `3.0/4.0`.
+
+Sla dit programma op in een bestand **temperaturen.py** en bewaar het voor het inleveren.
+
+## Sanity check
+
+Let op dat je alleen de volgende Python-onderdelen hebt gebruikt in je oplossingen:
+
+- `print`
+- `if`
+- `else`
+- `for` (en `in`)
+- `range()`
+- `len()`
+- `.append()`
+- en natuurlijk alle operators zoals `=`, `+`, `/`, `%`, `>`, `[]`

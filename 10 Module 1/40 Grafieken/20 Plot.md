@@ -80,11 +80,11 @@ zelf in moet vullen. De grafiek ziet er dan ook niet bepaald mooi uit. Je kan na
     # x loopt van 0 tot 2pi in stapjes van 0.01
     for x in np.arange(0, 2*math.pi, 0.01):
         # bereken bijbehorende y-waarde voor elke x
-    	y = math.sin(x)
+        y = math.sin(x)
         
         # voeg data toe aan de lijsten
-    	L_x.append(x)
-    	L_y.append(y)
+        L_x.append(x)
+        L_y.append(y)
     
     # teken de hele grafiek
     plt.plot(L_x, L_, 'b-')
@@ -104,3 +104,23 @@ zelf in moet vullen. De grafiek ziet er dan ook niet bepaald mooi uit. Je kan na
 3. Je bent niet voor niks natuurkundige naturlijk: bereken dit punt ook analytisch met behulp van pen en papier, om je antwoord te verifiëren.
 
 ![](plotje4.png)
+
+## Sanity check
+
+Let op dat je alleen de volgende Python-onderdelen hebt gebruikt in je oplossingen:
+
+- `print`
+- `if`
+- `else`
+- `for`
+- `in`
+- `range()`
+- `break`
+- `len()`
+- `.append()`
+- `math`: de [goniometrische functies](https://docs.python.org/2/library/math.html#trigonometric-functions)
+- `numpy.arange()`
+- alles van `matplotlib.pyplot`
+- en natuurlijk alle operators zoals `=`, `+`, `/`, `%`, `>`, `[]`
+
+Let op! Andere functies van `math` en `numpy` mag je (nog) niet gebruiken!

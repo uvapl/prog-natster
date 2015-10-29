@@ -7,7 +7,9 @@ Soms is het handig om van een groot aantal getallen of lijsten van variabelen te
 Als we voor de getallen 1 *tot* 10 iets willen doen dan ziet het er zo uit:
 
 	for getal in range(1,10):
-        [doe hier alle handelingen]
+        actie1
+        actie2
+        actie3
 
 Je ziet dat we net als bij `if` weer kunnen inspringen om duidelijk te maken welke volgende regels in de loop horen. Dat zijn dus de instructies die meerdere malen uitgevoerd gaan worden.
 
@@ -87,7 +89,7 @@ Zorg daarom dat je, nadat je het specifieke probleem hebt opgelost, je code alti
     max_getal = 88
 	for getal in range(1,max_getal+1):
         if getal%2 == 0:
-           print "Yes!", getal, " is een even getal"
+           print "Yes! %d is een even getal" % getal
            som = som + getal
 	print "de som van de even getallen van 1 tot en met %d is %d" % (max_getal, som)
 

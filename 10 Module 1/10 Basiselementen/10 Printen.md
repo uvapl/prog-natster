@@ -25,7 +25,7 @@ Start nu het programma. Wat komt er uit? Voeg vervolgens ook nog de volgende reg
     print 5 + 8 + 8 - 8
     print "5 + 8 + 8 - 8"
 
-Je kunt dus ook rekenen. Het resultaat wordt eerst uitgerekend, en dan pas wordt er geprint. Behalve die laatste dan: daar staat de formule (*expressie*) tussen aanhalingstekens, en dan wordt het precies zo naar het scherm geprint. Net als hierboven bij de tekstjes.
+Je kunt dus ook rekenen. Het resultaat wordt eerst uitgerekend, en dan pas wordt er geprint. Behalve die laatste dan: daar staat de formule (*expressie*) tussen aanhalingstekens, en dan wordt het precies zo naar het scherm geprint. Net als hierboven bij de tekstjes. Zo'n tekst tussen aanhalingstekens heet een *string*.
 
 Nu gaan we berekeningen en letterlijke tekstjes combineren:
 
