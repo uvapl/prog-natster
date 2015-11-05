@@ -32,7 +32,7 @@ Stap 2) Gooi random punten in het rechthoek
 
 Gooi een groot aantal random punten $$(x_i, y_i)$$ in het rechthoek dat het integratiegebied om sluit en 
 bekijk voor elk punt of het binnen het integratiegebied valt ('goed') of erbuiten ('fout'). Hou bij welke 
-fratie van de punten in het integratiegebied vald: $$f_{goed}$$.
+fractie van de punten in het integratiegebied valt: $$f_{goed}$$.
 
 Stap 3) Bepaal de integraal
 
@@ -80,15 +80,28 @@ Hint: test je functie door te testen of je programma de integraal $$\int_{0}^{\p
 Hint: Let goed op wat je doet met de negatieve integratieregio's. Het is handig om de oppervlakte van die gebieden zelfstandig te evalueren.
 
 # Opgave 10: het Twitter-ei
-Schrijf een programma `TwitterEi()` dat de integraal van het Twitter-Ei berekent. De omtrek van het ei wordt gegeven door: 
+Schrijf een programma `TwitterEi()` dat de oppervlakte van het Twitter-Ei berekent. De omtrek van het ei wordt gegeven door: 
 $$ \sqrt{x^2+y^2} + \frac{2}{3}\sqrt{x^2+\left(\frac{5}{6}-y \right)^2 } = 1$$
 
 Teken de 'slechte' punten in het blauw op het scherm zoals in onderstaande voorbeeld.
 
 ![](TwitterEiCombi.png)
 
-Bewaar na elke 100 punten dat je gooit de schatting van de integraal op dat moment en teken aan het eind van je programma ook de verdeling van de schatting van de integraal als functie van het aantal punten dat je gegooit hebt. Hopelijk zie je dat het antwoord convergeert en dat je een betere schatting krijgt naarmate je meer punten gooit.
+Bewaar na elke 100 punten dat je gooit de schatting van de oppervlakte op dat moment. Plot aan het eind van je programma ook de verdeling van de schatting van de oppervlakte als functie van het aantal punten dat je gegooid hebt (dit hoort bij de opdracht!). Hopelijk zie je dat het antwoord convergeert en dat je een betere schatting krijgt naarmate je meer punten gooit.
 
 
 
 
+## Sanity check
+
+Let op dat je alleen de volgende Python-onderdelen hebt gebruikt in je oplossingen:
+
+- alle onderdelen van module 1
+- de gehele `random`-bibliotheek
+- `math.pow()`
+- `math.pi`
+- `def`
+- `return`
+- `elif` (find out what you can do with that!)
+
+Let op! Andere functies van `math` en `numpy` mag je (nog) niet gebruiken!

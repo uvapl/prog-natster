@@ -38,7 +38,7 @@ De code die we hiervoor gebruiken is als volgt:
         L_sinx.append(math.sin(x))
         L_cosx.append(math.cos(x))
 
-    #--/ gemeenschappelijke figuur (bevat beide sub-figuren)
+    # gemeenschappelijke figuur (bevat beide sub-figuren)
     plt.figure(1)
 
     plt.subplot(121)  # ga naar subplot 1
@@ -47,5 +47,5 @@ De code die we hiervoor gebruiken is als volgt:
     plt.subplot(122)  # ga naar subplot 2
     plt.plot(L_x, L_x2, 'g-')
 
-    #--/ teken beide grafieken op het scherm
+    # teken beide grafieken op het scherm
     plt.show()

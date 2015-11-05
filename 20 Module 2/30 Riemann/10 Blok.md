@@ -13,11 +13,14 @@ Werk alles van vandaag uit in één Python-bestand genaamd **riemann.py**.
 Gegeven $$f(x)$$ op $$a \leq x \leq b$$, bereken $$\int_a^b f(x)~dx$$
 
 ### b) De oplossingsstrategie
+
+Zorg eerst dat je de functie begrijpt door een plot te maken (zeker belangrijk bij ingewikkelder functies!). Deze hoef je niet in te leveren.
+
 Algemeen: verdeel het interval $$(a,b)$$ in $$N$$ intervallen van gelijke lengte $$\Delta x$$ en schrijf de integraal als de som van de deel-integralen op elk van deze intervallen:
 
 $$ \int_a^b f(x)~dx = \sum_{i=0}^{N-1} \int_{x_i}^{x_{i+1}} f(x)~dx$$
 
-Hierbij is $$x_i$$ het hoekpunt van een van de intervallen. Er zijn $$N+1$$ hoekpunten die lopen van $$x_0$$ tot $$x_{N+1}$$.
+Hierbij is $$x_i$$ het hoekpunt van een van de intervallen. Er zijn $$N+1$$ hoekpunten die lopen van $$x_0$$ tot en met $$x_{N}$$.
 
 ### c) Benadering hoogte elk rechthoek mbv de trapeziumregel en uitwerking integraal
 
@@ -65,7 +68,16 @@ Hint: test je functie door te testen of je programma de integraal $$\int_{0}^{\p
 
 
 
+## Sanity check
 
+Let op dat je alleen de volgende Python-onderdelen hebt gebruikt in je oplossingen:
 
+- alle onderdelen van module 1
+- de gehele `random`-bibliotheek
+- `math.pow()`
+- `math.pi`
+- `def`
+- `return`
+- `elif` (find out what you can do with that!)
 
-
+Let op! Andere functies van `math` en `numpy` mag je (nog) niet gebruiken!

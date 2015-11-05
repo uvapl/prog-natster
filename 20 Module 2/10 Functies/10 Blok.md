@@ -32,14 +32,14 @@ Vaak is een variabele die je gebruikt helemaal geen geheel getal.
     breuk = 3./17.
     print "breuk = %d" % (breuk)
 
-Als je dit print zal je zien dat, hoewel de variabele `breuk` de waarde 0.176471 heeft, dit programma toch de waarde 0 op het scherm print. Het programma ziet namelijk dat je een geheel getal wilt printen (dat geef je aan met het `%d` karakter) en maakt dus van het getal 0.176471 het eerste gehele getal eronder en dan is 0.
+Als je dit print zal je zien dat, hoewel de variabele `breuk` de waarde 0.176471 heeft, dit programma toch de waarde 0 op het scherm print. Dat komt omdat je met `%d` hebt aangegeven dat je een geheel getal wil afdrukken. In Python worden dan de cijfers achter de komma simpelweg afgekapt.
 
-Als je wilt dat de computer een reeel getal, een `float` in computertaal, print op het scherm dat geef je dat aan met het `%f` karakter.
+Als je wilt dat de computer een reeel getal, een `float` in computertaal, print op het scherm, dan geef je dat aan met het `%f` karakter.
 
     breuk = 3./17.
     print "breuk = %f" % (breuk)
 
-Nu zal wel de volledige waarde geprint worden op het scherm. In veel toepassingen wil je vaak maar een beperk aantal decimalen weergeven. Als je 2 getallen achter de komma wilt aangeven dan gebruik je de volgende syntax:
+Nu zal wel de volledige waarde geprint worden op het scherm. In veel toepassingen wil je vaak maar een beperkt aantal decimalen weergeven. Als je 2 getallen achter de komma wilt aangeven dan gebruik je de volgende syntax:
 
     breuk = 3./17.
     print "breuk = %.2f" % (breuk)
@@ -85,15 +85,15 @@ In Module 1 hebben we de for-loop gebruikt om een variabele steeds met 1 op te h
 
 In Module 1 hebben we tijdens het tekenen van onze grafieken gezien hoe we punten (een lijst met x-waardes en een lijst met y-waardes) op het scherm kunnen tekenen. Om een functie te tekenen met een hoge precisie, in ons geval sin(x) leerden we dat we als we de functie wilde tekenen tussen 0 en 2pi we kleine stapjes, stel 0.01 moeten nemen. In Python is er een standaard functie die dat voor je kan doen, de `arange()` functie. Het is een functie die opgenomen is in de numpy bibliotheek.
 
-	import numpy as np               # numpy mdule: nodig voor arange-functie
-	import math                      # math module: nodig voor sin()-functie
-	L_x = []
-	L_y = []
-	for x in np.arange(0,2*math.pi, 0.01):  # x loopt van 0 tot 2pi in stapjes van 0.01
-          y = sin(x)
-		  L_x.append(x)
-		  L_y.append(y)
-		  
+    import numpy as np               # numpy mdule: nodig voor arange-functie
+    import math                      # math module: nodig voor sin()-functie
+    L_x = []
+    L_y = []
+    
+    for x in np.arange(0,2*math.pi, 0.01):  # x loopt van 0 tot 2pi in stapjes van 0.01
+        y = sin(x)
+        L_x.append(x)
+        L_y.append(y)		  
 
 Als je bijvoorbeeld de getallen van 2 tot 3 op het scherm wilt printen in stapjes van 0.02 dan kan doe je dat als volgt:
 
@@ -110,9 +110,9 @@ In het laatste voorbeeld zal het getal 2.0 wel, maar het getal 3.0 niet op het s
 		 
 # Functies
 
-Bij het programmeren zal je vaak merken je een stuk code kan (of moet) hergebruiken. Zo'n stuk code kan je in een apart stuk van je programma onderbrengen als aparte entiteit. De 'echte' code wordt zo een stuk overzichtelijker en je kan dat aparte stukje functionaliteit (een functie) vervolgens ook gebruiken in andere programma's die je gaat schrijven. Een aantal functies die we al zijn tegengekomen zijn bijvoorbeeld de functie die de sinus van een getal berekent: de `in()` functie die in de wiskunde bibliotheek is ondergebracht:`math.sin()`. Zulke functies kan je zelf ook schrijven en zullen we in de opgaves vandaag gaan doen.
+Bij het programmeren zal je vaak merken je een stuk code kan (of moet) hergebruiken. Zo'n stuk code kan je in een apart stuk van je programma onderbrengen als aparte entiteit (dat noemen we een *functie*). De 'echte' code wordt zo een stuk overzichtelijker en je kan dat aparte stukje functionaliteit ook gebruiken in andere programma's die je gaat schrijven. Een aantal functies die we al zijn tegengekomen zijn bijvoorbeeld de functie die de sinus van een getal berekent: de `sin()`-functie die in de wiskunde bibliotheek is ondergebracht: `math.sin()`. Zulke functies kan je zelf ook schrijven en zullen we in de opgaves vandaag gaan doen.
 
-In je hoofdcode kan je een functie vervolgens vragen een opdracht uit te voeren. Hoewel het niet noodzakelijk is heeft zo'n stuk code heet een functie en heeft altijd een input (de variabelen waar hij iets mee moet doen) en een output (het resultaat van zijn werk). De manier waarop je een functie definieert en input en output manipuleert worden hopelijk duidelijk in onderstaande voorbeeld. Als je meer wilt weten kan je dat XXX vinden
+In je hoofdcode kun je een functie vervolgens vragen een opdracht uit te voeren. Een functie heeft altijd een input (de variabelen waar hij iets mee moet doen) en een output (het resultaat van het werk). De manier waarop je een functie definieert en input en output manipuleert worden duidelijk in onderstaande voorbeeld.
 
 ## [voorbeeld 1]: kwadraten berekenen
 
@@ -127,17 +127,17 @@ Als je van de getallen van 1 tot en met 20 de getallen zelf en hun kwadraten op 
 Je kan zo'n functie ook zelf schrijven natuurlijk. We zullen die `MijnKwadraatFunctie()` noemen. De functie heeft 1 input (het getal zelf) en 1 output (het getal in het kwadraat).   
 
     def MijnKwadraatFunctie(getal):
-        antwoord = getal*getal
+        antwoord = getal * getal
         return antwoord
 
-    #-- hier begint het programma
+    # hier begint het hoofdprogramma
     for x in range(1,21):
         x_kwadraat = MijnKwadraatFunctie(x) 
         print " %d in het kwadraat = %d" % (x, x_kwadraat) 
 
-Eerst komt dus de definitie van de functie en zijn naam. Tussen de haakjes geef je aan welke variabelen er als input beschikbaar zijn. In dit geval de variabale `getal` waarna je het antwoord uitrekent. Dit antwoord, ook een getal, wordt vervolgens 'teruggegeven' aan de gebruiker die er vervolgens in de hoofdcode weer verder mee kan werken. In dit geval wordt het antwoord van de functie in de hoofdcode in een variabele (`x-kwadraat`) gestopt en vervolgens op het scherm geprint.
+Eerst komt dus de definitie van de functie en zijn naam. Tussen de haakjes geef je aan welke variabelen er als input beschikbaar zijn. In dit geval de variabale `getal` waarna je het antwoord uitrekent. Dit antwoord, ook een getal, wordt vervolgens 'teruggegeven' aan de gebruiker die er vervolgens in de hoofdcode weer verder mee kan werken. In dit geval wordt het antwoord van de functie in de hoofdcode in een variabele (`x_kwadraat`) gestopt en vervolgens op het scherm geprint.
 
-Belangrijk om hier op te merken is ook dat de naam van de variabelen in de functie zelf helemaal losstaat van de waarde en de naam van variabelen in de hoofdcode zelf. In de functie zelf weet het programma bijvoorbeeld niet wat `x` is. Het ius een gesloten wereld en je kan in de functie alleen werken met de variabele `getal`. 
+Belangrijk om hier op te merken is ook dat de naam van de variabelen in de functie zelf helemaal losstaat van de waarde en de naam van variabelen in de hoofdcode zelf. In de functie zelf weet het programma bijvoorbeeld niet wat `x` is. Het is een gesloten wereld en je kan in de functie alleen werken met de variabele `getal`. 
 
 Bestudeer dit voorbeeld goed en probeer zelf de naam en functionaliteit te veranderen zodat het bijvoorbeeld de derdemacht van het getal uitrekent. In dit geval lijkt het een beetje overbodig om een aparte functie te maken voor een simpele opdracht, maar je zal al snel merken dat sommige stukken code die je in een functie onderbrengt al snel vrij groot kunnen worden.
 
@@ -147,14 +147,14 @@ Je kan ook meerdere input-variabelen meegeven. Dit is bijvoorbeeld een functie d
 
     def GrootsteGetal(a,b):
         grootste = 0
-        if a>b:
+        if a > b:
            grootste = a
         else:
            grootste = b
         return grootste
 
 
-    #-- hier begint het programma
+    # hier begint het programma
     getal_1 = 126
     getal_2 = 14
     largest_number =  GrootsteGetal(getal_1, getal_2)
@@ -172,13 +172,13 @@ In het onderstaande voorbeeld wordt in de hoofdcode een lijst met x-waardes gepr
     def MijnPolynoom(L_x):
         L_y = []
         for x in L_x:
-            y = 8*x*x-5*x+9
-            L_y.append(y)                 
+            y = 8 * x * x - 5 * x + 9
+            L_y.append(y)
         return L_y
  
 
-    #-- hier begint het programma
-    L_xwaardes = [1,2,3,4,5,6]
+    # hier begint het programma
+    L_xwaardes = [1, 2, 3, 4, 5, 6]
     L_ywaardes = MijnPolynoom(L_xwaardes)
 
     plt.plot(L_xwaardes, L_ywaardes, 'g-')
@@ -189,7 +189,7 @@ In het onderstaande voorbeeld wordt in de hoofdcode een lijst met x-waardes gepr
 
 Schrijf een programma dat een functie van de vorm $$f(x)=ax^2+bx+c$$ op het scherm plot en ook de nulpunten vindt. Het vinden van de nulpunten  (de x-waardes waarvoor geldt $$f(x)=0$$) moet in een aparte functie `Nulpunten(a,b,c)` gebeuren die als input de parameters van de polynoom meekrijgt en de 2 nulpunten in een lijst teruggeeft.
 
-Begin je programma met de waardes (a,b,c) = (1,2,-10). Die polynoom heeft namelijk 2 nulpunten.
+Roep de functie aan met de waarden $$a = 1$$, $$b = 2$$ en $$c = -10$$. Die polynoom heeft namelijk twee nulpunten.
 
 Breid je functie nu uit zodat je functie ook raad weet met polynomen die helemaal geen nulpunten hebben. In dat geval moet je nog steeds de functie op het scherm printen, maar moet er op het scherm netjes verschijnen dat deze polynoom geen nulpunten heeft.
 
@@ -199,6 +199,15 @@ Extra: als je nog tijd over hebt kan je misschien de figuur 'mooi' te maken. Pro
 ![](PolynoomAnalyse.png)
 
 
+## Sanity check
 
+Let op dat je alleen de volgende Python-onderdelen hebt gebruikt in je oplossingen:
 
+- alle onderdelen van module 1
+- `math.pow()`
+- `math.pi`
+- `def`
+- `return`
+- `elif` (find out what you can do with that!)
 
+Let op! Andere functies van `math` en `numpy` mag je (nog) niet gebruiken!

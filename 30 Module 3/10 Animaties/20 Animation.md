@@ -20,18 +20,18 @@ om in de plot aan te geven welke $$x$$-waardes en $$y$$-waardes we willen zien.
     import numpy as np
     import matplotlib.pyplot as plt
     
-    #-- neem kleine stappen in x tussen 0 en 2pi
+    # neem kleine stappen in x tussen 0 en 2pi
     for x in np.arange(0,2*math.pi,0.05):
 
         y = math.sin(x)
 
-        #-- plot grafiek
-        plt.plot(x, y, 'bo', markersize = 10)  #-- blauwe punt
+        # plot grafiek
+        plt.plot(x, y, 'bo', markersize = 10)  # blauwe punt
         plt.xlim(0,2*math.pi)
         plt.ylim(-1,1)
-        plt.draw()           #-- update grafiek
+        plt.draw()           # update grafiek
         plt.pause(0.001)
-        plt.clf()            #-- clear grafiek
+        plt.clf()            # clear grafiek
 
 ![](AnimationExampleSin1.gif)
 
@@ -49,7 +49,7 @@ lijn.
     L_x = []
     L_y = []
 
-    #--/ take small steps in x
+    # take small steps in x
     for x in np.arange(0,2*math.pi,0.05):
 
         y = math.sin(x)
@@ -57,13 +57,13 @@ lijn.
         L_x.append(x)
         L_y.append(y)
 
-        #-- plot grafiek
-        plt.plot(L_x, L_y, 'r-')   #-- rode lijn
+        # plot grafiek
+        plt.plot(L_x, L_y, 'r-')   # rode lijn
         plt.xlim(0,2*math.pi)
         plt.ylim(-1,1)
-        plt.draw()           #-- update grafiek
+        plt.draw()           # update grafiek
         plt.pause(0.001)
-        plt.clf()            #-- clear grafiek
+        plt.clf()            # clear grafiek
 
 
 Zoals je ziet is de code maar drie regels veranderd ten opzichte van voorbeeld
@@ -83,7 +83,7 @@ weergeven over de $$(x,y)$$ positie van het punt op het scherm.
     L_x = []
     L_y = []
 
-    #--/ take small steps in x
+    # take small steps in x
     for x in np.arange(0,2*math.pi,0.05):
 
         y = math.sin(x)
@@ -91,18 +91,18 @@ weergeven over de $$(x,y)$$ positie van het punt op het scherm.
         L_x.append(x)
         L_y.append(y)
 
-        #-- plot grafiek
-        plt.plot(L_x, L_y, 'r-')               #-- rode lijn
-        plt.plot(x, y, 'bo', markersize = 10)  #-- blauwe stip
+        # plot grafiek
+        plt.plot(L_x, L_y, 'r-')               # rode lijn
+        plt.plot(x, y, 'bo', markersize = 10)  # blauwe stip
         plt.xlim(0,2*math.pi)
         plt.ylim(-1,1)
 
-        #--/ text op scherm      
+        # text op scherm      
         plt.text( 0.25, -0.8, "(%.2f,%.2f)" % (x,y) )  
 
-        plt.draw()           #-- update grafiek
+        plt.draw()           # update grafiek
         plt.pause(0.001)
-        plt.clf()            #-- clear grafiek
+        plt.clf()            # clear grafiek
 
 ![](AnimationExampleSin3.gif)
 

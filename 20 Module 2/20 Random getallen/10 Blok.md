@@ -50,11 +50,11 @@ Schrijf een programma dat 10 random getallen op het scherm print tussen *a* en *
          getal = <hier jouw code>           
          return getal
      
-    #-- hier begint het programma
-    a = 2
-	b = 5 
-    for i in range(1,11):
-       x = MijnRandomGetal(a,b)
+    # hier begint het programma
+    minimum = 2
+	maximum = 5
+    for i in range(1, 11):
+       x = MijnRandomGetal(minimum, maximum)
        print x
 
 Bekijk goed het voorbeeld hierboven waarbij we een random getal tussen 0 en 2 maakten en probeer eerst uit te vinden hoe je een random getal tussen de -1 en +1 zou kunnen maken. Daarna kan je dat abstract programmeren naar een algemene *a* en *b* als begin en eindwaardes van het interval waarbinnen je random getallen wilt gebruiken.
@@ -76,7 +76,7 @@ Dit is een typisch voorbeeld van een duidelijk en simpel probleem dat analytisch
 
 
 ### Tip: bedenk van tevoren welk antwoord je verwacht
-Net zoals je bij een gewone natuurkunde of wiskunde opgave is het belangrijk om vooraf een schattimng te maken van de uitkomst zodat je een duidelijk verkeerd antwoord gelijk herkent. Wat denk je dat het antwoord moet zijn ? Als je programma klaar is kan je ook heel makkelijk de gemiddelde afstand in een vierkant van 2x2 uitrekenen. Wat denk je ? Is dat 'gewoon' 2 keer zo groot als je antwoord bij het 1x1 vierkant .... of is het misschien $$x^2$$ keer zo groot ... of juist $$\sqrt{2}$$ ? 
+Net zoals je bij een gewone natuurkunde of wiskunde opgave is het belangrijk om vooraf een schatting te maken van de uitkomst zodat je een duidelijk verkeerd antwoord gelijk herkent. Wat denk je dat het antwoord moet zijn ? Als je programma klaar is kan je ook heel makkelijk de gemiddelde afstand in een vierkant van 2x2 uitrekenen. Wat denk je ? Is dat 'gewoon' 2 keer zo groot als je antwoord bij het 1x1 vierkant .... of is het misschien $$x^2$$ keer zo groot ... of juist $$\sqrt{2}$$ ? 
 
 
 # [2] Visualisatie van data: histogrammen
@@ -95,16 +95,16 @@ Hieronder een klein programma dat eerst 10.000 random getallen genereert en ze i
     import random
     import matplotlib.pyplot as plt
 
-    #--/ lijst waar je de random getallen in bewaart
+    # lijst waar je de random getallen in bewaart
     L_random_getallen = []
     
-    #--/ genereer 10.000 random getallen
+    # genereer 10.000 random getallen
     n = 10000
-    for i_getal in range(n):
+    for counter in range(n):
         getal = random.random()          
         L_random_getallen.append(getal)
     
-     #--/ plot de frequentie-distributie (50 bins)
+     # plot de frequentie-distributie (50 bins)
      plt.xlim(-0.1,1.1)
      plt.hist(L_random_getallen,bins=50)
      plt.show()
@@ -116,11 +116,25 @@ Note: de extra optie `xlim` gebruiken we hier om te laten zien dat er geen getal
 
 # Opgave 3: distributie van de som van random getallen
 
-Dat de random getallen zelf keurig uniform tussen 0 en 1 verdeeld zijn hebben we net gezien, maar hoe zit het eigenlijk met de verdeling van de som van 100 random getallen ? Als we een 'experiment' doen waarbij we 100 random getallen getallen genereren en bij elkaar optellen zal daar gemiddeld 50 uitkomen (omdat het gemiddelde getal 0.5 is), maar voor een individueel experiment is dat zelden precies 50 natuurlijk. De vraag is nou: hoe vaak vind je toevallig dat de som minder is dat 40 ? En komt dat evenveel voor als het aantal experimenten waarbij de som meer dan 60 is ? 
+Dat de random getallen zelf keurig uniform tussen 0 en 1 verdeeld zijn hebben we net gezien, maar hoe zit het eigenlijk met de verdeling van de som van 100 random getallen? Als we een 'experiment' doen waarbij we 100 random getallen getallen genereren en bij elkaar optellen zal daar gemiddeld 50 uitkomen (omdat het gemiddelde getal 0.5 is), maar voor een individueel experiment is dat zelden precies 50 natuurlijk. De vraag is nou: hoe vaak vind je toevallig dat de som minder is dan 40? En komt dat evenveel voor als het aantal experimenten waarbij de som meer dan 60 is?
 
 Schrijf een programma `SomRandomGetallen()` dat de distributie weergeeft van 10.000 experimenten. Teken de resultaten tussen x=30 en x = 70.
 
 Genereer voor elk 'experiment' 100 random getallen en reken de som daarvan uit. Herhaal dit 10.000 keer en bewaar voor elk van de experimenten de som in een lijst. Maak uiteindelijk een frequentie-distributie (histogram) van de verdeling. Schrijf ook naar het scherm wat het percentage (in procent) van de  experimenten is waarbij de som respectievelijk minder dan 40 en meer dan 60 is.     
 
 
+
+## Sanity check
+
+Let op dat je alleen de volgende Python-onderdelen hebt gebruikt in je oplossingen:
+
+- alle onderdelen van module 1
+- de gehele `random`-bibliotheek
+- `math.pow()`
+- `math.pi`
+- `def`
+- `return`
+- `elif` (find out what you can do with that!)
+
+Let op! Andere functies van `math` en `numpy` mag je (nog) niet gebruiken!
 
