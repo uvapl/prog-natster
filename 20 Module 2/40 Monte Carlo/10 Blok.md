@@ -97,7 +97,7 @@ Bewaar na elke 100 punten dat je gooit de schatting van de oppervlakte op dat mo
 Let op dat je alleen de volgende Python-onderdelen hebt gebruikt in je oplossingen:
 
 - alle onderdelen van module 1
-- de gehele `random`-bibliotheek
+- `random.random()`
 - `math.pow()`
 - `math.pi`
 - `def`

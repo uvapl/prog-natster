@@ -129,7 +129,7 @@ Genereer voor elk 'experiment' 100 random getallen en reken de som daarvan uit. 
 Let op dat je alleen de volgende Python-onderdelen hebt gebruikt in je oplossingen:
 
 - alle onderdelen van module 1
-- de gehele `random`-bibliotheek
+- `random.random()`
 - `math.pow()`
 - `math.pi`
 - `def`
