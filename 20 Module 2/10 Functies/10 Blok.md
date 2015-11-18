@@ -74,7 +74,7 @@ Oplossing 2:
 
 ## [2] Een rij reele getallen met behulp van numpy.arange()
 
-In Module 1 hebben we de for-loop gebruikt om een variabele steeds met 1 op te hogen. In de for-loop constructie gebruikten we daarvoor de `range()` functie. De getallen 1 tot (en niet tot en met) 9, printen op het scherm, ze in een lijst stoppen en die printen aan het eind van het programma deden we als volgt.
+In Module 1 hebben we de for-loop gebruikt om een variabele steeds met 1 op te hogen. In de for-loop constructie gebruikten we daarvoor de `range()` functie. De getallen 1 tot (en niet tot en met) 10, printen op het scherm, ze in een lijst stoppen en die printen aan het eind van het programma deden we als volgt.
 
     L_x = []
     for x in range(1,10):
@@ -91,7 +91,7 @@ In Module 1 hebben we tijdens het tekenen van onze grafieken gezien hoe we punte
     L_y = []
     
     for x in np.arange(0,2*math.pi, 0.01):  # x loopt van 0 tot 2pi in stapjes van 0.01
-        y = sin(x)
+        y = math.sin(x)
         L_x.append(x)
         L_y.append(y)		  
 
@@ -187,7 +187,7 @@ In het onderstaande voorbeeld wordt in de hoofdcode een lijst met x-waardes gepr
 
 # Opgave 1: nulpunten vinden van een tweedegraads-polynoom en plotten
 
-Schrijf een programma dat een functie van de vorm $$f(x)=ax^2+bx+c$$ op het scherm plot en ook de nulpunten vindt. Het vinden van de nulpunten  (de x-waardes waarvoor geldt $$f(x)=0$$) moet in een aparte functie `Nulpunten(a,b,c)` gebeuren die als input de parameters van de polynoom meekrijgt en de 2 nulpunten in een lijst teruggeeft.
+Schrijf een programma dat een functie van de vorm $$f(x)=ax^2+bx+c$$ op het scherm plot en ook de nulpunten vindt. Het vinden van de nulpunten  (de x-waardes waarvoor geldt $$f(x)=0$$) moet in een aparte functie `Nulpunten(a,b,c)` gebeuren die als input de parameters van de polynoom meekrijgt en de 2 nulpunten in een lijst teruggeeft. Bereken de nulpunten m.b.v. de abc-formule.
 
 Roep de functie aan met de waarden $$a = 1$$, $$b = 2$$ en $$c = -10$$. Die polynoom heeft namelijk twee nulpunten.
 
