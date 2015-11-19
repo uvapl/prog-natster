@@ -61,10 +61,14 @@ $$0.5$$ in $$x$$ en $$2.0$$ in $$y$$ respectievelijk.
 
     import matplotlib.image as image
 
-    im = image.imread('/Users/ivo/Desktop/AngryBirdsLogo.png')
+    im = image.imread('AngryBirdsLogo.png')
     plt.imshow(im, aspect='auto', extent=(x_kogel, x_kogel+0.5, y_kogel, y_kogel+2), zorder=-1)
 
 ![](AngryBirdAnimatedMin81.gif)
 
 
 
+
+## Sanity check
+
+Je kunt deze opgaven allemaal maken met de Python-onderdelen die je kent uit modules 1 en 2!

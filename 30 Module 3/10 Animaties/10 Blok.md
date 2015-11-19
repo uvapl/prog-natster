@@ -42,7 +42,7 @@ De code die we hiervoor gebruiken is als volgt:
     plt.figure(1)
 
     plt.subplot(121)  # ga naar subplot 1
-    plt.plot(L_x, L_sinx, 'b-',L_x, L_cosx, 'r--')
+    plt.plot(L_x, L_sinx, 'b-', L_x, L_cosx, 'r--')
 
     plt.subplot(122)  # ga naar subplot 2
     plt.plot(L_x, L_x2, 'g-')

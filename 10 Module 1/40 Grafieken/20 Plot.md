@@ -65,6 +65,8 @@ En natuurlijk behoren de assen labels te hebben, kan je 2 verschillende grafieke
 
 ![](plotje2.png)
 
+> Tip: de formule $$x^3$$ kunnen we mooi afdrukken bij de grafiek omdat we in pyplot *LaTeX* mogen gebruiken. Helaas kan dat alleen in plotjes!
+
 ## Stap 3: hoge resolutie grafieken
 
 In stap 2 hebben we een klein aantal punten gekozen waarbij je de waardes 
@@ -119,6 +121,7 @@ Let op dat je alleen de volgende Python-onderdelen hebt gebruikt in je oplossing
 - `len()`
 - `.append()`
 - `math`: de [goniometrische functies](https://docs.python.org/2/library/math.html#trigonometric-functions)
+- `math.pi`
 - `numpy.arange()`
 - alles van `matplotlib.pyplot`
 - en natuurlijk alle operators zoals `=`, `+`, `/`, `%`, `>`, `[]`

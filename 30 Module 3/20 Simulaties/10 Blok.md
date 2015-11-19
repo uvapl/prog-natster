@@ -33,20 +33,23 @@ Bereken voor elke nieuw stapje in de tijd en in deze volgorde:
 
 Je hebt dan een nieuwe positie en snelheid gekregen en je kan vervolgens een stapje in de tijd maken en deze cyclus herhalen.
 
+Zorg dat de volgende grootheden bepaald worden en op het scherm weergegeven worden aan het eind van je programma:
+
+1. Na hoeveel seconden raakt de appel de grond?
+
+2. Met welke snelheid (km/uur) raakt de appel de grond?
+
+3. Na hoeveel seconden heeft de appel een snelheid van 100 km/uur bereikt? Is
+    een vallende appel daarmee sneller dan Bugatti Veyron (2.46 seconden) of niet?
+
 Tip:
 
 - Gebruik bovenstaande formule en start de appel dus op x = $${\rm R_{earth}}$$ + 100 meter. Als je wilt weten hoe hoog de appel is, de grootheid die je iets zegt en die je ook in de plots gebruikt, gebruik dan h = x - $${\rm R_{earth}}$$.
 - Let goed op het teken van de krachten en snelheden. je begint bij positieve $$x$$ en beweegt dan naar $$x=0$$ toe.
 - In dit voorbeeld kan je de antwoorden ook zelf uitrekenen met behulp van pen en papier.
+- Bereken alles eerst in m/s en reken dan voor punt 2 de snelheid om naar km/uur.
 
-Zorg dat de volgende grootheden bepaald worden en op het scherm weergegeven worden aan het eind van je programma:
 
-1. Na hoeveel seconden raakt de appel de grond ?
-
-2. Met welke snelheid (km/uur) raakt de appel de grond ?
-
-3. Na hoeveel seconden heeft de appel een snelheid van 100 km/uur bereikt? Is
-    een vallende appel daarmee sneller dan Bugatti Veyron (2.46 seconden) of niet?
 
 # Opgave 2: vrije val van base jumpers
 
@@ -79,8 +82,13 @@ zoals gegeven in bovenstaande formule. Nee hierbij aan dat de basejumper 72 kilo
 
     Teken 2 lijnen in dezelfde figuur: in het groen/blauw de situatie als we luchtweerstand wel/niet verwaarlozen.
     
-3. Op 100 meter moet de base jumper zijn parachute opengooien. Hoeveel langer heeft de base-jumper om te genieten van de vrije val dankzij de luchtweerstand ?
+3. De base jumper is eerst in vrije val, maar op 100 meter van het oppervlak moet deze de parachute opengooien. Hoeveel tijd heeft de jumper vanaf de afsprong tot dat moment, als we de luchtweerstand buiten beschouwing laten? Hoeveel langer heeft de base-jumper om te genieten van de vrije val dankzij de luchtweerstand?
 
     Zoals altijd heb je ook hier mensen die het [randje opzoeken](https://en.wikipedia.org/wiki/Speed_skydiving).
 
     Omdat hij zijn sprong maakte in een gebied waar de luchtdruk enorm laag was is het record met 1342 km/uur veilig in handen van Felix Baumgartner.
+
+
+## Sanity check
+
+Je kunt deze opgaven allemaal maken met de Python-onderdelen die je kent uit modules 1 en 2!

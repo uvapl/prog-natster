@@ -31,7 +31,7 @@ $$\int_{x_i}^{x_{i+1}} f(x)~dx = \frac{f_{i+1}+f_i}{2}~\Delta x$$
 
 De volledige integraal is dan te schrijven als (werk dit ook zelf uit op papier):
 
-$$\int_a^b f(x)~dx \approx \frac{\Delta x}{2} (f_0 + 2 f_1 + 2 f_2 + ... +  2 f_{N-1} + f_N)~+~\mathcal{O}((\Delta x)^2)\\
+$$\int_a^b f(x)~dx = \frac{\Delta x}{2} (f_0 + 2 f_1 + 2 f_2 + ... +  2 f_{N-1} + f_N)~+~\mathcal{O}((\Delta x)^2)\\
                        ~~ \approx \Delta~x(f_1 + f_2 + ... +  f_{N-1}) ~+~ \frac{\Delta x}{2}(f_0+f_N) $$
 
 ### d) Implementatie in Python 
@@ -53,15 +53,17 @@ In de evaluatie van de integraal $$\int_{0}^{\pi}sin(x)~dx$$ hebben we het integ
   - specifiek voor Riemannnsom: Als je het interval in $$N$$ stukjes verdeeld zijn er $$N+1$$ hoekpunten.
 
 
-# Opgaves
+## Opgaven
 
-## opgave 4: $$\int_{0}^{1}x^x dx$$
+- $$\int_{0}^{1}x^x dx$$
+
 Hint: test je functie door te testen of je programma de integraal $$\int_{0}^{1}x^2 dx$$ goed voorspelt
 
-## opgave 5: $$\int_{0.1}^{2} sin(x) dx$$
+- $$\int_{0.1}^{2} sin(x) dx$$
+
 Hint: test je functie door te testen of je programma de integraal $$\int_{0}^{\pi}sin(x) dx$$ goed voorspelt
 
-## opgave 6: $$\int_{0}^{\pi} sin(x^2) dx$$
+- $$\int_{0}^{\pi} sin(x^2) dx$$
 
 
 

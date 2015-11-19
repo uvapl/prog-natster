@@ -122,3 +122,8 @@ Schrijf een programma **fit.py** dat het bovenstaande resultaat verifieert.
 2. Bereken de beste waarde van c en de bijbehorende onzekerheid $$\Delta_c$$
 
 3. Hoe verandert het resultaat als de fout op elk van de metingen 2x zo groot wordt?
+
+
+## Sanity check
+
+Je kunt deze opgaven allemaal maken met de Python-onderdelen die je kent uit modules 1 en 2!

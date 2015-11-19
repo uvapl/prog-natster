@@ -7,3 +7,5 @@ required:
     - tunnel.py
     - angry_birds.py
     - fit.py
+optional:
+    - angry_plaatje

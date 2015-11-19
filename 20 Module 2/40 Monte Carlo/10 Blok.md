@@ -68,18 +68,22 @@ In 'echte' toepassingen wordt voor efficientie maximalisatie de box zo gekozen d
   - specifiek voor Monte Carlo: bij 'negatieve' integratieregio's de gebieden splitsen
 
 
-# Opgaves
+## Opgaven
 
-## opgave 7: $$\int_{0}^{1}x^x dx$$
+- $$\int_{0}^{1}x^x dx$$
+
 Hint: test je functie door te testen of je programma de integraal $$\int_{0}^{1}x^2 dx$$ goed voorspelt
 
-## opgave 8: $$\int_{0.1}^{2} sin(x) dx$$
+- $$\int_{0.1}^{2} sin(x) dx$$
+
 Hint: test je functie door te testen of je programma de integraal $$\int_{0}^{\pi}sin(x) dx$$ goed voorspelt
 
-## opgave 9: $$\int_{0}^{\pi} sin(x^2) dx$$
+- $$\int_{0}^{\pi} sin(x^2) dx$$
+
 Hint: Let goed op wat je doet met de negatieve integratieregio's. Het is handig om de oppervlakte van die gebieden zelfstandig te evalueren.
 
-# Opgave 10: het Twitter-ei
+- het Twitter-ei
+
 Schrijf een programma `TwitterEi()` dat de oppervlakte van het Twitter-Ei berekent. De omtrek van het ei wordt gegeven door: 
 $$ \sqrt{x^2+y^2} + \frac{2}{3}\sqrt{x^2+\left(\frac{5}{6}-y \right)^2 } = 1$$
 

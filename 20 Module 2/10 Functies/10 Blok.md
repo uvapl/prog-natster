@@ -185,7 +185,7 @@ In het onderstaande voorbeeld wordt in de hoofdcode een lijst met x-waardes gepr
     plt.show()
  
 
-# Opgave 1: nulpunten vinden van een tweedegraads-polynoom en plotten
+## Opgave: nulpunten vinden van een tweedegraads-polynoom en plotten
 
 Schrijf een programma dat een functie van de vorm $$f(x)=ax^2+bx+c$$ op het scherm plot en ook de nulpunten vindt. Het vinden van de nulpunten  (de x-waardes waarvoor geldt $$f(x)=0$$) moet in een aparte functie `Nulpunten(a,b,c)` gebeuren die als input de parameters van de polynoom meekrijgt en de 2 nulpunten in een lijst teruggeeft. Bereken de nulpunten m.b.v. de abc-formule.
 
@@ -205,7 +205,6 @@ Let op dat je alleen de volgende Python-onderdelen hebt gebruikt in je oplossing
 
 - alle onderdelen van module 1
 - `math.pow()`
-- `math.pi`
 - `def`
 - `return`
 - `elif` (find out what you can do with that!)

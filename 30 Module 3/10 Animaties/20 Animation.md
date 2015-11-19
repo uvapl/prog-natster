@@ -21,19 +21,21 @@ om in de plot aan te geven welke $$x$$-waardes en $$y$$-waardes we willen zien.
     import matplotlib.pyplot as plt
     
     # neem kleine stappen in x tussen 0 en 2pi
-    for x in np.arange(0,2*math.pi,0.05):
+    for x in np.arange(0,2 * math.pi, 0.05):
 
         y = math.sin(x)
 
         # plot grafiek
         plt.plot(x, y, 'bo', markersize = 10)  # blauwe punt
-        plt.xlim(0,2*math.pi)
-        plt.ylim(-1,1)
+        plt.xlim(0,2 * math.pi)
+        plt.ylim(-1, 1)
         plt.draw()           # update grafiek
         plt.pause(0.001)
         plt.clf()            # clear grafiek
 
 ![](AnimationExampleSin1.gif)
+
+> Je ziet dat we in de code de functie `pause()` aanroepen. Dat doen we om pyplot de gelegenheid te geven de nieuwe figuur op het scherm te tekenen. Dit wordt alleen gedaan tijdens de pauzes die we geven.
 
 ## Een bewegende lijn
 
@@ -50,7 +52,7 @@ lijn.
     L_y = []
 
     # take small steps in x
-    for x in np.arange(0,2*math.pi,0.05):
+    for x in np.arange(0,2 * math.pi, 0.05):
 
         y = math.sin(x)
 
@@ -59,8 +61,8 @@ lijn.
 
         # plot grafiek
         plt.plot(L_x, L_y, 'r-')   # rode lijn
-        plt.xlim(0,2*math.pi)
-        plt.ylim(-1,1)
+        plt.xlim(0,2 * math.pi)
+        plt.ylim(-1, s1)
         plt.draw()           # update grafiek
         plt.pause(0.001)
         plt.clf()            # clear grafiek
@@ -94,7 +96,7 @@ weergeven over de $$(x,y)$$ positie van het punt op het scherm.
         # plot grafiek
         plt.plot(L_x, L_y, 'r-')               # rode lijn
         plt.plot(x, y, 'bo', markersize = 10)  # blauwe stip
-        plt.xlim(0,2*math.pi)
+        plt.xlim(0,2 * math.pi)
         plt.ylim(-1,1)
 
         # text op scherm      
@@ -129,11 +131,11 @@ Schrijf een programma **spiraal.py** waarin de stip geanimeerd wordt zoals hierb
 
 ## Opgave 2: de dronken student
 
-Een dronken student (natuurlijk geen natuurkunde studeert, want dan lag hij
+Een dronken student (die natuurlijk geen natuurkunde studeert, want die liggen altijd
 keurig vroeg in bed) neemt elke seconde een stap. De grootte van de stap is
 steeds hetzelfde ($$R = 1$$), maar de richting waarin hij die stap neemt is
 volledig willekeurig. Kies bij elke stap in de tijd een random hoek $$\alpha$$
-en bepaald vervolgens de nieuwe $$x$$-positie en $$y$$-positie. Hieronder zie
+en bepaalt vervolgens de nieuwe $$x$$-positie en $$y$$-positie. Hieronder zie
 je de student als blauwe stip en het ook het pad dat hij gevolgd heeft. Dit
 staat bekend als een *random walk*.
 
@@ -156,3 +158,8 @@ stappen dat ze nemen.
 Filmpje opslaan? Probeer een tool als [GifGrabber](http://www.gifgrabber.com)
 te gebruiken om een animated gif te maken. Die kan je in een webbrowser
 bekijken.
+
+
+## Sanity check
+
+Je kunt deze opgaven allemaal maken met de Python-onderdelen die je kent uit modules 1 en 2!
