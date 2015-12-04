@@ -28,7 +28,7 @@ Bereken voor elke nieuw stapje in de tijd en in deze volgorde:
 2. de versnelling die de appel daardoor krijgt (a)
 3. de nieuwe snelheid die de appel daardoor krijgt (v)
     gebruik: $$v_{\rm nieuw} = v + a \Delta t$$
-4. de nieuwe positie van de appel (v). 
+4. de nieuwe positie van de appel (x). 
     gebruik: $$x_{\rm nieuw} = x + v \Delta t$$
 
 Je hebt dan een nieuwe positie en snelheid gekregen en je kan vervolgens een stapje in de tijd maken en deze cyclus herhalen.

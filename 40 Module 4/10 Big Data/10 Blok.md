@@ -2,8 +2,8 @@
 
 Een veel voorkomende toepassing van computerprogramma’s is het inlezen,
 verwerken en analyseren van grote databestanden. Big data! We zullen in Module
-4 een leren hoe we data inlezen en gebruiken onze kennis van Python om de data
-te rubriceren en te grafieken te maken van onze resultaten.
+4 leren hoe we data inlezen en gebruiken onze kennis van Python om de data
+te rubriceren en grafieken te maken van onze resultaten.
 
 # Inlezen files en verwerken van de data
 
@@ -37,10 +37,11 @@ De file [VanBasten.txt](http://www.nikhef.nl/~ivov/Python/Voetbal/VanBasten.txt)
 
 ![](VanBastenKlein.jpg)
 
+> Let op: als je het bestand met Windows Kladblok/Notepad opent, dan staat alle data achter elkaar. Dat maakt niet uit voor de goede werking van je programma's.
+
 Het doel van het voorbeeld is op op het scherm te printen:
    
    - de seizoenen waarin Van Basten meer dan 20 keer gescoord heeft
-
    - het totaal aantal doelpunten dat Van Basten voor al zijn clubs heeft gescoord
     
 ## Stap 1: openen van de file, inlezen van de regels
@@ -56,10 +57,12 @@ de regel en print alleen `line` naar het scherm.
 
 Versie 1 programma:
 
-	input_filehandle = open('/Users/ivo/Desktop/VanBasten.txt', 'r')
+	input_filehandle = open('VanBasten.txt', 'r')
 	for line in input_filehandle:
         print line
 	input_filehandle.close()
+
+> Tip: klik in Canopy met de rechtermuisknop op de *opdrachtregel* van Python, en kies "Keep directory synced to editor". Dan kan Python het bestand `VanBasten.txt` altijd vinden.
 
 De 'r' in het `open()` commando betekent 'read', lezen dus. Als je dit programma uitvoert 
 zal je zien dat bijvoorbeeld de regel van 1988 zo op het scherm verschijnt:
@@ -78,7 +81,7 @@ uitvoeren.
 
 Versie 2 programma:
 
-	input_filehandle = open('/Users/ivo/Desktop/VanBasten.txt', 'r')
+	input_filehandle = open('VanBasten.txt', 'r')
 	for line in input_filehandle:
         print line
         data_opgeknipt = line.split(',')
@@ -134,7 +137,7 @@ maakte.
 
 Versie 3 programma:
 
-	input_filehandle = open('/Users/ivo/Desktop/VanBasten.txt', 'r')
+	input_filehandle = open('VanBasten.txt', 'r')
 
     Ndoelpunten_tot = 0
 
@@ -187,7 +190,7 @@ schrijft deze nieuwe regel vervolgens weg in een outputfile.
 	input_filehandle = open(’inputfile.txt’, ’r’)
 	output_filehandle = open(’outputfile.txt’, ’w’)
 	for line in input_filehandle:
-        newline = line + " XXXX"
+        newline = line + " XXX"
         output_filehandle.write(newline)
 
     input_filehandle.close()
@@ -227,3 +230,12 @@ Maak een grafiek van de positie van de auto en kleur de route groen (rood)
 op de stukken van de route waar de snelheid van de auto meer (minder) 
 was dan 50 km/uur.
 
+
+# Sanity check
+
+Let op dat je alleen de volgende Python-onderdelen hebt gebruikt in je oplossingen:
+
+- alle onderdelen van module 1, 2 en 3
+- `open()`
+- `f.close()`
+- `s.split()`

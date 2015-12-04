@@ -17,6 +17,8 @@ Data Files:
 Download de file, open ze en lees bovenin hoe de data gecodeerd is. We zien dat
 de maximum(minimum) temperatuur op 1 januari 1901 -3.1(-6.8) ◦C was.
 
+> Let op! De datafiles bevatten ook allerlei uitleg. De bedoeling is dat je deze laat staan in het bestand. Je Python-programma moet deze regels netjes overslaan bij het verwerken. Doe dit door op zoek te gaan naar `STAID`, te vinden in de regel die precies boven de interessante data staat.
+
 Schrijf een programma **temperatuur.py** die de file regel voor regel inleest
 en beantwoord de volgende vragen.
 
@@ -51,3 +53,15 @@ dagen 30,0 °C of meer (tropische dagen).
 
 Bekijk of er een officiele hittegolf geweest in 2015 ?
    
+
+
+
+# Sanity check
+
+Let op dat je alleen de volgende Python-onderdelen hebt gebruikt in je oplossingen:
+
+- alle onderdelen van module 1, 2 en 3
+- `open()`
+- `f.close()`
+- `s.split()`
+
