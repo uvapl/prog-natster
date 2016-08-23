@@ -1,13 +1,26 @@
+grades:
+    module1:
+        type: integer
+    module2:
+        type: integer
+    module3:
+        type: integer
+    module4:
+        type: integer
+    tent:
+        type: pass
+    hert:
+        type: pass
+
 calculation:
     resit:
-        her: 0
+        hert: 0
         psets: 100
     normal:
         tent: 0
         psets: 100
 
 psets:
-    type: integer
     grades:
         module1: 1
         module2: 1
@@ -15,13 +28,11 @@ psets:
         module4: 1
 
 tent:
-    type: pass
     required: true
     grades:
         tent: 1
 
-her:
-    type: pass
+hert:
     required: true
     grades:
-        her: 1
+        hert: 1
