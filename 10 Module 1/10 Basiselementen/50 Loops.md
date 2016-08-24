@@ -1,47 +1,46 @@
 # Loops
 
-Soms is het handig om van een groot aantal getallen of lijsten van variabelen te bepalen of ze aan een bepaalde eis voldoen. Omdat dat nou precies is wat een computer zo goed kan is het een basiselement in bijna alle programmeertalen: `for`-loops. Dit is een constructie waarbij een variabele een bepaalde beginwaarde toegewezen krijgt gevolgd door een set instructies. Zodra alle instructies uitgevoerd zijn, wordt de variabele met 1 vergroot en worden weer alle instructies uitgevoerd.
+Soms is het handig om van een hele lijst getallen of variabelen te bepalen of ze aan een bepaalde eis voldoen. Omdat zulk "dom werk" precies is wat een computer zo goed kan, is dat een basiselement in bijna alle programmeertalen. We noemen dit een *loop*.
 
-## De basis van loops
+## Herhaling
 
-Als we voor de getallen 1 *tot* 10 iets willen doen dan ziet het er zo uit:
+Als we tien keer iets willen doen, dan ziet het er bijvoorbeeld zo uit:
 
-	for getal in range(1,10):
-        actie1
-        actie2
-        actie3
+	for x in range(1, 11):
+		print "hallo"
 
-Je ziet dat we net als bij `if` weer kunnen inspringen om duidelijk te maken welke volgende regels in de loop horen. Dat zijn dus de instructies die meerdere malen uitgevoerd gaan worden.
+We gebruiken hier het commando `range()` met een begingetal en eindgetal om aan te geven hoe vaak de loop uitgevoerd zal worden. Daarbij telt Python van het begin *tot* het einde---dus niet *tot en met*!
 
-## De loop-variabele
+Verder zie je dat we net als bij `if` weer kunnen inspringen om duidelijk te maken welke instructies bij de loop horen: vier spaties vóór de `print`-instructie. Dat is dus precies de instructie die meerdere malen uitgevoerd gaat worden.
 
-Deze loop werkt met een *variabele* genaamd `getal` om voor elke iteratie (elke keer dat de loop uitgevoerd wordt) een andere waarde vast te houden. We gebruiken hier het commando `range()` met een begingetal en eindgetal om aan te geven hoe de variabele zal tellen. Daarbij telt Python van het begin *tot* het einde---dus niet *tot en met*!
+## Tellen
 
-In bovenstaand voorbeeld zal de variabele `getal` als eerste op 1 gezet worden en daarna worden de handelingen uitgevoerd die in het programma beschreven staan. Als alle handelingen uitgevoerd zijn gaat het programma terug naar de beginregel van de loop en zet nu de variabele `getal` op 2 en worden weer alle handelingen uitgevoerd. In de code binnen de loop kun je dus naar de variabele `getal` verwijzen om mee te rekenen of om iets uit te printen.
-
-![embed](https://player.vimeo.com/video/179484836?byline=0&portrait=0)
-
-## Voorbeelden
-
-Stel dat we bijvoorbeeld de getallen van 1 tot en met 10 op het scherm willen printen en dan aangeven dat we klaar zijn:
+In het voorbeeld hierboven wordt een regel code tien keer herhaald. Dat werkt al heel efficiënt (het zijn maar twee regels code!), maar vaak willen we tijdens het herhalen ook iets tellen, zodat we bijvoorbeeld weten hoe ver we zijn. Stel dat we bijvoorbeeld de getallen van 1 tot en met 10 op het scherm willen printen en dan aangeven dat we klaar zijn:
 
 	for getal in range(1,11):
     	print getal
 	print "Ik ben klaar" 
-		
-Als je de som van alle getallen van 1 tot en met 20 wil uitrekenen en vervolgens op het scherm wilt printen werkt dat als volgt:
+
+Deze loop werkt met een *variabele* genaamd `getal` om voor elke stap een nieuwe waarde vast te houden. Als de loop begint zal de variabele `getal` op 1 gesteld worden en daarna worden de handelingen uitgevoerd die in het programma beschreven staan. Als alle handelingen van de loop uitgevoerd zijn gaat het programma terug naar de beginregel bij `for`, en zet nu de variabele `getal` op 2. Vervolgens worden wederom alle handelingen uitgevoerd.
+
+![embed](https://player.vimeo.com/video/179484836?byline=0&portrait=0)
+
+## Rekenen
+
+Zoals je hierboven zag, kun je in de loop naar de variabele `getal` verwijzen om iets uit te printen. Je kunt de variabele ook gebruiken als onderdeel van een herhalende berekening. Als je bijvoorbeld de som van alle getallen tot en met 20 wil uitrekenen en het resultaat vervolgens op het scherm wilt printen werkt dat als volgt:
 
     som = 0
 	for getal in range(1,21):
     	som = som + getal
-	print "de som van de getallen van 1 tot en met 20 is %d" % (som) 
+	print "De som van de getallen van 1 tot en met 20 is %d" % (som) 
 
-Voordat je over de getallen 'loopt' zet je de variabele `som` op 0. Die gebruiken we om tijdens de loop het totaal bij te houden: we tellen bij elke stap (dus bij elk `getal`) de waarde van `getal` op bij de variabele `som`. Nadat we alle getallen hebben doorlopen laat de computer op het scherm zien wat de waarde van de variabele `som` is. Dat hebben we gedaan met de `print`-opdracht, die zoals je ziet niet in de loop staat.
+Voordat we over de getallen *loopen* zetten we een variabele `som` op 0. Die gebruiken we om tijdens de loop het totaal bij te houden.
+
+Dan gaan we `for`-loop in. We tellen bij elke stap de waarde van `getal` op bij de variabele `som`. Zoals gebruikelijk in een `for`-loop, verandert `getal` bij elke stap. Nadat we zo alle getallen hebben doorlopen printen we de uiteindelijke waarde van de variabele `som`. Let op: die `print`-opdracht staat niet in de loop, anders wordt deze ook twintig keer uitgevoerd! Maar, probeer gerust uit of dit werkt.
 
 ## Een loop met een if
 
-Je kunt tijdens de loop de getallen ook verschillend behandelen. Als we bijvoorbeeld de som van de even 
-getallen tussen 1 en 20 willen printen kunnen we een `if`-statement gebruiken. 
+Je kunt tijdens de loop de getallen ook verschillend behandelen. Als we bijvoorbeeld de som van de even getallen tussen 1 en 20 willen printen kunnen we een `if`-statement gebruiken. 
 
 We introduceren in het onderstaande stukje code ook 'ongemerkt' de `%` (modulo-operator) om te bepalen 
 of een getal deelbaar een veelvoud is van 2. De modulo operator is werkt als volgt: `x%y` geeft je de 
