@@ -71,8 +71,8 @@ Zorg daarom dat je, nadat je het specifieke probleem hebt opgelost, je code zo u
 
     som = 0
     max_getal = 88
-	for getal in range(1,max_getal+1):
-        if getal%2 == 0:
+	for getal in range(1, max_getal+1):
+        if getal % 2 == 0:
            print "Yes! %d is een even getal" % getal
            som = som + getal
 	print "de som van de even getallen van 1 tot en met %d is %d" % (max_getal, som)
@@ -81,7 +81,7 @@ Zorg daarom dat je, nadat je het specifieke probleem hebt opgelost, je code zo u
 
 Je kunt met `range` ook de stapgrootte opgeven. `for` telt dan zoals voorheen van begin tot einde, en neemt niet stappen van 1, maar van de grootte die jij hebt ingesteld. Dit ziet er zo uit:
 
-    for getal in range(1,100,10):
+    for getal in range(1, 100, 10):
        ...
 
 Elke stap in de `for`-loop zal dan steeds 10 verder zijn dan de vorige. Denk even na welke stappen gemaakt zouden worden bij de loop hierboven; of neem de code over en zet er een `print` in om het gedrag te bestuderen.
