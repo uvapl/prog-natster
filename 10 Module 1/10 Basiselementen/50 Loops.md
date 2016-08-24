@@ -36,21 +36,11 @@ Zoals je hierboven zag, kun je in de loop naar de variabele `getal` verwijzen om
 
 Voordat we over de getallen *loopen* zetten we een variabele `som` op 0. Die gebruiken we om tijdens de loop het totaal bij te houden.
 
-Dan gaan we `for`-loop in. We tellen bij elke stap de waarde van `getal` op bij de variabele `som`. Zoals gebruikelijk in een `for`-loop, verandert `getal` bij elke stap. Nadat we zo alle getallen hebben doorlopen printen we de uiteindelijke waarde van de variabele `som`. Let op: die `print`-opdracht staat niet in de loop, anders wordt deze ook twintig keer uitgevoerd! Maar, probeer gerust uit of dit werkt.
+Dan gaan we `for`-loop in. We tellen bij elke stap de waarde van `getal` op bij de variabele `som`. Zoals gebruikelijk in een `for`-loop, verandert `getal` bij elke stap. Nadat we zo alle getallen hebben doorlopen, printen we de uiteindelijke waarde van de variabele `som`. Let op: die `print`-opdracht staat niet in de loop, anders wordt deze ook twintig keer uitgevoerd! Maar, probeer gerust uit of dit inderdaad zo werkt.
 
-## Een loop met een if
+## Een loop met een voorwaarde
 
-Je kunt tijdens de loop de getallen ook verschillend behandelen. Als we bijvoorbeeld de som van de even getallen tussen 1 en 20 willen printen kunnen we een `if`-statement gebruiken. 
-
-We introduceren in het onderstaande stukje code ook 'ongemerkt' de `%` (modulo-operator) om te bepalen 
-of een getal deelbaar een veelvoud is van 2. De modulo operator is werkt als volgt: `x%y` geeft je de 
-rest van de deling als je het getal y door x hebt gedeeld. Het statement 7%2 geeft je dus 1, 35%8 = 3 
-etc. Zo'n bouwsteen als de modulo operator kan je ook prima inzetten om te kijken of een getal een 
-veelvoud is van een ander getal. Als 679875%37 nou precies gelijk is aan 0 betekent dat dat 679875 
-een veelvoud is van 37 en in het onderstaande stukje code gebruiken we het om te kijken of een getal 
-een veelvoud is van 2 en dus een even getal is.
-
-Het printen van de som van de *even* getallen tussen 1 en 20 gaat dan ook als volgt:
+Je kunt tijdens een loop de getallen ook verschillend behandelen. Als we bijvoorbeeld de som van de <b>even</b> getallen tussen 1 en 20 willen printen kunnen we een `if`-statement gebruiken. 
 
     som = 0
 	for getal in range(1,21):
@@ -58,18 +48,16 @@ Het printen van de som van de *even* getallen tussen 1 en 20 gaat dan ook als vo
            som = som + getal
 	print "De som van de even getallen van 1 tot en met 20 is %d" % (som)
 
-In dit geval test je voor elk van de getallen eerst of het een even getal is (rest 0 
-als je door 2 deelt). Als dat zo is tel je het getal op bij de variabele som. Aan het 
-eind van de loop print je de waarde weer op het scherm. Alle oneven getallen worden 
-helemaal genegeerd!
+We gebruiken in dit stukje code ook de `%` (*modulo-operator*) om te bepalen of een getal een veelvoud is van 2. De modulo-operator is werkt als volgt: `x % y` geeft je de *rest* van de deling als je het getal `y` door `x` hebt gedeeld (je weet wel, van staartdelen). De formule `7 % 2` levert dus 1 op; `35 % 8` geeft 3.. Zo'n bouwsteen als de modulo-operator kan je ook prima inzetten om te kijken of een getal een veelvoud is van een ander getal. Als `679875 % 37` precies gelijk is aan 0 betekent dat dat 679875 een veelvoud is van 37. Hierboven gebruiken we het om te kijken of een getal een veelvoud is van 2, en dus een even getal.
 
-### Let op:
+In dit geval testen we voor elk van de getallen of het een even getal is (rest 0 als je door 2 deelt). *Als dat zo is* tellen we het getal op bij de variabele `som`. Aan het eind van de loop printen we de waarde weer op het scherm. Alle oneven getallen worden dus helemaal genegeerd!
 
-We gebruiken het `==` (dubbele =-teken) om te kijken of 2 getallen aan elkaar gelijk zijn. Het antwoord daarop 
-is 'ja' of 'nee'. Een veelvoorkomende fout in programma's is dat hier een enkele `=` gebruikt wordt. 
+> Let op dit detail: we gebruiken `==` (een dubbel =-teken) om te kijken of twee getallen aan elkaar gelijk zijn. Het antwoord daarop 
+is 'waar' of 'niet waar'. Een veelvoorkomende fout is dat hier een enkele `=` gebruikt wordt. Bestudeer dus goed het verschil tussen die twee operators!
 
-Het volgende voorbeeld laat zien dat indentatie in Python cruciaal is. Alles wat recht 
-onder elkaar staat hoort bij elkaar:
+## Variabelen nuttig gebruiken
+
+Dit stukje code rekent heel specifiek de som van de even getallen van 1 tot en met 20 uit. 
 
     som = 0
 	for getal in range(1, 21):
@@ -78,11 +66,9 @@ onder elkaar staat hoort bij elkaar:
            som = som + getal
 	print "de som van de even getallen van 1 tot en met 20 is %d" % (som)
 
-Dit stukje code rekent heel specifiek de som van de even getallen van 1 tot en met 20 uit. Als je nu gevraagd wordt om de even getallen tussen 1 tot en met 88 bij elkaar op te tellen moet je op 2 plekken in de code een aanpassing maken. Probeer dat maar. Bij een klein stukje code gaat dat nog wel, maar bij grotere problemen is dat al snel niet meer te overzien. 
+Stel dat we het programma nu gaan aanpassen om de even getallen van 1 tot en met 88 op te tellen, dan moeten we het programma op *twee* plekken aanpassen. Kopieer bovenstaande code maar eens en pas deze aan zodat deze tot 88 telt en zinvolle uitvoer geeft. Bij een klein stukje code gaat zo'n aanpassing nog wel, maar bij een groter probleem merk bepaalde informatie vaak in de code voorkomt en zorgvuldig aangepast moet worden. Grote kans op fouten!
 
-## Een algemene oplossing maken
-
-Zorg daarom dat je, nadat je het specifieke probleem hebt opgelost, je code altijd zo 'universeel' mogelijk maakt. Het onderstaand stukje code rekent de som uit van de even getallen van 1 tot en met `max_getal`. Die variabele hoef je dus alleen in het begin van je code een waarde te geven (20, 138613 of in dit geval 88) en verder werkt je in je programma alleen met de naam van de variabele. Op elke plek in de code weet het programma namelijk wat de waarde van die variabele is.
+Zorg daarom dat je, nadat je het specifieke probleem hebt opgelost, je code zo universeel mogelijk maakt. Het onderstaande stukje code rekent de som uit van de even getallen van 1 tot en met `max_getal`. Die variabele hoef je dus alleen in het begin van je code een waarde te geven (20, 138613 of in dit geval 88) en verder zie je dat getal nergens terug komen. De informatie wordt via de variabele `max_getal` doorgegeven naar alle plekken waar deze nodig is.
 
     som = 0
     max_getal = 88
@@ -94,12 +80,12 @@ Zorg daarom dat je, nadat je het specifieke probleem hebt opgelost, je code alti
 
 ## Stapgrootte van een loop
 
-Je kunt in `range` ook de stapgrootte opgeven. `for` telt dan van begin tot einde, rekening houdend met de stapgrootte. Dit ziet er zo uit:
+Je kunt met `range` ook de stapgrootte opgeven. `for` telt dan zoals voorheen van begin tot einde, en neemt niet stappen van 1, maar van de grootte die jij hebt ingesteld. Dit ziet er zo uit:
 
     for getal in range(1,100,10):
        ...
 
-Elke stap in de `for`-loop zal dan steeds 10 verder zijn dan de vorige. Denk even na welke stappen gemaakt zouden worden bij de loop hierboven!
+Elke stap in de `for`-loop zal dan steeds 10 verder zijn dan de vorige. Denk even na welke stappen gemaakt zouden worden bij de loop hierboven; of neem de code over en zet er een `print` in om het gedrag te bestuderen.
 
 ## Opdracht
 
