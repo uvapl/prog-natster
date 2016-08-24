@@ -14,7 +14,9 @@ Maak tekstbestand **module1.py** en zet er de volgende regels in:
 
 > Oefenen doe je in deze cursus door elk voorbeeld letterlijk over te tikken. Gebruik niet de *copy-paste* functie, want dan maak je geen fouten en dan leer je veel minder. Tik dus alle voorbeelden over en verbeter ze als je een fout krijgt!
 
-Start nu het programma. Wat komt er uit? Voeg vervolgens ook nog de volgende regels toe:
+Start nu het programma. Wat komt er uit? Heb je nog tikfouten gemaakt? En heb je gezien dat de aanhalingstekens soms verschillen? Je moet de reeks letters achter `print` starten en eindigen met aanhalingstekens: het geheel dat we uitprinten noemen we een *string*.
+
+Voeg vervolgens ook nog de volgende regels toe:
 
     print 1
     print 1
@@ -25,7 +27,9 @@ Start nu het programma. Wat komt er uit? Voeg vervolgens ook nog de volgende reg
     print 5 + 8 + 8 - 8
     print "5 + 8 + 8 - 8"
 
-Je kunt dus ook rekenen. Het resultaat wordt eerst uitgerekend, en dan pas wordt er geprint. Behalve die laatste dan: daar staat de formule (*expressie*) tussen aanhalingstekens, en dan wordt het precies zo naar het scherm geprint. Net als hierboven bij de tekstjes. Zo'n tekst tussen aanhalingstekens heet een *string*.
+Je kunt dus ook rekenen. Het resultaat wordt eerst uitgerekend, en dan pas wordt er geprint. Behalve die laatste dan: daar staat de formule (*expressie*) tussen aanhalingstekens, en dan wordt het precies zo naar het scherm geprint. Net als hierboven bij de tekstjes. Dat is dus een *string* en geen formule die berekend kan worden.
+
+> Krijg je een *foutmelding* als je je programma uitvoert? Dan is de kans groot dat je een tikfout hebt gemaakt waardoor Python niet meer begrijpt wat de bedoeling is.
 
 Nu gaan we berekeningen en letterlijke tekstjes combineren:
 
@@ -37,4 +41,4 @@ Nu gaan we berekeningen en letterlijke tekstjes combineren:
 
 Als je dit programma uitvoert, dan zie je dat precies waar `%d` stond, nu de uitkomst van de berekening is geplaatst. Het ziet er nog niet erg efficiënt uit: heel veel tekst wordt herhaald op alle regels!
 
-> Prima. We kunnen nu allerlei dingen printen en uitrekenen. We kunnen ook de resultaten van een berekening op een nette manier printen, zodat de *gebruiker* van het programma begrijpt waar we mee bezig zijn.
+**Conclusie.** We kunnen nu allerlei dingen printen en uitrekenen. We kunnen ook, zoals in de laatste voorbeelden, de resultaten van een berekening op een nette manier printen, zodat de *gebruiker* van het programma begrijpt waar we mee bezig zijn. Experimenteer er nog maar even mee. Mocht je iets tegenkomen dat je niet begrijpt, vraag dan gerust wat het betekent.
