@@ -52,8 +52,7 @@ We gebruiken in dit stukje code ook de `%` (*modulo-operator*) om te bepalen of 
 
 In dit geval testen we voor elk van de getallen of het een even getal is (rest 0 als je door 2 deelt). *Als dat zo is* tellen we het getal op bij de variabele `som`. Aan het eind van de loop printen we de waarde weer op het scherm. Alle oneven getallen worden dus helemaal genegeerd!
 
-> Let op dit detail: we gebruiken `==` (een dubbel =-teken) om te kijken of twee getallen aan elkaar gelijk zijn. Het antwoord daarop 
-is 'waar' of 'niet waar'. Een veelvoorkomende fout is dat hier een enkele `=` gebruikt wordt. Bestudeer dus goed het verschil tussen die twee operators!
+> Let op dit detail: we gebruiken `==` om te kijken of twee getallen aan elkaar gelijk zijn. Het antwoord daarop is 'waar' of 'niet waar'. Een veelvoorkomende fout is dat hier een enkele `=` gebruikt wordt. Bestudeer dus goed het verschil tussen die twee operators!
 
 ## Variabelen nuttig gebruiken
 
