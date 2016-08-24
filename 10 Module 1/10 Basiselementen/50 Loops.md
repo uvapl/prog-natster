@@ -19,7 +19,7 @@ Deze loop werkt met een *variabele* genaamd `getal` om voor elke iteratie (elke 
 
 In bovenstaand voorbeeld zal de variabele `getal` als eerste op 1 gezet worden en daarna worden de handelingen uitgevoerd die in het programma beschreven staan. Als alle handelingen uitgevoerd zijn gaat het programma terug naar de beginregel van de loop en zet nu de variabele `getal` op 2 en worden weer alle handelingen uitgevoerd. In de code binnen de loop kun je dus naar de variabele `getal` verwijzen om mee te rekenen of om iets uit te printen.
 
-![embed](https://player.vimeo.com/video/137628513)
+![embed](https://player.vimeo.com/video/179484836?byline=0&portrait=0)
 
 ## Voorbeelden
 
