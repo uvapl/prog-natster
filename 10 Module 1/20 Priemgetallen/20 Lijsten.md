@@ -1,15 +1,14 @@
 # Lijsten
 
-Naast getallen en strings zijn lijsten ook een basiselement van veel
-programmeertalen. Lijsten is handig om data te groeperen en vervolgens als geheel te verwerken in bijvoorbeeld een berekening.
+Lijsten in Python zijn handig om data te groeperen en vervolgens als geheel te verwerken. Zo kun je berekeningen niet alleen maar op bijvoorbeeld losse getallen toepassen (is dit een priemgetal?) maar ook op hele verzamelingen.
 
-## Voorbeeld
+## Lijsten maken
 
 Een lijstje met namen van docenten kun je zo bewaren:
 
-	docenten = ["Martijn", "Ivo", "Rico", "Nick", "Rick", "Kelly"]
+	docenten = ["Martijn", "Ivo", "David", "Florian", "Olmo", "Dominique", "Maarten"]
 
-Elk element in deze lijst is een *string*, maar de lijst kan ook getallen of zelfs lijsten bevatten. Ook door elkaar heen. Je kunt elementen uit een lijst opvragen, ze veranderen of elementen toevoegen. Zo vraag je bijvoorbeeld een element op, om deze direct uit te printen:
+Elk element in deze lijst is een *string*, maar zo'n lijst kan ook getallen of zelfs andere lijsten bevatten. Ook door elkaar heen. Elk element heeft een *positie*; daarmee kun je een element uit een lijst opvragen:
 
     print docenten[2]
 
@@ -17,14 +16,12 @@ Probeer dit uit, want het antwoord is misschien niet precies wat je verwacht. Pr
 
 ## Elementen toevoegen
 
-Stel dat je een lijst met 5 temperatuurmetingen hebt (op het Science Park) en die wil je in een lijst opslaan en vervolgens wilt printen op het scherm dan gaat dat als volgt:
+Als je een lijst hebt met 5 temperatuurmetingen van het Science Park, dan kun je die als volgt definiëren en uitprinten:
 
 	metingen_science_park = [12.7, 18.8, 24.9, 14.5, 19.0]
     print metingen_science_park
 
-Zoals je ziet kun je ook in één keer een hele lijst printen. Het hoeft niet per element.
-
-Als je nu een zesde meting doet (20.5 graden) en die toe wilt voegen dan kan dat met behulp van het `append` commando:
+We printen hier de hele lijst in één keer uit, in plaats van een enkel element. Als je nu een zesde meting doet (20,5 graad) kun je die toevoegen met behulp van de `append`-instructie:
 
     metingen_science_park.append(20.5)
     print metingen_science_park
@@ -38,21 +35,18 @@ Nu kunnen we dus in ieder geval de hele lijst gebruiken, en invididuele elemente
 
 ## Loopen met een lijst
 
-Je kunt ook elk element de lijst apart bekijken met behulp van een `for`-loop:
+Om nu de gegevens in een lijst te verwerken, moeten we vaak ieder element van de lijst individueel bekijken. Daarvoor kunnen we de `for`-loop gebruiken:
 
 	metingen_science_park = [12.7, 18.8, 24.9, 14.5, 19.0]
     metingen_science_park.append(20.5)
     for meting in metingen_science_park:
 	    print "de meting was %d graden" % meting
 
-Zo zie je dat we direct over de elementen van een lijst kunnen loopen. We gebruiken dan niet meer het `range`-commando.
+Probeer de code zeker even uit, zodat je goed ziet wat de uitvoer is. Let op dat de `for`-loop nu niet meer gebruik maakt van `range`.
 
-Zoals je ziet in bovenstaande voorbeeld zal het programma het gemiddelde
-afronden. Het `%d` format zegt Python dat je een geheel getal op het scherm
-wilt printen. Als je een reeel getal wilt printen zal je het `%f` commando
-moeten gebruiken. We zullen dat later in de cursus in meer detail bekijken.
+> Zoals je ziet in bovenstaande voorbeeld zal het programma het gemiddelde afronden. `%d` zegt namelijk dat je een geheel getal op het scherm wilt printen. Als je een reëel getal wilt printen moet je `%f` gebruiken. Naar deze *formats* kijken we later in de cursus nog verder.
 
-Nu is het in dit geval alleen wel informatief om mooi neer te zetten over *welke* meting het gaat. Dan moeten we zelf een tellertje bijhouden:
+In dit geval is het wel informatief om neer te zetten over *welke* meting het gaat als we een waarde uitprinten. Om dat te doen, kunnen we zelf een teller bijhouden:
 
     teller = 0
     for meting in metingen_science_park:
@@ -87,16 +81,3 @@ Probeer nu eens een programma te schrijven dat een lijstje met temperaturen in g
 > Let op! Zorg dat de uitkomsten van je algoritme goed controleert met voorbeelden. Als je met breuken van natuurlijke getallen gaat werken (bijvoorbeeld `3/4`) dan zal Python de tussenresultaten afkappen. Zorg dus dat je een hint geeft dat je met reeële getallen wil werken: `3.0/4.0`.
 
 Sla dit programma op in een bestand **temperaturen.py** en bewaar het voor het inleveren.
-
-## Sanity check
-
-Let op dat je alleen de volgende Python-onderdelen hebt gebruikt in je oplossingen:
-
-- `print`
-- `if`
-- `else`
-- `for` (en `in`)
-- `range()`
-- `len()`
-- `.append()`
-- en natuurlijk alle operators zoals `=`, `+`, `/`, `%`, `>`, `[]`

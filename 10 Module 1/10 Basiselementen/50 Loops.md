@@ -1,6 +1,6 @@
 # Loops
 
-Soms is het handig om van een hele lijst getallen of variabelen te bepalen of ze aan een bepaalde eis voldoen. Omdat zulk "dom werk" precies is wat een computer zo goed kan, is dat een basiselement in bijna alle programmeertalen. We noemen dit een *loop*.
+Soms is het handig om van een hele reeks getallen te bepalen of ze aan een bepaalde eis voldoen. Omdat zulk "dom werk" precies is wat een computer zo goed kan, is dat een basiselement in bijna alle programmeertalen. We noemen dit een *loop*.
 
 ## Herhaling
 
