@@ -1,13 +1,13 @@
 # Het duizendste priemgetal
 
-We gaan nu verder werken met de ideeën uit het vorige hoofdstuk en voorbeelden uit de getaltheorie bestuderen. Dit zijn problemen die handig met de computer uit te voeren zijn, omdat ze hele grote hoeveelheden klein rekenwerk vereisen. Aan ons de taak om op een efficiënte manier te noteren hoe de computer dit gaat aanpakken: programmeren dus!
+We gaan nu verder werken met de ideeën uit het vorige hoofdstuk, en voorbeelden uit de getaltheorie bestuderen. Dit zijn problemen die handig met de computer uit te voeren zijn, omdat ze hele grote hoeveelheden klein rekenwerk vereisen. Aan ons de taak om op een efficiënte manier te noteren hoe de computer dit gaat aanpakken: programmeren dus!
 
 > Twee dingen zijn belangrijk om te leren voor je met de opgave aan de slag gaat:
 > 
 > - Een computer is niet 'slim', maar voert droog commando's uit. Het is jouw taak als programmeur  om de computer alleen de hoogst noodzakelijke dingen te laten doen. 
 > - Bepaal altijd met pen en papier je strategie en ga dus niet gelijk tikken. De 5-10 minuten die je hieraan besteedt verdien je dik terug tijdens de opdracht.
  
-## Opgave
+## Opdracht
 
 Schrijf een programma **primes1000.py** dat het duizendste priemgetal bepaalt en op het scherm print. Print ook de gehele lijst van duizend eerste priemgetallen.
 

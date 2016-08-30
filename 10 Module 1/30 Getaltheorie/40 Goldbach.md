@@ -18,7 +18,7 @@ Laat met een programma **goldbach.py** zien dat alle even getallen tot 1000 inde
 
 Maar nog belangrijker is natuurlijk als je een getal vindt dat *niet* aan het vermoeden (*conjecture*) van Goldbach voldoet. Zorg dat jouw programma zo'n ontdekking duidelijk op het scherm aangeeft. Bingo!
 
-## Handig
+### Handig
 
 Je mag in deze opgave de onderstaande Python constructie gebruiken die kijkt of een element wel of niet in een in een lijst voorkomt. De volgend constructie zal op het scherm printen dat 7 inderdaad een priemgetal is.
 
@@ -33,18 +33,3 @@ En als je voor elk van de getallen 1 tot en met 40 wilt bekijken of ze in de lij
     for x in range(1,41):
 	    if x in priemen:
             print "Ja, het getal %d komt voor in mijn priemlijst" % x
-
-## Sanity check
-
-Let op dat je alleen de volgende Python-onderdelen hebt gebruikt in je oplossingen:
-
-- `print`
-- `if`
-- `else`
-- `for`
-- `in`
-- `range()`
-- `break`
-- `len()`
-- `.append()`
-- en natuurlijk alle operators zoals `=`, `+`, `/`, `%`, `>`, `[]`

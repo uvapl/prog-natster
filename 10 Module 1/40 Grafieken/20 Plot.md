@@ -106,24 +106,3 @@ zelf in moet vullen. De grafiek ziet er dan ook niet bepaald mooi uit. Je kan na
 3. Je bent niet voor niks natuurkundige naturlijk: bereken dit punt ook analytisch met behulp van pen en papier, om je antwoord te verifiëren.
 
 ![](plotje4.png)
-
-## Sanity check
-
-Let op dat je alleen de volgende Python-onderdelen hebt gebruikt in je oplossingen:
-
-- `print`
-- `if`
-- `else`
-- `for`
-- `in`
-- `range()`
-- `break`
-- `len()`
-- `.append()`
-- `math`: de [goniometrische functies](https://docs.python.org/2/library/math.html#trigonometric-functions)
-- `math.pi`
-- `numpy.arange()`
-- alles van `matplotlib.pyplot`
-- en natuurlijk alle operators zoals `=`, `+`, `/`, `%`, `>`, `[]`
-
-Let op! Andere functies van `math` en `numpy` mag je (nog) niet gebruiken!
