@@ -34,24 +34,3 @@ Hoewel het in deze opgave niet echt gaat om de snelheid van het programma is in 
   Ionica Smeets door 2, 3, 5, 7, 11. Bedenk goed waarom.
 
 Als je wilt controleren of je programma goed werkt kun je je gevonden lijst priemgetallen hier controleren met een lijst bekende priemgetallen <http://primes.utm.edu/lists/small/1000.txt>
-
-
-### Pythontips
-
-Soms is het handig om een loop eerder af te breken. Er zijn in Python verschillende mogelijkheden. De `while-loop` is 
-de meest gebruikte, maar omdat dat aan het begin van jullie programmeer-carriere in dit korte introductievak tot 
-verwarring kan leiden gaan we die niet introduceren. 
-
-Hoewel het niet strikt noodzakelijk is voor de opgave van vandaag kan een stop misschien wel handig zijn. Naast de 
-while-loop is er ook de `break` optie. Op het moment dat Python `break` ziet zal het de for-loop afbreken en verder 
-gaan met de code. Hieronder een voorbeeld waarbij we de for-loop af willen breken zodra de som van de getallen tot 
-dan toe groter is dan 50. Probeer onderstaande code te runnen zodat je ziet wat er precies gebeurt.
-
-    som = 0
-    for getal in range(1,100):
-        som = som + getal
-        print "%d  som = %d" % (getal, som)
-        if (som > 50): 
-            break
-            
-    print "Ik stop omdat de som meer dan 50 is"
