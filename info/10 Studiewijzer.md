@@ -15,11 +15,10 @@ Mail bij voorkeur naar <progns@mprog.nl> als je praktische vragen hebt of proble
 
 ## Assistenten
 
-D. Hendriks
-Florian Heringa
-Olmo Kramer
-Dominique van Poorten
-
+D. Hendriks  
+Florian Heringa  
+Olmo Kramer  
+Dominique van Poorten  
 Maarten Post
 
 Tijdens de practica van dit vak staan de assistenten voor je klaar en je kunt bij ze terecht met vragen over het programmeren, maar ook over de nagekeken opdrachten en tips over het vak.
