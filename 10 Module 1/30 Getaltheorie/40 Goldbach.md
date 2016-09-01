@@ -8,7 +8,7 @@ Een priemgetal mag hierbij twee keer gebruikt worden. Hoewel dit inderdaad klopt
 
 ## Opgave
 
-Laat met een programma **goldbach.py** zien dat alle even getallen tot 1000 inderdaad te schrijven zijn als de som van twee priemgetallen. Concreet: laat voor elk even getal ook expliciet zien dat het te schrijven is als de som van 2 priemgetallen:
+Laat met een programma **goldbach.py** zien dat alle even getallen tot 1000 inderdaad te schrijven zijn als de som van twee priemgetallen. Concreet: laat voor elk even getal ook expliciet zien dat het te schrijven is als de som van twee priemgetallen:
 
    	16 = ...
 	18 = 5 + 13 

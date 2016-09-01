@@ -1,4 +1,4 @@
-# Nog een loop: de while-loop in plaats van de for-loop
+# Nog een loop: while-loop i.p.v for-loop
 
 In de vorige hoofdstukken hebben we gewerkt met `for`-loops. Die zijn heel handig als je vóór de berekening weet waar deze moet eindigen. Als je bijvoorbeeld loopt over deze lijst:
 
@@ -23,7 +23,7 @@ De opdracht met `while` kun je hier lezen als "zo lang som kleiner is of gelijk 
 Je kunt een `for`-loop meestal ook als een `while`-loop schrijven. Bijvoorbeeld:
 
 	for i in range(10):
-		print "getal %d" % i
+	    print "getal %d" % i
 
 Dat kun je ook schrijven als:
 

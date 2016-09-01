@@ -9,4 +9,4 @@ Schrijf een programma **priem_reeks.py** dat de *langste aaneengesloten reeks ni
 
 Om het programma dan echt te schrijven, kun je starten met de code uit de opgave hierboven. Maar pas op: in deze opgave gebruiken we niet de lijst met de eerste 1000 priemgetallen, maar alle priemgetallen onder het getal 10000. Da's net even een verschil.
 
-Zorg ten slotte dat je output er netjes uitziet en dat we als gebruiker iets aan de informatie hebben: print naast de lengte van de reeks ook de 2 priemgetallen waartussen deze reeks ingeklemd zit!
+Zorg ten slotte dat je output er netjes uitziet en dat we als gebruiker iets aan de informatie hebben: print naast de lengte van de reeks ook de twee priemgetallen waartussen deze reeks ingeklemd zit!
