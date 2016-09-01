@@ -1,4 +1,4 @@
-# Nog een loop
+# Nog een loop: de while-loop in plaats van de for-loop
 
 In de vorige hoofdstukken hebben we gewerkt met `for`-loops. Die zijn heel handig als je vóór de berekening weet waar deze moet eindigen. Als je bijvoorbeeld loopt over deze lijst:
 
@@ -12,7 +12,7 @@ dan toe* groter is dan 50. Probeer onderstaande code te runnen zodat je ziet wat
     som = 0
 	getal = 0
     while som <= 50:
-		getal = getal + 1
+	    getal = getal + 1
         som = som + getal
         print "%d  som = %d" % (getal, som)
             
