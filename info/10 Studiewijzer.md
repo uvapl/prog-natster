@@ -15,7 +15,7 @@ Mail bij voorkeur naar <progns@mprog.nl> als je praktische vragen hebt of proble
 
 ## Assistenten
 
-D. Hendriks  
+David Hendriks  
 Florian Heringa  
 Olmo Kramer  
 Dominique van Poorten  
