@@ -32,6 +32,6 @@ Van lijsten is het belangrijk dat je weet hoe je een lijst definiert, hoe je ele
 
 Probeer nu eens een programma te schrijven dat een lijstje met temperaturen in graden Celcius omrekent naar een nieuw lijstje met overeenkomstige temperaturen in graden Fahrenheit. De formule zoek je natuurlijk even op in een zoekmachine. 
 
-> Let op! Zorg dat de uitkomsten van je algoritme goed controleert met voorbeelden. Als je met breuken van natuurlijke getallen gaat werken (bijvoorbeeld `3/4`) dan zal Python de tussenresultaten afkappen. Zorg dus dat je een hint geeft dat je met reeële getallen wil werken: `3.0/4.0`.
+> Let op! Zorg dat de uitkomsten van je algoritme goed controleert met voorbeelden. Als je met breuken van natuurlijke getallen gaat werken (bijvoorbeeld `3/4`) dan zal Python de tussenresultaten afkappen om te zorgen dat het antwoord ook een geheel getal is. Dat wil je niet. Zorg dus dat je een hint geeft dat je met reeële getallen wil werken: `3.0/4.0`.
 
 Sla dit programma op in een bestand **temperaturen.py** en bewaar het voor het inleveren.

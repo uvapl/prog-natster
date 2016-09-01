@@ -15,4 +15,4 @@ Het getal 37 mag de lezer van jouw code natuurlijk zelf veranderen. Maar in dit 
 
 ### Tips
 
-Begin zo simpel mogelijk. Gebruik een `for`-loop en `%` (modulo) om te bepalen hoeveel getallen deler zijn van `x`. Als je dit bijhoudt in de loop (tellen!), kun je na aflopen van de loop bepalen of het getal een priemgetal is of niet. Print je conclusie uiteindelijk op het scherm, zoals hierboven in het voorbeeld.
+Begin zo simpel mogelijk. Gebruik een `for`-loop en `%` (modulo) om te bepalen hoeveel getallen een deler zijn van `x`. Als je dit bijhoudt in de loop (tellen!), kun je na aflopen van de loop bepalen of het getal een priemgetal is of niet. Print je conclusie uiteindelijk op het scherm, zoals in het voorbeeld hierboven.
