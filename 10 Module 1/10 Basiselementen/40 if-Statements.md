@@ -34,7 +34,7 @@ Je kunt verschillende voorwaarden combineren. Als je wilt weten of een getal zic
 	if x > x_min and x < x_max:
 	    print "het getal %d bevindt zich tussen %d en %d" % (x, x_min, x_max)
 
-*Let op:* de constructie: if 3 < x < 39 werkt niet. Je moet net als in het bovenstaande voorbeeld door logisch combineren van losse (enkelvoudige) voorwaardes de stroom van je programma vormgeven.
+**Let op:** de constructie: if 3 < x < 39 werkt niet. Je moet net als in het bovenstaande voorbeeld door logisch combineren van losse (enkelvoudige) voorwaardes de stroom van je programma vormgeven.
 
 Hier een lijstje van voorwaarden die je in Python kunt gebruiken:
 

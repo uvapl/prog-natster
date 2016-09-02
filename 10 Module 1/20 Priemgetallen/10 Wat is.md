@@ -4,7 +4,7 @@ Zoals gezegd is een computer geweldig in het snel uitvoeren van een heleboel "do
 
 ## Opdracht
 
-Schrijf een programma in een bestand genaamd `priem.py` dat van een bepaald getal onderzoekt of het een priemgetal is of niet. Aan het eind van het programma moet duidelijk op het scherm geprint worden of het getal een priemgetal is of niet. Het begint met een variabele x, waarin we de waarde zetten die onderzocht moet worden:
+Schrijf een programma in een bestand genaamd `priem.py` dat van een bepaald getal onderzoekt of het een priemgetal is of niet. Aan het eind van het programma moet duidelijk op het scherm geprint worden of het getal een priemgetal is of niet. Het begint met een variabele x, waarin we de getal zetten die onderzocht moet worden:
 
     x = 37
     [jouw code]

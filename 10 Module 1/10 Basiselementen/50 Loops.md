@@ -15,7 +15,7 @@ Verder zie je dat we net als bij `if` weer kunnen inspringen om duidelijk te mak
 
 ## Tellen
 
-In het voorbeeld hierboven wordt een regel code tien keer herhaald. Dat werkt al heel efficiënt (het zijn maar twee regels code!), maar vaak willen we tijdens het herhalen ook iets tellen, zodat we bijvoorbeeld weten hoe ver we zijn. Stel dat we bijvoorbeeld de getallen van 1 tot en met 10 op het scherm willen printen en dan aangeven dat we klaar zijn:
+In het voorbeeld hierboven wordt een regel code tien keer herhaald. Dat werkt al heel efficiënt (het zijn maar twee regels code), maar vaak willen we tijdens het herhalen ook iets tellen, zodat we bijvoorbeeld weten hoe ver we zijn. Stel dat we bijvoorbeeld de getallen van 1 tot en met 10 op het scherm willen printen en dan aangeven dat we klaar zijn:
 
 	for getal in range(1,11):
     	print getal
@@ -48,11 +48,11 @@ Je kunt tijdens een loop de getallen ook verschillend behandelen. Als we bijvoor
            som = som + getal
 	print "De som van de even getallen van 1 tot en met 20 is %d" % (som)
 
-We gebruiken in dit stukje code ook de `%` (*modulo-operator*) om te bepalen of een getal een veelvoud is van 2. De modulo-operator is werkt als volgt: `x % y` geeft je de *rest* van de deling als je het getal `y` door `x` hebt gedeeld (je weet wel, van staartdelen). De formule `7 % 2` levert dus 1 op; `35 % 8` geeft 3.. Zo'n bouwsteen als de modulo-operator kan je ook prima inzetten om te kijken of een getal een veelvoud is van een ander getal. Als `679875 % 37` precies gelijk is aan 0 betekent dat dat 679875 een veelvoud is van 37. Hierboven gebruiken we het om te kijken of een getal een veelvoud is van 2, en dus een even getal.
+We gebruiken in dit stukje code ook de `%` (*modulo-operator*) om te bepalen of een getal een veelvoud is van 2. De modulo-operator is werkt als volgt: `x % y` geeft je de *rest* van de deling als je het getal `y` door `x` hebt gedeeld. De formule `7 % 2` levert dus 1 op; `35 % 8` geeft 3.. Zo'n bouwsteen als de modulo-operator kan je ook prima inzetten om te kijken of een getal een veelvoud is van een ander getal. Als `679875 % 37` precies gelijk is aan 0 betekent dat dat 679875 een veelvoud is van 37. 
 
-In dit geval testen we voor elk van de getallen of het een even getal is (rest 0 als je door 2 deelt). *Als dat zo is* tellen we het getal op bij de variabele `som`. Aan het eind van de loop printen we de waarde weer op het scherm. Alle oneven getallen worden dus helemaal genegeerd!
+In het voorbeeld hierboven testen we voor elk van de getallen of het een even getal is (rest 0 als je door 2 deelt). *Als dat zo is* tellen we het getal op bij de variabele `som`. Aan het eind van de loop printen we de waarde weer op het scherm. Alle oneven getallen worden dus helemaal genegeerd.
 
-> Let op dit detail: we gebruiken `==` om te kijken of twee getallen aan elkaar gelijk zijn. Het antwoord daarop is 'waar' of 'niet waar'. Een veelvoorkomende fout is dat hier een enkele `=` gebruikt wordt. Bestudeer dus goed het verschil tussen die twee operators!
+> Let op dit detail: we gebruiken `==` om te kijken of twee getallen aan elkaar gelijk zijn. Het antwoord daarop is 'waar' of 'niet waar'. Een veelvoorkomende fout is dat hier een enkele `=` gebruikt wordt. Bestudeer dus goed het verschil tussen die twee operatoren.
 
 ## Variabelen nuttig gebruiken
 
