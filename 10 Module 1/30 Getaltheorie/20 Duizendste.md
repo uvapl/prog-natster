@@ -16,7 +16,7 @@ Hoewel een computer je in staat stelt om snel te rekenen is het toch belangrijk 
 - Verzin hoe je per kandidaat-priemgetal bijhoudt of het inderdaad een priemgetal is terwijl je over de mogelijke delers heenloopt.
 - Bedenk van tevoren hoe je de lijst met (1000) gevonden priemgetallen gaat opslaan.
 - Problemen? Print bij elke kandidaat-priem wat informatie, zodat je weet waar je bent in de berekening en je ziet of de computer ook echt jouw bedoelde strategie volgt.
-- Begin klein. Zorg dat je programma eerst de priemetallen tot 10 kan vinden. Dat is klein genoeg om te zien of het programma precies doet wat de bedoeling is, en kun al snel ontdekken wat er mis gaat.
+- Begin klein. Zorg dat je programma eerst de priemgetallen tot 10 kan vinden. Dat is klein genoeg om te zien of het programma precies doet wat de bedoeling is, en kun al snel ontdekken wat er mis gaat.
 
 > Misschien is het raar of vervelend om een programma in te tikken, waarna je ontdekt dat het niet goed werkt. Dat is het lot van de programmeur: het is gewoon heel moeilijk om een precies algoritme te formuleren en dan helemaal correct om te zetten naar programmacode. Soms ben je een uitzondering vergeten, maar net zo goed heb je ergens een tikfout gemaakt. Bedankt dan dat de beste programmeurs op deze manier werken!
 
@@ -26,11 +26,11 @@ Hoewel het in deze opgave niet echt gaat om de snelheid van het programma is in 
 
 - Behalve 2 zijn even getallen nooit een priemgetal
 
-- Als je een deler vindt hoef je niet verder te zoeken
+- Als je een deler vindt hoef je niet verder te zoeken omdat je dan weet dat het geen priemgetal is
 
 - Als je wilt bepalen of 137 een priemgetal welke kandidaat delers bekijk je dan voordat je zeker 
   weet dat het een priemgetal is? Doe dit op pen en papier. Delen door 2 en alle oneven getallen 
-  tot het getal is een beetje teveel van het goede. Ivo zouden delen door 2, 3, 5, 7, 9, 11 maar 
-  Ionica Smeets door 2, 3, 5, 7, 11. Bedenk goed waarom.
+  tot het getal is een beetje teveel van het goede. Ionica Smeets deelt bijvoorbeeld alleen door 
+  2, 3, 5, 7, 11. Bedenk goed waarom.
 
 Als je wilt controleren of je programma goed werkt kun je je gevonden lijst priemgetallen hier controleren met een lijst bekende priemgetallen <http://primes.utm.edu/lists/small/1000.txt>
