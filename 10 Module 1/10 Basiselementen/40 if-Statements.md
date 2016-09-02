@@ -12,7 +12,7 @@ Nu gaan we een nieuwe Python-instructie gebruiken: `if`. Bij deze instructie com
 	if x > 0:
 	    print "Het getal %d is positief." % x
 
-Je ziet dat er een voorwaarde is: `x > 0`, ofwel `x` moet positief zijn. En er is een regel die alléén wordt uitgevoerd als `x > 0`. Probeer het maar uit.
+Je ziet dat er een voorwaarde wordt gesteld: `x > 0`, ofwel `x` moet positief zijn. En er is vervolgens een regel die alléén wordt uitgevoerd als `x > 0`. Probeer het maar uit.
 
 > De regel na de `if` begint met vier spaties. Dat noemen we *inspringen*. Met deze spaties laat je zien dat dit een regel is die onder controle van de `if` staat: wordt alleen gedaan als aan de voorwaarden is voldaan. Als de volgende regel weer zónder vier spaties is, dan valt deze niet meer 'onder' de `if`, zoals we dat noemen.
 
@@ -42,3 +42,5 @@ Hier een lijstje van voorwaarden die je in Python kunt gebruiken:
 - `<=`	kleiner dan of gelijk aan
 - `==`	is gelijk aan
 - `!=`	is niet gelijk aan
+
+Let op: de constructie: if 15 < x < 20 werkt niet

@@ -12,7 +12,7 @@ Maak tekstbestand **module1.py** en zet er de volgende regels in:
     print "Ivo's computer doet het vandaag niet."
     print 'Hij zei: "Hallo."'
 
-> Oefenen doe je in deze cursus door elk voorbeeld letterlijk over te tikken. Gebruik niet de *copy-paste* functie, want dan maak je geen fouten en dan leer je veel minder. Tik dus alle voorbeelden over en verbeter ze als je een fout krijgt!
+> Oefenen doe je in deze cursus door elk voorbeeld letterlijk over te tikken. Gebruik niet de *copy-paste* functie, want dan maak je geen fouten en dan leer je veel minder. Tik dus alle voorbeelden over en verbeter ze als je een foutmelding krijgt!
 
 Start nu het programma. Wat komt er uit? Heb je nog tikfouten gemaakt? En heb je gezien dat de aanhalingstekens soms verschillen? Je moet de reeks letters achter `print` starten en eindigen met aanhalingstekens: het geheel dat we uitprinten noemen we een *string*.
 
@@ -31,7 +31,7 @@ Je kunt dus ook rekenen. Het resultaat wordt eerst uitgerekend, en dan pas wordt
 
 > Krijg je een *foutmelding* als je je programma uitvoert? Dan is de kans groot dat je een tikfout hebt gemaakt waardoor Python niet meer begrijpt wat de bedoeling is. Kijk goed waar je de fout hebt gemaakt en probeer deze op te lossen. Kom je er niet uit, vraag dan vooral om hulp. Foutmeldingen leren begrijpen is een belangrijk onderdeel van deze cursus. Dat is ook waarom we heel graag willen dat je tijdens het oefenen fouten maakt!
 
-Nu gaan we berekeningen en letterlijke tekstjes combineren:
+Nu gaan we berekeningen en tekst combineren:
 
     print "Het 1e getal van Fibonacci is %d" % 1
     print "Het 2e getal van Fibonacci is %d" % 1
