@@ -10,7 +10,7 @@ Eerst twee belangrijke strategische tips bij het oplossen van een probleem met b
  
 ## Opdracht
 
-Schrijf een programma **primes1000.py** dat het duizendste priemgetal bepaalt en op het scherm print. Print ook de gehele lijst van duizend eerste priemgetallen.
+Schrijf een programma **duizendste.py** dat het duizendste priemgetal bepaalt. Print vervolgens eerst de gehele lijst van duizend eerste priemgetallen, en op de volgende regel alleen het duizendste.
 
 Hoewel een computer je in staat stelt om snel te rekenen is het toch belangrijk om voor elk probleem de optimale strategie te bepalen. We geven een voorzetje:
 
