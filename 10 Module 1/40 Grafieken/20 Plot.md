@@ -103,6 +103,6 @@ zelf in moet vullen. De grafiek ziet er dan ook niet bepaald mooi uit. Je kan na
 
 2. Zorg vervolgens dat je aan het eind van het berekenen van alle punten weet bij welke x-waarde de functie zijn minimum bereikt. Teken dat minimum met behulp van een rode stip in de grafiek en print de waarde van het minimum aan het eind van je programma. Als extra kun je ook proberen de waarde van het punt in de grafiek zelf te zetten.
 
-3. Je bent niet voor niks natuurkundige naturlijk: bereken dit punt ook analytisch met behulp van pen en papier, om je antwoord te verifiëren.
+3. Je bent niet voor niks natuurkundige natuurlijk: bereken dit punt ook analytisch met behulp van pen en papier, om je antwoord te verifiëren.
 
 ![](plotje4.png)

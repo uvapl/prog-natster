@@ -5,7 +5,7 @@ required:
     - temperaturen.py
     - priem.py
     - priem100.py
-    - primes1000.py
+    - duizendste.py
     - priem_reeks.py
     - goldbach.py
     - hoek.py
