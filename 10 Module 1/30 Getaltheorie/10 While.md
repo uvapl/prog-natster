@@ -1,4 +1,4 @@
-# Nog een loop: while-loop i.p.v for-loop
+# Nog een loop: `while`
 
 In de vorige hoofdstukken hebben we gewerkt met `for`-loops. Die zijn heel handig als je vóór de berekening weet waar deze moet eindigen. Als je bijvoorbeeld loopt over deze lijst:
 
@@ -15,10 +15,9 @@ dan toe* groter is dan 50. Probeer onderstaande code te runnen zodat je ziet wat
 	    getal = getal + 1
         som = som + getal
         print "%d  som = %d" % (getal, som)
-            
     print "Ik stop omdat de som meer dan 50 is"
 
-De opdracht met `while` kun je hier lezen als "zo lang som kleiner is of gelijk aan 50". Elk stapje wordt die voorwaarde allereerst gecontroleerd, en als daar niet meer aan wordt voldaan, dan stopt de loop.
+De opdracht met `while` kun je hier lezen als "zolang som kleiner is of gelijk aan 50". Elke keer dat we weer bovenaan de loop zijn aangekomen, wordt die voorwaarde gecontroleerd, en als daar niet meer aan wordt voldaan, dan stopt de loop.
 
 Je kunt een `for`-loop meestal ook als een `while`-loop schrijven. Bijvoorbeeld:
 

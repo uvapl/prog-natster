@@ -2,12 +2,13 @@
 
 Dit was dag 4. We hebben een eerste datastructuur in Python bekeken: de lijst. Daarnaast hebben de lijsten met `for`-loops gecombineerd.
 
-Let op dat je alleen de volgende Python-onderdelen hebt gebruikt in je oplossingen:
+Let op dat je voor dag 4 alleen de volgende Python-onderdelen hebt gebruikt in je oplossingen:
 
 - `print`
 - `if`
 - `else`
 - `for`, `in` en `range()`
+- `while`
 - `break`
 - `len()`
 - `.append()`

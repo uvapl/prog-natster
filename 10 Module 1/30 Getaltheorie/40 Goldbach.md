@@ -18,7 +18,7 @@ Laat met een programma **goldbach.py** zien dat alle even getallen tot 1000 inde
 
 Maar nog belangrijker is natuurlijk als je een getal vindt dat *niet* aan het vermoeden (*conjecture*) van Goldbach voldoet. Zorg dat jouw programma zo'n ontdekking duidelijk op het scherm aangeeft. Bingo!
 
-### Handig
+### Tips
 
 Je mag in deze opgave de onderstaande Python constructie gebruiken die kijkt of een element wel of niet in een in een lijst voorkomt. De volgend constructie zal op het scherm printen dat 7 inderdaad een priemgetal is.
 

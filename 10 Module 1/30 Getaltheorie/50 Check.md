@@ -8,6 +8,7 @@ Let op dat je alleen de volgende Python-onderdelen hebt gebruikt in je oplossing
 - `if`
 - `else`
 - `for`, `in` en `range()`
+- `while`
 - `break`
 - `len()`
 - `.append()`

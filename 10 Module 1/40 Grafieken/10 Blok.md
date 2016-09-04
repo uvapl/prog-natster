@@ -1,4 +1,4 @@
-# Extra functionaliteit
+# Ingebouwde functies
 
 Je hebt in de vorige opgaven al diverse ingebouwde opdrachten gezien die horen bij Python: `if` en `print` zijn twee voorbeelden. Er zijn nog heel veel andere *functies* bijgeleverd, maar die zijn niet standaard beschikbaar.
 
@@ -52,7 +52,7 @@ Nu werkt deze `range`-functie alleen met gehele getallen. In wiskundige toepassi
     for x in numpy.arange(2.0, 9.0, 0.1):
         print x
 
-## Opgave
+## Opdracht
 
 Schrijf een programma **hoek.py** dat de hoek tussen 2 vectoren berekent in graden (en dus niet in radialen) en de uitkomst op het scherm print.
 

@@ -97,7 +97,7 @@ zelf in moet vullen. De grafiek ziet er dan ook niet bepaald mooi uit. Je kan na
 
 ![](plotje3.png)
 
-# Opgave
+# Opdracht
 
 1. Maak nu zelf een programma **grafiek.py** met een grafiek van de functie $$f(x) = x^x$$ tussen x = 0 en x=1.5 stapjes van 0.01. Gebruik hiervoor een blauwe lijn.
 
