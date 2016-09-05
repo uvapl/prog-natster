@@ -48,7 +48,8 @@ Je kunt tijdens een loop de getallen ook verschillend behandelen. Als we bijvoor
            som = som + getal
 	print "De som van de even getallen van 1 tot en met 20 is %d" % (som)
 
-We gebruiken in dit stukje code ook de `%` (*modulo-operator*) om te bepalen of een getal een veelvoud is van 2. De modulo-operator is werkt als volgt: `x % y` geeft je de *rest* van de deling als je het getal `y` door `x` hebt gedeeld. De formule `7 % 2` levert dus 1 op; `35 % 8` geeft 3.. Zo'n bouwsteen als de modulo-operator kan je ook prima inzetten om te kijken of een getal een veelvoud is van een ander getal. Als `679875 % 37` precies gelijk is aan 0 betekent dat dat 679875 een veelvoud is van 37. 
+We gebruiken in dit stukje code ook de `%` (*modulo-operator*) om te bepalen of een getal een veelvoud is van 
+2. De modulo-operator is werkt als volgt: `y % x` geeft je de *rest* van de deling als je het getal `y` door `x` hebt gedeeld. De formule `7 % 2` levert dus 1 op; `35 % 8` geeft 3.. Zo'n bouwsteen als de modulo-operator kan je ook prima inzetten om te kijken of een getal een veelvoud is van een ander getal. Als `679875 % 37` precies gelijk is aan 0 betekent dat dat 679875 een veelvoud is van 37. 
 
 In het voorbeeld hierboven testen we voor elk van de getallen of het een even getal is (rest 0 als je door 2 deelt). *Als dat zo is* tellen we het getal op bij de variabele `som`. Aan het eind van de loop printen we de waarde weer op het scherm. Alle oneven getallen worden dus helemaal genegeerd.
 
