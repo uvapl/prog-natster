@@ -1,6 +1,6 @@
 # Conclusie
 
-Dit was dag 4. We hebben een eerste datastructuur in Python bekeken: de lijst. Daarnaast hebben de lijsten met `for`-loops gecombineerd.
+Dit was dag 4. We hebben bij Python geleverde functies gebruikt om data te plotten, en een aantal gerelateerde wiskundige functies gebruikt.
 
 Let op dat je voor dag 4 alleen de volgende Python-onderdelen hebt gebruikt in je oplossingen:
 
