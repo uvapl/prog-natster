@@ -3,17 +3,17 @@
 In deze module zullen we een aantal nieuwe concepten behandelen en die gebruiken om een aantal problemen uit de wiskunde en natuurkunde aan te pakken.
 
   - Numeriek integreren:       
-    Hoe berekent een computer een integraal die niet analytisch oplosbaar is ?	We zullen dit op 2 verschillende manieren doen: de Riemannsom (blok 3)en de Monte Carlo methode (blok 4).
+    Hoe berekent een computer een integraal die niet analytisch oplosbaar is ?	We zullen dit op 2 verschillende manieren doen: de Riemannsom (dag 3) en de Monte Carlo methode (dag 4).
 
 Elk van deze onderwerpen is ondergebracht in een aparte module waarin we steeds in een stuk tekst en een korte film het concept uitleggen. Naast de nieuwe wiskunde/natuurkunde concepten zijn er ook twee nieuwe programmeer-functionaliteit die je moet leren gebruiken: 
 
    - gebruik van functies (Module 1)
    - het printen van reeele getallen
    - gebruik van de `arange()` functie uit de numpy bibliotheek
-   - manipuleren en gebruik van *random getallen* (Module 2)
+   - manipuleren en gebruik van *random getallen* (dag 2)
    - Het visualiseren van data met behulp van een frequentie distributie (histogram)
 
-## Inleveren opgaves
+## Inleveren
 
 Werk alles van vandaag uit in één Python-bestand genaamd **functies.py**.
 
