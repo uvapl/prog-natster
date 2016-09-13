@@ -13,7 +13,7 @@ Elk van deze onderwerpen is ondergebracht in een aparte module waarin we steeds 
    - manipuleren en gebruik van *random getallen* (Module 2)
    - Het visualiseren van data met behulp van een frequentie distributie (histogram)
 
-## Inleveren
+## Inleveren opgaves
 
 Werk alles van vandaag uit in één Python-bestand genaamd **functies.py**.
 
