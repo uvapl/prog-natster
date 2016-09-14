@@ -74,7 +74,7 @@ In 'echte' toepassingen wordt voor efficientie maximalisatie de box zo gekozen d
 
 Hint: test je functie door te testen of je programma de integraal $$\int_{0}^{1}x^2 dx$$ goed voorspelt
 
-- $$\int_{0.1}^{2} \tan(\cos(\sin(x))) ~dx$$
+- $$\int_{0.}^{\pi} \tan(\cos(\sin(x))) ~dx$$
 
 Hint: test je functie door te testen of je programma de integraal $$\int_{0}^{\pi}sin(x) dx$$ goed voorspelt
 
