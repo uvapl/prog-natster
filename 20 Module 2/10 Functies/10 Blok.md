@@ -106,11 +106,11 @@ Als je bijvoorbeeld de getallen van 2 tot 3 op het scherm wilt printen in stapje
 		  
 ### Bekende valkuil: subtiel verschil tussen 'tot' en 'tot en met'
 
-In het laatste voorbeeld zal het getal 2.0 wel, maar het getal 3.0 niet op het scherm geprint worden. In een van de opgaves zal je wel degelijk het eindpunt moeten gebruiken. Let daarop. Probeer bovenstaande voorbeeld iets aan te passen zodat het eindpunt wel degelijk geprint wordt 		  
+In het laatste voorbeeld zal het getal 2.0 wel, maar het getal 3.0 niet op het scherm geprint worden. In een van de opdrachten zal je wel degelijk het eindpunt moeten gebruiken. Let daarop. Probeer bovenstaande voorbeeld iets aan te passen zodat het eindpunt wel degelijk geprint wordt 		  
 		 
 # Functies
 
-Bij het programmeren zal je vaak merken je een stuk code kan (of moet) hergebruiken. Zo'n stuk code kan je in een apart stuk van je programma onderbrengen als aparte entiteit (dat noemen we een *functie*). De 'echte' code wordt zo een stuk overzichtelijker en je kan dat aparte stukje functionaliteit ook gebruiken in andere programma's die je gaat schrijven. Een aantal functies die we al zijn tegengekomen zijn bijvoorbeeld de functie die de sinus van een getal berekent: de `sin()`-functie die in de wiskunde bibliotheek is ondergebracht: `math.sin()`. Zulke functies kan je zelf ook schrijven en zullen we in de opgaves vandaag gaan doen.
+Bij het programmeren zal je vaak merken je een stuk code kan (of moet) hergebruiken. Zo'n stuk code kan je in een apart stuk van je programma onderbrengen als aparte entiteit (dat noemen we een *functie*). De 'echte' code wordt zo een stuk overzichtelijker en je kan dat aparte stukje functionaliteit ook gebruiken in andere programma's die je gaat schrijven. Een aantal functies die we al zijn tegengekomen zijn bijvoorbeeld de functie die de sinus van een getal berekent: de `sin()`-functie die in de wiskunde bibliotheek is ondergebracht: `math.sin()`. Zulke functies kan je zelf ook schrijven en zullen we in de opdrachten vandaag gaan doen.
 
 In je hoofdcode kun je een functie vervolgens vragen een opdracht uit te voeren. Een functie heeft altijd een input (de variabelen waar hij iets mee moet doen) en een output (het resultaat van het werk). De manier waarop je een functie definieert en input en output manipuleert worden duidelijk in onderstaande voorbeeld.
 
@@ -185,7 +185,7 @@ In het onderstaande voorbeeld wordt in de hoofdcode een lijst met x-waardes gepr
     plt.show()
  
 
-## Opgave: nulpunten vinden van een tweedegraads-polynoom en plotten
+## Opdracht: nulpunten vinden van een tweedegraads-polynoom en plotten
 
 Schrijf een programma dat een functie van de vorm $$f(x)=ax^2+bx+c$$ op het scherm plot en ook de nulpunten vindt. Het vinden van de nulpunten  (de x-waardes waarvoor geldt $$f(x)=0$$) moet in een aparte functie `Nulpunten(a,b,c)` gebeuren die als input de parameters van de polynoom meekrijgt en de 2 nulpunten in een lijst teruggeeft. Bereken de nulpunten m.b.v. de abc-formule.
 
