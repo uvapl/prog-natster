@@ -40,7 +40,7 @@ Voorbeeld: tien random getallen tussen 0 en 2
        y = 2*x
        print y
 
-## Opgave: Een rij van 10 random getallen tussen a en b
+## Opdracht: Een rij van 10 random getallen tussen a en b
 
 Schrijf een programma dat 10 random getallen op het scherm print tussen *a* en *b* waarbij je de waardes van a en b zelf kan kiezen en een aparte functie de transformatie uitvoert.
 
@@ -60,7 +60,7 @@ Schrijf een programma dat 10 random getallen op het scherm print tussen *a* en *
 Bekijk goed het voorbeeld hierboven waarbij we een random getal tussen 0 en 2 maakten en probeer eerst uit te vinden hoe je een random getal tussen de -1 en +1 zou kunnen maken. Daarna kan je dat abstract programmeren naar een algemene *a* en *b* als begin en eindwaardes van het interval waarbinnen je random getallen wilt gebruiken.
 
 
-## Opgave: De gemiddelde afstand tussen 2 punten in een vierkant
+## Opdracht: De gemiddelde afstand tussen 2 punten in een vierkant
 
 Schrijf een functie `Vierkant()` die de gemiddelde afstand tussen 2 punten in een vierkant met afmeting 1 x 1 berekent. Gebruik de volgende strategie:
 
@@ -76,7 +76,7 @@ Dit is een typisch voorbeeld van een duidelijk en simpel probleem dat analytisch
 
 
 ### Tip: bedenk van tevoren welk antwoord je verwacht
-Net zoals je bij een gewone natuurkunde of wiskunde opgave is het belangrijk om vooraf een schatting te maken van de uitkomst zodat je een duidelijk verkeerd antwoord gelijk herkent. Wat denk je dat het antwoord moet zijn ? Als je programma klaar is kan je ook heel makkelijk de gemiddelde afstand in een vierkant van 2x2 uitrekenen. Wat denk je ? Is dat 'gewoon' 2 keer zo groot als je antwoord bij het 1x1 vierkant .... of is het misschien $$x^2$$ keer zo groot ... of juist $$\sqrt{2}$$ ? 
+Net zoals je bij een gewone natuurkunde of wiskunde opdracht is het belangrijk om vooraf een schatting te maken van de uitkomst zodat je een duidelijk verkeerd antwoord gelijk herkent. Wat denk je dat het antwoord moet zijn ? Als je programma klaar is kan je ook heel makkelijk de gemiddelde afstand in een vierkant van 2x2 uitrekenen. Wat denk je ? Is dat 'gewoon' 2 keer zo groot als je antwoord bij het 1x1 vierkant .... of is het misschien $$x^2$$ keer zo groot ... of juist $$\sqrt{2}$$ ? 
 
 
 # [2] Visualisatie van data: histogrammen
@@ -114,7 +114,7 @@ Hieronder een klein programma dat eerst 10.000 random getallen genereert en ze i
 
 Note: de extra optie `xlim` gebruiken we hier om te laten zien dat er geen getallen buiten het interval 0.00-1.00 zijn gegenereerd. Kijk in de documentatie op het web welke opties er allemaal zijn om het histogram de vorm te geven die jij wilt: relevant aantal bins, kleur, asbijschriften, legenda, tekst, etc etc.
 
-## Opgave: distributie van de som van random getallen
+## Opdracht: distributie van de som van random getallen
 
 Dat de random getallen zelf keurig uniform tussen 0 en 1 verdeeld zijn hebben we net gezien, maar hoe zit het eigenlijk met de verdeling van de som van 100 random getallen? Als we een 'experiment' doen waarbij we 100 random getallen getallen genereren en bij elkaar optellen zal daar gemiddeld 50 uitkomen (omdat het gemiddelde getal 0.5 is), maar voor een individueel experiment is dat zelden precies 50 natuurlijk. De vraag is nou: hoe vaak vind je toevallig dat de som minder is dan 40? En komt dat evenveel voor als het aantal experimenten waarbij de som meer dan 60 is?
 

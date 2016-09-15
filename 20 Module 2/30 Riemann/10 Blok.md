@@ -53,7 +53,7 @@ In de evaluatie van de integraal $$\int_{0}^{\pi}sin(x)~dx$$ hebben we het integ
   - specifiek voor Riemannnsom: Als je het interval in $$N$$ stukjes verdeeld zijn er $$N+1$$ hoekpunten.
 
 
-## Opgaven
+## Opdrachten
 
 - $$\int_{0}^{1}x^{x+\frac{1}{2}} ~dx$$
 

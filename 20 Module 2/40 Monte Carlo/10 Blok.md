@@ -68,7 +68,7 @@ In 'echte' toepassingen wordt voor efficientie maximalisatie de box zo gekozen d
   - specifiek voor Monte Carlo: bij 'negatieve' integratieregio's de gebieden splitsen
 
 
-## Opgaven
+## Opdrachten
 
 - $$\int_{0}^{1}x^{x+\frac{1}{2}} ~dx$$
 
