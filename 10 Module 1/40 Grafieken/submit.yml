@@ -1,12 +1,13 @@
 name: module1
-required:
-    - module1.py
-    - oneven.py
-    - temperaturen.py
-    - priem.py
-    - priem100.py
-    - duizendste.py
-    - priem_reeks.py
-    - goldbach.py
-    - hoek.py
-    - grafiek.py
+files:
+    vereist:
+        - module1.py
+        - oneven.py
+        - temperaturen.py
+        - priem.py
+        - priem100.py
+        - duizendste.py
+        - priem_reeks.py
+        - goldbach.py
+        - hoek.py
+        - grafiek.py
