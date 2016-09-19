@@ -4,7 +4,7 @@ grades:
         subgrades:
             scope: integer
             style: integer
-        calculation: (scope * style / 25.0 * 9 + 1).round(1)
+        calculation: (Math.sqrt(scope * style) / 5.0 * 9 + 1).round(1)
         hide_calculated: true
     module2:
         type: float
