@@ -1,21 +1,6 @@
-# Random getallen en datavisualisatie
+# Random getallen
 
-In dit blok zullen we twee verschillende concepten behandelen:
-    
- - [1] random getallen
-
- - [2] Het visualiseren van data met behulp van een frequentie distributie (histogram)
-
-## Inleveren
-
-Werk alles van vandaag uit in één Python-bestand genaamd **random\_getallen.py**.
-
-
-
-
-## [1] Gebruik van random getallen
-
-Een zeer handige bouwsteen in computer is het random getal. In de bibliotheek `random` zit een functie `random() die een random getal produceert tussen 0 en 1 volgens. In Python gebruik je de functie als volgt:
+Een zeer handige bouwsteen in computer is het *random* getal. In de bibliotheek `random` zit een functie `random()` die een random getal produceert tussen 0 en 1. In Python gebruik je de functie als volgt:
 
     import random 
     x = random.random()
@@ -24,18 +9,18 @@ Een zeer handige bouwsteen in computer is het random getal. In de bibliotheek `r
 Elke keer dat je de functie aanroept zal het een nieuw getal opleveren. Tien random getallen achter elkaar doe je dus als volgt:
 
     import random 
-    for i in range(1,11):
+    for i in range(0,10):
        x = random.random()
        print x
 
-### bouwen met bouwstenen
+## Bouwen met bouwstenen
 
 Zodra je een bouwsteen hebt kan je met behulp van logica en wiskundige manipulaties hier zelf andere objecten van bouwen. Als de computer bijvoorbeeld een random getal tussen 0 en 1 kan produceren dan kunnen we die zo omschrijven dat het transformeert in een random getal tussen een getal a en b.
 
 Voorbeeld: tien random getallen tussen 0 en 2
 
     import random 
-    for i in range(1,11):
+    for i in range(0,10):
        x = random.random()
        y = 2*x
        print y
@@ -75,18 +60,19 @@ Schrijf een functie `Vierkant()` die de gemiddelde afstand tussen 2 punten in ee
 Dit is een typisch voorbeeld van een duidelijk en simpel probleem dat analytisch nogal lastig op te lossen is. Probeer het maar eens. 
 
 
-### Tip: bedenk van tevoren welk antwoord je verwacht
-Net zoals je bij een gewone natuurkunde of wiskunde opdracht is het belangrijk om vooraf een schatting te maken van de uitkomst zodat je een duidelijk verkeerd antwoord gelijk herkent. Wat denk je dat het antwoord moet zijn ? Als je programma klaar is kan je ook heel makkelijk de gemiddelde afstand in een vierkant van 2x2 uitrekenen. Wat denk je ? Is dat 'gewoon' 2 keer zo groot als je antwoord bij het 1x1 vierkant .... of is het misschien $$x^2$$ keer zo groot ... of juist $$\sqrt{2}$$ ? 
+## Tip: bedenk van tevoren welk antwoord je verwacht
+
+Net zoals je bij een gewone natuurkunde- of wiskundeopdracht is het belangrijk om vooraf een schatting te maken van de uitkomst zodat je een duidelijk verkeerd antwoord gelijk herkent. Wat denk je dat het antwoord moet zijn ? Als je programma klaar is kan je ook heel makkelijk de gemiddelde afstand in een vierkant van 2x2 uitrekenen. Wat denk je ? Is dat 'gewoon' 2 keer zo groot als je antwoord bij het 1x1 vierkant .... of is het misschien $$x^2$$ keer zo groot ... of juist $$\sqrt{2}$$ ? 
 
 
-# [2] Visualisatie van data: histogrammen
+# Visualisatie van data: histogrammen
 
 Een grafiek tekenen zoals in Module 1 is een van de manieren om data te visualiseren. Het is niet altijd de meest logische manier om data te representeren. Als de Volkskrant bijvoorbeeld een grafiek maakt van de lengte van iedereen in Nederland dan gebruiken ze een zogenaamd `histogram` (staafdiagram of frequentiedistributie) waarbij een deel van de data gegroepeerd wordt. Er wordt bijvoorbeeld bijgehouden hoeveel (procent van de) mensen een lengte hebben in een bepaald interval, bijvoorbeeld tussen 160 en 165 cm, maar ook in de gebieden 165-170, 170-175 etc etc. Die manier om de data te representeren geeft gelijk een goed beeld. 
 
 In Python gebruik je daarvoor de optie `plt.hist` om de data te groeperen en laat het dan pas zien mbv `plt.show()`. je kunt bij het groeperen opgeven in hoeveel stukjes (bins) je de data op wilt delen. 
 
 
-### voorbeeld: distributie van 10.000 random getallen
+### Voorbeeld: distributie van 10.000 random getallen
 
 Het idee van een random getal is dat het uniform verdeeld is tussen 0 en 1. Om een indruk te kijken of de verdeling inderdaad 'vlak' is kunnen we van 10.000 random getallen kijken wat de frequentie is van de getallen die gegenereerd zijn. 
 
@@ -118,7 +104,7 @@ Note: de extra optie `xlim` gebruiken we hier om te laten zien dat er geen getal
 
 Dat de random getallen zelf keurig uniform tussen 0 en 1 verdeeld zijn hebben we net gezien, maar hoe zit het eigenlijk met de verdeling van de som van 100 random getallen? Als we een 'experiment' doen waarbij we 100 random getallen getallen genereren en bij elkaar optellen zal daar gemiddeld 50 uitkomen (omdat het gemiddelde getal 0.5 is), maar voor een individueel experiment is dat zelden precies 50 natuurlijk. De vraag is nou: hoe vaak vind je toevallig dat de som minder is dan 40? En komt dat evenveel voor als het aantal experimenten waarbij de som meer dan 60 is?
 
-Schrijf een programma `SomRandomGetallen()` dat de distributie weergeeft van 10.000 experimenten. Teken de resultaten tussen x=30 en x = 70.
+Schrijf in een bestand **random\_getallen.py** een programma `SomRandomGetallen()` dat de distributie weergeeft van 10.000 experimenten. Teken de resultaten tussen x=30 en x = 70.
 
 Genereer voor elk 'experiment' 100 random getallen en reken de som daarvan uit. Herhaal dit 10.000 keer en bewaar voor elk van de experimenten de som in een lijst. Maak uiteindelijk een frequentie-distributie (histogram) van de verdeling. Schrijf ook naar het scherm wat het percentage (in procent) van de  experimenten is waarbij de som respectievelijk minder dan 40 en meer dan 60 is.     
 
