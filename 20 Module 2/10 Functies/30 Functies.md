@@ -81,7 +81,7 @@ Schrijf in een bestand `functies.py` een programma dat een functie van de vorm $
 
 Roep als test de functie aan met de waarden $$a = 1$$, $$b = 2$$ en $$c = -10$$. Die polynoom heeft namelijk twee nulpunten.
 
-> Let op dat je dus één Python-bestand maakt (`functies.py) met daarin alleen de code voor deze opdracht. Zoals gezegd moet daar één functie in staan (`nulpunten`) en daarnaast wat testcode. Bij uitvoeren (runnen) van dit programma moet de grafiek verschijnen en moeten de nulpunten van de gegeven functie naar het scherm geprint worden.
+> Let op dat je dus één Python-bestand maakt (`functies.py`) met daarin alleen de code voor deze opdracht. Zoals gezegd moet daar één functie in staan (`nulpunten`) en daarnaast wat testcode. Bij uitvoeren (runnen) van dit programma moet de grafiek verschijnen en moeten de nulpunten van de gegeven functie naar het scherm geprint worden.
 
 Breid je functie nu uit zodat je functie ook raad weet met polynomen die helemaal geen nulpunten hebben. In dat geval moet je nog steeds de functie op het scherm printen, maar moet er op het scherm netjes verschijnen dat deze polynoom geen nulpunten heeft.
 
