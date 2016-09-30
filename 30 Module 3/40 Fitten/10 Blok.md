@@ -157,7 +157,24 @@ manier.
 
 De laatste regel blijft nu nog magie, maar *popt* is een lijst met de 'optimale' 
 parameters van de functie die je aan de data hebt gefit. In ons geval is dat maar 
-1 parameter omdat we een constante functie aanhouden als model.
+1 parameter omdat we een constante functie aanhouden als model. Je kan zelf in de 
+documentatie opzoeken hoe je zelf uit *pcov* de onzekerheid op de parameter kan bepalen. 
+
+Als je nu in plaats van een constante functie een lineaire functie wilt fitten 
+$$f(x) = ax+b$$ en je wilt de resultaten printen dan hoef je op 2 plekken een 
+verandering aan te brengen:
+
+1) verander de functie die je aanhoudt als model
+
+    # Define our model. In our case a constant function: f(x) = a x + b 
+    def MyFitFunction(x, a, b):
+        return a * x + b
+
+2) verander de regel waarin je het resultaat op het scherm print
+
+    print "Best value: f(x) = %5.2f * x + %5.2f" % (popt[0], popt[1])
+
+
 
 
 
