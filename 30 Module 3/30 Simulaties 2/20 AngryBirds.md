@@ -1,4 +1,4 @@
-# Opgave 4: Angry Birds
+# Opgave: Angry Birds
 
 We bekijken een situatie zoals in het plaatje hieronder getekend waarbij 
 een bal wordt weggeschoten vanaf de positie (x=0, y=20) met snelheid 

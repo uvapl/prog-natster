@@ -4,7 +4,7 @@ De appel van vorige week bereikt na iets meer dan 4 seconden het aardoppervlak.
 Stel nou eens dat precies op de plek waar de appel neervalt een tunnel is
 gegraven dwars door de aarde heen.
 
-# Opgave 3: de ultieme free-fall
+# Opgave: de ultieme free-fall
 
 Schrijf een programma **tunnel.py** die de beweging van de appel door de aarde
 heen beschrijft. Het deeltje beweegt langs de $$x$$-as met $$x=0$$ in het

@@ -1,11 +1,12 @@
 name: module3
-required:
-    - spiraal.py
-    - student.py
-    - appel.py
-    - basejump.py
-    - tunnel.py
-    - angry_birds.py
-    - fit.py
-optional:
-    - angry_plaatje
+files:
+    vereist:
+        - spiraal.py
+        - student.py
+        - appel.py
+        - basejump.py
+        - tunnel.py
+        - nba.py
+        - fit.py
+    optioneel:
+        - angry_plaatje
