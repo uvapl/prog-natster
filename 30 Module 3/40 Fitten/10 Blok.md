@@ -131,7 +131,13 @@ Je kunt deze opgaven allemaal maken met de Python-onderdelen die je kent uit mod
 
 ## Extra informatie (niet voor deze cursus)
 
-Het fitten van een model aan metingen is een standaard 
+Het fitten van een model aan metingen is een standaard procedure die je als 
+onderzoeker vaak tegen zult komen. Hoewel we in deze cursus deze functionaliteit
+en alle bijbehorende details zullen gebruiken door gebrek aan tijd willen we 
+hier toch een klein voorbeeld geven waarin je ziet hoe dat in de praktijk gaat. 
+
+Hieronder dezelfde fit die jullie hierboven gedaan hebben, maar dan op de Python 
+manier.
 
     # import the module that contains the fit-tool
     from scipy.optimize import curve_fit
@@ -149,9 +155,9 @@ Het fitten van een model aan metingen is een standaard
     popt, pcov = curve_fit(MyFitFunction, L_data_x, L_data_y, None, L_data_y_error)
     print "Best value: f(x) = %5.2f" % popt[0]
 
-
-
-
+De laatste regel blijft nu nog magie, maar *popt* is een lijst met de 'optimale' 
+parameters van de functie die je aan de data hebt gefit. In ons geval is dat maar 
+1 parameter omdat we een constante functie aanhouden als model.
 
 
 
