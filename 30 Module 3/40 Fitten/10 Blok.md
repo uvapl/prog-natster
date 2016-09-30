@@ -127,3 +127,32 @@ Schrijf een programma **fit.py** dat het bovenstaande resultaat verifieert.
 ## Sanity check
 
 Je kunt deze opgaven allemaal maken met de Python-onderdelen die je kent uit modules 1 en 2!
+
+
+## Extra informatie (niet voor deze cursus)
+
+Het fitten van een model aan metingen is een standaard 
+
+    # import the module that contains the fit-tool
+    from scipy.optimize import curve_fit
+
+    # Define our model. In our case a constant function: f(x) = a 
+    def MyFitFunction(x, a):
+        return a
+
+    # define data and errors
+    L_data_x       = [1,2,3,4,5,6,7,8,9,10]
+    L_data_y       = [55,50,39,58,54,57,78,66,62,82]
+    L_data_y_error = [5,4,9,4,5,5,7,3,6,6]
+
+    # do fit (using our own function f(x) = a)
+    popt, pcov = curve_fit(MyFitFunction, L_data_x, L_data_y, None, L_data_y_error)
+    print "Best value: f(x) = %5.2f" % popt[0]
+
+
+
+
+
+
+
+
