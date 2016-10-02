@@ -109,7 +109,7 @@ zijn beide 1.5 van  $$c_{best}$$ verwijderd. De onzekerheid op $$c$$ is dus 1.5.
 Het resultaat van de fit van ons model aan de data is als volgt:
 percentage goede passes = $$ 60.3 \pm1.5$$
 
-## Opgave: fitten van een model aan de data
+## Opdracht: fitten van een model aan de data
 
 Schrijf een programma **fit.py** dat het bovenstaande resultaat verifieert.
 
@@ -136,8 +136,7 @@ onderzoeker vaak tegen zult komen. Hoewel we in deze cursus deze functionaliteit
 en alle bijbehorende details zullen gebruiken door gebrek aan tijd willen we 
 hier toch een klein voorbeeld geven waarin je ziet hoe dat in de praktijk gaat. 
 
-Hieronder dezelfde fit die jullie hierboven gedaan hebben, maar dan op de Python 
-manier.
+Hieronder dezelfde fit die jullie hierboven gedaan hebben, maar dan op de Python-manier.
 
     # import the module that contains the fit-tool
     from scipy.optimize import curve_fit
@@ -173,9 +172,3 @@ verandering aan te brengen:
 2) verander de regel waarin je het resultaat op het scherm print
 
     print "Best value: f(x) = %5.2f * x + %5.2f" % (popt[0], popt[1])
-
-
-
-
-
-

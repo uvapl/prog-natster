@@ -1,4 +1,4 @@
-# Opgave: Angry Birds
+# Opdracht: Angry Birds
 
 We bekijken een situatie zoals in het plaatje hieronder getekend waarbij 
 een bal wordt weggeschoten vanaf de positie (x=0, y=20) met snelheid 
@@ -8,7 +8,7 @@ gebeurt dat onder invloed van de zwaartekracht.
 
 ![](AngryBirdOverviewLeeg.png)
 
-## Vraag a : animatie stuiterende bal (functie)
+## Vraag a: animatie stuiterende bal (functie)
 
 Schrijf een functie die de beweging van de bal beschrijft en als mogelijkheid 
 heeft om de beweging met behulp van een animatie op het scherm te tekenen. Een

@@ -6,7 +6,7 @@ files:
         - appel.py
         - basejump.py
         - tunnel.py
-        - nba.py
+        - angry_birds.py
         - fit.py
     optioneel:
         - angry_plaatje
