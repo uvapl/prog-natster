@@ -1,15 +1,10 @@
 # Simulaties 2
 
-De appel van vorige week bereikt na iets meer dan 4 seconden het aardoppervlak.
-Stel nou eens dat precies op de plek waar de appel neervalt een tunnel is
-gegraven dwars door de aarde heen.
+De appel de vorige opdracht bereikt na iets meer dan 4 seconden het aardoppervlak. Stel nou eens dat precies op de plek waar de appel neervalt een tunnel is gegraven dwars door de aarde heen.
 
-# Opdracht: de ultieme free-fall
+## Opdracht: de ultieme free-fall
 
-Schrijf een programma **tunnel.py** die de beweging van de appel door de aarde
-heen beschrijft. Het deeltje beweegt langs de $$x$$-as met $$x=0$$ in het
-centrum van de aarde, start met snelheid $$0$$ op hoogte $$0$$ meter boven het
-aardoppervlak. Wat gebeurt er precies?
+Schrijf een programma **tunnel.py** die de beweging van de appel door de aarde heen beschrijft. Het deeltje beweegt langs de $$x$$-as met $$x=0$$ in het centrum van de aarde, start met snelheid $$0$$ op hoogte $$0$$ meter boven het aardoppervlak. Wat gebeurt er precies?
  
 ![](EarthHole.png)
 
@@ -25,15 +20,15 @@ Tips:
 
 - Neem aan dat de aarde een bol met constante dichtheid is.
 
-## Stappen
+## Uitvoer
 
-1. Maak een grafiek van de snelheid van de appel als functie van de tijd
+1. Maak een grafiek van de snelheid van de appel als functie van de tijd.
 
-2. Maak een grafiek van de positie als functie van de tijd
+2. Maak een grafiek van de positie als functie van de tijd.
 
-3. Bereken de maximale snelheid die de appel bereikt
+3. Bereken de maximale snelheid die de appel bereikt (km/uur) en print deze uit.
 
-4. Hoe lang duurt het voor de appel weer terug is op de plek waar je hem losgelaten hebt ?
+4. Hoe lang duurt het voor de appel weer terug is op de plek waar je deze losgelaten hebt (seconden)? Print het antwoord uit.
 
 ## Natuurkunde-inzicht achteraf
 
