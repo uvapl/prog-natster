@@ -17,19 +17,28 @@ Een simplificatie: als de bal de grond raakt zal deze weer omhoog stuiteren zond
 
 We voegen een extra element toe in het probleem; een druksensor die reageert als er een bal tegenaan botst. Dit kan zowel vanaf de bovenkant als de onderkant zijn. De druksensor bevindt zich op een hoogte $$y_{sensor}=20$$ en strekt zich uit van $$12 < x_{sensor} < 14$$ zoals getekend in onderstaande schets.
 
-Schrijf een programma dat bestudeert welke hoeken er voor zorgen dat de weggeschoten bal de druksensor zal raken als de bal met een snelheid van $$v=16$$ [m/s] wordt weggeschoten. 
-
-Gebruik hiervoor de functie `beweging()`. Varieer de hoek $$\alpha$$ in stappen van 1 graad ($$-88 < \alpha < +88$$) en maak een grafiek waarin duidelijk wordt welke hoeken wel/niet voor een contact met de druksensor zorgen.
+Schrijf een programma dat bestudeert welke hoeken er voor zorgen dat de weggeschoten bal de druksensor zal raken als de bal met een snelheid van $$v=16$$ [m/s] wordt weggeschoten. Gebruik hiervoor de functie `beweging()`. Varieer de hoek $$\alpha$$ in stappen van 1 graad ($$-88 < \alpha < +88$$).
 
 ![](AngryBirdOverview.png)
 
-Tip bij deze opgave:
+### Uitvoer
 
-- bepaal of je kan herkennen als de bal de lijn $$y=20$$ kruist en test of *als* dat gebeurt het is in het gebied van de druksensor: $$12<x<14$$. 
+1. Maak een grafiek waarin duidelijk wordt welke hoeken wel/niet voor een contact met de druksensor zorgen.
 
-- zorg dat de functie die je in vraag a gemaakt hebt een return-value geeft die weergeeft of de bal wel/niet de druksensor heeft geraakt
+2. Print een regel voor elke hoek (graden) waarbij wél contact met de sensor volgt, zoals:
 
-## Extra (optioneel):
+		-2 graden
+		-1 graden
+		0 graden
+		2 graden
+
+### Tips
+
+- Bepaal of je kan herkennen als de bal de lijn $$y=20$$ kruist en test of *als* dat gebeurt het is in het gebied van de druksensor: $$12<x<14$$. 
+
+- Zorg dat de functie die je in vraag a gemaakt hebt een return-value geeft die weergeeft of de bal wel/niet de druksensor heeft geraakt
+
+### Extra (optioneel):
 
 De standaardmanier om de positie van de bal te tekenen die we in deze cursus  geleerd hebben is de volgende:
 

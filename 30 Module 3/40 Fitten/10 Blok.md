@@ -115,10 +115,10 @@ Schrijf een programma **fit.py** dat het bovenstaande resultaat verifieert.
 
 1. Maak een plot van deze data met fouten
 
-    Tip: gebruik de functie `plt.errorbar(x,y, yerr=yerror)`. 
+    Tip: gebruik de functie `plt.errorbar(x,y, yerr=yerror)`. Zoek op internet op hoe je deze functie moet gebruiken.
 
-    Zoek op internet op hoe je deze functie moet gebruiken.
+2. Print de beste waarde van $$c$$.
 
-2. Bereken de beste waarde van c en de bijbehorende onzekerheid $$\Delta_c$$
+3. Print op een losse regel de bijbehorende onzekerheid $$\Delta_c$$.
 
 3. Hoe verandert het resultaat als de fout op elk van de metingen 2x zo groot wordt?
