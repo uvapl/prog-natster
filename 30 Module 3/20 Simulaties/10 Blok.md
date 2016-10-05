@@ -87,7 +87,7 @@ Zorg dat je programma de volgende resultaten oplevert:
 
 De base jumper is eerst in vrije val, maar op 100 meter van het oppervlak moet deze de parachute opengooien.
 
-Print de antwoorden op de volgende vragen. Denk weer aan het precies zijn in je antwoord en alleen het printen van de gevraagde waarden!
+Print de antwoorden op de volgende vragen. Denk weer aan het precies zijn in je antwoord en alleen het printen van de gevraagde waarden! Print beide antwoorden op een eigen regel.
 
 - Hoeveel tijd (seconden) heeft de jumper vanaf de afsprong tot dat moment, als we de luchtweerstand buiten beschouwing laten?
 
