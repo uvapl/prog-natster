@@ -22,13 +22,13 @@ We voegen een extra element toe in het probleem; een druksensor die reageert als
 
 ![](AngryBirdOverview.png)
 
-Schrijf een programma dat bestudeert welke hoeken er voor zorgen dat de weggeschoten bal de druksensor zal raken als de bal met een snelheid van $$v=16$$ [m/s] wordt weggeschoten. Varieer de hoek $$\alpha$$ in stappen van 1 graad ($$-88 < \alpha < +88$$).
+Schrijf een functie `angry_birds()` in het zelfde bestand **angry_birds.py** die bestudeert welke hoeken er voor zorgen dat de weggeschoten bal de druksensor zal raken als de bal met een snelheid van $$v=16$$ [m/s] wordt weggeschoten. Varieer de hoek $$\alpha$$ in stappen van 1 graad ($$-88 < \alpha < +88$$).
 
 Om dit te bereiken pas je eerst de functie `beweging()` aan. Deze functie moet net als voorheen de animatie van het traject bij een bepaalde hoek laten zien (of niet, als het derde argument `False` is). Maar voortaan moet de functie ook een waarde `return`en die aangeeft of bij deze hoek de sensor wordt geraakt.
 
 	beweging(16, 79, False) --> geeft False
 
-In je hoofdprogramma maak je dus herhaaldelijk gebruik van de functie `beweging()`, waarin het echte rekenwerk wordt gedaan. Het hoofdprogramma verzamelt de resultaten en print.
+In je hoofdfunctie `angry_birds()` maak je dus herhaaldelijk gebruik van de functie `beweging()`, waarin het echte rekenwerk wordt gedaan. De hoofdfunctie verzamelt de resultaten en print.
 
 ### Uitvoer
 

@@ -1,13 +1,12 @@
 # Opdracht: een appel valt van de Dom
 
-Schrijf een programma **appel.py** dat de beweging van de appel beschrijft als
-die op een hoogte van 100 meter wordt losgelaten.
+Schrijf een functie `appel()` in een bestand **appel.py** die de beweging van de appel beschrijft als die op een hoogte van 100 meter wordt losgelaten.
 
 ![](GravityOverzicht.png)
 
 Zorg dat je programma kleine stapjes in de tijd maakt ($$\Delta t=0.01$$
 seconden) en hou steeds bij op welke hoogte de appel zich bevindt ($$x$$) en met
-welke snelheid hij beweegt ($$v$$).
+welke snelheid deze beweegt ($$v$$).
 
 Bereken voor elke nieuw stapje in de tijd en in deze volgorde:
 
@@ -18,7 +17,7 @@ Bereken voor elke nieuw stapje in de tijd en in deze volgorde:
 4. de nieuwe positie van de appel (x). 
     gebruik: $$x_{\rm nieuw} = x + v \Delta t$$
 
-Je hebt dan een nieuwe positie en snelheid gekregen en je kan vervolgens een stapje in de tijd maken en deze cyclus herhalen.
+Je hebt dan alle informatie berekend over een bepaald punt in de tijd. Vervolgens kun je een stapje verder in de tijd maken en deze cyclus herhalen.
 
 ## Uitvoer
 

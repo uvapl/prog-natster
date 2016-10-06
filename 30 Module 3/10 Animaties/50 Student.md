@@ -12,11 +12,13 @@ programma afgelopen is.
 
 ![](AnimationRandomWalkDouble.gif)
 
-Schrijf een programma **student.py** waarin de stip geanimeerd wordt zoals hierboven beschreven.
+Schrijf een functie `student()` in een bestand **student.py** waarin de stip geanimeerd wordt zoals hierboven beschreven.
 
 Probeer ook eens of je (met en en papier) iets kan zeggen over de gemiddelde
 afstand die de studenten van elkaar verwijderd zijn als functie van het aantal
 stappen dat ze nemen.
+
+Zorg dat alle code voor de animatie in diezelfde functie `student()` staat.
 
 Filmpje opslaan? Probeer een tool als [GifGrabber](http://www.gifgrabber.com)
 te gebruiken om een animated gif te maken. Die kan je in een webbrowser

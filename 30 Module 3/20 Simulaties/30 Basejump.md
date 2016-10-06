@@ -10,7 +10,7 @@ Hoewel de luchtweerstand ook afhankelijkheid is van de oppervlakte en massa van 
 
 ![](Freefall.png)
 
-Schrijf een programma **basejump.py** waarin de val wordt doorgerekend van een base jumper die van de top van de Burj Khalifa in Dubai (828 m) naar beneden springt. Volg dezelfde strategie als in de eerste, maar neem nu ook de luchtweerstand mee zoals gegeven in bovenstaande formule. Neem hierbij aan dat de basejumper 72 kilo weegt.
+Schrijf een functie `basejump()` in een bestand **basejump.py** waarin de val wordt doorgerekend van een base jumper die van de top van de Burj Khalifa in Dubai (828 m) naar beneden springt. Volg dezelfde strategie als in de eerste, maar neem nu ook de luchtweerstand mee zoals gegeven in bovenstaande formule. Neem hierbij aan dat de basejumper 72 kilo weegt.
 
 ## Uitvoer
 

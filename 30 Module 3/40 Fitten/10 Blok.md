@@ -111,7 +111,7 @@ percentage goede passes = $$ 60.3 \pm1.5$$
 
 ## Opdracht: fitten van een model aan de data
 
-Schrijf een programma **fit.py** dat het bovenstaande resultaat verifieert.
+Schrijf een functie `fit()` in een bestand **fit.py** die het bovenstaande resultaat verifieert.
 
 1. Maak een plot van deze data met fouten
 
@@ -121,4 +121,4 @@ Schrijf een programma **fit.py** dat het bovenstaande resultaat verifieert.
 
 3. Print op een losse regel de bijbehorende onzekerheid $$\Delta_c$$.
 
-3. Hoe verandert het resultaat als de fout op elk van de metingen 2x zo groot wordt?
+Beantwoord voor jezelf de vraag: hoe verandert het resultaat als de fout op elk van de metingen 2x zo groot wordt?
