@@ -4,21 +4,9 @@ De appel de vorige opdracht bereikt na iets meer dan 4 seconden het aardoppervla
 
 ## Opdracht: de ultieme free-fall
 
-Schrijf een programma **tunnel.py** die de beweging van de appel door de aarde heen beschrijft. Het deeltje beweegt langs de $$x$$-as met $$x=0$$ in het centrum van de aarde, start met snelheid $$0$$ op hoogte $$0$$ meter boven het aardoppervlak. Wat gebeurt er precies?
+Schrijf een programma **tunnel.py** die de beweging van de appel door de aarde heen beschrijft. Deze beweegt langs de $$x$$-as met $$x=0$$ in het centrum van de aarde, start met snelheid $$0$$ op hoogte $$0$$ meter boven het aardoppervlak. Wat gebeurt er precies?
  
 ![](EarthHole.png)
-
-Tips:
-
-- Verwaarloos luchtweerstand in deze opgave.
-
-- De effectieve massa van de aarde, de massa 'die aan je trekt' is wordt
-  kleiner naarmate je dichter bij het centrum komt. Dus: als de aarde $$M_{\rm
-  aarde}$$ weegt en je 50% van de afstand tot het centrum van de aarde hebt
-  afgelegd 'weegt' de aarde in de formule van Newton nog maar
-  $$\left(\frac{1}{2}\right)^3M_{\rm aarde}$$.
-
-- Neem aan dat de aarde een bol met constante dichtheid is.
 
 ## Uitvoer
 
@@ -29,6 +17,18 @@ Tips:
 3. Bereken de maximale snelheid die de appel bereikt (km/uur) en print deze uit.
 
 4. Hoe lang duurt het voor de appel weer terug is op de plek waar je deze losgelaten hebt (seconden)? Print het antwoord uit.
+
+## Tips
+
+- Verwaarloos luchtweerstand in deze opgave.
+
+- De effectieve massa van de aarde, de massa 'die aan je trekt' is wordt
+  kleiner naarmate je dichter bij het centrum komt. Dus: als de aarde $$M_{\rm
+  aarde}$$ weegt en je 50% van de afstand tot het centrum van de aarde hebt
+  afgelegd 'weegt' de aarde in de formule van Newton nog maar
+  $$\left(\frac{1}{2}\right)^3M_{\rm aarde}$$.
+
+- Neem aan dat de aarde een bol met constante dichtheid is.
 
 ## Natuurkunde-inzicht achteraf
 

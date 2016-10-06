@@ -6,26 +6,35 @@ We bekijken een situatie zoals in het plaatje hieronder getekend waarbij een bal
 
 ## Opdracht: animatie stuiterende bal
 
-Schrijf een *functie* genaamd `beweging()` die de beweging van de bal beschrijft en als mogelijkheid heeft om de beweging met behulp van een animatie op het scherm te tekenen. Een animatie geeft duidelijk inzicht, maar is erg langzaam en wil je dus niet altijd doen.
+Schrijf een *functie* genaamd `beweging()` die de beweging van de bal beschrijft en als mogelijkheid heeft om de beweging met behulp van een animatie op het scherm te tekenen. Als de bal de grond raakt zal deze weer omhoog stuiteren zonder daarbij energie te verliezen.
 
-Invoer-variabelen: snelheid, hoek (in graden) en een optie of er wel/geen animatie getoond moet worden.
+De parameters van de functie zijn:
 
-Een simplificatie: als de bal de grond raakt zal deze weer omhoog stuiteren zonder daarbij energie te verliezen.
+- snelheid
+- hoek (in graden)
+- een optie of er wel/geen animatie getoond moet worden
 
+(Een animatie geeft duidelijk inzicht, maar is erg langzaam en wil je dus niet altijd doen.)
 
 ## Opdracht: druksensor
 
 We voegen een extra element toe in het probleem; een druksensor die reageert als er een bal tegenaan botst. Dit kan zowel vanaf de bovenkant als de onderkant zijn. De druksensor bevindt zich op een hoogte $$y_{sensor}=20$$ en strekt zich uit van $$12 < x_{sensor} < 14$$ zoals getekend in onderstaande schets.
 
-Schrijf een programma dat bestudeert welke hoeken er voor zorgen dat de weggeschoten bal de druksensor zal raken als de bal met een snelheid van $$v=16$$ [m/s] wordt weggeschoten. Gebruik hiervoor de functie `beweging()`. Varieer de hoek $$\alpha$$ in stappen van 1 graad ($$-88 < \alpha < +88$$).
-
 ![](AngryBirdOverview.png)
+
+Schrijf een programma dat bestudeert welke hoeken er voor zorgen dat de weggeschoten bal de druksensor zal raken als de bal met een snelheid van $$v=16$$ [m/s] wordt weggeschoten. Varieer de hoek $$\alpha$$ in stappen van 1 graad ($$-88 < \alpha < +88$$).
+
+Om dit te bereiken pas je eerst de functie `beweging()` aan. Deze functie moet net als voorheen de animatie van het traject bij een bepaalde hoek laten zien (of niet, als het derde argument `False` is). Maar voortaan moet de functie ook een waarde `return`en die aangeeft of bij deze hoek de sensor wordt geraakt.
+
+	beweging(16, 79, False) --> geeft False
+
+In je hoofdprogramma maak je dus herhaaldelijk gebruik van de functie `beweging()`.
 
 ### Uitvoer
 
 1. Maak een grafiek waarin duidelijk wordt welke hoeken wel/niet voor een contact met de druksensor zorgen.
 
-2. Print een regel voor elke hoek (graden) waarbij wél contact met de sensor volgt, zoals:
+2. Print een regel voor elke hoek waarbij wél contact met de sensor volgt, zoals:
 
 		-2 graden
 		-1 graden
@@ -34,9 +43,7 @@ Schrijf een programma dat bestudeert welke hoeken er voor zorgen dat de weggesch
 
 ### Tips
 
-- Bepaal of je kan herkennen als de bal de lijn $$y=20$$ kruist en test of *als* dat gebeurt het is in het gebied van de druksensor: $$12<x<14$$. 
-
-- Zorg dat de functie die je in vraag a gemaakt hebt een return-value geeft die weergeeft of de bal wel/niet de druksensor heeft geraakt
+- Bepaal of je kunt herkennen als de bal de lijn $$y=20$$ kruist en test of *als* dat gebeurt het is in het gebied van de druksensor: $$12<x<14$$. 
 
 ### Extra (optioneel):
 
