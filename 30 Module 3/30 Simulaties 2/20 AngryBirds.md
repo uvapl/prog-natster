@@ -28,7 +28,7 @@ Om dit te bereiken pas je eerst de functie `beweging()` aan. Deze functie moet n
 
 	beweging(16, 79, False) --> geeft False
 
-In je hoofdprogramma maak je dus herhaaldelijk gebruik van de functie `beweging()`.
+In je hoofdprogramma maak je dus herhaaldelijk gebruik van de functie `beweging()`, waarin het echte rekenwerk wordt gedaan. Het hoofdprogramma verzamelt de resultaten en print.
 
 ### Uitvoer
 

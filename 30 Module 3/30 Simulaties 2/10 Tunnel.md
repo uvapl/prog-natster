@@ -1,8 +1,6 @@
-# Simulaties 2
+# Opdracht: de ultieme free-fall
 
 De appel de vorige opdracht bereikt na iets meer dan 4 seconden het aardoppervlak. Stel nou eens dat precies op de plek waar de appel neervalt een tunnel is gegraven dwars door de aarde heen.
-
-## Opdracht: de ultieme free-fall
 
 Schrijf een programma **tunnel.py** die de beweging van de appel door de aarde heen beschrijft. Deze beweegt langs de $$x$$-as met $$x=0$$ in het centrum van de aarde, start met snelheid $$0$$ op hoogte $$0$$ meter boven het aardoppervlak. Wat gebeurt er precies?
  
