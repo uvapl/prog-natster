@@ -17,12 +17,12 @@ Data Files:
 Download de file, open ze en lees bovenin hoe de data gecodeerd is. We zien dat
 de maximum(minimum) temperatuur op 1 januari 1901 -3.1(-6.8) ◦C was.
 
-> Let op! De datafiles bevatten ook allerlei uitleg. De bedoeling is dat je deze laat staan in het bestand. Je Python-programma moet deze regels netjes overslaan bij het verwerken. Doe dit door op zoek te gaan naar `STAID`, te vinden in de regel die precies boven de interessante data staat.
+> Let op! De datafiles bevatten ook allerlei uitleg. De bedoeling is dat je deze laat staan in het bestand. Je Python-programma moet deze regels netjes overslaan bij het verwerken. Doe dit door op zoek te gaan naar het woord`STAID`, te vinden in de regel die precies boven de interessante data staat.
 
 Schrijf een programma **temperatuur.py** die de file regel voor regel inleest
 en beantwoord de volgende vragen.
 
-### Vraag 2a) extreme temperaturen
+### Opdracht a) extreme temperaturen
 Wat waren de hoogste en laagste temperatuur die in De Bilt zijn gemeten sinds het begin 
 van de 20ste eeuw ? Op welke dagen was dat ? Zorg dat je programma de datum netjes op 
 het scherm print. Zeg dus niet: 
@@ -34,18 +34,18 @@ maar
      De hoogste temperatuur was 34,5 graden Celcius werd gemeten op 13 mei 1967
 
 
-### Vraag 2b) koud kouder koudst
+### Opdracht b) koud kouder koudst
 Wat is de langste periode dat het aaneengesloten heeft gevroren (maximumtemperatuur 
 onder 0 ◦C). Wat was de laatste dag van deze periode ?
 
-### Vraag 2c) zomerse en tropische dagen
+### Opdracht c) zomerse en tropische dagen
 We spreken van een zomerse (tropische) dag als de maximumtemperatuur meer dan 25 
-(30 graden Celcius was.
+(30) graden Celcius was.
 
 Maak een grafiek waarin voor elk jaar zowel het aantal zomerse als het aantal 
 tropische dagen weergegeven wordt.
 
-### Vraag 2d) hittegolf in 2015
+### Opdracht d) hittegolf in 2015
 
 We spreken in Nederland van een hittegolf als de maximumtemperatuur ten minste vijf 
 dagen achtereen minstens 25,0 °C was (zomerse dagen) waarvan ten minste op drie 

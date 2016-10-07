@@ -156,7 +156,7 @@ Versie 3 programma:
     input_filehandle.close()
     
     
-Let op:    
+> Let op:    
    - Zorg dat in het `open()` commando wordt verwezen naar de locatie van het bestand op jouw computer
    
     
@@ -199,7 +199,7 @@ schrijft deze nieuwe regel vervolgens weg in een outputfile.
 
 
     
-# Opgave 1: Sensor Data 
+# Opdracht 1: Sensor Data 
     
 
 Een iPhone bevat veel delicate sensoren die informatie verzamelen over de 
