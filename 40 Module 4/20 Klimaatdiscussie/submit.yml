@@ -1,7 +1,8 @@
 name: module4
-required:
-    - autorit.py
-    - AutoRitData.csv
-    - temperatuur.py
-    - DeBiltTempMax.txt
-    - DeBiltTempMin.txt
+files:
+    required:
+        - autorit.py
+        - AutoRitData.csv
+        - temperatuur.py
+        - DeBiltTempMax.txt
+        - DeBiltTempMin.txt
