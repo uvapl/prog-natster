@@ -4,6 +4,8 @@ Een veel voorkomende toepassing van computerprogramma’s is het inlezen, verwer
 
 # Inlezen files en verwerken van de data
 
+![](VanBastenKlein.jpg){:.inline}
+
 Net zoals je getallen in het decimale, hexadecimale of binaire formaat weer kan geven wordt ook data in verschillende formaten bewaard in data-bases. Hier zullen we data bekijken die is opgeslagen in het zogenaamde CSV formaat (comma separate values): 'platte tekst', waarbij op elke regel verschillende variabelen gescheiden zijn door een komma. Dit is trouwens ook het formaat dat je krijgt als je je banktransacties download of een Excel file wegschrijft.
 
 We gaan het inlezen en verwerken van data doen aan de hand van een voorbeeld:  de statistieken van voetballer Marco van Basten. Iemand heeft in een tekstbestand bijgehouden hoeveel wedstrijden hij gespeeld heeft en hoeveel doelpunten hij gemaakt heeft.
@@ -26,8 +28,6 @@ Hier vind je een stukje van het bestand:
     199293, AC Milan, 15, 13	
     199394, AC Milan, 0, 0	
     199495, AC Milan, 0, 0	
-
-![](VanBastenKlein.jpg)
 
 > Let op: als je het bestand met Windows Kladblok/Notepad opent, dan staat alle data achter elkaar. Dat maakt niet uit voor de goede werking van je programma's.
 
