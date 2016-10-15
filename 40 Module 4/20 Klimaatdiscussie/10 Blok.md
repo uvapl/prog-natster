@@ -1,6 +1,6 @@
 # Klimaatdiscussie
 
-![](KaartNederlandKlein.png)
+![](KaartNederlandKlein.png){:.inline}
 
 Laten we een steentje bijdragen aan de klimaatdiscussie en data analyseren die  door de ECA (European Climate Assessment) [beschikbaar](http://eca.knmi.nl/dailydata/predefinedseries.php) wordt gemaakt in grote  data files. We beperken ons tot data die de maximum- en minimumtemperatuur beschrijft voor elke dag in De Bilt sinds 1901.
 
