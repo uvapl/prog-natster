@@ -62,7 +62,7 @@ De regel met 1988 is nu in stukken geknipt en in een lijst gezet:
 
     ['198889', ' AC Milan', ' 33', ' 19\t\n']
 
-De karakters "\t" (tab) en "\n" (return aan eind van de regel) zijn ook zichtbaar, hoewel we daar niet zoveel aan hebben.
+De karakters `"\t"` (tab) en `"\n"` (return aan eind van de regel) zijn ook zichtbaar, hoewel we daar niet zoveel aan hebben.
 
 ## Stap 3: opslaan van de informatie in variabelen
 
@@ -114,7 +114,7 @@ We wilden het aantal totaal aantal doelpunten uitreken dat Van Basten voor zijn 
     print "TOTAAL: In totaal scoorde Van Basten %d clubdoelpunten" % (totaal_doelpunten)
     input_file.close()
     
-> Let op: zorg dat in het `open()` commando wordt verwezen naar de locatie van het bestand op jouw computer. En gebruik `close()` om het bestand netjes te sluiten na gebruik.
+Gebruik altijd `close()` om het bestand netjes te sluiten na gebruik.
 
 ## Oefening
 
