@@ -16,7 +16,7 @@ Download de bestanden, open ze en lees bovenin hoe de data gecodeerd is. We zien
 Schrijf een programma **temperatuur.py** die de file regel voor regel inleest
 en beantwoord de volgende vragen.
 
-## Opdracht: extreme temperaturen
+### Opdracht 1: extreme temperaturen
 
 Wat waren de hoogste en laagste temperatuur die in De Bilt zijn gemeten sinds het begin van de 20e eeuw? Op welke dagen was dat? Zorg dat je programma de datum netjes op het scherm print. Zeg dus niet: 
 
@@ -28,19 +28,19 @@ maar
 
 Tip: maak een aparte functie die een getal als `19670513` kan omzetten naar een goed leesbare beschrijving als `13 mei 1967`.
 
-## Opdracht: koud kouder koudst
+### Opdracht 2: koud kouder koudst
 
 Wat is de langste periode dat het aaneengesloten heeft gevroren (maximumtemperatuur onder 0◦C). Wat was de datum van de laatste dag van deze periode?
 
-## Opdracht: zomerse en tropische dagen
+### Opdracht 3: zomerse en tropische dagen
 
 We spreken van een zomerse dag als de maximumtemperatuur meer dan 25 graden Celcius was. Op een tropische dag is het in de Bilt zelfs 30 graden. Maak een grafiek waarin voor elk jaar zowel het aantal zomerse als het aantal tropische dagen weergegeven wordt.
 
-## Opdracht: hittegolf in 2015
+### Opdracht 4: hittegolf in 2015
 
 We spreken in Nederland van een hittegolf als de maximumtemperatuur ten minste vijf dagen achtereen minstens 25,0°C was (zomerse dagen) waarvan ten minste op drie dagen 30,0°C of meer (tropische dagen). Print het *eerste* jaartal uit de dataset waarin er sprake was van een hittegolf volgens deze regels.
 
-## Nette code en nette uitvoer.
+### Nette code en nette uitvoer
 
 Zorg dat de code van alle opdrachten in een functie of in functies staat. Gebruik geen globale variabelen (vraag indien nodig wat dit is)!
 
