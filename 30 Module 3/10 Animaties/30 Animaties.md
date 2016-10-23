@@ -54,7 +54,7 @@ Een grafiek tekenen we met behulp van lijsten: een lijst met $$x$$-waardes en ee
 		# rode lijn
         plt.plot(L_x, L_y, 'r-')
         plt.xlim(0,2 * math.pi)
-        plt.ylim(-1, s1)
+        plt.ylim(-1, 1)
 		
 		# update grafiek
         plt.draw()
