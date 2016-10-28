@@ -1,3 +1,4 @@
 name: tent
-required:
-    - tentamen.py
+files:
+    vereist:
+        - tentamen.py
