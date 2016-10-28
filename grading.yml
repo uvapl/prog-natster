@@ -49,10 +49,10 @@ psets:
 
 tent:
     required: true
-    grades:
+    submits:
         tent: 1
 
 hert:
     required: true
-    grades:
+    submits:
         hert: 1
