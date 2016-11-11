@@ -62,7 +62,7 @@ Het *inprodukt* van 2 vectoren $$V_1$$ en $$V_2$$ ($$V_1 \cdot V_2$$) is te schr
 
 $$ V_1 \cdot V_2 = |V_1|~|V_2|\cos(\theta)$$
 
-In deze uitdrukking is $$V_1 \cdot V_2 = x_1x_2 + y_1y_2$$, $$\|V_i\|$$ de lengte van vector $$V_i$$ en $$\theta$$ de openingshoek in radialen.
+In deze uitdrukking is $$V_1 \cdot V_2 = x_1x_2 + y_1y_2$$ en $$\|V_i\|$$ de lengte van vector $$V_i$$ en $$\theta$$ de openingshoek in radialen.
 
 Gebruik als vectoren $$V_1$$ = (2,5) en $$V_2$$ = (1,2) en zorg dat de output op het scherm weergegeven wordt als:
 
