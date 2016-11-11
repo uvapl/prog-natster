@@ -89,7 +89,7 @@ zelf in moet vullen. De grafiek ziet er dan ook niet bepaald mooi uit. Je kan na
         L_y.append(y)
     
     # teken de hele grafiek
-    plt.plot(L_x, L_, 'b-')
+    plt.plot(L_x, L_y, 'b-')
     plt.xlabel('x', fontsize = 20)
     plt.ylabel('sin(x)', fontsize = 20)
     plt.text(4.00, 0.50, "f(x) = sin(x)", color = 'black', fontsize = 20)
