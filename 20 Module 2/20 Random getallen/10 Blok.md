@@ -47,7 +47,7 @@ Bekijk goed het voorbeeld hierboven waarbij we een random getal tussen 0 en 2 ma
 
 ## Opdracht: De gemiddelde afstand tussen 2 punten in een vierkant
 
-Schrijf een functie `vierkant()` die de gemiddelde afstand tussen 2 punten in een vierkant met afmeting 1 x 1 berekent. Gebruik de volgende strategie:
+Schrijf een functie `vierkant()` die de gemiddelde afstand tussen 2 punten in een vierkant met afmeting 1 x 1 berekent en teruggeeft. Gebruik de volgende strategie:
 
   - Genereer twee random punten: dus 2 keer een random x-waarde en 2x een random y-waarde en bereken de afstand tussen de punten
 
