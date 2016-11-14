@@ -53,11 +53,44 @@ punten gooien in plaats van 2000.
 
 ![](MonteCarloExample.png)
 
-
 ### Extra informatie:
 In 'echte' toepassingen wordt voor efficientie maximalisatie de box zo gekozen dat hij de integraal zo nauw mogelijk omsluit: grootste fractie 'goede' worpen.
 
-## Tips:
+
+## Opdrachten
+
+### Monte Carlo
+
+Schrijf een functie `montecarlo(func, x1, y1, x2, y2)` die de uitkomst van de integraal tussen `x1` en `x2` teruggeeft, waar `y1` en `y2` gebruikt worden om de integraal zo dicht mogelijk te omsluiten. `func` is hier een functie welke enkel een `x` waarde accepteert en een `y` waarde teruggeeft. Bereken de integralen van de volgende functies:
+
+- $$\int_{0}^{1}x^{x+\frac{1}{2}} ~dx$$
+
+```
+def functie1(x):
+    return x**(x + 0.5)
+```
+
+Hint: test `montecarlo()` door te testen of je programma de integraal $$\int_{0}^{1}x^2 dx$$ goed voorspelt
+
+- $$\int_{0.2}^{2.2} \tan(\cos(\sin(x))) ~dx$$
+
+```
+def functie2(x):
+    return math.tan(math.cos(math.sin(x)))
+```
+
+Hint: test `montecarlo()` door te testen of je programma de integraal $$\int_{0}^{\pi}sin(x) dx$$ goed voorspelt
+
+- $$\int_{0}^{\pi} sin(x^2) dx$$
+
+```
+def functie3(x):
+    return math.sin(x**2)
+```
+
+Hint: Let goed op wat je doet met de negatieve integratieregio's. Het is handig om de oppervlakte van die gebieden zelfstandig te evalueren.
+
+Tips:
 
   - Maak altijd een plaatje van je grafiek zodat je duidelijk ziet welk gebied je aan het integreren bent.
 
@@ -67,22 +100,7 @@ In 'echte' toepassingen wordt voor efficientie maximalisatie de box zo gekozen d
 
   - specifiek voor Monte Carlo: bij 'negatieve' integratieregio's de gebieden splitsen
 
-
-## Opdrachten
-
-- $$\int_{0}^{1}x^{x+\frac{1}{2}} ~dx$$
-
-Hint: test je functie door te testen of je programma de integraal $$\int_{0}^{1}x^2 dx$$ goed voorspelt
-
-- $$\int_{0.2}^{2.2} \tan(\cos(\sin(x))) ~dx$$
-
-Hint: test je functie door te testen of je programma de integraal $$\int_{0}^{\pi}sin(x) dx$$ goed voorspelt
-
-- $$\int_{0}^{\pi} sin(x^2) dx$$
-
-Hint: Let goed op wat je doet met de negatieve integratieregio's. Het is handig om de oppervlakte van die gebieden zelfstandig te evalueren.
-
-- het Twitter-ei
+### het Twitter-ei
 
 Schrijf een programma `TwitterEi()` dat de oppervlakte van het Twitter-Ei berekent. De omtrek van het ei wordt gegeven door: 
 $$ \sqrt{x^2+y^2} + \frac{2}{3}\sqrt{x^2+\left(\frac{5}{6}-y \right)^2 } = 1$$
