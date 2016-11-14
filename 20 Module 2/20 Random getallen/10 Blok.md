@@ -27,11 +27,11 @@ Voorbeeld: tien random getallen tussen 0 en 2
 
 ## Opdracht: Een rij van 10 random getallen tussen a en b
 
-Schrijf een functie `MijnRandomGetal()` die een getal genereert tussen *a* en *b* waarbij je de waardes van a en b zelf kan kiezen. Het moet zo werken als hieronder.
+Schrijf een functie `randomTussen()` die een getal genereert tussen *a* en *b* waarbij je de waardes van a en b zelf kan kiezen. Het moet zo werken als hieronder.
 
     import random 
 
-    def MijnRandomGetal(a,b):
+    def randomTussen(a,b):
          getal = <hier jouw code>           
          return getal
      
@@ -39,7 +39,7 @@ Schrijf een functie `MijnRandomGetal()` die een getal genereert tussen *a* en *b
     minimum = 2
 	maximum = 5
     for i in range(1, 11):
-       x = MijnRandomGetal(minimum, maximum)
+       x = randomTussen(minimum, maximum)
        print x
 
 Bekijk goed het voorbeeld hierboven waarbij we een random getal tussen 0 en 2 maakten en probeer eerst uit te vinden hoe je een random getal tussen de -1 en +1 zou kunnen maken. Daarna kan je dat abstract programmeren naar een algemene *a* en *b* als begin en eindwaardes van het interval waarbinnen je random getallen wilt gebruiken.
@@ -47,7 +47,7 @@ Bekijk goed het voorbeeld hierboven waarbij we een random getal tussen 0 en 2 ma
 
 ## Opdracht: De gemiddelde afstand tussen 2 punten in een vierkant
 
-Schrijf een functie `Vierkant()` die de gemiddelde afstand tussen 2 punten in een vierkant met afmeting 1 x 1 berekent. Gebruik de volgende strategie:
+Schrijf een functie `vierkant()` die de gemiddelde afstand tussen 2 punten in een vierkant met afmeting 1 x 1 berekent en teruggeeft. Gebruik de volgende strategie:
 
   - Genereer twee random punten: dus 2 keer een random x-waarde en 2x een random y-waarde en bereken de afstand tussen de punten
 

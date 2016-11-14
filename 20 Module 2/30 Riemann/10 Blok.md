@@ -39,35 +39,46 @@ Zoals je ziet het je 'alleen' de waarde van de functie nodig op de $$N+1$$ hoekp
 
 ## Voorbeeld:
 
-In de evaluatie van de integraal $$\int_{0}^{\pi}sin(x)~dx$$ hebben we het integratiegebied in $$x$$ opgedeeld in 13 gebieden van gelijke grootte. We hebben dan dus in totaal 14 x-waardes. De hoogte van elk vcan de 13 rechthoeken is het gemiddelde van de waarde aan de linkerkant en de rechterkant van het kleine integratiegebied. De uiteindelijke integraal kunnen we evalueren door de oppervlaktes van alle rechthoeken op te tellen. Let op, kan iets slimmer mbv de bovenstaande formule. Zodra dit werkt kan je natuurlijk de rechthoekjes steeds kleiner maken en in plaats van 13 1000 gebieden definieren.
+In de evaluatie van de integraal $$\int_{0}^{\pi}sin(x)~dx$$ hebben we het integratiegebied in $$x$$ opgedeeld in 13 gebieden van gelijke grootte. We hebben dan in totaal 14 x-waardes. De hoogte van elk van de 13 rechthoeken is het gemiddelde van de waarde aan de linkerkant en de rechterkant van het kleine integratiegebied. De uiteindelijke integraal kunnen we evalueren door de oppervlaktes van alle rechthoeken op te tellen. Let op, kan iets slimmer mbv de bovenstaande formule. Zodra dit werkt kan je natuurlijk de rechthoekjes steeds kleiner maken en in plaats van 13 1000 gebieden definieren.
 
 ![](RiemannExample.png)
 
 
-## Tips:
+## Opdrachten
+Schrijf een functie `riemann(func, a, b, n)` die de uitkomst van de integraal van `func` tussen a en b teruggeeft. `n` geeft het aantal gebieden aan. `func` is hier een functie welke enkel een `x` waarde accepteert en een `y` waarde teruggeeft. Bereken de integralen van de volgende functies:
+
+- $$\int_{0}^{1}x^{x+\frac{1}{2}} ~dx$$
+
+```
+def functie1(x):
+    return x**(x + 0.5)
+```
+
+Hint: test `riemann()` door te testen of je programma de integraal $$\int_{0}^{1}x^2 dx$$ goed voorspelt
+
+- $$\int_{0.2}^{2.2} \tan(\cos(\sin(x))) ~dx$$
+
+```
+def functie2(x):
+    return math.tan(math.cos(math.sin(x)))
+```
+
+Hint: test `riemann()` door te testen of je programma de integraal $$\int_{0}^{\pi}sin(x) dx$$ goed voorspelt
+
+- $$\int_{0}^{\pi} \sin(x^2) ~dx$$
+
+```
+def functie3(x):
+    return math.sin(x**2)
+```
+
+### Tips:
 
   - Maak altijd een plaatje van je grafiek zodat je duidelijk ziet welk gebied je aan het integreren bent.
 
   - test je programma altijd op een (vergelijkbare) integraal die je wel analytisch kan uitrekenen. 
 
   - specifiek voor Riemannnsom: Als je het interval in $$N$$ stukjes verdeeld zijn er $$N+1$$ hoekpunten.
-
-
-## Opdrachten
-
-- $$\int_{0}^{1}x^{x+\frac{1}{2}} ~dx$$
-
-Hint: test je functie door te testen of je programma de integraal $$\int_{0}^{1}x^2 dx$$ goed voorspelt
-
-- $$\int_{0.2}^{2.2} \tan(\cos(\sin(x))) ~dx$$
-
-Hint: test je functie door te testen of je programma de integraal $$\int_{0}^{\pi}sin(x) dx$$ goed voorspelt
-
-- $$\int_{0}^{\pi} \sin(x^2) ~dx$$
-
-
-
-
 
 
 ## Sanity check
