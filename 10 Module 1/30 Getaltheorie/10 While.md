@@ -32,3 +32,5 @@ Dat kun je ook schrijven als:
 	    i = i + 1
 
 Je ziet dat de `for`-loop wel iets korter op te schrijven is in dit geval. Maar de keerzijde is, dat je sommige problemen mooier opschrijft met een `while`-loop. Daar komen we zo.
+
+Samen met een `while` kan het ook handig zijn om een `break` te gebruiken. Zet je `break` in de loop, dan stopt deze per direct. Let wel op dat soms een loop met een `break` mooier te schrijven is als een `for`-loop zonder break!

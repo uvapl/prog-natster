@@ -16,6 +16,8 @@ Hoewel een computer je in staat stelt om snel te rekenen is het toch belangrijk 
 
 - Verzin hoe je per kandidaat-priemgetal bijhoudt of het inderdaad een priemgetal is terwijl je over de mogelijke delers heenloopt.
 
+- Kies bewust voor het gebruikt van `for`- of `while`-loops.
+
 - Bedenk van tevoren hoe je de lijst met (1000) gevonden priemgetallen gaat opslaan.
 
 - Problemen? Print bij elke kandidaat-priem wat informatie, zodat je weet waar je bent in de berekening en je ziet of de computer ook echt jouw bedoelde strategie volgt.
