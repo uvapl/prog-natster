@@ -22,3 +22,5 @@ Week 7:
     'Tentameninformatie': '/tentamen/informatie'
 Tentamen:
     'Inleveren tentamen': '/tentamen/inleveren'
+Hertentamen:
+    'Inleveren hertentamen': '/tentamen/inleveren-hertentamen'
