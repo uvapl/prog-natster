@@ -72,24 +72,17 @@ En natuurlijk behoren de assen labels te hebben, kan je 2 verschillende grafieke
 In stap 2 hebben we een klein aantal punten gekozen waarbij je de waardes 
 zelf in moet vullen. De grafiek ziet er dan ook niet bepaald mooi uit. Je kan natuurlijk met de computer ook zelf x-waardes en bijbehorende y-waardes berekenen en in lijsten opslaan. Als we bijvoorbeeld de functie sin(x) willen plotten in stapjes van 0.01 tussen 0 en 2*pi dan knopen we de verschillende dingen die we dit blok geleerd hebben aan elkaar en doen we het volgende:
 
-    import numpy as np               # numpy mdule: nodig voor arange-functie
-    import math                      # math module: nodig voor sin()-functie
+    import numpy as np               # numpy mdule: nodig voor arange- en sin-functies
     import matplotlib.pyplot as plt  # pyplot module: nodig voor plotten
 
-    L_x = []   # lijst met x-waardes
-    L_y = []   # lijst met y-waardes
-
-    # x loopt van 0 tot 2pi in stapjes van 0.01
-    for x in np.arange(0, 2*math.pi, 0.01):
-        # bereken bijbehorende y-waarde voor elke x
-        y = math.sin(x)
-        
-        # voeg data toe aan de lijsten
-        L_x.append(x)
-        L_y.append(y)
+    # x is een lijst getallen van 0 tot 2pi in stapjes van 0.01
+    x = np.arange(0, 2*math.pi, 0.01)
     
+    # bereken sin(x) voor elke waarde van x in de lijst x
+    y = np.sin(x)
+        
     # teken de hele grafiek
-    plt.plot(L_x, L_y, 'b-')
+    plt.plot(x, y, 'b-')
     plt.xlabel('x', fontsize = 20)
     plt.ylabel('sin(x)', fontsize = 20)
     plt.text(4.00, 0.50, "f(x) = sin(x)", color = 'black', fontsize = 20)
