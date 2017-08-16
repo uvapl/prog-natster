@@ -39,12 +39,16 @@ Laten we het meteen maar eens uitproberen met ons programma `hello.py`. Voer het
 
 	python hello.py
 
-Druk op **ENTER** om de opdracht te starten. De computer kijkt in de file `hello.py` en ziet welke commando's hij uit moet voeren. In dit geval maar een enkele regelen die zegt dat de computer de tekst "Hello, world" op het scherm moet printen. Als het goed is doet de computer dat braaf. En Kijk, jouw eerste (werkende) programma is een feit!
+Druk op **ENTER** om de opdracht te starten. De computer kijkt in de file `hello.py` en ziet welke commando's hij uit moet voeren. In dit geval maar een enkele regelen die zegt dat de computer de tekst "Hello, world" op het scherm moet printen. Als het goed is doet de computer dat braaf. 
+
+En kijk, jouw eerste (werkende) programma is een feit!
 
 
-## checkpy
+## automatische check: checkpy
 
-Om jou te helpen controleren of wat je programmeert ook daadwerkelijk in overeenstemming is met de opdracht, hebben wij een programma geschreven genaamd **checkpy**. Dit programma kun je installeren door in de terminal het volgende commando uit te voeren:
+Om jou te helpen controleren of wat je programmeert ook daadwerkelijk in overeenstemming is met de opdracht, hebben wij een programma geschreven genaamd **checkpy**. Gebruik het bij de opdrachten in de cursus om te kijken of je op de goede weg bent.
+
+Dit programma kun je installeren door in de terminal het volgende commando uit te voeren:
 
 	pip install checkpy
 
