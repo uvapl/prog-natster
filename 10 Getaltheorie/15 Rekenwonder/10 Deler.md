@@ -1,9 +1,6 @@
 
 # Rekenwonder: de mens
 
-
-jasfgdklajsg 
-
 <div style="width: 40%; float:right; margin-left: 2em;">
 ![embed](https://www.youtube.com/embed/urFiv_PQ2FQ)
 </div>
@@ -15,7 +12,7 @@ Het kan natuurlijk dat je een van die uitzonderlijke natuurtalenten bent, maar w
 
 # Rekenwonder: de computer laten rekenen
 
-Implementeer een programma dat aan een gebruiker twee getallen vraagt en het product van de getallen uitprint.
+Implementeer een programma dat aan een gebruiker twee getallen vraagt en het product van de getallen uitrekent en op het scherm print.
 
 	Wat is het eerste getal? 16
 	Wat is het tweede getal? 4
