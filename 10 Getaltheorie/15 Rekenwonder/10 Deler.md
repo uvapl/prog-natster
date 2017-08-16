@@ -1,8 +1,11 @@
 
 # Rekenwonder: de mens
 
+<iframe width="854" height="480" src="https://www.youtube.com/embed/urFiv_PQ2FQ" frameborder="0" allowfullscreen></iframe>
+
+
 <div style="width: 40%; float:right; margin-left: 2em;">
-![embed](https://www.youtube.be/embed/watch?v=urFiv_PQ2FQ)
+![embed](https://www.youtube.com/embed/watch?v=urFiv_PQ2FQ)
 </div>
 
 Voor het tijdperk van de computer werden lastige berekeningen gedaan door mensen. Bij het Europees laboratorium voor deeltjesfysica, CERN in Genève bijvoorbeeld werktes mensen als 'onze' Wim Klein, als 'menselijke supercomputers'. 
