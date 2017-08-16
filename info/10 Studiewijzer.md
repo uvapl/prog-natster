@@ -70,7 +70,6 @@ maken, maar het telt verder niet mee.
 ## Eindcijfer
 
 Je krijgt een eindcijfer voor dit vak als je:
-
 * voldoende uren aanwezig bent geweest tijdens de practica;
 * elke module op tijd en naar verwachting hebt ingeleverd;
 * een voldoende hebt gehaald voor het tentamen.
