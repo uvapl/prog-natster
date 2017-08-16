@@ -1,16 +1,11 @@
 
 # Rekenwonder: de mens
 
+<div style="width: 40%; float:right; margin-left: 2em;">
+![embed](https://www.youtube.com/embed/watch?v=urFiv_PQ2FQ)
+</div>
+
 Voor het tijdperk van de computer werden lastige berekeningen gedaan door mensen. Bij het Europees laboratorium voor deeltjesfysica, CERN in Genève bijvoorbeeld werktes mensen als 'onze' Wim Klein, als 'menselijke supercomputers'. 
-
-<div style="width: 40%; float:right; margin-left: 2em;">
-![embed](https://www.youtube.com/embed/ckBjNYTY5jo)
-</div>
-
-
-<div style="width: 40%; float:right; margin-left: 2em;">
-![embed](https://www.youtube.com/watch?v=urFiv_PQ2FQ)
-</div>
 
 Het kan natuurlijk dat je een van die uitzonderlijke natuurtalenten bent, maar we gaan je voor de zekerheid toch maar leren hoe je met behulp van een computer nog veel een veel sneller kan rekenen. Eerst de basisstappen. 
 
