@@ -15,7 +15,7 @@ In deze module gaan we eerst Python installeren op de laptop en daarna aan de sl
 stellingen is het met de hand uitwerken van triviale stappen een monnikenwerk. Het is handig als een computer 
 je die 'domme' stappen uit handen neemt en jij je kan focussen op het slimme denkwerk zelf. Wiskundige intuïtie vereist!
 
-Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalbers promoveren bij het [Nikhef](http://www.nikhef.nl/) en vertellen over hun ervaring met programmeren en simuleren bij hun onderzoek.
+Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalbers promoveren bij het [Nikhef](http://www.nikhef.nl/) en vertellen over hun ervaring met en het belang van programmeren bij hun onderzoek.
 
 #### Dag 1: aan de slag
 
