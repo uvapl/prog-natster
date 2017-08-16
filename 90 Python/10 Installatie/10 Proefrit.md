@@ -33,7 +33,7 @@ Dan zie je een extra onderdeel verschijnen in je Visual Studio-scherm:
 
 ![visualterminal](visualterminal.png){:style="max-width:80%"}
 
-Dit onderdeel heet de **terminal** en is de plek waar we Python en jouw programma's kunnen opstarten. Door ons met een lijntje aangegeven is de **prompt** (vraag) waar we een opdracht kunnen intikken. De prompt ziet er wat ingewikkeld uit, maar dat kunnen we negeren.
+Dit onderdeel heet de **terminal** en is de plek waar we Python en jouw programma's kunnen laten uitvoeren. Het gebied met het stippellijntje in de figuur hierboven noemen we de **prompt** waar we een opdracht kunnen intikken die de computer vervolgens uit gaat voeren. De prompt ziet er wat ingewikkeld uit, maar dat kunnen we negeren.
 
 Laten we het meteen maar eens uitproberen met ons programma `hello.py`. Voer het volgende commando in achter de prompt:
 
