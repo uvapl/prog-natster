@@ -14,7 +14,7 @@ We zullen dit heel vaak herhalen omdat het niet vaak genoeg gezegd kan worden. N
 Begin ook altijd simpel zodat je precies begrijpt welke stappen de computer neemt. Voeg pas 'slimme' dingen toe als je programma werkt. Onderaan deze pagina staan een aantal wiskunde tips. Het is goed om te bedenken dat deze slimmigheden door *jou* toegevoegd moeten worden. De computer kan dat niet zelf.
 
 
-## Specificatie
+## Specificatie en naam programma
 
 - Schrijf in een bestand genaamd `priemgetal.py` een programma dat een priemgetal met de gewenste rangorde bepaalt.
 
