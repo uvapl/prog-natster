@@ -5,7 +5,7 @@ div.embed
 }
 </style>
 
-# Getaltheorie
+# Module 1: getaltheorie
 
 <div style="width: 40%; float:right; margin-left: 2em;">
 ![embed](https://www.youtube.com/embed/ckBjNYTY5jo)
