@@ -2,13 +2,13 @@
 
 Python is zelf een programma, en moet je dus installeren op je eigen computer. Hieronder vind je de instructies. Zit je vast? Stuur gerust een [mailtje](mailto:progns@mprog.nl) en we helpen je verder.
 
-## Om te beginnen
+## Informatie vooraf
 
 Om te kunnen programmeren op je eigen computer heb je twee verschillende programma's nodig: de taal zelf, en een goede editor:
 
 1. **Anaconda**, een versie van Python die makkelijk te installeren is. Er zitten ook een boel *packages* bij, waarin extra functionaliteit zit voor grafieken, statistiek en nog allerlei andere dingen.
 
-2. **Visual Studio Code**, een *editor* om code in te schrijven. Dit is in feite een soort tekstverwerker, maar dan speciaal bedoeld voor programmacode. Deze geeft bijvoorbeeld verschillende woorden verschillende kleurtjes, zodat je een goed overzicht houdt van je programmacode.
+2. **Visual Studio Code**, een *editor* om code in te schrijven. Dit is in feite een soort tekstverwerker, maar dan speciaal bedoeld voor programmacode. Deze geeft bijvoorbeeld verschillende woorden verschillende kleuren, zodat je een goed overzicht houdt van je programmacode.
 
 ## Stap 1: Anaconda
 
