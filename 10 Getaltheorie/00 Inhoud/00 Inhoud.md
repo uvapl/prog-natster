@@ -11,7 +11,7 @@ div.embed
 ![embed](https://www.youtube.com/embed/ckBjNYTY5jo)
 </div>
 
-In deze module gaan we eerst Python installeren op de laptop en daarna aan de slag om een aantal ideeën en stellingen uit de getaltheorie te testen met behulp van een computer. Zelfs voor de meest eenvoudige 
+In deze module gaan we eerst Python installeren op de laptop en daarna aan de slag om een aantal stellingen uit de getaltheorie te testen met behulp van een computer. Zelfs voor de meest eenvoudige 
 stellingen is het met de hand uitwerken van triviale stappen een monnikenwerk. Het is handig als een computer 
 je die 'domme' stappen uit handen neemt en jij je kan focussen op het slimme denkwerk zelf. Wiskundige intuïtie vereist!
 
