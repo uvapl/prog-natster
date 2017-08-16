@@ -12,7 +12,7 @@ Het kan natuurlijk dat je een van die uitzonderlijke natuurtalenten bent, maar w
 
 # Rekenwonder: de computer laten rekenen
 
-Implementeer een programma dat aan een gebruiker twee getallen vraagt en het product van de getallen uitrekent en op het scherm print.
+We beginnen heel voorzichtig en gaan proberen een programma te schrijven dat aan een gebruiker twee getallen vraagt en vervolgens het product van die getallen uitrekent en op het scherm print. Als volgt dus:
 
 	Wat is het eerste getal? 16
 	Wat is het tweede getal? 4
@@ -22,9 +22,9 @@ Implementeer een programma dat aan een gebruiker twee getallen vraagt en het pro
 	Wat is het tweede getal? 5
 	135
 
-## Specificatie
+## Specificatie voor jouw programma
 
-Schrijf in een nieuwe file genaamd `rekenwonder.py` een programma dat de gebruiker vraagt om twee gehele getallen, waarna het product van de getallen met `print` wordt doorgegeven aan de gebruiker.
+Maak een nieuwe file aan, genaamd `rekenwonder.py` en implementeer een programma dat de gebruiker vraagt om twee gehele getallen, waarna het product van de getallen met `print` op het scherm wordt getoont.
 
 ## Hints
 
