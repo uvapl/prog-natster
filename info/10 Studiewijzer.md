@@ -80,7 +80,6 @@ klein deel van het cijfer wordt bepaald door hoe je beter bent gaan
 programmeren tijdens het vak (de voortgang zelf dus!).
 
 ## Samenwerken, fraude en plagiaat
-
 Samenwerken tijdens dit vak is *niet* toegestaan. Dit vak heeft als doel jouw
 persoonlijke programmeervaardigheid te ontwikkelen. Bij vervolgvakken is het
 vaak wél mogelijk om samen te programmeren.
