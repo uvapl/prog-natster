@@ -4,27 +4,27 @@ Een **waarde** is een van de basale onderdelen in een programma. In de voorbeeld
 
 Om resultaten van berekeningen te kunnen gebruiken in andere berekeningen, moeten we deze tijdelijk op zien te slaan. Als oplossing laat Python je namen toekennen aan waardes. Deze naam-waarde combinaties noemen we **variabelen**. Door middel van de `=` operator kunnen we een naam toekennen aan een waarde, en deze vervolgens ergens anders gebruiken. Hier is bijvoorbeeld een programma waar drie keer een `=` wordt gebruikt om een naam aan een waarde te koppelen:
 
-	income = 230
-	expense = 170
-	profit = income - expense
-	print profit
+	inkomen = 230
+	uitgaves = 170
+	winst = inkomen - uitgaves
+	print winst
 
-Op de derde regel wordt de nieuwe naam `profit` zelfs gekoppeld aan het resultaat van een berekening. Een berekening op basis van eerder gedefinieerde namen. Het is hierbij belangrijk om te letten op de **volgorde** van de regels code. Python interpreteert jouw code van boven naar beneden. Als je de laatste regel als eerste zou neerzetten, dan ziet het er zo uit:
+Op de derde regel wordt de nieuwe naam `winst` zelfs gekoppeld aan het resultaat van een berekening. Een berekening op basis van eerder gedefinieerde namen. Het is hierbij belangrijk om te letten op de **volgorde** van de regels code. Python interpreteert jouw code van boven naar beneden. Als je de laatste regel als eerste zou neerzetten, dan ziet het er zo uit:
 
-	print profit
-	income = 230
-	expense = 170
-	profit = income - expense
-
-Nu krijg je een `NameError` zodra je het programma uitvoert. Want de naam `profit` is nog niet bekend (*defined*) op regel 1; die wordt pas bekend gemaakt op regel 4.
+	print winst
+	inkomen = 230
+	uitgaves = 170
+	winst = inkomen - uitgaves
+	
+Nu krijg je een `NameError` zodra je het programma uitvoert. Want de naam `winst` is nog niet bekend (*defined*) op regel 1; die wordt pas bekend gemaakt op regel 4.
 
 Ten slotte kun je een oude naam ook een nieuwe waarde geven:
 
-	income = 170
-	income = income - 10
-	print income
+	inkomen = 170
+	inkomen = inkomen - 10
+	print inkomen
 
-In feite verander je dus op regel 2 van dit voorbeeld `income` door er 10 van af te trekken. Dat resultaat is dan ook zichtbaar als je het programma uitvoert.
+In feite verander je dus op regel 2 van dit voorbeeld `inkomen` door er 10 van af te trekken. Dat resultaat is dan ook zichtbaar als je het programma uitvoert.
 
 ## Types
 
