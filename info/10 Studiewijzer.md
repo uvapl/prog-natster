@@ -35,39 +35,40 @@ Wat willen we dat je kunt aan het einde van deze cursus?
 ## Opdrachten
 
 Vanaf de eerste dag van de cursus ga je oefenen met het omzetten van een idee
-voor een programma naar werkende Python-code. Per module doe je kleine
-oefeningen, en pak je wat grotere opdrachten aan. Het geheel lever je aan het
-einde van de module in, en dan wordt het beoordeeld:
+voor een programma naar werkende Python-code. Per module doe je eerst wat kleine
+oefeningen om de nieuwe programmeer elementen onder de knie te krijgen en ga je 
+daarna aan de slag met wat grotere opdrachten. Aan het eind van de module lever 
+je alles digitaal in. Dat wordt beoordeeld:
 
 * Omvang --- heb je alle opdrachten geprobeerd of heb je dingen overgeslagen?
   Heb je alles precies gedaan zoals de omschrijving vereist?
 
-* Stijl --- hoe ordelijk en leesbaar is je code? Dit kan een zwaarwegende factor worden!
+* Stijl --- hoe ordelijk en leesbaar is je code? Dit kan een belangrijke component 
+in de beoordeling zijn!
 
 ## Dagelijks ritme
 
-De opdrachten zijn ingedeeld in blokken van één practicum dag. De bedoeling is dat elk blok gemiddeld een uur of vier aan werk is. Mocht je het niet afhebben, dan is het de bedoeling dat je de opdracht thuis nog af maakt. Kom je in de problemen? Neem dan contact op!
+De opdrachten zijn ingedeeld in blokken van een dagdeel. De bedoeling is dan ook dat je voor elk blok gemiddeld een uur of vier aan werk bent. Als je niet alles af hebt aan het eind van het practicul maak dan de opdracht thuis af. Kom je in de problemen? Neem dan contact op!
 
 ## Aanwezigheid
 
-De bedoeling is dat je op alle practicumuren aanwezig bent. Wij leren je namelijk ter plaatse nog dingen die je niet in je eentje kunt leren: bijvoorbeeld het opsporen en verbeteren van fouten in je programma's.
+De bedoeling is dat je tijdens alle practicumuren aanwezig bent. Wij leren je namelijk ter plaatse nog dingen die je niet in je eentje kunt leren zoals het opsporen en verbeteren van fouten in je programma's bijvoorbeeld.
 
 ## Deadline
 
-De deadline is op de dag van het laatste werkcollege van de module, in de groep
-waarin je ingedeeld bent. Op dat moment wordt het ingeleverde werk verdeeld
-onder de nakijkers en gaan zij aan de slag. Er is geen mogelijkheid om het
-later in te leveren! Lever dus sowieso in wat je hebt! Het is prima om, voor je
-instuurt, de assistent nog even te vragen naar je opgave te kijken, zodat je
-nog verbeteringen kunt aanbrengen.
+De deadline voor het inleveren van alle code is aan het eind van de dag van het laatste 
+practicum die jouw groep heeft voor die module. Op dat moment wordt het ingeleverde werk 
+verdeeld onder de nakijkers en gaan zij aan de slag. Er is geen mogelijkheid om het later 
+in te leveren! Lever dus sowieso in wat je hebt! Het is prima om, voor je instuurt, de 
+assistent nog even te vragen naar je opgave te kijken, zodat je nog verbeteringen kunt aanbrengen.
 
 ## Tentamen
 
-Omdat het mogelijk is ongemerkt mee te liften met een medestudent tijdens het
-maken van de practica (als je steevast overlegt over de manier van code
-schrijven), checken we met behulp van het tentamen nog een keer of je
-zelfstandig de leerdoelen van het vak gehaald hebt. Je moet het tentamen voldoende 
-maken, maar het telt verder niet mee.
+Hoewel het niet toegestaan is zou het mogelijk kunnen zijn om ongemerkt mee te liften met 
+een medestudent tijdens het maken van de practica (als je steevast overlegt over de manier 
+van code schrijven). Om zeker te zijn dat je zelfstandig de leerdoelen van het vak hebt gehaald 
+sluiten we het vakl af met een (individueel) tentamen. Je moet het tentamen voldoende 
+maken, maar het telt niet mee voor het eindcijfer.
 
 ## Eindcijfer
 
