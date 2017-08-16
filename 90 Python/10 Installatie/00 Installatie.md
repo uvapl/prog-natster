@@ -1,6 +1,6 @@
 # Installeren
 
-Python is zelf een programma, en moet je dus installeren op je eigen computer. Hieronder vind je de instructies. Zit je vast? Stuur gerust een [mailtje](mailto:inleiding@mprog.nl) en we helpen je verder.
+Python is zelf een programma, en moet je dus installeren op je eigen computer. Hieronder vind je de instructies. Zit je vast? Stuur gerust een [mailtje](mailto:progns@mprog.nl) en we helpen je verder.
 
 ## Om te beginnen
 
