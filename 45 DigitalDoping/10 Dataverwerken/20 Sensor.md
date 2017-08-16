@@ -4,7 +4,7 @@ Een mobiele telefoon bevat veel delicate sensoren die informatie verzamelen over
 
 In deze opgave gaan we aan de slag met een data-set die verzameld is tijdens een fietsrit in het groene hart. De sensordata is beschikbaar in de file `FietsRitData.csv` en is te downloaden  via de volgende link:
 
-<http://www.nikhef.nl/~ivov/Python/SensorData/AutoRitData.csv>
+<http://www.nikhef.nl/~ivov/Python/SensorData/FietsRitData.gpx>
 
 Bovenin de file staat kort welke informatie elk veld bevat. Dit is typisch hoe je een databestand binnen krijgt: in een formaat dat snel automatisch te lezen is, maar soms ontbreken duidelijke omschrijvingen van wat het nu precies allemaal is. Toch moet je wel aardig kunnen afleiden wat je er mee kunt. (Probeer dus ook eerst zelf wijs te worden uit het bestand voordat je met anderen in discussie gaat hierover. Goede oefening!)
 
