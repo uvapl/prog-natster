@@ -20,7 +20,7 @@ In deze module gaan we bestuderen hoe we de beweging van vallende objecten kunne
 
 1. Leer hoe je [animaties](/python/animaties) maakt in Python
 
-2. <span class="label label-primary">Opdracht</span> De [spriraliserende stip](/beweging/stip)
+2. <span class="label label-primary">Opdracht</span> De [spiraliserende stip](/beweging/stip)
 
 3. <span class="label label-primary">Opdracht</span> Laat zien hoe een [dronken student](/beweging/student) beweegt
 
