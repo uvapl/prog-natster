@@ -1,4 +1,4 @@
-# Module 4: data-analyse / big data
+# Module 4: data-analyse - big data
 
 In deze module gaan we leren hoe we informatie uit een grote data-set halen. 
 

@@ -1,4 +1,4 @@
-# prooi-predator
+# Module 3: simulaties - prooi-predator
 
 In deze module gaan we de populatiedynamica van 25 konijnen en 2 vossen die in een afgesloten bos leven simuleren. Een klassiek prooi-predator model met verschillende elementen en een animatie.
 
