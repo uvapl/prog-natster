@@ -5,16 +5,16 @@ Een **waarde** is een van de basale onderdelen in een programma. In de voorbeeld
 Om resultaten van berekeningen te kunnen gebruiken in andere berekeningen, moeten we deze tijdelijk op zien te slaan. Als oplossing laat Python je namen toekennen aan waardes. Deze naam-waarde combinaties noemen we **variabelen**. Door middel van de `=` operator kunnen we een naam toekennen aan een waarde, en deze vervolgens ergens anders gebruiken. Hier is bijvoorbeeld een programma waar drie keer een `=` wordt gebruikt om een naam aan een waarde te koppelen:
 
 	inkomen = 230
-	uitgaves = 170
-	winst = inkomen - uitgaves
+	uitgave = 170
+	winst = inkomen - uitgave
 	print winst
 
 Op de derde regel wordt de nieuwe naam `winst` zelfs gekoppeld aan het resultaat van een berekening. Een berekening op basis van eerder gedefinieerde namen. Het is hierbij belangrijk om te letten op de **volgorde** van de regels code. Python interpreteert jouw code van boven naar beneden. Als je de laatste regel als eerste zou neerzetten, dan ziet het er zo uit:
 
 	print winst
 	inkomen = 230
-	uitgaves = 170
-	winst = inkomen - uitgaves
+	uitgave = 170
+	winst = inkomen - uitgave
 	
 Nu krijg je een `NameError` zodra je het programma uitvoert. Want de naam `winst` is nog niet bekend (*defined*) op regel 1; die wordt pas bekend gemaakt op regel 4.
 
