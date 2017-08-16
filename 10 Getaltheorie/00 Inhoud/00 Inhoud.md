@@ -11,8 +11,9 @@ div.embed
 ![embed](https://www.youtube.com/embed/ckBjNYTY5jo)
 </div>
 
-In deze module gaan we op een aantal manieren ideeën uit de getaltheorie testen
-met de computer. Met de hand is het nagaan van de theorie vaak monnikenwerk, en de computer neemt dit fijn uit handen. Wiskundige intuïtie vereist!
+In deze module gaan we eerst Python installeren op de laptop en daarna aan de slag om een aantal ideeën en stellingen uit de getaltheorie te testen met behulp van een computer. Zelfs voor de meest eenvoudige 
+stellingen is het met de hand uitwerken van triviale stappen een monnikenwerk. Het is handig als een computer 
+je die 'domme' stappen uit handen neemt en jij je kan focussen op het slimme denkwerk zelf. Wiskundige intuïtie vereist!
 
 Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalbers promoveren bij het [Nikhef](http://www.nikhef.nl/) en vertellen over hun ervaring met programmeren en simuleren bij hun onderzoek.
 
