@@ -9,7 +9,9 @@ Implementeer een programma dat op verzoek het n-de priemgetal genereert.
 
 Zoals gezegd is een computer geweldig in het snel uitvoeren van een heleboel "domme" stappen. Een voorbeeld waar een computer zó veel effectiever is dan een enkele persoon, is het uitrekenen van priemgetallen. De definitie van een priemgetal is niet al te ingewikkeld. Maar bepalen hoeveel delers een willekeurig getal heeft kan ontzettend veel tijd kosten. Python to the rescue!
 
-We zullen dit heel vaak herhalen omdat het niet vaak genoeg gezegd kan worden. Bedenk voor je gaat programmeren eerst met pen en papier hoe je het probleem aan gaat pakken. In dit geval kan je je bijvoorbeeld afvragen hoe je weet dat 15 geen priemgetal is en 17 juist wel en hoe je zelf uit gaat vissen of 157 nou wel of niet een priemgetal is. Als je rustig bedenkt welke stappen je moet doorlopen kan je het daarna omzetten in computercode. Jij moet de computer namelijk precies vertellen wat hij moet doen.  
+We zullen dit heel vaak herhalen omdat het niet vaak genoeg gezegd kan worden. Neem *voor* je gaat programmeren eerst een paar minuten om *met pen en papier* te bekijken hoe je zelf het probleem aan zou pakken. De logische stappen. In deze opdracht kan je je bijvoorbeeld afvragen hoe je zeker weet dat 15 geen priemgetal is en 17 juist wel en hoe je zelf uit gaat vissen of 157 nou wel of niet een priemgetal is. Als je eenmaal bedacht hebt welke stappen je moet doorlopen om deze vraag te beantwoorden kan je het daarna omzetten in Python code en het de computer uit laten voeren. 
+
+Begin ook altijd simpel zodat je precies begrijpt welke stappen de computer neemt. Voeg pas 'slimme' dingen toe als je programma werkt. Onderaan deze pagina staan een aantal wiskunde tips. Het is goed om te bedenken dat deze slimmigheden door *jou* toegevoegd moeten worden. De computer kan dat niet zelf.
 
 
 ## Specificatie
