@@ -39,7 +39,7 @@ Laten we het meteen maar eens uitproberen met ons programma `hello.py`. Voer het
 
 	python hello.py
 
-Druk op **ENTER** om de opdracht te starten. En inderdaad, jouw eerste (werkende) programma!
+Druk op **ENTER** om de opdracht te starten. De computer kijkt in de file `hello.py` en ziet welke commando's hij uit moet voeren. In dit geval maar een enkele regelen die zegt dat de computer de tekst "Hello, world" op het scherm moet printen. Als het goed is doet de computer dat braaf. En Kijk, jouw eerste (werkende) programma is een feit!
 
 
 ## checkpy
