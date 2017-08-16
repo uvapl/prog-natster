@@ -13,11 +13,11 @@ De cursus is bedoeld voor mensen die nog helemaal geen ervaring hebben met progr
 Ivo van Vulpen (Nikhef/UvA)  
 Martijn Stegeman (UvA)
 
-Mail bij voorkeur naar <progns@mprog.nl> als je praktische vragen hebt of problemen wil melden. Als we bij het practicum zijn, kun je ons natuurlijk ook aanspreken!
+Mail bij voorkeur naar <progns@mprog.nl> als je praktische vragen hebt of problemen wil melden. Als we bij het practicum zijn, kun je ons natuurlijk ook gewoon direct aanspreken!
 
 ## Assistenten
 
-Tijdens de practica van dit vak staan de assistenten voor je klaar en je kunt bij ze terecht met vragen over het programmeren, maar ook over de nagekeken opdrachten en tips over het vak.
+Tijdens de practica van dit vak staan de assistenten voor je klaar. Je kunt bij ze terecht met vragen over het programmeren zelf, maar ook over vragen over de feedback op de opdrachten die je hebt ingeleverd of tips over het vak.
 
 ![embed](https://player.vimeo.com/video/137376570)
 
@@ -25,12 +25,12 @@ Tijdens de practica van dit vak staan de assistenten voor je klaar en je kunt bi
 
 Wat willen we dat je kunt aan het einde van deze cursus?
 
-* Je kunt een omschrijving van een programma omzetten naar werkende code.
-* Je kunt bijgeleverde bibliotheken gebruiken in je eigen programma's.
+* Je kunt een omschrijving van een programma omzetten naar werkende code
+* Je kunt bijgeleverde bibliotheken gebruiken in je eigen programma's
 * Je kunt code overzichtelijk en beter leesbaar maken door een
-  consistente stijl toe te passen.
-* Je kunt programmeerfouten opsporen en verbeteren.
-* Je kunt uitleggen hoe je een aantal numerieke technieken als programma kunt implementeren.
+  consistente stijl toe te passen
+* Je kunt programmeerfouten opsporen en verbeteren
+* Je kunt uitleggen hoe je een aantal numerieke technieken als programma kunt implementeren
 
 ## Opdrachten
 
