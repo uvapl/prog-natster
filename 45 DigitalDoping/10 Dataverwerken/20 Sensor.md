@@ -1,16 +1,14 @@
 # Opdracht: Sensordata 
     
-Een mobiele telefoon bevat veel delicate sensoren die informatie verzamelen over de positie, snelheid, versnelling. We hebben gedurende een korte auto-rit de data opgeslagen en in een file weggeschreven met een frequentie van 1[Hz]. Het verzamelen van de data begon toen de auto zich bevond op de plek waar de snelweg A4 op de ringweg A10 aansluit. Het verzamelen van de data stopte toen de auto op het Nikhef was aangekomen.
+Een mobiele telefoon bevat veel delicate sensoren die informatie verzamelen over de positie, snelheid, versnelling. Een van de manieren waarop mensen die data gebruiken is met sporten. Er zijn veel apps die mensen gebruiken om hun hardloopprestaties bij te houden, maar in deze opgave gaan we specifiek aan de slag met de app die veel gebruikt wordt door mensen op de racefiets. Jullie kennen ze wel, de groep van (net even iets te dikke) mannen van in de veertig die zichzelf twee keer per week in een fietspak hijsen en zo, vaak tevergeefs, hun conditie op peil proberen te houden door met de racefiets eropuit te trekken. De meest populaire app om die ritten bij te houden is is Strava.
 
-![](KaartAmsterdamKlein.png)
-
-De sensordata is beschikbaar in de file `AutoRitData.csv` en is te downloaden  via de volgende link:
+In deze opgave gaan we aan de slag met een data-set die verzameld is tijdens een fietsrit in het groene hart. De sensordata is beschikbaar in de file `FietsRitData.csv` en is te downloaden  via de volgende link:
 
 <http://www.nikhef.nl/~ivov/Python/SensorData/AutoRitData.csv>
 
 Bovenin de file staat kort welke informatie elk veld bevat. Dit is typisch hoe je een databestand binnen krijgt: in een formaat dat snel automatisch te lezen is, maar soms ontbreken duidelijke omschrijvingen van wat het nu precies allemaal is. Toch moet je wel aardig kunnen afleiden wat je er mee kunt. (Probeer dus ook eerst zelf wijs te worden uit het bestand voordat je met anderen in discussie gaat hierover. Goede oefening!)
 
-Schrijf een programma **autorit.py** dat de file doorloopt, de data verwerkt en beantwoord de volgende vragen.
+Schrijf een programma **fietsrit.py** dat de file doorloopt, de data verwerkt en beantwoord de volgende vragen.
 
 ## Afgelegde afstand
 
