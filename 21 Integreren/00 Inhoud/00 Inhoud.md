@@ -5,7 +5,7 @@ div.embed
 }
 </style>
 
-# Integreren
+# Module 2: numeriek ntegreren
 
 <div style="width: 40%; float:right; margin-left: 2em;">
 ![embed](https://www.youtube.com/embed/dPkO2F-0g6c)
