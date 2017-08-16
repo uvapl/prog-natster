@@ -64,7 +64,8 @@ nog verbeteringen kunt aanbrengen.
 Omdat het mogelijk is ongemerkt mee te liften met een medestudent tijdens het
 maken van de practica (als je steevast overlegt over de manier van code
 schrijven), checken we met behulp van het tentamen nog een keer of je
-zelfstandig de leerdoelen van het vak gehaald hebt. Je moet het tentamen voldoende maken, maar het telt verder niet mee.
+zelfstandig de leerdoelen van het vak gehaald hebt. Je moet het tentamen voldoende 
+maken, maar het telt verder niet mee.
 
 ## Eindcijfer
 
@@ -76,7 +77,7 @@ Je krijgt een eindcijfer voor dit vak als je:
 
 Het eindcijfer bestaat in de basis uit het gemiddelde van de problem sets. Een
 klein deel van het cijfer wordt bepaald door hoe je beter bent gaan
-programmeren tijdens het vak (de voortgang dus!).
+programmeren tijdens het vak (de voortgang zelf dus!).
 
 ## Samenwerken, fraude en plagiaat
 
