@@ -41,7 +41,7 @@ Tijdens het inlezen van elke regel kan je een test uitvoeren of er een bepaalde 
 *Let op:* zodra je het stukje regel hebt herkent waar de latitude is opgeslagen herkent de computer dit nog steeds al tekst en niet als getal. Gebruik de functie float() om dat stukje van de regel ook echt om te zetten in een getal voor je het opslaat in de lijst. Zo kan je er verderop in het programma ook mee rekenen.
 
 
-## Opdracht 2: grafiek van de snelheid als functie van de tijd
+## Opdracht 2: afgelegde afstand en de grafiek van de snelheid als functie van de tijd
 
 Maak een extra lijst waarbij je op elk moment de snelheid vastlegt. Begin met een snelheid van 0 en reken uit
 
@@ -49,13 +49,19 @@ Maak een grafiek van de snelheid als functie van de tijd, waarbij de tijd weerge
 
 Print naar het scherm:
     De maximale snelheid was x.xx km/uur en werd gereden xxx seconden na de start van de rit 
+    De maximale snelheid was x.xx km/uur en werd gereden xxx seconden na de start van de rit 
+    De maximale snelheid was x.xx km/uur en werd gereden xxx seconden na de start van de rit 
 
 ### Computing tips:
 
-	- verzamelen van de 
-	ruiohfihe;lrvh
-	e';fojw	v'ojer'voj
+	- de lijst met meettijden (in seconden na het begin van de rit)
+      als je de regel met de tijdstippen hebt gedecodeerd (uur, minuten en seconden) is het handig om die om te rekenen naar een aantal secondes sinds het begin van de dag. Dit maakt het namelijk eenvoudig om het verschil tussen verschillende meetmomenten te berekenen. Als je eenmaal het eerste tijdstip hebt gevonden kan je dat definieren als t=0 en dan kan je vervolgens voor elke meting de tijd ten opzichte van dat startpunt bepalen en in een lijst opslaan.
+    - de lijst met snelheden 
+    Zodra je vanuit de datafile alle posities en tijden hebt ingelezen kan je de file sluiten. Je hebt dan alle informatie die je nodig hebt. We nemen aan dat de fietser stilstond op t=0 en kunnen voor elk volgend tijdstip zijn snelheid uitrekenen die hij had tussen het vorige meetpunt en het huidige. We hebben immers de twee posities (en dus de afgelegde weg) en het tijdsverschil tussen de twee meetpunten.
+    - de lijst met totaal afgelegde afstand
+     tijdens het (opnieuw) doorlopen van de lijsten om de snelheidslijst te vullen kan je nu ook de totale (tot nu toe) afgelegde weg bijhouden. 
 
+        
 
 
 ## Opdracht 3: afgelegde route op het scherm printen met extra informatie
