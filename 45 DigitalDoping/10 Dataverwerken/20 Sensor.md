@@ -99,7 +99,7 @@ tijdstip. Als we namelijk bij meetpunt *i* zijn aangekomen weten we zowel de afg
 snelheid tijdens dit stukje van de route. Berekende alle snelheden en sla ze op in een lijst.
 
 **Let op:** 
-Neem aan dat dat de fietser stilstond op t=0. Het eerste element in de lijst met snelheden is 0.
+De fietser stond stil op t=0. Het eerste element in de lijst met snelheden is dus 0.
 
     - stap 3: de lijst met afgelegde afstanden
 
