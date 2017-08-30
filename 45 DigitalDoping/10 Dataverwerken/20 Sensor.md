@@ -1,16 +1,24 @@
-# Opdracht: Sensordata verwerken 
-    
-test
+# Opdracht: Sensordata verwerken  
 
-![](StravaLogo.png){:.inline}{: style="width:5%"}
+![](StravaLogo.png){:.inline}{: style="width:8%"}
 
-Een mobiele telefoon bevat veel dlsensoren die informatie verzamelen over de positie, snelheid, versnelling. Een van de manieren waarop mensen die data gebruiken is met sporten. Er zijn veel apps die mensen gebruiken om hun hardloopprestaties bij te houden, maar in deze opgave gaan we specifiek aan de slag met de app die veel gebruikt wordt door mensen op de racefiets. Jullie kennen ze wel, de groep van (net even iets te dikke) mannen van in de veertig die zichzelf twee keer per week in een fietspak hijsen en zo, vaak tevergeefs, hun conditie op peil proberen te houden door met de racefiets eropuit te trekken. De meest populaire app om die ritten bij te houden is is Strava.
+Een mobiele telefoon bevat enorm nauwkeurige sensoren om grootheden als positie, snelheid, versnelling etc vast te leggen. Naast navigatie wordt dit ook toegepast in allerlei apps die voor sporten worden gebruikt. In deze opgave gaan we aan de slag met de data die verzameld wordt in de app die door de meeste wielrenners gebruikt wordt: Strava. Na de rit kan je in de app allerlei gegevens over je rit terugkijken: de projectie van de route op een interactieve kaart, de gemiddelde snelheid, het hoogteprofiel, records op kleine stukken etc etc. We gaan in deze opgave een paar van deze dingen namaken en, niet verder vertellen, een deel van de data manipuleren: digitale doping.
 
-In deze opgave gaan we aan de slag met een data-set die verzameld is tijdens een fietsrit in het groene hart. De sensordata is beschikbaar in de file `FietsRitData.csv` en is te downloaden  via de volgende link:
+Onze data-set is een fietsrit in de buurt van Leiden die een natuurkundige aan de universiteit van Amsterdam maakte samen met zijn buurman. De data-file zoals die door de app gebruikt wordt is te downloaden via de volgende link:
 
 <http://www.nikhef.nl/~ivov/Python/SensorData/FietsRitData.gpx>
 
-Bovenin de file staat kort welke informatie elk veld bevat. Dit is typisch hoe je een databestand binnen krijgt: in een formaat dat snel automatisch te lezen is, maar soms ontbreken duidelijke omschrijvingen van wat het nu precies allemaal is. Toch moet je wel aardig kunnen afleiden wat je er mee kunt. (Probeer dus ook eerst zelf wijs te worden uit het bestand voordat je met anderen in discussie gaat hierover. Goede oefening!)
+De eerste regels van de file bevatten wat tekst, maar daarna wordt het interessant. Er worden (ongeveer) elke seconde drie zaken vastgelegd: positie, hoogte (elevation) en de tijd. Dit is genoeg informatie om de rest te berekenen. In het plaatje hiernaast zie je een kleine preview van de eerste drie metingen die in de file te vinden zijn:
+
+
+![](DataFilePreview.png){:.inline}{: style="width:25%"}
+
+
+welke informatie elk veld bevat. Dit is typisch hoe je een databestand binnen krijgt: in een formaat dat snel automatisch te lezen is, maar soms ontbreken duidelijke omschrijvingen van wat het nu precies allemaal is. Toch moet je wel aardig kunnen afleiden wat je er mee kunt. (Probeer dus ook eerst zelf wijs te worden uit het bestand voordat je met anderen in discussie gaat hierover. Goede oefening!)
+
+
+
+
 
 Schrijf een programma **fietsrit.py** dat de file doorloopt, de data verwerkt en beantwoord de volgende vragen.
 
