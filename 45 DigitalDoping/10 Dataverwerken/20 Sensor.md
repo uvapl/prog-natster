@@ -96,7 +96,7 @@ Laat je programma ook berekenen hoe lang er onder de 20 kilometer per uur gerede
 
 Oud wielrenner Thijs Zonneveld lanceerde een paar jaar geleden het idee om een berg in Nederland te plaatsen. Geen grap hè, kijk maar: 
 
-![embed](https://www.youtube.com/embed/MVyWMS1Jj6M)
+![embed](https://www.youtube.com/embed/MVyWMS1Jj6M){: style="width:40%"}
 
 Nou zal dat geen Mount Everest worden, maar we dromen groot en houden van hoge klimpercentages dus laten we eens aannemen dat we de Matterhorn (4478 m) gaan nabouwen in het groene hart. Om te kijken hoe dat er op een Strava profiel uit zou zien en om een psychologische edge op zijn buurman te krijgen besluit de natuurkundige de data zo te faken dat het lijkt of hij al een berg zo hoog als de Matterhorn heeft geklommen tijdens dit zondagse ritje.
 
