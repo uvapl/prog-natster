@@ -8,8 +8,8 @@ gebruikt worden. In deze opdracht gaan we aan de slag met de data die verzameld 
 app die door wielrenners gebruikt wordt: Strava. Na het sporten kan je in detail je rit 
 terugkijken: de projectie van de route op een interactieve kaart, de gemiddelde snelheid, 
 het hoogteprofiel, records op vooraf gedefiniëerde stukken weg en nog veel meer. We gaan 
-in deze opgave een paar van deze dingen namaken en, niet verder vertellen, een deel van de 
-data manipuleren: digitale doping.
+in deze opgave zelf deze informatie uit de sensor-data halen en, niet verder vertellen, 
+proberen de data in de file te manipuleren: digitale doping.
 
 Onze data-set is een fietsrit die een natuurkundige aan de universiteit van Amsterdam maakte in de buurt van Leiden samen met zijn buurman. De data-file zoals die door de app gebruikt wordt is hier te downloaden: [FietsRitData.gpx](FietsRitData.gpx).
 
