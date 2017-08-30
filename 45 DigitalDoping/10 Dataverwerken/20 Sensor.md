@@ -18,13 +18,24 @@ Als je goed kikt zie je dat elk data-punt/meting bestaat in drie regels wordt we
 	2) de hoogte
 	3) de datum en tijd
 
-We gaan stap voor stap een programma **Strava.py** schrijven dat de volledige file doorloopt, de metingen uit de file decodeert en in afzonderlijke lijsten opslaat. We doen dat aan de hand van de volgende opdrachten:
+We gaan stap voor stap een programma **Strava.py** schrijven dat de volledige file doorloopt, de metingen uit de file decodeert en in afzonderlijke lijsten opslaat. We doen dat aan de hand van de onderstaande opdrachten.
 
 ## Afgelegde route op het scherm
 
-Maak een functie **Fietsrit()** je Schrijf een programma **Strava.py** dat de volledige file doorloopt, de x-positie en y-positie van elke meting in twee afzonderlijke lijsten opslaat en er een grafiek van maakt op het scherm.
+Maak een functie **Fietsrit()** die de file opent, alle metingen doorloopt en voor elk punt de positie bijhoudt in twee afzonderlijke lijsten: de latitude en de longitude. Maak aan het eind  een grafiek van de meetpunten. Orienteer het zo dat het op een kaart van Google maps geprojecteerd zou kunnen worden, dus het noorden netjes in het noorden etc.
 
-Tips:
+Schrijf een programma **Strava.py** dat de volledige file doorloopt, de x-positie en y-positie van elke meting in twee afzonderlijke lijsten opslaat en er een grafiek van maakt op het scherm.
+
+### Computing tips:
+
+Tijdens het inlezen van elke regel kan je een test uitvoeren of er een bepaalde string in de regel voorkomt. Als je de file bekijkt zie je dat je de regel met de positie kan herkennen door de lettervolgorde *<trkpt*. Zodra je de regel 'herkend' hebt moet je natuurlijk zelf op de juiste manier de posities herkennen om de
+
+       if "<trkpt" in line: 
+           latitude = ....
+           longitude = ....
+
+*Let op:* zodra je het stukje regel hebt herkent waar de latitude is opgeslagen herkent de computer dit nog steeds al tekst en niet als getal. Gebruik de functie float() om dat stukje van de regel ook echt om te zetten in een getal voor je het opslaat in de lijst. Zo kan je er verderop in het programma ook mee rekenen.
+
 
 
 
