@@ -20,7 +20,7 @@ Als je goed kijkt zie je dat elk data-punt/meting bestaat in drie regels wordt w
 
 We gaan stap voor stap een programma **Strava.py** schrijven dat de volledige file doorloopt, de metingen uit de file decodeert en in afzonderlijke lijsten opslaat. We doen dat aan de hand van de onderstaande opdrachten.
 
-## Opdracht 1: de afgelegde route op het scherm
+## Opdracht 1: teken de route op het scherm
 
 Maak een functie **Fietsrit()** die de file opent, alle metingen doorloopt en voor elk punt de positie bijhoudt in twee afzonderlijke lijsten: de latitude en de longitude. Maak aan het eind  een grafiek van de meetpunten. Orienteer het zo dat het op een kaart van Google maps geprojecteerd zou kunnen worden, dus het noorden netjes in het noorden etc.
 
@@ -41,16 +41,14 @@ Tijdens het inlezen van elke regel kan je een test uitvoeren of er een bepaalde 
 *Let op:* zodra je het stukje regel hebt herkent waar de latitude is opgeslagen herkent de computer dit nog steeds al tekst en niet als getal. Gebruik de functie float() om dat stukje van de regel ook echt om te zetten in een getal voor je het opslaat in de lijst. Zo kan je er verderop in het programma ook mee rekenen.
 
 
-## Opdracht 2: afgelegde afstand en snelheidsgrafiek
+## Opdracht 2: totaal afgelegde afstand en snelheidsgrafiek
 
-Maak een grafiek van de snelheid als functie van de tijd, waarbij de tijd weergegeven is als aantal seconden na het begin van de rit. Geef ook in de grafiek duidelijk aan wat de maximale snelheid was: groene stip op het juiste tijdstip op de plek van de hoogste snelheid.
+Maak een grafiek van de snelheid als functie van de tijd, waarbij de tijd weergegeven is als aantal seconden na het begin van de rit. Geef ook in de grafiek duidelijk aan wat de maximale snelheid was: groene stip op het juiste tijdstip op de plek van de hoogste snelheid. Laat je programma ook deze grootheden printen.
 
-Print ook naar het scherm:
-
-
-	- Rit: de totale duur van de rit was x uur, y minuten en z seconden
-	- Rit: de totaal afgelegde weg was x.x km
-	- Rit: de gemiddelde snelheid was xx.x km/uur
+	Rit: de totale duur van de rit was x uur, y minuten en z seconden
+	Rit: de totaal afgelegde weg was x.x km
+	Rit: de gemiddelde snelheid was xx.x km/uur
+	Rit: de maximum snelheid was xx.x km/uur en werd gereden x seconden na de start van de rit
         
 ### Stappenplan:
 
