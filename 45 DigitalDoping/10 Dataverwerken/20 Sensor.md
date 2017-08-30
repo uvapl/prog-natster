@@ -78,7 +78,13 @@ Teken opnieuw de grafiek van de afgelegde route (net als in opdracht 1), maar vo
 	- rode bolletjes waar de snelheid lager was dan 20 km/uur
 
 
-![](RitkaartWebsite.png){:.inline}{: style="width:50%"}
+![](RitkaartWebsite.png){:.inline}{: style="width:80%"}
+
+
+
+
+
+
 
 
 Laat je programma ook berekenen hoe lang er onder de 20 kilometer per uur gereden is. Print dus: 
