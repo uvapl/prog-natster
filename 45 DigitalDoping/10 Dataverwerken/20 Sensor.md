@@ -81,16 +81,15 @@ Teken opnieuw de grafiek van de afgelegde route (net als in opdracht 1), maar vo
 ![](RitkaartWebsite.png){:.inline}{: style="width:80%"}
 
 
+Laat je programma ook berekenen hoe lang er onder de 20 kilometer per uur gereden is. 
 
-
-
-
-
-Laat je programma ook berekenen hoe lang er onder de 20 kilometer per uur gereden is. Print dus: 
+Print dus: 
 
 	Er is gedurende x seconden langzamer gereden dan 20 km/uur
 	
-## Opdracht 4: Nederlandse col van de buitencategorie
+
+
+## Opdracht 4: Fake data: Nederlandse col van de buitencategorie
 
 Oud wielrenner Thijs Zonneveld lanceerde een paar jaar geleden het idee om een berg in Nederland te plaatsen. Geen grap hè, kijk maar: 
 
