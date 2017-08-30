@@ -148,7 +148,7 @@ zijn rit zo te manipuleren dat het lijkt of hij al een berg zo hoog als de Matte
 heeft geklommen tijdens dit zondagse ritje door het groene hart. We doen dat in twee afzonderlijke
 stappen.
  
-### Opdracht 4a: teken het oorspronkelijke hoogteprofiel van de rit
+### Opdracht 4a: hoogteprofiel
 
 Naast de locatie en de tijd is ook de hoogte opgeslagen op elk meetpunt. Sla ook die data op 
 in een lijst en teken de grafiek van de hoogte als functie van de tijd (weer in seconden sinds 
