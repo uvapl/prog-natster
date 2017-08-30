@@ -12,7 +12,7 @@ De eerste regels van de file bevatten wat tekst, maar daarna wordt het interessa
 
 ![](DataFilePreview.png){: style="width:40%"}
 
-Als je goed kikt zie je dat elk data-punt/meting bestaat in drie regels wordt weggeschreven:
+Als je goed kijkt zie je dat elk data-punt/meting bestaat in drie regels wordt weggeschreven:
 
 	1) positie in lengte- en breedtegraad 
 	2) de hoogte
@@ -20,11 +20,15 @@ Als je goed kikt zie je dat elk data-punt/meting bestaat in drie regels wordt we
 
 We gaan stap voor stap een programma **Strava.py** schrijven dat de volledige file doorloopt, de metingen uit de file decodeert en in afzonderlijke lijsten opslaat. We doen dat aan de hand van de onderstaande opdrachten.
 
-## Afgelegde route op het scherm
+## Opdracht 1: de afgelegde route op het scherm
 
 Maak een functie **Fietsrit()** die de file opent, alle metingen doorloopt en voor elk punt de positie bijhoudt in twee afzonderlijke lijsten: de latitude en de longitude. Maak aan het eind  een grafiek van de meetpunten. Orienteer het zo dat het op een kaart van Google maps geprojecteerd zou kunnen worden, dus het noorden netjes in het noorden etc.
 
-Schrijf een programma **Strava.py** dat de volledige file doorloopt, de x-positie en y-positie van elke meting in twee afzonderlijke lijsten opslaat en er een grafiek van maakt op het scherm.
+Schrijf een programma **Strava.py** dat de volledige file doorloopt, de x-positie en y-positie van elke meting in twee afzonderlijke lijsten opslaat en er een grafiek van maakt op het scherm. Geef het beginpunt aan met een grote groene stip en het eindpunt met een kleine rode. 
+
+Verderop in de opgave gaan we nog wat extra informatie toevoegen op het scherm. Hou dus iets ruimte over bij het tekenen van de grafiek.  Randen grafiek:
+	 longitude tussen 4.325 en 4.675
+	 latitude tussen 52.05 en 52.16
 
 ### Computing tips:
 
@@ -37,20 +41,24 @@ Tijdens het inlezen van elke regel kan je een test uitvoeren of er een bepaalde 
 *Let op:* zodra je het stukje regel hebt herkent waar de latitude is opgeslagen herkent de computer dit nog steeds al tekst en niet als getal. Gebruik de functie float() om dat stukje van de regel ook echt om te zetten in een getal voor je het opslaat in de lijst. Zo kan je er verderop in het programma ook mee rekenen.
 
 
+## Opdracht 2: grafiek van de snelheid als functie van de tijd
+
+Maak een extra lijst waarbij je op elk moment de snelheid vastlegt. Begin met een snelheid van 0 en reken uit
+
+Maak een grafiek van de snelheid als functie van de tijd, waarbij de tijd weergegeven is als aantal seconden na het begin van de rit. Geef ook in de grafiek duidelijk aan wat de maximale snelheid was: groene stip op het juiste tijdstip op de plek van de hoogste snelheid.
+
+Print naar het scherm:
+   'De maximale snelheid was x.xx km/uur en werd gereden xxx seconden na de start van de rit' 
+
+
+### Computing tips:
 
 
 
-Maak een grafiek van de positie van de auto en kleur de route groen (rood) op de stukken van de route waar de snelheid van de auto meer (minder) was dan 50 km/uur.
+
+## Opdracht 3: afgelegde route op het scherm printen met extra informatie
 
 
-de data verwerkt en beantwoord de volgende vragen.
-
-
-
-
-## Afgelegde afstand
-
-Maak een grafiek van de snelheid van de auto (in km/uur) als functie van de tijd en gebruik de data om een schatting te maken van de totaal afgelegde weg.
 
 ## De afgelegde route
 
