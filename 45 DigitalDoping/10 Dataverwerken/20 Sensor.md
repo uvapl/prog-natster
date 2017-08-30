@@ -53,7 +53,10 @@ Print ook naar het scherm:
 ### Stappenplan:
 
 	- stap 1: lijst met meettijden (in seconden na het begin van de rit)
-als je de regel met de tijdstippen hebt gedecodeerd (uur, minuten en seconden) is het handig om die om te rekenen naar een aantal secondes sinds het begin van de dag. Dit maakt het namelijk eenvoudig om het verschil tussen verschillende meetmomenten te berekenen. Als je eenmaal het eerste tijdstip hebt gevonden kan je dat definieren als t=0 en dan kan je vervolgens voor elke meting de tijd ten opzichte van dat startpunt bepalen en in een lijst opslaan.
+
+als je de regel met de tijdstippen hebt gedecodeerd (uur, minuten en seconden) is het handig om die om te rekenen 
+naar een aantal secondes sinds het begin van de dag. Dit maakt het namelijk eenvoudig om het verschil tussen verschillende meetmomenten te berekenen. Als je eenmaal het eerste tijdstip hebt gevonden kan je dat definieren als t=0 en dan kan je vervolgens voor elke meting de tijd ten opzichte van dat startpunt bepalen en in een lijst opslaan.
+
     - de lijst met snelheden 
     Zodra je vanuit de datafile alle posities en tijden hebt ingelezen kan je de file sluiten. Je hebt dan alle informatie die je nodig hebt. We nemen aan dat de fietser stilstond op t=0 en kunnen voor elk volgend tijdstip zijn snelheid uitrekenen die hij had tussen het vorige meetpunt en het huidige. We hebben immers de twee posities (en dus de afgelegde weg) en het tijdsverschil tussen de twee meetpunten.
     - de lijst met totaal afgelegde afstand
