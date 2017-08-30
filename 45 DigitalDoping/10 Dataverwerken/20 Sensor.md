@@ -92,17 +92,20 @@ Laat je programma ook berekenen hoe lang er onder de 20 kilometer per uur gerede
 	
 ## Opdracht 4: Nederlandse col van de buitencategorie
 
-![](Matterhorn.jpg){:.inline}{: style="width:40%"}
-
 Oud wielrenner Thijs Zonneveld lanceerde een paar jaar geleden het idee om een berg in Nederland te plaatsen. Geen grap hè, kijk maar: 
 
 ![embed](https://www.youtube.com/embed/MVyWMS1Jj6M){: style="width:40%"}
+
+
 
 Nou zal dat geen Mount Everest worden, maar we dromen groot en houden van hoge klimpercentages dus laten we eens aannemen dat we de Matterhorn (4478 m) gaan nabouwen in het groene hart. Om te kijken hoe dat er op een Strava profiel uit zou zien en om een psychologische edge op zijn buurman te krijgen besluit de natuurkundige de data zo te faken dat het lijkt of hij al een berg zo hoog als de Matterhorn heeft geklommen tijdens dit zondagse ritje.
 
 ### Opdracht 4a: teken het echte hoogteprofiel van de rit
 
 Naast de locatie en de tijd is ook de hoogte opgeslagen op elk meetpunt. Sla ook die data op in een lijst en teken de grafiek van de hoogte als functie van de tijd (weer in seconden sinds het begin van de rit). 
+
+![](Matterhorn.jpg){:.inline}{: style="width:40%"}
+
 
 *Let op:* het kan erg verleidelijk zijn om op basis van de eerste paar regels te concluderen dat de hoogte is opgeslagen in een korte (3 karakters, nl X.Y) en dat te zien als X meter en Y decimeter boven zeeniveau. Nou klopt het dat je rond Leiden nooit boven de tien meter uitkomt, maar als je in de bergen gaat fietsen moet je er rekening mee houden dat het weergeven van de hoogte ruimte inneemt. Hoewel je niet van tevoren weet hoe hoog je zit weet je wel hoeveel karakters er *voor* de hoogte staan en ook hoeveel karakters er *achter* de hoogte staan. Je kan de hoogte dus zo wel uit de regel peuteren:
 
