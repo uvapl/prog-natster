@@ -48,11 +48,13 @@ Maak een extra lijst waarbij je op elk moment de snelheid vastlegt. Begin met ee
 Maak een grafiek van de snelheid als functie van de tijd, waarbij de tijd weergegeven is als aantal seconden na het begin van de rit. Geef ook in de grafiek duidelijk aan wat de maximale snelheid was: groene stip op het juiste tijdstip op de plek van de hoogste snelheid.
 
 Print naar het scherm:
-   'De maximale snelheid was x.xx km/uur en werd gereden xxx seconden na de start van de rit' 
-
+    De maximale snelheid was x.xx km/uur en werd gereden xxx seconden na de start van de rit 
 
 ### Computing tips:
 
+	- verzamelen van de 
+	ruiohfihe;lrvh
+	e';fojw	v'ojer'voj
 
 
 
