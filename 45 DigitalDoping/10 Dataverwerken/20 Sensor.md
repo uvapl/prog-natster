@@ -10,17 +10,32 @@ Onze data-set is een fietsrit in de buurt van Leiden die een natuurkundige aan d
 
 De eerste regels van de file bevatten wat tekst, maar daarna wordt het interessant. Er worden (ongeveer) elke seconde drie zaken vastgelegd: positie, hoogte (elevation) en de tijd. Dit is genoeg informatie om de rest te berekenen. In het plaatje hiernaast zie je een kleine preview van de eerste drie metingen die in de file te vinden zijn:
 
-
 ![](DataFilePreview.png){: style="width:40%"}
 
+Als je goed kikt zie je dat elk data-punt/meting bestaat in drie regels wordt weggeschreven:
 
-welke informatie elk veld bevat. Dit is typisch hoe je een databestand binnen krijgt: in een formaat dat snel automatisch te lezen is, maar soms ontbreken duidelijke omschrijvingen van wat het nu precies allemaal is. Toch moet je wel aardig kunnen afleiden wat je er mee kunt. (Probeer dus ook eerst zelf wijs te worden uit het bestand voordat je met anderen in discussie gaat hierover. Goede oefening!)
+	1) positie in lengte- en breedtegraad 
+	2) de hoogte
+	3) de datum en tijd
+
+We gaan stap voor stap een programma **Strava.py** schrijven dat de volledige file doorloopt, de metingen uit de file decodeert en in afzonderlijke lijsten opslaat. We doen dat aan de hand van de volgende opdrachten:
+
+## Afgelegde route op het scherm
+
+Maak een functie **Fietsrit()** je Schrijf een programma **Strava.py** dat de volledige file doorloopt, de x-positie en y-positie van elke meting in twee afzonderlijke lijsten opslaat en er een grafiek van maakt op het scherm.
+
+Tips:
 
 
 
 
+Maak een grafiek van de positie van de auto en kleur de route groen (rood) op de stukken van de route waar de snelheid van de auto meer (minder) was dan 50 km/uur.
 
-Schrijf een programma **fietsrit.py** dat de file doorloopt, de data verwerkt en beantwoord de volgende vragen.
+
+de data verwerkt en beantwoord de volgende vragen.
+
+
+
 
 ## Afgelegde afstand
 
