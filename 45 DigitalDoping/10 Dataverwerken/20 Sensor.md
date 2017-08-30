@@ -1,4 +1,4 @@
-# Opdracht: Sensordata verwerken  
+# Opdracht: sensordata verwerken  
 
 ![](StravaLogo.png){:.inline}{: style="width:8%"}
 
@@ -34,24 +34,35 @@ doen dat aan de hand van de onderstaande opdrachten.
 
 ## Opdracht 1: teken de route op het scherm
 
-Maak een functie `Fietsrit()` die de file opent, alle metingen doorloopt en voor elk punt de positie bijhoudt in twee afzonderlijke lijsten: de latitude en de longitude. Maak aan het eind  een grafiek van de meetpunten. Orienteer het zo dat het op een kaart van Google maps geprojecteerd zou kunnen worden, dus het noorden netjes in het noorden etc.
+Maak een functie `Fietsrit()` die de file opent, alle metingen doorloopt en voor elk meetpunt 
+de locatie opslaat in twee afzonderlijke lijsten: de latitude en de longitude. Maak aan het 
+eind een grafiek van de meetpunten. Oriënteer het zo dat het op een kaart van Google maps 
+geprojecteerd zou kunnen worden, dus het noorden netjes in het noorden.
 
-Schrijf een programma `Strava.py` dat de volledige file doorloopt, de x-positie en y-positie van elke meting in twee afzonderlijke lijsten opslaat en er een grafiek van maakt op het scherm. Geef het beginpunt aan met een grote groene stip en het eindpunt met een kleine rode. 
+Een paar extra randvoorwaarden voor het tekenen van de grafiek:
 
-Verderop in de opgave gaan we nog wat extra informatie toevoegen op het scherm. Hou dus iets ruimte over bij het tekenen van de grafiek.  Randen grafiek:
-	 longitude tussen 4.325 en 4.675
-	 latitude tussen 52.05 en 52.16
+	- Geef het beginpunt aan met een grote groene stip en het eindpunt met een kleine gele 
+	- Verderop in de opgave gaan we nog wat extra informatie toevoegen op het scherm. Hou 
+	  dus iets ruimte over bij het tekenen van de grafiek.  
+	  Randen grafiek:
+	     - longitude tussen 4.325 en 4.675
+	     - latitude tussen 52.05 en 52.16
 
-### Computing tips:
+### Computing tip:
 
-Tijdens het inlezen van elke regel kan je een test uitvoeren of er een bepaalde string in de regel voorkomt. Als je de file bekijkt zie je dat je de regel met de positie kan herkennen door de lettervolgorde *<trkpt*. Zodra je de regel 'herkend' hebt moet je natuurlijk zelf op de juiste manier de posities herkennen om de
+Tijdens het inlezen van elke regel kan je een test uitvoeren of er een bepaalde string in de 
+regel voorkomt. Als je de string *<trkpt* tegenkomt weet je bijvoorbeeld dat je de regel met 
+de positie aan het inlezen bent. Maar als je de regel 'herkend' hebt ben je er nog niet. Je 
+moet daarna nog de latitude en longitude, die op vaste posities zitten, uit de string 'peuteren'. 
 
        if "<trkpt" in line: 
            latitude = ....
            longitude = ....
 
-*Let op:* zodra je het stukje regel hebt herkent waar de latitude is opgeslagen herkent de computer dit nog steeds al tekst en niet als getal. Gebruik de functie float() om dat stukje van de regel ook echt om te zetten in een getal voor je het opslaat in de lijst. Zo kan je er verderop in het programma ook mee rekenen.
-
+*Let op:* zodra je het stukje regel hebt herkent waar de latitude is opgeslagen herkent de 
+computer dit nog steeds al tekst en niet als getal. Gebruik de functie `float()` om dat 
+stukje van de regel ook echt om te zetten in een getal voor je het opslaat in de lijst. Zo 
+kan je er verderop in het programma ook mee rekenen.
 
 ## Opdracht 2: totaal afgelegde afstand en snelheidsgrafiek
 
