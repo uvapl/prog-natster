@@ -41,7 +41,7 @@ Tijdens het inlezen van elke regel kan je een test uitvoeren of er een bepaalde 
 *Let op:* zodra je het stukje regel hebt herkent waar de latitude is opgeslagen herkent de computer dit nog steeds al tekst en niet als getal. Gebruik de functie float() om dat stukje van de regel ook echt om te zetten in een getal voor je het opslaat in de lijst. Zo kan je er verderop in het programma ook mee rekenen.
 
 
-## Opdracht 2: afgelegde afstand en de grafiek van de snelheid als functie van de tijd
+## Opdracht 2: afgelegde afstand en snelheidsgrafiek
 
 Maak een grafiek van de snelheid als functie van de tijd, waarbij de tijd weergegeven is als aantal seconden na het begin van de rit. Geef ook in de grafiek duidelijk aan wat de maximale snelheid was: groene stip op het juiste tijdstip op de plek van de hoogste snelheid.
 
@@ -59,23 +59,31 @@ Print ook naar het scherm:
 
 Als je de regel met de tijdstippen hebt gedecodeerd (uur, minuten en seconden) is het handig om die om te rekenen naar een aantal seconden sinds het begin van de dag. Dit maakt het daarna eenvoudig om het verschil tussen verschillende meetmomenten te berekenen. En om het helemaal makkelijk te maken kan je zodra je het eerste meetmoment hebt gevonden dat definieren als t=0. Elk meetpunt kan je daarna uitrekenen als verlopen tijd ten opzichte van dat tijdstip en dat zo in de lijst opslaan.
 
-    - maak de lijst met snelheden 
+    - stap 2: maak de lijst met snelheden 
 
 
 Zodra je vanuit de datafile alle posities en tijden hebt ingelezen kan je de file sluiten. Je hebt dan alle informatie die je nodig hebt en kan de 'afgeleide' informatie zelf uitrekenen. Wij gaan bijvoorbeeld de totale afgelegde weg en de lijst met snelheden op elk tijdstip uitrekenen. Als we bij meetpunt *i* zijn aangekomen weten we zowel de afgelegde weg (verschil tussen de twee posities) als het tijdsverschil en kunnen zo de snelheid op dit kleine interval berekenen. Sla de snelheden op elk meetpunt op in een lijst.
 
 *Let op:* we nemen aan dat de fietser stilstond op t=0, dus het eerste element in de lijst met snelheden is 0.
 
-    - de lijst met totaal afgelegde afstand
+    - stap 3: de lijst met afgelegde afstanden
 
 
 Tijdens het (opnieuw) doorlopen van de lijsten om de snelheidslijst te vullen kan je nu ook de totale (tot nu toe) afgelegde weg bijhouden in een lijst. Ook deze list begint met 0 op t=0.
 
         
+## Opdracht 3: afgelegde route met extra informatie
 
+Teken opnieuw de grafiek van de afgelegde route (net als in opdracht 1), maar voeg nu wat extra elementen toe:
 
-## Opdracht 3: afgelegde route op het scherm printen met extra informatie
+  	- geef de drie samenvattingen van de rit (duur, afgelegde weg en gemiddelde snelheid) weer in de grafiek
+  	- teken een groene stip op de route waar de maximale snelheid werd bepaald. Geef die snelheid ook weer op het scherm: in groene letters en in de buurt van de stip.
+  	- bekijk op welke plekken in de route de snelheid lager was dan 20 km/uur. Teken die posities met rode bolletjes op de route.
 
+Print ook op het scherm:
+
+	Er is gedurende x seconden langzamer gereden dan 20 km/uur
+	
 
 
 ## De afgelegde route
