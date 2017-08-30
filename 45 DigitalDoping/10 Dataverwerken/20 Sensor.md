@@ -73,9 +73,13 @@ Tijdens het (opnieuw) doorlopen van de lijsten om de snelheidslijst te vullen ka
 Teken opnieuw de grafiek van de afgelegde route (net als in opdracht 1), maar voeg nu wat extra elementen toe:
 
 
-	- geef de karakteristieken van de rit (duur, afgelegde weg en gemiddelde snelheid) weer in de grafiek
-	- teken een groene stip op de route waar de maximale snelheid werd behaald. Geef snelheid in groene letters in de buurt van de stip.
-	- teken rode bolletjes op de route waar de snelheid lager was dan 20 km/uur. 
+	- rit-karakteristieken (duur, afgelegde weg en gemiddelde snelheid) als tekst in de grafiek
+	- groene stip waar de maximale snelheid werd behaald. Snelheid ook in groene tekst in buurt van de stip
+	- rode bolletjes waar de snelheid lager was dan 20 km/uur
+
+
+![](RitkaartWebsite.png){: style="width:30%"}
+
 
 Laat je programma ook berekenen hoe lang er onder de 20 kilometer per uur gereden is. Print dus: 
 
