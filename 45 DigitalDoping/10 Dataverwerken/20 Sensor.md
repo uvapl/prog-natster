@@ -128,9 +128,10 @@ er een regel in weg kan schrijven.
 
 # Extra opdrachten (niet verplicht)
 
-## Opdracht 5: 
+## Opdracht 5: snelste en langzaamste stukken van de rit
 
-We kunnen de 
+We kunnen de data in meer detail bekijken, Twee van de vele vragen die we kunnen stellen zijn 
+die hieronder in vraag 5a en 5b zijn gesteld.
 
 ### Opdracht 5a: de langste en kortste afstand afgelegd *in een minuut*
 
@@ -159,7 +160,14 @@ Niet elke tijdstap tussen twee metingen is precies een seconde.
 
 ## Opdracht 6: digital epo
 
-Dit is niet een opdracht waarin je iets moet maken, maar waarin je na moet denken over de manier 
+Dit is niet een opdracht waarin je iets moet maken, maar waarin je na moet denken.
+
+In opdracht 4 hebben we gezien hoe we de data kunnen manipuleren zodat het lijkt of we een enorme 
+berg hebben bedwongen in een polderlandschap. Dat hebben we natuurlijk op een knullige manier 
+gedaan, maar je kan je voorstellen dat je dat ook op een minder opzichtige manier doet.
+
+Je zou bijvoorbeeld kunnen 
+
 waarop je de data zo moet veranderen zodat het lijkt of je X% (zeg 5%) sneller hebt gereden dan in 
 werkelijkheid. Beantwoord de volgende vragen:
 
