@@ -59,7 +59,8 @@ moet daarna nog de latitude en longitude, die op vaste posities zitten, uit de s
            latitude = ....
            longitude = ....
 
-*Let op:* zodra je het stukje regel hebt herkent waar de latitude is opgeslagen herkent de 
+**Let op:** 
+Zodra je het stukje regel hebt herkent waar de latitude is opgeslagen herkent de 
 computer dit nog steeds al tekst en niet als getal. Gebruik de functie `float()` om dat 
 stukje van de regel ook echt om te zetten in een getal voor je het opslaat in de lijst. Zo 
 kan je er verderop in het programma ook mee rekenen.
