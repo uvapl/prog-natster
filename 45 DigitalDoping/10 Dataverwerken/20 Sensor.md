@@ -111,29 +111,28 @@ totale (tot nu toe) afgelegde weg bijhouden in een lijst. Ook deze lijst begint 
 
 Een paar extra randvoorwaarden bij het tekenen van de grafiek:
 
-	- Geef duidelijk aan (groene stip) wat de maximale snelheid was gedurende de rit 
+	- Geef met een groene stip aan wanneer de maximale snelheid werd bereikt 
 	- Geef in de grafiek aan wat de maximale snelheid was in tekst
 	- Geef met een stippellijn de gemiddelde snelheid aan
 
         
 ## Opdracht 3: afgelegde route met extra informatie
 
-Teken opnieuw de grafiek van de afgelegde route (net als in opdracht 1), maar voeg nu wat extra elementen toe:
+Teken opnieuw de grafiek van de afgelegde route (net als in opdracht 1), maar voeg nu wat extra 
+elementen toe:
 
-
-	- rit-karakteristieken (duur, afgelegde weg en gemiddelde snelheid) als tekst in de grafiek
-	- groene stip waar de maximale snelheid werd behaald. Snelheid ook in groene tekst in buurt van de stip
+	- rit-karakteristieken als tekst in de grafiek: duur, afgelegde weg en gemiddelde snelheid
+	- groene stip waar de maximale snelheid werd behaald en in tekst in buurt van de stip
 	- rode bolletjes waar de snelheid lager was dan 20 km/uur
 
 
 ![](RitkaartWebsite.png){: style="width:80%"}
 
 
-Laat je programma ook berekenen hoe lang er onder de 20 kilometer per uur gereden is. 
+Laat je programma ook berekenen hoe lang er onder de 20 kilometer per uur gereden is en 
+print dat op het scherm in de volgende format
 
-Print dus: 
-
-	Er is gedurende x seconden langzamer gereden dan 20 km/uur
+	`Er is gedurende x seconden langzamer gereden dan 20 km/uur`
 	
 
 
