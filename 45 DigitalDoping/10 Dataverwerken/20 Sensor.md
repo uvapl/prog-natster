@@ -72,9 +72,11 @@ Tijdens het (opnieuw) doorlopen van de lijsten om de snelheidslijst te vullen ka
 
 Teken opnieuw de grafiek van de afgelegde route (net als in opdracht 1), maar voeg nu wat extra elementen toe:
 
-  	- geef de drie samenvattingen van de rit (duur, afgelegde weg en gemiddelde snelheid) weer in de grafiek
-  	- teken een groene stip op de route waar de maximale snelheid werd bepaald. Geef die snelheid ook weer op het scherm: in groene letters en in de buurt van de stip.
-  	- bekijk op welke plekken in de route de snelheid lager was dan 20 km/uur. Teken die posities met rode bolletjes op de route.
+	geef de drie samenvattingen van de rit (duur, afgelegde weg en gemiddelde snelheid) weer in de grafiek
+
+	teken een groene stip op de route waar de maximale snelheid werd bepaald. Geef die snelheid ook weer op het scherm: in groene letters en in de buurt van de stip.
+
+	bekijk op welke plekken in de route de snelheid lager was dan 20 km/uur. Teken die posities met rode bolletjes op de route.
 
 Print ook op het scherm:
 
