@@ -47,22 +47,29 @@ Maak een grafiek van de snelheid als functie van de tijd, waarbij de tijd weerge
 
 Print ook naar het scherm:
 
+
 	- Rit: de totale duur van de rit was x uur, y minuten en z seconden
-    - Rit: de totaal afgelegde weg was x.x km
-    - Rit: de gemiddelde snelheid was xx.x km/uur
+	- Rit: de totaal afgelegde weg was x.x km
+	- Rit: de gemiddelde snelheid was xx.x km/uur
         
 ### Stappenplan:
 
-	- stap 1: lijst met meettijden (in seconden na het begin van de rit)
+	- stap 1: maak de lijst met meettijden (in seconden na het begin van de rit)
 
 
-Als je de regel met de tijdstippen hebt gedecodeerd (uur, minuten en seconden) is het handig om die om te rekenen 
-naar een aantal secondes sinds het begin van de dag. Dit maakt het namelijk eenvoudig om het verschil tussen verschillende meetmomenten te berekenen. Als je eenmaal het eerste tijdstip hebt gevonden kan je dat definieren als t=0 en dan kan je vervolgens voor elke meting de tijd ten opzichte van dat startpunt bepalen en in een lijst opslaan.
+Als je de regel met de tijdstippen hebt gedecodeerd (uur, minuten en seconden) is het handig om die om te rekenen naar een aantal seconden sinds het begin van de dag. Dit maakt het daarna eenvoudig om het verschil tussen verschillende meetmomenten te berekenen. En om het helemaal makkelijk te maken kan je zodra je het eerste meetmoment hebt gevonden dat definieren als t=0. Elk meetpunt kan je daarna uitrekenen als verlopen tijd ten opzichte van dat tijdstip en dat zo in de lijst opslaan.
 
-    - de lijst met snelheden 
-    Zodra je vanuit de datafile alle posities en tijden hebt ingelezen kan je de file sluiten. Je hebt dan alle informatie die je nodig hebt. We nemen aan dat de fietser stilstond op t=0 en kunnen voor elk volgend tijdstip zijn snelheid uitrekenen die hij had tussen het vorige meetpunt en het huidige. We hebben immers de twee posities (en dus de afgelegde weg) en het tijdsverschil tussen de twee meetpunten.
+    - maak de lijst met snelheden 
+
+
+Zodra je vanuit de datafile alle posities en tijden hebt ingelezen kan je de file sluiten. Je hebt dan alle informatie die je nodig hebt en kan de 'afgeleide' informatie zelf uitrekenen. Wij gaan bijvoorbeeld de totale afgelegde weg en de lijst met snelheden op elk tijdstip uitrekenen. Als we bij meetpunt *i* zijn aangekomen weten we zowel de afgelegde weg (verschil tussen de twee posities) als het tijdsverschil en kunnen zo de snelheid op dit kleine interval berekenen. Sla de snelheden op elk meetpunt op in een lijst.
+
+*Let op:* we nemen aan dat de fietser stilstond op t=0, dus het eerste element in de lijst met snelheden is 0.
+
     - de lijst met totaal afgelegde afstand
-     tijdens het (opnieuw) doorlopen van de lijsten om de snelheidslijst te vullen kan je nu ook de totale (tot nu toe) afgelegde weg bijhouden. 
+
+
+Tijdens het (opnieuw) doorlopen van de lijsten om de snelheidslijst te vullen kan je nu ook de totale (tot nu toe) afgelegde weg bijhouden in een lijst. Ook deze list begint met 0 op t=0.
 
         
 
