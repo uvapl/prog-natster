@@ -4,7 +4,7 @@
 
 Een mobiele telefoon bevat enorm nauwkeurige sensoren om grootheden als positie, snelheid, versnelling etc vast te leggen. Naast navigatie wordt dit ook toegepast in allerlei apps die voor sporten worden gebruikt. In deze opgave gaan we aan de slag met de data die verzameld wordt in de app die door de meeste wielrenners gebruikt wordt: Strava. Na de rit kan je in de app allerlei gegevens over je rit terugkijken: de projectie van de route op een interactieve kaart, de gemiddelde snelheid, het hoogteprofiel, records op kleine stukken etc etc. We gaan in deze opgave een paar van deze dingen namaken en, niet verder vertellen, een deel van de data manipuleren: digitale doping.
 
-Onze data-set is een fietsrit in de buurt van Leiden die een natuurkundige aan de universiteit van Amsterdam maakte samen met zijn buurman. De data-file zoals die door de app gebruikt wordt is <FietsRitData.gpx> te downloaden via de volgende link:
+Onze data-set is een fietsrit in de buurt van Leiden die een natuurkundige aan de universiteit van Amsterdam maakte samen met zijn buurman. De data-file zoals die door de app gebruikt wordt is [bla]<FietsRitData.gpx> te downloaden via de volgende link:
 
 <http://www.nikhef.nl/~ivov/Python/SensorData/FietsRitData.gpx>
 
