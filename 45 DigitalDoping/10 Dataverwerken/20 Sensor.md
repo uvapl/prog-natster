@@ -46,6 +46,7 @@ Tijdens het inlezen van elke regel kan je een test uitvoeren of er een bepaalde 
 Maak een grafiek van de snelheid als functie van de tijd, waarbij de tijd weergegeven is als aantal seconden na het begin van de rit. Geef ook in de grafiek duidelijk aan wat de maximale snelheid was: groene stip op het juiste tijdstip op de plek van de hoogste snelheid.
 
 Print ook naar het scherm:
+
 	- Rit: de totale duur van de rit was x uur, y minuten en z seconden
     - Rit: de totaal afgelegde weg was x.x km
     - Rit: de gemiddelde snelheid was xx.x km/uur
