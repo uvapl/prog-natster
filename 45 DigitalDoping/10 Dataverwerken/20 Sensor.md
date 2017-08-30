@@ -157,14 +157,13 @@ het begin van de rit).
 ### Computing tip:
 **Let op:** het kan erg verleidelijk zijn om op basis van de eerste paar regels in de data-file te concluderen dat de hoogte tijdens een rit is opgeslagen in een deel van de regel die maar 3 karakters breed is (X.Y) en dat dat correspondeert met X meter en Y decimeter boven zeeniveau. Nou klopt het dat je rond Leiden nooit boven tien meter boven of onder zeeniveau uitkomt, maar als je op elke andere plek inde wereld gaat fietsen zal de hoogte ook best tussen de -20 en +2500 kunnen liggen. Hoewel je niet van tevoren weet hoe hoog je zit weet je wel hoeveel karakters er *voor* de hoogte staan en ook hoeveel karakters er *achter* de hoogte staan. Je kan de hoogte dus zo wel uit de regel peuteren:
 
-![](Matterhorn.jpg){:.inline}{: style="width:40%"}
 
 	   dus niet:  hoogte = float( line[9:12] )
        maar:      hoogte = float( line[9:len(line)-7] )
 
 Zorg dat je bovenstaande syntax goed begrijpt.
 	
-
+![](Matterhorn.jpg){:.inline}{: style="width:40%"}
 
 ### Opdracht 4b: creëer de fake data-set
 
@@ -172,10 +171,10 @@ Maak een nieuwe data-file `Matterhorn.gpx` die bijna identiek is aan de original
 en die alleen verschilt in de regels die de hoogte aangeven. Pas de regels met de hoogte namelijk zo 
 aan dat het hoogteprofiel de volgende vorm aanneemt:
 
-	- eerste kwart: zeeniveau
-	- tweede kwart: lineair omhoog tot we de hoogte van de Matterhorn bereiken halverwege de rit
-	- derde kwart:  lineair omlaag tot weer op zeeniveau zitten
-	- vierde kwart: zeeniveau
+	- eerste kwart: zeeniveau (h=0)
+	- tweede kwart: lineair stijgen tot h=4478 m
+	- derde kwart:  lineair dalen tot h=0 m
+	- vierde kwart: zeeniveau (h=0)
 		
 ### Computing tip:
 
