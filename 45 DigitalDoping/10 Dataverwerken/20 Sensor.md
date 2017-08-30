@@ -16,13 +16,13 @@ Als je goed kijkt zie je dat elk data-punt/meting bestaat in drie regels wordt w
 	2) de hoogte
 	3) de datum en tijd
 
-We gaan stap voor stap een programma **Strava.py** schrijven dat de volledige file doorloopt, de metingen uit de file decodeert en in afzonderlijke lijsten opslaat. We doen dat aan de hand van de onderstaande opdrachten.
+We gaan stap voor stap een programma `Strava.py` schrijven dat de volledige file doorloopt, de metingen uit de file decodeert en in afzonderlijke lijsten opslaat. We doen dat aan de hand van de onderstaande opdrachten.
 
 ## Opdracht 1: teken de route op het scherm
 
-Maak een functie **Fietsrit()** die de file opent, alle metingen doorloopt en voor elk punt de positie bijhoudt in twee afzonderlijke lijsten: de latitude en de longitude. Maak aan het eind  een grafiek van de meetpunten. Orienteer het zo dat het op een kaart van Google maps geprojecteerd zou kunnen worden, dus het noorden netjes in het noorden etc.
+Maak een functie `Fietsrit()` die de file opent, alle metingen doorloopt en voor elk punt de positie bijhoudt in twee afzonderlijke lijsten: de latitude en de longitude. Maak aan het eind  een grafiek van de meetpunten. Orienteer het zo dat het op een kaart van Google maps geprojecteerd zou kunnen worden, dus het noorden netjes in het noorden etc.
 
-Schrijf een programma **Strava.py** dat de volledige file doorloopt, de x-positie en y-positie van elke meting in twee afzonderlijke lijsten opslaat en er een grafiek van maakt op het scherm. Geef het beginpunt aan met een grote groene stip en het eindpunt met een kleine rode. 
+Schrijf een programma `Strava.py` dat de volledige file doorloopt, de x-positie en y-positie van elke meting in twee afzonderlijke lijsten opslaat en er een grafiek van maakt op het scherm. Geef het beginpunt aan met een grote groene stip en het eindpunt met een kleine rode. 
 
 Verderop in de opgave gaan we nog wat extra informatie toevoegen op het scherm. Hou dus iets ruimte over bij het tekenen van de grafiek.  Randen grafiek:
 	 longitude tussen 4.325 en 4.675
@@ -95,7 +95,7 @@ Oud wielrenner Thijs Zonneveld lanceerde een paar jaar geleden het idee om een b
 
 Om te kijken hoe dat er op een Strava profiel uit zou zien en om zijn buurman in een klap voorbij te gaan in het hoogtemeters-in-dit-kalenderjaar klassement besluit de natuurkundige de data van zijn rit zo te manipuleren dat het lijkt of hij al een berg zo hoog als de Matterhorn (4478 m) heeft geklommen tijdens dit zondagse ritje door het groene hart. Fake data!
  
-### Opdracht 4a: teken het echte hoogteprofiel van de rit
+### Opdracht 4a: teken het oorspronkelijke hoogteprofiel van de rit
 
 Naast de locatie en de tijd is ook de hoogte opgeslagen op elk meetpunt. Sla ook die data op in een lijst en teken de grafiek van de hoogte als functie van de tijd (weer in seconden sinds het begin van de rit). 
 
@@ -108,10 +108,9 @@ Naast de locatie en de tijd is ook de hoogte opgeslagen op elk meetpunt. Sla ook
 	maar:      hoogte = float( line[9:len(line)-7] )
 	
 
+### Opdracht 4b: creëer de fake data-set
 
-
-
-
+`test`
 
 
 
