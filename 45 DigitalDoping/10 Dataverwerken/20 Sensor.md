@@ -86,6 +86,3 @@ Print ook op het scherm:
 	
 
 
-## De afgelegde route
-
-Maak een grafiek van de positie van de auto en kleur de route groen (rood) op de stukken van de route waar de snelheid van de auto meer (minder) was dan 50 km/uur.
