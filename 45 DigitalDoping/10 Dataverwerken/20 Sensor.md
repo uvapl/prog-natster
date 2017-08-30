@@ -1,6 +1,10 @@
-# Opdracht: Sensordata 
+# Opdracht: Sensordata verwerken 
     
-Een mobiele telefoon bevat veel delicate sensoren die informatie verzamelen over de positie, snelheid, versnelling. Een van de manieren waarop mensen die data gebruiken is met sporten. Er zijn veel apps die mensen gebruiken om hun hardloopprestaties bij te houden, maar in deze opgave gaan we specifiek aan de slag met de app die veel gebruikt wordt door mensen op de racefiets. Jullie kennen ze wel, de groep van (net even iets te dikke) mannen van in de veertig die zichzelf twee keer per week in een fietspak hijsen en zo, vaak tevergeefs, hun conditie op peil proberen te houden door met de racefiets eropuit te trekken. De meest populaire app om die ritten bij te houden is is Strava.
+test
+
+![](StravaLogo.png){:.inline}
+
+Een mobiele telefoon bevat veel dlsensoren die informatie verzamelen over de positie, snelheid, versnelling. Een van de manieren waarop mensen die data gebruiken is met sporten. Er zijn veel apps die mensen gebruiken om hun hardloopprestaties bij te houden, maar in deze opgave gaan we specifiek aan de slag met de app die veel gebruikt wordt door mensen op de racefiets. Jullie kennen ze wel, de groep van (net even iets te dikke) mannen van in de veertig die zichzelf twee keer per week in een fietspak hijsen en zo, vaak tevergeefs, hun conditie op peil proberen te houden door met de racefiets eropuit te trekken. De meest populaire app om die ritten bij te houden is is Strava.
 
 In deze opgave gaan we aan de slag met een data-set die verzameld is tijdens een fietsrit in het groene hart. De sensordata is beschikbaar in de file `FietsRitData.csv` en is te downloaden  via de volgende link:
 
