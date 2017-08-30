@@ -11,19 +11,26 @@ het hoogteprofiel, records op vooraf gedefiniëerde stukken weg en nog veel meer
 in deze opgave zelf deze informatie uit de sensor-data halen en, niet verder vertellen, 
 proberen de data in de file te manipuleren: digitale doping.
 
-Onze data-set is een fietsrit die een natuurkundige aan de universiteit van Amsterdam maakte in de buurt van Leiden samen met zijn buurman. De data-file zoals die door de app gebruikt wordt is hier te downloaden: [FietsRitData.gpx](FietsRitData.gpx).
+Onze data-file is een echte fietsrit die een natuurkundige aan de universiteit van Amsterdam 
+maakte in de buurt van Leiden samen met zijn buurman. De data-file met de informatie zoals 
+die door de app verzameld is is hier te downloaden: [FietsRitData.gpx](FietsRitData.gpx).
 
-De eerste regels van de file bevatten wat tekst, maar daarna wordt het interessant. Er worden (ongeveer) elke seconde drie zaken vastgelegd: positie, hoogte (elevation) en de tijd. Dit is genoeg informatie om de rest te berekenen. In het plaatje hiernaast zie je een kleine preview van de eerste drie metingen die in de file te vinden zijn:
+De eerste regels van de file bevatten wat algemene tekstuele informatie, maar daarna wordt 
+het interessant. Elk meetpunt (ongeveer om de seconde) worden drie zaken vastgelegd: positie, 
+hoogte en het tijdstip. Dit is voldoende informatie. In het plaatje hieronder zie je een 
+kleine preview van de eerste drie meetpunten die in de file te vinden zijn:
 
 ![](DataFilePreview.png){: style="width:40%"}
 
-Als je goed kijkt zie je dat elk data-punt/meting bestaat in drie regels wordt weggeschreven:
+Als je goed kijkt zie je dat de informatie van elke meting in drie regels wordt weggeschreven:
 
 	1) positie in lengte- en breedtegraad 
 	2) de hoogte
 	3) de datum en tijd
 
-We gaan stap voor stap een programma `Strava.py` schrijven dat de volledige file doorloopt, de metingen uit de file decodeert en in afzonderlijke lijsten opslaat. We doen dat aan de hand van de onderstaande opdrachten.
+We gaan in deze opgave stap voor stap een programma `Strava.py` schrijven dat de data inleest, 
+decodeert, opslaat in afzonderlijke lijsten en vragen over de rit beantwoordt. We zullen dat 
+doen dat aan de hand van de onderstaande opdrachten.
 
 ## Opdracht 1: teken de route op het scherm
 
