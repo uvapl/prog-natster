@@ -138,22 +138,30 @@ print dat op het scherm in de volgende format
 
 ## Opdracht 4: Fake data: Nederlandse col van de buitencategorie
 
-Oud wielrenner Thijs Zonneveld lanceerde een paar jaar geleden het idee om een berg in Nederland te plaatsen. Geen grap hè, kijk maar naar deze Youtube clip: [Die berg komt er!](https://www.youtube.com/embed/MVyWMS1Jj6M)
+Oud wielrenner Thijs Zonneveld lanceerde een paar jaar geleden het idee om een berg in Nederland te 
+maken. Geen grap, kijk maar naar deze Youtube clip: 
+[Die berg komt er!](https://www.youtube.com/embed/MVyWMS1Jj6M)
 
-Om te kijken hoe dat er op een Strava profiel uit zou zien en om zijn buurman in een klap voorbij te gaan in het hoogtemeters-in-dit-kalenderjaar klassement besluit de natuurkundige de data van zijn rit zo te manipuleren dat het lijkt of hij al een berg zo hoog als de Matterhorn (4478 m) heeft geklommen tijdens dit zondagse ritje door het groene hart. Fake data!
+Om te kijken hoe dat er op een Strava profiel uit zou zien en om zijn buurman in een klap voorbij 
+te gaan in het hoogtemeters-in-dit-kalenderjaar klassement besluit de natuurkundige de data van 
+zijn rit zo te manipuleren dat het lijkt of hij al een berg zo hoog als de Matterhorn (4478 m) 
+heeft geklommen tijdens dit zondagse ritje door het groene hart. We doen dat in twee afzonderlijke
+stappen.
  
 ### Opdracht 4a: teken het oorspronkelijke hoogteprofiel van de rit
 
-Naast de locatie en de tijd is ook de hoogte opgeslagen op elk meetpunt. Sla ook die data op in een lijst en teken de grafiek van de hoogte als functie van de tijd (weer in seconden sinds het begin van de rit). 
-
-![](Matterhorn.jpg){:.inline}{: style="width:40%"}
+Naast de locatie en de tijd is ook de hoogte opgeslagen op elk meetpunt. Sla ook die data op 
+in een lijst en teken de grafiek van de hoogte als functie van de tijd (weer in seconden sinds 
+het begin van de rit). 
 
 ### Computing tip:
-*Let op:* het kan erg verleidelijk zijn om op basis van de eerste paar regels in de data-file te concluderen dat de hoogte tijdens een rit is opgeslagen in een deel van de regel die maar 3 karakters breed is (X.Y) en dat dat correspondeert met X meter en Y decimeter boven zeeniveau. Nou klopt het dat je rond Leiden nooit boven tien meter boven of onder zeeniveau uitkomt, maar als je op elke andere plek inde wereld gaat fietsen zal de hoogte ook best tussen de -20 en +2500 kunnen liggen. Hoewel je niet van tevoren weet hoe hoog je zit weet je wel hoeveel karakters er *voor* de hoogte staan en ook hoeveel karakters er *achter* de hoogte staan. Je kan de hoogte dus zo wel uit de regel peuteren:
+**Let op:** het kan erg verleidelijk zijn om op basis van de eerste paar regels in de data-file te concluderen dat de hoogte tijdens een rit is opgeslagen in een deel van de regel die maar 3 karakters breed is (X.Y) en dat dat correspondeert met X meter en Y decimeter boven zeeniveau. Nou klopt het dat je rond Leiden nooit boven tien meter boven of onder zeeniveau uitkomt, maar als je op elke andere plek inde wereld gaat fietsen zal de hoogte ook best tussen de -20 en +2500 kunnen liggen. Hoewel je niet van tevoren weet hoe hoog je zit weet je wel hoeveel karakters er *voor* de hoogte staan en ook hoeveel karakters er *achter* de hoogte staan. Je kan de hoogte dus zo wel uit de regel peuteren:
 
 	dus niet:  hoogte = float( line[9:12] )
 	maar:      hoogte = float( line[9:len(line)-7] )
 	
+![](Matterhorn.jpg){:.inline}{: style="width:40%"}
+
 
 ### Opdracht 4b: creëer de fake data-set
 
