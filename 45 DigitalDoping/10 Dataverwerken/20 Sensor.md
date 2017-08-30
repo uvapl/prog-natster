@@ -103,14 +103,17 @@ Neem aan dat dat de fietser stilstond op t=0. Het eerste element in de lijst met
 
     - stap 3: de lijst met afgelegde afstanden
 
-
-Tijdens het (opnieuw) doorlopen van de lijsten om de snelheidslijst te vullen kan je nu ook de totale (tot nu toe) afgelegde weg bijhouden in een lijst. Ook deze list begint met 0 op t=0.
-
-Geef ook in de grafiek duidelijk aan wat de maximale snelheid was gedurende de rit. Geef 
-de maximale snelheid met een groene stip aan in de grafiek en geef ook de numerieke waarde 
-in de grafiek weer.
+Tijdens het doorlopen van de meetpunten om de snelheidslijst te vullen kan je nu ook gelijk de 
+totale (tot nu toe) afgelegde weg bijhouden in een lijst. Ook deze lijst begint natuurlijk met 
+0 afgelegde kilometers op t=0.
 
 
+
+Een paar extra randvoorwaarden bij het tekenen van de grafiek:
+
+	- Geef duidelijk aan (groene stip) wat de maximale snelheid was gedurende de rit 
+	- Geef in de grafiek aan wat de maximale snelheid was in tekst
+	- Geef met een stippellijn de gemiddelde snelheid aan
 
         
 ## Opdracht 3: afgelegde route met extra informatie
