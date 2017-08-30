@@ -67,7 +67,10 @@ kan je er verderop in het programma ook mee rekenen.
 
 ## Opdracht 2: totaal afgelegde afstand en snelheidsgrafiek
 
-Maak een grafiek van de snelheid als functie van de tijd, waarbij de tijd weergegeven is als aantal seconden na het begin van de rit. Geef ook in de grafiek duidelijk aan wat de maximale snelheid was: groene stip op het juiste tijdstip op de plek van de hoogste snelheid. Laat je programma ook deze grootheden printen.
+Maak een grafiek van de snelheid als functie van de tijd, waarbij de tijd weergegeven is 
+als het aantal seconden na het begin van de rit. 
+
+Laat je programma ook deze grootheden printen in het volgende format:
 
 	Rit: de totale duur van de rit was x uur, y minuten en z seconden
 	Rit: de totaal afgelegde weg was x.x km
@@ -92,6 +95,12 @@ Zodra je vanuit de datafile alle posities en tijden hebt ingelezen kan je de fil
 
 
 Tijdens het (opnieuw) doorlopen van de lijsten om de snelheidslijst te vullen kan je nu ook de totale (tot nu toe) afgelegde weg bijhouden in een lijst. Ook deze list begint met 0 op t=0.
+
+Geef ook in de grafiek duidelijk aan wat de maximale snelheid was gedurende de rit. Geef 
+de maximale snelheid met een groene stip aan in de grafiek en geef ook de numerieke waarde 
+in de grafiek weer.
+
+
 
         
 ## Opdracht 3: afgelegde route met extra informatie
