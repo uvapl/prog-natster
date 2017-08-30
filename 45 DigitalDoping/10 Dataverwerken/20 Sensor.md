@@ -91,12 +91,10 @@ Print dus:
 
 ## Opdracht 4: Fake data: Nederlandse col van de buitencategorie
 
-Oud wielrenner Thijs Zonneveld lanceerde een paar jaar geleden het idee om een berg in Nederland te plaatsen. Geen grap hè, kijk maar: 
+Oud wielrenner Thijs Zonneveld lanceerde een paar jaar geleden het idee om een berg in Nederland te plaatsen. Geen grap hè, kijk maar naar deze Youtube clip: [Die berg die komt er!](https://www.youtube.com/embed/MVyWMS1Jj6M)
 
-[Die berg die komt er!](https://www.youtube.com/embed/MVyWMS1Jj6M)
-
-Nou zal dat geen Mount Everest worden, maar we dromen groot en houden van hoge klimpercentages dus laten we eens aannemen dat we de Matterhorn (4478 m) gaan nabouwen in het groene hart. Om te kijken hoe dat er op een Strava profiel uit zou zien en om een psychologische edge op zijn buurman te krijgen besluit de natuurkundige de data zo te faken dat het lijkt of hij al een berg zo hoog als de Matterhorn heeft geklommen tijdens dit zondagse ritje.
-
+Om te kijken hoe dat er op een Strava profiel uit zou zien en om zijn buurman in een klap voorbij te gaan in het hoogtemeters-in-dit-kalenderjaar klassement besluit de natuurkundige de data van zijn rit zo te manipuleren dat het lijkt of hij al een berg zo hoog als de Matterhorn (4478 m) heeft geklommen tijdens dit zondagse ritje door het groene har. Fake data!
+ 
 ### Opdracht 4a: teken het echte hoogteprofiel van de rit
 
 Naast de locatie en de tijd is ook de hoogte opgeslagen op elk meetpunt. Sla ook die data op in een lijst en teken de grafiek van de hoogte als functie van de tijd (weer in seconden sinds het begin van de rit). 
