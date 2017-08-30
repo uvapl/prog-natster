@@ -77,15 +77,19 @@ Laat je programma ook deze grootheden printen in het volgende format:
 	Rit: de gemiddelde snelheid was xx.x km/uur
 	Rit: de maximum snelheid was xx.x km/uur en werd gereden x seconden na de start van de rit
         
+Volg de volgende stappen bij het beantwoorden van de opdracht.        
+        
 ### Stappenplan:
 
 	- stap 1: maak de lijst met meettijden (in seconden na het begin van de rit)
 
-
-Als je de regel met de tijdstippen hebt gedecodeerd (uur, minuten en seconden) is het handig om die om te rekenen naar een aantal seconden sinds het begin van de dag. Dit maakt het daarna eenvoudig om het verschil tussen verschillende meetmomenten te berekenen. En om het helemaal makkelijk te maken kan je zodra je het eerste meetmoment hebt gevonden dat definieren als t=0. Elk meetpunt kan je daarna uitrekenen als verlopen tijd ten opzichte van dat tijdstip en dat zo in de lijst opslaan.
+Als je de regel met de tijdstippen hebt gedecodeerd (uur, minuten en seconden) is het handig 
+om die om te rekenen naar een aantal seconden sinds het begin van de dag. Dit maakt het daarna 
+eenvoudig om het verschil tussen verschillende meetmomenten te berekenen. Het is handig om het 
+eerste meetmoment te definiëren als t=0. Elk meetpunt kan je daarna uitrekenen als verlopen tijd 
+ten opzichte van dat tijdstip en dat zo in de lijst opslaan.
 
     - stap 2: maak de lijst met snelheden 
-
 
 Zodra je vanuit de datafile alle posities en tijden hebt ingelezen kan je de file sluiten. Je hebt dan alle informatie die je nodig hebt en kan de 'afgeleide' informatie zelf uitrekenen. Wij gaan bijvoorbeeld de totale afgelegde weg en de lijst met snelheden op elk tijdstip uitrekenen. Als we bij meetpunt *i* zijn aangekomen weten we zowel de afgelegde weg (verschil tussen de twee posities) als het tijdsverschil en kunnen zo de snelheid op dit kleine interval berekenen. Sla de snelheden op elk meetpunt op in een lijst.
 
