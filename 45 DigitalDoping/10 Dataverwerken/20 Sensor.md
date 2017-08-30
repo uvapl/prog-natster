@@ -86,10 +86,13 @@ Teken opnieuw de grafiek van de afgelegde route (net als in opdracht 1), maar vo
 
 
 
-
 Laat je programma ook berekenen hoe lang er onder de 20 kilometer per uur gereden is. Print dus: 
 
 	Er is gedurende x seconden langzamer gereden dan 20 km/uur
 	
+
+## Opdracht 4: Nederlandse col van de buitencategorie
+
+Oud wielrennen Thijs zonneveld
 
 
