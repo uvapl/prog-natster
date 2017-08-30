@@ -110,8 +110,70 @@ Naast de locatie en de tijd is ook de hoogte opgeslagen op elk meetpunt. Sla ook
 
 ### Opdracht 4b: creëer de fake data-set
 
-`test`
+Maak een nieuwe data-file `Matterhorn.gpx` die bijna identiek is aan de originale `FietsRitData.gpx` 
+en die alleen verschilt in de regels die de hoogte aangeven. Pas de regels met de hoogte aan zodat 
 
+	- eerste kwart: zeeniveau
+	- tweede kwart: lineair omhoog tot we de hoogte van de Matterhorn bereiken halverwege de rit
+	- derde kwart:  lineair omlaag tot weer op zeeniveau zitten
+	- vierde kwart: zeeniveau
+		
+### Computing tip:
+
+	- Volg het voorbeeld in het begin van de module om te hebben we gezien hoe je een file kan aanmaken en 
+er een regel in weg kan schrijven.  
+	- gebruik de code die je in opdracht 4a geschreven hebt om te verifiëren of het hoogteprofiel inderdaad
+	  correct in de file is weggeschreven.
+
+
+# Extra opdrachten (niet verplicht)
+
+## Opdracht 5: 
+
+We kunnen de 
+
+### Opdracht 5a: de langste en kortste afstand afgelegd *in een minuut*
+
+Loop door de verzamelde data heen en zoek de minuut waarin de grootste en de langzaamste afstand is 
+afgelegd. Hiermee weet je gedurende welke minuut er het respectievelijk het snelst en het langzaamst 
+is gereden. Print deze data op het scherm:
+
+	`Minuut: snelst  => afstand = x.xx m, gemiddelde snelheid = x.xx m/s`
+	`Minuut: traagst => afstand = x.xx m, gemiddelde snelheid = x.xx m/s`
+
+*Let op:*
+Niet elke tijdstap tussen twee metingen is precies een seconde.
+
+
+### Opdracht 5b: de langste en kortste afstand afgelegd *in een kilometer*
+
+Loop door de verzamelde data heen en zoek de kilometer die in het kortste en het langste tijdsinterval is 
+afgelegd. Hiermee weet je gedurende welke kilometer er het respectievelijk het snelst en het langzaamst 
+is gereden. Print deze data op het scherm:
+
+	`Kilometer: snelst  => tijdsduur = x s, gemiddelde snelheid = x.xx m/s`
+	`Kilometer: traagst => tijdsduur = x s, gemiddelde snelheid = x.xx m/s`
+
+*Let op:*
+Niet elke tijdstap tussen twee metingen is precies een seconde.
+
+## Opdracht 6: digital epo
+
+Dit is niet een opdracht waarin je iets moet maken, maar waarin je na moet denken over de manier 
+waarop je de data zo moet veranderen zodat het lijkt of je X% (zeg 5%) sneller hebt gereden dan in 
+werkelijkheid. Beantwoord de volgende vragen:
+
+	- Hoe moet je de file veranderen zodat het lijkt of je 5% sneller bent geweest?
+	
+Sommige mensen kunnen zich helaas niet inhouden: [digital epo](http://digitalepo.com/)
+
+Nou zijn er verschillende manieren waarop je zou kunnen proberen te achterhalen waarop deze
+
+	- Hoe zou je kunnen achterhalen of een file gemanipuleerd is?
+	
+Elk antwoord dat je hierboven opschrijft zou je natuurlijk ook kunnen gebruiken om de data op een 
+gerafiniëerde manier te manipuleren zodat al deze tests negatief terugkomen. Het is het bekende kat- 
+en muisspel in de sport, maar nu met digitale doping.
 
 
 
