@@ -75,7 +75,7 @@ Teken opnieuw de grafiek van de afgelegde route (net als in opdracht 1), maar vo
 
 	- geef de karakteristieken van de rit (duur, afgelegde weg en gemiddelde snelheid) weer in de grafiek
 	- teken een groene stip op de route waar de maximale snelheid werd behaald. Geef snelheid in groene letters in de buurt van de stip.
-	- bekijk op welke plekken in de route de snelheid lager was dan 20 km/uur. Teken die posities met rode bolletjes op de route.
+	- teken rode bolletjes op de route waar de snelheid lager was dan 20 km/uur. 
 
 Laat je programma ook berekenen hoe lang er onder de 20 kilometer per uur gereden is. Print dus: 
 
