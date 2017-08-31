@@ -254,17 +254,18 @@ Laten we eerst eens bedenken hoe we het zelf zouden doen:
 
 	- Hoe moet je de file veranderen zodat het lijkt of je 5% sneller bent geweest?
 
-Je hoeft het niet te implementeren in de code (mag wel natuurlijk), maar beschrijf 
-hoe je te werk zou gaan. Wat is je algemene strategie en wat zijn de grootste problemen 
-die je ziet opduiken? 
+Je hoeft het niet te implementeren in de code (mag wel natuurlijk), maar beschrijf hoe je te 
+werk zou gaan. Het is misshcien niet zo triviaal als het in eerste instantie lijkt. Wat is je 
+algemene strategie en wat zijn de grootste problemen die je ziet opduiken? 
 
 Het probleem vanaf de andere kant bekijken is minstens zo interessant:
 
 	- Hoe zou je kunnen achterhalen of een file gemanipuleerd is?
 
-Elk antwoord dat je hierboven opschrijft zou je natuurlijk ook weer kunnen gebruiken om 
-de data op een gerafiniëerde manier te manipuleren zodat al deze tests negatief terugkomen. 
-Het is het bekende kat-en-muisspel bij doping in de sport. Nu ook met digitale doping dus.
+Je ziet al snel dat elke hint die je hierboven geeft aan de controleurs je natuurlijk ook als 
+doping zondaar zou kunnen gebruiken om de data op een gerafiniëerde manier te manipuleren zodat 
+jouw rit moeiteloos de digitale dopingstest doorstaat. Het is het welbekende kat-en-muisspel 
+bij doping in de sport, nu met digitale doping.
 	
 
 
