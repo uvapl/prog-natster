@@ -154,8 +154,9 @@ te gaan in hun hoogtemeters-in-dit-kalenderjaar klassement besluit de natuurkund
 zijn rit zo te manipuleren dat het lijkt of hij inderdaad een berg zo hoog als de Matterhorn (4478 m) 
 heeft geklommen tijdens hun zondagse ritje. 
 
-Deze opdracht bestaat uit twee stappen. Eerst een grafiek leren maken van het hoogteprofiel van 
-een rit en daarna een nieuwe data-file maken waarin de hoogte van de meetpunten is gemanipuleerd. 
+Deze opdracht bestaat uit twee stappen. Voor we een nieuwe data-file maken waarin we de hoogte 
+van de meetpunten manipuleren gaan we eerste een grafiek maken van het oorspronkelijke 
+hoogteprofiel.
 
  
 ### Opdracht 4a: hoogteprofiel
