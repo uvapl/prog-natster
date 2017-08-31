@@ -98,11 +98,12 @@ lijst opslaat.
     - stap 2: maak de lijst met snelheden 
 
 Zodra je vanuit de data-file alle posities en tijden hebt ingelezen kan je de file sluiten. 
-Je hebt dan immers alle informatie die je nodig hebt om de 'afgeleide' informatie zelf uit 
-te rekenen. Zoals bijvoorbeeld de totale afgelegde weg en de lijst met snelheden op elk 
-tijdstip. Als we namelijk bij meetpunt *i* zijn aangekomen weten we zowel de afgelegde weg 
-(verschil in positie) als het tijdsverschil tussen dit meetpunt en het vorige. En dus de 
-snelheid tijdens dit stukje van de route. Berekende alle snelheden en sla ze op in een lijst.
+Je hebt dan immers alle informatie die je nodig hebt om de afgeleide informatie zelf te 
+berekenen zoals de totale afgelegde weg en de lijst met snelheden op elk tijdstip. Immers, 
+als we bij meetpunt *i* zijn aangekomen weten we zowel de afgelegde weg (verschil in positie) 
+als het tijdsverschil tussen dit meetpunt en het vorige meetpunt (*i-1*). En dus ook de 
+snelheid die de fietser had tijdens dit kleine stukje van de route. Bereken op deze manier 
+de snelheid op elk moment en sla deze informatie op in een lijst.
 
 **Let op:** 
 De fietser stond stil op t=0. Het eerste element in de lijst met snelheden is dus 0.
