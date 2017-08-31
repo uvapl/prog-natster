@@ -218,7 +218,7 @@ Niet elke tijdsverschil tussen twee metingen is precies een seconde.
 
 ## Opdracht 6: digital epo en het eeuwige kat-en-muisspel
 
-Dit is niet een opdracht waarin je iets moet maken, maar waarin je na moet denken.
+Dit is niet een opdracht waarin je iets moet uitrekenen, maar waarin je alleen na moet denken.
 
 In opdracht 4 hebben we gezien hoe we de data kunnen manipuleren zodat het lijkt of we een enorme 
 berg hebben bedwongen in een polderlandschap. Dat hebben we natuurlijk op een knullige manier 
