@@ -197,8 +197,8 @@ Loop door de verzamelde data heen en zoek de minuut waarin de grootste en de lan
 afgelegd. Hiermee weet je gedurende welke minuut er het respectievelijk het snelst en het langzaamst 
 is gereden. Print deze data op het scherm:
 
-	`Minuut: snelst  => afstand = x.xx m, gemiddelde snelheid = x.xx m/s`
-	`Minuut: traagst => afstand = x.xx m, gemiddelde snelheid = x.xx m/s`
+	 Minuut: snelst  => afstand = x.xx m, gemiddelde snelheid = x.xx m/s
+	 Minuut: traagst => afstand = x.xx m, gemiddelde snelheid = x.xx m/s
 
 *Let op:*
 Niet elke tijdstap tussen twee metingen is precies een seconde.
@@ -210,36 +210,43 @@ Loop door de verzamelde data heen en zoek de kilometer die in het kortste en het
 afgelegd. Hiermee weet je gedurende welke kilometer er het respectievelijk het snelst en het langzaamst 
 is gereden. Print deze data op het scherm:
 
-	`Kilometer: snelst  => tijdsduur = x s, gemiddelde snelheid = x.xx m/s`
-	`Kilometer: traagst => tijdsduur = x s, gemiddelde snelheid = x.xx m/s`
+	 Kilometer: snelst  => tijdsduur = x s, gemiddelde snelheid = x.xx m/s
+	 Kilometer: traagst => tijdsduur = x s, gemiddelde snelheid = x.xx m/s
 
-*Let op:*
-Niet elke tijdstap tussen twee metingen is precies een seconde.
+**Let op:**
+Niet elke tijdsverschil tussen twee metingen is precies een seconde.
 
-## Opdracht 6: digital epo
+## Opdracht 6: digital epo en het eeuwige kat-en-muisspel
 
 Dit is niet een opdracht waarin je iets moet maken, maar waarin je na moet denken.
 
 In opdracht 4 hebben we gezien hoe we de data kunnen manipuleren zodat het lijkt of we een enorme 
 berg hebben bedwongen in een polderlandschap. Dat hebben we natuurlijk op een knullige manier 
-gedaan, maar je kan je voorstellen dat je dat ook op een minder opzichtige manier doet.
+gedaan, maar je kan je voorstellen dat je dat ook op een meer geraffineerde manier doet.
 
-Je zou bijvoorbeeld kunnen 
+Sterker nog, Er is een site waarop wielrenners hun prestaties digitaal kunnen verbeteren 
+voor ze hem uploaden naar Strava: [digital epo](http://digitalepo.com/).
 
-waarop je de data zo moet veranderen zodat het lijkt of je X% (zeg 5%) sneller hebt gereden dan in 
-werkelijkheid. Beantwoord de volgende vragen:
+Schande natuurlijk, maar als we het bekijken vanuit onze cursus dan wordt het wel weer 
+interessant omdat het goed laat zien dat programmeren heel vaak zo veel meer is dan 'allen' 
+programmeren. In dit geval bijvoorbeeld creativiteit, mensenkennis en politiek.
+
+Laten we eerst eens bedenken hoe we het zelf zouden doen:
 
 	- Hoe moet je de file veranderen zodat het lijkt of je 5% sneller bent geweest?
-	
-Sommige mensen kunnen zich helaas niet inhouden: [digital epo](http://digitalepo.com/)
 
-Nou zijn er verschillende manieren waarop je zou kunnen proberen te achterhalen waarop deze
+Je hoeft het niet te implementeren in de code (mag wel natuurlijk), maar beschrijf 
+hoe je te werk zou gaan. Wat is je algemene strategie en wat zijn de grootste problemen 
+die je ziet opduiken? 
+
+Het probleem vanaf de andere kant bekijken is minstens zo interessant:
 
 	- Hoe zou je kunnen achterhalen of een file gemanipuleerd is?
+
+Elk antwoord dat je hierboven opschrijft zou je natuurlijk ook weer kunnen gebruiken om 
+de data op een gerafiniëerde manier te manipuleren zodat al deze tests negatief terugkomen. 
+Het is het bekende kat-en-muisspel bij doping in de sport. Nu ook met digitale doping dus.
 	
-Elk antwoord dat je hierboven opschrijft zou je natuurlijk ook kunnen gebruiken om de data op een 
-gerafiniëerde manier te manipuleren zodat al deze tests negatief terugkomen. Het is het bekende kat- 
-en muisspel in de sport, maar nu met digitale doping.
 
 
 
