@@ -32,18 +32,19 @@ weggeschreven:
 	3) datum en tijd
 
 We gaan in deze opgave stap voor stap een programma `Strava.py` schrijven dat de data inleest, 
-decodeert, opslaat in afzonderlijke lijsten en vragen over de rit beantwoordt. We zullen dat 
-doen dat aan de hand van de onderstaande opdrachten.
+decodeert, opslaat in afzonderlijke lijsten en vragen over de rit beantwoordt. We doen dat 
+aan de hand van de onderstaande opdrachten.
 
 ## Opdracht 1: teken de route op het scherm
 
-Maak een functie `Fietsrit()` die de file opent, alle metingen doorloopt en voor elk meetpunt 
-de locatie opslaat in twee afzonderlijke lijsten: de latitude en de longitude. Maak aan het 
-eind een grafiek van de meetpunten. Oriënteer het zo dat het op een kaart van Google maps 
-geprojecteerd zou kunnen worden, dus het noorden netjes in het noorden.
+Maak een functie `Fietsrit()` die de file opent, alle metingen doorloopt en de locaties van 
+alle meetpunten opslaat in twee lijsten: de latitude en de longitude. Gebruik deze informatie 
+om de route op het scherm te tekenen. 
 
 Een paar extra randvoorwaarden voor het tekenen van de grafiek:
 
+    - Oriënteer hierbij de route zo dat het op een kaart van Google maps geprojecteerd zou 
+      kunnen worden, dus het noorden netjes in het noorden.
 	- Geef het beginpunt aan met een grote groene stip en het eindpunt met een kleine gele 
 	- Verderop in de opgave gaan we nog wat extra informatie toevoegen op het scherm. Hou 
 	  dus iets ruimte over bij het tekenen van de grafiek.  
