@@ -24,11 +24,12 @@ kleine preview van de eerste drie meetpunten die in de file te vinden zijn:
 
 ![](DataFilePreview.png){: style="width:40%"}
 
-Als je goed kijkt zie je dat de informatie van elke meting in drie regels wordt weggeschreven:
+Als je de structuur bekijkt zie je dat de informatie van elke meting in drie regels wordt 
+weggeschreven:
 
-	1) positie in lengte- en breedtegraad 
-	2) de hoogte
-	3) de datum en tijd
+	1) lokatie: lengte- en breedtegraad 
+	2) hoogte
+	3) datum en tijd
 
 We gaan in deze opgave stap voor stap een programma `Strava.py` schrijven dat de data inleest, 
 decodeert, opslaat in afzonderlijke lijsten en vragen over de rit beantwoordt. We zullen dat 
