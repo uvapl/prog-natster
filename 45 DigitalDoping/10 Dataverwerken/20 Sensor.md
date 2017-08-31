@@ -43,7 +43,7 @@ om de route op het scherm te tekenen.
 
 Een paar extra randvoorwaarden voor het tekenen van de grafiek:
 
-    - Oriënteer de route zo dat het gelijk op een Google maps kaart geprojecteerd kan worden
+    - Let op de juiste oriëntatie (ivm mogelijke projectie op een kaart)
 	- Geef het beginpunt aan met een grote groene stip en het eindpunt met een kleine gele 
 	- Verderop in de opgave gaan we nog wat extra informatie toevoegen op het scherm. Hou 
 	  dus iets ruimte over bij het tekenen van de grafiek.  
