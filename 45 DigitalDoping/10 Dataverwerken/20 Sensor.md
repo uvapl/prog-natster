@@ -1,4 +1,4 @@
-# Opdracht: sensordata verwerken  
+# Opdracht: sensordata analyseren van een fietsrit
 
 ![](StravaLogo.png){:.inline}{: style="width:8%"}
 
