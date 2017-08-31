@@ -88,10 +88,11 @@ geval zou je de volgende stappen kunnen volgen om het probleem gestructureerd aa
 	- stap 1: maak de lijst met meettijden (in seconden na het begin van de rit)
 
 Als je de regel met de tijdstippen hebt gedecodeerd (uur, minuten en seconden) is het handig 
-om die om te rekenen naar een aantal seconden sinds het begin van de dag. Dit maakt het daarna 
-eenvoudig om het verschil tussen verschillende meetmomenten te berekenen. Het is handig om het 
-eerste meetmoment te definiëren als t=0. Elk meetpunt kan je daarna omrekenen naar de verlopen 
-tijd ten opzichte van dat tijdstip en dat in de lijst opslaan.
+om die om te rekenen naar een aantal seconden sinds het begin van de dag. Dit maakt het 
+namelijk eenvoudig om het tijdsverschil tussen twee willekeurige meetmomenten te berekenen. 
+Het is ook handig om het eerste meetmoment te definiëren als t=0 zodat je elk tijdstip 
+om kan rekenen naar het tijdsverschil ten opzichte van dat meetpunt voor je het in een 
+lijst opslaat.
 
     - stap 2: maak de lijst met snelheden 
 
