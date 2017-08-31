@@ -168,18 +168,22 @@ weet je wel op welke plek in de regel de waarde begint (hoeveel karakters er dus
 en ook hoeveel karakters er *achter* de hoogte staan in de regel. Met een iets algemenere formulering 
 ben je zo (flexibel) om de hoogte uit de regel te peuteren:
 
-	   dus niet:  hoogte = float( line[9:12] )
-       maar:      hoogte = float( line[9:len(line)-7] )
+	   dus niet:   hoogte = float( line[9:12] )
+       maar wel:   hoogte = float( line[9:len(line)-7] )
 
-Zorg dat je bovenstaande syntax goed begrijpt.
+Zorg dat in bovenstaande syntax goed begrijpt welke letters er van de regel geselecteerd worden.
 	
 ![](Matterhorn.jpg){:.inline}{: style="width:40%"}
 
 ### Opdracht 4b: creëer de fake data-set
 
 Maak een nieuwe data-file `Matterhorn.gpx` die bijna identiek is aan de originale `FietsRitData.gpx` 
-en die alleen verschilt in de regels die de hoogte aangeven. Pas de regels met de hoogte namelijk zo 
-aan dat het hoogteprofiel de volgende vorm aanneemt:
+en die alleen verschilt in de regels die de hoogte aangeven. 
+
+De taak is dus om regel voor regel de originele file in te lezen en die weer gelijk weg te schrijven 
+in de nieuwe file. Alleen voor de regels waar de hoogte is aangegeven moeten voor het wegschrijven de 
+oorspronkelijke hoogte vervangen door een die we zelf bedacht hebben. Het doel is dat het volgende 
+hoogte-profiel ontstaat in de rit:
 
 	- eerste kwart: zeeniveau (h=0)
 	- tweede kwart: lineair stijgen tot h=4478 m
