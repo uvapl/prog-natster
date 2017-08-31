@@ -147,6 +147,8 @@ Oud wielrenner Thijs Zonneveld lanceerde een paar jaar geleden het idee om een b
 maken. Geen grap, kijk maar naar deze Youtube clip: 
 [Die berg komt er!](https://www.youtube.com/embed/MVyWMS1Jj6M)
 
+![](Matterhorn.jpg){:.inline}{: style="width:40%"}
+
 Om te kijken hoe dat er op een Strava profiel uit zou zien en om zijn buurman in één klap voorbij 
 te gaan in hun hoogtemeters-in-dit-kalenderjaar klassement besluit de natuurkundige de data van 
 zijn rit zo te manipuleren dat het lijkt of hij inderdaad een berg zo hoog als de Matterhorn (4478 m) 
