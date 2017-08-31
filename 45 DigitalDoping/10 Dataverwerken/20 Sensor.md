@@ -129,13 +129,12 @@ Een paar extra randvoorwaarden bij het tekenen van de snelheidsgrafiek:
 Teken opnieuw de grafiek van de afgelegde route (net als in opdracht 1), maar voeg nu wat extra 
 elementen toe:
 
-	- rit-karakteristieken als tekst in de grafiek: duur, afgelegde weg en gemiddelde snelheid
-	- groene stip waar de maximale snelheid werd behaald en in tekst in buurt van de stip
+	- rit-karakteristieken als (netjes geformatteerde) tekst in de grafiek: 
+	  duur van de rit, afgelegde weg en gemiddelde snelheid
+	- maximale snelheid: groene stip op plek waar die werd behaald en in tekst
 	- rode bolletjes waar de snelheid lager was dan 20 km/uur
 
-
 ![](RitkaartWebsite.png){: style="width:80%"}
-
 
 Laat je programma ook berekenen hoe lang er onder de 20 kilometer per uur gereden is en 
 print dat op het scherm in de volgende format
