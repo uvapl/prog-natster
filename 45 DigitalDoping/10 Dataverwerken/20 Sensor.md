@@ -116,11 +116,12 @@ begint natuurlijk met 0 afgelegde kilometers op t=0.
 
 
 
-Een paar extra randvoorwaarden bij het tekenen van de grafiek:
+Een paar extra randvoorwaarden bij het tekenen van de snelheidsgrafiek:
 
-	- Geef met een groene stip aan wanneer de maximale snelheid werd bereikt 
-	- Geef in de grafiek aan wat de maximale snelheid was in tekst
-	- Geef met een stippellijn de gemiddelde snelheid aan
+	- Geef met een groene stip aan waar de maximale snelheid werd bereikt 
+	  eeef die snelheid ook weer in tekst in de grafiek
+	- Teken met een stippellijn de gemiddelde snelheid
+	  en geef die snelheid ook weer in tekst in de grafiek
 
         
 ## Opdracht 3: afgelegde route met extra informatie
