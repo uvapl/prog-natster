@@ -241,11 +241,10 @@ Niet elke tijdsverschil tussen twee metingen is precies een seconde.
 Dit is niet een opdracht waarin je iets moet uitrekenen, maar waarin je alleen na hoeft te denken.
 
 In opdracht 4 hebben we gezien hoe we de data kunnen manipuleren zodat het lijkt of we een enorme 
-berg hebben bedwongen in een polderlandschap. Dat hebben we natuurlijk op een knullige manier 
-gedaan, maar je kan je voorstellen dat je dat ook op een meer geraffineerde manier doet.
-
-Sterker nog, Er is een site waarop wielrenners hun prestaties digitaal kunnen verbeteren 
-voor ze hem uploaden naar Strava: [digital epo](http://digitalepo.com/).
+berg hebben bedwongen in een polderlandschap. Dat hebben we hier natuurlijk op een ontzettend 
+knullige manier gedaan, maar we hadden het ook op een veel geraffineerde manier kunnen doen.
+Sterker nog, er bestaat al een website waarop wielrenners hun prestaties digitaal kunnen verbeteren 
+voor ze die uploaden naar hun Strava profiel: [digital epo](http://digitalepo.com/).
 
 Schande natuurlijk, maar als we het bekijken vanuit onze cursus dan wordt het wel weer 
 interessant omdat het goed laat zien dat programmeren heel vaak zo veel meer is dan 'allen' 
