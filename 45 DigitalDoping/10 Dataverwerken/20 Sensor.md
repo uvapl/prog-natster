@@ -136,10 +136,10 @@ elementen toe:
 
 ![](RitkaartWebsite.png){: style="width:80%"}
 
-Laat je programma ook berekenen hoe lang er onder de 20 kilometer per uur gereden is en 
-print dat op het scherm in de volgende format
+Laat je programma ook berekenen hoe lang er onder de 20 kilometer per uur gereden. 
+Print deze informatie op het scherm in de volgende format:
 
-	`Er is gedurende x seconden langzamer gereden dan 20 km/uur`
+	 Er is gedurende x seconden langzamer gereden dan 20 km/uur
 	
 
 
