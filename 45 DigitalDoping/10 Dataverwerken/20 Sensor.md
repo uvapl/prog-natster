@@ -129,7 +129,7 @@ Een paar extra randvoorwaarden bij het tekenen van de snelheidsgrafiek:
 Teken opnieuw de grafiek van de afgelegde route (net als in opdracht 1), maar voeg nu wat extra 
 elementen toe:
 
-	- rit-karakteristieken als (netjes geformatteerde) tekst in de grafiek: 
+	- rit-karakteristieken als tekst in de grafiek: 
 	  duur van de rit, afgelegde weg en gemiddelde snelheid
 	- maximale snelheid: groene stip op plek waar die werd behaald en in tekst
 	- rode bolletjes waar de snelheid lager was dan 20 km/uur
