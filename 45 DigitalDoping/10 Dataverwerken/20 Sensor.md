@@ -141,8 +141,6 @@ Print deze informatie op het scherm in de volgende format:
 
 	 Er is gedurende x seconden langzamer gereden dan 20 km/uur
 	
-
-
 ## Opdracht 4: Fake data: Nederlandse col van de buitencategorie
 
 Oud wielrenner Thijs Zonneveld lanceerde een paar jaar geleden het idee om een berg in Nederland te 
