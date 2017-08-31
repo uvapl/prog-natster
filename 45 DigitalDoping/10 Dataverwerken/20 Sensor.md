@@ -5,7 +5,7 @@
 Een mobiele telefoon bevat sensoren om informatie over positie, snelheid en versnelling vast 
 te leggen. Deze data wordt natuurlijk voor navigatie gebruikt, maar ook in veel apps die 
 voor sport gebruikt worden. In deze opdracht gaan we aan de slag met de data die verzameld 
-is door een app die door veel wielrenners gebruikt wordt: [Strava](http:://www.strava.com). 
+is door een app die door veel wielrenners gebruikt wordt: [Strava](http://www.strava.com). 
 Na het sporten kan je in 
 detail je rit terugkijken: de projectie van de route op een interactieve kaart, de gemiddelde 
 snelheid, het hoogteprofiel, records op vooraf gedefiniëerde stukken weg en nog veel meer. 
