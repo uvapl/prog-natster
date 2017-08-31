@@ -43,8 +43,7 @@ om de route op het scherm te tekenen.
 
 Een paar extra randvoorwaarden voor het tekenen van de grafiek:
 
-    - Oriënteer hierbij de route zo dat het op een kaart van Google maps geprojecteerd zou 
-      kunnen worden, dus het noorden netjes in het noorden.
+    - Oriënteer de route zo dat het gelijk op een Google maps kaart geprojecteerd kan worden
 	- Geef het beginpunt aan met een grote groene stip en het eindpunt met een kleine gele 
 	- Verderop in de opgave gaan we nog wat extra informatie toevoegen op het scherm. Hou 
 	  dus iets ruimte over bij het tekenen van de grafiek.  
