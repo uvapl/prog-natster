@@ -221,7 +221,7 @@ is gereden. Print deze data op het scherm:
 	 Per minuut:  traagst => afstand = x.xx m, gemiddelde snelheid = x.xx m/s
 
 *Let op:*
-Niet elke tijdstap tussen twee metingen is precies een seconde.
+Niet elke tijdsverschil tussen twee metingen is precies een seconde.
 
 
 ### Opdracht 5b: de langste en kortste afstand afgelegd *in een kilometer*
