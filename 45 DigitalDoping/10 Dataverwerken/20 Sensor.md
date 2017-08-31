@@ -12,9 +12,10 @@ snelheid, het hoogteprofiel, records op vooraf gedefiniëerde stukken weg en nog
 We gaan in deze opgave zelf deze informatie uit de sensor-data halen en, niet verder vertellen, 
 proberen de data in de file te manipuleren: digitale doping.
 
-Onze data-file is een echte fietsrit die een natuurkundige aan de universiteit van Amsterdam 
-maakte in de buurt van Leiden samen met zijn buurman. De data-file met de informatie zoals 
-die door de app verzameld is is hier te downloaden: [FietsRitData.gpx](FietsRitData.gpx).
+Onze data is verzameld tijdens een echte fietsrit die een natuurkundige aan de Universiteit 
+van Amsterdam samen met zijn buurman maakte ergens in de buurt van Leiden. Het bestand met 
+de gegevens over de rit zoals die door de app is verzameld is hier te downloaden: 
+[FietsRitData.gpx](FietsRitData.gpx).
 
 De eerste regels van de file bevatten wat algemene tekstuele informatie, maar daarna wordt 
 het interessant. Elk meetpunt (ongeveer om de seconde) worden drie zaken vastgelegd: positie, 
