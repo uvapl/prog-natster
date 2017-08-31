@@ -50,20 +50,21 @@ Een paar extra randvoorwaarden voor het tekenen van de grafiek:
 
 ### Computing tip:
 
-Tijdens het inlezen van elke regel kan je een test uitvoeren of er een bepaalde string in de 
-regel voorkomt. Als je de string *<trkpt* tegenkomt weet je bijvoorbeeld dat je de regel met 
-de positie aan het inlezen bent. Maar als je de regel 'herkend' hebt ben je er nog niet. Je 
-moet daarna nog de latitude en longitude, die op vaste posities zitten, uit de string 'peuteren'. 
+Tijdens het inlezen van elke regel kan je een test uitvoeren of er een bepaalde 'string' in 
+de regel voorkomt. In ons geval weten we bijvoorbeeld dat als we de string *"<trkpt"* tegenkomen 
+we de regel te pakken hebben waarin de locatie opgeslagen staat. Maar met het herkennen van 
+de regel ben je er nog niet natuurlijk. Je moet daarna namelijk nog wel de informatie over de 
+latitude en longitude (die altijd op dezelfde positie in de string staan) uit de string 'knippen'. 
 
        if "<trkpt" in line: 
            latitude = ....
            longitude = ....
 
 **Let op:** 
-Zodra je het stukje regel hebt herkent waar de latitude is opgeslagen herkent de 
-computer dit nog steeds al tekst en niet als getal. Gebruik de functie `float()` om dat 
-stukje van de regel ook echt om te zetten in een getal voor je het opslaat in de lijst. Zo 
-kan je er verderop in het programma ook mee rekenen.
+Zodra je het stukje regel hebt herkend waar de latitude en longitude is opgeslagen ziet
+de computer dit nog steeds als tekst en niet als getal. Gebruik de functie `float()` om 
+dat stukje van de regel om te zetten in een getal voor je het opslaat in de lijst. Zo 
+kan je er verderop in het programma mee rekenen.
 
 ## Opdracht 2: totaal afgelegde afstand en snelheidsgrafiek
 
