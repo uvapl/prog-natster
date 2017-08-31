@@ -72,7 +72,7 @@ Bereken de totaal afgelegde afstand tijdens de fietsrit, de gemiddelde snelheid 
 grafiek van de snelheid als functie van de tijd, waarbij de tijd weergegeven is als het 
 aantal seconden na het begin van de rit. 
 
-Laat je programma de grootheden in het volgende format printen:
+Laat je programma de volgende samenvatting van de rit printen (in dit format):
 
 	Rit: de totale duur van de rit was x uur, y minuten en z seconden
 	Rit: de totaal afgelegde weg was x.x km
