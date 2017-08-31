@@ -68,9 +68,9 @@ kan je er verderop in het programma mee rekenen.
 
 ## Opdracht 2: totaal afgelegde afstand en snelheidsgrafiek
 
-Bereken de totaal afgelegde afstand, de gemiddelde snelheid en maak een grafiek van de snelheid 
-als functie van de tijd, waarbij de tijd weergegeven is als het aantal seconden na het begin 
-van de rit. 
+Bereken de totaal afgelegde afstand tijdens de fietsrit, de gemiddelde snelheid en maak een 
+grafiek van de snelheid als functie van de tijd, waarbij de tijd weergegeven is als het 
+aantal seconden na het begin van de rit. 
 
 Laat je programma de grootheden in het volgende format printen:
 
