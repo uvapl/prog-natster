@@ -187,8 +187,9 @@ en die alleen verschilt in de regels die de hoogte aangeven.
 
 De taak is dus om regel voor regel de originele file in te lezen en die weer gelijk weg te schrijven 
 in de nieuwe file. Alleen voor de regels waar de hoogte is aangegeven moeten voor het wegschrijven de 
-oorspronkelijke hoogte vervangen door een die we zelf bedacht hebben. Het doel is dat het volgende 
-hoogte-profiel ontstaat in de rit:
+oorspronkelijke hoogte vervangen door een die we zelf bedacht hebben. 
+
+Het doel is dat het volgende hoogte-profiel ontstaat in de rit:
 
 	- eerste kwart: zeeniveau (h=0)
 	- tweede kwart: lineair stijgen tot h=4478 m
@@ -197,10 +198,10 @@ hoogte-profiel ontstaat in de rit:
 		
 ### Computing tip:
 
-	- Volg het voorbeeld in het begin van de module om te hebben we gezien hoe je een file kan aanmaken en 
-er een regel in weg kan schrijven.  
-	- gebruik de code die je in opdracht 4a geschreven hebt om te verifiëren of het hoogteprofiel inderdaad
-	  correct in de file is weggeschreven.
+	- Volg het voorbeeld in het begin van de module om te hebben we gezien hoe je een file kan 
+	  aanmaken en er een regel tekst in weg kan schrijven.  
+	- gebruik de code die je in opdracht 4a geschreven hebt om te verifiëren of het hoogteprofiel 
+	  dat je nu gemaakt hebt inderdaad correct in de file is weggeschreven.
 
 
 # Extra opdrachten (niet verplicht)
