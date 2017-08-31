@@ -180,8 +180,6 @@ ben je zo (flexibel) om de hoogte uit de regel te peuteren:
 
 Zorg dat in bovenstaande syntax goed begrijpt welke letters er van de regel geselecteerd worden.
 	
-![](Matterhorn.jpg){:.inline}{: style="width:40%"}
-
 ### Opdracht 4b: creëer de fake data-set
 
 Maak een nieuwe data-file `Matterhorn.gpx` die bijna identiek is aan de originale `FietsRitData.gpx` 
