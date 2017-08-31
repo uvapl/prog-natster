@@ -147,21 +147,26 @@ Oud wielrenner Thijs Zonneveld lanceerde een paar jaar geleden het idee om een b
 maken. Geen grap, kijk maar naar deze Youtube clip: 
 [Die berg komt er!](https://www.youtube.com/embed/MVyWMS1Jj6M)
 
-Om te kijken hoe dat er op een Strava profiel uit zou zien en om zijn buurman in een klap voorbij 
-te gaan in het hoogtemeters-in-dit-kalenderjaar klassement besluit de natuurkundige de data van 
-zijn rit zo te manipuleren dat het lijkt of hij al een berg zo hoog als de Matterhorn (4478 m) 
-heeft geklommen tijdens dit zondagse ritje door het groene hart. We doen dat in twee afzonderlijke
-stappen.
+Om te kijken hoe dat er op een Strava profiel uit zou zien en om zijn buurman in één klap voorbij 
+te gaan in hun hoogtemeters-in-dit-kalenderjaar klassement besluit de natuurkundige de data van 
+zijn rit zo te manipuleren dat het lijkt of hij inderdaad een berg zo hoog als de Matterhorn (4478 m) 
+heeft geklommen tijdens hun zondagse ritje. We doen dat in twee afzonderlijke stappen.
  
 ### Opdracht 4a: hoogteprofiel
 
-Naast de locatie en de tijd is ook de hoogte opgeslagen op elk meetpunt. Sla ook die data op 
-in een lijst en teken de grafiek van de hoogte als functie van de tijd (weer in seconden sinds 
-het begin van de rit). 
+Naast de locatie en de tijd is ook de hoogte opgeslagen op elk meetpunt. Sla ook die data op en teken 
+de grafiek van de hoogte als functie van de tijd (weer in seconden sinds het begin van de rit). 
 
 ### Computing tip:
-**Let op:** het kan erg verleidelijk zijn om op basis van de eerste paar regels in de data-file te concluderen dat de hoogte tijdens een rit is opgeslagen in een deel van de regel die maar 3 karakters breed is (X.Y) en dat dat correspondeert met X meter en Y decimeter boven zeeniveau. Nou klopt het dat je rond Leiden nooit boven tien meter boven of onder zeeniveau uitkomt, maar als je op elke andere plek inde wereld gaat fietsen zal de hoogte ook best tussen de -20 en +2500 kunnen liggen. Hoewel je niet van tevoren weet hoe hoog je zit weet je wel hoeveel karakters er *voor* de hoogte staan en ook hoeveel karakters er *achter* de hoogte staan. Je kan de hoogte dus zo wel uit de regel peuteren:
-
+**Let op:** het kan erg verleidelijk zijn om op basis van de eerste paar regels in de data-file te 
+concluderen dat de hoogte tijdens een rit is opgeslagen in een deel van de regel die maar drie karakters 
+breed is (X.Y) en dat dat correspondeert met X meter en Y decimeter boven of onder zeeniveau. Nou 
+klopt het dat je rond Leiden nooit boven tien meter boven of onder zeeniveau uitkomt, maar als je 
+op elke andere plek in de wereld gaat fietsen zal de hoogte ook best tussen de -20 en +2500 kunnen 
+liggen. Hoewel je niet van tevoren weet hoeveel karakters er gebruikt zijn om de hoogte weer te geven 
+weet je wel op welke plek in de regel de waarde begint (hoeveel karakters er dus *voor* de hoogte staan) 
+en ook hoeveel karakters er *achter* de hoogte staan in de regel. Met een iets algemenere formulering 
+ben je zo (flexibel) om de hoogte uit de regel te peuteren:
 
 	   dus niet:  hoogte = float( line[9:12] )
        maar:      hoogte = float( line[9:len(line)-7] )
