@@ -244,7 +244,7 @@ In opdracht 4 hebben we gezien hoe we de data kunnen manipuleren zodat het lijkt
 berg hebben bedwongen in een polderlandschap. Dat hebben we hier natuurlijk op een ontzettend 
 knullige manier gedaan, maar we hadden het ook op een veel geraffineerde manier kunnen doen.
 Sterker nog, er bestaat al een website waarop wielrenners hun prestaties digitaal kunnen verbeteren 
-voor ze die uploaden naar hun Strava profiel: [digital epo](http://digitalepo.com/).
+voor ze die uploaden naar hun Strava profiel: [http://digitalepo.com](http://digitalepo.com/).
 
 Schande natuurlijk, maar als we het bekijken vanuit onze cursus dan wordt het wel weer 
 interessant omdat het goed laat zien dat programmeren heel vaak zo veel meer is dan 'allen' 
