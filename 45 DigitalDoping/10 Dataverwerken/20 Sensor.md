@@ -152,7 +152,11 @@ maken. Geen grap, kijk maar naar deze Youtube clip:
 Om te kijken hoe dat er op een Strava profiel uit zou zien en om zijn buurman in één klap voorbij 
 te gaan in hun hoogtemeters-in-dit-kalenderjaar klassement besluit de natuurkundige de data van 
 zijn rit zo te manipuleren dat het lijkt of hij inderdaad een berg zo hoog als de Matterhorn (4478 m) 
-heeft geklommen tijdens hun zondagse ritje. We doen dat in twee afzonderlijke stappen.
+heeft geklommen tijdens hun zondagse ritje. 
+
+Deze opdracht bestaat uit twee stappen. Eerst een grafiek leren maken van het hoogteprofiel van 
+een rit en daarna een nieuwe data-file maken waarin de hoogte van de meetpunten is gemanipuleerd. 
+
  
 ### Opdracht 4a: hoogteprofiel
 
