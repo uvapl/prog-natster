@@ -208,8 +208,8 @@ Het doel is dat het volgende hoogte-profiel ontstaat in de rit:
 
 ## Opdracht 5: snelste en langzaamste stukken van de rit
 
-We kunnen de data in meer detail bekijken, Twee van de vele vragen die we kunnen stellen zijn 
-die hieronder in vraag 5a en 5b zijn gesteld.
+We kunnen de data in meer detail bekijken en gaan twee vragen proberen te beantwoorden die te 
+maken hebben met de uitersten van de rit: het snelste en het langzaamste stuk.
 
 ### Opdracht 5a: de langste en kortste afstand afgelegd *in een minuut*
 
