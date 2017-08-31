@@ -101,18 +101,18 @@ Zodra je vanuit de data-file alle posities en tijden hebt ingelezen kan je de fi
 Je hebt dan immers alle informatie die je nodig hebt om de afgeleide informatie zelf te 
 berekenen zoals de totale afgelegde weg en de lijst met snelheden op elk tijdstip. Immers, 
 als we bij meetpunt *i* zijn aangekomen weten we zowel de afgelegde weg (verschil in positie) 
-als het tijdsverschil tussen dit meetpunt en het vorige meetpunt (*i-1*). En dus ook de 
-snelheid die de fietser had tijdens dit kleine stukje van de route. Bereken op deze manier 
-de snelheid op elk moment en sla deze informatie op in een lijst.
+als het tijdsverschil tussen dit meetpunt en het vorige meetpunt (*i-1*). En daarmee dus 
+ook de snelheid die de fietser had tijdens dit kleine stukje van de route. Bereken op deze 
+manier de snelheid op elk tijdstip en sla deze informatie op in een lijst.
 
 **Let op:** 
 De fietser stond stil op t=0. Het eerste element in de lijst met snelheden is dus 0.
 
     - stap 3: de lijst met afgelegde afstanden
 
-Tijdens het doorlopen van de meetpunten om de snelheidslijst te vullen kan je nu ook gelijk de 
-totale (tot nu toe) afgelegde weg bijhouden in een lijst. Ook deze lijst begint natuurlijk met 
-0 afgelegde kilometers op t=0.
+Tijdens het doorlopen van de meetpunten om de snelheidslijst te vullen kan je natuurlijk 
+ook gelijk de totale (tot nu toe) afgelegde weg bijhouden in een lijst. Ook deze lijst 
+begint natuurlijk met 0 afgelegde kilometers op t=0.
 
 
 
