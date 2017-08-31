@@ -246,9 +246,9 @@ knullige manier gedaan, maar we hadden het ook op een veel geraffineerde manier 
 Sterker nog, er bestaat al een website waarop wielrenners hun prestaties digitaal kunnen verbeteren 
 voor ze die uploaden naar hun Strava profiel: [http://digitalepo.com](http://digitalepo.com/).
 
-Schande natuurlijk, maar als we het bekijken vanuit onze cursus dan wordt het wel weer 
-interessant omdat het goed laat zien dat programmeren heel vaak zo veel meer is dan 'allen' 
-programmeren. In dit geval bijvoorbeeld creativiteit, mensenkennis en politiek.
+Schandalig natuurlijk, maar het kan wel. Als we dit fenomeen in iets meer detail bestuderen vanuit 
+dan wordt het interessant voor dit vak omdat het goed laat zien dat programmeren vaak meer is dan 
+'gewoon code intikken'. Er komt ook vaak creativiteit en mensenkennis bij kijken.
 
 Laten we eerst eens bedenken hoe we het zelf zouden doen:
 
