@@ -68,17 +68,21 @@ kan je er verderop in het programma mee rekenen.
 
 ## Opdracht 2: totaal afgelegde afstand en snelheidsgrafiek
 
-Maak een grafiek van de snelheid als functie van de tijd, waarbij de tijd weergegeven is 
-als het aantal seconden na het begin van de rit. 
+Bereken de totaal afgelegde afstand, de gemiddelde snelheid en maak een grafiek van de snelheid 
+als functie van de tijd, waarbij de tijd weergegeven is als het aantal seconden na het begin 
+van de rit. 
 
-Laat je programma ook deze grootheden printen in het volgende format:
+Laat je programma de grootheden in het volgende format printen:
 
 	Rit: de totale duur van de rit was x uur, y minuten en z seconden
 	Rit: de totaal afgelegde weg was x.x km
 	Rit: de gemiddelde snelheid was xx.x km/uur
 	Rit: de maximum snelheid was xx.x km/uur en werd gereden x seconden na de start van de rit
         
-Volg de volgende stappen bij het beantwoorden van de opdracht.        
+Dit is een opdracht die een paar nieuwe componenten bevat. Zoals bij elke opdracht is het 
+belangrijk om eerst na te denken over je aanpak *voor* je computercode gaat schrijven. In 
+deze opdracht is het is bijvoorbeeld handig om de volgende stappen te volgen om het probleem 
+aan te pakken.
         
 ### Stappenplan:
 
