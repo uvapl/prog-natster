@@ -74,15 +74,14 @@ aantal seconden na het begin van de rit.
 
 Laat je programma de volgende samenvatting van de rit printen (in dit format):
 
-	Rit: de totale duur van de rit was x uur, y minuten en z seconden
-	Rit: de totaal afgelegde weg was x.x km
-	Rit: de gemiddelde snelheid was xx.x km/uur
-	Rit: de maximum snelheid was xx.x km/uur en werd gereden x seconden na de start van de rit
+	Rit: duur van de rit was x uur, y minuten en z seconden
+	Rit: afgelegde weg was x.x km
+	Rit: gemiddelde snelheid was xx.x km/uur
+	Rit: maximum snelheid was xx.x km/uur en werd gereden x seconde na de start van de rit
         
-Dit is een opdracht die een paar nieuwe componenten bevat. Zoals bij elke opdracht is het 
-belangrijk om eerst na te denken over je aanpak *voor* je computercode gaat schrijven. In 
-deze opdracht is het is bijvoorbeeld handig om de volgende stappen te volgen om het probleem 
-aan te pakken.
+Dit is een opdracht die verschillende nieuwe componenten bevat. Het is in dat soort gevallen 
+belangrijk om eerst na te denken over je aanpak *voor* je computercode gaat schrijven. In dit 
+geval zou je de volgende stappen kunnen volgen om het probleem gestructureerd aan te pakken.
         
 ### Stappenplan:
 
