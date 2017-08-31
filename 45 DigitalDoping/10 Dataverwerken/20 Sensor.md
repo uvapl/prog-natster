@@ -217,8 +217,8 @@ Loop door de verzamelde data heen en zoek de minuut waarin de grootste en de lan
 afgelegd. Hiermee weet je gedurende welke minuut er het respectievelijk het snelst en het langzaamst 
 is gereden. Print deze data op het scherm:
 
-	 Minuut: snelst  => afstand = x.xx m, gemiddelde snelheid = x.xx m/s
-	 Minuut: traagst => afstand = x.xx m, gemiddelde snelheid = x.xx m/s
+	 Per minuut:  snelst  => afstand = x.xx m, gemiddelde snelheid = x.xx m/s
+	 Per minuut:  traagst => afstand = x.xx m, gemiddelde snelheid = x.xx m/s
 
 *Let op:*
 Niet elke tijdstap tussen twee metingen is precies een seconde.
@@ -230,8 +230,8 @@ Loop door de verzamelde data heen en zoek de kilometer die in het kortste en het
 afgelegd. Hiermee weet je gedurende welke kilometer er het respectievelijk het snelst en het langzaamst 
 is gereden. Print deze data op het scherm:
 
-	 Kilometer: snelst  => tijdsduur = x s, gemiddelde snelheid = x.xx m/s
-	 Kilometer: traagst => tijdsduur = x s, gemiddelde snelheid = x.xx m/s
+	 Per kilometer:  snelst  => tijdsduur = x s, gemiddelde snelheid = x.xx m/s
+	 Per kilometer:  traagst => tijdsduur = x s, gemiddelde snelheid = x.xx m/s
 
 **Let op:**
 Niet elke tijdsverschil tussen twee metingen is precies een seconde.
