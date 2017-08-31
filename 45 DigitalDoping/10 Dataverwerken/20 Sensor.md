@@ -79,9 +79,10 @@ Laat je programma de volgende samenvatting van de rit printen (in dit format):
 	Rit: gemiddelde snelheid was xx.x km/uur
 	Rit: maximum snelheid was xx.x km/uur en werd gereden x seconde na de start van de rit
         
-Dit is een opdracht die verschillende nieuwe componenten bevat. Het is in dat soort gevallen 
-belangrijk om eerst na te denken over je aanpak *voor* je computercode gaat schrijven. In dit 
-geval zou je de volgende stappen kunnen volgen om het probleem gestructureerd aan te pakken.
+Dit is een opdracht die verschillende nieuwe componenten bevat en daarom gebaat is bij een 
+aanpak waarbij je het in kleinere stappen opdeelt. Bedenk je plan *voor* je computercode 
+gaat schrijven. In dit geval zou je bijvoorbeeld de volgende stappen kunnen volgen om het 
+probleem gestructureerd aan te pakken.
         
 ### Stappenplan:
 
