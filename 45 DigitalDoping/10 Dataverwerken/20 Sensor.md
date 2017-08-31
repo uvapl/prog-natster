@@ -2,13 +2,14 @@
 
 ![](StravaLogo.png){:.inline}{: style="width:8%"}
 
-Een mobiele telefoon bevat sensoren om grootheden als positie, snelheid, versnelling vast te 
-leggen. Deze data wordt naast navigatie ook gebruikt in verschillende apps die voor sporten 
-gebruikt worden. In deze opdracht gaan we aan de slag met de data die verzameld is in een 
-app die door wielrenners gebruikt wordt: Strava. Na het sporten kan je in detail je rit 
-terugkijken: de projectie van de route op een interactieve kaart, de gemiddelde snelheid, 
-het hoogteprofiel, records op vooraf gedefiniëerde stukken weg en nog veel meer. We gaan 
-in deze opgave zelf deze informatie uit de sensor-data halen en, niet verder vertellen, 
+Een mobiele telefoon bevat sensoren om informatie over positie, snelheid en versnelling vast 
+te leggen. Deze data wordt natuurlijk voor navigatie gebruikt, maar ook in veel apps die 
+voor sport gebruikt worden. In deze opdracht gaan we aan de slag met de data die verzameld 
+is door een app die door veel wielrenners gebruikt wordt: [Strava](http:://www.strava.com). 
+Na het sporten kan je in 
+detail je rit terugkijken: de projectie van de route op een interactieve kaart, de gemiddelde 
+snelheid, het hoogteprofiel, records op vooraf gedefiniëerde stukken weg en nog veel meer. 
+We gaan in deze opgave zelf deze informatie uit de sensor-data halen en, niet verder vertellen, 
 proberen de data in de file te manipuleren: digitale doping.
 
 Onze data-file is een echte fietsrit die een natuurkundige aan de universiteit van Amsterdam 
