@@ -62,6 +62,13 @@ verdeeld onder de nakijkers en gaan zij aan de slag. Er is geen mogelijkheid om 
 in te leveren! Lever dus sowieso in wat je hebt! Het is prima om, voor je instuurt, de 
 assistent nog even te vragen naar je opgave te kijken, zodat je nog verbeteringen kunt aanbrengen.
 
+| deadline   | groep DFGH         | groep EK           |  
+| ---------- | ------------------ | ------------------ |  
+| opdracht 1 | 14 september 23:59 | 15 september 23:59 |  
+| opdracht 2 | 28 september 23:59 | 29 september 23:59 |  
+| opdracht 3 | 12 oktober 23:59   | 13 oktober 23:59   |  
+| opdracht 4 | 19 oktober 23:59   | 20 oktober 23:59   |  
+
 ## Tentamen
 
 Hoewel het niet toegestaan is zou het mogelijk kunnen zijn om ongemerkt mee te liften met 
