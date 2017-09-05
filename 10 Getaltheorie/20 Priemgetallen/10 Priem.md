@@ -18,7 +18,7 @@ Begin ook altijd simpel zodat je precies begrijpt welke stappen de computer neem
 
 - Schrijf in een bestand genaamd `priemgetal.py` een programma dat een priemgetal met de gewenste rangorde bepaalt.
 
-- Vraag de gebruiker om de rangorde van het priemgetal in te voeren. Dit moet een geheel getal zijn, groter dan 2.
+- Vraag de gebruiker om de rangorde van het priemgetal (het hoeveelste) in te voeren. Dit moet natuurlijk een geheel en positief getal zijn.
 
 - Als de gebruiker een rangorde invult die niet toegestaan is, dan vraag je de gebruiker opnieuw naar de rangorde. Net zo lang tot de gebruiker een geldige rangorde invult.
 
