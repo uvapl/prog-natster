@@ -18,6 +18,8 @@ Dit pakket kunt je downloaden op de website van [Continuum](https://www.continuu
 
 Zodra de download klaar is, moet je het gedownloade bestand uitvoeren (dubbelklik?). Volg dan de installatieinstructies en kies waar nodig voor "Install for me only"; als het goed is hoef je verder niks te veranderen.
 
+**Bug:** in de Windows-versie moet je ook nog aanvinken dat je het PATH wil aanmaken. Zodra je dit aanvinkt krijg je een roodgekleurde waarschuwing, maar dat is geen enkel probleem, gewoon doen!
+
 **Bug:** in de Mac-versie is "Install for me only" niet correct geselecteerd, en er staat een foutmelding onder dit scherm waardoor je niet verder kan. Klik met de muis op "Install for me only" om verder te gaan met de installatie.
 
 De installatie kan een tijdje duren.
