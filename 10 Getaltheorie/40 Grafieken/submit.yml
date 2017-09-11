@@ -1,13 +1,8 @@
 name: module1
 files:
     vereist:
-        - module1.py
-        - oneven.py
-        - temperaturen.py
-        - priem.py
-        - priem100.py
-        - duizendste.py
-        - priem_reeks.py
+        - rekenwonder.py
+        - priemgetal.py
+        - reeks.py
         - goldbach.py
-        - hoek.py
-        - grafiek.py
+        - plot.py
