@@ -1,7 +1,8 @@
 name: module2
 files:
     vereist:
-        - functies.py
-        - random_getallen.py
+        - nulpunten.py
+        - afstand.py
+        - histogram.py
         - riemann.py
         - montecarlo.py
