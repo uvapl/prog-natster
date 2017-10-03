@@ -24,9 +24,9 @@ In deze module gaan we bestuderen hoe we de beweging van vallende objecten kunne
 
 3. <span class="label label-primary">Opdracht</span> Laat zien hoe een [dronken student](/beweging/student) beweegt
 
-#### Dag 4: Angry birds
+#### Dag 4: Fitten
 
-1. <span class="label label-primary">Opdracht</span> Besef hoe makkelijk je miljonair had kunnen worden door [Angrybirds](/beweging/angrybirds) zelf te programmeren
+1. <span class="label label-primary">Opdracht</span> Vindt de regelmaat in je data met [Fitten](/beweging/fitten)
 
 #### Evaluatie
 
