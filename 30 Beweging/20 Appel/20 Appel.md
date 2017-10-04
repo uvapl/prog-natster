@@ -40,7 +40,7 @@ De uitvoer moet heel precies zijn en alleen de gevraagde waarden bevatten elk op
 
 ## Tips
 
-- Gebruik bovenstaande formule en start de appel dus op x = $${\rm R_{earth}}$$ + 100 meter. Als je wilt weten hoe hoog de appel is, de grootheid die je iets zegt en die je ook in de plots gebruikt, gebruik dan h = x - $${\rm R_{earth}}$$.
+- Gebruik bovenstaande formule en start de appel dus op x = $${\rm R_{earth}}$$ + 100 meter. Als je wilt weten hoe hoog de appel is, gebruik dan h = x - $${\rm R_{earth}}$$.
 - Let goed op het teken van de krachten en snelheden. je begint bij positieve $$x$$ en beweegt dan naar $$x=0$$ toe.
 - In dit voorbeeld kan je de antwoorden ook zelf uitrekenen met behulp van pen en papier.
 - Bereken alles eerst in m/s en reken dan voor punt 2 de snelheid om naar km/uur.
