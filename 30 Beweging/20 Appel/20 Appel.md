@@ -36,7 +36,7 @@ De uitvoer moet heel precies zijn en alleen de gevraagde waarden bevatten elk op
 
 	000 s tot de appel de grond raakt
 	000.0 km/uur is de snelheid waarmee de appel de grond raakt
-	0.00 s duurt het tot de appel de grond raakt
+	0.00 s duurt het tot de appel 100 km/uur gaat
 
 ## Tips
 
