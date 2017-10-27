@@ -1,0 +1,4 @@
+name: hert
+files:
+    vereist:
+        - tentamen.py
