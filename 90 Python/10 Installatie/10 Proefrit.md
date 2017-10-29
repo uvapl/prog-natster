@@ -21,7 +21,7 @@ Krijg je de volgende melding? Klik dan op **Don't show again**. We hebben de ext
 
 ![](visualplugin.png)
 
-### Een stukje code schrijven
+## Stap 4: Een stukje code schrijven
 
 Zet in de file `hello.py` nu de volgende regel code: 
 
@@ -46,7 +46,7 @@ Druk op **ENTER** om de opdracht te starten. De computer kijkt in de file `hello
 En kijk, jouw eerste (werkende) programma is een feit!
 
 
-### Automatische check: `checkpy`
+## Stap 5: Automatische check: `checkpy`
 
 Om jou te helpen controleren of wat je programmeert ook daadwerkelijk in overeenstemming is met de opdracht, hebben wij een programma geschreven genaamd **checkpy**. Gebruik het bij de opdrachten in de cursus om te kijken of je op de goede weg bent.
 
