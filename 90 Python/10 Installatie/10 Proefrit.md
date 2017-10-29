@@ -1,4 +1,4 @@
-# Proefrit
+## Stap 3: Proefrit
 
 Nu je zowel Anaconda als Visual Studio Code hebt geïnstalleerd, kunnen we gaan kijken of alles werkt. Maak als eerste stap ergens op jouw computer (bijvoorbeeld de *Desktop*) een map aan genaamd `programmeren`. Dat wordt de plek waarin we gaan werken. Maak vervolgens binnen `programmeren` een map aan genaamd `week1`. (Weet je niet zo goed hoe je mappen moet maken? Kijk eens bij [Apple](https://support.apple.com/en-us/HT201732) voor Mac OS of bij [Dummies.com](http://www.dummies.com/computers/operating-systems/windows-10/how-to-create-a-new-folder-in-windows-10/) voor Windows.)
 
@@ -34,6 +34,8 @@ Dan zie je een extra onderdeel verschijnen in je Visual Studio-scherm:
 ![visualterminal](visualterminal.png){:style="max-width:80%"}
 
 Dit onderdeel heet de **terminal** en is de plek waar we Python en jouw programma's kunnen laten uitvoeren. Het gebied met het stippellijntje in de figuur hierboven noemen we de **prompt** waar we een opdracht kunnen intikken die de computer vervolgens uit gaat voeren. De prompt ziet er wat ingewikkeld uit, maar dat kunnen we negeren.
+
+Tip: de prompt kan er op verschillende besturingssystemen anders uitzien!
 
 Laten we het meteen maar eens uitproberen met ons programma `hello.py`. Voer het volgende commando in achter de prompt:
 
