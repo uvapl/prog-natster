@@ -1,10 +1,3 @@
-<style>
-div.embed
-{
-	margin:0 ! important;
-}
-</style>
-
 # Module 1: getaltheorie
 
 <div style="width: 40%; float:right; margin-left: 2em;">

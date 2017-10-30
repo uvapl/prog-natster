@@ -69,6 +69,13 @@ assistent nog even te vragen naar je opgave te kijken, zodat je nog verbeteringe
 | opdracht 3 | 12 oktober 23:59   | 13 oktober 23:59   |  
 | opdracht 4 | 19 oktober 23:59   | 20 oktober 23:59   |  
 
+| deadline   | groep ABCIJ        |  
+| ---------- | ------------------ |  
+| opdracht 1 | 11 november 14:59  |  
+| opdracht 2 | 25 november 14:59  |  
+| opdracht 3 | 9 december 14:59   |  
+| opdracht 4 | 16 december 14:59  |  
+
 ## Tentamen
 
 Hoewel het niet toegestaan is zou het mogelijk kunnen zijn om ongemerkt mee te liften met 
