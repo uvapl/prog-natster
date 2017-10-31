@@ -30,6 +30,12 @@ Schrijf een programma dat de volgende grafiek laat zien.
 		matplotlib.use('Agg')
 		import matplotlib.pyplot as plt
 
+* Gebruik je Windows en krijg je een foutmelding bij het plotten? Probeer dan dit:
+
+		import matplotlib
+		matplotlib.use('tkagg')
+		import matplotlib.pyplot as plt
+
 * Vergeet trouwens niet dat `^` in Python zelf géén machtsverheffen is. Je moet voor het berekenen van een macht de operator `**` gebruiken.
 
 * Krijg je het plotten niet werkend? Stuur ons een mail!
