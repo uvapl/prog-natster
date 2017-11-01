@@ -5,7 +5,7 @@ Schrijf een functie die het gemiddeld aantal random getallen (uniform verdeeld t
 Gebruik de volgende strategie:
 
   - Genereer random getallen totdat de som ervan groter is dan 1.
-    Gebruik hiervoor de **while()** contructie
+    Gebruik hiervoor de `while()` contructie
   
   - Doe dit bovenstaande een groot aantal keer (N = 1 miljoen) 
 
