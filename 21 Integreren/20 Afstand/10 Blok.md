@@ -10,7 +10,7 @@ Schrijf een functie die de gemiddelde afstand tussen 2 punten in een vierkant me
 
 ![](vierkant.png)
 
-Dit is een typisch voorbeeld van een duidelijk en simpel probleem dat analytisch nogal lastig op te lossen is. Probeer het maar eens. 
+Dit is een typisch voorbeeld van een duidelijk en ogenschijnlijk simpel probleem dat analytisch nogal lastig op te lossen is. Probeer het maar eens, dan zal je al snel zien dat je vastloopt.
 
 ## Specificatie
 
