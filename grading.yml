@@ -4,28 +4,28 @@ grades:
         subgrades:
             scope: integer
             style: integer
-        calculation: ((2*scope + 1*style) / 15.0 * 9 + 1).round(1)
+        calculation: ((3*(scope/14.0)) * 9 + 1).round(1)
         hide_calculated: true
     module2:
         type: float
         subgrades:
             scope: integer
             style: integer
-        calculation: ((2*scope + 1*style) / 15.0 * 9 + 1).round(1)
+        calculation: ((3*(scope/15.0) + 1*(style/5.0)) / 4.0 * 9 + 1).round(1)
         hide_calculated: true
     module3:
         type: float
         subgrades:
             scope: integer
             style: integer
-        calculation: ((2*scope + 1*style) / 15.0 * 9 + 1).round(1)
+        calculation: ((2*(scope/22.0) + 1*(style/5.0)) / 4.0 * 9 + 1).round(1)
         hide_calculated: true
     module4:
         type: float
         subgrades:
             scope: integer
             style: integer
-        calculation: ((2*scope + 1*style) / 15.0 * 9 + 1).round(1)
+        calculation: ((2*(scope/11.0) + 1*(style/5.0)) / 4.0 * 9 + 1).round(1)
         hide_calculated: true
     tent:
         type: pass
