@@ -11,7 +11,7 @@ Gebruik de volgende strategie:
 
   - Bepaal het gemiddeld aantal benodigde worpen en print dat naar het scherm
   
-## Specificatie
+### Specificatie
 
 - Maak een nieuw bestand genaamd `randomwiskunde.py`.
 
@@ -22,8 +22,7 @@ Gebruik de volgende strategie:
 	   Het gemiddeld aantal worpen (op basis van 1 miljoen trials) is: x.xxxx 
 
 		
-
-## Testen
+### Testen
 
 	checkpy randomwiskunde.py
 	
