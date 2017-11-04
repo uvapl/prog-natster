@@ -5,11 +5,9 @@ Schrijf een programma met een daarin een functie die de gemiddelde afstand tusse
 
 ## Achtergrond
 
-Dit is een typisch voorbeeld van een duidelijk en ogenschijnlijk simpel probleem dat analytisch nogal lastig op te lossen is. Probeer het maar eens, dan zal je al snel zien dat je vastloopt.
+Dit is een typisch voorbeeld van een duidelijk en ogenschijnlijk simpel probleem dat analytisch nogal lastig op te lossen is. Probeer het maar eens, dan zal je al snel zien dat je vastloopt. Maar maak in ieder geval een schatting, dan kun je zien of het antwoord van je programma realistisch is, voordat je het inlevert.
 
 ![](vierkant.png)
-
-Net zoals je bij een "gewone" natuurkunde- of wiskundeopdracht is het belangrijk om vooraf een schatting te maken van de uitkomst zodat je een verkeerd antwoord meteen herkent. Wat denk je dat het antwoord moet zijn ? Als je programma klaar is kan je ook heel makkelijk de gemiddelde afstand in een vierkant van $$2\times 2$$ uitrekenen. Wat denk je ? Is dat 'gewoon' 2 keer zo groot als je antwoord bij het $$1\times 1$$-vierkant .... of is het misschien $$x^2$$ keer zo groot ... of juist $$\sqrt{2}$$ ? 
 
 
 ## Specificatie
