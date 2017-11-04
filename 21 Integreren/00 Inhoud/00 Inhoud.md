@@ -30,8 +30,10 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 1. <span class="label label-primary">Opdracht</span> Gebruik computerkracht voor het bepalen van de [Riemannsom](/integreren/riemann).
 
-#### Evaluatie
+#### Inleveren en evaluatie
 
-Ben je klaar met deze module? Help ons dan om deze te verbeteren: vul de [evaluatie](https://goo.gl/forms/X0HNmhNQbhAk81442){:target="_blank"} in.
+1. Ga naar [deze pagina](/getaltheorie/inleveren) om je programma's in te leveren.
+
+2. Vul daarna de [evaluatie](https://goo.gl/forms/X0HNmhNQbhAk81442){:target="_blank"} in.
 
 
