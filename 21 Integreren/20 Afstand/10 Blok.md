@@ -1,6 +1,6 @@
 # Afstand
 
-Schrijf een programma met een daarin een functie die de gemiddelde afstand tussen twee punten in een vierkant met afmeting $$1xx1$$ berekent.
+Schrijf een programma met een daarin een functie die de gemiddelde afstand tussen twee punten in een vierkant met afmeting $$1\times 1$$ berekent.
 
 
 ## Achtergrond
@@ -9,7 +9,7 @@ Dit is een typisch voorbeeld van een duidelijk en ogenschijnlijk simpel probleem
 
 ![](vierkant.png)
 
-Net zoals je bij een "gewone" natuurkunde- of wiskundeopdracht is het belangrijk om vooraf een schatting te maken van de uitkomst zodat je een verkeerd antwoord meteen herkent. Wat denk je dat het antwoord moet zijn ? Als je programma klaar is kan je ook heel makkelijk de gemiddelde afstand in een vierkant van $$2xx2$$ uitrekenen. Wat denk je ? Is dat 'gewoon' 2 keer zo groot als je antwoord bij het $$1xx1$$-vierkant .... of is het misschien $$x^2$$ keer zo groot ... of juist $$\sqrt{2}$$ ? 
+Net zoals je bij een "gewone" natuurkunde- of wiskundeopdracht is het belangrijk om vooraf een schatting te maken van de uitkomst zodat je een verkeerd antwoord meteen herkent. Wat denk je dat het antwoord moet zijn ? Als je programma klaar is kan je ook heel makkelijk de gemiddelde afstand in een vierkant van $$2\times 2$$ uitrekenen. Wat denk je ? Is dat 'gewoon' 2 keer zo groot als je antwoord bij het $$1\times 1$$-vierkant .... of is het misschien $$x^2$$ keer zo groot ... of juist $$\sqrt{2}$$ ? 
 
 
 ## Specificatie
