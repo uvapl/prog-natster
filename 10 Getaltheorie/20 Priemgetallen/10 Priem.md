@@ -19,10 +19,6 @@ Zoals gezegd is een computer geweldig in het snel uitvoeren van een heleboel "do
 
 - Zorg dat het programma niets anders uitvoert dan dit getal, zoals in het voorbeeld bovenaan de opdracht!
 
-## Hints
-
-- Je kunt dit programma schrijven met de Python-onderdelen die je tot nu toe hebt geleerd!
-
 ## Probleemanalyse
 
 Neem vóór je gaat programmeren eerst een paar minuten om met **pen en papier** te schetsen hoe je zelf het probleem aan zou pakken, hoe je het probleem kunt opdelen in overzichtelijke stappen. De specificatie hierboven geeft al wat hints daarvoor!
@@ -88,3 +84,13 @@ We zijn hierboven zo simpel mogelijk begonnen, zodat we snel tot een *correct* p
 - Als je een deler vindt hoef je niet verder te zoeken omdat je dan weet dat het geen priemgetal is. Daarvoor kun je `break` gebruiken (dit vraagt een kleine aanpassing).
 
 - Als je wilt bepalen of 137 een priemgetal is, welke kandidaat-delers bekijk je dan voordat je zeker weet dat het een priemgetal is? Doe dit op pen en papier. Delen door 2 en alle oneven getallen tot het getal is een beetje teveel van het goede. Een wiskundige deelt bijvoorbeeld alleen door 2, 3, 5, 7, 11. Bedenk waarom (dit vraagt waarschijnlijk een flinke aanpassing van je code).
+
+## Hints
+
+- Je kunt dit programma schrijven met alleen de Python-onderdelen die je tot nu toe hebt geleerd!
+
+## Testen
+
+Test voor de zekerheid nog een keer of je programma werkt volgens `checkpy`:
+
+	checkpy priemgetal

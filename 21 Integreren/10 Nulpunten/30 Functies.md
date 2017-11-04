@@ -10,29 +10,27 @@ Schrijf een programma dat de nulpunten berekent van de polynoom $$f(x)=x^2+2x-10
 
 ## Specificatie
 
-- Schrijf een functie `nulpunten(a, b, c)` die de nulpunten van de polynoom $$f(x)=ax^2+bx+c$$ berekent.
+- Noem je programma `nulpunten.py`.
 
-- Bereken de nulpunten met behulp van de abc-formule.
+- Maak één functie `nulpunten(a, b, c)` die als taak heeft de nulpunten van de polynoom $$f(x)=ax^2+bx+c$$ te berekenen.
 
 - Er zijn twee mogelijkheden voor het resultaat van de functie:
 
 	- een lege lijst `[]` als er geen nulpunten zijn
 	- een lijst met twee elementen `[n1, n2]` waarin `n1` en `n2` de nulpunten van de polynoom zijn
 
+- Plot in alle gevallen de functie, en geef de nulpunten uit de berekening duidelijk aan in de grafiek.
 
-## Hoe te beginnen
 
-1. Maak een bestand `nulpunten.py` aan.
+## Hints
 
-2. Schrijf hierin een functie `nulpunten(a, b, c)`.
+- Bereken de nulpunten met behulp van de $$abc$$-formule.
 
-3. Voeg onder de functie-definitie je eigen test toe:
+- Om te zorgen dat je het resultaat netjes kunt printen en de plot maken, roep je de functie aan met ons voorbeeld, en sla je het resultaat op:
 
 		resultaat = nulpunten(1, 2, -10)
 
-4. Plot daaronder de functie met daarin de nulpunten uit de berekening duidelijk aangegeven.
-
-5. Test ook met een polynoom die geen nulpunten heeft (check of de lijst leeg is). Het programma moet dan wel de functie plotten, maar ook netjes printen dat de nulpunten ontbreken:
+- Test later ook met een polynoom die geen nulpunten heeft (check dan of de lijst leeg is). Het programma moet in dat geval wel de functie plotten, maar ook netjes printen dat de nulpunten ontbreken:
 
         Deze functie heeft geen nulpunten
 

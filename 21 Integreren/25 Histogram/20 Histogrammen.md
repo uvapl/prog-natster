@@ -5,7 +5,6 @@ Schrijf een programma dat de distributie van getallen uit de `random`-functie vi
 ![](HistogramExample.png)
 
 
-
 ## Achtergrond
 
 Een grafiek van een functie tekenen, zoals in de vorige module, is één manier om gegevens te visualiseren. Dit is niet altijd de meest logische manier. Als de Volkskrant bijvoorbeeld een grafiek maakt van de lengte van mensen in Nederland dan gebruiken ze een zogenaamd `histogram` (ook wel een staafdiagram of frequentiedistributie) waarbij de data gegroepeerd wordt. Er wordt bijvoorbeeld bijgehouden hoeveel (procent van de) mensen een lengte hebben in een bepaald interval, bijvoorbeeld tussen 160 en 165cm, maar ook tussen 165-170, 170-175 etc etc. Die manier om de data te representeren geeft gelijk een goed beeld van de verhoudingen tussen de verschillende groepen.

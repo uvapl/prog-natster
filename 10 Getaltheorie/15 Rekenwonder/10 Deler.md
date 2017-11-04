@@ -14,11 +14,13 @@ We beginnen heel voorzichtig en gaan proberen een programma te schrijven dat aan
 
 Maak een bestand `rekenwonder.py` en implementeer een programma dat de gebruiker vraagt om twee gehele getallen, waarna het product van de getallen met `print` op het scherm wordt getoond.
 
+## Probleemanalyse
+
+Dit programma voldoet aan het cliché van een standaard computerprogramma: het heeft *invoer*, *berekeningen*, en *uitvoer*. Probeer die drie onderdelen ook terug te laten komen in je code!
+
 ## Hints
 
-* Je kunt dit programma schrijven met de Python-onderdelen die je tot nu toe hebt geleerd!
-
-* Dit programma voldoet aan het cliché van een standaard computerprogramma: het heeft *invoer*, *berekeningen*, en *uitvoer*. Probeer die drie onderdelen ook terug te laten komen in je code!
+* Je kunt dit programma schrijven met alleen de Python-onderdelen die je tot nu toe hebt geleerd!
 
 * Maak gebruik van de `raw_input`-functie en gebruik `int()` om de invoer van de gebruiker om te zetten van een string naar een integer, zodat je de berekening kunt uitvoeren.
 
@@ -28,7 +30,7 @@ Loop eerst je eigen programma na: werkt dit voor alle normale invoer? Start het 
 
 	python rekenwonder.py
 
-Vul bijvoorbeeld eens het voorbeeld hier bovenaan in. Lijkt alles te werken, dan is het tijd om `checkpy` erbij te pakken. Testen gaat net zo als bij `hello`, alleen roep je nu de test voor `rekenwonder` aan. Zo dus:
+Probeer dan de voorbeelden bovenaan de opgave uit. Lijkt alles te werken, dan is het tijd om `checkpy` erbij te pakken. Testen gaat net zo als bij `hello`, alleen roep je nu de test voor `rekenwonder` aan. Zo dus:
 
 	checkpy rekenwonder
 
