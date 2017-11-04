@@ -79,8 +79,8 @@ Dan ben je klaar om te testen:
 
 We zijn hierboven zo simpel mogelijk begonnen, zodat we snel tot een *correct* programma zijn gekomen (gecontroleerd door `checkpy`). Maar met behulp van wat wiskundig inzicht kunnen we kleine optimalisaties doen, waardoor het programma sneller wordt. 
 
-- Behalve 2 zijn *even* getallen nooit een priemgetal.
+- Behalve 2 zijn *even* getallen nooit een priemgetal (dit vraagt slechts een hele kleine aanpassing van je code).
 
-- Als je een deler vindt hoef je niet verder te zoeken omdat je dan weet dat het geen priemgetal is. Daarvoor kun je `break` gebruiken.
+- Als je een deler vindt hoef je niet verder te zoeken omdat je dan weet dat het geen priemgetal is. Daarvoor kun je `break` gebruiken (dit vraagt een kleine aanpassing).
 
-- Als je wilt bepalen of 137 een priemgetal is, welke kandidaat-delers bekijk je dan voordat je zeker weet dat het een priemgetal is? Doe dit op pen en papier. Delen door 2 en alle oneven getallen tot het getal is een beetje teveel van het goede. Een wiskundige deelt bijvoorbeeld alleen door 2, 3, 5, 7, 11. Bedenk waarom.
+- Als je wilt bepalen of 137 een priemgetal is, welke kandidaat-delers bekijk je dan voordat je zeker weet dat het een priemgetal is? Doe dit op pen en papier. Delen door 2 en alle oneven getallen tot het getal is een beetje teveel van het goede. Een wiskundige deelt bijvoorbeeld alleen door 2, 3, 5, 7, 11. Bedenk waarom (dit vraagt waarschijnlijk een flinke aanpassing van je code).
