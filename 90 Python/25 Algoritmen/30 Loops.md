@@ -87,7 +87,7 @@ Je kunt met `range` ook de stapgrootte opgeven. `for` telt dan zoals voorheen va
 
 Elke stap in de `for`-loop zal dan steeds 10 verder zijn dan de vorige. Denk even na welke stappen gemaakt zouden worden bij de loop hierboven; of neem de code over en zet er een `print` in om het gedrag te bestuderen.
 
-## Nog een loop: `while`
+## Nog een loop
 
 In de vorige hoofdstukken hebben we gewerkt met `for`-loops. Die zijn heel handig als je weet hoe veel stappen er genomen moeten worden.
 
@@ -103,3 +103,15 @@ dan toe* groter is dan 50. Probeer onderstaande code te runnen zodat je ziet wat
     print "Ik stopte omdat de som meer dan 50 is"
 
 De opdracht met `while` kun je hier lezen als "zolang som kleiner is of gelijk aan 50". Elke keer dat we weer bovenaan de loop zijn aangekomen, wordt die voorwaarde gecontroleerd, en als daar niet meer aan wordt voldaan, dan stopt de loop.
+
+## Een loop afbreken
+
+Zoals gezegd weet je soms bij een `while`-loop niet wanneer deze precies moet eindigen. In bovenstaande voorbeeld kunnen we in ieder geval zeggen dat we stoppen als `som` groter dan 50 wordt. Maar er kunnen nog andere situaties optreden waardoor we meteen kunnen stoppen met een loop. In dat geval kun je een `break` gebruiken: dit commando stopt de binnenste (dichtstbijzijnde) loop per direct. Kijk maar eens naar dit voorbeeld, waarin de wortel van 16 wordt berekend:
+
+	getal = 16
+	for n in range(1, getal):
+		if n*n == getal:
+			print n
+			break
+
+Bestudeer goed hoe dit programma werkt, en probeer het ook uit. Haal de `break` eens weg. Dan werkt het programma nog steeds. Het voordeel is dat het programma direct stopt als de wortel is gevonden. Dat is dus ietsje efficiënter.
