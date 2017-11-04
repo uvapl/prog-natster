@@ -23,7 +23,7 @@ Om het idee van de reeks niet-priemgetallen goed te begrijpen, schrijf je bijvoo
 
 - Maak een programma genaamd `reeks.py` en zorg dat het volgens bovenstaand voorbeeld de juiste informatie uitprint. Gebruik je bestaande priem-zoek programma als basis, en pas het zodanig aan dat het programma eerst een *lijst* priemgetallen genereert die kleiner zijn dan het getal 10.000. Omdat je in dat geval weet waar het eindigt, kun je nu beter een `for-loop` gebruiken dan een `while-loop`.
 
-- Stap (loop) vervolgens door de lijst priemgetallen heen en bepaal telkens hoe lang de reeks niet-priemgetallen is tussen het huidige en het vorige priemgetal. Houd bij wat de langste reeks is.
+- Stap (loop) vervolgens door de lijst priemgetallen heen en bepaal telkens hoe lang de reeks niet-priemgetallen is tussen het huidige en het vorige priemgetal. Houd bij wat de langste reeks is in een aparte variabele.
 
 - Zorg dat je output er netjes uitziet en dat we als gebruiker iets aan de informatie hebben: print eerst de twee niet-priemgetallen die het begin en eind van de reeks vormen en dan op de volgende regel de lengte van de reeks! Zie weer het voorbeeld bovenaan de opdracht.
 
