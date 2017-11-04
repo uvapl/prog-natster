@@ -1,6 +1,6 @@
 # Plot
 
-Schrijf een programma dat de volgende grafiek laat zien.
+Schrijf een programma dat de volgende grafiek laat zien:
 
 ![](plotje4.png)
 

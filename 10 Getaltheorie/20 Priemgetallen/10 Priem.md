@@ -19,6 +19,10 @@ Zoals gezegd is een computer geweldig in het snel uitvoeren van een heleboel "do
 
 - Zorg dat het programma niets anders uitvoert dan dit getal, zoals in het voorbeeld bovenaan de opdracht!
 
+## Hints
+
+- Je kunt dit programma schrijven met de Python-onderdelen die je tot nu toe hebt geleerd!
+
 ## Probleemanalyse
 
 Neem vóór je gaat programmeren eerst een paar minuten om met **pen en papier** te schetsen hoe je zelf het probleem aan zou pakken, hoe je het probleem kunt opdelen in overzichtelijke stappen. De specificatie hierboven geeft al wat hints daarvoor!

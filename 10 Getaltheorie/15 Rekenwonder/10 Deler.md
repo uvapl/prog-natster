@@ -10,13 +10,13 @@ We beginnen heel voorzichtig en gaan proberen een programma te schrijven dat aan
 	Wat is het tweede getal? 5
 	135
 
-## Specificatie voor jouw programma
+## Specificatie
 
 Maak een bestand `rekenwonder.py` en implementeer een programma dat de gebruiker vraagt om twee gehele getallen, waarna het product van de getallen met `print` op het scherm wordt getoond.
 
 ## Hints
 
-* Je moet dit programma kunnen schrijven met de Python-onderdelen die je tot nu toe hebt geleerd!
+* Je kunt dit programma schrijven met de Python-onderdelen die je tot nu toe hebt geleerd!
 
 * Dit programma voldoet aan het cliché van een standaard computerprogramma: het heeft *invoer*, *berekeningen*, en *uitvoer*. Probeer die drie onderdelen ook terug te laten komen in je code!
 
