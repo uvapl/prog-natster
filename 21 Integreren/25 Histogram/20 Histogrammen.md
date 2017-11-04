@@ -10,7 +10,6 @@ Schrijf een programma dat de distributie van getallen uit de `random`-functie vi
 
 Een grafiek van een functie tekenen, zoals in de vorige module, is één manier om gegevens te visualiseren. Dit is niet altijd de meest logische manier. Als de Volkskrant bijvoorbeeld een grafiek maakt van de lengte van mensen in Nederland dan gebruiken ze een zogenaamd `histogram` (ook wel een staafdiagram of frequentiedistributie) waarbij de data gegroepeerd wordt. Er wordt bijvoorbeeld bijgehouden hoeveel (procent van de) mensen een lengte hebben in een bepaald interval, bijvoorbeeld tussen 160 en 165cm, maar ook tussen 165-170, 170-175 etc etc. Die manier om de data te representeren geeft gelijk een goed beeld van de verhoudingen tussen de verschillende groepen.
 
-In Python gebruik je hiervoor de optie `plt.hist()` om de data te groeperen en laat het dan pas zien mbv `plt.show()`. Je kunt bij het groeperen opgeven in hoeveel stukjes (bins) je de data op wilt delen. 
 
 ## Voorbeeld: 10.000 random getallen
 
@@ -36,7 +35,9 @@ Hieronder een klein programma dat eerst 10.000 random getallen genereert en ze i
      plt.show()
        
 
-Note: de extra optie `xlim` gebruiken we hier om te laten zien dat er geen getallen buiten het interval 0.00-1.00 zijn gegenereerd. Kijk in de documentatie op het web welke opties er allemaal zijn om het histogram de vorm te geven die jij wilt: relevant aantal bins, kleur, asbijschriften, legenda, tekst, etc etc.
+In Python gebruik je hiervoor de optie `plt.hist()` om de data te groeperen en laat het dan pas zien mbv `plt.show()`. Je kunt bij het groeperen opgeven in hoeveel stukjes (bins) je de data op wilt delen. 
+
+De extra optie `xlim` gebruiken we hier om te laten zien dat er geen getallen buiten het interval 0.00-1.00 zijn gegenereerd. Kijk in de documentatie op het web welke opties er allemaal zijn om het histogram de vorm te geven die jij wilt: relevant aantal bins, kleur, asbijschriften, legenda, tekst, etc etc.
 
 ## Opdracht: distributie van de som van random getallen
 
@@ -45,3 +46,4 @@ Dat de random getallen zelf keurig uniform tussen 0 en 1 verdeeld zijn hebben we
 Schrijf een functie `SomRandomGetallen()` dat de distributie weergeeft van 10.000 experimenten. Teken de resultaten tussen x=30 en x = 70.
 
 Genereer voor elk 'experiment' 100 random getallen en reken de som daarvan uit. Herhaal dit 10.000 keer en bewaar voor elk van de experimenten de som in een lijst. Maak uiteindelijk een frequentie-distributie (histogram) van de verdeling. Schrijf ook naar het scherm wat het percentage (in procent) van de  experimenten is waarbij de som respectievelijk minder dan 40 en meer dan 60 is.
+
