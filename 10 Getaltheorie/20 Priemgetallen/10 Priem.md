@@ -9,10 +9,6 @@ Implementeer een programma dat op verzoek het $$n$$-de priemgetal genereert.
 
 Zoals gezegd is een computer geweldig in het snel uitvoeren van een heleboel "domme" stappen. Een voorbeeld waar een computer zó veel effectiever is dan een enkele persoon, is het uitrekenen van priemgetallen. De definitie van een priemgetal is niet al te ingewikkeld. Maar bepalen hoeveel delers een willekeurig getal heeft kan ontzettend veel tijd kosten. Python to the rescue!
 
-## Probleem
-
-We zullen dit heel vaak herhalen omdat het niet vaak genoeg gezegd kan worden. Neem *voor* je gaat programmeren eerst een paar minuten om *met pen en papier* te bekijken hoe je zelf het probleem aan zou pakken. De logische stappen. In deze opdracht kan je je bijvoorbeeld afvragen hoe je zeker weet dat 15 geen priemgetal is en 17 juist wel en hoe je zelf uit gaat vissen of 157 nou wel of niet een priemgetal is. Als je eenmaal bedacht hebt welke stappen je moet doorlopen om deze vraag te beantwoorden kan je het daarna omzetten in Python code en het de computer uit laten voeren. 
-
 ## Specificatie
 
 - Vraag de gebruiker om de rangorde van het priemgetal (het hoeveelste) in te voeren. Dit moet natuurlijk een geheel en positief getal zijn.
@@ -23,9 +19,13 @@ We zullen dit heel vaak herhalen omdat het niet vaak genoeg gezegd kan worden. N
 
 - Zorg dat het programma niets anders uitvoert dan dit getal, zoals in het voorbeeld bovenaan de opdracht!
 
-Bovenstaande opdracht bestaat uit een aantal onderdelen die bij elkaar moeten komen. Volg de stappen hieronder om je programma op te bouwen.
+## Probleemanalyse
 
-## Stap 1
+Neem vóór je gaat programmeren eerst een paar minuten om met **pen en papier** te schetsen hoe je zelf het probleem aan zou pakken, hoe je het probleem kunt opdelen in overzichtelijke stappen. De specificatie hierboven geeft al wat hints daarvoor!
+
+Bij deze opdracht nemen we je aan de hand door een aantal stappen te geven om te doorlopen tijdens het ontwikkelen van de juiste oplossing.
+
+## Stap 1: priem-check
 
 Een belangrijk deel van de omschrijving hierboven is dat het om priemgetallen gaat. Wat is een priemgetal? Dat moeten we in Python zien uit te drukken.
 
@@ -45,7 +45,7 @@ Bij een niet-priemgetal, zoals 36, moet geprint worden:
 
 Begin zo simpel mogelijk. Gebruik een `for`-loop en `%` (modulo) om te bepalen hoeveel getallen een deler zijn van `x`. Als je dit bijhoudt in de loop (tellen!), kun je na afloop van de loop bepalen of het getal een priemgetal is of niet. Print je conclusie uiteindelijk op het scherm, zoals in het voorbeeld hierboven.
 
-## Stap 2
+## Stap 2: check een hele lijst
 
 We gaan een stap verder. We kunnen bovenstaand stukje code nu hergebruiken en voor *elk* getal onder de 100 bepalen of het een priemgetal is of niet.
 
@@ -55,7 +55,7 @@ Schrijf dus bovenstaande procedure en maak deze goed werkend. Vervolgens willen 
 
 Klopt je antwoord? Check het op internet!
 
-## Stap 3
+## Stap 3: het zoveelste priemgetal
 
 We gaan nu terug naar de opdracht: op zoek naar het n-de priemgetal. We geven een voorzetje voor de strategie van het programma:
 
@@ -67,17 +67,17 @@ We gaan nu terug naar de opdracht: op zoek naar het n-de priemgetal. We geven ee
 
 > Misschien is het raar of vervelend om een programma in te tikken, waarna je ontdekt dat het niet goed werkt. Dat is het lot van de programmeur: het is gewoon heel moeilijk om een precies algoritme te formuleren en dan helemaal correct om te zetten naar programmacode. Soms ben je een uitzondering vergeten, maar net zo goed heb je ergens een tikfout gemaakt. Bedenk dan dat de beste programmeurs op deze manier werken!
 
-## Stap 4
+## Stap 4: werkt het echt?
 
 Loop nu de specificatie bovenaan de opdracht goed door en zorg dat je programma precies zo werkt als daar beschreven is.
 
-Nu ben je klaar om te testen:
+Dan ben je klaar om te testen:
 
 	checkpy priemgetal
 
-## Stap 5
+## Stap 5: kleine optimalisaties
 
-We zijn hierboven zo simpel mogelijk begonnen, zodat we snel tot een *correct* programma zijn gekomen (gecontroleerd door `checkpy`). Maar met behulp van wat wiskundig inzicht kunnen we kleine optimalisaties doen, waardoor het programma sneller wordt. Dat doen we pas zodra we zeker weten dat het programma werkt, want dan 
+We zijn hierboven zo simpel mogelijk begonnen, zodat we snel tot een *correct* programma zijn gekomen (gecontroleerd door `checkpy`). Maar met behulp van wat wiskundig inzicht kunnen we kleine optimalisaties doen, waardoor het programma sneller wordt. 
 
 - Behalve 2 zijn *even* getallen nooit een priemgetal.
 
