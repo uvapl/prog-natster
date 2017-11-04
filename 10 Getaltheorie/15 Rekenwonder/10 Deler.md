@@ -1,16 +1,4 @@
-
-# Rekenwonder: de mens
-
-<div style="width: 40%; float:right; margin-left: 2em;">
-![embed](https://www.youtube.com/embed/urFiv_PQ2FQ)
-</div>
-
-Voor het tijdperk van de computer werden lastige berekeningen gedaan door mensen. Bij het Europees laboratorium voor deeltjesfysica, CERN in Genève bijvoorbeeld werktes mensen als 'onze' Wim Klein, als 'menselijke supercomputers'. 
-
-Het kan natuurlijk dat je een van die uitzonderlijke natuurtalenten bent, maar we gaan je voor de zekerheid toch maar leren hoe je met behulp van een computer nog veel een veel sneller kan rekenen. Eerst de basisstappen. 
-
-
-# Rekenwonder: de computer laten rekenen
+# Rekenwonder
 
 We beginnen heel voorzichtig en gaan proberen een programma te schrijven dat aan een gebruiker twee getallen vraagt en vervolgens het product van die getallen uitrekent en op het scherm print. Als volgt dus:
 
@@ -24,9 +12,11 @@ We beginnen heel voorzichtig en gaan proberen een programma te schrijven dat aan
 
 ## Specificatie voor jouw programma
 
-Maak een nieuwe file aan, genaamd `rekenwonder.py` en implementeer een programma dat de gebruiker vraagt om twee gehele getallen, waarna het product van de getallen met `print` op het scherm wordt getoont.
+Maak een bestand `rekenwonder.py` en implementeer een programma dat de gebruiker vraagt om twee gehele getallen, waarna het product van de getallen met `print` op het scherm wordt getoond.
 
 ## Hints
+
+* Je moet dit programma kunnen schrijven met de Python-onderdelen die je tot nu toe hebt geleerd!
 
 * Dit programma voldoet aan het cliché van een standaard computerprogramma: het heeft *invoer*, *berekeningen*, en *uitvoer*. Probeer die drie onderdelen ook terug te laten komen in je code!
 
@@ -42,6 +32,4 @@ Vul bijvoorbeeld eens het voorbeeld hier bovenaan in. Lijkt alles te werken, dan
 
 	checkpy rekenwonder
 
-Zie je unhappy smileys, en kom je er niet uit wat er fout gaat? Stuur een mail of kom langs!
-
-
+Zie je unhappy smileys, en kom je er niet uit wat er fout gaat? Vraag je assistent!

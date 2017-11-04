@@ -1,22 +1,19 @@
-# Het duizendste priemgetal #
+# Het duizendste priemgetal
 
-Implementeer een programma dat op verzoek het n-de priemgetal genereert.
+Implementeer een programma dat op verzoek het $$n$$-de priemgetal genereert.
 
 	Naar welk priemgetal bent u op zoek? 1000
 	7919
 
-## Achtergrond en tip voor je begint met programmeren
+## Achtergrond
 
 Zoals gezegd is een computer geweldig in het snel uitvoeren van een heleboel "domme" stappen. Een voorbeeld waar een computer zó veel effectiever is dan een enkele persoon, is het uitrekenen van priemgetallen. De definitie van een priemgetal is niet al te ingewikkeld. Maar bepalen hoeveel delers een willekeurig getal heeft kan ontzettend veel tijd kosten. Python to the rescue!
 
+## Probleem
+
 We zullen dit heel vaak herhalen omdat het niet vaak genoeg gezegd kan worden. Neem *voor* je gaat programmeren eerst een paar minuten om *met pen en papier* te bekijken hoe je zelf het probleem aan zou pakken. De logische stappen. In deze opdracht kan je je bijvoorbeeld afvragen hoe je zeker weet dat 15 geen priemgetal is en 17 juist wel en hoe je zelf uit gaat vissen of 157 nou wel of niet een priemgetal is. Als je eenmaal bedacht hebt welke stappen je moet doorlopen om deze vraag te beantwoorden kan je het daarna omzetten in Python code en het de computer uit laten voeren. 
 
-Begin ook altijd simpel zodat je precies begrijpt welke stappen de computer neemt. Voeg pas 'slimme' dingen toe als je programma werkt. Onderaan deze pagina staan een aantal wiskunde tips. Het is goed om te bedenken dat deze slimmigheden door *jou* toegevoegd moeten worden. De computer kan dat niet zelf.
-
-
-## Specificatie en naam programma
-
-- Schrijf in een bestand genaamd `priemgetal.py` een programma dat een priemgetal met de gewenste rangorde bepaalt.
+## Specificatie
 
 - Vraag de gebruiker om de rangorde van het priemgetal (het hoeveelste) in te voeren. Dit moet natuurlijk een geheel en positief getal zijn.
 
@@ -24,13 +21,9 @@ Begin ook altijd simpel zodat je precies begrijpt welke stappen de computer neem
 
 - Zodra de rangorde bekend is, bereken het juiste priemgetal en rapporteer dit terug aan de gebruiker.
 
-- Zorg dat het programma niets anders uitvoert dan dit getal!
+- Zorg dat het programma niets anders uitvoert dan dit getal, zoals in het voorbeeld bovenaan de opdracht!
 
-## Hints
-
-- Bovenstaande opdracht bestaat uit een aantal onderdelen die bij elkaar moeten komen. Volg de stappen hieronder om je programma op te bouwen.
-
-- Als je wilt controleren of je programma goed werkt kun je je gevonden lijst priemgetallen hier controleren met een lijst bekende priemgetallen <http://primes.utm.edu/lists/small/1000.txt>
+Bovenstaande opdracht bestaat uit een aantal onderdelen die bij elkaar moeten komen. Volg de stappen hieronder om je programma op te bouwen.
 
 ## Stap 1
 
@@ -82,9 +75,9 @@ Nu ben je klaar om te testen:
 
 	checkpy priemgetal
 
-## Wiskundetips
+## Stap 5
 
-Hoewel het in deze opgave niet echt gaat om de snelheid van het programma is in deze specifieke opgave veel tijd te winnen door slim gebruik te maken van een aantal elementen uit de wiskunde. Maar let op! Doe dit pas als je zeker weet dat je programma hierboven *correct* is. Je kunt dan optimalisaties toepassen en snel vergelijken of je niet een *bug* in je code hebt geïntroduceerd. Dat zou jammer zijn voor een beetje tijdswinst!
+We zijn hierboven zo simpel mogelijk begonnen, zodat we snel tot een *correct* programma zijn gekomen (gecontroleerd door `checkpy`). Maar met behulp van wat wiskundig inzicht kunnen we kleine optimalisaties doen, waardoor het programma sneller wordt. Dat doen we pas zodra we zeker weten dat het programma werkt, want dan 
 
 - Behalve 2 zijn *even* getallen nooit een priemgetal.
 
