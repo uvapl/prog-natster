@@ -5,7 +5,7 @@ Een *functie* is een stukje code waar je een naam aan geeft, zodat het hergebrui
 Je kunt ook zelf functies definiëren. Als je bijvoorbeeld een stuk code hebt geschreven om data mooi te plotten, wil je niet telkens opnieuw de hele
 code kopiëren als je nieuwe data hebt.
 
-![embed](https://player.vimeo.com/video/241681897)
+![embed](https://player.vimeo.com/video/241704136)
 
 Functies zijn dus een belangrijk aspect van leren programmeren. Het begin van
 een functie wordt aangegeven met `def`, daarna komt de functienaam (die je zelf

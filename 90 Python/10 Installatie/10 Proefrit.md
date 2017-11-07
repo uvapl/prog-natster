@@ -1,5 +1,7 @@
 ## Stap 3: Proefrit
 
+![embed](https://player.vimeo.com/video/241700059)
+
 Nu je zowel Anaconda als Visual Studio Code hebt geïnstalleerd, kunnen we gaan kijken of alles werkt. Maak als eerste stap ergens op jouw computer (bijvoorbeeld de *Desktop*) een map aan genaamd `programmeren`. Dat wordt de plek waarin we gaan werken. Maak vervolgens binnen `programmeren` een map aan genaamd `week1`. (Weet je niet zo goed hoe je mappen moet maken? Kijk eens bij [Apple](https://support.apple.com/en-us/HT201732) voor Mac OS of bij [Dummies.com](http://www.dummies.com/computers/operating-systems/windows-10/how-to-create-a-new-folder-in-windows-10/) voor Windows.)
 
 Open nu Visual Studio Code. Zodra je dit hebt gedaan zie je het volgende scherm:
