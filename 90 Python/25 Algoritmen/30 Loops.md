@@ -106,6 +106,8 @@ De opdracht met `while` kun je hier lezen als "zolang som kleiner is of gelijk a
 
 ## Een loop afbreken
 
+![embed](https://player.vimeo.com/video/241829660)
+
 Zoals gezegd weet je soms bij een `while`-loop niet wanneer deze precies moet eindigen. In bovenstaande voorbeeld kunnen we in ieder geval zeggen dat we stoppen als `som` groter dan 50 wordt. Maar er kunnen nog andere situaties optreden waardoor we meteen kunnen stoppen met een loop. In dat geval kun je een `break` gebruiken: dit commando stopt de binnenste (dichtstbijzijnde) loop per direct. Kijk maar eens naar dit voorbeeld, waarin de wortel van 16 wordt berekend:
 
     getal = 16
