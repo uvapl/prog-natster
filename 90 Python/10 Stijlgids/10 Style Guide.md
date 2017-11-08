@@ -1,5 +1,7 @@
 # Stijlgids #
 
+Programmacode is bij voorkeur goed leesbaar, niet alleen voor jezelf, maar ook voor een ander met wie je samenwerkt. Eerder hebben we al kort een aantal richtlijnen genoemd voor het gebruiken van **commentaar** bij stukjes code. Maar er zijn meer aspecten, die je hieronder kunt vinden.
+
 De gids is momenteel in het Engels. Heb je hulp nodig bij het begrijpen, vraag dan gerust!
 
 ---
@@ -83,12 +85,14 @@ starting with a `#`.
 
 Indentation means adding white space to the very start of a line, in order to
 show structure. In most programming languages, this is a *convention* to
-improve consistency and readability. In Python, indentation is compulsory!
+improve consistency and readability. In Python, indentation is compulsory, or your programs will not work!
 
 {: .language-python}
     def sum(x, y):
         result = x + y
         return result
+
+![embed](https://www.youtube.com/embed/SsoOG6ZeyUI)
 
 ### Tabs and spaces
 
