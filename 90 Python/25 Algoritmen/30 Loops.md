@@ -89,6 +89,8 @@ Elke stap in de `for`-loop zal dan steeds 10 verder zijn dan de vorige. Denk eve
 
 ## Nog een loop
 
+![embed](https://player.vimeo.com/video/241703358)
+
 In de vorige hoofdstukken hebben we gewerkt met `for`-loops. Die zijn heel handig als je weet hoe veel stappen er genomen moeten worden.
 
 Maar wat nou als we niet weten waar het verhaal eindigt? Hieronder zie je een voorbeeld waarbij we de loop af willen breken zodra de som van de getallen *tot 
