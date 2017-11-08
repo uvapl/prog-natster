@@ -92,12 +92,12 @@ improve consistency and readability. In Python, indentation is compulsory, or yo
         result = x + y
         return result
 
-![embed](https://www.youtube.com/embed/SsoOG6ZeyUI)
-
 ### Tabs and spaces
 
 It is very important to use either tabs or spaces for indentation. Do *not* mix
 tabs and spaces. Other programmers will not like it at all.
+
+![embed](https://www.youtube.com/embed/SsoOG6ZeyUI)
 
 Say you have your computer set at: 1 tab equals 4 spaces. Another programmer
 can change this setting to 8 spaces. But now there's a severe problem in
