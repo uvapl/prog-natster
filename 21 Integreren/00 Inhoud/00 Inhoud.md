@@ -18,6 +18,8 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 1. Leer over het gebruik van  [random getallen](/python/random).
 
+2. <span class="label label-primary">Opdracht</span> [Random fact](/integreren/randomwiskunde).
+
 3. <span class="label label-primary">Opdracht</span> Bereken de gemiddelde [afstand](/integreren/afstand) tussen twee punten in een vierkant
 
 3. <span class="label label-primary">Opdracht</span> Analyseer met een [histogram](/integreren/histogram) de uitvoer van de `random`-functie
