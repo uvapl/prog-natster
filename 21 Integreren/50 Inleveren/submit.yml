@@ -6,3 +6,4 @@ files:
         - histogram.py
         - riemann.py
         - montecarlo.py
+        - randomwiskunde.py
