@@ -18,4 +18,14 @@ In deze module gaan we het spel Monopoly simuleren. Het is ondoenlijk om dit ana
 
 1. <span class="label label-primary">Opdracht</span> Monopoly met 1 speler in [Donald Trump-mode](/monopoly/vrijrondlopen)
 
-**--> De overige opgaven voor dag 3 en 4 volgen op dinsdag**
+#### Dag 3: Startgeld
+
+1. <span class="label label-primary">Opdracht</span> Effect van een eindige hoeveelheid [startgeld](/monopoly/startgeld) in het spel
+
+#### Dag 4: Tweede speler toevoegen en zoeken naar evenwicht
+
+1. <span class="label label-primary">Opdracht</span> Voeg een tweede speler toe en herstel het [evenwicht](/monopoly/tweespelers)
+
+#### Evaluatie
+
+Ben je klaar met deze module? Help ons dan om deze te verbeteren: vul de [evaluatie](https://goo.gl/forms/bMEPwmQeLxMZ13qE2){:target="_blank"} in.
