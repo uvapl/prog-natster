@@ -88,7 +88,8 @@ Houd het aantal 'dubbelen' bij en print dat aan het eind van het programma op he
     print "Het percentage dubbele worpen = xx,xx procent"	
 
 Let op: de functie `oefenen_met_de_dobbelstenen()` heb je in de rest van de opgave niet meer 
-nodig. Je kan hem in je programma laten staan, uitcommentarieren of gewoon helemaal weghalen.
+nodig. Je kan hem in je programma laten staan, uitcommentarieren of gewoon helemaal weghalen. 
+Schrijf vervolgens een functie `worp_met_twee_dobbelstenen()` die het totaal aantal ogen returnt. Deze kun je voor de rest van de opgave gebruiken. Deze functie kan je controleren met checkpy.
 
 ### Tussenstap 2: Enkel potje: rondlopen op leeg bord
 
