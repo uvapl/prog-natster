@@ -177,14 +177,14 @@ aankoop.
 
 Omdat je weet hoeveel straten er in totaal te koop zijn in het spel weet je nu ook wanneer je alle straten in je bezit hebt. Stop met gooien als dat gebeurt en print op het scherm hoeveel beurten je nodig had:
 
-*Extra eisen aan de functie:* Zorg dat de functie `simuleer_potje_Monopoly()` nu als return waarde het aantal worpen teruggeeft waarbij het potje afgelopen was. Dit lijkt nu omslachtig omdat je gewoon aan het eind van die functie zou kunnen printen. Verderop in de opgave gaan we een groot aantal potjes Monopoly simuleren en dan is deze opbouw juist erg handig.
+**Extra eisen aan de functie:** Zorg dat de functie `simuleer_potje_Monopoly()` nu als return waarde het aantal worpen teruggeeft waarbij het potje afgelopen was. Dit lijkt nu omslachtig omdat je gewoon aan het eind van die functie zou kunnen printen. Verderop in de opgave gaan we een groot aantal potjes Monopoly simuleren en dan is deze opbouw juist erg handig.
 
 In je code moet het dus als volgt werken:
 
 {: .language-python}
 
     aantal_worpen = simuleer_potje_Monopoly()
-    'Klaar! Na worp %d had de speler alle straten in zijn bezit' % (aantal_worpen)
+    print 'Klaar! Na worp %d had de speler alle straten in zijn bezit' % (aantal_worpen)
 
 ### Tussenstap 5: Meerdere potjes: gemiddeld aantal worpen tot einde spel
 
