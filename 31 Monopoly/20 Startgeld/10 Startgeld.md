@@ -33,13 +33,11 @@ Gebruik het verschil tussen het gemiddeld aantal worpen met 1000 euro of 2000 eu
 om een idee te krijgen wat het effect is (aantal worpen dat het spel er korter/langer over 
 doet) voor elke 100 euro meer of minder stargeld.
 
-Een paar tipos bij deze opdracht:
+** Tips:**
 
    1. Je mag de hoeveelheid startgeld in deze opdracht steeds met de hand aanpassen.
 
-   2. Je kan je code testen door de speler een enorme hoeveelheid startgeld mee te geven. Met 1
-      miljoen euro creeer je namelijk effectief eenzelfde situatie als in opdracht 1 waarin 
-	  geld geen rol speelde.
+   2. Je kan je code testen door de speler een enorme hoeveelheid startgeld mee te geven. Met een miljoen euro creeer je namelijk effectief eenzelfde situatie als in opdracht 1 waarin geld geen rol speelt.
 
 
 <br>
