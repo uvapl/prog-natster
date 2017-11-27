@@ -15,11 +15,14 @@ Voeg eerst een tweede speler toe in je simulaties, laat beide spelers beginnen m
   - Aanpassing aan *input* functie `simuleer_potje_Monopoly()`
    
     De functie die een potje Monopoly simuleert heeft nu natuurlijk van beide spelers de hoeveelheid startgeld nodig. Geef beide als input variabalen mee aan de functie:
-   `simuleer_potje_Monopoly(startgeld_speler_1,startgeld_speler_2) 
+   `simuleer_potje_Monopoly(startgeld_speler_1,startgeld_speler_2)` 
 
  - Aanpassing aan *ouput* functie `simuleer_potje_Monopoly()`
    
    Tot nu toe hebben we de functie gevraagd het aantal worpen dat het potje geduurd heeft terug te geven als return waarde. Nu zijn we alleen geïnteresseerd in het verschil in aantal straten tussen speler 1 en speler 2: `delta = aantal_straten_speler_1 - aantal_straten_speler_2`. Dat is dat ook de variabele die we terug gaan geven als return waarden. **Let op:** deze waarde kan nu zowel positief als negatief zijn.
+
+     delta = simuleer_potje_Monopoly(startgeld_speler_1,startgeld_speler_2)
+     print 'Aan het eind van dit potje had speler 1 %d meer straten dan speler 2' % (delta)
 
  - Bijhouden hoeveelheid geld en posities van beide spelers:
 
@@ -29,7 +32,7 @@ Test de code altijd voor een enkel potje en bekijk goed of het doet wat je denk 
 
 Print het verschil naar het scherm:
 {: .language-python}
-	Monopoly simulator: 2 spelers, 1500 euro startgeld, 10000 potjes
+	Monopoly simulator: twee spelers, 1500 euro startgeld, 10000 potjes
     Gemiddeld heeft speler 1 X.XX meer straten in bezit als alle straten verdeeld zijn
 
 #### [deelopdracht 3b] nadeel van speler 2 repareren
