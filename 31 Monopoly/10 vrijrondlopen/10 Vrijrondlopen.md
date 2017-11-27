@@ -209,8 +209,7 @@ format dat aan het begin van de opgave gespecificeerd was:
     We hebben 10000 potjes gesimuleerd
     Gemiddeld duurde het XXX worpen voor de speler alle straten in zijn bezit had
 
-Tip: als je een groot aantal potjes simuleert is het handig als het programma laat zien waar 
-hij mee bezig is. Als er niks te zien is op het scherm vraagt de gebruiker zich anders af: 
+Tip: als je een groot aantal potjes simuleert is het handig als het programma laat zien waar hij mee bezig is. Als er niks te zien is op het scherm vraagt de gebruiker zich anders af: 
 "moet ik nog 1 minuut wachten of nog 1001 uur ? Een manier om dat op te lossen is bijvoorbeeld 
 door elke 500 potjes even naar het scherm te printen dat je nu Monopoly-potje X van in totaal 
 Y potjes aan het simuleren bent.
