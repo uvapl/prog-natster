@@ -33,7 +33,7 @@ Gebruik het verschil tussen het gemiddeld aantal worpen met 1000 euro of 2000 eu
 om een idee te krijgen wat het effect is (aantal worpen dat het spel er korter/langer over 
 doet) voor elke 100 euro meer of minder stargeld.
 
-** Tips:**
+**Tips:**
 
    1. Je mag de hoeveelheid startgeld in deze opdracht steeds met de hand aanpassen.
 
