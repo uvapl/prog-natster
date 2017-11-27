@@ -42,9 +42,9 @@ We gaan een groot aantal potjes Monopoly simuleren waarin we 1 speler rond laten
 		
 Doel van deze opdracht is om te bepalen wat het gemiddeld aantal worpen is waarna alle straten 
 zijn verkocht. Schrijf in een bestand `Monopoly_opdracht1.py` een functie 
-`simuleer_groot_aantal_potjes_Monopoly(Npotjes)`. De variabele `Npotjes` geeft aan hoeveel potjes er 
-gesimuleerd moeten worden. In ons geval 10000. Wanneer de functie wordt aangeroepen met 10000 
-potjes moet het volgende worden uitprint: 
+`simuleer_groot_aantal_potjes_Monopoly()`. Defineer een variabele buiten alle functies `Npotjes` 
+die aan geeft hoeveel potjes er gesimuleerd moeten worden. In ons geval 10000. Wanneer de functie 
+wordt aangeroepen met 10000 potjes moet het volgende worden uitprint: 
 
 {: .language-python}
 	Monopoly simulator: 1 speler, Trump mode 
@@ -202,6 +202,8 @@ format dat aan het begin van de opgave gespecificeerd was:
     Gemiddeld duurde het XXX worpen voor de speler alle straten in zijn bezit had
 
 Tip: als je een groot aantal potjes simuleert is het handig als het programma laat zien waar hij mee bezig is. Als er niks te zien is op het scherm vraagt de gebruiker zich anders af: "moet ik nog 1 minuut wachten of nog 1001 uur ? Een manier om dat op te lossen is bijvoorbeeld door elke 500 potjes even naar het scherm te printen dat je nu Monopoly-potje X van in totaal Y potjes aan het simuleren bent.
+
+**Extra eisen aan de functie:** Zorg dat de functie `simuleer_groot_aantal_potje_Monopoly()` nu als return waarde het gemiddeld aantal worpen dat nodig was om alle straten in je bezit te krijgen teruggeeft.
  
 **Let op:** inleveren van de code is pas na opdracht 2.
 <br>
