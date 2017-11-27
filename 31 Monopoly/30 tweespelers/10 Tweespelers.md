@@ -43,9 +43,18 @@ Print uiteindelijk het verschil naar het scherm:
 
 #### [deelopdracht 3b] nadeel van speler 2 repareren
 
-De vraag is nu of en zo ja hoe we deze 'oneerlijke' situatie kunnen repareren. Een van de 'knoppen' waar je aan kan draaien in dit spel is de hoeveelheid startgeld die de spelers krijgen. Als speler 2 meer startgeld krijgt kan hij iets van zijn achterstand repareren. Bepaal de hoeveelheid extra startgeld die we aan speler 2 moeten geven aan het begin van het spel zodat hij gemiddeld net zoveel straten in zijn bezit heeft als speler 1 op het moment dat alle straten verdeeld zijn. Geef speler 2 steeds wat meer geld (kies een paar waardes van het startgeld en voer dat steeds handmatig in) en bereken steeds het verschil. Als je een paar simulaties hebt gedraaid heb je een kleine data-set waarmee je bovenstaande grafiek kan reproduceren en een goede schatting kan maken van de hoeveelheid extra geld dat we speler 2 moeten geven aan het begin van het spel om het evenwicht te herstellen. 
+De vraag is nu of en zo ja hoe we deze 'oneerlijke' situatie kunnen repareren. Een van de 'knoppen' waar je aan kan draaien in dit spel is de hoeveelheid startgeld die de spelers krijgen. Als speler 2 meer startgeld krijgt kan hij iets van zijn achterstand repareren. Bepaal de hoeveelheid extra startgeld die we aan speler 2 moeten geven aan het begin van het spel zodat hij gemiddeld net zoveel straten in zijn bezit heeft als speler 1 op het moment dat alle straten verdeeld zijn. 
 
-Reproduceer de grafiek en geef zowel in de grafiek als geprint naar het scherm aan hoeveel extra geld speler 2 moet krijgen om het evenwicht te herstellen. Het antwoord moet op 50 euro nauwkeurig zijn.
+Definieer een nieuwe functie `Evenwicht()` waarin je de functie      `simuleer_groot_aantal_potjes_Monopoly(startgeld_speler_1,startgeld_speler_2)` steeds aanroept met verschillende waardes van startgeld voor speler 2. Speler 1 houdt gewoon 1500 euro startgeld. Probeer dit voor 'extra' geld voor speler 2 van 0, 50, 100, 150, 200 euro en print steeds het gemiddelde verschil als volgt op het scherm:
+
+    Startgeld [1500,1550]: speler 1 gemiddeld X.XX meer straten (speler 2 50 euro extra)
+    Startgeld [1500,1600]: speler 1 gemiddeld X.XX meer straten (speler 2 100 euro extra)
+    Startgeld [1500,1650]: speler 1 gemiddeld X.XX meer straten (speler 2 150 euro extra)
+    Startgeld [1500,1700]: speler 1 gemiddeld X.XX meer straten (speler 2 200 euro extra)
+    
+Als je een paar simulaties hebt gedraaid heb je een kleine data-set waarmee je bovenstaande grafiek kan reproduceren en een goede schatting kan maken van de hoeveelheid extra geld dat we speler 2 moeten geven aan het begin van het spel om het evenwicht te herstellen. 
+
+Er is natuurlijk een bedrag waarbij het voordeel ineens bij speler 2 komt te liggen. Gebruikt dat bedrag (en het bedrag ervoor) om een schatting te maken van het bedrag waar het evenwicht ligt. Gebruik hiervoor een aanname dat het verschil lineair verloopt als functie van het extra geld voor speler 2. Het antwoord moet op 25 euro nauwkeurig zijn.
 
 {: .language-python}
 	Monopoly simulator: 2 spelers
