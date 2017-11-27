@@ -12,7 +12,7 @@ Voeg eerst een tweede speler toe in je simulaties, laat beide spelers beginnen m
 
 **Strategie:**
 
- - Aanpassing aan *input* functie `simuleer_potje_Monopoly()`
+  - Aanpassing aan *input* functie `simuleer_potje_Monopoly()`
    De functie die een potje Monopoly simuleert heeft nu natuurlijk van beide spelers de hoeveelheid startgeld nodig. Geef beide als input variabalen mee aan de functie:
    `simuleer_potje_Monopoly(startgeld_speler_1,startgeld_speler_2) 
 
