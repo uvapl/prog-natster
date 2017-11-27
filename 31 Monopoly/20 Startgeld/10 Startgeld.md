@@ -29,9 +29,7 @@ print dat als volgt op het scherm:
 	Monopoly simulator: 1 speler, 1500 euro startgeld, 10000 potjes
     Gemiddeld duurde het XXX worpen voor de speler alle straten in zijn bezit had
     
-Gebruik het verschil tussen het gemiddeld aantal worpen met 1000 euro of 2000 euro startgeld 
-om een idee te krijgen wat het effect is (aantal worpen dat het spel er korter/langer over 
-doet) voor elke 100 euro meer of minder stargeld.
+Gebruik het verschil tussen het gemiddeld aantal worpen met 1000 euro of 2000 euro startgeld om een idee te krijgen wat het effect is (aantal worpen dat het spel er korter/langer over doet) voor elke 100 euro meer of minder stargeld.
 
 **Tips:**
 
