@@ -11,13 +11,17 @@ Let op: we gaan nu de code uit opdracht 1 en 2 aanpassen. Om te zorgen dat die w
 Voeg eerst een tweede speler toe in je simulaties, laat beide spelers beginnen met 1500 euro startgeld en bepaal het verschil in aantal straten tussen speler 1 en speler 2 op het moment dat alle straten verkocht zijn. Dit verschil zal elk potje verschillen. Simuleer daarom 10000 potjes om een goede schatting te krijgen van het gemiddelde verschil. Je zal zien dat speler 1 inderdaad een klein voordeel heeft op speler 2.
 
 **Strategie:**
+
  - Aanpassing aan *input* functie `simuleer_potje_Monopoly()`
    De functie die een potje Monopoly simuleert heeft nu natuurlijk van beide spelers de hoeveelheid startgeld nodig. Geef beide als input variabalen mee aan de functie:
    `simuleer_potje_Monopoly(startgeld_speler_1,startgeld_speler_2) 
+
  - Aanpassing aan *ouput* functie `simuleer_potje_Monopoly()`
    Tot nu toe hebben we de functie gevraagd het aantal worpen dat het potje geduurd heeft terug te geven als return waarde. Nu zijn we alleen geïnteresseerd in het verschil in aantal straten tussen speler 1 en speler 2: `delta = aantal_straten_speler_1 - aantal_straten_speler_2`. Dat is dat ook de variabele die we terug gaan geven als return waarden. **Let op:** deze waarde kan nu zowel positief als negatief zijn.
-      
- Maak k voor
+
+- Bijhouden hoeveelheid geld en posities van beide spelers:
+  Hou voor beide spelers de hoeveelheid geld en positie bij:
+        
 
 
 
