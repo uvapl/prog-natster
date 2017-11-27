@@ -27,8 +27,8 @@ Het doel is om dit verschil te achterhalen door een grot aantal potjes te simule
    
    Tot nu toe hebben we de functie gevraagd het aantal worpen dat het potje geduurd heeft terug te geven als return waarde. Nu zijn we alleen geïnteresseerd in het verschil in aantal straten tussen speler 1 en speler 2: `delta = aantal_straten_speler_1 - aantal_straten_speler_2`. Dat is dat ook de variabele die we terug gaan geven als return waarden. **Let op:** deze waarde kan nu zowel positief als negatief zijn.
 
-     delta = simuleer_potje_Monopoly(startgeld_speler_1,startgeld_speler_2)
-     print 'Aan het eind van dit potje had speler 1 %d meer straten dan speler 2' % (delta)
+       delta = simuleer_potje_Monopoly(startgeld_speler_1,startgeld_speler_2)
+       print 'Aan het eind van dit potje had speler 1 %d meer straten dan speler 2' % (delta)
 
  - Bijhouden hoeveelheid geld en posities van beide spelers:
 
