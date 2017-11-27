@@ -14,8 +14,7 @@ Voor een enkel potje ziet de code er dus ongeveer zo uit:
 
     aantal_worpen = simuleer_potje_Monopoly(startgeld_speler)
 
-Ook hier zullen we weer een groot aantal potjes simuleren. Zorg dus ook dat de 
-hoeveelheid startgeld `simuleer_groot_aantal_potjes_Monopoly(startgeld_speler)` 
+Ook hier zullen we weer net als in opdracht 1 een groot aantal potjes simuleren. Zorg dus ook dat in die functie naast het aantal potjes ook het startgeld van de speler meeggeven wordt: `simuleer_groot_aantal_potjes_Monopoly(Npotjes, startgeld_speler)` 
 als inputwaarde meekrijgt. Deze functie zal dit startgeld dan weer doorgeven aan 
 een individueel potje.
 

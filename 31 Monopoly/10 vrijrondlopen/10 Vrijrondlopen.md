@@ -196,7 +196,8 @@ moet komen. Het doel van deze opdracht was om uit te zoeken hoeveel worpen de sp
 nodig zou hebben om alle velden in zijn bezit te krijgen. Om deze vraag te beantwoorden zullen we 
 een groot aantal potjes moeten simuleren zodat we daarvan het gemiddeld aantal worpen kunnen bepalen.
 
-Schrijf een functie `simuleer_groot_aantal_potjes_Monopoly()` die, de naam zegt het al, een groot aantal potjes kan simuleren door steeds de functie `simuleer_potje_Monopoly()` aan te roepen. Deze geeft als return-waarde het aantal worpen waarna het potje afgelopen was (zie tussenstap 4). In de code dus:
+Schrijf een functie `simuleer_groot_aantal_potjes_Monopoly()` die, de naam zegt het al, een groot aantal potjes kan simuleren door steeds de functie `simuleer_potje_Monopoly()` aan te roepen. Zorg dat het aantal potjes meegegeven wordt aan de eerste functie, dus: 
+`simuleer_groot_aantal_potjes_Monopoly(Npotjes)` waarna er in de code net zoveel keer een individueel potje Monojpoly wordt aangeroepen:
  
      for i_potje in range(0,Npotjes):
          aantal_worpen = simuleer_potje_Monopoly()
