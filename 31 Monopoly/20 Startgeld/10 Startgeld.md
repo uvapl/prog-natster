@@ -13,8 +13,6 @@ begint met een bepaalde hoeveelheid startgeld en dat je gedurende het spel bijho
 Voor een enkel potje ziet de code er dus ongeveer zo uit:
 
     aantal_worpen = simuleer_potje_Monopoly(startgeld_speler)
-    print 'De speler had %d euro startgeld % (startgeld_speler) 
-    print 'Na worp %d had de speler alle straten in zijn bezit' % (startgeldaantal_worpen)
 
 Ook hier zullen we weer een groot aantal potjes simuleren. Zorg dus ook dat de 
 hoeveelheid startgeld `simuleer_groot_aantal_potjes_Monopoly(startgeld_speler)` 
