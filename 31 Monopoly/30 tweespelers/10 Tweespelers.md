@@ -10,6 +10,12 @@ Let op: we gaan nu de code uit opdracht 1 en 2 aanpassen. Om te zorgen dat die w
 
 Voeg eerst een tweede speler toe in je simulaties, laat beide spelers beginnen met 1500 euro startgeld en bepaal het verschil in aantal straten tussen speler 1 en speler 2 op het moment dat alle straten verkocht zijn. Dit verschil zal elk potje verschillen. Simuleer daarom 10000 potjes om een goede schatting te krijgen van het gemiddelde verschil. Je zal zien dat speler 1 inderdaad een klein voordeel heeft op speler 2.
 
+Het doel is om dit verschil te achterhalen door een grot aantal potjes te simuleren:
+{: .language-python}
+	Monopoly simulator: twee spelers, 1500 euro startgeld, 10000 potjes
+    Gemiddeld heeft speler 1 X.XX meer straten in bezit als alle straten verdeeld zijn
+
+
 **Strategie:**
 
   - Aanpassing aan *input* functie `simuleer_potje_Monopoly()`
@@ -30,7 +36,7 @@ Voeg eerst een tweede speler toe in je simulaties, laat beide spelers beginnen m
    
 Test de code altijd voor een enkel potje en bekijk goed of het doet wat je denk dat het zou moeten doen. Ga pas dan het aantal potjes vergroten. Gebruik daarvoor weer dezelfde opzet als je had in de functie `simuleer_groot_aantal_potjes_Monopoly()` en zorg ervoor dat je de vraag kunt beantwoorden. 
 
-Print het verschil naar het scherm:
+Print uiteindelijk het verschil naar het scherm:
 {: .language-python}
 	Monopoly simulator: twee spelers, 1500 euro startgeld, 10000 potjes
     Gemiddeld heeft speler 1 X.XX meer straten in bezit als alle straten verdeeld zijn
