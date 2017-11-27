@@ -68,8 +68,15 @@ is een speciale functie voor in Python, namelijk `randint()`.
 	
 ter volledigheid: met Monopoly gooi je elke beurt met twee dobbelstenen.
 
+Opdracht: Maak een functie `worp_met_twee_dobbelstenen()` die geen inputvariabelen heeft en die als return-waarde de output van een worp met twee dobbelstenen teruggeeft. In je code zou je het dus als volgt gebruiken:
+
+      resultaat = worp_met_twee_dobbelstenen()
+      print 'De worp met twee dobbelstenen resulteerde in %d aantal ogen' % (resultaat)
+
 Hoewel het niet essentieel is voor de opgave is het goed om even te oefenen met het 
-gooien van de dobbelstenen. Schrijf een korte functie `oefenen_met_de_dobbelstenen()` die 
+gooien van de dobbelstenen. 
+
+Opdracht: schrijf een korte functie `oefenen_met_de_dobbelstenen()` die 
 duizend worpen simuleert en voor elke worp steeds twee dobbelstenen gooit. Zorg dat op het 
 scherm voor elke worp het aantal ogen geprint wordt en maak duidelijk aan de gebruiker als 
 er een zogenaamde 'dubbel' gegooid wordt (het aantal ogen op beide dobbelstenen is gelijk).
