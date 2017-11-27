@@ -185,8 +185,8 @@ In je code moet het dus als volgt werken:
 
 {: .language-python}
 
-    aantal_worpen_tot_einde = simuleer_potje_Monopoly()
-    'Het potje Monopoly is afgelopen: na worp %d had de speler alle straten in zijn bezit' % (aantal_worpen_tot_einde)
+    aantal_worpen = simuleer_potje_Monopoly()
+    'Klaar! Na worp %d had de speler alle straten in zijn bezit' % (aantal_worpen)
 
 ### Tussenstap 5: Meerdere potjes: gemiddeld aantal worpen tot einde spel
 
