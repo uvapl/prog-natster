@@ -1,0 +1,5 @@
+name: module3
+files:
+    vereist:
+        - Monopoly_opdracht1.py
+        - Monopoly_realistisch.py

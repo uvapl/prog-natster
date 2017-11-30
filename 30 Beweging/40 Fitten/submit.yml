@@ -1,9 +1,0 @@
-name: module3
-files:
-    vereist:
-        - appel.py
-        - basejump.py
-        - tunnel.py
-        - spiraal.py
-        - student.py
-        - fit.py
