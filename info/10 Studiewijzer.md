@@ -51,7 +51,7 @@ in de beoordeling zijn!
 De scores voor stijl worden als volgt bepaald:
 
 - 0: slecht, niet geprobeerd
-- 1: matig, her en der duidelijk geprobeerd
+- 1: matig, her en der duidelijk geprobeerd maar niet systematisch
 - 2: redelijk, aardig wat ruimte voor verbetering
 - 3: goed, aantal duidelijke punten voor verbetering
 - 4: zeer goed, weinig ruimte voor verbetering, paar kleine problemen
