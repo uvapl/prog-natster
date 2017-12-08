@@ -46,6 +46,18 @@ je alles digitaal in. Dat wordt beoordeeld:
 * Stijl --- hoe ordelijk en leesbaar is je code? Dit kan een belangrijke component 
 in de beoordeling zijn!
 
+### Stijl
+
+De scores voor stijl worden als volgt bepaald:
+
+- 0: slecht, niet geprobeerd
+- 1: matig, her en der duidelijk geprobeerd
+- 2: redelijk, aardig wat ruimte voor verbetering
+- 3: goed, aantal duidelijke punten voor verbetering
+- 4: zeer goed, weinig ruimte voor verbetering, paar kleine problemen
+- 5: excellent, perfect, geen problemen of echt een kleine omissie
+
+
 ## Dagelijks ritme
 
 De opdrachten zijn ingedeeld in blokken van een dagdeel. De bedoeling is dan ook dat je voor elk blok gemiddeld een uur of vier aan werk bent. Als je niet alles af hebt aan het eind van het practicul maak dan de opdracht thuis af. Kom je in de problemen? Neem dan contact op!
