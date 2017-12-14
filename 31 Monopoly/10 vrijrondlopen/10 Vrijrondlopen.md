@@ -122,7 +122,7 @@ zijn niet te koop. Maak een lijst (lengte 40 waarbij je voor elke positie op het
 waarde aan de plek op het bord verbonden is. De eerste 11 posities zijn dan:
 
 {: .language-python}
-    bord_waardes = [0, 60, 0, 60, 0, 200, 100, 0, 100, 100, 0, ......]
+    bord_waardes = [0, 60, 0, 60, 0, 200, 100, 0, 100, 120, 0, ......]
 
 Zoek op internet op hoe het Monopoly bord verder in elkaar zit zodat je niet alleen van de eerste 11, 
 maar van alle 40 velden weet voor welk geldbedrag ze te koop zijn. Als de waarde kleiner is dan 1 euro 
