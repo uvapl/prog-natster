@@ -11,7 +11,7 @@ grades:
         subgrades:
             scope: integer
             style: integer
-        calculation: ((3*(scope/16.0) + 1*(style/5.0)) / 4.0 * 9 + 1).round(1)
+        calculation: ((3*(scope/20.0) + 1*(style/5.0)) / 4.0 * 9 + 1).round(1)
         hide_calculated: true
     module3:
         type: float
