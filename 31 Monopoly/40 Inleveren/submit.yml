@@ -1,0 +1,7 @@
+name: module3
+files:
+    vereist:
+        - spiraal.py
+        - student.py
+        - Monopoly_opdracht1.py
+        - Monopoly_realistisch.py
