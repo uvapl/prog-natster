@@ -1,17 +1,20 @@
 Periode 1:
     Getaltheorie:
-        'Getaltheorie': '/getaltheorie/inhoud'
+        'Overzicht': '/getaltheorie/inhoud'
+        'Inleveren': '/getaltheorie/inleveren'
     Integreren:
-        'Integreren': '/integreren/inhoud'
+        'Overzicht': '/integreren/inhoud'
+        'Inleveren': '/integreren/inleveren'
     Monopoly:
-        'Inhoud': '/monopoly/inhoud'
-        'Simulaties: Prooi-predator': '/prooipredator/inhoud'
-    "Big Data":
-        'Inhoud': '/big-data/inhoud'
+        'Overzicht': '/monopoly/inhoud'
+        'Inleveren': '/monopoly/inleveren'
+    'Big Data':
+        'Overzicht': '/big-data/inhoud'
+        'Inleveren': '/big-data/inleveren'
     Tentamen:
-        'Inleveren tentamen': '/tentamen/inleveren'
+        'Inleveren': '/tentamen/inleveren'
     Hertentamen:
-        'Inleveren hertentamen': '/tentamen/inleveren-hertentamen'
+        'Inleveren': '/tentamen/inleveren-hertentamen'
 
 Periode 2:
     Week 1:
