@@ -4,7 +4,7 @@ In het echt wordt het spel Monopoly gespeeld door twee spelers. Doel van deze op
  
 ![](Balans.png){:.inline}{: style="width:35%"}
  
-Let op: we gaan nu de code uit opdracht 1 en 2 aanpassen. Om te zorgen dat die werkende code bewaard blijft gaan we deze opdracht maken in een nieuw bestand. Maak een nieuw Python bestand aan, `Monopoly_realistisch.py`, kopieer de code die je tot nu toe hebt en ga verder in deze nieuwe file.
+Let op: we gaan nu de code uit opdracht 1 en 2 aanpassen. Om te zorgen dat die werkende code bewaard blijft gaan we deze opdracht maken in een nieuw bestand. Maak een nieuw Python bestand aan, `monopoly_realistisch.py`, kopieer de code die je tot nu toe hebt en ga verder in deze nieuwe file.
 
 #### [deelopdracht 3a] voordeel van speler 1
 

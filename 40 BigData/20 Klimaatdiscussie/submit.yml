@@ -1,5 +1,0 @@
-name: module4
-files:
-    vereist:
-        - autorit.py
-        - temperatuur.py

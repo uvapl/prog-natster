@@ -85,7 +85,7 @@ starting with a `#`.
 
 Indentation means adding white space to the very start of a line, in order to
 show structure. In most programming languages, this is a *convention* to
-improve consistency and readability. In Python, indentation is compulsory, or your programs will not work!
+improve consistency and readability. In Python, indentation is compulsory!
 
 {: .language-python}
     def sum(x, y):
@@ -118,7 +118,7 @@ line that ends in a `:` (colon), all dependent lines should be indented.
 
 {: .language-python}
     # This function consists of 4 lines of code and
-	# 2 lines of commenting.
+    # 2 lines of commenting.
     def sum(arrayOfNumbers):
         result = 0
         # This for loop contains exactly 1 line that is repeated.
@@ -168,18 +168,18 @@ Here's three very small blocks of code, each responsible for a particular
 function of the program:
 
 {: .language-python}
-	number = input("Please enter a number: ")
-	while number < 0:
-		number = input("Please enter a *positive* number: ")
-	
-	# calculations: uses a complex loop to handle special cases
-	while(number > 0):
-		number -= 1
-	if number == 0:
-		number += 1
-	
-	# output: might not print zero (e.g., if user put in a float)
-	print user_input
+    number = input("Please enter a number: ")
+    while number < 0:
+        number = input("Please enter a *positive* number: ")
+
+    # calculations: uses a complex loop to handle special cases
+    while(number > 0):
+        number -= 1
+    if number == 0:
+        number += 1
+
+    # output: might not print zero (e.g., if user put in a float)
+    print(user_input)
 
 ### Spaces around operators
 

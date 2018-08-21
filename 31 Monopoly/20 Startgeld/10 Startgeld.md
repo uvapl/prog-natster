@@ -5,7 +5,7 @@
 In een officieel potje Monopoly krijg je 1500 euro startgeld en verdient je 200 euro 
 elke keer dat je START passeert. Zo'n eindige hoeveelheid startgeld heeft invloed op de snelheid waarmee je nieuwe straten kan kopen. In deze opdracht zoeken we uit welk effect dit precies heeft. 
 
-**Let op:** we gaan nu een aanpassing aan de bestaande code maken uit opdracht 1; een uitbreiding. Je hoeft dus geen nieuwe file aan te maken en aan het eind van deze opdracht lever je de code `Monopoly_opdracht1.py` in. Die bevat dus opdracht 1 en 2 tegelijk.   
+**Let op:** we gaan nu een aanpassing aan de bestaande code maken uit opdracht 1; een uitbreiding. Je hoeft dus geen nieuwe file aan te maken en aan het eind van deze opdracht lever je de code `monopoly_opdracht1.py` in. Die bevat dus opdracht 1 en 2 tegelijk.   
 
 Pas in je nieuwe programma de functie `simuleer_potje_Monopoly()` zo aan dat je elk potje 
 begint met een bepaalde hoeveelheid startgeld en dat je gedurende het spel bijhoudt hoeveel geld je op elk moment hebt. Evalueer nu ook elke keer dat je op een veld terechtkomt die nog te koop staat of je wel genoeg geld heeft om het te kopen. De verwachting is dat je in een potje nu gemiddeld iets meer worpen nodig hebt om alle straten te kopen dan in opdracht 1 waarin geld geen rol speelde.

@@ -12,7 +12,7 @@ Een grafiek van een functie tekenen, zoals in de vorige module, is één manier 
 
 ## Voorbeeld: 10.000 random getallen
 
-Het idee van een random getal is dat het uniform verdeeld is tussen 0 en 1. Om een indruk te kijken of de verdeling inderdaad 'vlak' is kunnen we van 10.000 random getallen kijken wat de frequentie is van de getallen die gegenereerd zijn. 
+Het idee van een random getal is dat het uniform verdeeld is tussen 0 en 1. Om een indruk te kijken of de verdeling inderdaad 'vlak' is kunnen we van 10.000 random getallen kijken wat de frequentie is van de getallen die gegenereerd zijn.
 
 Hieronder een klein programma dat eerst 10.000 random getallen genereert en ze in een lijst stopt. Bij het commando `plt.hist()` wordt opgegeven dat we de frequentie willen bepalen van getallen in gebieden van 0.02 (immers 50 bins tussen de minimale en maximale waarde die we verwachten: 0.00 en 1.00).
 
@@ -20,21 +20,21 @@ Hieronder een klein programma dat eerst 10.000 random getallen genereert en ze i
     import matplotlib.pyplot as plt
 
     # lijst waar je de random getallen in bewaart
-    L_random_getallen = []
-    
+    random_getallen = []
+
     # genereer 10.000 random getallen
     n = 10000
     for counter in range(n):
         getal = random.random()          
-        L_random_getallen.append(getal)
-    
-     # plot de frequentie-distributie (50 bins)
-     plt.xlim(-0.1,1.1)
-     plt.hist(L_random_getallen,bins=50)
-     plt.show()
-       
+        random_getallen.append(getal)
 
-In Python gebruik je hiervoor de optie `plt.hist()` om de data te groeperen en laat het dan pas zien mbv `plt.show()`. Je kunt bij het groeperen opgeven in hoeveel stukjes (bins) je de data op wilt delen. 
+     # plot de frequentie-distributie (50 bins)
+     plt.xlim(-0.1, 1.1)
+     plt.hist(random_getallen, bins=50)
+     plt.show()
+
+
+In Python gebruik je hiervoor de optie `plt.hist()` om de data te groeperen en laat het dan pas zien mbv `plt.show()`. Je kunt bij het groeperen opgeven in hoeveel stukjes (bins) je de data op wilt delen.
 
 De extra optie `xlim` gebruiken we hier om te laten zien dat er geen getallen buiten het interval 0.00-1.00 zijn gegenereerd. Kijk in de documentatie op het web welke opties er allemaal zijn om het histogram de vorm te geven die jij wilt: relevant aantal bins, kleur, asbijschriften, legenda, tekst, etc etc.
 
@@ -46,3 +46,9 @@ Schrijf een functie `SomRandomGetallen()` dat de distributie weergeeft van 10.00
 
 Genereer voor elk 'experiment' 100 random getallen en reken de som daarvan uit. Herhaal dit 10.000 keer en bewaar voor elk van de experimenten de som in een lijst. Maak uiteindelijk een frequentie-distributie (histogram) van de verdeling. Schrijf ook naar het scherm wat het percentage (in procent) van de  experimenten is waarbij de som respectievelijk minder dan 40 en meer dan 60 is.
 
+> Let op: print het percentage < 40 op één regel en het percentage > 60 op de volgende. Print bovendien niet alleen het percentage maar leg even uit wat het precies voor getal is.
+
+
+## Testen
+
+	checkpy histogram

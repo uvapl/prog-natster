@@ -1,26 +1,34 @@
 # Online programmeren
 
-Om online te kunnen programmeren maken wij gebruik van een online integrated development environment (IDE), de CS50 IDE. Om toegang te krijgen tot deze omgeving moet je wat stappen afwerken. Hierna kan je gelijk aan de slag!
+Om online te kunnen programmeren maken wij gebruik van een online integrated development environment, de CS50 IDE. Om toegang te krijgen tot deze omgeving moet je wat stappen door. Daarna kun je gelijk aan de slag!
 
 ## Aanmaken van de CS50 IDE
 
-Om toegang te krijgen tot de ontwikkelomgeving vragen we je de volgende stappen af te werken:
+Om toegang te krijgen tot de ontwikkelomgeving kun je het volgende doen:
 
 1. Registreer bij edX op [https://courses.edx.org/register](https://courses.edx.org/register). Je hoeft je niet aan te melden voor een cursus.
+
 2. Bevestig je account via de link in je e-mail.
+
 3. Login met jouw net aangemaakte account op [https://cs50.io/](https://cs50.io/).
 
-Na wat berichten over het opzetten van je workspace, zie je nu dit scherm in jouw browser:
+4. Er wordt je wellicht gevraagd een nieuwe workspace aan te maken. Vul hiervoor de volgende gegevens in:
+
+    - Workspace name: ide50
+    - Description: CS50 IDE
+    - Template: Harvard's CS50 (*belangrijk*)
+
+Na het aanmaken van de workspace, zie je dit scherm in jouw browser:
 
 ![cs50](cs50.png)
 
-We noemen dit een geïntegreerde ontwikkelomgeving (integrated development environment, IDE), omdat je in deze omgeving alles vindt wat je nodig hebt om programma's te ontwikkelen: een overzicht van je bestanden, een tekst-editor om programma-code in te tikken, en een plek om je programma's uit te proberen.
+We noemen dit een geïntegreerde ontwikkelomgeving, omdat je hier alles vindt wat je nodig hebt om programma's te ontwikkelen: een overzicht van je bestanden, een tekst-editor om programma-code in te tikken, en een plek om je programma's uit te proberen.
 
-Mocht je liever een wat donker scherm willen (zoals alle hackers ;-)), ga dan naar het dropdown menu **view** -> **night mode**. Voel je ook vrij om nog een beetje te speuren door de dropdown menu's. Het is okee als je nog niet begrijpt wat alles betekent. Mocht je je binnenkort wat meer thuisvoelen omdat je wat meer programmeerskills hebt opgedaan, of je bent gewoon nieuwsgierig, zet dan gerust eens **view** -> **Less Comfortable** uit voor extra opties.
+Mocht je liever een wat donker scherm willen (zoals alle hackers ;-)), ga dan naar het dropdown menu **view** -> **night mode**. Voel je ook vrij om nog een beetje te speuren door de dropdown menu's. Het is okee als je nog niet begrijpt wat alles betekent.
 
 ## Proefrit
 
-Links bovenin zie je een map-icoontje met daarachter de tekst **~/workspace**. Rechtsklik of ctrl+klik hierop en selecteer vervolgens **New Folder**. Noem deze map **week1**. 
+Links bovenin zie je een map-icoontje met daarachter de tekst **~/workspace**. Rechtsklik of ctrl+klik hierop en selecteer vervolgens **New Folder**. Noem deze map **week1**.
 
 Onderin het scherm zie je de terminal, een omgeving waarin je commando's kan uitvoeren. Tik maar eens het volgende commando in achter de `$`:
 
@@ -40,13 +48,13 @@ Om de file `hello.py` te openen, ga je naar links bovenin je scherm waar je een 
 
 Voer in het bestand `hello.py` de volgende regel code in:
 
-	print "Hello, World!"
+    print("Hello, World!")
 
 Sla `hello.py` vervolgens op. Dit is jouw eerste (Python-)programma, en deze kunnen we uitvoeren door het volgende commando in de terminal te voeren:
 
-	python2 hello.py
+    python hello.py
 
-Als het goed is zie je direct daaronder de woorden: `Hello, World!` staan. 
+Als het goed is zie je direct daaronder de woorden: `Hello, World!` staan.
 
 ## Extra tips
 
@@ -58,7 +66,7 @@ Hier staat `..` voor de map boven de huidige. Wil je verder omhoog? Dan kan dat 
 
     cd ~/workspace/week1
 
-Dat brengt je meteen naar de map `week1` binnen `workspace`. 
+Dat brengt je meteen naar de map `week1` binnen `workspace`.
 
 ## Installeren van Matplotlib en Checkpy
 
@@ -66,18 +74,14 @@ We gebruiken een programma om te checken of je opdrachten op de juiste manier we
 
 Om zowel `matplotlib` en `checkpy` te downloaden voer je in de terminal één voor één de volgende commando's uit:
 
-	sudo sh -c "umask 022; pip2 install -U pip setuptools"
-	
-	sudo sh -c "umask 022; pip2 install matplotlib"
-	
-	sudo sh -c "umask 022; pip2 install checkpy"
-	
-	sudo sh -c "umask 022; checkpy -d https://github.com/Jelleas/progbeta2017tests"
+    pip install matplotlib
+    pip install checkpy
+    checkpy -d Jelleas/progbgtests
 
 Het kan best eventjes duren per commando, en er zal aardig wat tekst over je scherm ratelen. Mocht er weinig tekst staan, speur dan naar een eventuele foutmelding en vraag eventueel om hulp!
 
 Om te testen of alles werkt, en of `hello.py` klopt, voer je het volgende commando in de terminal uit:
 
-	checkpy hello
+    checkpy hello
 
 Kleurt alles groen en zie je enkel vrolijke smileys? Dan zit je goed, en heb je aan onze eisen voor de opdracht voldaan! Mocht er iets rood kleuren, geen paniek! Kijk goed na of je precies hebt gedaan wat er is gevraagd, en mail gerust als je klem zit.

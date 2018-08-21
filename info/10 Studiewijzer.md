@@ -57,14 +57,15 @@ De scores voor stijl worden als volgt bepaald:
 - 4: zeer goed, weinig ruimte voor verbetering, paar kleine problemen
 - 5: excellent, perfect, geen problemen of echt een kleine omissie
 
-
 ## Dagelijks ritme
 
-De opdrachten zijn ingedeeld in blokken van een dagdeel. De bedoeling is dan ook dat je voor elk blok gemiddeld een uur of vier aan werk bent. Als je niet alles af hebt aan het eind van het practicul maak dan de opdracht thuis af. Kom je in de problemen? Neem dan contact op!
+De opdrachten zijn ingedeeld in blokken van een dagdeel. De bedoeling is dan ook dat je voor elk blok gemiddeld een uur of vier aan werk bent. Als je niet alles af hebt aan het eind van het practicum maak dan de opdracht thuis af. Kom je in de problemen? Neem dan contact op!
 
 ## Aanwezigheid
 
-De bedoeling is dat je tijdens alle practicumuren aanwezig bent. Wij leren je namelijk ter plaatse nog dingen die je niet in je eentje kunt leren zoals het opsporen en verbeteren van fouten in je programma's bijvoorbeeld.
+De bedoeling is dat je tijdens alle practicumuren aanwezig bent. Wij leren je namelijk ter plaatse nog dingen die je niet in je eentje kunt leren zoals het opsporen en verbeteren van fouten in je programma's.
+
+Bij afwezigheid (om welke reden dan ook) wordt het cijfer voor de betreffende opdracht een punt verlaagd, tot maximaal 4 punten aftrek. Uitzondering is natuurlijk als je de opdracht geheel af hebt en hebt laten zien aan de assistent dat het werkt: dan mag je gewoon wegblijven.
 
 ## Deadline
 
@@ -104,11 +105,18 @@ Je krijgt een eindcijfer voor dit vak als je:
 * elke module op tijd en naar verwachting hebt ingeleverd;
 * een voldoende hebt gehaald voor het tentamen.
 
-Het eindcijfer bestaat in de basis uit het gemiddelde van de problem sets. Een
-klein deel van het cijfer wordt bepaald door hoe je beter bent gaan
-programmeren tijdens het vak (de voortgang zelf dus!).
+Het eindcijfer wordt dan als volgt berekend:
+
+| onderdeel | berekening    | gewicht |  
+| --------- | ------------- | ------: |  
+| module 1  | scope x stijl |   12,5% |  
+| module 2  | scope x stijl |   12,5% |  
+| module 3  | scope x stijl |   12,5% |  
+| module 4  | scope x stijl |   12,5% |  
+| tentamen  | punten        |     50% |  
 
 ## Samenwerken, fraude en plagiaat
+
 Samenwerken tijdens dit vak is *niet* toegestaan. Dit vak heeft als doel jouw
 persoonlijke programmeervaardigheid te ontwikkelen. Bij vervolgvakken is het
 vaak wél mogelijk om samen te programmeren.

@@ -22,7 +22,7 @@ Dit programma voldoet aan het cliché van een standaard computerprogramma: het h
 
 * Je kunt dit programma schrijven met alleen de Python-onderdelen die je tot nu toe hebt geleerd!
 
-* Maak gebruik van de `raw_input`-functie en gebruik `int()` om de invoer van de gebruiker om te zetten van een string naar een integer, zodat je de berekening kunt uitvoeren.
+* Maak gebruik van de `input`-functie en gebruik `int()` om de invoer van de gebruiker om te zetten van een string naar een integer, zodat je de berekening kunt uitvoeren.
 
 ## Testen
 
@@ -34,4 +34,4 @@ Probeer dan de voorbeelden bovenaan de opgave uit. Lijkt alles te werken, dan is
 
 	checkpy rekenwonder
 
-Zie je unhappy smileys, en kom je er niet uit wat er fout gaat? Vraag je assistent!
+Zie je unhappy smileys, en kom je er niet uit wat er fout gaat? Vraag om hulp!
