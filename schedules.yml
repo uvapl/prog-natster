@@ -1,6 +1,6 @@
 Periode 1:
-    'Installatie':
-        'Python installeren': '/naslag/installatie'
+    Installatie:
+        'Python installeren': '/naslag/installatie-computer'
     'Module 1: Getaltheorie':
         'Overzicht': '/getaltheorie/inhoud'
         'Inleveren': '/getaltheorie/inleveren'
@@ -19,6 +19,8 @@ Periode 1:
         'Inleveren': '/tentamen/inleveren-hertentamen'
 
 Periode 2:
+    Installatie:
+        'Python installeren': '/naslag/installatie-computer'
     Week 1:
         'Getaltheorie': '/getaltheorie/inhoud'
     Week 2:
@@ -41,6 +43,8 @@ Periode 2:
         'Inleveren hertentamen': '/tentamen/inleveren-hertentamen'
 
 Periode 6:
+    Installatie:
+        'Python installeren': '/naslag/installatie-computer'
     Week 1:
         'Getaltheorie': '/getaltheorie/inhoud'
     Week 2:
