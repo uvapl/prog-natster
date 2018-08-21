@@ -28,6 +28,8 @@ In deze module gaan we bestuderen hoe we de beweging van vallende objecten kunne
 
 1. <span class="label label-primary">Opdracht</span> Vindt de regelmaat in je data met [Fitten](/beweging/fitten)
 
-#### Evaluatie
+#### Inleveren en evaluatie
 
-Ben je klaar met deze module? Help ons dan om deze te verbeteren: vul de [evaluatie](https://goo.gl/forms/bMEPwmQeLxMZ13qE2){:target="_blank"} in.
+1. Ga naar [deze pagina](/beweging/inleveren) om je programma's in te leveren.
+
+2. Ben je klaar met deze module? Help ons dan om deze te verbeteren: vul de [evaluatie](https://goo.gl/forms/bMEPwmQeLxMZ13qE2){:target="_blank"} in.
