@@ -8,7 +8,7 @@ In deze module gaan we het spel Monopoly simuleren. Het is ondoenlijk om dit ana
 
 #### Dag 1: Animaties in Python
 
-1. Leer hoe je [animaties](/python/animaties) maakt in Python
+1. Leer hoe je [animaties](/technieken/animaties) maakt in Python
 
 2. <span class="label label-primary">Opdracht</span> De [spriraliserende stip](/beweging/stip)
 
@@ -16,7 +16,9 @@ In deze module gaan we het spel Monopoly simuleren. Het is ondoenlijk om dit ana
 
 #### Dag 1 en Dag 2: vrij rondlopen op het bord
 
-1. <span class="label label-primary">Opdracht</span> Monopoly met 1 speler in [Donald Trump-mode](/monopoly/vrijrondlopen)
+1. Lees over [Monopoly](/monopoly/inleiding)
+
+1. <span class="label label-primary">Opdracht</span> Monopoly met 1 speler in [Donald Trump-mode](/monopoly/vrij-rondlopen)
 
 #### Dag 3: Startgeld
 
@@ -24,12 +26,10 @@ In deze module gaan we het spel Monopoly simuleren. Het is ondoenlijk om dit ana
 
 #### Dag 4: Tweede speler toevoegen en zoeken naar evenwicht
 
-1. <span class="label label-primary">Opdracht</span> Voeg een tweede speler toe en herstel het [evenwicht](/monopoly/tweespelers)
+1. <span class="label label-primary">Opdracht</span> Voeg een tweede speler toe en herstel het [evenwicht](/monopoly/twee-spelers)
 
-#### Insturen en evaluatie
+#### Inleveren en evaluatie
 
-Ben je klaar met deze module?
+1. Ga naar [deze pagina](/monopoly/inleveren) om je programma's in te leveren.
 
-- Stuur je opdrachten hier in: [submit](/monopoly/submit)
-
-- Help ons dan om de opdracht te verbeteren: vul de [evaluatie](https://goo.gl/forms/bMEPwmQeLxMZ13qE2){:target="_blank"} in.
+2. Help ons dan om de opdracht te verbeteren: vul de [evaluatie](https://goo.gl/forms/bMEPwmQeLxMZ13qE2){:target="_blank"} in.
