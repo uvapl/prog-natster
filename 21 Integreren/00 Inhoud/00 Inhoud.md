@@ -14,9 +14,13 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 3. <span class="label label-primary">Opdracht</span> Bepaal de [nulpunten](/integreren/nulpunten) van een polynoom
 
-#### Dag 2: random
+#### Dag 2: Riemann
 
-1. Leer over het gebruik van  [random getallen](/python/random).
+1. <span class="label label-primary">Opdracht</span> Gebruik computerkracht voor het bepalen van de [Riemannsom](/integreren/riemann).
+
+#### Dag 3: random
+
+1. Leer over het gebruik van  [random getallen](/technieken/random).
 
 2. <span class="label label-primary">Opdracht</span> [Random fact](/integreren/randomwiskunde).
 
@@ -24,13 +28,9 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 3. <span class="label label-primary">Opdracht</span> Analyseer met een [histogram](/integreren/histogram) de uitvoer van de `random`-functie
 
-#### Dag 3: Monte Carlo
+#### Dag 4: Monte Carlo
 
 2. <span class="label label-primary">Opdracht</span> Gebruik random waarden voor het berekenen van integralen met de  [Monte Carlo](/integreren/monte-carlo)-methode
-
-#### Dag 4: Riemann
-
-1. <span class="label label-primary">Opdracht</span> Gebruik computerkracht voor het bepalen van de [Riemannsom](/integreren/riemann).
 
 #### Inleveren en evaluatie
 

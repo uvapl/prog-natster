@@ -11,7 +11,7 @@ Maar waarom programmeren? Kijk eens naar het filmpje hiernaast. [Mirjam Leunisse
 
 #### Dag 1: aan de slag
 
-1. [Installeer](/python/installatie) Python
+1. [Installeer](/naslag/installatie) Python
 
 2. Oefen vervolgens goed met de [basiselementen](/python/basiselementen) van Python
 
@@ -29,7 +29,7 @@ Maar waarom programmeren? Kijk eens naar het filmpje hiernaast. [Mirjam Leunisse
 
 2. <span class="label label-primary">Opdracht</span> Ga op zoek naar de [langste reeks niet-priemgetallen](/getaltheorie/reeks)
 
-3. Begrijp hoe je ["mooie code"](/python/stijlgids) kunt schrijven --- en vanaf nu verwachten we ook dat je deze ideeën toepast in je eigen code!
+3. Begrijp hoe je ["mooie code"](/naslag/stijlgids) kunt schrijven --- en vanaf nu verwachten we ook dat je deze ideeën toepast in je eigen code!
 
 4. <span class="label label-primary">Opdracht</span> Vind (g)een tegenbewijs voor het vermoeden van [Goldbach](/getaltheorie/goldbach)
 
@@ -37,7 +37,7 @@ Maar waarom programmeren? Kijk eens naar het filmpje hiernaast. [Mirjam Leunisse
 
 1. Leer over het gebruiken van [modules](/python/modules) in Python
 
-2. Zoek op hoe je data kunt [plotten](/python/plot)
+2. Zoek op hoe je data kunt [plotten](/technieken/plot)
 
 3. <span class="label label-primary">Opdracht</span> Maak data inzichtelijk met [grafieken](/getaltheorie/grafieken)
 

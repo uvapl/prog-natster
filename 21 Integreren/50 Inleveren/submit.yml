@@ -2,8 +2,8 @@ name: module2
 files:
     vereist:
         - nulpunten.py
+        - riemann.py
+        - randomwiskunde.py
         - afstand.py
         - histogram.py
-        - riemann.py
         - montecarlo.py
-        - randomwiskunde.py
