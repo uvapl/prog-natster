@@ -16,6 +16,8 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 #### Dag 2: Riemann
 
+1. Leer over de [Riemannsom](/technieken/riemannsom)
+
 1. <span class="label label-primary">Opdracht</span> Gebruik computerkracht voor het bepalen van de [Riemannsom](/integreren/riemann).
 
 #### Dag 3: random
@@ -29,6 +31,8 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 3. <span class="label label-primary">Opdracht</span> Analyseer met een [histogram](/integreren/histogram) de uitvoer van de `random`-functie
 
 #### Dag 4: Monte Carlo
+
+1. Leer over de [Monte-Carlotechniek](/technieken/monte-carlo)
 
 2. <span class="label label-primary">Opdracht</span> Gebruik random waarden voor het berekenen van integralen met de  [Monte Carlo](/integreren/monte-carlo)-methode
 

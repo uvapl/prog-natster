@@ -6,7 +6,7 @@ In deze module gaan we bestuderen hoe we de beweging van vallende objecten kunne
 
 1. <span class="label label-primary">Opdracht</span> Bestudeer de beweging van een vallende [appel](/beweging/appel)
 
-2. Leer over het gebruiken van [meerdere grafieken](/python/meerdere-grafieken)
+2. Lees nog even terug over het gebruiken van [meerdere grafieken](/technieken/plot)
 
 3. <span class="label label-primary">Opdracht</span> Bestudeer de beweging van een [basejumper](/beweging/basejump)
 
