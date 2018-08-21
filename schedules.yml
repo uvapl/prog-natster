@@ -1,0 +1,58 @@
+Periode 1:
+    Getaltheorie:
+        'Getaltheorie': '/getaltheorie/inhoud'
+    Integreren:
+        'Integreren': '/integreren/inhoud'
+    Monopoly:
+        'Inhoud': '/monopoly/inhoud'
+        'Simulaties: Prooi-predator': '/prooipredator/inhoud'
+    "Big Data":
+        'Inhoud': '/big-data/inhoud'
+    Tentamen:
+        'Inleveren tentamen': '/tentamen/inleveren'
+    Hertentamen:
+        'Inleveren hertentamen': '/tentamen/inleveren-hertentamen'
+
+Periode 2:
+    Week 1:
+        'Getaltheorie': '/getaltheorie/inhoud'
+    Week 2:
+        'Getaltheorie': '/getaltheorie/inhoud'
+    Week 3:
+        'Integreren': '/integreren/inhoud'
+    Week 4:
+        'Integreren': '/integreren/inhoud'
+    Week 5:
+        'Simulaties: Beweging': '/beweging/inhoud'
+        'Simulaties: Prooi-predator': '/prooipredator/inhoud'
+    Week 6:
+        'Simulaties: Beweging': '/beweging/inhoud'
+        'Simulaties: Prooi-predator': '/prooipredator/inhoud'
+    Week 7:
+        'Big Data': '/bigdata/inhoud'
+    Tentamen:
+        'Inleveren tentamen': '/tentamen/inleveren'
+    Hertentamen:
+        'Inleveren hertentamen': '/tentamen/inleveren-hertentamen'
+
+Periode 6:
+    Week 1:
+        'Getaltheorie': '/getaltheorie/inhoud'
+    Week 2:
+        'Getaltheorie': '/getaltheorie/inhoud'
+    Week 3:
+        'Integreren': '/integreren/inhoud'
+    Week 4:
+        'Integreren': '/integreren/inhoud'
+    Week 5:
+        'Simulaties: Beweging': '/beweging/inhoud'
+        'Simulaties: Prooi-predator': '/prooipredator/inhoud'
+    Week 6:
+        'Simulaties: Beweging': '/beweging/inhoud'
+        'Simulaties: Prooi-predator': '/prooipredator/inhoud'
+    Week 7:
+        'Big Data': '/bigdata/inhoud'
+    Tentamen:
+        'Inleveren tentamen': '/tentamen/inleveren'
+    Hertentamen:
+        'Inleveren hertentamen': '/tentamen/inleveren-hertentamen'
