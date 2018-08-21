@@ -1,6 +1,6 @@
 # Studiewijzer
 
-*Inleiding programmeren voor Natuur- en Sterrenkunde*
+*Inleiding programmeren voor Natuur- en Sterrenkunde*  
 *Versie: September 2018*
 
 Welkom bij deze cursus inleiding programmeren voor Natuur- en Sterrenkunde! Dit blok gaan aan de slag met de programmeertaal Python om te leren hoe we wetenschappelijke problemen uit de wis-, natuur- en sterrenkunde met behulp van een computer op kunnen lossen.
