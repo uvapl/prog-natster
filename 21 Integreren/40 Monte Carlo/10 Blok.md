@@ -2,8 +2,6 @@
 
 Schrijf een functie die middels de Monte Carlo-methode de integraal berekent van een willekeurige wiskundige functie.
 
-![embed](https://player.vimeo.com/video/138378068)
-
 ## Specificatie
 
 - Maak een nieuw bestand genaamd `montecarlo.py`.
