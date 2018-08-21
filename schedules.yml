@@ -1,4 +1,6 @@
 Periode 1:
+    'Installatie':
+        'Python installeren': '/naslag/installatie'
     'Module 1: Getaltheorie':
         'Overzicht': '/getaltheorie/inhoud'
         'Inleveren': '/getaltheorie/inleveren'
