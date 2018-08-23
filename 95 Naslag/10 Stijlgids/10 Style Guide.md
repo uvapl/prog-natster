@@ -1,6 +1,6 @@
 # Stijlgids
 
-Programmacode is bij voorkeur goed leesbaar, niet alleen voor jezelf, maar ook voor een ander met wie je samenwerkt. Eerder hebben we al kort een aantal richtlijnen genoemd voor het gebruiken van commentaar bij stukjes code. Maar er zijn meer aspecten, die je hieronder kunt vinden.
+Programmacode is bij voorkeur goed leesbaar, niet alleen voor jezelf, maar ook voor een ander met wie je samenwerkt. Bij deze cursus is het belangrijk om niet alleen te kijken naar de functionaliteit van de code ("hoe maak ik dit") maar ook naar de kwaliteit ("hoe goed is dit leesbaar"). Eerder hebben we al kort een aantal richtlijnen genoemd voor het gebruiken van commentaar bij stukjes code. Maar er zijn meer aspecten, die je hieronder kunt vinden.
 
 ## Terminologie
 
@@ -10,7 +10,11 @@ Om te beginnen een paar dingen over terminologie:
 
 - We hebben het ook vaak over "code". Een stuk *code* is een fragment, vaak onderdeel van een programma. Het woord code is niet telbaar, dat wil zeggen dat je niet kunt spreken van "een code" of "twee codes". Je kunt wel zeggen "mijn code werkt niet", dan gaat het kennelijk over het stuk code dat je zojuist geschreven hebt.
 
-- Een programma bestaat uit "regels" code. 
+- Een programma bestaat uit "regels" code.
+
+## Taalkeuze
+
+Hieronder zul je zien dat de voorbeeldcode en het commentaar doorgaans in het Engels gesteld zijn. In de cursus werken we vaak in het Nederlands. Het is hoe dan ook belangrijk om de taalkeuze goed af te stemmen: variabelenamen en commentaar beide in het Nederlands óf beide in het Engels.
 
 ## Commentaar
 
