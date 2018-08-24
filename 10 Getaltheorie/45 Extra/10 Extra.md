@@ -20,11 +20,11 @@ Deze kans is: $$1/\zeta(n)$$.
 
 **Let op:** in het geval van drie (of meer) of meer getallen betekent `gemeenschappelijke deler` dat er een getal is dat een deler is van *alle* drie (of meer) getallen *tegelijk*.
 
-**Specifiek geval: tewee getallen (n=2)**:
+**Specifiek geval: twee getallen (n=2)**:
 
 De kans dat twee willekeurige getallen géén gemeenschappelijke deler hebben is: 
 
-$$1/\zeta(2) = 6/\pi^2 \approx 0,608$$.
+$$1/\zeta(2) \approx 0,608$$.
 
 In deze opdracht gaan we zelf van twee willekeurige getallen bekijken of ze een gemeenschappelijke deler hebben. Door dit een groot aantal keer doen kunnen we de kans bepalen dat twee van zulke getallen onderling-priem zullen zijn. En of de voorspelling uit de getaltheorie klopt.
 
