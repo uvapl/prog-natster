@@ -1,38 +1,39 @@
-# Kans dat twee willekeurige getallen relatief-priem zijn
+# Onderling priem
 
-Schrijf een programma `priemparen.py` dat de waarschijnlijkheid berekent dat twee willekeurig gekozen grote gehele getallen geen onderlinge deler hebben. Zo'n paar 
-noemen we onderling-priem.
+Schrijf een programma `priemparen.py` dat de waarschijnlijkheid berekent dat twee willekeurig gehele getallen geen gemeenschappelijke deler hebben. Zo'n paar wordt
+'onderling-priem' genoemd. De Engelse term is 'coprime'.
 
     #python priemparen.py
-    De kans dat twee random grote getallen geen onderlinge deler hebben is:
+    De kans dat twee random getallen geen onderlinge deler hebben is:
         - voorspelling (wiskunde): x.xx %
 	    - empirisch (Python): x.xx %
 
-In deze opgave bedoelen we met 'groot' gehele getallen van 10.000 tot 100.000.
+Hoewel we in deze opdrachten jullie zoveel mogelijk vrij willen laten (er is ook geen `checkpy`) zullen we voor deze eerste extra opdracht nog een aantal tussenstappen aangeven. Volg deze stappen omdat we die nodig hebben bij het nakijken om te kijken hoe ver je bent gekomen.
 
-### Definitie van onderling-priem en de voorspelling vanuit de wiskunde
+### Definitie van onderling-priem en voorspelling vanuit getaltheorie
 	    
-Informatie over de definitie en wat eigenschappen van deze paren zijn hier te vinden:
-[wikipedia co-primes](https://en.wikipedia.org/wiki/Coprime_integers).
-
-Je kunt lezen dat de kans dat $$n$$ willekeurige getallen géén gemeenschappelijke deler hebben wordt gegeven door:
+In de informatie over de definitie van deze [wikipedia co-primes](https://en.wikipedia.org/wiki/Coprime_integers) lezen we ook terug wat de kans is dat *n* willekeurige getallen géén gemeenschappelijke deler hebben. Deze wordt gegeven door:
 
      $$\frac{1}{\zeta(n)}$$. 
 
 , waarbij $$\zeta(s) $$de beroemde [Riemann zeta functie](https://en.wikipedia.org/wiki/Riemann_zeta_function) is.
 
-**Let op:** in het geval van drie (of meer) of meer getallen betekent dit de kans is dat er geen getal is dat een deler is van alle drie (of meer) getallen *tegelijk*.
+**Let op:** in het geval van drie (of meer) of meer getallen betekent `gemeenschappelijke deler` dat er een getal is dat *tegelijkertijd* een deler is van *alle* drie (of meer) getallen.
 
-Voor twee getallen is die voorspelde kans dus $$1./\zeta(2) \approx 61\%$$ en de bedoeling van deze opgave is dat we zowel de voorspelling narekenen als ook empirisch gaan bekijken of dit inderdaad de juiste frequentie voorspelt.
+*Twee getallen (n=2)*:
+De kans dat twee willekeurige getallen gene gemeenschappelijke deler hebben is: 
+$$1./\zeta(2) = \frac{6}{\pi^2} \approx 60,8\%$$.
 
+
+In deze opdracht gaan we zelf van twee willekeurige getallen bekijken of ze een gemeenschappelijke deler hebben. Door dit een groot aantal keer doen kunnen we de kans bepalen dat twee van zulke getallen onderling-priem zullen zijn.
 
 ### stap 1: lijst met priemfactoren
 
-Elk getal is op een unieke manier te schrijven als het produkt van priemgetallen:
+Elk getal is op een unieke manier te schrijven als het product van priemgetallen:
 
-     34 = 2 x 17
-     88 = 2 x 2 x 2 x 11
-     79220  =  [2, 2, 5, 17, 233]
+        34 = 2 x 17
+        88 = 2 x 2 x 2 x 11
+     79220 = 2 x 2 x 5 x 17 x 233
 
 Schrijf een functie `PriemFactoren(getal)` die voor een bepaald getal de lijst met priemfactoren vindt en op het scherm kan printen.
 
