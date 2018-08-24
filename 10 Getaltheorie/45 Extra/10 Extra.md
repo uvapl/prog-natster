@@ -14,7 +14,7 @@ Hoewel we in deze opdrachten jullie zoveel mogelijk vrij willen laten (er is ook
 	    
 In de informatie over de definitie van deze [wikipedia co-primes](https://en.wikipedia.org/wiki/Coprime_integers) lezen we ook terug wat de kans is dat *n* willekeurige getallen géén gemeenschappelijke deler hebben. 
 
-Deze kans is: $$\frac{1}{\zeta(n)}$$. 
+Deze kans is: $$1/\zeta(n)$$. 
 
 , waarbij $$\zeta(n)$$ de beroemde [Riemann zeta functie](https://en.wikipedia.org/wiki/Riemann_zeta_function) is.
 
@@ -24,8 +24,7 @@ Deze kans is: $$\frac{1}{\zeta(n)}$$.
 
 De kans dat twee willekeurige getallen géén gemeenschappelijke deler hebben is: 
 
-$$\frac{1}/{\zeta(2)} = \frac{6}{\pi^2} \approx 0,608$$.
-
+$$1/\zeta(2) = 6/\pi^2 \approx 0,608$$.
 
 In deze opdracht gaan we zelf van twee willekeurige getallen bekijken of ze een gemeenschappelijke deler hebben. Door dit een groot aantal keer doen kunnen we de kans bepalen dat twee van zulke getallen onderling-priem zullen zijn. En of de voorspelling uit de getaltheorie klopt.
 
