@@ -88,12 +88,14 @@ Schrijf een functie `Voorspelling(n)` die de kans uitrekent dat er geen gemeensc
 
 #### stap 5: Gooi alles bij elkaar
 
-Door nou de twee functies `Experiment()` en `Voorspelling()` aan te roepen valt alles samen. Print beide getallen op het scherm.
+Door nou de twee functies `Experiment()` en `Voorspelling()` aan te roepen valt alles samen. Op het scherm moet dan verschijnen:
+
+    De kans dat twee getallen geen gemeenschappelijke deler hebben
+    Voorspelling = 0.xxx
+    Empirisch = 0.xxx
 
 
-## Extra extra opgave
-
-Probeer bovenstaande ook eens voor triplets: n=3.
+**Extra extra opgave:** Probeer bovenstaande ook eens voor triplets (n=3).
 
 
 ## Checkpy
