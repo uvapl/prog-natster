@@ -12,7 +12,10 @@ Schrijf een programma `priemparen.py` dat de waarschijnlijkheid berekent dat twe
 Op de wikipedia pagina van de zogenaamde [co-primes](https://en.wikipedia.org/wiki/Coprime_integers) vind je de definitie e en 
 
 De kans dat $$n$$ getallen geen gemeenschappelijke deler hebben is gegeven door:
-$$\frac{1}{\zeta(n)}$$. 
+
+  - $$\frac{1}{\zeta(n)}$$. 
+
+Waarbij $$\zeta(s) de beroemde [Riemann zeta functie]($$ https://en.wikipedia.org/wiki/Riemann_zeta_function) is.
 
 *Let op:* in het geval van drie (of meer) of meer getallen betekent dit dat er geen getal is dat een deler is van alle drie (of meer) getallen **tegelijk**.
 
