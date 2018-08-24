@@ -91,7 +91,7 @@ Door nou de twee functies `Experiment()` en `Voorspelling()` aan te roepen valt 
 
     De kans dat twee getallen geen gemeenschappelijke deler hebben
     Voorspelling = 0.xxx
-    Empirisch = 0.xxx
+    Experiment = 0.xxx
 
 
 **Extra extra opgave:** Probeer bovenstaande ook eens voor triplets (n=3).
