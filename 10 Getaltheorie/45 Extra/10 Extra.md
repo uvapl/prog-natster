@@ -1,11 +1,20 @@
 # Co-primes
 
-Implementeer een programma dat op verzoek het $$n$$-de priemgetal genereert.
+Schrijf een programma `priemparen.py` dat de waarschijnlijkheid berekent dat twee willekeurig gekozen (grote) getallen geen onderlinge deler hebben. Zo'n paar getallen noemen we onderling priem.
 
-	Naar welk priemgetal bent u op zoek? 1000
-	7919
+    #python priemparen.py
+    De kans dat twee random grote getallen geen onderlinge deler hebben is:
+        - voorspelling (wiskunde): x.xx %
+	    - empirisch (Python): x.xx %
 
-## Voorspelling vanuit de wiskunde
+## Definitie van onderling-priem en de voorspelling vanuit de wiskunde
+	    
+Op de wikipedia pagina van de zogenaamde [co-primes](https://en.wikipedia.org/wiki/Coprime_integers) vind je de definitie e en 
+
+De kans dat $$n$$ getallen geen gemeenschappelijke deler hebben is gegeven door:
+$$\frac{1}{\zeta(n)}$$. 
+
+*Let op:* in het geval van drie (of meer) of meer getallen betekent dit dat er geen getal is dat een deler is van alle drie (of meer) getallen **tegelijk**.
 
 Er is een voorspelling vanuit de wiskunde. Riemann zeta.
 

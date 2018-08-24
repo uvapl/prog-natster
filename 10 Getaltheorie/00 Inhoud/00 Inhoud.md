@@ -43,7 +43,7 @@ Maar waarom programmeren? Kijk eens naar het filmpje hiernaast. [Mirjam Leunisse
 
 #### Extra opdracht: onderling-priem paren (coprimes)
 
-1. Leer over het gebruiken van [modules](/getaltheorie/extra) in Python
+1. Test voorspelling vanuit de wiskunde over frequentie [onderling-priem paren](/getaltheorie/extra)
 
 
 #### Inleveren en evaluatie
