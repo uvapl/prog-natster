@@ -68,36 +68,30 @@ De bedoeling is dat je tijdens alle practicumuren aanwezig bent. Wij leren je na
 
 Bij afwezigheid (om welke reden dan ook) wordt het cijfer voor de betreffende opdracht een punt verlaagd, tot maximaal 4 punten aftrek. Uitzondering is natuurlijk als je de opdracht geheel af hebt en hebt laten zien aan de assistent dat het werkt: dan mag je gewoon wegblijven.
 
-## Deadline
+## Deadline inleveren opdrachten
 
-De deadline voor het inleveren van alle code is aan het eind van de dag van het laatste 
-practicum die jouw groep heeft voor die module. Op dat moment wordt het ingeleverde werk 
-verdeeld onder de nakijkers en gaan zij aan de slag. Er is geen mogelijkheid om het later 
-in te leveren! Lever dus sowieso in wat je hebt! Het is prima om, voor je instuurt, de 
-assistent nog even te vragen naar je opgave te kijken, zodat je nog verbeteringen kunt aanbrengen.
+De deadline voor het inleveren van alle code is voor elke module op de maandagochtend in de week nadat de module afgesloten is. Op dat moment wordt het ingeleverde werk verdeeld onder de nakijkers en gaan zij aan de slag. Er is geen mogelijkheid om het later in te leveren, dus lever sowieso in wat je hebt! Om te zorgen dat je de assistent alle vragen 
+kan stellen en hem/haar kan vragen je code te bekijken is het natuurlijk verstandiger om te zorgen dat je alles af hebt aan het eind van het laatste practicum.
 
-| deadline | groep DEFGHI       |
-| ---------| ------------------ |  
-| module 1 | 17 september 10:59 | 
-| module 2 |  1 oktober   10:59 |  
-| module 3 | 15 oktober   10:59 |   
-| module 4 | 22 oktober   10:59 |  
+| deadline |       groep DEFGHI         |
+| ---------| -------------------------- |  
+| module 1 | maandag 17 september 10:59 | 
+| module 2 | maandag 1 oktober    10:59 |  
+| module 3 | maandag 15 oktober   10:59 |   
+| module 4 | maandag 22 oktober   10:59 |  
 
-| deadline | groep DEFGHI      |
-| ---------| ------------------|  
-| module 1 | 12 november 10:59 | 
-| module 2 | 26 november 10:59 |  
-| module 3 | 10 december 10:59 |   
-| module 4 | 17 december 10:59 |  
+| deadline |        groep ABC           |
+| ---------| ---------------------------|  
+| module 1 | maandag 12 november 10:59  | 
+| module 2 | maandag 26 november 10:59  |  
+| module 3 | maandag 10 december 10:59  |   
+| module 4 | maandag 17 december 10:59  |  
 
 
 ## Tentamen
 
-Hoewel het niet toegestaan is zou het mogelijk kunnen zijn om ongemerkt mee te liften met 
-een medestudent tijdens het maken van de practica (als je steevast overlegt over de manier 
-van code schrijven). Om zeker te zijn dat je zelfstandig de leerdoelen van het vak hebt gehaald 
-sluiten we het vakl af met een (individueel) tentamen. Je moet het tentamen voldoende 
-maken, maar het telt niet mee voor het eindcijfer.
+Hoewel het niet toegestaan zou het mogelijk kunnen zijn om ongemerkt mee te liften met 
+een medestudent tijdens het maken van de practica. Doe dit alsjeblieft niet. De regels wat betreft plagiaat zijn erg streng en we voeren controles uit, dus kom gewoon langs als je moeite hebt met de stof en wat extra hulp nodig hebt, dan helpen we je. Om zeker te zijn dat je zelfstandig de leerdoelen van het vak hebt gehaald sluiten we het vak af met een (individueel) tentamen. Het tentamen telt voor 50% mee voor je eindcijfer en om het vak te halen is er een extra eis dat het tentamen zelf ook met een voldoende afgesloten moet worden.
 
 ## Eindcijfer
 
@@ -117,15 +111,17 @@ Het eindcijfer wordt dan als volgt berekend:
 | module 4  | scope x stijl |   12,5% |  
 | tentamen  | punten        |     50% |  
 
+Extra eis: voor het tentamen moet een voldoende gehaald zijn. Er is dus geen compensatie van een onvoldoende tentamencijfer door de resultaten van de ingeleverde opdrachten voor de modules. 
+
 ## Samenwerken, fraude en plagiaat
 
 Samenwerken tijdens dit vak is *niet* toegestaan. Dit vak heeft als doel jouw
 persoonlijke programmeervaardigheid te ontwikkelen. Bij vervolgvakken is het
 vaak wél mogelijk om samen te programmeren.
 
-Tijdens de practica is het natuurlijk prima als je de opgave bespreekt met de
-student die naast je zit. Het is echter niet toegestaan om een regel
-code van je medestudenten of van internet over te nemen.
+Tijdens de practica is het natuurlijk prima als je de opgave (en strategie) 
+bespreekt met de student die naast je zit. Het is echter niet toegestaan om 
+een regel code van je medestudenten of van internet over te nemen.
 
 Een belangrijk verschil dus: je kunt discussiëren over de manier waarop je een
 probleem aanpakt, maar je kopieert niet de code van anderen. Om het jezelf niet
