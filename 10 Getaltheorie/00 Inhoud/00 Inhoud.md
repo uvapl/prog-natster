@@ -41,6 +41,11 @@ Maar waarom programmeren? Kijk eens naar het filmpje hiernaast. [Mirjam Leunisse
 
 3. <span class="label label-primary">Opdracht</span> Maak data inzichtelijk met [grafieken](/getaltheorie/grafieken)
 
+#### Extra opdracht: onderling-priem paren (coprimes)
+
+1. Leer over het gebruiken van [modules](/getaltheorie/extra) in Python
+
+
 #### Inleveren en evaluatie
 
 1. Ga naar [deze pagina](/getaltheorie/inleveren) om je programma's in te leveren.
