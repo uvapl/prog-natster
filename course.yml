@@ -1,3 +1,7 @@
+name: CS50x UvA
+short_name: CS50x
+language: nl
+
 course:
     title: Programmeren NS
     short: ProgNS
