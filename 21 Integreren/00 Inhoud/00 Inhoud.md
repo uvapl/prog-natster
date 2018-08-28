@@ -34,7 +34,10 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 1. Leer over de [Monte-Carlotechniek](/technieken/monte-carlo)
 
-2. <span class="label label-primary">Opdracht</span> Gebruik random waarden voor het berekenen van integralen met de  [Monte Carlo](/integreren/monte-carlo)-methode
+2. <span class="label label-primary">Opdracht:</span> Gebruik random waarden voor het berekenen van integralen met de  [Monte Carlo](/integreren/monte-carlo)-methode
+
+3. <span class="label label-primary">Opdracht:</span> Bereken de oppervlakte van een vreemde vorm: [het Twitter-ei](/integreren/ei)
+
 
 #### Inleveren en evaluatie
 
