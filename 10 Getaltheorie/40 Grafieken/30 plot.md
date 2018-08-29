@@ -38,7 +38,7 @@ Schrijf een programma dat de volgende grafiek laat zien:
 
 * Vergeet trouwens niet dat `^` in Python zelf géén machtsverheffen is. Je moet voor het berekenen van een macht de operator `**` gebruiken.
 
-* Krijg je het plotten niet werkend? Stuur ons een mail!
+* Krijg je het plotten niet werkend? Vraag om hulp!
 
 ## Testen
 

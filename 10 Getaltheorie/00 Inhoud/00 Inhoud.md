@@ -43,7 +43,7 @@ Maar waarom programmeren? Kijk eens naar het filmpje hiernaast. [Mirjam Leunisse
 
 ##### Extra opdracht: onderling-priem paren (coprimes)
 
-De extra opdracht is maximaal 1 punt waard voor het eindcijfer van deze module.
+Van bovenstaande opdrachten verwachten we dat je ze allemaal, helemaal doet. Er is ook een extra opdracht, waarmee je het laatste punt voor je cijfer van deze module kunt verdienen. Deze is bedoeld voor iedereen die goed uit alle bovenstaande opdrachten is gekomen en klaar is voor meer!
 
 1. Test voorspelling vanuit de wiskunde over frequentie [onderling-priem paren](/getaltheorie/extra)
 
