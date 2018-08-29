@@ -5,8 +5,8 @@ Schrijf een programma `priemparen.py` dat de waarschijnlijkheid berekent dat twe
 
     #python priemparen.py
     De kans dat twee random getallen geen onderlinge deler hebben is:
-        - voorspelling (wiskunde): x.xx %
-	    - empirisch (Python): x.xx %
+        - voorspelling (wiskunde): 0.xxx
+	    - empirisch (Python): 0.xxx 
 
 Hoewel we in deze opdrachten jullie zoveel mogelijk vrij willen laten (er is ook geen `checkpy`) zullen we voor deze eerste extra opdracht nog een aantal tussenstappen aangeven. 
 
@@ -87,12 +87,11 @@ Schrijf een functie `Voorspelling(n)` die de kans uitrekent dat er geen gemeensc
 
 #### stap 5: Gooi alles bij elkaar
 
-Door nou de twee functies `Experiment()` en `Voorspelling()` aan te roepen valt alles samen. Op het scherm moet dan verschijnen:
+Door nou de twee functies `Experiment()` en `Voorspelling()` aan te roepen valt alles samen. Op het scherm moet dan verschijnen (met drie decimalen nauwkeurig):
 
-    De kans dat twee getallen geen gemeenschappelijke deler hebben
-    Voorspelling = 0.xxx
-    Experiment = 0.xxx
-
+    De kans dat twee random getallen geen onderlinge deler hebben is:
+        - voorspelling (wiskunde): 0.xxx 
+        - empirisch (Python): 0.xxx
 
 ## Checkpy
 
