@@ -10,23 +10,23 @@ In deze module gaan we het spel Monopoly simuleren. Het is ondoenlijk om dit ana
 
 1. Leer hoe je [animaties](/technieken/animaties) maakt in Python
 
-2. <span class="label label-primary">Opdracht</span> De [spriraliserende stip](/beweging/stip)
+2. <span class="badge badge-primary">Opdracht</span> De [spriraliserende stip](/beweging/stip)
 
-3. <span class="label label-primary">Opdracht</span> Laat zien hoe een [dronken student](/beweging/student) beweegt
+3. <span class="badge badge-primary">Opdracht</span> Laat zien hoe een [dronken student](/beweging/student) beweegt
 
 #### Dag 1 en Dag 2: vrij rondlopen op het bord
 
 1. Lees over [Monopoly](/monopoly/inleiding)
 
-1. <span class="label label-primary">Opdracht</span> Monopoly met 1 speler in [Donald Trump-mode](/monopoly/vrij-rondlopen)
+1. <span class="badge badge-primary">Opdracht</span> Monopoly met 1 speler in [Donald Trump-mode](/monopoly/vrij-rondlopen)
 
 #### Dag 3: Startgeld
 
-1. <span class="label label-primary">Opdracht</span> Effect van een eindige hoeveelheid [startgeld](/monopoly/startgeld) in het spel
+1. <span class="badge badge-primary">Opdracht</span> Effect van een eindige hoeveelheid [startgeld](/monopoly/startgeld) in het spel
 
 #### Dag 4: Tweede speler toevoegen en zoeken naar evenwicht
 
-1. <span class="label label-primary">Opdracht</span> Voeg een tweede speler toe en herstel het [evenwicht](/monopoly/twee-spelers)
+1. <span class="badge badge-primary">Opdracht</span> Voeg een tweede speler toe en herstel het [evenwicht](/monopoly/twee-spelers)
 
 #### Inleveren en evaluatie
 
