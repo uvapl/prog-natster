@@ -2,6 +2,8 @@
 
 In de voorgaande programma's schreven we scriptjes die regel voor regel van boven naar beneden werden uitgevoerd. Een soort stapsgewijze handleiding. Programma's worden interessanter als we *uitzonderingen* willen beschrijven.
 
+![embed](https://player.vimeo.com/video/287244672)
+
 Tot nu toe konden we bijvoorbeeld geen programma schrijven dat slechts geld van je bankrekening afschrijft als er ook iets opstaat (stufi-dag). Hiervoor hebben we een **conditional** nodig. In Python kun je gebruik maken van het `if`-statement. Dit ziet er in een voorbeeld als volgt uit:
 
     1  balance = 100

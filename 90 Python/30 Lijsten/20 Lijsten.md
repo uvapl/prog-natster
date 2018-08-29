@@ -1,10 +1,26 @@
 # Lijsten
 
-Lijsten in Python zijn handig om data te groeperen en vervolgens als geheel te verwerken. Zo kun je berekeningen niet alleen maar op bijvoorbeeld losse getallen toepassen (is dit specifieke getal een priemgetal?) maar ook op hele verzamelingen.
+Lijsten in Python zijn handig om data te groeperen en vervolgens als geheel te verwerken. Zo kun je berekeningen niet alleen maar op bijvoorbeeld losse getallen toepassen (is dit specifieke getal een priemgetal?) maar ook op hele verzamelingen. In de video uitleg over simpele toepassingen.
 
-Een lijstje met namen van docenten kun je zo bewaren:
+![embed](https://player.vimeo.com/video/287247201)
+
+## Naslag
+
+Het maken van een nieuwe lijst:
 
     docenten = ["Martijn", "Ivo", "Jelle", "Maarten", "Huub", "Marianne"]
+
+Het opvragen van één element:
+
+    docenten[2] # geeft "Jelle" en niet "Ivo"!
+
+Het aanpassen van een element:
+
+    docenten[3] = "Vera"
+
+Een element toevoegen aan het einde van een lijst:
+
+    docenten.append("Tom")
 
 Elk element in deze lijst is een *string*, maar zo'n lijst kan ook getallen of zelfs andere lijsten bevatten. Ook door elkaar heen. Elk element heeft een *positie*; daarmee kun je een element uit een lijst opvragen:
 
