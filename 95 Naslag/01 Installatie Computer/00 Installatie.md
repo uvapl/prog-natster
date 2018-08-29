@@ -18,7 +18,7 @@ Dit pakket kunt je downloaden op de [website](https://www.anaconda.com/download/
 
 Zodra de download klaar is, moet je het gedownloade bestand uitvoeren (dubbelklik?). Volg dan de installatieinstructies en kies waar nodig voor "Install for me only"; als het goed is hoef je verder niks te veranderen.
 
-Let op: kruis dit vinkje aan als je de Windows-versie installeert! Als je dit niet hebt gedaan moet je het verwijderen en opnieuw installeren!
+Let op: kies op Windows altijd de "advanced" installatie en kruis onderstaande vinkje aan! Als je dit niet hebt gedaan moet je het verwijderen en opnieuw installeren!
 
 ![Selecteer het vinkje Add to PATH tijdens de installatie van Anaconda](anaconda_vinkje.gif)
 
