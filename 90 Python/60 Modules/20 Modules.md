@@ -12,7 +12,7 @@ Het gaat om de laatste regel van die foutmelding. Deze is in zo normaal mogelijk
 
 Om gebruik te maken van de `sin`-functie moet je zorgen dat de `math`-bibliotheek en alle functies daarin beschikbaar komen in jouw programma:
 
-    import math         # importeer de wiskunde bibliotheek
+    import math         # importeer de wiskunde-bibliotheek
 
     x = 0.5
     print(math.sin(x))
