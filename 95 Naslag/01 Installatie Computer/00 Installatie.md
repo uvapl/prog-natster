@@ -18,7 +18,9 @@ Dit pakket kunt je downloaden op de [website](https://www.anaconda.com/download/
 
 Zodra de download klaar is, moet je het gedownloade bestand uitvoeren (dubbelklik?). Volg dan de installatieinstructies en kies waar nodig voor "Install for me only"; als het goed is hoef je verder niks te veranderen.
 
-**Bug:** in de Windows-versie moet je het vinkje "Add Anaconda to my PATH variable" aanzetten! Dit wordt erg afgeraden door de installer, maar we willen het toch gebruiken! Anders werkt "python" niet in de Visual Studio-omgeving.
+Let op: kruis dit vinkje aan als je de Windows-versie installeert! Als je dit niet hebt gedaan moet je het verwijderen en opnieuw installeren!
+
+![Selecteer het vinkje Add to PATH tijdens de installatie van Anaconda](anaconda_vinkje.gif)
 
 **Bug:** in de Mac-versie is "Install for me only" niet correct geselecteerd, en er staat een foutmelding onder dit scherm waardoor je niet verder kan. Klik met de muis op "Install for me only" om verder te gaan met de installatie.
 
