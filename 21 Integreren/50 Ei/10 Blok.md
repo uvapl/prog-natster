@@ -11,8 +11,11 @@ Teken de 'slechte' punten in het blauw op het scherm zoals in onderstaande voorb
 Gooi in totaal 1 miljoen punten en bereken de juiste oppervlakte. Bewaar na elke 1000 punten dat je gooit de schatting van de oppervlakte op dat moment. Als het goed is convergeert je antwoord en zie je dat je een betere schatting krijgt naarmate je meer punten gooit.
 
 Je programma moet drie dingen doen:
-     - plot de grafiek van de goede en slechte punten die gegooid zijn (zoals de meest rechter plot hierboven).
-       Geef ook in de grafiek aan wat de oppervlakte is
-     - print het antwoord van de oppervlakte ook op het scherm, op 2 decimalen nauwkeurig
+
+   - print het antwoord van de oppervlakte ook op het scherm, op 2 decimalen nauwkeurig
        De oppervlakte van het Twitter ei is x.xx 
+
+   - plot de distributie van de goede en slechte punten (zoals de rechter plot hierboven). Geef ook in de grafiek aan wat de oppervlakte is. Ook hier op 2 decimalen nauwkeurig.
+
+
 
