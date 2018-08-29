@@ -94,9 +94,6 @@ Door nou de twee functies `Experiment()` en `Voorspelling()` aan te roepen valt 
     Experiment = 0.xxx
 
 
-**Extra extra opgave:** Probeer bovenstaande ook eens voor triplets (n=3).
-
-
 ## Checkpy
 
 Er is voor deze opdracht geen checkpy oplossing aanwezig. You're on your own.
