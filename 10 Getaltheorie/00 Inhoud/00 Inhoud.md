@@ -15,23 +15,23 @@ Maar waarom programmeren? Kijk eens naar het filmpje hiernaast. [Mirjam Leunisse
 
 2. Oefen vervolgens goed met de [basiselementen](/python/basiselementen) van Python
 
-3. <span class="label label-primary">Opdracht</span> Gebruik de computer als  [rekenwonder](/getaltheorie/rekenwonder)
+3. <span class="badge badge-primary">Opdracht</span> Gebruik de computer als  [rekenwonder](/getaltheorie/rekenwonder)
 
 #### Dag 2: priemgetallen
 
 1. Leer meer over [algoritmen](/python/algoritmen)
 
-3. <span class="label label-primary">Opdracht</span> Ga op zoek naar [priemgetallen](/getaltheorie/priemgetallen)
+3. <span class="badge badge-primary">Opdracht</span> Ga op zoek naar [priemgetallen](/getaltheorie/priemgetallen)
 
 #### Dag 3: resultaten uit de getaltheorie
 
 1. Sla je data op in een [lijst](/python/lijsten)
 
-2. <span class="label label-primary">Opdracht</span> Ga op zoek naar de [langste reeks niet-priemgetallen](/getaltheorie/reeks)
+2. <span class="badge badge-primary">Opdracht</span> Ga op zoek naar de [langste reeks niet-priemgetallen](/getaltheorie/reeks)
 
 3. Begrijp hoe je ["mooie code"](/naslag/stijlgids) kunt schrijven --- en vanaf nu verwachten we ook dat je deze ideeën toepast in je eigen code!
 
-4. <span class="label label-primary">Opdracht</span> Vind (g)een tegenbewijs voor het vermoeden van [Goldbach](/getaltheorie/goldbach)
+4. <span class="badge badge-primary">Opdracht</span> Vind (g)een tegenbewijs voor het vermoeden van [Goldbach](/getaltheorie/goldbach)
 
 #### Dag 4: grafieken
 
@@ -39,7 +39,7 @@ Maar waarom programmeren? Kijk eens naar het filmpje hiernaast. [Mirjam Leunisse
 
 2. Zoek op hoe je data kunt [plotten](/technieken/plot)
 
-3. <span class="label label-primary">Opdracht</span> Maak data inzichtelijk met [grafieken](/getaltheorie/grafieken)
+3. <span class="badge badge-primary">Opdracht</span> Maak data inzichtelijk met [grafieken](/getaltheorie/grafieken)
 
 #### Extra opdracht: onderling-priem paren (coprimes)
 
