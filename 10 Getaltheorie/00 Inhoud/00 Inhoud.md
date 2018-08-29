@@ -1,6 +1,6 @@
 # Module 1: getaltheorie
 
-<div style="width: 40%; float:right; margin-left: 2em;">
+<div class="pull-right" style="width: 40%; float:right; margin-left: 2em;">
 ![embed](https://player.vimeo.com/video/235229540)
 </div>
 
