@@ -49,12 +49,12 @@ in de beoordeling zijn!
 
 De scores voor stijl worden als volgt bepaald:
 
-- 0: slecht, niet geprobeerd
-- 1: matig, her en der duidelijk geprobeerd maar niet systematisch
-- 2: redelijk, behoorlijk wat ruimte voor verbetering
-- 3: goed, aantal duidelijke punten voor verbetering
-- 4: zeer goed, weinig ruimte voor verbetering, paar kleine problemen
 - 5: excellent, perfect, geen problemen of echt een kleine omissie
+- 4: zeer goed, weinig ruimte voor verbetering, paar kleine problemen
+- 3: goed, aantal duidelijke punten voor verbetering
+- 2: redelijk, behoorlijk wat ruimte voor verbetering
+- 1: matig, her en der duidelijk geprobeerd maar niet systematisch
+- 0: slecht, niet geprobeerd
 
 ## Dagelijks ritme
 
@@ -64,7 +64,7 @@ De opdrachten zijn ingedeeld in blokken van een dagdeel. De bedoeling is dan ook
 
 De bedoeling is dat je tijdens alle practicumuren aanwezig bent. Wij leren je namelijk ter plaatse nog dingen die je niet in je eentje kunt leren zoals het opsporen en verbeteren van fouten in je programma's.
 
-Bij afwezigheid (om welke reden dan ook) wordt het cijfer voor de betreffende opdracht een punt verlaagd, tot maximaal 4 punten aftrek. Uitzondering is natuurlijk als je de opdracht geheel af hebt en hebt laten zien aan de assistent dat het werkt: dan mag je gewoon wegblijven.
+Bij afwezigheid (om welke reden dan ook) wordt het cijfer voor de betreffende opdracht een punt per dagdeel verlaagd, tot maximaal 4 punten aftrek. Uitzondering is natuurlijk als je de opdracht geheel af hebt en hebt laten zien aan de assistent dat het werkt: dan mag je gewoon wegblijven. Mocht je om bijzondere redenen afwezig moeten zijn, stuur dan vooral een mail naar de docenten.
 
 ## Deadline inleveren opdrachten
 
@@ -95,7 +95,6 @@ een medestudent tijdens het maken van de practica. Doe dit alsjeblieft niet. De 
 
 Je krijgt een eindcijfer voor dit vak als je:
 
-* voldoende uren aanwezig bent geweest tijdens de practica;
 * elke module op tijd en naar verwachting hebt ingeleverd;
 * een voldoende hebt gehaald voor het tentamen.
 
@@ -103,13 +102,11 @@ Het eindcijfer wordt dan als volgt berekend:
 
 | onderdeel | berekening    | gewicht |  
 | --------- | ------------- | ------: |  
-| module 1  | scope x stijl |   12,5% |  
-| module 2  | scope x stijl |   12,5% |  
-| module 3  | scope x stijl |   12,5% |  
-| module 4  | scope x stijl |   12,5% |  
+| module 1  | scope & stijl |   12,5% |  
+| module 2  | scope & stijl |   12,5% |  
+| module 3  | scope & stijl |   12,5% |  
+| module 4  | scope & stijl |   12,5% |  
 | tentamen  | punten        |     50% |  
-
-Extra eis: voor het tentamen moet een voldoende gehaald zijn. Er is dus geen compensatie van een onvoldoende tentamencijfer door de resultaten van de ingeleverde opdrachten voor de modules. 
 
 ## Samenwerken, fraude en plagiaat
 
