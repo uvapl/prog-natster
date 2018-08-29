@@ -40,7 +40,7 @@ Nu je zowel Anaconda als Visual Studio Code hebt geïnstalleerd, kunnen we gaan 
 
 In Visual Studio Code kun je de terminal openen met de toetscombinatie **ctrl**+**\`**. Dat is dus tegelijkertijd de **ctrl** en **\`** (deze toets vind je meestal naast de 1 of naast de Z op je toetsenbord).
 
-### `checkpy`
+### Installeer `checkpy`
 
 Om jou te helpen controleren of wat je programmeert ook daadwerkelijk in overeenstemming is met de opdracht, hebben wij een programma geschreven genaamd **checkpy**. Dit programma kun je installeren door in de terminal het volgende commando uit te voeren:
 
@@ -48,9 +48,9 @@ Om jou te helpen controleren of wat je programmeert ook daadwerkelijk in overeen
 
 Dit kan even duren, en je zult wat tekst over je scherm zien gaan. Daarna is checkpy geïnstalleerd. Behalve checkpy hebben we ook tests nodig om de opdrachten die jij zometeen gaat maken te testen. Deze tests kun je downloaden door het volgende commando in de terminal te voeren:
 
-	checkpy -d jelleas/progbeta2017tests
+	checkpy -d uva/progns
 
-Om te testen of alles werkt, en of `hello.py` klopt, voer je het volgende commando in de terminal uit:
+Om te testen of alles werkt, kun je `hello.py` testen. Als je die nog niet gemaakt hebt, doe dat dan volgens het introductiefilmpje hierboven. Voer dan het volgende commando in de terminal uit:
 
 	checkpy hello
 
