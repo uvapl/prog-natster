@@ -1,7 +1,7 @@
 # Studiewijzer
 
 *Inleiding programmeren voor Natuur- en Sterrenkunde*  
-*Versie: September 2018*
+*September 2018*
 
 Welkom bij deze cursus inleiding programmeren voor Natuur- en Sterrenkunde! Dit blok gaan aan de slag met de programmeertaal Python om te leren hoe we wetenschappelijke problemen uit de wis-, natuur- en sterrenkunde met behulp van een computer op kunnen lossen.
 
@@ -19,8 +19,6 @@ Mail bij voorkeur naar <progns@mprog.nl> als je praktische vragen hebt of proble
 ## Assistenten
 
 Tijdens de practica van dit vak staan de assistenten voor je klaar. Je kunt bij ze terecht met vragen over het programmeren zelf, maar ook over vragen over de feedback op de opdrachten die je hebt ingeleverd of tips over het vak.
-
-![embed](https://player.vimeo.com/video/137376570)
 
 ## Leerdoelen
 
