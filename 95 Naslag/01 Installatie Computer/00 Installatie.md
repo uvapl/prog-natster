@@ -8,7 +8,7 @@ Om te kunnen programmeren op je eigen computer heb je twee verschillende program
 
 2. **Visual Studio Code**, een *editor* om code in te schrijven. Dit is in feite een soort tekstverwerker, maar dan speciaal bedoeld voor programmacode. Deze geeft bijvoorbeeld verschillende woorden verschillende kleurtjes, zodat je een goed overzicht houdt van je programmacode.
 
-Zit je vast? Stuur gerust een [mailtje](mailto:inleiding@mprog.nl) en we helpen je verder.
+Zit je vast? Vraag je assistent!
 
 ### Stap 1: Anaconda
 
@@ -21,8 +21,6 @@ Zodra de download klaar is, moet je het gedownloade bestand uitvoeren (dubbelkli
 Let op: kruis dit vinkje aan als je de Windows-versie installeert! Als je dit niet hebt gedaan moet je het verwijderen en opnieuw installeren!
 
 ![Selecteer het vinkje Add to PATH tijdens de installatie van Anaconda](anaconda_vinkje.gif)
-
-**Bug:** in de Mac-versie is "Install for me only" niet correct geselecteerd, en er staat een foutmelding onder dit scherm waardoor je niet verder kan. Klik met de muis op "Install for me only" om verder te gaan met de installatie.
 
 De installatie kan een tijdje duren.
 
