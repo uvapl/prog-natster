@@ -2,8 +2,6 @@
 
 Jullie kennen vast wel die prachtige en veelkleurige plaatjes waarin patronen zich tot een oneindige diepte patronen herhalen. Deze zeer complexe patronen, **fractals** genaamd, komen gek genoeg voort uit een kleine set simpele (wiskundige) regels, iets dat we ook in de natuur regelmatig zien. In deze opgave gaan we iets meer in op de wiskunde achter de fractals en gaan we proberen daarmee zelf de meest beroemde fractal te reconstrueren en op het scherm te tekenen die hieronder ook te zien is: de [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set)
 
-Mandelbrot set.
-
 <p align="center">
 ![](mandelbrot.png){: style="width:50%"}
 </p>
@@ -16,11 +14,11 @@ Om iets te begrijpen van de wiskunde achter de fractals moeten we eerst een nieu
 
    - we definiëren $$ i = \sqrt{-1}$$
    
-Een complex getal (c) bestaat uit twee componenten: een reëel deel ($$\alpha$$) en een extra imaginair deel ($$\beta * i$$).
+Een complex getal (c) bestaat uit twee componenten: een reëel deel ($$\alpha$$) en een extra imaginair deel ($$\beta i$$):
 
    - c = $$\alpha + \beta i$$
 
-Een gebruikelijke manier om deze getallen voor te stellen is in een 2-dimensionaal vlak zoals hieronder weergegeven is. Twee voorbeelden van complexe getallen zijn bijvoorbeeld c = -5 + 3i en c=-2-4i. Deze zijn in blauw weergegeven. Er zijn ook getallen in rood weergegeven; daar komen we later op terug in de uitleg over fractals.
+Een gebruikelijke manier om deze getallen voor te stellen is in het zogenaamde **complexe vlak**, een 2-dimensionaal vlak zoals hieronder weergegeven is met een reële-as en een imaginaire-as die het complexe deel van het getal weergeeft. Twee voorbeelden van complexe getallen zijn bijvoorbeeld $$c = -5 + 3i$$ en $$c=-2-4i$$. Deze zijn beide in blauw weergegeven. Er zijn ook getallen in rood weergegeven; daar komen we verderop nog op terug.
 
 <p align="center">
 ![](ComplexeGetallen.png){: style="width:70%"}
