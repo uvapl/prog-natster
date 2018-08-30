@@ -81,7 +81,7 @@ De Mandelbrot set is gedefiniëerd door de functie die we al eerder gezien hebbe
 
 ### Opdracht:
 
-Bepaal voor elk punt $$z$$ in het complexe vlak of het convergeert of divergeert onder de polynoom voor Mandelbrot:
+Bepaal voor elk punt $$z_0$$ in het complexe vlak of de reeks convergeert of divergeert onder de polynoom voor Mandelbrot:
 
    $$f(z) = z^2 + z_0$$. 
     
