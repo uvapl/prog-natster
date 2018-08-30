@@ -1,6 +1,8 @@
-# Fractals: de Mandelbrot set
+# Fractals - Mandelbrot set
 
-Jullie kennen vast wel die prachtige en veelkleurige plaatjes waarin patronen zich tot een oneindige diepte patronen herhalen. Deze zeer complexe patronen komen gek genoeg voort uit een kleine set simpele (wiskundige) regels, iets dat we ook in de natuur regelmatig zien. In deze opgave gaan we iets meer in op de wiskunde achter de fractals en gaan we proberen daarmee zelf de meest beroemde fractal te reconstrueren en op het scherm te tekenen die hieronder ook te zien is: de Mandelbrot set.
+Jullie kennen vast wel die prachtige en veelkleurige plaatjes waarin patronen zich tot een oneindige diepte patronen herhalen. Deze zeer complexe patronen, **fractals** genaamd, komen gek genoeg voort uit een kleine set simpele (wiskundige) regels, iets dat we ook in de natuur regelmatig zien. In deze opgave gaan we iets meer in op de wiskunde achter de fractals en gaan we proberen daarmee zelf de meest beroemde fractal te reconstrueren en op het scherm te tekenen die hieronder ook te zien is: de [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set)
+
+Mandelbrot set.
 
 <p align="center">
 ![](mandelbrot.png){: style="width:50%"}
@@ -10,13 +12,13 @@ De opdracht van deze extra opdracht is dan ook: schrijf een programma `fractal.p
 
 ### Stukje wiskunde: complexe getallen
 
-Om iets te begrijpen van de wiskunde achter de fractals moeten we eerst een nieuw wiskundig concept introduceren: **complexe getallen**. Complexe getallen hebben een speciale plek in wiskunde en de natuurkunde en jullie zullen de geheimen ervan later in verschillende colleges tegenkomen. Hier het absolute minimum.
+Om iets te begrijpen van de wiskunde achter de fractals moeten we eerst een nieuw wiskundig concept introduceren: **complexe getallen**. Deze getallen hebben een speciale plek in wiskunde en ze komen overal in de natuurkunde terug. Jullie zullen de geheimen ervan later dan ook in verschillende colleges tegenkomen. Hier het absolute minimum.
 
    - we definiëren $$ i = \sqrt{-1}$$
    
-Een complex getal (c) bestaat uit twee componenten: een reëel deel en een imaginair deel.
+Een complex getal (c) bestaat uit twee componenten: een reëel deel ($$\alpha$$) en een extra imaginair deel ($$\beta * i$$).
 
-   - c = $$\alpha + \beta *i$$
+   - c = $$\alpha + \beta i$$
 
 Een gebruikelijke manier om deze getallen voor te stellen is in een 2-dimensionaal vlak zoals hieronder weergegeven is. Twee voorbeelden van complexe getallen zijn bijvoorbeeld c = -5 + 3i en c=-2-4i. Deze zijn in blauw weergegeven. Er zijn ook getallen in rood weergegeven; daar komen we later op terug in de uitleg over fractals.
 
