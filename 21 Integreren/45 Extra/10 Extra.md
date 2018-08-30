@@ -94,7 +94,7 @@ Voor een gegeven startpunt kan de reeks divergeren of convergeren. Als voorbeeld
     z8 = -0.195 + 0.180 i      z8 = -110956.038 + 369424.274 i
     z9 = -0.195 + 0.180 i      z9 = -124163052007.623 + -81979707256.034 i
 
-Nu is het tijd om zelf een fractal te tekenen. Hoewel je in deze opdracht zelf zult moeten bepalen welke definitie je gaat hanteren om te bepalen of een reeks wel of niet convergeert zullen we de snelheid waarmee dat gebeurt in deze opgave verder negeren. Onze plot zal daarmee maar uit twee kleuren bestaan. Iets saaier dan de officiële plot natuurlijk, maar genoeg als eerste stap.
+Nu is het tijd om zelf een fractal te tekenen. 
 
 ### Opdracht:
 
@@ -103,6 +103,8 @@ Bepaal voor elk punt $$z_0$$ in het complexe vlak of de reeks convergeert of div
    $$f(z) = z^2 + z_0$$. 
     
 Als de reeks convergeert teken je het punt blauw, als het divergeert teken je het wit.
+
+Hoewel je in deze opdracht zelf zult moeten bepalen welke definitie je gaat hanteren om te bepalen of een reeks wel of niet convergeert zullen we de snelheid waarmee dat gebeurt in deze opgave verder negeren. Onze plot zal daarmee maar uit twee kleuren bestaan. Iets saaier dan de officiële plot natuurlijk, maar genoeg als eerste stap.
 
 **Specificaties voor de scan (plot):**
 
