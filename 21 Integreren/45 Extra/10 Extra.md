@@ -55,23 +55,6 @@ Door het getal dat de uitkomst van de operatie (functie) is weer opnieuw als arg
 
 Meer algemeen noteren we dit $$n$$ keer uitvoeren van de functie als volgt: $$z_n = f^{(n)}(z_0)$$. Voor elk startpunt in het complexe vlak (en keuze voor de constante $$c$$ kunnen we nu kijken hoe de reeks zich ontwikkelt. 
 
-De reeks kan divergeren of convergeren zoals we zien voor onderstaande twee complexe getallen $$z = -0.20 + 0.25i$$ en $$z = 0.50 + 0.25i$$:
-
-      z0 = -0.20 + 0.25i       z0 = 0.50 + 0.25i
-      ------------------       ------------------
-
-    z0 = -0.200 + 0.250 i      z0 =  0.50 +  0.25i
-    z1 = -0.223 + 0.150 i      z1 =  0.688 + 0.500 i
-    z2 = -0.173 + 0.183 i      z2 =  0.723 + 0.938 i
-    z3 = -0.204 + 0.187 i      z3 =  0.143 + 1.605 i
-    z4 = -0.193 + 0.174 i      z4 = -2.055 + 0.710 i
-    z5 = -0.193 + 0.183 i      z5 =  4.221 + -2.669 i
-    z6 = -0.196 + 0.180 i      z6 = 11.190 + -22.279 i
-    z7 = -0.194 + 0.180 i      z7 = -370.655 + -498.339 i
-    z8 = -0.195 + 0.180 i      z8 = -110956.038 + 369424.274 i
-    z9 = -0.195 + 0.180 i      z9 = -124163052007.623 + -81979707256.034 i
-
-
 **Fractals (algemeen):**
 
 Voor elke keuze van een functie $$f(z)$$ kunnen we nu de punten in het complexe vlak verdelen in twee groepen. Meer specifiek; voor een specifiek (start)punt $$z_0$$ geldt:
@@ -90,6 +73,22 @@ De Mandelbrot set is gedefiniëerd door de functie die we al eerder gezien hebbe
    Mandelbrot: $$f(z) = z^2 + z_0$$ 
     
 , waarbij $$z_0$$ het startpunt is. 
+
+De reeks kan divergeren of convergeren zoals we zien voor onderstaande twee complexe getallen $$z = -0.20 + 0.25i$$ en $$z = 0.50 + 0.25i$$:
+
+      z0 = -0.20 + 0.25i       z0 = 0.50 + 0.25i
+      ------------------       ------------------
+
+    z0 = -0.200 + 0.250 i      z0 =  0.50 +  0.25i
+    z1 = -0.223 + 0.150 i      z1 =  0.688 + 0.500 i
+    z2 = -0.173 + 0.183 i      z2 =  0.723 + 0.938 i
+    z3 = -0.204 + 0.187 i      z3 =  0.143 + 1.605 i
+    z4 = -0.193 + 0.174 i      z4 = -2.055 + 0.710 i
+    z5 = -0.193 + 0.183 i      z5 =  4.221 + -2.669 i
+    z6 = -0.196 + 0.180 i      z6 = 11.190 + -22.279 i
+    z7 = -0.194 + 0.180 i      z7 = -370.655 + -498.339 i
+    z8 = -0.195 + 0.180 i      z8 = -110956.038 + 369424.274 i
+    z9 = -0.195 + 0.180 i      z9 = -124163052007.623 + -81979707256.034 i
 
 Nu is het tijd om zelf een fractal te tekenen. Hoewel je in deze opdracht zelf zult moeten bepalen welke definitie je gaat hanteren om te bepalen of een reeks wel of niet convergeert zullen we de snelheid waarmee dat gebeurt in deze opgave verder negeren. Onze plot zal daarmee maar uit twee kleuren bestaan. Iets saaier dan de officiële plot natuurlijk, maar genoeg als eerste stap.
 
