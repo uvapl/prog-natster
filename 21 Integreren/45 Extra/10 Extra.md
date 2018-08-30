@@ -59,6 +59,17 @@ De reeks kan divergeren of convergeren.
 
 VOORBEELD:
 
+    z0 = -0.200 + 0.250 i   z0 =  0.50 +  0.25i
+    z1 = -0.223 + 0.150 i   z1 =  0.688 + 0.500 i
+    z2 = -0.173 + 0.183 i   z2 =  0.723 + 0.938 i
+    z3 = -0.204 + 0.187 i   z3 =  0.143 + 1.605 i
+    z4 = -0.193 + 0.174 i   z4 = -2.055 + 0.710 i
+    z5 = -0.193 + 0.183 i   z5 =  4.221 + -2.669 i
+    z6 = -0.196 + 0.180 i   z6 = 11.190 + -22.279 i
+    z7 = -0.194 + 0.180 i   z7 = -370.655 + -498.339 i
+    z8 = -0.195 + 0.180 i   z8 = -110956.038 + 369424.274 i
+    z9 = -0.195 + 0.180 i   z9 = -124163052007.623 + -81979707256.034 i
+
 
 **Fractals (algemeen):**
 
@@ -89,8 +100,6 @@ Bepaal voor elk punt $$z_0$$ in het complexe vlak of de reeks convergeert of div
     
 Als de reeks convergeert teken je het punt blauw, als het divergeert teken je het wit.
 
-Als je nou klaar bent met de opgave en toch meer kleur in de plot wilt door alsnog de diverentiesnelheid mee te nemen dan houden we je niet tegen natuurlijk.
-
 **Specificaties voor de scan (plot):**
 
 De resolutie van de grafiek moet de volgende dimensies hebben:
@@ -100,6 +109,7 @@ De resolutie van de grafiek moet de volgende dimensies hebben:
     - imaginaire as: 500 punten tussen -1.50 en 1.50 
 
 
+Als je klaar bent met de opgave en toch meer kleur toe wilt voegen door alsnog de diverentiesnelheid mee te nemen dan houden we je niet tegen natuurlijk.
 
 ## Checkpy
 
