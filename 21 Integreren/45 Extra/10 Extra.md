@@ -4,7 +4,7 @@ Fractals zijn meer dan ingewikkelde en veelkleurige plaatjes waarin tot een onei
 
 Schrijf een programma `fractal.py` dat de Mandelbrot set op het scherm tekent.
 
-<center>![](mandelbrot.png){: style="width:50%"}</center>
+<center>![image alt <>](mandelbrot.png){: style="width:50%"}</center>
 
 ### Complexe getallen
 
