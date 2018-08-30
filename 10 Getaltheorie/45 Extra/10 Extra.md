@@ -11,13 +11,9 @@ Hoewel we jullie in deze extra opdrachten zoveel mogelijk vrij willen laten (er 
 
 ### Definitie van onderling-priem en voorspelling vanuit getaltheorie
 	    
-In de informatie over de definitie van deze [wikipedia co-primes](https://en.wikipedia.org/wiki/Coprime_integers) lezen we ook terug wat de kans is dat *n* willekeurige getallen géén gemeenschappelijke deler hebben. 
+In de informatie over de definitie van [co-primes](https://en.wikipedia.org/wiki/Coprime_integers) op wikipedia lezen we dat we kunnen uitrekenen wat de kans is dat *n* willekeurige getallen géén gemeenschappelijke deler hebben. 
 
-Deze kans is: $$1/\zeta(n)$$. 
-
-, waarbij $$\zeta(n)$$ de beroemde [Riemann zeta functie](https://en.wikipedia.org/wiki/Riemann_zeta_function) is.
-
-**Let op:** in het geval van drie (of meer) of meer getallen betekent `gemeenschappelijke deler` dat er een getal is dat een deler is van *alle* drie (of meer) getallen *tegelijk*.
+Deze kans is: $$1/\zeta(n)$$, waarbij $$\zeta(n)$$ de beroemde [Riemann zeta functie](https://en.wikipedia.org/wiki/Riemann_zeta_function) is.
 
 **Specifiek geval: twee getallen (n=2)**:
 
@@ -25,7 +21,7 @@ De kans dat twee willekeurige getallen géén gemeenschappelijke deler hebben is
 
 $$1/\zeta(2) \approx 0,608$$.
 
-In deze opdracht gaan we zelf van twee willekeurige getallen bekijken of ze een gemeenschappelijke deler hebben. Door dit een groot aantal keer doen kunnen we de kans bepalen dat twee van zulke getallen onderling-priem zullen zijn. En of de voorspelling uit de getaltheorie klopt.
+In deze opdracht gaan we controleren of dit wel klopt. We gaan eerst uitzoeken hoe we kunnen bepalen of twee getallen een gemeenschappelijke deler hebben en door dit daarna voor een groot aantal willekeurige getallen-paren te doen kunnen we de kans bepalen dat twee van zulke getallen onderling-priem zullen zijn. En daarmee controleren of de voorspelling uit de getaltheorie wel of niet klopt.
 
 ### Zelf de oplossing vinden
 
