@@ -40,13 +40,12 @@ aangeeft naar welke punt (weer een complex getal) het punt zich verplaatst. Een 
 
    $$f(z) = z^2 + c$$
 
-Elk punt $$z_0$$ dat je kiest eert geeft een nieuw punt z1 = f(z0) = z2
-0 + c. Het is zo
-steeds mogelijk om het volgende punt te berekenen, immers z2 = f(z1) = z2
-1 + c en
-meer algemeen zn = f(n)(z0). Er zijn nu 2 mogelijkheden:
-De reeks convergeert ! z0 is wel onderdeel van de set
-De reeks divergeert ! z0 is geen onderdeel van de set
+Elk punt $$z_0$$ dat je kiest geeft een volgend punt, immers $$z_1 = f(z_0) = z_{0}^{2} + c$$ en het daarop volgend punt in de reeks is dan weer $$z_2 = f(z_1) = z_{1}^{2} + c$$ etcetera.  In meer algemeen $$z_n = f^{(n)}(z_0)$$. 
+
+Er zijn nu 2 mogelijkheden:
+   - de reeks convergeert:  $$\rightarrow$$  $$z_0$$ is **wel** onderdeel van de set
+   - de reeks divergeert: $$\rightarrow$$ $$z_0$$ is **geen** onderdeel van de set
+
 Elke keuze van c geeft een uniek patroon. De Mandelbrotset is speciaal omdat in
 dat geval geldt dat c het startpunt zelf is, dus c = z0. Als je een punt een kleur
 geeft als het in de set zit krijg je de karakteristieke plaatjes zoals beneden.
