@@ -10,7 +10,9 @@ De opdracht van deze extra opdracht is dan ook: schrijf een programma `fractal.p
 
 ### Stukje wiskunde: complexe getallen
 
-Om iets te begrijpen van de wiskunde achter de fractals moeten we eerst een nieuw wiskundig concept introduceren: *complexe getallen*. Deze getallen hebben een speciale plek in wiskunde en ze komen overal in de natuurkunde terug. Jullie zullen de geheimen ervan later dan ook in verschillende colleges tegenkomen. Hier het absolute minimum.
+Om iets te begrijpen van de wiskunde achter de fractals moeten we eerst een nieuw wiskundig concept introduceren: *complexe getallen*. 
+
+Complexe getallen hebben een speciale plek in wiskunde en ze komen op veel plekken in de wis- en natuurkunde terug. Jullie zullen tijdens verschillende colleges veel meer eigenschappen bekijken, maar hier introduceren we het absolute minimum.
 
    - definitie: we definiëren $$ i = \sqrt{-1}$$
    
