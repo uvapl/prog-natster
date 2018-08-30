@@ -16,9 +16,11 @@ Complexe getallen hebben een speciale plek in wiskunde en ze komen op veel plekk
 
    - definitie: we definiëren $$ i = \sqrt{-1}$$
    
-Een complex getal (c) bestaat uit twee componenten: een reëel deel ($$\alpha$$) en een extra imaginair deel ($$\beta i$$):
+Een complex getal (z) bestaat uit twee componenten: een reëel en een imaginair deel.
 
-   - complex getal: c = $$\alpha + \beta i$$
+   - complex getal: z = $$\alpha + \beta i$$
+
+, met $$\alpha$$ het reële deel en $$\beta i$$ het imaginair deel.
 
 Een gebruikelijke manier om deze getallen voor te stellen is in het zogenaamde *complexe vlak*, een 2-dimensionaal vlak zoals hieronder weergegeven is met een reële-as en een imaginaire-as die het complexe deel van het getal weergeeft. Twee voorbeelden van complexe getallen zijn bijvoorbeeld $$c = -5 + 3i$$ en $$c=-2-4i$$. Deze zijn beide in blauw weergegeven. Alle getallen die wij normaalgesproken gebruiken (0, -3, $$12/67$$, $$\pi$$, $$e$$, 10465, ...) liggen dus allemaal op de reële as. Er zijn ook een aantal complexe getallen in rood weergegeven; daar komen we verderop nog op terug.
 
