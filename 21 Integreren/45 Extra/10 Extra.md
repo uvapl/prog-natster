@@ -1,6 +1,6 @@
 # Fractals - Mandelbrot set
 
-Jullie kennen vast wel die prachtige en veelkleurige plaatjes waarin patronen zich tot een oneindige diepte patronen herhalen. Deze zeer complexe patronen, **fractals** genaamd, komen gek genoeg voort uit een kleine set simpele (wiskundige) regels, iets dat we ook in de natuur regelmatig zien. In deze opgave gaan we iets meer in op de wiskunde achter de fractals en gaan we proberen daarmee zelf de meest bekende fractal te reconstrueren en te tekenen: de [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set)
+Jullie kennen vast wel die prachtige en veelkleurige plaatjes waarin patronen zich tot een oneindige diepte patronen herhalen. Deze zeer complexe patronen, *fractals* genaamd, komen gek genoeg voort uit een kleine set simpele (wiskundige) regels, iets dat we ook in de natuur regelmatig zien. In deze opgave gaan we iets meer in op de wiskunde achter de fractals en gaan we proberen daarmee zelf de meest bekende fractal te reconstrueren en te tekenen: de [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set)
 
 <p align="center">
 ![](mandelbrot.png){: style="width:50%"}
@@ -10,7 +10,7 @@ De opdracht van deze extra opdracht is dan ook: schrijf een programma `fractal.p
 
 ### Stukje wiskunde: complexe getallen
 
-Om iets te begrijpen van de wiskunde achter de fractals moeten we eerst een nieuw wiskundig concept introduceren: **complexe getallen**. Deze getallen hebben een speciale plek in wiskunde en ze komen overal in de natuurkunde terug. Jullie zullen de geheimen ervan later dan ook in verschillende colleges tegenkomen. Hier het absolute minimum.
+Om iets te begrijpen van de wiskunde achter de fractals moeten we eerst een nieuw wiskundig concept introduceren: *complexe getallen*. Deze getallen hebben een speciale plek in wiskunde en ze komen overal in de natuurkunde terug. Jullie zullen de geheimen ervan later dan ook in verschillende colleges tegenkomen. Hier het absolute minimum.
 
    - definitie: we definiëren $$ i = \sqrt{-1}$$
    
@@ -18,7 +18,7 @@ Een complex getal (c) bestaat uit twee componenten: een reëel deel ($$\alpha$$)
 
    - complex getal: c = $$\alpha + \beta i$$
 
-Een gebruikelijke manier om deze getallen voor te stellen is in het zogenaamde **complexe vlak**, een 2-dimensionaal vlak zoals hieronder weergegeven is met een reële-as en een imaginaire-as die het complexe deel van het getal weergeeft. Twee voorbeelden van complexe getallen zijn bijvoorbeeld $$c = -5 + 3i$$ en $$c=-2-4i$$. Deze zijn beide in blauw weergegeven. Er zijn ook getallen in rood weergegeven; daar komen we verderop nog op terug.
+Een gebruikelijke manier om deze getallen voor te stellen is in het zogenaamde *complexe vlak*, een 2-dimensionaal vlak zoals hieronder weergegeven is met een reële-as en een imaginaire-as die het complexe deel van het getal weergeeft. Twee voorbeelden van complexe getallen zijn bijvoorbeeld $$c = -5 + 3i$$ en $$c=-2-4i$$. Deze zijn beide in blauw weergegeven. Er zijn ook getallen in rood weergegeven; daar komen we verderop nog op terug.
 
 <p align="center">
 ![](ComplexeGetallen.png){: style="width:70%"}
@@ -41,8 +41,7 @@ Net als voor gewone getallen kunnen we ook functies definiëren voor complexe ge
 
 , waarbij zowel $$z$$ als $$c$$ een complex getal zijn. De enige vrijheid die we nog hebben is in de keuze van het getal $$c$$.
 
-
-*Reeksen:*
+**Reeksen:**
 
 Door het getal dat de uitkomst van de operatie (functie) is weer opnieuw als argument in de functie in te vullen kunnen we een hele reeks getallen produceren.
 
@@ -59,7 +58,7 @@ Meer algemeen noteren we dit als $$z_n = f^{(n)}(z_0)$$. Voor elk startpunt in h
 VOORBEELD:
 
 
-*Fractals (algemeen):*
+**Fractals (algemeen):**
 
 Voor elke keuze van een functie zeggen we nu dat de collectie punten waarbij de reeks convergeert onderdeel zijn van een specifieke set.
 
@@ -70,7 +69,7 @@ Voor elke keuze van een functie zeggen we nu dat de collectie punten waarbij de 
 De laatste stap is om een kleurcode toe te kennen aan de snelheid waarmee een specifiek startpunt in het complexe vlak divergeert dan wel convergeert. Als je vervolgens een plot maakt van het complexe vlak waarbij je elk punt die specifieke code geeft eindig je met de beroemde fractals. 
 
 
-*De Mandelbrot set:*
+**De Mandelbrot set:**
 
 De Mandelbrotset is speciaal omdat in dat geval geldt dat de constante $$c$$ het startpunt zelf is, dus $$c = z_0$$. 
     
@@ -92,7 +91,7 @@ Hoewel je in deze opdracht zelf moet uitzoeken welke definitie je gaat hanteren 
  Je moet indeze opgave zelf een definitie vinden 
  In deze opgave bekijken we of de reeks convergeert of divergeert; de snelheid daarvan is niet belangrijk, al houden we je natuurlijk niet tegen als je het toch wilt proberen.
 
-*Specificaties:*
+**Specificaties:**
 
 De resolutie van de grafiek moet de volgende dimensies aanhouden:
 
