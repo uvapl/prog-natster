@@ -26,16 +26,33 @@ Een gebruikelijke manier om deze getallen voor te stellen is in het zogenaamde *
 
 Het optellen van complexe getallen is simpelweg het optellen van de reële en de complexe componenten, maar bij het vermenigvuldigen is het even opletten dat je de rekening houdt met het feit dat $$i^2 = -1$$. Een getal kwadrateren bijvoorbeeld:
 
-   - vermenigvuldigen: $$(\alpha + \beta i)^2 = (\alpha^2 - \beta^2) + (2 \alpha \beta)i$$
+   - kwadrateren (vermenigvuldigen): $$(\alpha + \beta i)^2 = (\alpha^2 - \beta^2) + (2 \alpha \beta)i$$
 
-Als voorbeeld: $$(2+i)^2 = 3+4i$$. Als je hierbij het oorspronkelijke getal $$(2+i)$$ weer bij optelt kom je uit op $$5+5i$$. Alle drie de getallen uit het voorbeeld zijn in het rood weergegeven in de tekening van het complexe vlak zoals dat hierboven is weergegeven.
+Als voorbeeld: $$(2+i)^2 = 3+4i$$. Als je hierbij het oorspronkelijke getal $$(2+i)$$ weer bij optelt kom je uit op $$5+5i$$. Deze getallen zijn alledrie in rood weergegeven in het hierboven getekende complexe vlak.
 
-Dit is alle wiskundige achtergrond over complexe getallen die je nodig hebt in deze opgave.
+Dit is alle wiskundige achtergrond over complexe getallen die je nodig hebt in deze opgave. Daar gaan we.
 
 
 ### Zelf de Mandelbrot tekenen
 
-DIY
+Voor elk punt in het complexe vlak ($$z_0 = x_0 + y_0i)$$ kunnen we functie (in dit geval een een polynoom) definiëren die
+aangeeft naar welke punt (weer een complex getal) het punt zich verplaatst. Een belangrijke set polynomen wordt gegeven door:
+
+   $$f(z) = z^2 + c$$
+
+Elk punt $$z_0$$ dat je kiest eert geeft een nieuw punt z1 = f(z0) = z2
+0 + c. Het is zo
+steeds mogelijk om het volgende punt te berekenen, immers z2 = f(z1) = z2
+1 + c en
+meer algemeen zn = f(n)(z0). Er zijn nu 2 mogelijkheden:
+De reeks convergeert ! z0 is wel onderdeel van de set
+De reeks divergeert ! z0 is geen onderdeel van de set
+Elke keuze van c geeft een uniek patroon. De Mandelbrotset is speciaal omdat in
+dat geval geldt dat c het startpunt zelf is, dus c = z0. Als je een punt een kleur
+geeft als het in de set zit krijg je de karakteristieke plaatjes zoals beneden.
+
+
+
 
 ## Checkpy
 
