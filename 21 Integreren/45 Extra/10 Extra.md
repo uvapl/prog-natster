@@ -62,14 +62,13 @@ VOORBEELD:
 
 **Fractals (algemeen):**
 
-Voor elke keuze van een functie zeggen we nu dat de collectie punten waarbij de reeks convergeert onderdeel zijn van een specifieke set.
+Voor elke keuze van een functie $$f(z)$$ kunnen we nu de punten in het complexe vlak verdelen in twee groepen. Meer specifiek; voor een specifiek (start)punt $$z_0$$ geldt:
 
    - de reeks convergeert:  $$\rightarrow$$  $$z_0$$ is **wel** onderdeel van de set
 
    - de reeks divergeert: $$\rightarrow$$ $$z_0$$ is **geen** onderdeel van de set
 
-De laatste stap is om een kleurcode toe te kennen aan de snelheid waarmee een specifiek startpunt in het complexe vlak divergeert dan wel convergeert. Als je vervolgens een plot maakt van het complexe vlak waarbij je elk punt die specifieke code geeft eindig je met de beroemde fractals. 
-
+Door vervolgens een kleurcode toe te kennen aan de snelheid waarmee een specifiek startpunt in het complexe vlak divergeert dan wel convergeert en die te tekenen krijg je de beroemde fractals.
 
 **De Mandelbrot set:**
 
