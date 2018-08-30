@@ -1,12 +1,14 @@
 # Fractals - Mandelbrot set
 
-Jullie kennen vast wel die prachtige en veelkleurige plaatjes waarin patronen zich tot een oneindige diepte patronen herhalen. Deze zeer complexe patronen, **fractals** genaamd, komen gek genoeg voort uit een kleine set simpele (wiskundige) regels, iets dat we ook in de natuur regelmatig zien. In deze opgave gaan we iets meer in op de wiskunde achter de fractals en gaan we proberen daarmee zelf de meest beroemde fractal te reconstrueren en op het scherm te tekenen die hieronder ook te zien is: de [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set)
+Jullie kennen vast wel die prachtige en veelkleurige plaatjes waarin patronen zich tot een oneindige diepte patronen herhalen. Deze zeer complexe patronen, **fractals** genaamd, komen gek genoeg voort uit een kleine set simpele (wiskundige) regels, iets dat we ook in de natuur regelmatig zien. In deze opgave gaan we iets meer in op de wiskunde achter de fractals en gaan we proberen daarmee zelf de meest bekende fractal te reconstrueren en te tekenen: de [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set)
 
 <p align="center">
 ![](mandelbrot.png){: style="width:50%"}
 </p>
 
-De opdracht van deze extra opdracht is dan ook: schrijf een programma `fractal.py` dat de Mandelbrot set op het scherm tekent.
+De opdracht van deze extra opdracht is dan ook: 
+
+schrijf een programma `fractal.py` dat de Mandelbrot set op het scherm tekent.
 
 ### Stukje wiskunde: complexe getallen
 
