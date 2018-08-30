@@ -1,7 +1,6 @@
 # Onderling priem
 
-Schrijf een programma `priemparen.py` dat de waarschijnlijkheid berekent dat twee willekeurig gehele getallen geen gemeenschappelijke deler hebben. Zo'n paar wordt
-'onderling-priem' genoemd. De Engelse term is 'coprime'.
+Schrijf een programma `onderlingpriem.py` dat de kans berekent dat twee willekeurig gehele getallen geen gemeenschappelijke deler hebben. Zo'n paar wordt 'onderling-priem' genoemd. De Engelse term daarvoor is 'coprime'.
 
     #python priemparen.py
     De kans dat twee random getallen geen onderlinge deler hebben is:
