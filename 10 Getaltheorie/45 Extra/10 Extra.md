@@ -64,9 +64,9 @@ Specificaties:
 
     - gebruik getallen (n1 en n2) tussen de 10.000 en 100.000
 
-    - gebruik 10.000 paren
+    - gebruik 10.000 getallen-paren
 
-    
+
 **Python tip:**
 
 Een van de dingen die we nodig hebben, het trekken van een willekeurig getal, is iets waar we pas in module 2 mee gaan werken. In dit geval is het nog specifieker, namelijk een willekeurig *geheel* getal. 
@@ -75,20 +75,18 @@ Plaats bovenaan je programma de volgende regel die je in staat stelt de `random-
  
         from random import *
         
-De functie die wij nodig hebben is `randint(Nmin,Nmax)` die een random geheel getal teruggeeft tussen `Nmin` en `Nmax`. In onze opgave gebruiken we Nmin=10000 en Nmax = 100000. Om in je code een random geheel getal `n1` te krijgen gebruik je de volgende regel: 
+De functie die wij nodig hebben is `randint(Nmin,Nmax)` die een random geheel getal teruggeeft tussen `Nmin` en `Nmax`. In onze opgave gebruiken we Nmin=10000 en Nmax = 100000. Om in je code een random geheel getal `n` te krijgen gebruik je de volgende regel: 
 
-         n1 = randint(Nmin, Nmax)        
+         n = randint(Nmin, Nmax)        
         
 
-Aan het eind van deze functie weet je dus de fractie paren die *géén* gemeenschappelijke deler hebben.
+#### stap 4: theoretische voorspelling
 
-#### stap 4: Theoretische voorspelling
-
-Schrijf een functie `Voorspelling(n)` die de kans uitrekent dat er geen gemeenschappelijke deler is voor `n` getallen. Dit is niet veel meer dan zelf de zeta functie uitrekenen en daarmee de kans bepalen. Geef deze kans terug als returnwaarde.
+Schrijf een functie `Voorspelling(n)` die de theoretisch voorspelde kans uitrekent dat er geen gemeenschappelijke deler is voor `n` getallen. Dit is niet veel meer dan zelf de Riemann zeta functie uitrekenen en daarmee de kans bepalen. Geef deze kans terug als returnwaarde.
 
 #### stap 5: Gooi alles bij elkaar
 
-Door nou de twee functies `Experiment()` en `Voorspelling()` aan te roepen valt alles samen. Op het scherm moet dan verschijnen (met drie decimalen nauwkeurig):
+Door nou de twee functies `Experiment()` en `Voorspelling()` aan te roepen valt alles samen. Op het scherm moet dan verschijnen (met drie decimalen):
 
     De kans dat twee random getallen geen gemeenschappelijke deler hebben is:
         - voorspelling (wiskunde): 0.xxx 
