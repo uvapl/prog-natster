@@ -68,29 +68,28 @@ Voor elke keuze van een functie $$f(z)$$ kunnen we nu de punten in het complexe 
 
    - de reeks divergeert: $$\rightarrow$$ $$z_0$$ is **geen** onderdeel van de set
 
-Door vervolgens een kleurcode toe te kennen aan de snelheid waarmee een specifiek startpunt in het complexe vlak divergeert dan wel convergeert en die te tekenen krijg je de beroemde fractals.
+Door vervolgens een kleurcode toe te kennen aan de snelheid waarmee een specifiek startpunt in het complexe vlak divergeert dan wel convergeert krijgt elk punt in het complexe vlak een kleur. Door dit te plotten ontstaan de beroemde fractals. Nu is het tijd om zelf een fractal te tekenen, al is het in een iets simpeler vorm, namelijk bestaanuit uit twee kleuren.
 
 **De Mandelbrot set:**
 
-De Mandelbrotset is speciaal omdat in dat geval geldt dat de constante $$c$$ het startpunt zelf is, dus $$c = z_0$$. 
+De Mandelbrot set is gedefiniëerd door de functie die we al eerder gezien hebben met als speciale keuze voor de constante $$c$$, namelijk het startpunt zelf is. Met $$c = z_0$$ krijgen we dan: 
     
-    Mandelbrot: $$f(z) = z^2 + z_0$$, 
+   Mandelbrot: $$f(z) = z^2 + z_0$$ 
     
-waarbij $$z_0$$ het startpunt is. 
+, waarbij $$z_0$$ het startpunt is. 
 
 
 ### Opdracht:
 
-Bepaal voor elk punt $$z$$ in het complexe vlak of het convergeert of divergeert onder de polynoom:
+Bepaal voor elk punt $$z$$ in het complexe vlak of het convergeert of divergeert onder de polynoom voor Mandelbrot:
 
-    $$f(z) = z^2 + z_0$$. 
+   $$f(z) = z^2 + z_0$$. 
     
 Als de reeks convergeert teken je het punt blauw, als het divergeert teken je het wit.
 
-Hoewel je in deze opdracht zelf moet uitzoeken welke definitie je gaat hanteren om te bepalen of een reeks convergeert danwel divergeert is de snelheid waarmee dat gebeurt irrelevant. Het is dus binair: wel/niet covergeren.
- 
- Je moet indeze opgave zelf een definitie vinden 
- In deze opgave bekijken we of de reeks convergeert of divergeert; de snelheid daarvan is niet belangrijk, al houden we je natuurlijk niet tegen als je het toch wilt proberen.
+Hoewel je in deze opdracht zelf moet uitzoeken welke definitie je gaat hanteren om te bepalen of een reeks wel of niet convergeert zullen we de snelheid waarmee dat gebeurt in deze opgave negeren. Onze plot zal daarmee maar uit twee kleuren bestaan.
+
+Als je toch meer kleur in de plot wilt en toch de diverengtiesnelheid mee wilt nemen dan houden we je niet tegen natuurlijk.
 
 **Specificaties:**
 
