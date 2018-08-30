@@ -18,19 +18,19 @@ Een complex getal (c) bestaat uit twee componenten: een reëel deel ($$\alpha$$)
 
    - complex getal: c = $$\alpha + \beta i$$
 
-Een gebruikelijke manier om deze getallen voor te stellen is in het zogenaamde *complexe vlak*, een 2-dimensionaal vlak zoals hieronder weergegeven is met een reële-as en een imaginaire-as die het complexe deel van het getal weergeeft. Twee voorbeelden van complexe getallen zijn bijvoorbeeld $$c = -5 + 3i$$ en $$c=-2-4i$$. Deze zijn beide in blauw weergegeven. Alle getallen die wij normaalgesproken gebruiken (0, -3, $$12/67$$, $$\pi$$, $$e$$, 10000, ...) liggen dus allemaal op de reële as. Er zijn ook een aantal complexe getallen in rood weergegeven; daar komen we verderop nog op terug.
+Een gebruikelijke manier om deze getallen voor te stellen is in het zogenaamde *complexe vlak*, een 2-dimensionaal vlak zoals hieronder weergegeven is met een reële-as en een imaginaire-as die het complexe deel van het getal weergeeft. Twee voorbeelden van complexe getallen zijn bijvoorbeeld $$c = -5 + 3i$$ en $$c=-2-4i$$. Deze zijn beide in blauw weergegeven. Alle getallen die wij normaalgesproken gebruiken (0, -3, $$12/67$$, $$\pi$$, $$e$$, 10465, ...) liggen dus allemaal op de reële as. Er zijn ook een aantal complexe getallen in rood weergegeven; daar komen we verderop nog op terug.
 
 <p align="center">
 ![](ComplexeGetallen.png){: style="width:70%"}
 </p>
 
-Het optellen van complexe getallen is simpelweg het optellen van de reële en de complexe componenten, maar bij het vermenigvuldigen is het even opletten dat je de rekening houdt met het feit dat $$i^2 = -1$$. Een getal kwadrateren bijvoorbeeld:
+Het optellen van complexe getallen is simpelweg het optellen van de reële en de complexe componenten, maar bij het vermenigvuldigen is het even opletten dat je de rekening houdt met het feit dat $$i^2 = -1$$. Dat zie je duidelijk bij kwadrateren:
 
-   - kwadrateren (vermenigvuldigen): $$(\alpha + \beta i)^2 = (\alpha^2 - \beta^2) + (2 \alpha \beta)i$$
+   - kwadrateren: $$(\alpha + \beta i)^2 = (\alpha^2 - \beta^2) + (2 \alpha \beta)i$$
 
-Als voorbeeld: $$(2+i)^2 = 3+4i$$. Als je hierbij het oorspronkelijke getal $$(2+i)$$ weer bij optelt kom je uit op $$5+5i$$. Deze getallen zijn alledrie in rood weergegeven in het hierboven getekende complexe vlak.
+Als voorbeeld: $$(2+i)^2 = 3+4i$$. Als je hierbij het oorspronkelijke getal $$(2+i)$$ weer bij op zou tellen kom je uit op $$5+5i$$. Deze getallen zijn alledrie in rood weergegeven in het hierboven getekende complexe vlak. Deze berekening zullen we in deze opdracht ook zelf uitvoeren.
 
-Dit is alle wiskundige achtergrond over complexe getallen die je nodig hebt in deze opgave. Daar gaan we.
+Dit is alle wiskundige achtergrond over complexe getallen die je nodig hebt in deze opgave. Nu kunnen we an de slag.
 
 
 ### Functies van complexe getallen, reeksen en fractals 
