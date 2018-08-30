@@ -39,13 +39,13 @@ Net als voor gewone getallen kunnen we ook functies definiëren voor complexe ge
 
    $$f(z) = z^2 + c$$ 
 
-, waarbij zowel $$z$$ als $$c$$ een complex getal zijn. De enige vrijheid die we nog hebben is in de keuze van het getal $$c$$.
+, waarbij zowel $$z$$ als $$c$$ een complex getal zijn. De enige vrijheid die we nog hebben is in de keuze van het getal $$c$$. De uitkomst van de functie is weer een complex getal.
 
 **Reeksen:**
 
 Door het getal dat de uitkomst van de operatie (functie) is weer opnieuw als argument in de functie in te vullen kunnen we een hele reeks getallen produceren.
 
-    stap 1: kies een complex getal $$z_0 = \alpha_0 + \beta_0 i$$
+   - stap 1: kies een complex getal $$z_0 = \alpha_0 + \beta_0 i$$
 
     stap 2: bereken $$z_1 = f(z_0) = z_0^2 + c$$     
 
