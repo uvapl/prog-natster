@@ -1,13 +1,13 @@
 # Onderling priem
 
-Schrijf een programma `onderlingpriem.py` dat de kans berekent dat twee willekeurig gehele getallen geen gemeenschappelijke deler hebben. Zo'n paar wordt 'onderling-priem' genoemd. De Engelse term daarvoor is 'coprime'.
+Schrijf een programma `onderlingpriem.py` dat de kans berekent dat twee willekeurig gehele getallen geen gemeenschappelijke deler hebben. Zo'n paar wordt **onderling-priem** genoemd. De Engelse term daarvoor is **coprime**.
 
-    #python priemparen.py
-    De kans dat twee random getallen geen onderlinge deler hebben is:
+    #python onderlingpriem.py
+    De kans dat twee random getallen geen gemeenschappelijke deler hebben is:
         - voorspelling (wiskunde): 0.xxx
 	    - empirisch (Python): 0.xxx 
 
-Hoewel we in deze opdrachten jullie zoveel mogelijk vrij willen laten (er is ook geen `checkpy`) zullen we voor deze eerste extra opdracht nog een aantal tussenstappen aangeven. 
+Hoewel we jullie in deze extra opdrachten zoveel mogelijk vrij willen laten (er is ook geen `checkpy`) zullen we voor deze eerste extra opdracht nog een aantal tussenstappen aangeven. 
 
 ### Definitie van onderling-priem en voorspelling vanuit getaltheorie
 	    
@@ -88,7 +88,7 @@ Schrijf een functie `Voorspelling(n)` die de kans uitrekent dat er geen gemeensc
 
 Door nou de twee functies `Experiment()` en `Voorspelling()` aan te roepen valt alles samen. Op het scherm moet dan verschijnen (met drie decimalen nauwkeurig):
 
-    De kans dat twee random getallen geen onderlinge deler hebben is:
+    De kans dat twee random getallen geen gemeenschappelijke deler hebben is:
         - voorspelling (wiskunde): 0.xxx 
         - empirisch (Python): 0.xxx
 
