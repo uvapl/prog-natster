@@ -1,4 +1,4 @@
-# Onderling priem
+# Onderling-priem
 
 Schrijf een programma `onderlingpriem.py` dat de kans berekent dat twee willekeurig gehele getallen geen gemeenschappelijke deler hebben. Zo'n paar wordt **onderling-priem** genoemd. De Engelse term daarvoor is **coprime**.
 
@@ -25,7 +25,7 @@ In deze opdracht gaan we controleren of dit wel klopt. We gaan eerst uitzoeken h
 
 ### Zelf de oplossing vinden
 
-Er zijn verschillende manieren om dit problem aan te pakken. Volg voor deze opdracht de onderstaande oplossingsmethode en tussenstappen, omdat we daarbij bij het nakijken hoe ver je bent gekomen.
+Er zijn verschillende manieren om dit problem aan te pakken. Volg voor deze opdracht de onderstaande oplossingsmethode en tussenstappen, omdat we daarmee tijdens het nakijken goed kunnen zien hoe ver je bent gekomen.
 
 #### stap 1: lijst met priemfactoren
 
@@ -40,19 +40,22 @@ Schrijf een functie `PriemFactoren(getal)` die voor een bepaald getal de lijst m
     python> Priemfactoren(79220) 
             Priemfactoren  79220  =  [2, 2, 5, 17, 233]
 
-Zorg ook dat de functie de lijst met priemgetallen als output teruggeeft (als return). Later in het programma zullen we deze functie meer gaan gebruiken
+Zorg ook dat de functie de lijst met priemgetallen als output teruggeeft (als return). In de rest van het programma zullen we deze functie meer gaan gebruiken
  
 #### stap 2: op zoek naar gemeenschappelijke delers van twee getallen
 
 Schrijf een functie `AantalDelers(n1, n2)` die voor twee getallen aangeeft of er een gemeenschappelijke deler is of niet. Gebruik hierbij de functie `Priemfactoren()` om voor elk van de getallen eerst de priemfactor-lijst te vinden en ga vervolgens op zoek naar getallen die in beide lijsten voorkomen.
 
-Op dit moment is het niet van belang om het precieze aantal gemeenschappelijke delers te bepalen. Voor deze opgave is het vooral belangrijk om te weten of er *géén* gemeenschappelijke delers zijn. De functie moet dan als return argument 0 teruggeven.
+Op dit moment is het niet van belang om het precieze aantal gemeenschappelijke delers te bepalen. Voor deze opgave is het alleen belangrijk om te weten of er *géén* gemeenschappelijke delers zijn. De functie moet dan als return argument 0 teruggeven.
 
-#### stap 3: Hypothese testen voor groot aantal paren
+#### stap 3: hypothese testen voor groot aantal paren
 
 Om de fractie van paren te bepalen waarin er geen gemeenschappelijke deler is moeten we:
+
    1. een groot aantal paren getallen maken
+
    2. voor elk paar kijken of er wel/niet een gemeenschappelijke deler is
+
    3. aan het eind bekijken welke fractie paren geen gemeenschappelijke deler had  
 
 Maak een functie `Experiment()` die deze stappen implementeert en die de fractie als aan het eind de fractie op het scherm print en ook teruggeeft als return argument.
