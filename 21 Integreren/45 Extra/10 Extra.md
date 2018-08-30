@@ -33,26 +33,72 @@ Als voorbeeld: $$(2+i)^2 = 3+4i$$. Als je hierbij het oorspronkelijke getal $$(2
 Dit is alle wiskundige achtergrond over complexe getallen die je nodig hebt in deze opgave. Daar gaan we.
 
 
-### Functies van complexe getallen en fractals
+### Functies van complexe getallen, reeksen en fractals 
 
-We kunnen 
-Voor elk punt in het complexe vlak ($$z_0 = x_0 + y_0i)$$ kunnen we functie (in dit geval een een polynoom) definiëren die
-aangeeft naar welke punt (weer een complex getal) het punt zich verplaatst. Een belangrijke set polynomen wordt gegeven door:
+Net als voor gewone getallen kunnen we ook functies definiëren voor complexe getallen. In deze opgave gaan we werken met polynomen van de volgende vorm:
 
-   $$f(z) = z^2 + c$$
+   $$f(z) = z^2 + c$$ 
 
-Elk punt $$z_0$$ dat je kiest geeft een volgend punt, immers $$z_1 = f(z_0) = z_{0}^{2} + c$$ en het daarop volgend punt in de reeks is dan weer $$z_2 = f(z_1) = z_{1}^{2} + c$$ etcetera.  In meer algemeen $$z_n = f^{(n)}(z_0)$$. 
+, waarbij zowel $$z$$ als $$c$$ een complex getal zijn. De enige vrijheid die we nog hebben is in de keuze van het getal $$c$$.
 
-Er zijn nu 2 mogelijkheden:
+
+*Reeksen:*
+
+Door het getal dat de uitkomst van de operatie (functie) is weer opnieuw als argument in de functie in te vullen kunnen we een hele reeks getallen produceren.
+
+    stap 1: kies een complex getal $$z_0 = \alpha_0 + \beta_0 i$$
+
+    stap 2: bereken $$z_1 = f(z_0) = z_0^2 + c$$     
+
+    stap 3: bereken $$z_2 = f(z_1) = z_1^2 + c$$
+
+    stap 4: ...
+
+Meer algemeen noteren we dit als $$z_n = f^{(n)}(z_0)$$. Voor elk startpunt in het complexe vlak (en keuze voor de constante $$c$$ kunnen we nu kijken hoe de reeks zich ontwikkeld. De reeks kan divergeren of convergeren. 
+
+VOORBEELD:
+
+
+*Fractals (algemeen):*
+
+Voor elke keuze van een functie zeggen we nu dat de collectie punten waarbij de reeks convergeert onderdeel zijn van een specifieke set.
 
    - de reeks convergeert:  $$\rightarrow$$  $$z_0$$ is **wel** onderdeel van de set
 
    - de reeks divergeert: $$\rightarrow$$ $$z_0$$ is **geen** onderdeel van de set
 
-Elke keuze van c geeft een uniek patroon. De Mandelbrotset is speciaal omdat in
-dat geval geldt dat c het startpunt zelf is, dus c = z0. Als je een punt een kleur
-geeft als het in de set zit krijg je de karakteristieke plaatjes zoals beneden.
+De laatste stap is om een kleurcode toe te kennen aan de snelheid waarmee een specifiek startpunt in het complexe vlak divergeert dan wel convergeert. Als je vervolgens een plot maakt van het complexe vlak waarbij je elk punt die specifieke code geeft eindig je met de beroemde fractals. 
 
+
+*De Mandelbrot set:*
+
+De Mandelbrotset is speciaal omdat in dat geval geldt dat de constante $$c$$ het startpunt zelf is, dus $$c = z_0$$. 
+    
+    Mandelbrot: $$f(z) = z^2 + z_0$$, 
+    
+waarbij $$z_0$$ het startpunt is. 
+
+
+### Opdracht:
+
+Bepaal voor elk punt $$z$$ in het complexe vlak of het convergeert of divergeert onder de polynoom:
+
+    $$f(z) = z^2 + z_0$$. 
+    
+Als de reeks convergeert teken je het punt blauw, als het divergeert teken je het wit.
+
+Hoewel je in deze opdracht zelf moet uitzoeken welke definitie je gaat hanteren om te bepalen of een reeks convergeert danwel divergeert is de snelheid waarmee dat gebeurt irrelevant. Het is dus binair: wel/niet covergeren.
+ 
+ Je moet indeze opgave zelf een definitie vinden 
+ In deze opgave bekijken we of de reeks convergeert of divergeert; de snelheid daarvan is niet belangrijk, al houden we je natuurlijk niet tegen als je het toch wilt proberen.
+
+*Specificaties:*
+
+De resolutie van de grafiek moet de volgende dimensies aanhouden:
+
+    - reële as:      500 punten tussen -2.00 en 1.00 
+
+    - imaginaire as: 500 punten tussen -1.50 en 1.50 
 
 
 
