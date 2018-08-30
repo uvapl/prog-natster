@@ -10,7 +10,7 @@ In deze module gaan we het spel Monopoly simuleren. Het is ondoenlijk om dit ana
 
 1. Leer hoe je [animaties](/technieken/animaties) maakt in Python
 
-2. <span class="badge badge-primary">Opdracht</span> De [spriraliserende stip](/beweging/stip)
+2. <span class="badge badge-primary">Opdracht</span> De [spiraliserende stip](/beweging/stip)
 
 3. <span class="badge badge-primary">Opdracht</span> Laat zien hoe een [dronken student](/beweging/student) beweegt
 
@@ -21,7 +21,6 @@ In deze module gaan we het spel Monopoly simuleren. Het is ondoenlijk om dit ana
 5. Lees nog even terug over het gebruiken van [meerdere grafieken](/technieken/plot)
 
 6. <span class="badge badge-primary">Opdracht</span> Bestudeer de beweging van een [basejumper](/beweging/basejump)
-
 
 
 #### Dag 2: vrij rondlopen op het bord
