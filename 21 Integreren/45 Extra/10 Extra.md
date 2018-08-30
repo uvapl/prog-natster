@@ -96,7 +96,7 @@ Voor een gegeven startpunt kan de reeks divergeren of convergeren. Als voorbeeld
 
 Nu is het tijd om zelf een fractal te tekenen. 
 
-### Opdracht:
+### Opdracht: 
 
 Bepaal voor elk punt $$z_0$$ in het complexe vlak of de reeks convergeert of divergeert onder de polynoom voor Mandelbrot:
 
@@ -104,7 +104,7 @@ Bepaal voor elk punt $$z_0$$ in het complexe vlak of de reeks convergeert of div
     
 Als de reeks convergeert teken je het punt blauw, als het divergeert teken je het wit.
 
-Hoewel je in deze opdracht zelf zult moeten bepalen welke definitie je gaat hanteren om te bepalen of een reeks wel of niet convergeert zullen we de snelheid waarmee dat gebeurt in deze opgave verder negeren. Onze plot zal daarmee maar uit twee kleuren bestaan. Iets saaier dan de officiële plot natuurlijk, maar genoeg als eerste stap.
+Hoewel je in deze opdracht zelf zult moeten bepalen welke definitie je gaat hanteren om te bepalen of een reeks wel of niet convergeert zullen we de snelheid waarmee dat gebeurt in deze opgave verder negeren. Onze plot zal daarmee maar uit twee kleuren bestaan. Iets saaier dan de officiële plot natuurlijk, maar genoeg voor deze opdracht.
 
 **Specificaties voor de scan (plot):**
 
