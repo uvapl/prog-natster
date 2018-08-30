@@ -45,13 +45,13 @@ Net als voor gewone getallen kunnen we ook functies definiëren voor complexe ge
 
 Door het getal dat de uitkomst van de operatie (functie) is weer opnieuw als argument in de functie in te vullen kunnen we een hele reeks getallen produceren.
 
-   - stap 1: kies een complex getal $$z_0 = \alpha_0 + \beta_0 i$$
+   - stap 1: kies een complex getal $$z_0$$
+   
+   - stap 2: bereken $$z_1 = f(z_0) = z_0^2 + c$$     
 
-    stap 2: bereken $$z_1 = f(z_0) = z_0^2 + c$$     
+   - stap 3: bereken $$z_2 = f(z_1) = z_1^2 + c$$
 
-    stap 3: bereken $$z_2 = f(z_1) = z_1^2 + c$$
-
-    stap 4: ...
+   - stap 4: ...
 
 Meer algemeen noteren we dit als $$z_n = f^{(n)}(z_0)$$. Voor elk startpunt in het complexe vlak (en keuze voor de constante $$c$$ kunnen we nu kijken hoe de reeks zich ontwikkeld. De reeks kan divergeren of convergeren. 
 
