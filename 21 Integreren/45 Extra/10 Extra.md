@@ -18,7 +18,7 @@ Een complex getal (c) bestaat uit twee componenten: een reëel deel ($$\alpha$$)
 
    - complex getal: c = $$\alpha + \beta i$$
 
-Een gebruikelijke manier om deze getallen voor te stellen is in het zogenaamde *complexe vlak*, een 2-dimensionaal vlak zoals hieronder weergegeven is met een reële-as en een imaginaire-as die het complexe deel van het getal weergeeft. Twee voorbeelden van complexe getallen zijn bijvoorbeeld $$c = -5 + 3i$$ en $$c=-2-4i$$. Deze zijn beide in blauw weergegeven. Er zijn ook getallen in rood weergegeven; daar komen we verderop nog op terug.
+Een gebruikelijke manier om deze getallen voor te stellen is in het zogenaamde *complexe vlak*, een 2-dimensionaal vlak zoals hieronder weergegeven is met een reële-as en een imaginaire-as die het complexe deel van het getal weergeeft. Twee voorbeelden van complexe getallen zijn bijvoorbeeld $$c = -5 + 3i$$ en $$c=-2-4i$$. Deze zijn beide in blauw weergegeven. Alle getallen die wij normaalgesproken gebruiken (0, -3, $$12/67$$, $$\pi$$, $$e$$, 10000, ...) liggen dus allemaal op de reële as. Er zijn ook een aantal complexe getallen in rood weergegeven; daar komen we verderop nog op terug.
 
 <p align="center">
 ![](ComplexeGetallen.png){: style="width:70%"}
