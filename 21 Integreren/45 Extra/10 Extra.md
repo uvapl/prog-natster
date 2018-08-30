@@ -30,7 +30,7 @@ Het optellen van complexe getallen is simpelweg het optellen van de reële en de
 
 Als voorbeeld: $$(2+i)^2 = 3+4i$$. Als je hierbij het oorspronkelijke getal $$(2+i)$$ weer bij op zou tellen kom je uit op $$5+5i$$. Deze getallen zijn alledrie in rood weergegeven in het hierboven getekende complexe vlak. Deze berekening zullen we in deze opdracht ook zelf uitvoeren.
 
-Dit is alle wiskundige achtergrond over complexe getallen die je nodig hebt in deze opgave. Nu kunnen we an de slag.
+Dit is alle wiskundige achtergrond over complexe getallen die je nodig hebt in deze opgave. Nu kunnen we aan de slag.
 
 
 ### Functies van complexe getallen, reeksen en fractals 
@@ -68,7 +68,9 @@ Voor elke keuze van een functie $$f(z)$$ kunnen we nu de punten in het complexe 
 
    - de reeks divergeert: $$\rightarrow$$ $$z_0$$ is **geen** onderdeel van de set
 
-Door vervolgens een kleurcode toe te kennen aan de snelheid waarmee een specifiek startpunt in het complexe vlak divergeert dan wel convergeert krijgt elk punt in het complexe vlak een kleur. Door dit te plotten ontstaan de beroemde fractals. Nu is het tijd om zelf een fractal te tekenen, al is het in een iets simpeler vorm, namelijk bestaanuit uit twee kleuren.
+Door vervolgens een kleurcode toe te kennen aan de snelheid waarmee een specifiek startpunt in het complexe vlak divergeert dan wel convergeert krijgt elk punt in het complexe vlak een kleur. Door dit te plotten ontstaan de beroemde fractals. 
+
+Nu is het tijd om zelf een fractal te tekenen. Hoewel je in deze opdracht zelf zult moeten bepalen welke definitie je gaat hanteren om te bepalen of een reeks wel of niet convergeert zullen we de snelheid waarmee dat gebeurt in deze opgave verder negeren. Onze plot zal daarmee maar uit twee kleuren bestaan. Iets saaier dan de officiële plot, maar we zullen het ermee moeten doen.
 
 **De Mandelbrot set:**
 
@@ -87,7 +89,6 @@ Bepaal voor elk punt $$z_0$$ in het complexe vlak of de reeks convergeert of div
     
 Als de reeks convergeert teken je het punt blauw, als het divergeert teken je het wit.
 
-Hoewel je in deze opdracht zelf moet uitzoeken welke definitie je gaat hanteren om te bepalen of een reeks wel of niet convergeert zullen we de snelheid waarmee dat gebeurt in deze opgave negeren. Onze plot zal daarmee maar uit twee kleuren bestaan.
 
 Als je toch meer kleur in de plot wilt en toch de diverengtiesnelheid mee wilt nemen dan houden we je niet tegen natuurlijk.
 
