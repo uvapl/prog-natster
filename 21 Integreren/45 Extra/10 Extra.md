@@ -33,8 +33,9 @@ Als voorbeeld: $$(2+i)^2 = 3+4i$$. Als je hierbij het oorspronkelijke getal $$(2
 Dit is alle wiskundige achtergrond over complexe getallen die je nodig hebt in deze opgave. Daar gaan we.
 
 
-### Zelf de Mandelbrot tekenen
+### Functies van complexe getallen en fractals
 
+We kunnen 
 Voor elk punt in het complexe vlak ($$z_0 = x_0 + y_0i)$$ kunnen we functie (in dit geval een een polynoom) definiëren die
 aangeeft naar welke punt (weer een complex getal) het punt zich verplaatst. Een belangrijke set polynomen wordt gegeven door:
 
@@ -43,7 +44,9 @@ aangeeft naar welke punt (weer een complex getal) het punt zich verplaatst. Een 
 Elk punt $$z_0$$ dat je kiest geeft een volgend punt, immers $$z_1 = f(z_0) = z_{0}^{2} + c$$ en het daarop volgend punt in de reeks is dan weer $$z_2 = f(z_1) = z_{1}^{2} + c$$ etcetera.  In meer algemeen $$z_n = f^{(n)}(z_0)$$. 
 
 Er zijn nu 2 mogelijkheden:
+
    - de reeks convergeert:  $$\rightarrow$$  $$z_0$$ is **wel** onderdeel van de set
+
    - de reeks divergeert: $$\rightarrow$$ $$z_0$$ is **geen** onderdeel van de set
 
 Elke keuze van c geeft een uniek patroon. De Mandelbrotset is speciaal omdat in
