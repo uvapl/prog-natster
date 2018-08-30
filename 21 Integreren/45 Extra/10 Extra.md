@@ -20,9 +20,9 @@ Een complex getal (z) bestaat uit twee componenten: een reëel en een imaginair 
 
    - complex getal: z = $$\alpha + \beta i$$
 
-, met $$\alpha$$ het reële deel en $$\beta i$$ het imaginair deel.
+, met  $$\alpha$$  het reële en  $$\beta i$$  het imaginair deel.
 
-Een gebruikelijke manier om deze getallen voor te stellen is in het zogenaamde *complexe vlak*, een 2-dimensionaal vlak zoals hieronder weergegeven is met een reële-as en een imaginaire-as die het complexe deel van het getal weergeeft. Twee voorbeelden van complexe getallen zijn bijvoorbeeld $$c = -5 + 3i$$ en $$c=-2-4i$$. Deze zijn beide in blauw weergegeven. Alle getallen die wij normaalgesproken gebruiken (0, -3, $$12/67$$, $$\pi$$, $$e$$, 10465, ...) liggen dus allemaal op de reële as. Er zijn ook een aantal complexe getallen in rood weergegeven; daar komen we verderop nog op terug.
+Een gebruikelijke manier om deze getallen voor te stellen is in het zogenaamde *complexe vlak*, een 2-dimensionaal vlak zoals hieronder weergegeven is met een reële-as en een imaginaire-as die het complexe deel van het getal weergeeft. Twee voorbeelden van complexe getallen zijn bijvoorbeeld $$c = -5 + 3i$$ en $$c=-2-4i$$. Deze zijn beide in blauw weergegeven. Alle getallen die wij normaalgesproken gebruiken (0, -3, $$12/67$$, $$\pi$$, $$e$$, 10465, ...) liggen dus allemaal op de reële as. Er zijn ook een aantal complexe getallen in rood weergegeven; daar komen we later nog op terug.
 
 <p align="center">
 ![](ComplexeGetallen.png){: style="width:70%"}
@@ -47,7 +47,7 @@ Net als voor gewone getallen kunnen we ook functies definiëren voor complexe ge
 
 **Reeksen:**
 
-Door het getal dat de uitkomst van de operatie (functie) is weer opnieuw als argument in de functie in te vullen kunnen we een hele reeks getallen produceren.
+Door het getal dat de uitkomst van de operatie (functie) is weer opnieuw als argument in de functie in te vullen krijgen we een reeks getallen.
 
    - stap 1: kies een complex getal $$z_0$$
    
@@ -57,7 +57,7 @@ Door het getal dat de uitkomst van de operatie (functie) is weer opnieuw als arg
 
    - stap 4: ...
 
-Meer algemeen noteren we dit $$n$$ keer uitvoeren van de functie als volgt: $$z_n = f^{(n)}(z_0)$$. Voor elk startpunt in het complexe vlak (en keuze voor de constante $$c$$ kunnen we nu kijken hoe de reeks zich ontwikkelt. 
+Meer algemeen noteren we dit $$n$$ keer uitvoeren van de functie als volgt: $$z_n = f^{(n)}(z_0)$$. Voor elk startpunt in het complexe vlak kunnen we nu kijken hoe de reeks zich ontwikkelt. 
 
 **Fractals (algemeen):**
 
