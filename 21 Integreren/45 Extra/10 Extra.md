@@ -4,7 +4,7 @@ Fractals zijn meer dan ingewikkelde en veelkleurige plaatjes waarin tot een onei
 
 Schrijf een programma `fractal.py` dat de Mandelbrot set op het scherm tekent.
 
-![](mandelbrot.png)
+![](mandelbrot.png){: style="width:35%"}
 
 ### Complexe getallen
 
@@ -18,11 +18,11 @@ Een complex getal (c) bestaat uit twee componenten: een reëel deel en een imagi
 
 Een gebruikelijke manier om deze getallen voor te stellen is in een 2-dimensionaal vlak zoals hieronder weergegeven is. Twee voorbeelden van complexe getallen zijn bijvoorbeeld c = -5 + 3i en c=-2-4i. Deze zijn in blauw weergegeven. Er zijn ook getallen in rood weergegeven; daar komen we later op terug in de uitleg over fractals.
 
-![](ComplexeGetallen.png)
+![](ComplexeGetallen.png){: style="width:60%"}
 
 Het optellen van complexe getallen is simpelweg het optellen van de reële en de complexe componenten en bij het vermenigvuldigen is het even opletten dat je de rekening houdt met het feit dat $$i^2 = -1$$.
 
-   - $$(\alpha + \beta*i)^2 = (\alpha^2 - \beta^2) + (2 \alpha beta)*i
+   - $$(\alpha + \beta*i)^2 = (\alpha^2 - \beta^2) + (2 \alpha beta)*i$$
 
 Zo is $$(2+i)^2 = 3+4i$$. Zowel $$2+i$$  als $$3+4i$$ zijn als rood punt weergegeven.
 
