@@ -70,7 +70,6 @@ Voor elke keuze van een functie $$f(z)$$ kunnen we nu de punten in het complexe 
 
 Door vervolgens een kleurcode toe te kennen aan de snelheid waarmee een specifiek startpunt in het complexe vlak divergeert dan wel convergeert krijgt elk punt in het complexe vlak een kleur. Door dit te plotten ontstaan de beroemde fractals. 
 
-Nu is het tijd om zelf een fractal te tekenen. Hoewel je in deze opdracht zelf zult moeten bepalen welke definitie je gaat hanteren om te bepalen of een reeks wel of niet convergeert zullen we de snelheid waarmee dat gebeurt in deze opgave verder negeren. Onze plot zal daarmee maar uit twee kleuren bestaan. Iets saaier dan de officiële plot, maar we zullen het ermee moeten doen.
 
 **De Mandelbrot set:**
 
@@ -80,6 +79,7 @@ De Mandelbrot set is gedefiniëerd door de functie die we al eerder gezien hebbe
     
 , waarbij $$z_0$$ het startpunt is. 
 
+Nu is het tijd om zelf een fractal te tekenen. Hoewel je in deze opdracht zelf zult moeten bepalen welke definitie je gaat hanteren om te bepalen of een reeks wel of niet convergeert zullen we de snelheid waarmee dat gebeurt in deze opgave verder negeren. Onze plot zal daarmee maar uit twee kleuren bestaan. Iets saaier dan de officiële plot, maar we zullen het ermee moeten doen.
 
 ### Opdracht:
 
