@@ -9,12 +9,11 @@ In een doos (afmeting $$0 \leq x \leq 1$$ en $$0 \leq y \leq 1$$) worden op een 
 ![](ParticlesInABox_box.png){: style="width:50%"}
 </p>
 
-We gaan in deze opdracht de positie van een groot aantal deeltjes volgen. In deel 1 zullen we aannemen dat de deeltjes niet botsen (dat maakt de simulatie veel  makkelijker). Deel twee van deze opgave bevat de echte botsingsdynamiek, maar daarmee wordt het wel gelijk een stuk lastiger. 
-
+We gaan in deze opdracht de positie van een groot aantal deeltjes volgen. In deel 1 zullen we aannemen dat de deeltjes niet botsen (dat maakt de simulatie veel  makkelijker). Deel 2 van deze opgave bevat de echte botsingsdynamiek, maar daarmee wordt het wel gelijk een stuk lastiger. 
 
 ## Deel 1: niet-botsende deeltjes
 
-Onze aannames in dit deel van de opdracht:
+De aannames en specificaties in dit deel van de opdracht:
 
    1.  Er worden 1000 deeltjes geproduceerd
    
