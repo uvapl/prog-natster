@@ -42,7 +42,7 @@ Omdat elk deeltje een snelheid heeft zal zijn positie veranderen in de tijd. Maa
 De snelheid in de x-richting zal onveranderd blijven, tenzij het deeltje tegen de wand botst natuurlijk. Bedenk zelf wat er moet gebeuren als het deeltje op een positie buiten de doos terechtkomt. De deeltjes mogen de doos immers niet uit.
 
 
-### Opdracht-set 1: gesloten doos
+#### Opdracht 1: gesloten doos
 
 Schrijf een programma `deeltjes_deel1.py` dat 100 deeltjes produceert en de simulatie in de tijd laat lopen gedurende een groot aantal stappen. Het programma moet twee grafieken produceren:
  
@@ -50,15 +50,13 @@ Schrijf een programma `deeltjes_deel1.py` dat 100 deeltjes produceert en de simu
 
    - Een grafiek van de gemiddelde afstand tussen de deeltjes als functie van de tijd.
 
-### Opdracht-set 2: doos met een gat
+#### Opdracht 2: doos met een gat
 
 Stel nou dat er een gat in de doos zit ($$y_{gat} = 0$$ en $$0,8 \leq x_{gat} \leq 0,9$$). Het is dan mogelijk dat deeltjes uit de doos ontsnappen. Het tijdstip waarop (meer dan) de helft (of meer) van de deeltjes noemen we $$t_{/frac{1}{2}}$$.
 
 Schrijf een programma `deeltjes_deel2.py` dat een aantal simulaties runt en daarvan de  gemiddelde tijd uitrekent waarop in een simulatie (meer dan) de helft van de deeltjes uit de doos verdwenen zijn. Gebruik 100 simulaties die elk 100 deeltjes bevatten.
 
 Probeer ook zonder computerprogramma een schatting te geven. Hoe zou je dat aanpakken?
-
-**Voor jezelf:** Stel nou dat de deeltjes gemiddeld met een 2x hogere hogere snelheid beginnen ($$v_i$$ is random tussen 0 en 0.20). Wat gebeurt met de 'halfwaardetijd' van de deeltjes in de doos? Wat verwachtte je?
 
 
 ## Deel 2: botsende deeltjes
