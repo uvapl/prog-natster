@@ -20,4 +20,4 @@ Schrijf een programma `volkskrant.py` die, met de data van de KNMI uit deze modu
 In de eerste opdracht van deze module
 
 
-##### Opdracht 2: zelf data vezamelen
+##### Opdracht 2: zelf data verzamelen
