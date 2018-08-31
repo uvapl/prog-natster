@@ -66,11 +66,12 @@ Pas het programma zo aan dat als (Igat=1) een deeltje die door het gat verdwijnt
 
 ## Deel 2: botsende deeltjes
 
+![](collidingballs_4.gif){: style="width:50%"}{:.inline}
+
 Er zijn verschillende mogelijkheden om deze simulatie uit te breiden met meer realisme. Het visualiseren van een simulatie is erg leuk en interessant omdat het je meer
 inzicht geeft in mogelijke programmeerfouten en fenomenen die soms niet gelijk opvallen als je naar de vergelijkingen zelf kijkt. We zullen de deeltjes ook een 'echte'
 afmeting geven en de deeltjes te laten botsen.
 
-![](collidingballs_4.gif){: style="width:50%"}{:.inline}
 
 Je mag in deze opdracht zelf weten waar je de deeltjes neerzet in de doos op het startmoment en met hoeveel deeltjes je begint. Begin met twee deeltjesom alles te testen en breid het aantal pas uit op het moment dat alles werkt. Omdat de animatie nu met cirkels (afmeting) i.p.v puntjes wordt gedaan wordt het wel iets lastiger is. Daarom hebben we een voorbeeld template gemaakt dat jullie als basis kunnen gebruiken en zelf aan kunnen passen.
 [animation_template_circles.py](https://www.nikhef.nl/~ivov/Python/DeeltjesInDoos/animation_template_circles.py)
