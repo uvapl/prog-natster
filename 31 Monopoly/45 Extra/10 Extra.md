@@ -56,14 +56,14 @@ Schrijf een programma `deeltjes_in_doos_gesloten.py` dat 100 deeltjes produceert
 
 ##### Opdracht 2: doos met een gat
 
-Stel nou dat er een gat in de doos zit ($$y_{gat} = 0$$ en $$0,8 \leq x_{gat} \leq 0,9$$). Het is dan mogelijk dat deeltjes uit de doos ontsnappen. Het tijdstip waarop (meer dan) de helft (of meer) van de deeltjes noemen we $$t_{\frac{1}{2}}$$.
+Stel nou dat er een gat in de doos zit ($$y_{gat} = 0$$ en $$0,8 \leq x_{gat} \leq 0,9$$). Het is dan mogelijk dat deeltjes uit de doos ontsnappen. Het tijdstip waarop (meer dan) de helft (of meer) van de deeltjes noemen we $$t_{50}$$.
 
 Schrijf een programma `deeltjes_in_doos_gat.py` dat een aantal simulaties runt en daarvan de tijd bepaalt waarop voor het eerst (meer dan) de helft van de deeltjes uit de doos zijn verdwenen. Start ook hier in het begin met 1000 deeltjes. Je programma moet de volgende output op het scherm printen:
 
     "Op t = xxx zijn voor het eerst meer dan 50% van de deeltjes verdwenen."
 
 
-**Extra:** Dit hef je niet in te leveren, maar probeer ook zonder computerprogramma een schatting te geven. Hoe zou je dat aanpakken?
+**Nadenkertje:** Zou je ook zonder een computerprogramma een schatting voor $$t_{50}$$ kunnen geven? Hoe zou je dat aanpakken? Dit hoef je niet in te leveren.
 
 
 ## Deel 2: botsende deeltjes
