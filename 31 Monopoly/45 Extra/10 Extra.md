@@ -9,7 +9,8 @@ In een doos (afmeting $$0 \leq x \leq 1$$ en $$0 \leq y \leq 1$$) worden op een 
 ![](ParticlesInABox_box.png){: style="width:50%"}
 </p>
 
-We gaan in deze opdracht de positie van een groot aantal deeltjes volgen. Hoewel we in het begin de aanname zullen maken dat de deeltjes niet botsen (dat maakt de simulatie veel  makkelijker), zullen we aan het eind wat realisme toevoegen en de deeltjes laten botsen.
+We gaan in deze opdracht de positie van een groot aantal deeltjes volgen. In deel 1 zullen we aannemen dat de deeltjes niet botsen (dat maakt de simulatie veel  makkelijker). Deel twee van deze opgave bevat de echte botsingsdynamiek, maar daarmee wordt het wel gelijk een stuk lastiger. 
+
 
 ## Deel 1: niet-botsende deeltjes
 
@@ -68,26 +69,19 @@ Schrijf een programma `deeltjes_in_doos_gat.py` dat een aantal simulaties runt e
 
 ## Deel 2: botsende deeltjes
 
-Er zijn verschillende mogelijkheden om deze simulatie uit te breiden met meer real-
-isme. Het visualiseren van een simulatie is erg leuk en interessant omdat het je meer
-inzicht geeft in mogelijke programmeerfouten en fenomenen die soms niet gelijk op-
-vallen als je naar de vergelijkingen zelf kijkt. We zullen de deeltjes ook een 'echte'
+Er zijn verschillende mogelijkheden om deze simulatie uit te breiden met meer realisme. Het visualiseren van een simulatie is erg leuk en interessant omdat het je meer
+inzicht geeft in mogelijke programmeerfouten en fenomenen die soms niet gelijk opvallen als je naar de vergelijkingen zelf kijkt. We zullen de deeltjes ook een 'echte'
 afmeting geven en de deeltjes te laten botsen.
 
 ![](collidingballs_4.gif){: style="width:50%"}{:.inline}
 
 Je mag in deze opdracht zelf weten waar je de deeltjes neerzet in de doos op het startmoment. Omdat de animatie (nu met circels i.p.v puntjes zoals eerder in de opgave) net even lastiger is hebben we een voorbeeld template aangeleverd dat jullie zelf aan kunnen passen: [animation_template_circles.py](https://www.nikhef.nl/~ivov/Python/DeeltjesInDoos/animation_template_circles.py)
 
-##### Opdracht 3: deeltjes met afmeting (zonder botsen)
+##### Opdracht 4: deeltjes: met afmeting en met botsen
 
-Schrijf een programma `deeltjes_in_doos_animatie.py` om tien deeltjes door de doos te zien bewegen als functie van de tijd. Gebruik as basis het simpele voorbeeld van twee om elkaar draaiende balletjes uit het voorbeeld.
+Schrijf een programma `deeltjes_in_doos_animatie_realistisch.py` om een paar deeltjes door de doos te zien bewegen als functie van de tijd. Gebruik hierbij als basis de bovenstaande template. Geef de deeltjes een afmeting en laat ze netjes van de wand ketsen als de rand van het deeltje de wand raakt. En dus niet het centrum van het deeltje. 
 
-Geef de deeltjes een afmeting en laat ze netjes van de wand ketsen als de rand van het deeltje de wand raakt (en dus niet het centrum van het deeltje). 
-
-
-##### Opdracht 4: deeltjes met afmeting (met botsen)
-
-Schrijf een programma `deeltjes_in_doos_animatie_realistisch.py` dat gebaseerd is op die van opdracht 3, maar waarbij nu de deeltjes (met afmeting) realistisch botsen. Handig hierbij is misschien de afleiding van de botsingskinematica in 2 dimensies nog even door te nemen:
+Laat vervolgens ook de deeltjes onderling botsen. De botsingsdynamica (in twee dimensies) die je daarbij nodig hebt staat hier netjes opgeschreven:
 [2-dimensional elastic collisions without trigonometry](http://www.vobarian.com/collisions/2dcollisions2.pdf).
 
 
