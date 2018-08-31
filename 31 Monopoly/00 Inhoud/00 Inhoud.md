@@ -8,7 +8,7 @@ Na een korte kennismaking met animaties in Python gaan we in de eerste 3 dagdele
 
 Tijdens dag 4 maken we ook kennis met het simuleren van een natuurkundig verschijnsel: vallen (met of zonder wrijving).
 
-#### Dag 1: Animaties en start Monopoly - vrij rondlopen
+#### Dag 1: Animaties en start Monopoly met vrij rondlopen
 
 1. Leer hoe je [animaties](/technieken/animaties) maakt in Python
 
@@ -16,19 +16,17 @@ Tijdens dag 4 maken we ook kennis met het simuleren van een natuurkundig verschi
 
 3. <span class="badge badge-primary">Opdracht</span> Laat zien hoe een [dronken student](/beweging/student) beweegt
 
-**Start Monopoly - vrij rondlopen**
-
 4. Lees over [Monopoly](/monopoly/inleiding)
 
 5. <span class="badge badge-primary">Opdracht</span> Monopoly met 1 speler in [Donald Trump-mode](/monopoly/vrij-rondlopen)
 
 
-#### Dag 2: Startgeld
+#### Dag 2: Monopoly - startgeld
 
 1. <span class="badge badge-primary">Opdracht</span> Effect van een eindige hoeveelheid [startgeld](/monopoly/startgeld) in het spel
 
 
-#### Dag 3: Tweede speler toevoegen en zoeken naar evenwicht
+#### Dag 3: Monopoly - tweede speler toevoegen en op zoek naar evenwicht
 
 1. <span class="badge badge-primary">Opdracht</span> Voeg een tweede speler toe en herstel het [evenwicht](/monopoly/twee-spelers)
 
