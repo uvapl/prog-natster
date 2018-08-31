@@ -1,6 +1,6 @@
 # Deeltjes in een doos
 
-In een doos (afmeting $$0 \leq x \leq 1$$ en $$0 \leq y \leq 1) worden op een bepaalde plek ($$x_{bron}, y_{bron}) = (0,25;0,75) een aantal deeltjes weggeschoten in een willekeurige richting en snelheid. Voor elk deeltje $$i$$ geldt:
+In een doos (afmeting $$0 \leq x \leq 1$$ en $$0 \leq y \leq 1$$) worden op een bepaalde plek ($$x_{bron}, y_{bron}) = (0,25;0,75) een aantal deeltjes weggeschoten in een willekeurige richting en snelheid. Voor elk deeltje $$i$$ geldt:
 
    - snelheid $$(v_{i}): 0 < v_{i} < 0.10$$
    - hoek $$(\alpha_{i}): 0 < \alpha_{i} < 2\pi$$
