@@ -14,18 +14,21 @@ We gaan in deze opdracht de positie van een groot aantal deeltjes volgen. Hoewel
 ### Eerste opzet: niet-botsende deeltjes
 
 Onze aannames in dit deel van de opdracht:
+
    1.  De deeltjes ketsen elastisch tegen de wanden en kunnen de doos niet uit
+
    2.  De deeltjes hebben geen afmeting en kunnen niet botsen
 
 Algemene aanpak van de simulatie:
 
-  1. genereer een beginsituatie. Elk deeltje wordt gekarakteriseerd door vier getallen: de x-positie (x), de y-positie (y) en de snelheid in de x-richting (vx) en de y-richting (vy). Maak daarom in het begin van je programma vier lijsten aan die de posities en snelheden van alle deeltjes bevatten.
+  - **stap 1: genereer een beginsituatie.**
+  Elk deeltje wordt gekarakteriseerd door vier getallen: de x-positie (x), de y-positie (y) en de snelheid in de x-richting (vx) en de y-richting (vy). Maak daarom in het begin van je programma vier lijsten aan die de posities en snelheden van alle deeltjes bevatten.
   
 **Tip:**
    - Als je in het begin de random snelheid en richting hebt gekozen voor het deeltje kan je die gelijk om schrijven in termen van vx en vy.
    - Hoewel het helemaal in het begin van het programma handig is om het pad van een deeltje te volgen (botst hij wel netjes terug van de wanden) is het **niet** handig om in je programma voor elk deeltje de positie en snelheid bij als functie van de tijd bij te houden. De vier lijsten bevatten gewoon de posities en snelheden op een gegeven moment. 
 
-   - [2]. ajsfc  
+  - stap 2: ajsfc  
   
 
 
