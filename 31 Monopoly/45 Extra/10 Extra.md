@@ -1,16 +1,15 @@
 # Deeltjes in een doos
 
-In een doos (afmeting $$0 \leq x \leq 1 en 0 \leq y \leq 1) worden op een plek ($$x_{\rm bron}, y_{\rm bron}) = (0,25; 0,75) een aantal deeltjes weggeschoten met een willekeurige
-snelheid en richting. Voor elk deeltje $$i$$ geldt dus:
+In een doos (afmeting $$0 \leq x \leq 1$$ en $$0 \leq y \leq 1) worden op een bepaalde plek ($$x_{bron}, y_{bron}) = (0,25;0,75) een aantal deeltjes weggeschoten in een willekeurige richting en snelheid. Voor elk deeltje $$i$$ geldt:
 
    - snelheid $$(v_{i}): 0 < v_{i} < 0.10$$
-   - hoek $$(\alpha_{i}): 0 < \alpha_{i} < 2\pi$
+   - hoek $$(\alpha_{i}): 0 < \alpha_{i} < 2\pi$$
    
 <p align="center">
 ![](ParticlesInABox_box.png){: style="width:50%"}
 </p>
 
-We gaan in deze opdracht de positie van een groot aantal deeltjes volgen. Hoewel we in het begin maken we wat aannames maken die de natuurkunde versimpelen kunnen we toch een schatting maken van wat interessante grootheden en fenomenen.
+We gaan in deze opdracht de positie van een groot aantal deeltjes volgen. Hoewel we in het begin de aanname zullen maken dat de deeltjes niet botsen (dat maakt de simulatie veel  makkelijker), zullen we aan het eind wat realisme toevoegen en de deeltjes laten botsen.
 
 ### Eerste opzet: niet-botsende deeltjes
 
@@ -26,7 +25,7 @@ Algemene aanpak van de simulatie:
    - Als je in het begin de random snelheid en richting hebt gekozen voor het deeltje kan je die gelijk om schrijven in termen van vx en vy.
    - Hoewel het helemaal in het begin van het programma handig is om het pad van een deeltje te volgen (botst hij wel netjes terug van de wanden) is het **niet** handig om in je programma voor elk deeltje de positie en snelheid bij als functie van de tijd bij te houden. De vier lijsten bevatten gewoon de posities en snelheden op een gegeven moment. 
 
-  2. ajsfc  
+   - [2]. ajsfc  
   
 
 
