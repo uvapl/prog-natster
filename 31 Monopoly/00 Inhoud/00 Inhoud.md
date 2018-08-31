@@ -4,9 +4,11 @@
 ![embed](https://player.vimeo.com/video/233508920)
 </div>
 
-In deze module gaan we het spel Monopoly simuleren. Het is ondoenlijk om dit analytisch te doen omdat er met het gebruik van dobbelstenen een ingewikkeld element van kans in het spel besloten ligt is. Speltheorie in de praktijk.
+Na een korte kennismaking met animaties in Python gaan we in de eerste 3 dagdelen van deze module het spel Monopoly simuleren. Het is ondoenlijk om dit analytisch te doen omdat er met het gebruik van dobbelstenen een ingewikkeld element van kans in het spel besloten ligt is. Speltheorie in de praktijk.
 
-#### Dag 1: Animaties en start Monopoly
+Tijdens dag 4 maken we ook kennis met het simuleren van een natuurkundig verschijnsel: vallen (met of zonder wrijving).
+
+#### Dag 1: Animaties en start Monopoly - vrij rondlopen
 
 1. Leer hoe je [animaties](/technieken/animaties) maakt in Python
 
