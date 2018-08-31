@@ -6,13 +6,15 @@
 
 In deze module gaan we het spel Monopoly simuleren. Het is ondoenlijk om dit analytisch te doen omdat er met het gebruik van dobbelstenen een ingewikkeld element van kans in het spel besloten ligt is. Speltheorie in de praktijk.
 
-#### Dag 1: Animaties in Python
+#### Dag 1: Animaties en start Monopoly
 
 1. Leer hoe je [animaties](/technieken/animaties) maakt in Python
 
 2. <span class="badge badge-primary">Opdracht</span> De [spiraliserende stip](/beweging/stip)
 
 3. <span class="badge badge-primary">Opdracht</span> Laat zien hoe een [dronken student](/beweging/student) beweegt
+
+**Start Monopoly - vrij rondlopen**
 
 4. Lees over [Monopoly](/monopoly/inleiding)
 
