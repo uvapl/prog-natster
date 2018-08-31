@@ -35,9 +35,9 @@ Algemene aanpak van de simulatie:
 
 ##### stap 2: maak stapjes in de tijd
 
-Omdat elk deeltje een snelheid heeft zal zijn positie veranderen in de tijd. Maak kleine stapjes in de tijd en bereken op welke nieuwe positie het deeltje terecht zal komen. Gebruik hiervoor, als voorbeeld voor de positie in de x-richting): 
+Omdat elk deeltje een snelheid heeft zal zijn positie veranderen in de tijd. Maak kleine stapjes in de tijd ($$\Delta t$$) en bereken op welke nieuwe positie het deeltje terecht zal komen. Gebruik hiervoor, als voorbeeld voor de positie in de x-richting): 
 
-  $$x_i(t+\delta_t) = x_i(t) + v_x,i(t)\delta t$$ 
+  $$x_i(t+\Delta_t) = x_i(t) + v_x,i(t)\Delta t$$ 
 
 De snelheid in de x-richting zal onveranderd blijven, tenzij het deeltje tegen de wand botst natuurlijk. Bedenk zelf wat er moet gebeuren als het deeltje op een positie buiten de doos terechtkomt. De deeltjes mogen de doos immers niet uit.
 
