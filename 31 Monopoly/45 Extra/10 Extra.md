@@ -31,7 +31,9 @@ Algemene aanpak van de simulatie:
   
 **Tips:**
 
-   - Als je in het begin (t=0) de random snelheid en richting hebt gekozen voor het deeltje kan je die gelijk om schrijven in termen van vx en vy. Deze snelheden zullen niet meer veranderen (bedenk waarom niet), tenzij het deeltje tegen de and botst.
+   - Als je in het begin (t=0) de random snelheid en richting hebt gekozen voor het deeltje kan je die gelijk om schrijven in termen van vx en vy. Deze snelheden zullen niet meer veranderen (bedenk waarom niet), tenzij het deeltje tegen de wand botst natuurlijk.
+   
+   - begin niet gelijk met 1000 deeltjes, maar volg een enkel deeltje in de tijd om te kijken of het deeltje zich wel gedraagt zoals je denkt dat je het geprogrammeerd hebt: ketst het bijvoorbeeld wel (goed) af van de wanden etc.
 
    - Hoewel het helemaal in het begin van het programma handig is om het pad van een deeltje te volgen (botst hij wel netjes terug van de wanden) is het **niet** handig om in je programma voor elk deeltje de positie en snelheid bij als functie van de tijd bij te houden. De vier lijsten die we eerder genoemd hebben bevatten alleen de posities en snelheden op een enkel tijdstip. 
 
