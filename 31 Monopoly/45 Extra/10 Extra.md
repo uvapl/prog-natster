@@ -60,11 +60,26 @@ Probeer ook zonder computerprogramma een schatting te geven. Hoe zou je dat aanp
 
 ## Deel 2: botsende deeltjes
 
-Deeltjes hebben een afmeting en massa en kunnen natuurlijk wel botsen. In de laatste stap van de opdracht gaan we proberen dat te implementeren.
+Er zijn verschillende mogelijkheden om deze simulatie uit te breiden met meer real-
+isme. Het visualiseren van een simulatie is erg leuk en interessant omdat het je meer
+inzicht geeft in mogelijke programmeerfouten en fenomenen die soms niet gelijk op-
+vallen als je naar de vergelijkingen zelf kijkt. We zullen de deeltjes ook een 'echte'
+afmeting geven en de deeltjes te laten botsen.
 
 <p align="center">
 ![](collidingballs_4.gif){: style="width:50%"}
 </p>
+
+a) Animatie puntdeeltjes. Gebruik het voorbeeld `animation template circles.py` om
+om de deeltjes door de doos te zien bewegen als functie van de tijd.
+
+b) Animatie deeltjes met afmeting. Geef de deeltjes een afmeting en laat ze netjes
+van de wand ketsen als de rand van het deeltje de wand raakt
+
+c) Laat de deeltjes realistisch botsen, dus met de echte afmeting.
+Tip voor a
+eiding: 2-dimensional elastic collisions without trigonometry
+
 
 
 
