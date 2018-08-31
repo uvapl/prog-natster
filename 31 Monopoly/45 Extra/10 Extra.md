@@ -24,12 +24,19 @@ Algemene aanpak van de simulatie:
   - **stap 1: genereer een beginsituatie.**
   Elk deeltje wordt gekarakteriseerd door vier getallen: de x-positie (x), de y-positie (y) en de snelheid in de x-richting (vx) en de y-richting (vy). Maak daarom in het begin van je programma vier lijsten aan die de posities en snelheden van alle deeltjes bevatten.
   
-**Tip:**
+**Tips:**
+
    - Als je in het begin de random snelheid en richting hebt gekozen voor het deeltje kan je die gelijk om schrijven in termen van vx en vy.
+
    - Hoewel het helemaal in het begin van het programma handig is om het pad van een deeltje te volgen (botst hij wel netjes terug van de wanden) is het **niet** handig om in je programma voor elk deeltje de positie en snelheid bij als functie van de tijd bij te houden. De vier lijsten bevatten gewoon de posities en snelheden op een gegeven moment. 
 
-  - stap 2: ajsfc  
-  
+  - **stap 2: maak stapjes in de tijd**
+  Omdat elk deeltje een snelheid heeft zal zijn positie veranderen in de tijd. Maak kleine stapjes in de tijd en bereken op welke nieuwe positie het deeltje terecht zal komen. Gebruik hiervoor: 
+
+<p>  
+  $$x_i(t+\delta_t) = x_i(t) + v_x,i(t)\delta t  
+  $$y_i(t+\delta_t) = y_i(t) + v_y,i(t)\delta t  
+</p>  
 
 
 **Tip:**
@@ -37,7 +44,7 @@ Algemene aanpak van de simulatie:
 algemeen: Genereer een beginsituatie voor een aantal deeltjes i en hou voor elk zijn
 x-positie (x), y-positie (y), snelheid in de x-richting (vx) en die in de y-richting (vy)
 bij.  Neem steeds stapjes
-in de tijd en gebruik daarbij: xi+1 = xi + vi(x)t etc. Zelfde idee voor snelheden.
+in de tijd en gebruik daarbij: 
 
 *Tip:*
 Maak geen lijsten Sla niet voor Als je voor een enkel deeltjes
