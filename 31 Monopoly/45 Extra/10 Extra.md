@@ -60,9 +60,7 @@ Gebruik je programma uit opdracht 1 als basis en breid die uit zodat je functie 
 
 Pas het programma zo aan dat als (Igat=1) een deeltje die door het gat verdwijnt uit de lijsten verwijderd wordt. Start ook hier in het begin met 1000 deeltjes en hou bij hoeveel deeltjes er nog in de doos zitten en bepaal het tijdstip waarop voor het eerst (meer dan) de helft van de deeltjes uit de doos is verdwenen en print dat op het scherm:
 
- Je programma moet de volgende output op het scherm printen:
-
-    "Op t = xxx zijn voor het eerst meer dan 50% van de deeltjes verdwenen."
+     Op t = xxx zijn voor het eerst meer dan 50% van de deeltjes verdwenen
 
 **Nadenkertje:** Zou je ook zonder een computerprogramma een schatting voor $$t_{50}$$ kunnen geven? Hoe zou je dat aanpakken? Dit hoef je niet in te leveren.
 
@@ -74,9 +72,10 @@ afmeting geven en de deeltjes te laten botsen.
 
 ![](collidingballs_4.gif){: style="width:50%"}{:.inline}
 
-Je mag in deze opdracht zelf weten waar je de deeltjes neerzet in de doos op het startmoment. Omdat de animatie (nu met circels i.p.v puntjes zoals eerder in de opgave) net even lastiger is hebben we een voorbeeld template aangeleverd dat jullie zelf aan kunnen passen: [animation_template_circles.py](https://www.nikhef.nl/~ivov/Python/DeeltjesInDoos/animation_template_circles.py)
+Je mag in deze opdracht zelf weten waar je de deeltjes neerzet in de doos op het startmoment en met hoeveel deeltjes je begint. Begin met twee deeltjesom alles te testen en breid het aantal pas uit op het moment dat alles werkt. Omdat de animatie nu met cirkels (afmeting) i.p.v puntjes wordt gedaan wordt het wel iets lastiger is. Daarom hebben we een voorbeeld template gemaakt dat jullie als basis kunnen gebruiken en zelf aan kunnen passen.
+[animation_template_circles.py](https://www.nikhef.nl/~ivov/Python/DeeltjesInDoos/animation_template_circles.py)
 
-##### Opdracht 4: deeltjes: met afmeting en met botsen
+##### Opdracht 3: deeltjes: met afmeting en met botsen
 
 Schrijf een programma `deeltjes_in_doos_animatie_realistisch.py` om een paar deeltjes door de doos te zien bewegen als functie van de tijd. Gebruik hierbij als basis de bovenstaande template. Geef de deeltjes een afmeting en laat ze netjes van de wand ketsen als de rand van het deeltje de wand raakt. En dus niet het centrum van het deeltje. 
 
