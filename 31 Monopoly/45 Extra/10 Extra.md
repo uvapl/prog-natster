@@ -58,12 +58,15 @@ Schrijf een programma `deeltjes_deel2.py` dat een aantal simulaties runt en daar
 
 Probeer ook zonder computerprogramma een schatting te geven. Hoe zou je dat aanpakken?
 
-
 ## Deel 2: botsende deeltjes
 
 Deeltjes hebben een afmeting en massa en kunnen natuurlijk wel botsen. In de laatste stap van de opdracht gaan we proberen dat te implementeren.
 
-## Stap 2: botsingen en animeren
+<p align="center">
+![](collidingballs_4.gif){: style="width:50%"}
+</p>
+
+
 
 
 ## Checkpy
