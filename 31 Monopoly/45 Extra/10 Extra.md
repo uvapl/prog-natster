@@ -87,7 +87,7 @@ Geef de deeltjes een afmeting en laat ze netjes van de wand ketsen als de rand v
 
 ##### Opdracht 4: deeltjes met afmeting (met botsen)
 
-Schrijf een programma `deeltjes_in_doos_animatie_realistisch.py` dat gebaseerd is op die van opdracht 3, maar waarbij nu de deeltjes (met afmeting) realistisch botsen. Handig hierbij is misschien de afleiding van de botsingskinematica 
+Schrijf een programma `deeltjes_in_doos_animatie_realistisch.py` dat gebaseerd is op die van opdracht 3, maar waarbij nu de deeltjes (met afmeting) realistisch botsen. Handig hierbij is misschien de afleiding van de botsingskinematica in 2 dimensies nog even door te nemen:
 [2-dimensional elastic collisions without trigonometry](http://www.vobarian.com/collisions/2dcollisions2.pdf).
 
 
