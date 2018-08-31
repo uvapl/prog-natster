@@ -33,13 +33,13 @@ Het is handig om de volgende stappen te volgen:
 
    - Als je in het begin (t=0) de random snelheid en richting hebt gekozen voor het deeltje kan je die gelijk omschrijven in termen van vx en vy. Deze snelheden zullen niet meer veranderen van grootte (bedenk waarom niet), tenzij het deeltje tegen de wand botst natuurlijk.
    
-   - begin niet gelijk met 1000 deeltjes, maar volg eerst een enkel deeltje om te kijken of het deeltje zich wel gedraagt zoals je denkt dat je het geprogrammeerd hebt: ketst het bijvoorbeeld wel (goed) af van de wanden etc.
+   - begin niet gelijk met 1000 deeltjes, maar volg eerst een enkel deeltje om te kijken of het deeltje zich wel gedraagt zoals het moet. Ketst het bijvoorbeeld wel (goed) af van de wanden etc.
 
-   - Hoewel het helemaal in het begin van het programma handig is om het pad van een deeltje te volgen (botst hij wel netjes terug van de wanden) is het **niet** handig om in je programma voor elk deeltje de positie en snelheid bij als functie van de tijd bij te houden. Je programma bevat op elk moment in de tijd alleen de vier lijsten met de posities en snelheden die de deeltjes op dat moment hebben.
+   - Hoewel het helemaal in het begin van het programma handig is om het pad van een deeltje te volgen (botst hij wel netjes terug van de wanden) is het **niet** handig om in je programma voor elk deeltje de positie en snelheid als functie van de tijd bij te houden. Je programma bevat op elk moment in de tijd dus alleen de vier lijsten met de posities en snelheden van de deeltjes *op dat moment*.
    
 ##### stap 2: maak stapjes in de tijd
 
-Omdat elk deeltje een snelheid heeft zal zijn positie veranderen in de tijd. Maak kleine stapjes in de tijd ($$\Delta t$$) en bereken op welke nieuwe positie het deeltje terecht zal komen. Gebruik hiervoor, als voorbeeld voor de positie in de x-richting): 
+Omdat elk deeltje een snelheid heeft zal zijn positie veranderen in de tijd. Maak kleine stapjes in de tijd ($$\Delta t$$) en bereken op welke nieuwe positie het deeltje terecht zal komen. Als voorbeeld voor de positie in de x-richting: 
 
   $$x_i(t+\Delta_t) = x_i(t) + v_x,i(t)\Delta t$$ 
 
@@ -48,15 +48,15 @@ De snelheid in de x-richting zal onveranderd blijven, tenzij het deeltje tegen d
 
 ##### Opdracht 1: gesloten doos
 
-Schrijf een programma `deeltjes_in_doos.py` dat 100 deeltjes produceert en de simulatie in de tijd laat lopen gedurende een groot aantal stappen. Het programma moet twee grafieken produceren:
+Schrijf een programma `deeltjes_in_doos.py` dat de 1000 deeltjes produceert en de simulatie in de tijd laat lopen gedurende een groot aantal stappen. Het programma moet opleveren:
  
-   - Een grafiek van het aantal deeltjes aan de rechterkant van de doos ($$x_i > 0,5$$) als functie van de tijd.
+   - Een grafiek van het aantal deeltjes aan de rechterkant van de doos ($$x_i \geq 0,5$$) als functie van de tijd.
 
 ##### Opdracht 2: doos met een gat
 
-Stel nou dat er een gat in de doos zit ($$y_{gat} = 0$$ en $$0,8 \leq x_{gat} \leq 0,9$$). Het is dan mogelijk dat deeltjes uit de doos ontsnappen. Het tijdstip waarop (meer dan) de helft (of meer) van de deeltjes noemen we $$t_{50}$$.
+Stel nou dat er een gat in de doos zit ($$y_{gat} = 0$$ en $$0,8 \leq x_{gat} \leq 0,9$$). Het is dan mogelijk dat deeltjes uit de doos ontsnappen. Het tijdstip waarop voor het eerst de helft van de deeltjes verdwenen is noemen we $$t_{50}$$ en in deze opdracht gaan we die tijd bepalen.
 
-Gebruik je programma uit opdracht 1 als basis en breid die zodanig uit dat het als input een variabele `Igat` meeneemt als argument. Igat=0(1) betekent dat er niet (wel) een gat in de doos zit. Als je optie Igat=0 meegeeft dan produceert het programma de grafieken van opdracht 1. 
+Gebruik je programma uit opdracht 1 als basis en breid die uit zodat je functie als argument een variabele `Igat` meeneemt. Igat=0(1) betekent dat er niet (wel) een gat in de doos zit. Als je optie Igat=0 meegeeft dan produceert het programma de grafieken van opdracht 1. 
 
 Breid het programma uit opdracht 1 zo uit dat (optie Igat=1) deeltjes die door het gat verdwijnen uit de lijsten verwijderd worden. Hou op elk moment bij hoeveel deeltjes er nog in de doos zitten en bepaal de tijd waarop voor het eerst (meer dan) de helft van de deeltjes uit de doos zijn verdwenen. 
 
