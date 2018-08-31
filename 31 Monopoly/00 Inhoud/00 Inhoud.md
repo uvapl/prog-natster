@@ -8,7 +8,7 @@ Na een korte kennismaking met animaties in Python gaan we in de eerste 3 dagdele
 
 Tijdens dag 4 maken we ook kennis met het simuleren van een natuurkundig verschijnsel: vallen (met of zonder wrijving).
 
-#### Dag 1: Animaties en start Monopoly met vrij rondlopen
+#### Dag 1: Animaties en start Monopoly
 
 1. Leer hoe je [animaties](/technieken/animaties) maakt in Python
 
@@ -26,19 +26,23 @@ Tijdens dag 4 maken we ook kennis met het simuleren van een natuurkundig verschi
 1. <span class="badge badge-primary">Opdracht</span> Effect van een eindige hoeveelheid [startgeld](/monopoly/startgeld) in het spel
 
 
-#### Dag 3: Monopoly - tweede speler toevoegen en op zoek naar evenwicht
+#### Dag 3: Monopoly - $$2^e$$ speler en zoeken naar evenwicht
 
 1. <span class="badge badge-primary">Opdracht</span> Voeg een tweede speler toe en herstel het [evenwicht](/monopoly/twee-spelers)
 
 
 #### Dag 4: Natuurkunde simulaties: zwaartekracht
 
-4. <span class="badge badge-primary">Opdracht</span> Bestudeer de beweging van een vallende [appel](/beweging/appel)
+1. <span class="badge badge-primary">Opdracht</span> Bestudeer de beweging van een vallende [appel](/beweging/appel)
 
-5. Lees nog even terug over het gebruiken van [meerdere grafieken](/technieken/plot)
+2. Lees nog even terug over het gebruiken van [meerdere grafieken](/technieken/plot)
 
-6. <span class="badge badge-primary">Opdracht</span> Bestudeer de beweging van een [basejumper](/beweging/basejump)
+3. <span class="badge badge-primary">Opdracht</span> Bestudeer de beweging van een [basejumper](/beweging/basejump)
 
+
+#### Extra: Deeltjes in een doos
+
+1. <span class="badge badge-primary">Opdracht</span> Bestudeer de beweging van [deeltjes in een doos](/beweging/extra)
 
 
 
