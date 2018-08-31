@@ -42,7 +42,7 @@ Tijdens dag 4 maken we ook kennis met het simuleren van een natuurkundig verschi
 
 #### Extra: Deeltjes in een doos
 
-1. <span class="badge badge-primary">Opdracht</span> Bestudeer de beweging van [deeltjes in een doos](/beweging/extra)
+1. <span class="badge badge-primary">Opdracht</span> Bestudeer de beweging van [deeltjes in een doos](/monopoly/extra)
 
 
 
