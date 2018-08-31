@@ -49,17 +49,19 @@ De snelheid in de x-richting zal onveranderd blijven, tenzij het deeltje tegen d
 
 ##### Opdracht 1: gesloten doos
 
-Schrijf een programma `deeltjes_in_doos_gesloten.py` dat 100 deeltjes produceert en de simulatie in de tijd laat lopen gedurende een groot aantal stappen. Het programma moet twee grafieken produceren:
+Schrijf een programma `deeltjes_in_doos.py` dat 100 deeltjes produceert en de simulatie in de tijd laat lopen gedurende een groot aantal stappen. Het programma moet twee grafieken produceren:
  
    - Een grafiek van het aantal deeltjes aan de rechterkant van de doos ($$x_i > 0,5$$) als functie van de tijd.
-
-   - Een grafiek van de gemiddelde afstand tussen de deeltjes als functie van de tijd.
 
 ##### Opdracht 2: doos met een gat
 
 Stel nou dat er een gat in de doos zit ($$y_{gat} = 0$$ en $$0,8 \leq x_{gat} \leq 0,9$$). Het is dan mogelijk dat deeltjes uit de doos ontsnappen. Het tijdstip waarop (meer dan) de helft (of meer) van de deeltjes noemen we $$t_{50}$$.
 
-Schrijf een programma `deeltjes_in_doos_gat.py` dat een aantal simulaties runt en daarvan de tijd bepaalt waarop voor het eerst (meer dan) de helft van de deeltjes uit de doos zijn verdwenen. Start ook hier in het begin met 1000 deeltjes. Je programma moet de volgende output op het scherm printen:
+Gebruik je programma uit opdracht 1 als basis en breid die zodanig uit dat het als input een variabele `Igat` meeneemt als argument. Igat=0(1) betekent dat er niet (wel) een gat in de doos zit. Als je optie Igat=0 meegeeft dan produceert het programma de grafieken van opdracht 1. 
+
+Breid het programma uit opdracht 1 zo uit dat (optie Igat=1) deeltjes die door het gat verdwijnen uit de lijsten verwijderd worden. Hou op elk moment bij hoeveel deeltjes er nog in de doos zitten en bepaal de tijd waarop voor het eerst (meer dan) de helft van de deeltjes uit de doos zijn verdwenen. 
+
+Start ook hier in het begin met 1000 deeltjes. Je programma moet de volgende output op het scherm printen:
 
     "Op t = xxx zijn voor het eerst meer dan 50% van de deeltjes verdwenen."
 
