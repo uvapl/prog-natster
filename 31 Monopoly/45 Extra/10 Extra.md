@@ -58,15 +58,13 @@ Stel nou dat er een gat in de doos zit ($$y_{gat} = 0$$ en $$0,8 \leq x_{gat} \l
 
 Gebruik je programma uit opdracht 1 als basis en breid die uit zodat je functie als argument een variabele `Igat` meeneemt. Igat=0(1) betekent dat er niet (wel) een gat in de doos zit. Als je optie Igat=0 meegeeft dan produceert het programma de grafieken van opdracht 1. 
 
-Breid het programma uit opdracht 1 zo uit dat (optie Igat=1) deeltjes die door het gat verdwijnen uit de lijsten verwijderd worden. Hou op elk moment bij hoeveel deeltjes er nog in de doos zitten en bepaal de tijd waarop voor het eerst (meer dan) de helft van de deeltjes uit de doos zijn verdwenen. 
+Pas het programma zo aan dat als (Igat=1) een deeltje die door het gat verdwijnt uit de lijsten verwijderd wordt. Start ook hier in het begin met 1000 deeltjes en hou bij hoeveel deeltjes er nog in de doos zitten en bepaal het tijdstip waarop voor het eerst (meer dan) de helft van de deeltjes uit de doos is verdwenen en print dat op het scherm:
 
-Start ook hier in het begin met 1000 deeltjes. Je programma moet de volgende output op het scherm printen:
+ Je programma moet de volgende output op het scherm printen:
 
     "Op t = xxx zijn voor het eerst meer dan 50% van de deeltjes verdwenen."
 
-
 **Nadenkertje:** Zou je ook zonder een computerprogramma een schatting voor $$t_{50}$$ kunnen geven? Hoe zou je dat aanpakken? Dit hoef je niet in te leveren.
-
 
 ## Deel 2: botsende deeltjes
 
