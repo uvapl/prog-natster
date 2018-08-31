@@ -15,11 +15,13 @@ We gaan in deze opdracht de positie van een groot aantal deeltjes volgen. Hoewel
 
 Onze aannames in dit deel van de opdracht:
 
-   1.  De deeltjes ketsen elastisch tegen de wanden en kunnen de doos niet uit
+   1.  Er worden 1000 deeltjes geproduceerd
+   
+   2.  De deeltjes ketsen elastisch tegen de wanden en kunnen de doos niet uit
 
-   2.  De deeltjes hebben geen afmeting en kunnen niet botsen
+   3.  De deeltjes hebben geen afmeting en kunnen niet botsen
 
-   3.  De doos is gesloten
+   4.  De doos is gesloten
    
 Algemene aanpak van de simulatie:
 
