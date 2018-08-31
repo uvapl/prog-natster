@@ -37,7 +37,7 @@ Algemene aanpak van de simulatie:
 
 Omdat elk deeltje een snelheid heeft zal zijn positie veranderen in de tijd. Maak kleine stapjes in de tijd en bereken op welke nieuwe positie het deeltje terecht zal komen. Gebruik hiervoor, als voorbeeld voor de positie in de x-richting): 
 
-  $$x_i(t+\delta_t) = x_i(t) + v_x,i(t)\delta t  
+  $$x_i(t+\delta_t) = x_i(t) + v_x,i(t)\delta t$$ 
 
 De snelheid in de x-richting zal onveranderd blijven, tenzij het deeltje tegen de wand botst natuurlijk. Bedenk zelf wat er moet gebeuren als het deeltje op een positie buiten de doos terechtkomt. De deeltjes mogen de doos immers niet uit.
 
@@ -70,16 +70,14 @@ afmeting geven en de deeltjes te laten botsen.
 
 Je mag in deze opdracht zelf weten waar je de deeltjes neerzet in de doos op het startmoment. Omdat de animatie (nu met circels i.p.v puntjes zoals eerder in de opgave) net even lastiger is hebben we een voorbeeld template aangeleverd dat jullie zelf aan kunnen passen: [animation_template_circles.py](https://www.nikhef.nl/~ivov/Python/DeeltjesInDoos/animation_template_circles.py)
 
-*** Animatie puntdeeltjes. 
-
-##### Opdracht 3: bewegende deeltjes (zonder botsen)
+##### Opdracht 3: deeltjes met afmeting (zonder botsen)
 
 Schrijf een programma `deeltjes_deel3.py` om tien deeltjes door de doos te zien bewegen als functie van de tijd. Gebruik as basis het simpele voorbeeld van twee om elkaar draaiende balletjes uit het voorbeeld.
 
 Geef de deeltjes een afmeting en laat ze netjes van de wand ketsen als de rand van het deeltje de wand raakt (en dus niet het centrum van het deeltje). 
 
 
-##### Opdracht 4: bewegende deeltjes (met botsen)
+##### Opdracht 4: deeltjes met afmeting (met botsen)
 
 Schrijf een programma `deeltjes_deel4.py` dat gebaseerd is op die van opdracht 3, maar waarbij nu de deeltjes (met afmeting) realistisch botsen. Handig hierbij is misschien de afleiding van de botsingskinematica 
 [2-dimensional elastic collisions without trigonometry](http://www.vobarian.com/collisions/2dcollisions2.pdf).
