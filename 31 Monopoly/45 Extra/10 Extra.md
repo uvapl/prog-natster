@@ -22,6 +22,7 @@ Onze aannames in dit deel van de opdracht:
 Algemene aanpak van de simulatie:
 
   - **stap 1: genereer een beginsituatie.**
+  
   Elk deeltje wordt gekarakteriseerd door vier getallen: de x-positie (x), de y-positie (y) en de snelheid in de x-richting (vx) en de y-richting (vy). Maak daarom in het begin van je programma vier lijsten aan die de posities en snelheden van alle deeltjes bevatten.
   
 **Tips:**
