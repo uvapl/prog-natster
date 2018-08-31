@@ -66,9 +66,7 @@ inzicht geeft in mogelijke programmeerfouten en fenomenen die soms niet gelijk o
 vallen als je naar de vergelijkingen zelf kijkt. We zullen de deeltjes ook een 'echte'
 afmeting geven en de deeltjes te laten botsen.
 
-<p align="center">
-![](collidingballs_4.gif){: style="width:50%"}
-</p>
+![](collidingballs_4.gif){: style="width:50%"}{:.inline}
 
 a) Animatie puntdeeltjes. Gebruik het voorbeeld `animation template circles.py` om
 om de deeltjes door de doos te zien bewegen als functie van de tijd.
