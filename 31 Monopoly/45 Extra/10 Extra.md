@@ -42,7 +42,7 @@ Omdat elk deeltje een snelheid heeft zal zijn positie veranderen in de tijd. Maa
 De snelheid in de x-richting zal onveranderd blijven, tenzij het deeltje tegen de wand botst natuurlijk. Bedenk zelf wat er moet gebeuren als het deeltje op een positie buiten de doos terechtkomt. De deeltjes mogen de doos immers niet uit.
 
 
-#### Opdracht 1: gesloten doos
+##### Opdracht 1: gesloten doos
 
 Schrijf een programma `deeltjes_deel1.py` dat 100 deeltjes produceert en de simulatie in de tijd laat lopen gedurende een groot aantal stappen. Het programma moet twee grafieken produceren:
  
@@ -50,7 +50,7 @@ Schrijf een programma `deeltjes_deel1.py` dat 100 deeltjes produceert en de simu
 
    - Een grafiek van de gemiddelde afstand tussen de deeltjes als functie van de tijd.
 
-#### Opdracht 2: doos met een gat
+##### Opdracht 2: doos met een gat
 
 Stel nou dat er een gat in de doos zit ($$y_{gat} = 0$$ en $$0,8 \leq x_{gat} \leq 0,9$$). Het is dan mogelijk dat deeltjes uit de doos ontsnappen. Het tijdstip waarop (meer dan) de helft (of meer) van de deeltjes noemen we $$t_{/frac{1}{2}}$$.
 
@@ -72,20 +72,17 @@ Je mag in deze opdracht zelf weten waar je de deeltjes neerzet in de doos op het
 
 *** Animatie puntdeeltjes. 
 
-#### Opdracht 3: bewegende deeltjes (zonder botsen)
+##### Opdracht 3: bewegende deeltjes (zonder botsen)
 
 Schrijf een programma `deeltjes_deel3.py` om tien deeltjes door de doos te zien bewegen als functie van de tijd. Gebruik as basis het simpele voorbeeld van twee om elkaar draaiende balletjes uit het voorbeeld.
 
 Geef de deeltjes een afmeting en laat ze netjes van de wand ketsen als de rand van het deeltje de wand raakt (en dus niet het centrum van het deeltje). 
 
 
-#### Opdracht 4: bewegende deeltjes (met botsen)
+##### Opdracht 4: bewegende deeltjes (met botsen)
 
 Schrijf een programma `deeltjes_deel4.py` dat gebaseerd is op die van opdracht 3, maar waarbij nu de deeltjes (met afmeting) realistisch botsen. Handig hierbij is misschien de afleiding van de botsingskinematica 
 [2-dimensional elastic collisions without trigonometry](http://www.vobarian.com/collisions/2dcollisions2.pdf).
-
-
-
 
 
 
