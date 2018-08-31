@@ -27,7 +27,7 @@ Het is handig om de volgende stappen te volgen:
 
 ##### stap 1: genereer een beginsituatie
   
-  Elk deeltje wordt gekarakteriseerd door vier getallen: de x-positie (x), de y-positie (y) en de snelheid in de x-richting (vx) en de y-richting (vy). Maak daarom in het begin van je programma vier lijsten aan die de posities en snelheden van alle deeltjes bevatten.
+  Elk deeltje wordt op elk moment in de tijd gekarakteriseerd door maar vier getallen: de x-positie (x), de y-positie (y) en de snelheid in de x-richting (vx) en de y-richting (vy). Maak daarom in het begin van je programma vier lijsten aan die de posities en snelheden van alle deeltjes bevatten.
   
 **Tips:**
 
