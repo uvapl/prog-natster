@@ -23,7 +23,7 @@ Onze aannames in dit deel van de opdracht:
 
    4.  De doos is gesloten
    
-Algemene aanpak van de simulatie:
+Het is handig om de volgende stappen te volgen:
 
 ##### stap 1: genereer een beginsituatie
   
@@ -31,12 +31,12 @@ Algemene aanpak van de simulatie:
   
 **Tips:**
 
-   - Als je in het begin (t=0) de random snelheid en richting hebt gekozen voor het deeltje kan je die gelijk om schrijven in termen van vx en vy. Deze snelheden zullen niet meer veranderen (bedenk waarom niet), tenzij het deeltje tegen de wand botst natuurlijk.
+   - Als je in het begin (t=0) de random snelheid en richting hebt gekozen voor het deeltje kan je die gelijk omschrijven in termen van vx en vy. Deze snelheden zullen niet meer veranderen van grootte (bedenk waarom niet), tenzij het deeltje tegen de wand botst natuurlijk.
    
-   - begin niet gelijk met 1000 deeltjes, maar volg een enkel deeltje in de tijd om te kijken of het deeltje zich wel gedraagt zoals je denkt dat je het geprogrammeerd hebt: ketst het bijvoorbeeld wel (goed) af van de wanden etc.
+   - begin niet gelijk met 1000 deeltjes, maar volg eerst een enkel deeltje om te kijken of het deeltje zich wel gedraagt zoals je denkt dat je het geprogrammeerd hebt: ketst het bijvoorbeeld wel (goed) af van de wanden etc.
 
-   - Hoewel het helemaal in het begin van het programma handig is om het pad van een deeltje te volgen (botst hij wel netjes terug van de wanden) is het **niet** handig om in je programma voor elk deeltje de positie en snelheid bij als functie van de tijd bij te houden. De vier lijsten die we eerder genoemd hebben bevatten alleen de posities en snelheden op een enkel tijdstip. 
-
+   - Hoewel het helemaal in het begin van het programma handig is om het pad van een deeltje te volgen (botst hij wel netjes terug van de wanden) is het **niet** handig om in je programma voor elk deeltje de positie en snelheid bij als functie van de tijd bij te houden. Je programma bevat op elk moment in de tijd alleen de vier lijsten met de posities en snelheden die de deeltjes op dat moment hebben.
+   
 ##### stap 2: maak stapjes in de tijd
 
 Omdat elk deeltje een snelheid heeft zal zijn positie veranderen in de tijd. Maak kleine stapjes in de tijd ($$\Delta t$$) en bereken op welke nieuwe positie het deeltje terecht zal komen. Gebruik hiervoor, als voorbeeld voor de positie in de x-richting): 
@@ -48,7 +48,7 @@ De snelheid in de x-richting zal onveranderd blijven, tenzij het deeltje tegen d
 
 ##### Opdracht 1: gesloten doos
 
-Schrijf een programma `deeltjes_deel1.py` dat 100 deeltjes produceert en de simulatie in de tijd laat lopen gedurende een groot aantal stappen. Het programma moet twee grafieken produceren:
+Schrijf een programma `deeltjes_in_doos_gesloten.py` dat 100 deeltjes produceert en de simulatie in de tijd laat lopen gedurende een groot aantal stappen. Het programma moet twee grafieken produceren:
  
    - Een grafiek van het aantal deeltjes aan de rechterkant van de doos ($$x_i > 0,5$$) als functie van de tijd.
 
@@ -56,11 +56,15 @@ Schrijf een programma `deeltjes_deel1.py` dat 100 deeltjes produceert en de simu
 
 ##### Opdracht 2: doos met een gat
 
-Stel nou dat er een gat in de doos zit ($$y_{gat} = 0$$ en $$0,8 \leq x_{gat} \leq 0,9$$). Het is dan mogelijk dat deeltjes uit de doos ontsnappen. Het tijdstip waarop (meer dan) de helft (of meer) van de deeltjes noemen we $$t_{/frac{1}{2}}$$.
+Stel nou dat er een gat in de doos zit ($$y_{gat} = 0$$ en $$0,8 \leq x_{gat} \leq 0,9$$). Het is dan mogelijk dat deeltjes uit de doos ontsnappen. Het tijdstip waarop (meer dan) de helft (of meer) van de deeltjes noemen we $$t_{\frac{1}{2}}$$.
 
-Schrijf een programma `deeltjes_deel2.py` dat een aantal simulaties runt en daarvan de  gemiddelde tijd uitrekent waarop in een simulatie (meer dan) de helft van de deeltjes uit de doos verdwenen zijn. Gebruik 100 simulaties die elk 100 deeltjes bevatten.
+Schrijf een programma `deeltjes_in_doos_gat.py` dat een aantal simulaties runt en daarvan de tijd bepaalt waarop voor het eerst (meer dan) de helft van de deeltjes uit de doos zijn verdwenen. Start ook hier in het begin met 1000 deeltjes. Je programma moet de volgende output op het scherm printen:
 
-Probeer ook zonder computerprogramma een schatting te geven. Hoe zou je dat aanpakken?
+    "Op t = xxx zijn voor het eerst meer dan 50% van de deeltjes verdwenen."
+
+
+**Extra:** Dit hef je niet in te leveren, maar probeer ook zonder computerprogramma een schatting te geven. Hoe zou je dat aanpakken?
+
 
 ## Deel 2: botsende deeltjes
 
@@ -76,14 +80,14 @@ Je mag in deze opdracht zelf weten waar je de deeltjes neerzet in de doos op het
 
 ##### Opdracht 3: deeltjes met afmeting (zonder botsen)
 
-Schrijf een programma `deeltjes_deel3.py` om tien deeltjes door de doos te zien bewegen als functie van de tijd. Gebruik as basis het simpele voorbeeld van twee om elkaar draaiende balletjes uit het voorbeeld.
+Schrijf een programma `deeltjes_in_doos_animatie.py` om tien deeltjes door de doos te zien bewegen als functie van de tijd. Gebruik as basis het simpele voorbeeld van twee om elkaar draaiende balletjes uit het voorbeeld.
 
 Geef de deeltjes een afmeting en laat ze netjes van de wand ketsen als de rand van het deeltje de wand raakt (en dus niet het centrum van het deeltje). 
 
 
 ##### Opdracht 4: deeltjes met afmeting (met botsen)
 
-Schrijf een programma `deeltjes_deel4.py` dat gebaseerd is op die van opdracht 3, maar waarbij nu de deeltjes (met afmeting) realistisch botsen. Handig hierbij is misschien de afleiding van de botsingskinematica 
+Schrijf een programma `deeltjes_in_doos_animatie_realistisch.py` dat gebaseerd is op die van opdracht 3, maar waarbij nu de deeltjes (met afmeting) realistisch botsen. Handig hierbij is misschien de afleiding van de botsingskinematica 
 [2-dimensional elastic collisions without trigonometry](http://www.vobarian.com/collisions/2dcollisions2.pdf).
 
 
