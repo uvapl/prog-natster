@@ -98,7 +98,7 @@ Nu is het tijd om zelf een fractal te tekenen.
 
 ### Opdracht: 
 
-Bepaal in je programma `fractal.py`voor elk punt $$z_0$$ in het complexe vlak of de reeks convergeert of divergeert onder de polynoom voor de Mandelbrot set:
+Bepaal in je programma `fractal.py` voor elk punt $$z_0$$ in het complexe vlak of de reeks convergeert of divergeert onder de polynoom voor de Mandelbrot set:
 
    $$f(z) = z^2 + z_0$$. 
     
