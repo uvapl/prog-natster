@@ -39,6 +39,17 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 3. <span class="badge badge-primary">Opdracht:</span> Bereken de oppervlakte van een vreemde vorm: [het Twitter-ei](/integreren/ei)
 
 
+#### Extra opdracht: fractals - de Mandelbrot set
+
+<p align="center">
+![](mandelbrot.png){: style="width:25%"}{:.inline}
+</p>
+
+In deze opgave gaan we in op de wiskunde achter de fractals en gaan we proberen daarmee zelf de meest bekende te reconstrueren en te tekenen: de Mandelbrot set. Duik in [de wereld van fractals](/integreren/extra)
+
+
+
+
 #### Inleveren en evaluatie
 
 1. Ga naar [deze pagina](/integreren/inleveren) om je programma's in te leveren.
