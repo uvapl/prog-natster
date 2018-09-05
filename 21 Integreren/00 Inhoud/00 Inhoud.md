@@ -42,10 +42,10 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 #### Extra opdracht: fractals - de Mandelbrot set
 
 <p align="center">
-![](mandelbrot.png){: style="width:25%"}{:.inline}
+![](mandelbrot.png){: style="width:20%"}{:.inline}
 </p>
 
-In deze opgave gaan we in op de wiskunde achter de fractals en gaan we proberen daarmee zelf de meest bekende te reconstrueren en te tekenen: de Mandelbrot set. Duik in [de wereld van fractals](/integreren/extra)
+In de extra opgave voor module 2 bestuderen we eerst kort de wiskunde achter de fractals en gaan daarmee zelf de meest bekende daarvan  reconstrueren en te tekenen: de Mandelbrot set. Duik in de wereld van complexe getallen en [fractals](/integreren/extra).
 
 
 
