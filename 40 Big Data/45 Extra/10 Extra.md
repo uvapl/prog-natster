@@ -1,4 +1,4 @@
-# Reproduceren grafieken in de krant & zelf data verzamelen
+# Zelf data verzamelen
 
 In de eerste opdracht van deze module hebben we de data van een [autorit](/big-data/dataverwerken) verwerkt, maar dat is zo passief. Net als de temperatuur-data van de KNMI is het een bestaande en geprepareerde data-set die je 'alleen nog maar even' door je programma heen hoeft te halen om de gevraagde data eruit te filteren en het in sommige gevallen (ook) in een voorgeschreven grafiek hoeft te presenteren. Saai.
 
