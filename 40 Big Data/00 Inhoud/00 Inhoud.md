@@ -13,8 +13,8 @@ In deze module gaan we leren hoe we informatie uit een grote data-set halen.
 1. <span class="badge badge-primary">Opdracht</span> Graven in de [KNMI temperatuur-data](/big-data/klimaatdiscussie) van de 20ste eeuw
 
 
-#### Extra: Journalisten controleren & zelf data verzamelen 
+#### Extra: zelf data verzamelen, analyseren en presenteren
 
-1. <span class="badge badge-primary">Opdracht</span> Reproduceren grafiek over klimaat-trends in de Volkskrant en [zelf data verzamelen](/big-data/extra).
+1. <span class="badge badge-primary">Opdracht</span> Na het verwerken van bestaande data is het tijd om [zelf data te  verzamelen](/big-data/extra), te analyseren en te presenteren naar het grote publiek.
 
 
