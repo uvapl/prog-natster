@@ -11,7 +11,7 @@ Zoals gezegd is een computer geweldig in het snel uitvoeren van een heleboel "do
 
 ## Specificatie
 
-- Vraag de gebruiker om de rangorde van het priemgetal (het hoeveelste) in te voeren. Dit moet natuurlijk een geheel en positief getal zijn.
+- Vraag de gebruiker om de rangorde van het priemgetal (het hoeveelste) in te voeren. Dit moet natuurlijk een geheel en positief getal zijn. Je programma hoeft niet te controleren of de input wel een geheel en positief getal is, maar moet wel werken voor alle gehele positieve getallen als input.
 
 - Als de gebruiker een rangorde invult die niet toegestaan is, dan vraag je de gebruiker opnieuw naar de rangorde. Net zo lang tot de gebruiker een geldige rangorde invult. Omdat je niet weet hoe vaak dat zal zijn, moet het een `while`-loop worden!
 
