@@ -15,7 +15,7 @@ Schrijf een functie die middels de Riemannsom de integraal berekent van een will
 	- `b` het einde van het gebied
 	- `n` hoeveel rechthoeken we gebruiken om de integraal te bepalen.
 
-- De functie `riemann()` moet de oppervlakte onder de grafiek teruggeven als resultaat.
+- De functie `riemann()` moet de juiste waarde van de integraal teruggeven als resultaat.
 
 ## Tests
 
