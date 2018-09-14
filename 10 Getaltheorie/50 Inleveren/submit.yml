@@ -6,3 +6,5 @@ files:
         - reeks.py
         - goldbach.py
         - plot.py
+    extra:
+        - onderlingpriem.py
