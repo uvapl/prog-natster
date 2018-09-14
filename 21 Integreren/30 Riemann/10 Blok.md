@@ -1,6 +1,6 @@
 # Riemann
 
-Schrijf een functie die middels de Riemannsom de integraal berekent van een willekeurige wiskundige functie.
+Schrijf een functie die middels de Riemann-som de integraal berekent van een willekeurige wiskundige functie.
 
 ## Specificatie
 
