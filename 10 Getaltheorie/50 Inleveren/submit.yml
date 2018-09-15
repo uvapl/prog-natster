@@ -1,6 +1,6 @@
 name: module1
 files:
-    vereist:
+    required:
         - rekenwonder.py
         - priemgetal.py
         - reeks.py
