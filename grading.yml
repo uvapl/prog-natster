@@ -3,8 +3,11 @@ grades:
         type: float
         subgrades:
             scope: integer
-            style: integer
-        calculation: ((scope/14.0) * 9 + 1).round(1)
+            stijl: integer
+            extra: integer
+        automatic:
+            scope: (check_score * 5).floor
+        calculation: ((3 * scope + stijl) / 20.0 * 8 + (extra / 10.0) + 1).round(1)
         hide_calculated: true
     module2:
         type: float
