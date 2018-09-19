@@ -1,6 +1,6 @@
 # Riemann
 
-Schrijf een functie die met behulp van een Riemann-som de integraal berekent van een willekeurige wiskundige functie (met gespecificeerde integratiegrenzen). De wiskundige functie moet ook op het scherm weergeven worden.
+Schrijf een functie die met behulp van een Riemann-som de integraal berekent van een willekeurige wiskundige functie met gespecificeerde integratiegrenzen. De wiskundige functie moet ook op het scherm weergeven worden.
 
 ## Specificatie
 
