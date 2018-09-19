@@ -1,6 +1,6 @@
 # Riemann
 
-Schrijf een functie die middels de Riemann-som de integraal berekent van een willekeurige wiskundige functie.
+Schrijf een functie die met behulp van een Riemann-som de integraal berekent van een willekeurige (wiskundige) functie en gespecificeerd domein. De functie moet ook de (wiskundige) functie op het scherm weergeven.
 
 ## Specificatie
 
@@ -16,6 +16,9 @@ Schrijf een functie die middels de Riemann-som de integraal berekent van een wil
 	- `n` hoeveel rechthoeken we gebruiken om de integraal te bepalen.
 
 - De functie `riemann()` moet de juiste waarde van de integraal teruggeven als resultaat.
+
+- De functie `riemann()` moet de functie op het scherm tekenen.
+
 
 ## Tests
 
