@@ -49,7 +49,7 @@ Zet deze functies in je eigen programma en zorg dat je onderaan een aantal keer 
 
 - Maak een plaatje van je grafiek zodat je duidelijk ziet welk gebied je aan het integreren bent. Je kunt in je `riemann()`-functie een stukje code opnemen om de grafiek te plotten.
 
-- Test je functie altijd eerst op een integraal waarvan je de uitkomst kent. Dit is het geval voor een aantal van de functies die hierboven staan weergegeven. pas als je die goed hebt kan je met vertrouwen de onbekende nieuwe integraal aanpakken.
+- Test je functie altijd eerst op een integraal waarvan je de uitkomst kent. Dit is het geval voor een aantal van de functies die hierboven staan weergegeven. Pas als jouw functie die integralen goed uitrekent kan je met vertrouwen de onbekende nieuwe integraal aanpakken.
 
 
 ## Debuggen
