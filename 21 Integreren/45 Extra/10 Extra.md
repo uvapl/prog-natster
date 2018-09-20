@@ -78,7 +78,7 @@ De Mandelbrot set is gedefiniëerd door de functie die we al eerder gezien hebbe
     
 , waarbij $$z_0$$ het startpunt is. 
 
-Voor een gegeven startpunt kan de reeks divergeren of convergeren. Als voorbeeld van beide gevallen staan hieronder de eerste 10 punten in de reeks voor twee startpunten $$z = -0.20 + 0.25i$$ en $$z = 0.50 + 0.25i$$.
+Voor een gegeven startpunt kan de reeks divergeren of convergeren. Als voorbeeld van beide gevallen staan hieronder de eerste 10 punten in de reeks voor twee startpunten $$z (= z_0) = -0.20 + 0.25i$$ en $$z (= z_0) = 0.50 + 0.25i$$.
 
       z0 = -0.20 + 0.25i       z0 = 0.50 + 0.25i
       ------------------       ------------------
