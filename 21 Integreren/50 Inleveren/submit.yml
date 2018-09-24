@@ -1,9 +1,12 @@
 name: module2
 files:
-    vereist:
+    required:
         - nulpunten.py
         - riemann.py
         - randomwiskunde.py
         - afstand.py
         - histogram.py
         - montecarlo.py
+        - twitter.py
+    extra:
+        - extra.py
