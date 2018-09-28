@@ -16,7 +16,7 @@ We gaan een programma schrijven dat (een groot aantal potjes van) een vereenvoud
 
 	- `aantal_potjes` het aantal potjes dat gesimuleerd wordt
 	
-- De functie `simuleer_groot_aantal_potjes_Monopoly(aantal_potjes)` moet het gemiddeld aantal worpen teruggeeft dat nodig was om alle straten in je bezit te krijgen (via `return`).
+- De functie `simuleer_groot_aantal_potjes_Monopoly(aantal_potjes)` moet het gemiddeld aantal worpen teruggeven dat nodig was om alle straten in je bezit te krijgen (via `return`).
 
 
 ## Achtergrond
