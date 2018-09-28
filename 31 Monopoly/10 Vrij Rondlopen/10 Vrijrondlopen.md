@@ -1,6 +1,6 @@
 # Donald Trump edition
 
-Schrijf een programma dat een vereenvoudigde versie van het spel Monopoly simuleert.
+We gaan een programma schrijven dat (een groot aantal potjes van) een vereenvoudigde versie van het spel Monopoly simuleert.
 
     Monopoly simulator: 1 speler, Trump mode
     We hebben 10000 potjes gesimuleerd
@@ -176,7 +176,7 @@ Tip: als je een groot aantal potjes simuleert is het handig als het programma la
 
 ## En dan: de uitkomst teruggeven
 
-Zorg tot slot dat de functie `simuleer_groot_aantal_potjes_Monopoly()` nu het gemiddeld aantal worpen teruggeeft dat nodig was om alle straten in je bezit te krijgen (via `return`).
+Zorg tot slot dat de functie `simuleer_groot_aantal_potjes_Monopoly(aantal_potjes)` het gemiddeld aantal worpen teruggeeft dat nodig was om alle straten in je bezit te krijgen (via `return`).
 
 ## Testen
 
