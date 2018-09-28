@@ -34,7 +34,7 @@ Het doel is om dit verschil te achterhalen door een grot aantal potjes te simule
 
    Hou voor beide spelers de hoeveelheid geld en positie bij. In het begin van het spel bijvoorbeeld geldt voor de posities van de spelers: `positie_1 = 0` en `positie_2 = 0`, maar de dapperen onder jullie kunnen de posities ook bijhouden in lijsten zoals `positie_lijst = [0,0]`. Dezelfde twee opties heeft u bij de hoeveelheid geld dat speler1 en speler 2 heeft tijdens het spel. Standaard is twee losse variabelen, maar je mag ook lijsten gebruiken.
    
-Test de code altijd voor een enkel potje en bekijk goed of het doet wat je denk dat het zou moeten doen. Ga pas dan het aantal potjes vergroten. Gebruik daarvoor weer dezelfde opzet als je had in de functie `simuleer_groot_aantal_potjes_Monopoly()` en zorg ervoor dat je de vraag kunt beantwoorden. 
+Test de code altijd voor een enkel potje en bekijk goed of het doet wat je denk dat het zou moeten doen. Ga pas dan het aantal potjes vergroten. Gebruik daarvoor weer dezelfde opzet als je had in de functie uit de eerste opdracht en geeft nu naast het aantal potjes ook het startgeld van beide spelers mee: `simuleer_groot_aantal_potjes_Monopoly(aantal_potjes,startgeld_speler_1,startgeld_speler_2)` en zorg ervoor dat je de vraag kunt beantwoorden. 
 
 Print uiteindelijk het verschil naar het scherm:
 {: .language-python}
@@ -45,7 +45,8 @@ Print uiteindelijk het verschil naar het scherm:
 
 De vraag is nu of en zo ja hoe we deze 'oneerlijke' situatie kunnen repareren. Een van de 'knoppen' waar je aan kan draaien in dit spel is de hoeveelheid startgeld die de spelers krijgen. Als speler 2 meer startgeld krijgt kan hij iets van zijn achterstand repareren. Bepaal de hoeveelheid extra startgeld die we aan speler 2 moeten geven aan het begin van het spel zodat hij gemiddeld net zoveel straten in zijn bezit heeft als speler 1 op het moment dat alle straten verdeeld zijn. 
 
-Definieer een nieuwe functie `Evenwicht()` waarin je de functie      `simuleer_groot_aantal_potjes_Monopoly(startgeld_speler_1,startgeld_speler_2)` steeds aanroept met verschillende waardes van startgeld voor speler 2. Speler 1 houdt gewoon 1500 euro startgeld. Probeer dit voor 'extra' geld voor speler 2 van 0, 50, 100, 150, 200 euro en print steeds het gemiddelde verschil als volgt op het scherm:
+Definieer een nieuwe functie `Evenwicht()` waarin je de functie      `simuleer_groot_aantal_potjes_Monopoly(aantal_potjes,startgeld_speler_1,startgeld_speler_2)` 
+steeds aanroept met verschillende waardes van startgeld voor speler 2. Speler 1 houdt gewoon 1500 euro startgeld. Probeer dit voor 'extra' geld voor speler 2 van 0, 50, 100, 150, 200 euro en print steeds het gemiddelde verschil als volgt op het scherm:
 
     Startgeld [1500,1550]: speler 1 gemiddeld X.XX meer straten (speler 2 50 euro extra)
     Startgeld [1500,1600]: speler 1 gemiddeld X.XX meer straten (speler 2 100 euro extra)
