@@ -6,6 +6,19 @@ We gaan een programma schrijven dat (een groot aantal potjes van) een vereenvoud
     We hebben 10000 potjes gesimuleerd
     Gemiddeld duurde het XXX worpen voor de speler alle straten in zijn bezit had
 
+## Specificatie
+
+- Maak een nieuw bestand genaamd `monopoly_opdracht1`
+
+- Schrijf een functie `simuleer_groot_aantal_potjes_Monopoly()` die een groot aantal potjes kan simuleren.
+
+- De functie `simuleer_groot_aantal_potjes_Monopoly()` heeft één argument:
+
+	- `aantal_potjes` het aantal potjes dat gesimuleerd wordt
+	
+- De functie `simuleer_groot_aantal_potjes_Monopoly(aantal_potjes)` moet het gemiddeld aantal worpen teruggeeft dat nodig was om alle straten in je bezit te krijgen (via `return`).
+
+
 ## Achtergrond
 
 We gaan een groot aantal potjes Monopoly simuleren waarin we 1 speler rond laten lopen en hem straten laten kopen. We spelen in de zogenaamde Trump-Mode. De speler heeft oneindig veel geld, er is geen concurrentie. Doel van deze opdracht is om te bepalen wat het gemiddeld aantal worpen is
