@@ -12,9 +12,9 @@ begint met een bepaalde hoeveelheid startgeld en dat je gedurende het spel bijho
 
 Voor een enkel potje ziet de code er dus ongeveer zo uit:
 
-    aantal_worpen = simuleer_potje_Monopoly(startgeld_speler)
+    aantal_worpen = simuleer_potje_Monopoly(aantal_potjes, startgeld_speler)
 
-Ook hier zullen we weer net als in opdracht 1 een groot aantal potjes simuleren. Zorg dat het startgeld van de speler meeggeven wordt: `simuleer_groot_aantal_potjes_Monopoly(startgeld_speler)` als inputwaarde meekrijgt. Deze functie zal dit startgeld dan weer doorgeven aan een individueel potje.
+Ook hier zullen we weer net als in opdracht 1 een groot aantal potjes simuleren. Zorg dat het startgeld van de speler meeggeven wordt: `simuleer_groot_aantal_potjes_Monopoly(aantal_potjes, startgeld_speler)` als inputwaarde meekrijgt. Deze functie zal dit startgeld dan weer doorgeven aan een individueel potje.
 
 Begin met 3000 euro startgeld en verlaag dat steeds met 500 euro: 2500, 2000, 1500, 1000, 500 tot 0 euro. Simuleer voor elke keuze van het startgeld 25000 potjes om zo nauwkeurig mogelijk het gemiddeld aantal worpen te bepalen dat nodig is om alle straten te kopen en maak uiteindelijk 
 een grafiek van het gemiddeld aantal worpen als functie van de hoeveelheid startgeld. 
