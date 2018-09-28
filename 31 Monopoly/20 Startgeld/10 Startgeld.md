@@ -10,9 +10,9 @@ elke keer dat je START passeert. Zo'n eindige hoeveelheid startgeld heeft invloe
 Pas in je nieuwe programma de functie `simuleer_potje_Monopoly()` zo aan dat je elk potje 
 begint met een bepaalde hoeveelheid startgeld en dat je gedurende het spel bijhoudt hoeveel geld je op elk moment hebt. Evalueer nu ook elke keer dat je op een veld terechtkomt die nog te koop staat of je wel genoeg geld heeft om het te kopen. De verwachting is dat je in een potje nu gemiddeld iets meer worpen nodig hebt om alle straten te kopen dan in opdracht 1 waarin geld geen rol speelde.
 
-Voor een enkel potje ziet de code er dus ongeveer zo uit:
+Voor een *enkel* potje ziet de code er dus ongeveer zo uit:
 
-    aantal_worpen = simuleer_potje_Monopoly(aantal_potjes, startgeld_speler)
+    aantal_worpen = simuleer_potje_Monopoly(startgeld_speler)
 
 Ook hier zullen we weer net als in opdracht 1 een groot aantal potjes simuleren. Zorg dat het startgeld van de speler meeggeven wordt: `simuleer_groot_aantal_potjes_Monopoly(aantal_potjes, startgeld_speler)` als inputwaarde meekrijgt. Deze functie zal dit startgeld dan weer doorgeven aan een individueel potje.
 
