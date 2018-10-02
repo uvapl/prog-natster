@@ -20,7 +20,7 @@ programma afgelopen is.
 Schrijf een programma `student.py` waarin je de animatie van de **twee** studenten op het scherm laat zien, net zoals in het voorbeeld hierboven.
 
 Het is niet verplicht, maar je zou eens kunnen proberen of je ook met pen en papier iets kan zeggen over de gemiddelde afstand die de studenten van elkaar verwijderd zijn als functie van het aantal
-stappen dat ze nemen. Je hoeft dit niet in te leveren, maar overleg eens met je mede studenten hoe je dit zou aanpakken.
+stappen dat ze nemen. Je hoeft dit niet in te leveren, maar overleg eens met je collega-studenten hoe je dit zou aanpakken.
 
 Filmpje opslaan? Probeer een tool als [GifGrabber](http://www.gifgrabber.com)
 te gebruiken om een animated gif te maken. Die kan je in een webbrowser
