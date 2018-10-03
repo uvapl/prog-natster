@@ -13,6 +13,8 @@ We gaan in deze opdracht de positie van een groot aantal deeltjes volgen. In dee
 
 ## Deel 1: niet-botsende deeltjes
 
+Schrijf een programma `deeltjes_in_doos.py` dat de 1000 deeltjes produceert en de simulatie in de tijd laat lopen gedurende een groot aantal stappen. Het programma dan een grafiek opleveren van het aantal deeltjes dat zich aan de rechterkant van de doos bevindt (dus $$x_i \geq 0,5$$) als functie van de tijd.
+
 De aannames en specificaties in dit deel van de opdracht:
 
    1.  Er worden 1000 deeltjes geproduceerd
@@ -46,12 +48,7 @@ Omdat elk deeltje een snelheid heeft zal zijn positie veranderen in de tijd. Maa
 De snelheid in de x-richting zal onveranderd blijven, tenzij het deeltje tegen de wand botst natuurlijk. Bedenk zelf wat er moet gebeuren als het deeltje op een positie buiten de doos terechtkomt. De deeltjes mogen de doos immers niet uit.
 
 
-### Opdracht 1: gesloten doos
-
-Schrijf een programma `deeltjes_in_doos.py` dat de 1000 deeltjes produceert en de simulatie in de tijd laat lopen gedurende een groot aantal stappen. Het programma dan een grafiek opleveren van het aantal deeltjes dat zich aan de rechterkant van de doos bevindt (dus $$x_i \geq 0,5$$) als functie van de tijd.
-
-
-### Opdracht 2: doos met een gat
+## Deel 2: doos met een gat
 
 Stel nou dat er een gat in de doos zit ($$y_{gat} = 0$$ en $$0,8 \leq x_{gat} \leq 0,9$$). Het is dan mogelijk dat deeltjes uit de doos ontsnappen. Het tijdstip waarop voor het eerst de helft van de deeltjes verdwenen is noemen we $$t_{50}$$ en in deze opdracht gaan we die tijd bepalen.
 
@@ -64,7 +61,7 @@ Pas het programma zo aan dat als (Igat=1) een deeltje die door het gat verdwijnt
 **Nadenkertje:** Zou je ook zonder een computerprogramma een schatting voor $$t_{50}$$ kunnen geven? Hoe zou je dat aanpakken? Dit hoef je niet in te leveren.
 
 
-## Deel 2: botsende deeltjes
+## Deel 3: botsende deeltjes
 
 Er zijn verschillende mogelijkheden om deze simulatie uit te breiden met meer realisme. Het visualiseren van een simulatie is erg leuk en interessant omdat het je meer
 inzicht geeft in mogelijke programmeerfouten en fenomenen die soms niet gelijk opvallen als je naar de vergelijkingen zelf kijkt. We zullen de deeltjes ook een 'echte'
