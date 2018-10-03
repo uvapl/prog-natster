@@ -4,7 +4,7 @@
 ![embed](https://player.vimeo.com/video/233508920)
 </div>
 
-Na een korte kennismaking met animaties in Python gaan we in de eerste 3 dagdelen van deze module het spel Monopoly simuleren. Het is ondoenlijk om dit analytisch te doen omdat er met het gebruik van dobbelstenen een ingewikkeld element van kans in het spel besloten ligt is. Daarnaast gaan we simulaties toepassen in de natuurkunde om beweging bij vallen te bestuderen.
+Na een korte kennismaking met animaties in Python gaan we het spel Monopoly simuleren. Het is ondoenlijk om dit analytisch te doen omdat er met het gebruik van dobbelstenen een ingewikkeld element van kans in het spel besloten ligt is. Daarnaast gaan we simulaties toepassen in de natuurkunde om beweging bij vallen te bestuderen.
 
 #### Animaties
 
