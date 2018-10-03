@@ -20,9 +20,9 @@ Maak een bestand **appel.py** en schrijf daarin een functie `appel()` die de ben
 
 1. Na hoeveel seconden raakt de appel de grond?
 
-2. Met welke snelheid ($${km}/{uur}$$) raakt de appel de grond?
+2. Met welke snelheid (km/u) raakt de appel de grond?
 
-3. Na hoeveel seconden heeft de appel een snelheid van $$100 {km}/{uur}$$ bereikt? Is
+3. Na hoeveel seconden heeft de appel een snelheid van $$100$$ km/u bereikt? Is
     een vallende appel daarmee sneller dan Bugatti Veyron ($$2.46$$ seconden) of niet?
 
 De uitvoer moet heel precies zijn en alleen de gevraagde waarden bevatten zoals in het voorbeeld bovenaan.
