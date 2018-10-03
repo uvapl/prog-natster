@@ -6,7 +6,7 @@
 
 Na een korte kennismaking met animaties in Python gaan we in de eerste 3 dagdelen van deze module het spel Monopoly simuleren. Het is ondoenlijk om dit analytisch te doen omdat er met het gebruik van dobbelstenen een ingewikkeld element van kans in het spel besloten ligt is. Daarnaast gaan we simulaties toepassen in de natuurkunde om beweging bij vallen te bestuderen.
 
-#### Dag 1: Animaties
+#### Animaties
 
 1. Leer hoe je [animaties](/technieken/animaties) maakt in Python
 
@@ -14,21 +14,21 @@ Na een korte kennismaking met animaties in Python gaan we in de eerste 3 dagdele
 
 3. <span class="badge badge-primary">Opdracht</span> Laat zien hoe een [dronken student](/beweging/student) beweegt
 
-**Monopoly**
+#### Monopoly deel 1
 
 4. Lees over [Monopoly](/monopoly/inleiding)
 
 5. <span class="badge badge-primary">Opdracht</span> Monopoly met 1 speler in [Donald Trump-mode](/monopoly/vrij-rondlopen)
 
-#### Dag 2: Monopoly
+#### Monopoly deel 2
 
 1. <span class="badge badge-primary">Opdracht</span> Effect van een eindige hoeveelheid [startgeld](/monopoly/startgeld) in het spel
 
-#### Dag 3: Monopoly
+#### Monopoly deel 3
 
 1. <span class="badge badge-primary">Opdracht</span> Voeg een tweede speler toe en herstel het [evenwicht](/monopoly/twee-spelers)
 
-#### Dag 4: Natuurkunde-simulaties
+#### Natuurkunde-simulaties
 
 1. <span class="badge badge-primary">Opdracht</span> Bestudeer de beweging van een vallende [appel](/beweging/appel)
 
