@@ -1,4 +1,4 @@
-# Monopoly
+# Module 3: Monopoly
 
 <div style="width: 40%; float:right; margin-left: 2em;">
 ![embed](https://player.vimeo.com/video/233508920)
