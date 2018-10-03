@@ -14,7 +14,7 @@ Na een korte kennismaking met animaties in Python gaan we in de eerste 3 dagdele
 
 3. <span class="badge badge-primary">Opdracht</span> Laat zien hoe een [dronken student](/beweging/student) beweegt
 
-#### Dag 1: Monopoly
+**Monopoly**
 
 4. Lees over [Monopoly](/monopoly/inleiding)
 
