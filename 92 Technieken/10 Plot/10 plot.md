@@ -51,7 +51,7 @@ We breiden de plot wat uit: er komt een functie $$x^3$$ bij, we gebruiken een li
 
     # voeg labels toe aan de assen
     plt.xlabel('de x-as is klein')
-    plt.ylabel('de y-as ix groot', fontsize = 25)
+    plt.ylabel('de y-as is groot', fontsize = 25)
 
     # voeg losse tekst toe in de grafiek
     plt.text(1.00,100., "mijn eerste plotje", color = 'blue', fontsize = 20)
