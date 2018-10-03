@@ -1,6 +1,6 @@
 # Deeltjes in een doos
 
-In een doos met afmeting $$0 \leq x \leq 1$$ en $$0 \leq y \leq 1$$ worden op een bepaalde plek ($$x_{bron}, y_{bron}$$) = (0.25, 0.75) een aantal deeltjes weggeschoten in een willekeurige richting en snelheid. Voor elk deeltje $$i$$ geldt:
+In een doos met afmeting $$0 \leq x \leq 1$$ en $$0 \leq y \leq 1$$ worden op een bepaalde plek $$(x_{bron}, y_{bron}) = (0.25, 0.75)$$ een aantal deeltjes weggeschoten in een willekeurige richting en snelheid. Voor elk deeltje $$i$$ geldt:
 
    - snelheid $$(v_{i}): 0 < v_{i} < 0.10$$
    - hoek $$(\alpha_{i}): 0 < \alpha_{i} < 2\pi$$
@@ -13,7 +13,7 @@ We gaan in deze opdracht de positie van een groot aantal deeltjes volgen. In dee
 
 ## Deel 1: niet-botsende deeltjes
 
-Schrijf een programma `deeltjes_in_doos.py` dat de 1000 deeltjes produceert en de simulatie in de tijd laat lopen gedurende een groot aantal stappen. Het programma dan een grafiek opleveren van het aantal deeltjes dat zich aan de rechterkant van de doos bevindt (dus $$x_i \geq 0,5$$) als functie van de tijd.
+Schrijf een programma `deeltjes_in_doos.py` dat de 1000 deeltjes produceert en de simulatie in de tijd laat lopen gedurende een groot aantal stappen. Het programma dan een grafiek opleveren van het aantal deeltjes dat zich aan de rechterkant van de doos bevindt (dus $$x_i \geq 0.5$$) als functie van de tijd.
 
 De aannames en specificaties in dit deel van de opdracht:
 
@@ -29,7 +29,7 @@ Het is handig om de volgende stappen te volgen:
 
 ### Stap 1: genereer een beginsituatie
   
-  Elk deeltje wordt op elk moment in de tijd gekarakteriseerd door maar vier getallen: de x-positie (x), de y-positie (y) en de snelheid in de x-richting (vx) en de y-richting (vy). Maak daarom in het begin van je programma vier lijsten aan die de posities en snelheden van alle deeltjes bevatten.
+Elk deeltje wordt op elk moment in de tijd gekarakteriseerd door maar vier getallen: de x-positie (x), de y-positie (y) en de snelheid in de x-richting (vx) en de y-richting (vy). Maak daarom in het begin van je programma vier lijsten aan die de posities en snelheden van alle deeltjes bevatten.
   
 **Tips:**
 
