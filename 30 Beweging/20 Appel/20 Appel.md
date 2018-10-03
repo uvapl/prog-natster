@@ -41,18 +41,15 @@ Bereken voor elke nieuw stapje in de tijd in deze volgorde:
 3. de nieuwe snelheid $$v$$ die de appel daardoor krijgt, waarbij $$v_{\rm nieuw} = v + a \Delta t$$
 4. de nieuwe positie $$x$$ van de appel, waarbij $$x_{\rm nieuw} = x + v \Delta t$$
 
+Stap 1 en 2 kun je combineren, waardoor je in deze simulatie niet hoeft te weten wat de massa van de appel is!
+
 Je hebt dan alle informatie berekend over een bepaald punt in de tijd. Vervolgens kun je een stapje verder in de tijd maken en deze cyclus herhalen.
 
 
-## Tip
-
-Stap 1 en 2 kun je combineren, waardoor je in deze simulatie niet hoeft te weten wat de massa van de appel is!
-
-
-## Tips
+## Hints
 
 - Gebruik bovenstaande formule en start de appel dus op x = $${\rm R_{earth}}$$ + 100 meter. Als je wilt weten hoe hoog de appel is, gebruik dan h = x - $${\rm R_{earth}}$$.
-- Let goed op het teken van de krachten en snelheden. je begint bij positieve $$x$$ en beweegt dan naar $$x=0$$ toe.
+- Let goed op het *teken* van de krachten en snelheden. Je begint bij positieve $$x$$ en beweegt dan naar $$x=0$$ toe.
 - In dit voorbeeld kan je de antwoorden ook zelf uitrekenen met behulp van pen en papier.
 - Bereken alles eerst in m/s en reken dan voor punt 2 de snelheid om naar km/uur.
 
