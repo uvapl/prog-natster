@@ -1,13 +1,13 @@
 ## Student
 
-Als twee studenten dronken zijn en ze elkaar uit het oog verliezen wordt het erg onwaarschijnlijk dat ze elkaar nog terugvinden. Schrijf een programma dat het gedrag van twee dronken student simuleert. Geef op het scherm aan hoe lang de gebruiker van je programma nog moet wachten tot het
-programma afgelopen is.
+Als twee studenten dronken zijn en ze elkaar uit het oog verliezen wordt het erg onwaarschijnlijk dat ze elkaar nog terugvinden. Schrijf een programma dat het gedrag van twee dronken student simuleert.
 
 ![](AnimationRandomWalkDouble.gif)
 
 ## Specificatie
 
-Schrijf een programma `student.py` waarin je de animatie van de **twee** studenten op het scherm laat zien.
+Schrijf een programma `student.py` waarin je de animatie van de **twee** studenten op het scherm laat zien. Geef op het scherm aan hoe lang de gebruiker van je programma nog moet wachten tot het
+programma afgelopen is.
 
 ## Analyse
 
