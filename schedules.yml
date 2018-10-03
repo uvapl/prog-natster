@@ -1,67 +1,67 @@
 Periode 1:
     Installatie:
-        'Python installeren': '/naslag/installatie-computer'
+        Python installeren: /naslag/installatie-computer
     'Module 1: Getaltheorie':
-        'Overzicht': '/getaltheorie/inhoud'
-        'Inleveren': '/getaltheorie/inleveren'
+        Overzicht: /getaltheorie/inhoud
+        Inleveren: /getaltheorie/inleveren
     'Module 2: Integreren':
-        'Overzicht': '/integreren/inhoud'
-        'Inleveren': '/integreren/inleveren'
-    Monopoly:
-        'Overzicht': '/monopoly/inhoud'
-        'Inleveren': '/monopoly/inleveren'
-    'Big Data':
-        'Overzicht': '/big-data/inhoud'
-        'Inleveren': '/big-data/inleveren'
+        Overzicht: /integreren/inhoud
+        Inleveren: /integreren/inleveren
+    'Module 3: Monopoly':
+        Overzicht: /monopoly/inhoud
+        Inleveren: /monopoly/inleveren
+    Big Data:
+        Overzicht: /big-data/inhoud
+        Inleveren: /big-data/inleveren
     Tentamen:
-        'Inleveren': '/tentamen/inleveren'
+        Inleveren: /tentamen/inleveren
     Hertentamen:
-        'Inleveren': '/tentamen/inleveren-hertentamen'
+        Inleveren: /tentamen/inleveren-hertentamen
 
 Periode 2:
     Installatie:
-        'Python installeren': '/naslag/installatie-computer'
+        Python installeren: /naslag/installatie-computer
     Week 1:
-        'Getaltheorie': '/getaltheorie/inhoud'
+        Getaltheorie: /getaltheorie/inhoud
     Week 2:
-        'Getaltheorie': '/getaltheorie/inhoud'
+        Getaltheorie: /getaltheorie/inhoud
     Week 3:
-        'Integreren': '/integreren/inhoud'
+        Integreren: /integreren/inhoud
     Week 4:
-        'Integreren': '/integreren/inhoud'
+        Integreren: /integreren/inhoud
     Week 5:
-        'Simulaties: Beweging': '/beweging/inhoud'
-        'Simulaties: Prooi-predator': '/prooipredator/inhoud'
+        'Simulaties: Beweging': /beweging/inhoud
+        'Simulaties: Prooi-predator': /prooipredator/inhoud
     Week 6:
-        'Simulaties: Beweging': '/beweging/inhoud'
-        'Simulaties: Prooi-predator': '/prooipredator/inhoud'
+        'Simulaties: Beweging': /beweging/inhoud
+        'Simulaties: Prooi-predator': /prooipredator/inhoud
     Week 7:
-        'Big Data': '/bigdata/inhoud'
+        Big Data: /bigdata/inhoud
     Tentamen:
-        'Inleveren tentamen': '/tentamen/inleveren'
+        Inleveren tentamen: /tentamen/inleveren
     Hertentamen:
-        'Inleveren hertentamen': '/tentamen/inleveren-hertentamen'
+        Inleveren hertentamen: /tentamen/inleveren-hertentamen
 
 Periode 6:
     Installatie:
-        'Python installeren': '/naslag/installatie-computer'
+        Python installeren: /naslag/installatie-computer
     Week 1:
-        'Getaltheorie': '/getaltheorie/inhoud'
+        Getaltheorie: /getaltheorie/inhoud
     Week 2:
-        'Getaltheorie': '/getaltheorie/inhoud'
+        Getaltheorie: /getaltheorie/inhoud
     Week 3:
-        'Integreren': '/integreren/inhoud'
+        Integreren: /integreren/inhoud
     Week 4:
-        'Integreren': '/integreren/inhoud'
+        Integreren: /integreren/inhoud
     Week 5:
-        'Simulaties: Beweging': '/beweging/inhoud'
-        'Simulaties: Prooi-predator': '/prooipredator/inhoud'
+        'Simulaties: Beweging': /beweging/inhoud
+        'Simulaties: Prooi-predator': /prooipredator/inhoud
     Week 6:
-        'Simulaties: Beweging': '/beweging/inhoud'
-        'Simulaties: Prooi-predator': '/prooipredator/inhoud'
+        'Simulaties: Beweging': /beweging/inhoud
+        'Simulaties: Prooi-predator': /prooipredator/inhoud
     Week 7:
-        'Big Data': '/bigdata/inhoud'
+        'Big Data': /bigdata/inhoud
     Tentamen:
-        'Inleveren tentamen': '/tentamen/inleveren'
+        Inleveren tentamen: /tentamen/inleveren
     Hertentamen:
-        'Inleveren hertentamen': '/tentamen/inleveren-hertentamen'
+        Inleveren hertentamen: /tentamen/inleveren-hertentamen
