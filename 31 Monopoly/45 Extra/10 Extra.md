@@ -29,7 +29,7 @@ Het is handig om de volgende stappen te volgen:
 
 ### Stap 1: genereer een beginsituatie
   
-Elk deeltje wordt op elk moment in de tijd gekarakteriseerd door maar vier getallen: de $$x$$-positie $$x$$, de $$y$$-positie $$y$$ en de snelheid in de $$x$$-richting $$v_x$$ en de $$y$$-richting ($$v_y$$). Maak daarom in het begin van je programma vier lijsten aan die de posities en snelheden van alle deeltjes bevatten.
+Elk deeltje wordt op elk moment in de tijd gekarakteriseerd door maar vier getallen: de $$x$$-positie $$x$$, de $$y$$-positie $$y$$ en de snelheid in de $$x$$-richting $$v_x$$ en de $$y$$-richting $$v_y$$. Maak daarom in het begin van je programma vier lijsten aan die de posities en snelheden van alle deeltjes bevatten.
   
 Tips:
 
@@ -52,7 +52,7 @@ De snelheid in de $$x$$-richting zal onveranderd blijven, tenzij het deeltje teg
 
 Stel nou dat er een gat in de doos zit (dus $$y_{gat} = 0$$ en $$0{,}8 \leq x_{gat} \leq 0{,}9$$). Het is dan mogelijk dat deeltjes uit de doos ontsnappen. Het tijdstip waarop voor het eerst de helft van de deeltjes verdwenen is noemen we $$t_{50}$$ en in deze opdracht gaan we die tijd bepalen.
 
-Gebruik je programma uit Deel 1 als basis en breid dat uit zodat je functie een argument `gat` meekrijgt. `gat=0` betekent dat er geen gat in de doos zit, zoals voorheen, en `gat=1` dat er een gat in zit.
+Gebruik je programma uit Deel 1 als basis en breid dat uit zodat je functie een argument `gat` meekrijgt. `gat=0` betekent dat er geen gat in de doos zit, zoals voorheen, en `gat=1` dat er wel een gat in zit.
 
 Pas het programma zo aan dat als `gat=1`, elk deeltje dat door het gat verdwijnt uit de lijsten  wordt verwijderd. Start ook hier in het begin met 1000 deeltjes, hou bij hoeveel deeltjes er nog in de doos zitten en bepaal het tijdstip waarop voor het eerst meer dan de helft van de deeltjes uit de doos is verdwenen en print dat op het scherm:
 
