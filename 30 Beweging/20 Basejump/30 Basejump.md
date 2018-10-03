@@ -1,6 +1,6 @@
 # Vrije val bij een base jump
 
-Schrijf een programma waarin de val wordt doorgerekend van een BASE jumper die van de top van de Burj Khalifa in Dubai (828 m) naar beneden springt. Neem hierbij aan dat de basejumper 72 kilo weegt.
+Schrijf een programma waarin de val wordt doorgerekend van een basejumper die van de top van de Burj Khalifa in Dubai (828 m) naar beneden springt. Neem hierbij aan dat de basejumper 72 kilo weegt.
 
 
 ## Achtergrond
@@ -15,14 +15,16 @@ Hoewel de luchtweerstand ook afhankelijkheid is van de oppervlakte en massa van 
 
 ![](Freefall.png)
 
-Zoals altijd heb je ook hier mensen die het [randje opzoeken](https://en.wikipedia.org/wiki/Speed_skydiving). Omdat hij zijn sprong maakte in een gebied waar de luchtdruk enorm laag was is het record met 1342 km/uur veilig in handen van Felix Baumgartner.
+Zoals altijd heb je ook hier mensen die het [randje opzoeken](https://en.wikipedia.org/wiki/Speed_skydiving). Omdat hij zijn sprong maakte in een gebied waar de luchtdruk enorm laag was is het record met 1357.64 km/uur veilig in handen van Felix Baumgartner.
 
 
 ## Specificatie
 
-Schrijf een bestand `basejump.py` met daarin een functie `basejump()`. Volg dezelfde strategie als in de opdracht **Appel**, maar neem nu ook de luchtweerstand mee zoals gegeven in bovenstaande formule.
+Maak een bestand `basejump.py` met daarin een functie `basejump()`. Volg dezelfde strategie als in de opdracht **Appel**, maar neem nu ook de luchtweerstand mee zoals gegeven in bovenstaande formule.
 
 ### Grafieken
+
+De volgende grafieken moet je laten **aftekenen** bij je assistent:
 
 1. Plot een grafiek van de snelheid als functie van de tijd.
 

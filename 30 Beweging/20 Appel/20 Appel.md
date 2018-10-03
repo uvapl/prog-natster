@@ -16,7 +16,7 @@ Bij simuleren neem je stapjes in de tijd en bereken je wat er in die tijd grofwe
 
 ## Specificatie
 
-Maak een bestand **appel.py** en schrijf daarin een functie `appel()` die de benodigde berekeningen doet. Zorg dat de volgende resultaten geprint worden door deze functie:
+Maak een bestand `appel.py` en schrijf daarin een functie `appel()` die de benodigde berekeningen doet. Zorg dat de volgende resultaten geprint worden door deze functie:
 
 1. Na hoeveel seconden raakt de appel de grond?
 
