@@ -8,43 +8,43 @@ Na een korte kennismaking met animaties in Python gaan we in de eerste 3 dagdele
 
 #### Animaties
 
-1. Leer hoe je [animaties](/technieken/animaties) maakt in Python
+- Leer hoe je [animaties](/technieken/animaties) maakt in Python
 
-2. <span class="badge badge-primary">Opdracht</span> De [spiraliserende stip](/beweging/stip)
+- <span class="badge badge-primary">Opdracht</span> De [spiraliserende stip](/beweging/stip)
 
-3. <span class="badge badge-primary">Opdracht</span> Laat zien hoe een [dronken student](/beweging/student) beweegt
+- <span class="badge badge-primary">Opdracht</span> Laat zien hoe een [dronken student](/beweging/student) beweegt
 
 #### Monopoly deel 1
 
-4. Lees over [Monopoly](/monopoly/inleiding)
+- Lees over [Monopoly](/monopoly/inleiding)
 
-5. <span class="badge badge-primary">Opdracht</span> Monopoly met 1 speler in [Donald Trump-mode](/monopoly/vrij-rondlopen)
+- <span class="badge badge-primary">Opdracht</span> Monopoly met 1 speler in [Donald Trump-mode](/monopoly/vrij-rondlopen)
 
 #### Monopoly deel 2
 
-1. <span class="badge badge-primary">Opdracht</span> Effect van een eindige hoeveelheid [startgeld](/monopoly/startgeld) in het spel
+- <span class="badge badge-primary">Opdracht</span> Effect van een eindige hoeveelheid [startgeld](/monopoly/startgeld) in het spel
 
 #### Monopoly deel 3
 
-1. <span class="badge badge-primary">Opdracht</span> Voeg een tweede speler toe en herstel het [evenwicht](/monopoly/twee-spelers)
+- <span class="badge badge-primary">Opdracht</span> Voeg een tweede speler toe en herstel het [evenwicht](/monopoly/twee-spelers)
 
 #### Natuurkunde-simulaties
 
-1. <span class="badge badge-primary">Opdracht</span> Bestudeer de beweging van een vallende [appel](/beweging/appel)
+- <span class="badge badge-primary">Opdracht</span> Bestudeer de beweging van een vallende [appel](/beweging/appel)
 
-2. Lees nog even terug over het gebruiken van [meerdere grafieken](/technieken/plot)
+- Lees nog even terug over het gebruiken van [meerdere grafieken](/technieken/plot)
 
-3. <span class="badge badge-primary">Opdracht</span> Bestudeer de beweging van een [basejumper](/beweging/basejump)
+- <span class="badge badge-primary">Opdracht</span> Bestudeer de beweging van een [basejumper](/beweging/basejump)
 
 
 #### Extra: deeltjes in een doos
 
-1. <span class="badge badge-primary">Opdracht</span> Bestudeer de beweging van [deeltjes in een doos](/monopoly/extra)
+<span class="badge badge-primary">Opdracht</span> Bestudeer de beweging van [deeltjes in een doos](/monopoly/extra)
 
 
 
 #### Inleveren en evaluatie
 
-1. Ga naar [deze pagina](/monopoly/inleveren) om je programma's in te leveren.
+- Ga naar [deze pagina](/monopoly/inleveren) om je programma's in te leveren.
 
-2. Help ons dan om de opdracht te verbeteren: vul de [evaluatie](https://goo.gl/forms/bMEPwmQeLxMZ13qE2){:target="_blank"} in.
+- Help ons dan om de opdracht te verbeteren: vul de [evaluatie](https://goo.gl/forms/bMEPwmQeLxMZ13qE2){:target="_blank"} in.
