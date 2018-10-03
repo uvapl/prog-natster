@@ -1,4 +1,4 @@
-## Student
+# Student
 
 Als twee studenten dronken zijn en ze elkaar uit het oog verliezen wordt het erg onwaarschijnlijk dat ze elkaar nog terugvinden. Schrijf een programma dat het gedrag van twee dronken student simuleert.
 

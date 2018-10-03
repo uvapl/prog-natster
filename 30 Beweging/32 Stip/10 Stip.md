@@ -1,4 +1,4 @@
-## Spiraal
+# Spiraal
 
 Schrijf een programma dat een spiraliserende stip animeert met behulp van Matplotlib. De stip draait met een bepaalde hoeksnelheid rond en met elke stap in de tijd verandert niet alleen de hoek, maar wordt ook de straal steeds kleiner tot hij uiteindelijk precies in het midden stilstaat:
 
