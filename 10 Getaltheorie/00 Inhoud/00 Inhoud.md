@@ -41,12 +41,9 @@ Maar waarom programmeren? Kijk eens naar het filmpje hiernaast. [Mirjam Leunisse
 
 3. <span class="badge badge-primary">Opdracht</span> Maak data inzichtelijk met [grafieken](/getaltheorie/grafieken)
 
-##### Extra opdracht: onderling-priem paren (coprimes)
+##### Extra opdracht: onderling-priem paren
 
-Van bovenstaande opdrachten verwachten we dat je ze allemaal, helemaal doet. Er is ook een extra opdracht, waarmee je het laatste punt voor je cijfer van deze module kunt verdienen. Deze is bedoeld voor iedereen die goed uit alle bovenstaande opdrachten is gekomen en klaar is voor meer!
-
-1. Test voorspelling vanuit de wiskunde over frequentie [onderling-priem paren](/getaltheorie/extra)
-
+Van bovenstaande opdrachten verwachten we dat je ze allemaal helemaal doet. Er is ook een extra opdracht, waarmee je het laatste punt voor je cijfer van deze module kunt verdienen. Deze is bedoeld voor iedereen die goed uit alle bovenstaande opdrachten is gekomen en klaar is voor meer! In deze module: test stellingen uit de wiskunde over de frequentie van [onderling-priem paren](/getaltheorie/extra) ofwel co-primes.
 
 ##### Inleveren en evaluatie
 
