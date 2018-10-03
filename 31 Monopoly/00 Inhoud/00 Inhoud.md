@@ -18,6 +18,8 @@ Na een korte kennismaking met animaties in Python gaan we het spel Monopoly simu
 
 - Lees over [Monopoly](/monopoly/inleiding)
 
+- Check de tips voor het [debuggen](/python/debuggen) van een simulatie
+
 - <span class="badge badge-primary">Opdracht</span> Monopoly met 1 speler in [Donald Trump-mode](/monopoly/vrij-rondlopen)
 
 #### Monopoly deel 2
