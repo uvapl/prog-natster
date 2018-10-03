@@ -6,7 +6,7 @@ Schrijf een programma dat een spiraliserende stip animeert met behulp van Matplo
 
 ## Specificatie
 
-Schrijf een programma **spiraal.py** waarin de stip geanimeerd wordt zoals hierboven beschreven.
+Schrijf een programma `spiraal.py` waarin de stip geanimeerd wordt zoals hierboven beschreven.
 
 ## Hints
 

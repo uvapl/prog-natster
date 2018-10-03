@@ -1,10 +1,17 @@
-# Donald Trump edition
+# Monopoly: Donald Trump edition
 
-We gaan een programma schrijven dat (een groot aantal potjes van) een vereenvoudigde versie van het spel Monopoly simuleert.
+Schrijf een programma dat een groot aantal potjes van een vereenvoudigde versie van het spel Monopoly simuleert.
 
     Monopoly simulator: 1 speler, Trump mode
     We hebben 10000 potjes gesimuleerd
     Gemiddeld duurde het XXX worpen voor de speler alle straten in zijn bezit had
+
+
+## Achtergrond
+
+We gaan een groot aantal potjes Monopoly simuleren waarin we 1 speler rond laten lopen en hem straten laten kopen. We spelen in de zogenaamde Trump-Mode. De speler heeft oneindig veel geld, er is geen concurrentie. Doel van deze opdracht is om te bepalen wat het gemiddeld aantal worpen is
+waarna alle straten zijn verkocht.
+
 
 ## Specificatie
 
@@ -18,13 +25,6 @@ We gaan een programma schrijven dat (een groot aantal potjes van) een vereenvoud
 	
 - De functie `simuleer_groot_aantal_potjes_monopoly(aantal_potjes)` moet het gemiddeld aantal worpen teruggeven dat nodig was om alle straten in je bezit te krijgen (via `return`).
 
-
-## Achtergrond
-
-We gaan een groot aantal potjes Monopoly simuleren waarin we 1 speler rond laten lopen en hem straten laten kopen. We spelen in de zogenaamde Trump-Mode. De speler heeft oneindig veel geld, er is geen concurrentie. Doel van deze opdracht is om te bepalen wat het gemiddeld aantal worpen is
-waarna alle straten zijn verkocht.
-
-Om je te helpen deze opdracht te maken is het handig de volgende tussenstappen te doorlopen.
 
 ## Dobbelstenen
 
@@ -193,7 +193,7 @@ Zorg tot slot dat de functie `simuleer_groot_aantal_potjes_monopoly(aantal_potje
 
 ## Testen
 
-Update checkpy en test Monopoly:
+Update `checkpy` en test Monopoly:
 
     checkpy -u
     checkpy monopoly
