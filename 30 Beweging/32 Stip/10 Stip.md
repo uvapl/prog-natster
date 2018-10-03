@@ -22,3 +22,7 @@ Details voor de animatie:
 
 - hoek $$\alpha$$ varieert van $$0$$ tot $$20$$ radialen in stappen van $$0.1$$
 - straal $$R$$ hangt af van $$\alpha$$, namelijk $$R=10-0.5\alpha$$
+
+## Testen
+
+Dit programma is helemaal visueel en kan niet worden getest met `checkpy`. Je moet het laten aftekenen tijdens het practicum.
