@@ -62,7 +62,7 @@ lijn.
         # plot grafiek
         plt.plot(L_x, L_y, 'r-')   # rode lijn
         plt.xlim(0,2 * math.pi)
-        plt.ylim(-1, s1)
+        plt.ylim(-1, 1)
         plt.draw()           # update grafiek
         plt.pause(0.001)
         plt.clf()            # clear grafiek
