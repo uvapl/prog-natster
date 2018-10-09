@@ -2,7 +2,7 @@
 
 Schrijf een programma dat de beweging van een appel beschrijft als die op een hoogte van 100 meter wordt losgelaten.
 
-    000 s tot de appel de grond raakt
+    0.00 s tot de appel de grond raakt
     000.0 km/uur is de snelheid waarmee de appel de grond raakt
     0.00 s duurt het tot de appel 100 km/uur gaat
 
