@@ -7,3 +7,6 @@ files:
         - monopoly_realistisch.py
         - appel.py
         - basejump.py
+    extra:
+        - deeltjes_in_doos.py
+        - deeltjes_in_doos_animatie_realistisch.py
