@@ -1,6 +1,6 @@
 name: module3
 files:
-    vereist:
+    required:
         - spiraal.py
         - student.py
         - monopoly.py
