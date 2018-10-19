@@ -1,0 +1,7 @@
+name: module4
+files:
+    required:
+        - autorit.py
+        - temperatuur.py
+    extra:
+        - mijndata.py
