@@ -5,3 +5,4 @@ files:
         - temperatuur.py
     extra:
         - mijndata.py
+        - report.pdf
