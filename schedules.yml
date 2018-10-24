@@ -14,7 +14,7 @@ Periode 1:
         Overzicht: /big-data/inhoud
         Inleveren: /big-data/inleveren
     Tentamen:
-        Inleveren: /tentamen/inleveren
+        Inleveren tentamen: /tentamen/tentamen
     Hertentamen:
         Inleveren: /tentamen/inleveren-hertentamen
 
@@ -38,7 +38,7 @@ Periode 2:
     Week 7:
         Big Data: /bigdata/inhoud
     Tentamen:
-        Inleveren tentamen: /tentamen/inleveren
+        Inleveren tentamen: /tentamen/tentamen
     Hertentamen:
         Inleveren hertentamen: /tentamen/inleveren-hertentamen
 
