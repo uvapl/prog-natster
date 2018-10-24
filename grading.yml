@@ -39,7 +39,7 @@ grades:
         type: float
         subgrades:
             points: float
-        calculation: points + 1.0
+        calculation: (points + 1.0)
     hert:
         type: pass
 
