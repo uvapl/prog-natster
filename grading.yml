@@ -45,11 +45,11 @@ grades:
 
 calculation:
     resit:
-        hert: 0
-        psets: 100
+        hert: 50
+        psets: 50
     normal:
-        tent: 0
-        psets: 100
+        tent: 50
+        psets: 50
 
 psets:
     submits:
