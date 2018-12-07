@@ -70,7 +70,7 @@ kan je er verderop in het programma mee rekenen.
 
 Om afstanden in kilometers uit te drukken zullen we de latitude en longitude om te rekenen naar kilometers. De definitie van latitude (breedtegraad) en longitude (lengtegraad) ken je vast al, maar het is goed om het nog een keer te bekijken. 
 
-![](MapEarth.png){: style="width:80%"}
+![](MapEarth.png){: style="width:75%"}
 
 Als je ziet dat een volle cirkel op breedtegraad van 52 graden (Nederland) veel korter is dan een rondje evenaar dan kan je met wat goniometrie gelijk de verschillen in latitude en longitude daarna makkelijk omrekenen in kilometers.
 
@@ -78,6 +78,7 @@ Als je ziet dat een volle cirkel op breedtegraad van 52 graden (Nederland) veel 
 Omdat we met een studie natuur- en sterrenkunde bezig zijn kunnen we ook een kleine extra stap maken en afstappen van de simplificatie dat de aarde een perfecte bol is. De straal van de aarde is niet overal gelijk. Om precies te zijn: (gemiddeld/evenaar/polen) = (6371.0 km /6378.1 km,6356.8 km). 
 
 In deze opdracht gebruiken we:
+
    - Straal aarde (in Nederland) = 6364.89 km
 
 
