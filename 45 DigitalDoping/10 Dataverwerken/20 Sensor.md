@@ -75,7 +75,7 @@ Om afstanden in kilometers uit te drukken zullen we de latitude en longitude om 
 Als je ziet dat een volle cirkel op breedtegraad van 52 graden (Nederland) veel korter is dan een rondje evenaar dan kan je met wat goniometrie gelijk de verschillen in latitude en longitude daarna makkelijk omrekenen in kilometers.
 
 **Let op:**
-Omdat we met een studie natuur- en sterrenkunde bezig zijn kunnen we ook een kleine extra stap maken en afstappen van de simplificatie dat de aarde een perfecte bol is. De straal van de aarde is niet overal gelijk. Om precies te zijn: (gemiddeld/evenaar/polen) = (6371.0 km /6378.1 km,6356.8 km). 
+Omdat we met een studie natuur- en sterrenkunde bezig zijn kunnen we ook een kleine extra stap maken en afstappen van de simplificatie dat de aarde een perfecte bol is. De straal van de aarde is niet overal gelijk. Om precies te zijn: (gemiddeld/evenaar/polen) = (6371.0 km / 6378.1 km / 6356.8 km). 
 
 In deze opdracht gebruiken we:
 
