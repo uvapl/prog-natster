@@ -70,7 +70,7 @@ kan je er verderop in het programma mee rekenen.
 
 Om afstanden in kilometers uit te drukken zullen we de latitude en longitude om te rekenen naar kilometers. De definitie van latitude (breedtegraad) en longitude (lengtegraad) ken je vast al, maar het is goed om het nog een keer te bekijken. 
 
-![](MapEarth.png){: style="width:40%"}
+![](MapEarth.png){: style="width:80%"}
 
 Als je ziet dat een volle cirkel op breedtegraad van 52 graden (Nederland) veel korter is dan een rondje evenaar dan kan je met wat goniometrie gelijk de verschillen in latitude en longitude daarna makkelijk omrekenen in kilometers.
 
