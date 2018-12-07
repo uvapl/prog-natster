@@ -1,4 +1,4 @@
-# Opdracht: sensordata analyseren van een fietsrit
+# Extra opdracht fietsrit
 
 ## Opdracht 5: snelste en langzaamste stukken van de rit
 
