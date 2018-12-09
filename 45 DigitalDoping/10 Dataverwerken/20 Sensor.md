@@ -35,7 +35,11 @@ We gaan in deze opgave stap voor stap een programma `Strava.py` schrijven dat de
 decodeert, opslaat in afzonderlijke lijsten en vragen over de rit beantwoordt. We doen dat 
 aan de hand van de onderstaande opdrachten.
 
-<red><b>LET OP: er is geen checkpy voor deze opdracht. Controleer je antwoorden daarom goed.</b></red>
+<br>
+<br>
+<font color="red"><b>LET OP: er is geen checkpy voor deze opdracht. Controleer je antwoorden daarom goed.</b></font>
+<br>
+<br>
 
 
 ## Opdracht 1: teken de route op het scherm
