@@ -37,9 +37,8 @@ aan de hand van de onderstaande opdrachten.
 
 <br>
 <br>
-<font color="red"><b>LET OP: er is geen checkpy voor deze opdracht. Controleer je antwoorden daarom goed.</b></font>
-<br>
-<br>
+<font color="red"><b>LET OP:<br> er is geen checkpy voor deze opdracht. Controleer je antwoorden daarom goed.</b></font>
+
 
 
 ## Opdracht 1: teken de route op het scherm
