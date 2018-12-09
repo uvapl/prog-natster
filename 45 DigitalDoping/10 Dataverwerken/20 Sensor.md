@@ -48,7 +48,7 @@ Een paar extra randvoorwaarden voor het tekenen van de grafiek:
 	- Verderop in de opgave gaan we nog wat extra informatie toevoegen op het scherm. Hou 
 	  dus iets ruimte over bij het tekenen van de grafiek 
 
-### Computing tip:
+#### Computing tip:
 
 Tijdens het inlezen van elke regel kan je een test uitvoeren of er een bepaalde 'string' in 
 de regel voorkomt. In ons geval weten we bijvoorbeeld dat als we de string *"<trkpt"* tegenkomen 
@@ -66,7 +66,7 @@ de computer dit nog steeds als tekst en niet als getal. Gebruik de functie `floa
 dat stukje van de regel om te zetten in een getal voor je het opslaat in de lijst. Zo 
 kan je er verderop in het programma mee rekenen.
 
-### Omreken tip:
+#### Omreken tip:
 
 Om afstanden in kilometers uit te drukken zullen we de latitude en longitude om te rekenen naar kilometers. De definitie van latitude (breedtegraad) en longitude (lengtegraad) ken je vast al, maar het is goed om het nog een keer te bekijken. 
 
