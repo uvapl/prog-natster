@@ -36,8 +36,7 @@ decodeert, opslaat in afzonderlijke lijsten en vragen over de rit beantwoordt. W
 aan de hand van de onderstaande opdrachten.
 
 <br>
-<br>
-<font color="red"><b>LET OP:<br> er is geen checkpy voor deze opdracht. Controleer je antwoorden daarom goed.</b></font>
+<font color="red"><b>LET OP:<br> Er is geen checkpy voor deze opdracht. Controleer je antwoorden daarom goed.</b></font>
 
 
 
