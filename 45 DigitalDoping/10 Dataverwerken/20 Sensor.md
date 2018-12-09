@@ -100,7 +100,7 @@ aanpak waarbij je het in kleinere stappen opdeelt. Bedenk je plan *voor* je comp
 gaat schrijven. In dit geval zou je bijvoorbeeld de volgende stappen kunnen volgen om het 
 probleem gestructureerd aan te pakken.
         
-### Stappenplan:
+#### Stappenplan:
 
 	- stap 1: maak de lijst met meettijden (in seconden na het begin van de rit)
 
@@ -180,7 +180,7 @@ hoogteprofiel.
 Naast de locatie en de tijd is ook de hoogte opgeslagen op elk meetpunt. Sla ook die data op en teken 
 de grafiek van de hoogte als functie van de tijd (weer in seconden sinds het begin van de rit). 
 
-### Computing tip:
+#### Computing tip:
 **Let op:** het kan erg verleidelijk zijn om op basis van de eerste paar regels in de data-file te 
 concluderen dat de hoogte tijdens een rit is opgeslagen in een deel van de regel die maar drie karakters 
 breed is (X.Y) en dat dat correspondeert met X meter en Y decimeter boven of onder zeeniveau. Nou 
@@ -212,7 +212,7 @@ Het doel is dat het volgende hoogte-profiel ontstaat in de rit:
 	- derde kwart:  lineair dalen tot h=0 m
 	- vierde kwart: zeeniveau (h=0)
 		
-### Computing tip:
+#### Computing tip:
 
 	- Volg het voorbeeld in het begin van de module om te hebben we gezien hoe je een file kan 
 	  aanmaken en er een regel tekst in weg kan schrijven.  
