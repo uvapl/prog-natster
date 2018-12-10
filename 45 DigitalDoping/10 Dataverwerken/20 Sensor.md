@@ -93,7 +93,7 @@ Pas de functie `Fietsrit()` zo aan dat deze ook de totaal afgelegde afstand tijd
 snelheid berekent, maar dat je naast de route zelf ook de mogelijkheid krijgt om een grafiek te laten zien van de 
 snelheid als functie van de tijd, waarbij de tijd weergegeven is als het aantal seconden na het begin van de rit. 
 
-De afgelegde afstand en gemiddelde snelheid:<br>
+**De afgelegde afstand en gemiddelde snelheid:**<br>
 Zorg dat je programma nu ook de volgende samenvatting van de rit print (in dit format):
 
 	Rit: duur van de rit was x uur, y minuten en z seconden
@@ -101,7 +101,7 @@ Zorg dat je programma nu ook de volgende samenvatting van de rit print (in dit f
 	Rit: gemiddelde snelheid was xx.x km/uur
 	Rit: maximum snelheid was xx.x km/uur en werd gereden x seconde na de start van de rit
         
-Het tekenen van de snelheidsgrafiek:<br>
+**Het tekenen van de snelheidsgrafiek:**<br>
 Zorg dat de functie `Fietsrit()` een extra input variabale krijgt `plot` (1 = route, 2 = snelheid) en zorg dat de volgende elementen terugkomen in de grafiek van de snelheid als functie van de tijd:
 	- Geef met een groene stip aan waar de maximale snelheid werd bereikt 
 	  en geef die snelheid ook weer als tekst
