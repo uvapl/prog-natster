@@ -53,7 +53,7 @@ Een paar extra randvoorwaarden voor het tekenen van de grafiek:
 	- Verderop in de opgave gaan we nog wat extra informatie toevoegen op het scherm. Hou 
 	  dus iets ruimte over bij het tekenen van de grafiek 
 
-#### Computing tip:
+#### computing tip:
 
 Tijdens het inlezen van elke regel kan je een test uitvoeren of er een bepaalde 'string' in 
 de regel voorkomt. In ons geval weten we bijvoorbeeld dat als we de string *"<trkpt"* tegenkomen 
@@ -71,7 +71,7 @@ de computer dit nog steeds als tekst en niet als getal. Gebruik de functie `floa
 dat stukje van de regel om te zetten in een getal voor je het opslaat in de lijst. Zo 
 kan je er verderop in het programma mee rekenen.
 
-#### Omreken tip:
+#### omreken tip:
 
 Om afstanden in kilometers uit te drukken zullen we de latitude en longitude om te rekenen naar kilometers. De definitie van latitude (breedtegraad) en longitude (lengtegraad) ken je vast al, maar het is goed om het nog een keer te bekijken. 
 
@@ -114,7 +114,7 @@ gaat schrijven. In dit geval zou je bijvoorbeeld de volgende stappen kunnen volg
 probleem gestructureerd aan te pakken.
         
         
-#### Stappenplan:
+#### stappenplan:
 
 	- stap 1: maak de lijst met meettijden (in seconden na het begin van de rit)
 
@@ -143,8 +143,6 @@ De fietser stond stil op t=0. Het eerste element in de lijst met snelheden is du
 Tijdens het doorlopen van de meetpunten om de snelheidslijst te vullen kan je natuurlijk 
 ook gelijk de totale (tot nu toe) afgelegde weg bijhouden in een lijst. Ook deze lijst 
 begint natuurlijk met 0 afgelegde kilometers op t=0.
-
-
 
 
         
@@ -186,9 +184,11 @@ hoogteprofiel.
 ### Opdracht 4a: hoogteprofiel
 
 Naast de locatie en de tijd is ook de hoogte opgeslagen op elk meetpunt. Sla ook die data op en teken 
-de grafiek van de hoogte als functie van de tijd (weer in seconden sinds het begin van de rit). 
+de grafiek van de hoogte als functie van de tijd (weer in seconden sinds het begin van de rit). Zorg 
+dat deze grafiek wordt getekend als je aan de functie `Fietsrit(plot)` nu 3 als input geeft. Dus voor 
+de variabele `plot`: 1 = route, 2 = snelheid, 3 = hoogte.
 
-#### Computing tip:
+#### computing tip:
 **Let op:** het kan erg verleidelijk zijn om op basis van de eerste paar regels in de data-file te 
 concluderen dat de hoogte tijdens een rit is opgeslagen in een deel van de regel die maar drie karakters 
 breed is (X.Y) en dat dat correspondeert met X meter en Y decimeter boven of onder zeeniveau. Nou 
@@ -220,7 +220,7 @@ Het doel is dat het volgende hoogte-profiel ontstaat in de rit:
 	- derde kwart:  lineair dalen tot h=0 m
 	- vierde kwart: zeeniveau (h=0)
 		
-#### Computing tip:
+#### computing tip:
 
 	- Volg het voorbeeld in het begin van de module om te hebben we gezien hoe je een file kan 
 	  aanmaken en er een regel tekst in weg kan schrijven.  
