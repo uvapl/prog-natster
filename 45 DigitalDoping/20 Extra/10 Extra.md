@@ -3,7 +3,9 @@
 ## Opdracht 5: snelste en langzaamste stukken van de rit
 
 We kunnen de data in meer detail bekijken en gaan twee vragen proberen te beantwoorden die te 
-maken hebben met de uitersten van de rit: het snelste en het langzaamste stuk.
+maken hebben met de uitersten van de rit: het snelste en het langzaamste stuk. Breid de functie 
+`FietsritExtra(plot)` uit en zorgt dat de informatie die bij vraag 5a en 5b wordt gevraagd ook 
+op het scherm wordt geprint.
 
 ### Opdracht 5a: de langste en kortste afstand afgelegd *in een minuut*
 
