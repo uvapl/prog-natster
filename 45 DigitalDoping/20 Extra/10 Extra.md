@@ -7,7 +7,7 @@ maken hebben met de uitersten van de rit: het snelste en het langzaamste stuk. B
 `FietsritExtra(plot)` uit en zorgt dat de informatie die bij vraag 5a en 5b wordt gevraagd ook 
 op het scherm wordt geprint.
 
-### Opdracht 5a: de langste en kortste afstand afgelegd *in een minuut*
+### Opdracht 5a: de snelste en langzaamste *minuut*
 
 Loop door de verzamelde data heen en zoek de minuut waarin de grootste en de langzaamste afstand is 
 afgelegd. Hiermee weet je gedurende welke minuut er het respectievelijk het snelst en het langzaamst 
@@ -20,7 +20,7 @@ is gereden. Print deze data op het scherm:
 Niet elke tijdsverschil tussen twee metingen is precies een seconde.
 
 
-### Opdracht 5b: de langste en kortste afstand afgelegd *in een kilometer*
+### Opdracht 5b: de snelste en langzaamste *kilometer*
 
 Loop door de verzamelde data heen en zoek de kilometer die in het kortste en het langste tijdsinterval is 
 afgelegd. Hiermee weet je gedurende welke kilometer er het respectievelijk het snelst en het langzaamst 
