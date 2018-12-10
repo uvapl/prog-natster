@@ -93,7 +93,7 @@ Bereken de totaal afgelegde afstand tijdens de fietsrit, de gemiddelde snelheid 
 grafiek van de snelheid als functie van de tijd, waarbij de tijd weergegeven is als het 
 aantal seconden na het begin van de rit. 
 
-Laat je programma de volgende samenvatting van de rit printen (in dit format):
+Zorg dat de functie `Fietsrit()`die je in Opdracht 1 gemaakt hebt ook de volgende samenvatting van de rit print (in dit format):
 
 	Rit: duur van de rit was x uur, y minuten en z seconden
 	Rit: afgelegde weg was x.x km
