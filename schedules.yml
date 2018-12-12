@@ -30,9 +30,9 @@ Periode 2:
     'Module 3: Monopoly':
         Overzicht: /monopoly/inhoud
         Inleveren: /monopoly/inleveren
-    Big Data:
-        Overzicht: /big-data/inhoud
-        Inleveren: /big-data/inleveren
+    'Module 4: Sensordata':
+        Overzicht: /sensordata/inhoud
+        Inleveren: /sensordata/inleveren
     Tentamen:
         Inleveren tentamen: /tentamen/tentamen
     Hertentamen:
