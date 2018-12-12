@@ -1,4 +1,6 @@
-# Extra opdracht fietsrit
+# Extra opdracht fietsrit #
+
+Maak, voordat je start met de extra opdracht, een kopie van `strava.py`. Noem het nieuwe bestand `extra.py`. Je moet ze allebei inleveren als je de extra opdracht doet!
 
 ## Opdracht 5: snelste en langzaamste stukken van de rit
 
@@ -59,7 +61,7 @@ Het probleem vanaf de andere kant bekijken is minstens zo interessant:
 	- Hoe zou je kunnen achterhalen of een file gemanipuleerd is?
 
 Je ziet al snel dat elke hint die je hierboven geeft aan de controleurs je natuurlijk ook als 
-doping zondaar zou kunnen gebruiken om de data op een gerafiniëerde manier te manipuleren zodat 
+doping zondaar zou kunnen gebruiken om de data op een geraffineerde manier te manipuleren zodat 
 jouw rit moeiteloos de digitale dopingstest doorstaat. Het is het welbekende kat-en-muisspel 
 bij doping in de sport, nu met digitale doping.
 	

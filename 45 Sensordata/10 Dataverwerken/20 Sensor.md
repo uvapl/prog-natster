@@ -8,7 +8,7 @@ voor sport gebruikt worden. In deze opdracht gaan we aan de slag met de data die
 is door een app die door veel wielrenners gebruikt wordt: [Strava](http://www.strava.com). 
 Na het sporten kan je in 
 detail je rit terugkijken: de projectie van de route op een interactieve kaart, de gemiddelde 
-snelheid, het hoogteprofiel, records op vooraf gedefiniëerde stukken weg en nog veel meer. 
+snelheid, het hoogteprofiel, records op vooraf gedefinieerde stukken weg en nog veel meer. 
 We gaan in deze opgave zelf deze informatie uit de sensor-data halen en, niet verder vertellen, 
 proberen de data in de file te manipuleren: digitale doping.
 
@@ -31,7 +31,7 @@ weggeschreven:
 	2) hoogte
 	3) datum en tijd
 
-We gaan in deze opgave stap voor stap een programma `Strava.py` schrijven dat de data inleest, 
+We gaan in deze opgave stap voor stap een programma `strava.py` schrijven dat de data inleest, 
 decodeert, opslaat in afzonderlijke lijsten en vragen over de rit beantwoordt. We doen dat 
 aan de hand van de onderstaande opdrachten.
 
