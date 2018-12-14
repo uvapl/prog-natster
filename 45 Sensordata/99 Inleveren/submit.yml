@@ -1,6 +1,7 @@
 name: module4
 files:
     required:
+        - autorit.py
         - strava.py
     extra:
         - extra.py
