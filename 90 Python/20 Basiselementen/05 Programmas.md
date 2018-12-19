@@ -11,7 +11,7 @@ gegevensuitvoer (output)
 : Laten zien van gegevens op het scherm, wegschrijven naar een databestand of op een andere manier.
 
 berekeningen
-: Uitvoeren van basale wiskundige bewerkingen zoals optellen en vermeningvuldigen.
+: Uitvoeren van basale wiskundige bewerkingen zoals optellen en vermenigvuldigen.
 
 voorwaardelijke actie (conditional execution)
 : Controleren of aan een voorwaarde voldaan wordt en afhankelijk daarvan de juiste code uitvoeren.

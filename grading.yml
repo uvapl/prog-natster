@@ -32,8 +32,8 @@ grades:
             scope: integer
             stijl: integer
             extra: integer
-        automatic:
-            scope: check_score.floor
+        # automatic:
+        #     scope: check_score.floor
         calculation: ((3 * scope / 10.0 * 5 + stijl) / 20.0 * 8 + (extra / 10.0) + 1).round(1)
     tent:
         type: float
