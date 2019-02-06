@@ -16,7 +16,7 @@ Periode 1:
     Tentamen:
         Inleveren tentamen: /tentamen/tentamen
     Hertentamen:
-        Inleveren: /tentamen/inleveren-hertentamen
+        Inleveren: /tentamen/hertentamen
 
 Periode 2:
     Installatie:
@@ -36,7 +36,7 @@ Periode 2:
     Tentamen:
         Inleveren tentamen: /tentamen/tentamen
     Hertentamen:
-        Inleveren: /tentamen/inleveren-hertentamen
+        Inleveren: /tentamen/hertentamen
 
 Periode 6:
     Installatie:
