@@ -62,11 +62,13 @@ psets:
         module4: 1
 
 tent:
+    minimum: 5.5
     required: true
     submits:
         tent: 1
 
 hert:
+    minimum: 5.5
     required: true
     submits:
         hert: 1
