@@ -11,4 +11,4 @@ files:
 check:
     tool: checkpy
     repo: uva/progns
-    args: -m algoritmen
+    args: -m getaltheorie
