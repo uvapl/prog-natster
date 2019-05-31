@@ -42,21 +42,17 @@ Periode 6:
     Installatie:
         Python installeren: /naslag/installatie-computer
     Week 1:
-        Getaltheorie: /getaltheorie/inhoud
+        Overzicht: /getaltheorie/inhoud
+        Inleveren: /getaltheorie/inleveren
     Week 2:
-        Getaltheorie: /getaltheorie/inhoud
+        Overzicht: /integreren/inhoud
+        Inleveren: /integreren/inleveren
     Week 3:
-        Integreren: /integreren/inhoud
-    Week 4:
-        Integreren: /integreren/inhoud
-    Week 5:
-        'Simulaties: Beweging': /beweging/inhoud
-        'Simulaties: Prooi-predator': /prooipredator/inhoud
-    Week 6:
-        'Simulaties: Beweging': /beweging/inhoud
-        'Simulaties: Prooi-predator': /prooipredator/inhoud
+        Overzicht: /monopoly/inhoud
+        Inleveren: /monopoly/inleveren
     Week 7:
-        'Big Data': /bigdata/inhoud
+        Overzicht: /sensordata/inhoud
+        Inleveren: /sensordata/inleveren
     Tentamen:
         Inleveren tentamen: /tentamen/tentamen
     Hertentamen:
