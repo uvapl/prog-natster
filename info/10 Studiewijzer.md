@@ -71,19 +71,26 @@ Bij afwezigheid (om welke reden dan ook) wordt het cijfer voor de betreffende op
 De deadline voor het inleveren van alle code is voor elke module op de maandagochtend in de week nadat de module afgesloten is. Op dat moment wordt het ingeleverde werk verdeeld onder de nakijkers en gaan zij aan de slag. Er is geen mogelijkheid om het later in te leveren, dus lever sowieso in wat je hebt! Om te zorgen dat je de assistent alle vragen 
 kan stellen en hem/haar kan vragen je code te bekijken is het natuurlijk verstandiger om te zorgen dat je alles af hebt aan het eind van het laatste practicum.
 
-| deadline |       groep DEFGHI         |
-| ---------| -------------------------- |  
-| module 1 | maandag 17 september 10:59 | 
-| module 2 | maandag 1 oktober    10:59 |  
-| module 3 | maandag 15 oktober   10:59 |   
-| module 4 | maandag 22 oktober   10:59 |  
+| deadline  | groep DEFGHI                |  
+| --------- | --------------------------- |  
+| module 1  | maandag 17 september 10:59  |  
+| module 2  | maandag 1 oktober    10:59  |  
+| module 3  | maandag 15 oktober   10:59  |  
+| module 4  | maandag 22 oktober   10:59  |  
 
-| deadline |        groep ABC           |
-| ---------| ---------------------------|  
-| module 1 | maandag 12 november 10:59  | 
-| module 2 | maandag 26 november 10:59  |  
-| module 3 | maandag 10 december 10:59  |   
-| module 4 | maandag 17 december 10:59  |  
+| deadline  | groep ABC                   |  
+| --------- | --------------------------- |  
+| module 1  | maandag 12 november 10:59   |  
+| module 2  | maandag 26 november 10:59   |  
+| module 3  | maandag 10 december 10:59   |  
+| module 4  | maandag 17 december 10:59   |  
+
+| deadline  | groep J                     |  
+| --------- | --------------------------- |  
+| module 1  | maandag 10 juni 11:59       |  
+| module 2  | maandag 17 juni 11:59       |  
+| module 3  | maandag 24 juni 11:59       |  
+| module 4  | maandag 1 juli 11:59        |  
 
 
 ## Tentamen
