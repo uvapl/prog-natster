@@ -30,8 +30,10 @@ maar
      De hoogste temperatuur ooit gemeten in de Bilt was 34.5 graden Celcius. Dat wgebeurde op 13 mei 1967.
 
 Let op: 
-	- maak een aparte functie `datum()` die een getal als `19670513` kan omzetten naar een goed leesbare beschrijving als `13 mei 1967`.
-    - geef jde functie `ExtremeTemperatuur()` een inputparamater zodat `ExtremeTemperatuur(1)` de hoogste temperatuur vindt en weergeeft en `ExtremeTemperatuur(-1)` hetzelfde doet voor de laagste temperatuur.
+
+- maak een aparte functie `datum()` die een getal als `19670513` kan omzetten naar een goed leesbare beschrijving als `13 mei 1967`.
+
+- geef jde functie `ExtremeTemperatuur()` een inputparamater zodat `ExtremeTemperatuur(1)` de hoogste temperatuur vindt en weergeeft en `ExtremeTemperatuur(-1)` hetzelfde doet voor de laagste temperatuur.
 
 
 ### Opdracht 2: koud kouder koudst
