@@ -27,19 +27,26 @@ We gaan op zoek naar de hoogste en laagste temperatuur die in De Bilt zijn gemet
 
 maar      
 
-     De hoogste temperatuur ooit gemeten in de Bilt was 34.5 graden Celcius. Dat wgebeurde op 13 mei 1967.
+     De hoogste temperatuur ooit gemeten in de Bilt was 34.5 graden Celcius. Dat gebeurde op 13 mei 1967.
 
 Let op: 
 
 - maak een aparte functie `datum()` die een getal als `19670513` kan omzetten naar een goed leesbare beschrijving als `13 mei 1967`.
 
-- geef de functie `ExtremeTemperatuur()` een inputparameter die de waardes -1 en +1 aanneemt. 
-  Zorg dat `ExtremeTemperatuur(1)` de hoogste temperatuur weergeeft en `ExtremeTemperatuur(-1)` hetzelfde doet voor de laagste temperatuur.
+- geef de functie `ExtremeTemperatuur()` een inputparameter die de waarden -1 en +1 kan aannemen.   
+  Zorg hierbij dat `ExtremeTemperatuur(1)` de hoogste temperatuur weergeeft op het scherm en `ExtremeTemperatuur(-1)` hetzelfde doet voor de laagste temperatuur.
 
 
 ### Opdracht 2: koud kouder koudst
 
-Wat is de langste periode dat het aaneengesloten heeft gevroren (maximumtemperatuur onder 0◦C). Wat was de datum van de laatste dag van deze periode?
+Maak een functie `Nachtvorst()` die op zoek gaat naar de langste periode dat het aaneengesloten heeft gevroren (maximumtemperatuur onder 0◦C). Hoe lang (dagen) duurde deze periode en op welke dag begon deze periode?
+
+Zorg dat de output van je functie als volgt op het scherm wordt weergegeven:
+
+`De langste periode dat het aaneengesloten heeft gevroren begon op <dag> <maand> <jaar> en duurde in totaal <aantal> dagen.`
+
+Gebruik bij het weergeven van de datum ook leesbare tekst, net zoals bij opdracht 1.
+
 
 ### Opdracht 3: zomerse en tropische dagen
 
