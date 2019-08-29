@@ -33,7 +33,8 @@ Let op:
 
 - maak een aparte functie `datum()` die een getal als `19670513` kan omzetten naar een goed leesbare beschrijving als `13 mei 1967`.
 
-- geef jde functie `ExtremeTemperatuur()` een inputparamater zodat `ExtremeTemperatuur(1)` de hoogste temperatuur vindt en weergeeft en `ExtremeTemperatuur(-1)` hetzelfde doet voor de laagste temperatuur.
+- geef de functie `ExtremeTemperatuur()` een inputparameter die de waardes -1 en +1 aanneemt. 
+  Zorg dat `ExtremeTemperatuur(1)` de hoogste temperatuur weergeeft en `ExtremeTemperatuur(-1)` hetzelfde doet voor de laagste temperatuur.
 
 
 ### Opdracht 2: koud kouder koudst
