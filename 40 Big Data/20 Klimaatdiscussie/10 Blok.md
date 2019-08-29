@@ -19,9 +19,7 @@ en beantwoord de volgende vragen.
 
 ### Opdracht 1: extreme temperaturen
 
-Schrijf een functie `ExtremeTemperatuur()` die de 
-
-We gaan op zoek naar de hoogste en laagste temperatuur die in De Bilt zijn gemeten sinds het begin van de 20e eeuw? Op welke dagen gebeurde dat precies en wat waren die temperatuurrecords? Zorg dat je functie de datum en de bijbehorende temperatuur in een net leesbaar formaat op het scherm print. Zeg dus niet: 
+Schrijf een functie `ExtremeTemperatuur()` die de hoogste en laagste temperatuur die in De Bilt zijn gemeten sinds het begin van de 20e eeuw vindt en laat zien op welke dagen dag dit precies gebeurde. Zorg dat je functie de resultaten in een leesbaar formaat op het scherm print. Zeg dus niet: 
 
      Max 34.5 op 19670513
 
@@ -39,9 +37,7 @@ Let op:
 
 ### Opdracht 2: koud kouder koudst
 
-Maak een functie `Nachtvorst()` die op zoek gaat naar de langste periode dat het aaneengesloten heeft gevroren (maximumtemperatuur onder 0◦C). Hoe lang (dagen) duurde deze periode en op welke dag begon deze periode?
-
-Zorg dat de output van je functie als volgt op het scherm wordt weergegeven:
+Maak een functie `Nachtvorst()` die op zoek gaat naar de langste periode dat het aaneengesloten heeft gevroren (maximumtemperatuur onder 0◦C). Meer expliciet: hoe lang (dagen) duurde deze periode en op welke dag begon deze periode?  Zorg dat de output van je functie als volgt op het scherm wordt weergegeven:
 
 `De langste periode dat het aaneengesloten heeft gevroren begon op <dag> <maand> <jaar> en duurde in totaal <aantal> dagen.`
 
