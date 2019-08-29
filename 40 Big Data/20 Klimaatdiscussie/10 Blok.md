@@ -2,9 +2,10 @@
 
 ![](KaartNederlandKlein.png){:.inline}
 
-Laten we een steentje bijdragen aan de klimaatdiscussie en data analyseren die  door de ECA (European Climate Assessment) [beschikbaar](http://eca.knmi.nl/dailydata/predefinedseries.php) wordt gemaakt in grote  data files. We beperken ons tot data die de maximum- en minimumtemperatuur beschrijft voor elke dag in De Bilt sinds 1901.
+Laten we een steentje bijdragen aan de klimaatdiscussie en data analyseren die  door de ECA (European Climate Assessment) [beschikbaar](http://eca.knmi.nl/dailydata/predefinedseries.php) wordt gemaakt in grote  data files. We beperken ons tot data die de maximum- en minimumtemperatuur beschrijft voor elke dag in De Bilt sinds 1901. 
 
-Bestanden: 
+De bestanden die respectievelijk de hoogste en laagste temperatuur in De Bilt voor elke dag weergeven:
+
 
 - <http://www.nikhef.nl/~ivov/Python/KlimaatData/DeBiltTempMaxSUMMER2019.txt>
 - <http://www.nikhef.nl/~ivov/Python/KlimaatData/DeBiltTempMinSUMMER2019.txt>
@@ -18,18 +19,19 @@ en beantwoord de volgende vragen.
 
 ### Opdracht 1: extreme temperaturen
 
-Wat waren de hoogste en laagste temperatuur die in De Bilt zijn gemeten sinds het begin van de 20e eeuw? Op welke dagen was dat? Zorg dat je programma de datum netjes op het scherm print. Zeg dus niet: 
+Schrijf een functie `ExtremeTemperatuur()` die de 
+
+We gaan op zoek naar de hoogste en laagste temperatuur die in De Bilt zijn gemeten sinds het begin van de 20e eeuw? Op welke dagen gebeurde dat precies en wat waren die temperatuurrecords? Zorg dat je functie de datum en de bijbehorende temperatuur in een net leesbaar formaat op het scherm print. Zeg dus niet: 
 
      Max 34.5 op 19670513
 
 maar      
 
-     De hoogste temperatuur was 34.5 graden Celcius, en werd gemeten op 13 mei 1967.
+     De hoogste temperatuur ooit gemeten in de Bilt was 34.5 graden Celcius. Dat wgebeurde op 13 mei 1967.
 
-Tip: maak een aparte functie die een getal als `19670513` kan omzetten naar een goed leesbare beschrijving als `13 mei 1967`.
-
-Let op: vermeld zowel de hoogste als de laagste temperatuur
-
+Let op: 
+	- maak een aparte functie `datum()` die een getal als `19670513` kan omzetten naar een goed leesbare beschrijving als `13 mei 1967`.
+    - geef jde functie `ExtremeTemperatuur()` een inputparamater zodat `ExtremeTemperatuur(1)` de hoogste temperatuur vindt en weergeeft en `ExtremeTemperatuur(-1)` hetzelfde doet voor de laagste temperatuur.
 
 
 ### Opdracht 2: koud kouder koudst
