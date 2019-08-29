@@ -6,8 +6,8 @@ Laten we een steentje bijdragen aan de klimaatdiscussie en data analyseren die  
 
 Bestanden: 
 
-- <http://www.nikhef.nl/~ivov/Python/KlimaatData/DeBiltTempMax.txt>
-- <http://www.nikhef.nl/~ivov/Python/KlimaatData/DeBiltTempMin.txt>
+- <http://www.nikhef.nl/~ivov/Python/KlimaatData/DeBiltTempMaxSUMMER2019.txt>
+- <http://www.nikhef.nl/~ivov/Python/KlimaatData/DeBiltTempMinSUMMER2019.txt>
 
 Download de bestanden, open ze en lees bovenin hoe de data gecodeerd is. We zien dat de maximum(minimum)-temperatuur op 1 januari 1901 -3.1(-6.8) graden Celsius was.
 
@@ -27,6 +27,10 @@ maar
      De hoogste temperatuur was 34.5 graden Celcius, en werd gemeten op 13 mei 1967.
 
 Tip: maak een aparte functie die een getal als `19670513` kan omzetten naar een goed leesbare beschrijving als `13 mei 1967`.
+
+Let op: vermeld zowel de hoogste als de laagste temperatuur
+
+
 
 ### Opdracht 2: koud kouder koudst
 
