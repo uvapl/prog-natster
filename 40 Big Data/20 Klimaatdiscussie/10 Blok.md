@@ -27,7 +27,7 @@ Schrijf een functie `ExtremeTemperatuur()` die de hoogste en laagste temperatuur
 
 Let op: 
 
- - Maak een aparte functie `Maand_als_string(i_maand)` die de naam van de maand in letters teruggeeft als string corresponderend met de maand in het jaar die als input variabele `i_maand` meegegeven wordt. Dus: `Maand_als_string(9) = September`.
+ - Maak een aparte functie `Maand_als_string(i_maand)` die de naam van de maand in letters teruggeeft als string corresponderend met de maand in het jaar die als input variabele `i_maand` meegegeven wordt. Dus: `Maand_als_string(9) = "September"`.
  
  - geef de functie `ExtremeTemperatuur()` een inputparameter die de waarden -1 en +1 kan aannemen.   
    Zorg dat `ExtremeTemperatuur(1)` de hoogste temperatuur vindt en `ExtremeTemperatuur(-1)` de laagste.
@@ -36,12 +36,13 @@ Let op:
 ### Opdracht 2: koud kouder koudst
 
 Maak een functie `Kleineijstijd()` die op zoek gaat naar de langste periode dat het aaneengesloten heeft gevroren (maximumtemperatuur onder 0◦C). Laat zien hoe lang deze periode duurde en geef ook aan wat de laatste dag was van deze periode
-Meer expliciet: hoe lang (dagen) duurde deze periode en op welke dag begon deze periode?  Zorg dat de output van je functie als volgt op het scherm wordt weergegeven:
+Meer expliciet: hoe lang (dagen) duurde deze periode en wat was de eerste en laatste dag van deze periode?  Zorg dat de output van je functie als volgt op het scherm wordt weergegeven:
 
-`De langste periode dat het aaneengesloten heeft gevroren begon op <dag> <maand> <jaar> en duurde in totaal <aantal> dagen.`
+`De langste periode dat het aaneengesloten heeft gevroren duurde xxx dagen: Van <dag> <maand> <jaar> tot en met <dag> <maand> <jaar>.`
 
-Gebruik bij het weergeven van de datum ook leesbare tekst, net zoals bij opdracht 1.
-
+Gebruik bij het weergeven van de datum ook weer leesbare tekst door gebruik te maken van de functie `Maand_als_string()`
+ die je eerder in opdracht 1 gemaakt hebt.
+ 
 
 ### Opdracht 3: zomerse en tropische dagen
 
