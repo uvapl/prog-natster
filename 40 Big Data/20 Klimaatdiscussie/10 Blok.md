@@ -21,9 +21,7 @@ en beantwoord de volgende vragen.
 
 Schrijf een functie `ExtremeTemperatuur()` die de hoogste en laagste temperatuur vindt die in De Bilt is gemeten sinds het begin van de 20e eeuw. Zorg dat de functie de resultaten in een leesbaar formaat op het scherm print. Zeg dus niet: 
 
-     Max 34.5 op 19670513
-
-maar      
+     Max 34.5 op 19670513      , maar
 
      De hoogste temperatuur ooit gemeten in de Bilt is 34.5 graden Celcius. Dat gebeurde op 13 mei 1967.
 
