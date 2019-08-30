@@ -46,7 +46,7 @@ Gebruik bij het weergeven van de datum ook leesbare tekst, net zoals bij opdrach
 
 ### Opdracht 3: zomerse en tropische dagen
 
-We spreken van een zomerse dag als de maximumtemperatuur meer dan 25 graden Celcius was. Op een tropische dag is het in de Bilt zelfs 30 graden. Maak een grafiek waarin voor elk jaar zowel het aantal zomerse als het aantal tropische dagen weergegeven wordt.
+Deze We spreken van een zomerse dag als de maximumtemperatuur meer dan 25 graden Celcius was. Op een tropische dag is het in de Bilt zelfs 30 graden. Maak een grafiek waarin voor elk jaar zowel het aantal zomerse als het aantal tropische dagen weergegeven wordt.
 
 ### Opdracht 4: Eerste hittegolf
 
