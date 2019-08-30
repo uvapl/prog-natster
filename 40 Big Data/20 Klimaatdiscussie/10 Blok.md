@@ -40,7 +40,7 @@ Meer expliciet: hoe lang (dagen) duurde deze periode en wat was de eerste en laa
 
      `De langste periode dat het aaneengesloten heeft gevroren duurde xxx dagen.`
      
-     `De kleine ijstijd liep van <dag> <maand> <jaar> tot en met <dag> <maand> <jaar>.`
+     `Deze kleine ijstijd liep van <dag> <maand> <jaar> tot en met <dag> <maand> <jaar>.`
 
 Gebruik bij het weergeven van de datum ook weer leesbare tekst door gebruik te maken van de functie `Maand_als_string()`
  die je eerder in opdracht 1 gemaakt hebt.
