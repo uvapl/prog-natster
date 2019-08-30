@@ -1,7 +1,7 @@
 # Studiewijzer
 
 *Inleiding programmeren voor Natuur- en Sterrenkunde*  
-*September 2018*
+*September 2019*
 
 Welkom bij deze cursus inleiding programmeren voor Natuur- en Sterrenkunde! Dit blok gaan aan de slag met de programmeertaal Python om te leren hoe we wetenschappelijke problemen uit de wis-, natuur- en sterrenkunde met behulp van een computer op kunnen lossen.
 
@@ -35,7 +35,7 @@ Wat willen we dat je kunt aan het einde van deze cursus?
 
 Vanaf de eerste dag van de cursus ga je oefenen met het omzetten van een idee
 voor een programma naar werkende Python-code. Per module doe je eerst wat kleine
-oefeningen om de nieuwe programmeer elementen onder de knie te krijgen en ga je 
+oefeningen om de nieuwe programmeerelementen onder de knie te krijgen en ga je 
 daarna aan de slag met wat grotere opdrachten. Aan het eind van de module lever 
 je alles digitaal in. Dat wordt beoordeeld:
 
@@ -71,31 +71,17 @@ Bij afwezigheid (om welke reden dan ook) wordt het cijfer voor de betreffende op
 De deadline voor het inleveren van alle code is voor elke module op de maandagochtend in de week nadat de module afgesloten is. Op dat moment wordt het ingeleverde werk verdeeld onder de nakijkers en gaan zij aan de slag. Er is geen mogelijkheid om het later in te leveren, dus lever sowieso in wat je hebt! Om te zorgen dat je de assistent alle vragen 
 kan stellen en hem/haar kan vragen je code te bekijken is het natuurlijk verstandiger om te zorgen dat je alles af hebt aan het eind van het laatste practicum.
 
-| deadline  | groep DEFGHI                |  
+| deadline  |                             |  
 | --------- | --------------------------- |  
-| module 1  | maandag 17 september 10:59  |  
-| module 2  | maandag 1 oktober    10:59  |  
-| module 3  | maandag 15 oktober   10:59  |  
-| module 4  | maandag 22 oktober   10:59  |  
-
-| deadline  | groep ABC                   |  
-| --------- | --------------------------- |  
-| module 1  | maandag 12 november 10:59   |  
-| module 2  | maandag 26 november 10:59   |  
-| module 3  | maandag 10 december 10:59   |  
-| module 4  | maandag 17 december 10:59   |  
-
-| deadline  | groep J                     |  
-| --------- | --------------------------- |  
-| module 1  | maandag 10 juni 11:59       |  
-| module 2  | maandag 17 juni 11:59       |  
-| module 3  | maandag 24 juni 11:59       |  
-| module 4  | maandag 1 juli 11:59        |  
+| module 1  | maandag 16 september 23:59  |  
+| module 2  | maandag 30 september 23:59  |  
+| module 3  | maandag 14 oktober   23:59  |  
+| module 4  | maandag 21 oktober   23:59  |  
 
 
 ## Tentamen
 
-Hoewel het niet toegestaan zou het mogelijk kunnen zijn om ongemerkt mee te liften met 
+Hoewel het niet toegestaan is zou het mogelijk kunnen zijn om ongemerkt mee te liften met 
 een medestudent tijdens het maken van de practica. Doe dit alsjeblieft niet. De regels wat betreft plagiaat zijn erg streng en we voeren controles uit, dus kom gewoon langs als je moeite hebt met de stof en wat extra hulp nodig hebt, dan helpen we je. Om zeker te zijn dat je zelfstandig de leerdoelen van het vak hebt gehaald sluiten we het vak af met een (individueel) tentamen. Het tentamen telt voor 50% mee voor je eindcijfer en om het vak te halen is er een extra eis dat het tentamen zelf ook met een voldoende afgesloten moet worden.
 
 ## Eindcijfer
