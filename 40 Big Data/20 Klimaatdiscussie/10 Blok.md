@@ -29,8 +29,6 @@ maar
 
 Let op: 
 
-- maak een aparte functie `datum()` die een getal als `19670513` kan omzetten naar een goed leesbare beschrijving als `13 mei 1967`.
-
 - geef de functie `ExtremeTemperatuur()` een inputparameter die de waarden -1 en +1 kan aannemen.   
   Zorg hierbij dat `ExtremeTemperatuur(1)` de hoogste temperatuur weergeeft op het scherm en `ExtremeTemperatuur(-1)` hetzelfde doet voor de laagste temperatuur.
 
