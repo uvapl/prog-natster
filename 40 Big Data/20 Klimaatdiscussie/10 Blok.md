@@ -33,15 +33,20 @@ Let op:
    Zorg dat `ExtremeTemperatuur(1)` de hoogste temperatuur vindt en `ExtremeTemperatuur(-1)` de laagste.
 
 
-### Opdracht 2: koud kouder koudst
+### Opdracht 2: de kleine ijstijd
 
 Maak een functie `Kleineijstijd()` die op zoek gaat naar de langste periode dat het aaneengesloten heeft gevroren (maximumtemperatuur onder 0◦C). Laat zien hoe lang deze periode duurde en geef ook aan wat de laatste dag was van deze periode
 Meer expliciet: hoe lang (dagen) duurde deze periode en wat was de eerste en laatste dag van deze periode?  Zorg dat de output van je functie als volgt op het scherm wordt weergegeven:
 
-`De langste periode dat het aaneengesloten heeft gevroren duurde xxx dagen: Van <dag> <maand> <jaar> tot en met <dag> <maand> <jaar>.`
+     `De langste periode dat het aaneengesloten heeft gevroren duurde xxx dagen.`
+     
+     `De kleine ijstijd liep van <dag> <maand> <jaar> tot en met <dag> <maand> <jaar>.`
 
 Gebruik bij het weergeven van de datum ook weer leesbare tekst door gebruik te maken van de functie `Maand_als_string()`
  die je eerder in opdracht 1 gemaakt hebt.
+
+**Extra**: we hebben nu gekeken naar de periode waarbij de maximumtemperatuur niet boven het vriespunt uitkwam. Door de maximale temperatuur als parameter in je code te verwerken, een kleine aanpassing, kan je nu ook zoeken naar de periode dat de temperatuur niet boven de 30 graden uitkwam bijvoorbeeld.
+
  
 
 ### Opdracht 3: zomerse en tropische dagen
