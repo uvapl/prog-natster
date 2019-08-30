@@ -28,7 +28,7 @@ Schrijf een functie `ExtremeTemperatuur()` die de hoogste en laagste temperatuur
 Let op: 
 
 - geef de functie `ExtremeTemperatuur()` een inputparameter die de waarden -1 en +1 kan aannemen.   
-  Zorg hierbij dat `ExtremeTemperatuur(1)` de hoogste temperatuur weergeeft op het scherm en `ExtremeTemperatuur(-1)` hetzelfde doet voor de laagste temperatuur.
+  Zorg dat `ExtremeTemperatuur(1)` de hoogste temperatuur vindt en `ExtremeTemperatuur(-1)` de laagste.
 
 
 ### Opdracht 2: koud kouder koudst
