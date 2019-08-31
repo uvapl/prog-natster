@@ -48,10 +48,19 @@ Gebruik bij het weergeven van de datum ook weer leesbare tekst door gebruik te m
 **Extra**: we hebben nu gekeken naar de periode waarbij de maximumtemperatuur niet boven het vriespunt uitkwam. Door de maximale temperatuur als parameter in je code te verwerken, een kleine aanpassing, kan je nu ook zoeken naar de periode dat de temperatuur niet boven de 30 graden uitkwam bijvoorbeeld.
 
  
-
 ### Opdracht 3: zomerse en tropische dagen
 
-Deze We spreken van een zomerse dag als de maximumtemperatuur meer dan 25 graden Celcius was. Op een tropische dag is het in de Bilt zelfs 30 graden. Maak een grafiek waarin voor elk jaar zowel het aantal zomerse als het aantal tropische dagen weergegeven wordt.
+We spreken van een ***zomerse dag*** als de maximumtemperatuur meer dan 25 graden Celcius was. Op een ***tropische dag*** is het in de Bilt zelfs meer dan 30 graden. Maak een functie `Zomersedagen()` die voor elk jaar het aantal zomerse en tropische dagen als volgt op het scherm print:
+
+    jaar  1980  zomers =  12  en tropisch =  0
+    jaar  1981  zomers =  14  en tropisch =  0
+    jaar  1982  zomers =  32  en tropisch =  6
+    jaar  1983  zomers =  40  en tropisch =  7
+    jaar  1984  zomers =  16  en tropisch =  2
+    jaar  1985  zomers =  15  en tropisch =  1
+
+Zorg ook dat er aan het eind een grafiek getoond wordt waarin voor elk jaar zowel het aantal zomerse als het aantal tropische dagen weergegeven wordt.
+
 
 ### Opdracht 4: Eerste hittegolf
 
