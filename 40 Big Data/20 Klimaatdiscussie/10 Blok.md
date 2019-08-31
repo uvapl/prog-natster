@@ -50,7 +50,7 @@ Gebruik bij het weergeven van de datum ook weer leesbare tekst door gebruik te m
  
 ### Opdracht 3: zomerse en tropische dagen
 
-We spreken van een ***zomerse dag*** als de maximumtemperatuur meer dan 25 graden Celcius was. Op een ***tropische dag*** is het in de Bilt zelfs meer dan 30 graden. Maak een functie `Zomersedagen()` die voor elk jaar het aantal zomerse en tropische dagen als volgt op het scherm print:
+We spreken van een ***zomerse dag*** als de maximumtemperatuur meer dan 25 graden Celcius was. Op een ***tropische dag*** is het in de Bilt zelfs meer dan 30 graden. Maak een functie `ZomerseDagen()` die voor elk jaar, van 1901 tot en met 2018, het aantal zomerse en tropische dagen als volgt op het scherm print:
 
     jaar  1980  zomers =  12  en tropisch =  0
     jaar  1981  zomers =  14  en tropisch =  0
@@ -61,13 +61,23 @@ We spreken van een ***zomerse dag*** als de maximumtemperatuur meer dan 25 grade
 
 Zorg ook dat er aan het eind een grafiek getoond wordt waarin voor elk jaar zowel het aantal zomerse als het aantal tropische dagen weergegeven wordt.
 
-
 ### Opdracht 4: Eerste hittegolf
 
-We spreken in Nederland van een hittegolf als de maximumtemperatuur ten minste vijf dagen achtereen minstens 25,0°C was (zomerse dagen) waarvan ten minste op drie dagen 30,0°C of meer (tropische dagen). Print het *eerste* jaartal uit de dataset waarin er sprake was van een hittegolf volgens deze regels.
+We spreken in Nederland van een ***hittegolf*** als de maximumtemperatuur ten minste vijf dagen achtereen minstens 25,0°C was (zomerse dagen) waarvan ten minste op drie dagen 30,0°C of meer (tropische dagen). Schrijf als eerste stap in deze opdracht een functie `Hittegolf()` die net als in opdracht 3 het aantal zomerse en tropische dagen vermeldt, maar daarnaast ook het aantal hittegolven:
+
+    jaar  1980  zomers =  12  en tropisch =  0  en hittegolven = 0
+    jaar  1981  zomers =  14  en tropisch =  0  en hittegolven = 0
+
+Het is handig om te beginnen met de code uit opdracht 3.
+
+In 2019 was er een dubbele hittegolf. Dat was maar een paar keer eerder gebeurd. Zofrg dat je functie aan het eind een lijstje geeft van de jaren waarin er een dubbele (of driedubbele) hittegolf is geweest. Doe dat in het volgende format:
+
+    De jaren waarin er minimaal meerdere hittegolven zijn geweest zijn:
+    In het jaar  <jaar> waren er <aantal> hittegolven
+    
+waarbij jullie programma natuurlijk het jaar en het aantal hittegolven steeds in moet vullen.
+
 
 ### Nette code en nette uitvoer
 
 Zorg dat de code van alle opdrachten in een functie of in functies staat. Gebruik geen globale variabelen (vraag indien nodig wat dit is)!
-
-Je ziet hierboven dat je een aantal dingen moet uitprinten en één grafiek maken. Zorg dat de gevraagde informatie op losse regels wordt uitgeprint, in de juiste volgorde.
