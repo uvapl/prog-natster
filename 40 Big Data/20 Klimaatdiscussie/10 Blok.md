@@ -61,7 +61,7 @@ Schrijf een functie `ZomerseDagen()` die voor elk jaar, van 1901 tot en met 2018
     jaar  1984  warm =  56 , zomers =  16  en tropisch =  2
     jaar  1985  warm =  75 , zomers =  15  en tropisch =  1
 
-Bij het analyseren van grotere data-sets is het erg belangrijk om de data te 
+Bij het analyseren van grotere data-sets is het erg belangrijk om de data ook te 
 visualiseren. 
 
 
@@ -74,22 +74,22 @@ We kunnen deze grafiek natuurlijk ook zelf maken. Zorg dat je programma na afloo
 een soortgelijke grafiek laat zien. 
 
 
-
 ### Opdracht 4: Eerste hittegolf
 
 We spreken in Nederland van een ***hittegolf*** als de maximumtemperatuur ten minste vijf dagen achtereen minstens 25,0°C was (zomerse dagen) waarvan ten minste op drie dagen 30,0°C of meer (tropische dagen). Schrijf als eerste stap in deze opdracht een functie `Hittegolf()` die net als in opdracht 3 het aantal zomerse en tropische dagen vermeldt, maar daarnaast ook het aantal hittegolven:
 
-    jaar  1980  zomers =  12  en tropisch =  0  en hittegolven = 0
-    jaar  1981  zomers =  14  en tropisch =  0  en hittegolven = 0
+    jaar  1980  warm =  69 , zomers =  12  en tropisch =  0  en hittegolven = 0
+    jaar  1981  warm =  63 , zomers =  14  en tropisch =  0  en hittegolven = 0
 
 Het is handig om te beginnen met de code uit opdracht 3.
 
-In 2019 was er een dubbele hittegolf. Dat was maar een paar keer eerder gebeurd. Zofrg dat je functie aan het eind een lijstje geeft van de jaren waarin er een dubbele (of driedubbele) hittegolf is geweest. Doe dat in het volgende format:
+In 2019 was er een dubbele hittegolf, iets dat maar een paar keer eerder was gebeurd. Zorg dat je functie aan het eind van het programma ook een lijstje print van de jaren waarin er een dubbele of driedubbele hittegolf is geweest. Doe dat in het volgende format:
 
     De jaren waarin er minimaal meerdere hittegolven zijn geweest zijn:
-    In het jaar  <jaar> waren er <aantal> hittegolven
-    
-waarbij jullie programma natuurlijk het jaar en het aantal hittegolven steeds in moet vullen.
+      - In het jaar <jaar> waren er <aantal> hittegolven
+      - In het jaar <jaar> waren er <aantal> hittegolven
+      - ...
+, waarbij jullie programma natuurlijk het jaar en het aantal hittegolven in moet vullen.
 
 
 ### Nette code en nette uitvoer
