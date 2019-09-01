@@ -67,11 +67,11 @@ over dezelfde temperatuur data-set deelt die we in deze opdracht analyseren is
 Stefan Okhuijsen. Op 1 september 2019 plaatste hij in een tweet onderstaande 
 grafiek waarbij hij de het aantal warme, zomerse en tropische dagen laat zien 
 voor elk jaar vanaf 1901 tot en met 2018. 
+![](StephanOkhuijsenTweet01092019.png){:.inline}
 
 We kunnen deze grafiek natuurlijk ook zelf maken. Zorg dat je programma na afloop 
 een soortgelijke grafiek laat zien. 
 
-![](StephanOkhuijsenTweet01092019.png){:.inline}
 
 
 ### Opdracht 4: Eerste hittegolf
