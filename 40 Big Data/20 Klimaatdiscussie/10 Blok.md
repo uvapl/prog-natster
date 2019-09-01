@@ -67,7 +67,7 @@ visualiseren.
 
 ![](StephanOkhuijsenTweet01092019.png){:.inline} 
 Een van de mensen die met grote regelmaat grafieken maakt en deelt 
-over dezelfde temperatuur data-set deelt die we in deze opdracht analyseren is 
+over dezelfde data-set die wij in deze opdracht analyseren is 
 Stefan Okhuijsen. Op 1 september 2019 plaatste hij in een tweet onderstaande grafiek waarbij hij de het aantal warme, zomerse en tropische dagen laat zien voor elk jaar vanaf 1901 tot en met 2018. 
 
 We kunnen deze grafiek natuurlijk ook zelf maken. Zorg dat je programma na afloop 
