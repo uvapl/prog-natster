@@ -50,7 +50,9 @@ Gebruik bij het weergeven van de datum ook weer leesbare tekst door gebruik te m
  
 ### Opdracht 3: zomerse en tropische dagen
 
-Het KNMI spreekt van een ***warme dag*** als de maximumtemperatuur minimaal 20 graden Celcius was en van een ***zomerse dag*** als de maximumtemperatuur meer dan 25 graden Celcius was. Op een ***tropische dag*** is het in de Bilt zelfs meer dan 30 graden. Maak een functie `ZomerseDagen()` die voor elk jaar, van 1901 tot en met 2018, het aantal zomerse en tropische dagen als volgt op het scherm print:
+Het KNMI spreekt van een ***warme dag*** als de maximumtemperatuur minimaal 20 graden Celcius was en van een ***zomerse dag*** als de maximumtemperatuur meer dan 25 graden Celcius was. Op een ***tropische dag*** was het in de Bilt zelfs meer dan 30 graden. 
+
+Schrijf een functie `ZomerseDagen()` die voor elk jaar, van 1901 tot en met 2018, het aantal warme, zomerse en tropische dagen als volgt op het scherm print:
 
     jaar  1980  warm =  69 , zomers =  12  en tropisch =  0
     jaar  1981  warm =  63 , zomers =  14  en tropisch =  0
@@ -59,8 +61,18 @@ Het KNMI spreekt van een ***warme dag*** als de maximumtemperatuur minimaal 20 g
     jaar  1984  warm =  56 , zomers =  16  en tropisch =  2
     jaar  1985  warm =  75 , zomers =  15  en tropisch =  1
 
+Bij het analyseren van grotere data-sets is het erg belangrijk om de data te 
+visualiseren. Een van de mensen die met grote regelmaat grafieken maakt en deelt 
+over dezelfde temperatuur data-set deelt die we in deze opdracht analyseren is 
+Stefan Okhuijsen. Op 1 september 2019 plaatste hij in een tweet onderstaande 
+grafiek waarbij hij de het aantal warme, zomerse en tropische dagen laat zien 
+voor elk jaar vanaf 1901 tot en met 2018. 
 
-Zorg ook dat er aan het eind een grafiek getoond wordt waarin voor elk jaar zowel het aantal zomerse als het aantal tropische dagen weergegeven wordt.
+We kunnen deze grafiek natuurlijk ook zelf maken. Zorg dat je programma na afloop 
+een soortgelijke grafiek laat zien. 
+
+![](StephanOkhuijsenTweet01092019.png){:.inline}
+
 
 ### Opdracht 4: Eerste hittegolf
 
