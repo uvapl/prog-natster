@@ -50,14 +50,15 @@ Gebruik bij het weergeven van de datum ook weer leesbare tekst door gebruik te m
  
 ### Opdracht 3: zomerse en tropische dagen
 
-We spreken van een ***zomerse dag*** als de maximumtemperatuur meer dan 25 graden Celcius was. Op een ***tropische dag*** is het in de Bilt zelfs meer dan 30 graden. Maak een functie `ZomerseDagen()` die voor elk jaar, van 1901 tot en met 2018, het aantal zomerse en tropische dagen als volgt op het scherm print:
+Het KNMI spreekt van een ***warme dag*** als de maximumtemperatuur minimaal 20 graden Celcius was en van een ***zomerse dag*** als de maximumtemperatuur meer dan 25 graden Celcius was. Op een ***tropische dag*** is het in de Bilt zelfs meer dan 30 graden. Maak een functie `ZomerseDagen()` die voor elk jaar, van 1901 tot en met 2018, het aantal zomerse en tropische dagen als volgt op het scherm print:
 
-    jaar  1980  zomers =  12  en tropisch =  0
-    jaar  1981  zomers =  14  en tropisch =  0
-    jaar  1982  zomers =  32  en tropisch =  6
-    jaar  1983  zomers =  40  en tropisch =  7
-    jaar  1984  zomers =  16  en tropisch =  2
-    jaar  1985  zomers =  15  en tropisch =  1
+    jaar  1980  warm =  69 , zomers =  12  en tropisch =  0
+    jaar  1981  warm =  63 , zomers =  14  en tropisch =  0
+    jaar  1982  warm =  88 , zomers =  32  en tropisch =  6
+    jaar  1983  warm =  82 , zomers =  40  en tropisch =  7
+    jaar  1984  warm =  56 , zomers =  16  en tropisch =  2
+    jaar  1985  warm =  75 , zomers =  15  en tropisch =  1
+
 
 Zorg ook dat er aan het eind een grafiek getoond wordt waarin voor elk jaar zowel het aantal zomerse als het aantal tropische dagen weergegeven wordt.
 
