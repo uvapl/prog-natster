@@ -74,7 +74,7 @@ We kunnen deze grafiek natuurlijk ook zelf maken. Zorg dat je programma na afloo
 een soortgelijke grafiek laat zien. 
 
 
-### Opdracht 4: Eerste hittegolf
+### Opdracht 4: Jaren met een dubbele hittegolf
 
 We spreken in Nederland van een ***hittegolf*** als de maximumtemperatuur ten minste vijf dagen achtereen minstens 25,0°C was (zomerse dagen) waarvan ten minste op drie dagen 30,0°C of meer (tropische dagen). Schrijf als eerste stap in deze opdracht een functie `Hittegolf()` die net als in opdracht 3 het aantal zomerse en tropische dagen vermeldt, maar daarnaast ook het aantal hittegolven:
 
