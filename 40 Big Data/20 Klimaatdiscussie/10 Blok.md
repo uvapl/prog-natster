@@ -62,11 +62,13 @@ Schrijf een functie `ZomerseDagen()` die voor elk jaar, van 1901 tot en met 2018
     jaar  1985  warm =  75 , zomers =  15  en tropisch =  1
 
 Bij het analyseren van grotere data-sets is het erg belangrijk om de data te 
-visualiseren. Een van de mensen die met grote regelmaat grafieken maakt en deelt 
-over dezelfde temperatuur data-set deelt die we in deze opdracht analyseren is 
-Stefan Okhuijsen. 
+visualiseren. 
 
-![](StephanOkhuijsenTweet01092019.png){:.inline} Op 1 september 2019 plaatste hij in een tweet onderstaande grafiek waarbij hij de het aantal warme, zomerse en tropische dagen laat zien voor elk jaar vanaf 1901 tot en met 2018. 
+
+![](StephanOkhuijsenTweet01092019.png){:.inline} 
+Een van de mensen die met grote regelmaat grafieken maakt en deelt 
+over dezelfde temperatuur data-set deelt die we in deze opdracht analyseren is 
+Stefan Okhuijsen. Op 1 september 2019 plaatste hij in een tweet onderstaande grafiek waarbij hij de het aantal warme, zomerse en tropische dagen laat zien voor elk jaar vanaf 1901 tot en met 2018. 
 
 We kunnen deze grafiek natuurlijk ook zelf maken. Zorg dat je programma na afloop 
 een soortgelijke grafiek laat zien. 
