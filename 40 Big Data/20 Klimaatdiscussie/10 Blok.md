@@ -90,6 +90,7 @@ In 2019 was er een dubbele hittegolf, iets dat maar een paar keer eerder was geb
       - In het jaar <jaar> waren er <aantal> hittegolven
       - ...
 
+
 , waarbij jullie programma natuurlijk het jaar en het aantal hittegolven in moet vullen.
 
 
