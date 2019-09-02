@@ -83,8 +83,7 @@ We spreken in Nederland van een ***hittegolf*** als de maximumtemperatuur ten mi
 
 Het is handig om te beginnen met de code uit opdracht 3.
 
-In 2019 hadden we zelfs een dubbele hittegolf, iets dat blijkbaar maar een paar keer eerder had plaatsgevonden. Dat gaan we zelf uitzoeken! Zorg dat je programma aan het 
-eind ook een lijstje print van de jaren waarin er een dubbele (of misschien zelfs een driedubbele hittegolf) is geweest. Doe dat in het volgende format:
+In 2019 hadden we zelfs een dubbele hittegolf, iets dat blijkbaar maar een paar keer eerder had plaatsgevonden. We gaan in deze opdracht zelf uitzoeken hoe zeldzaam dat is. Zorg dat je programma aan het eind ook een lijstje print van de jaren waarin er een dubbele (of misschien zelfs een driedubbele hittegolf) is geweest. Doe dat in het volgende format:
 
     De jaren waarin er minimaal meerdere hittegolven zijn geweest zijn:
       - In het jaar <jaar> waren er <aantal> hittegolven
