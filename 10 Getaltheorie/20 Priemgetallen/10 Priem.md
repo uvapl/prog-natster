@@ -84,6 +84,8 @@ We zijn hierboven zo simpel mogelijk begonnen, zodat we snel tot een *correct* p
 - Als je een deler vindt hoef je niet verder te zoeken omdat je dan gelijk weet dat het geen priemgetal is. 
 
 - Als je wilt bepalen of 137 een priemgetal is, welke kandidaat-delers bekijk je dan voordat je zeker weet dat het een priemgetal is? Doe dit op pen en papier. Delen door 2 en alle oneven getallen tot het getal is een beetje teveel van het goede. Een wiskundige deelt bijvoorbeeld alleen door 2, 3, 5, 7, 11. Bedenk waarom (dit vraagt waarschijnlijk een flinke aanpassing van je code).
+ Als je deze oplossing gebruikt zul je werken met lijsten (lijsten van priemgetallen in dit geval). Dat leren we eigenlijk pas 
+ in dag 3. Kijk daar of bestudeer hier even hoe [lijsten] https://progns.mprog.nl/python/lijsten precies werken in Python.
 
 ## Hints
 
