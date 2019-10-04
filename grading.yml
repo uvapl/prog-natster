@@ -4,37 +4,37 @@ grades:
         subgrades:
             scope: integer
             stijl: integer
-            extra: integer
+            extra: float
         automatic:
             scope: check_score.floor
-        calculation: ((scope / 12.0 * 5 + stijl) / 10.0 * 8 + (extra / 10.0) + 1).round(1)
+        calculation: ((scope / 12.0 * 5 + stijl) / 10.0 * 8 + extra + 1).round(1)
     module2:
         type: float
         subgrades:
             scope: integer
             stijl: integer
-            extra: integer
+            extra: float
         # automatic:
         #     scope: check_score.floor
-        calculation: ((scope / 15.0 * 5 + stijl) / 10.0 * 8 + (extra / 10.0) + 1).round(1)
+        calculation: ((scope / 15.0 * 5 + stijl) / 10.0 * 8 + extra + 1).round(1)
     module3:
         type: float
         subgrades:
             scope: integer
             stijl: integer
-            extra: integer
+            extra: float
         automatic:
             scope: check_score.floor
-        calculation: ((scope / 18.0 * 5 + stijl) / 10.0 * 8 + (extra / 10.0) + 1).round(1)
+        calculation: ((scope / 18.0 * 5 + stijl) / 10.0 * 8 + extra + 1).round(1)
     module4:
         type: float
         subgrades:
             scope: integer
             stijl: integer
-            extra: integer
+            extra: float
         # automatic:
         #     scope: check_score.floor
-        calculation: ((scope / 14.0 * 5 + stijl) / 10.0 * 8 + (extra / 10.0) + 1).round(1)
+        calculation: ((scope / 14.0 * 5 + stijl) / 10.0 * 8 + extra + 1).round(1)
     tent:
         type: float
         subgrades:
