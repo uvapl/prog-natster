@@ -10,3 +10,7 @@ files:
         - twitter.py
     extra:
         - extra.py
+check:
+    tool: checkpy
+    repo: uva/progns
+    args: -m integreren
