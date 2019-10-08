@@ -14,8 +14,8 @@ grades:
             scope: integer
             stijl: integer
             extra: float
-        # automatic:
-        #     scope: check_score.floor
+        automatic:
+            scope: check_score.floor
         calculation: ((scope / 15.0 * 5 + stijl) / 10.0 * 8 + extra + 1).round(1)
     module3:
         type: float
