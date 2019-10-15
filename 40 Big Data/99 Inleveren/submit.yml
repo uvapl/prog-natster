@@ -2,6 +2,6 @@ name: module4
 files:
     required:
         - autorit.py
-        - strava.py
+        - temperatuur.py
     extra:
-        - extra.py
+        - mijndata.py
