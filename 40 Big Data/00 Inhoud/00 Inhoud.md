@@ -24,6 +24,6 @@ In deze module gaan we leren hoe we informatie uit een grote data-set halen.
 
 #### Inleveren en evaluatie
 
-- Ga naar [deze pagina](/bigdata/inleveren) om je programma's in te leveren.
+- Ga naar [deze pagina](/big-data/inleveren) om je programma's in te leveren.
 
-Je bent klaar met deze module! Vul alsjeblieft de [evaluatie](https://goo.gl/forms/s3W7Nfrk0nXEcbji1){:target="_blank"} in.
+- Je bent klaar met deze module! Vul alsjeblieft de [evaluatie](https://goo.gl/forms/s3W7Nfrk0nXEcbji1){:target="_blank"} in.
