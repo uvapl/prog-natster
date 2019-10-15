@@ -41,7 +41,7 @@ Omdat het doorlopen van files in een computertaal een standaard procedure is, zi
         print(line)
     input_file.close()
 
-> Tip: klik in Canopy met de rechtermuisknop op de *opdrachtregel* van Python, en kies "Keep directory synced to editor". Dan kan Python het bestand `VanBasten.txt` altijd vinden.
+> Tip: zorg dat het bestand `VanBasten.txt` in dezelfde directory staan als waar je Python programma staat zodat je programma hem altijd kan vinden. 
 
 De `'r'` bij de functie `open()` betekent 'read', lezen dus. Als je dit programma uitvoert zal je zien dat bijvoorbeeld de regel van 1988 zo op het scherm verschijnt:
 
