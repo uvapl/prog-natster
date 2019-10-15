@@ -37,19 +37,19 @@ Let op:
 Maak een functie `Kleineijstijd()` die op zoek gaat naar de langste periode dat het aaneengesloten heeft gevroren (maximumtemperatuur onder 0<sup>◦</sup>C). Laat zien hoe lang deze periode duurde en geef ook aan wat de laatste dag was van deze periode
 Meer expliciet: hoe lang (dagen) duurde deze periode en wat was de eerste en laatste dag van deze periode?  Zorg dat de output van je functie als volgt op het scherm wordt weergegeven:
 
-     `De langste periode dat het aaneengesloten heeft gevroren duurde xxx dagen.`
+     De langste periode dat het aaneengesloten heeft gevroren duurde xxx dagen.
      
-     `Deze kleine ijstijd liep van <dag> <maand> <jaar> tot en met <dag> <maand> <jaar>.`
+     Deze kleine ijstijd liep van <dag> <maand> <jaar> tot en met <dag> <maand> <jaar>.
 
-Gebruik bij het weergeven van de datum ook weer leesbare tekst door gebruik te maken van de functie `Maand_als_string()`
- die je eerder in opdracht 1 gemaakt hebt.
+Gebruik bij het weergeven van de datum ook weer leesbare tekst door gebruik te maken van 
+de functie `Maand_als_string()` die je in opdracht 1 van deze module gemaakt hebt.
 
-**Extra**: we hebben nu gekeken naar de periode waarbij de maximumtemperatuur niet boven het vriespunt uitkwam. Door de maximale temperatuur als parameter in je code te verwerken, een kleine aanpassing, kan je nu ook zoeken naar de periode dat de temperatuur niet boven de 30 graden uitkwam bijvoorbeeld.
+**Extra:** we hebben nu gekeken naar de periode waarbij de maximumtemperatuur niet boven het vriespunt uitkwam. Door de maximale temperatuur als parameter in je code te verwerken, een kleine aanpassing, kun je vervolgens ook zoeken naar de periode dat de temperatuur niet boven de 30 graden uitkwam bijvoorbeeld.
 
  
 ### Opdracht 3: zomerse en tropische dagen
 
-Het KNMI spreekt van een ***warme dag*** als de maximumtemperatuur minimaal 20 graden Celcius was en van een ***zomerse dag*** als de maximumtemperatuur meer dan 25 graden Celcius was. Op een ***tropische dag*** was het in de Bilt zelfs meer dan 30 graden. 
+Het KNMI spreekt van een ***warme dag*** als de maximumtemperatuur minimaal 20 graden Celcius was en van een ***zomerse dag*** als de maximumtemperatuur meer dan 25 graden Celcius was. Op een ***tropische dag*** was het in De Bilt zelfs meer dan 30 graden. 
 
 Schrijf een functie `ZomerseDagen()` die voor elk jaar, van 1901 tot en met 2018, het aantal warme, zomerse en tropische dagen als volgt op het scherm print:
 
@@ -69,8 +69,7 @@ Een van de mensen die met grote regelmaat grafieken maakt en deelt
 over dezelfde data-set die wij in deze opdracht analyseren is 
 Stephan Okhuijsen. Op 1 september 2019 plaatste hij in een tweet onderstaande grafiek waarbij hij de het aantal warme, zomerse en tropische dagen laat zien voor elk jaar vanaf 1901 tot en met 2018. 
 
-We kunnen deze grafiek natuurlijk ook zelf maken. Zorg dat je programma na afloop 
-een soortgelijke grafiek laat zien. 
+**Optioneel:** We kunnen deze grafiek natuurlijk ook zelf maken. Hoewel Zoek op internet op hoe je zo'n staafdiagram kunt maken met behulp van de functie plt.hist() of gebruik [plt.bar](https://matplotlib.org/3.1.1/gallery/lines_bars_and_markers/bar_stacked.html#sphx-glr-gallery-lines-bars-and-markers-bar-stacked-py).
 
 
 ### Opdracht 4: Jaren met een dubbele hittegolf
