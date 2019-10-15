@@ -6,13 +6,12 @@ Laten we een steentje bijdragen aan de klimaatdiscussie en data analyseren die  
 
 De bestanden die respectievelijk de hoogste en laagste temperatuur in De Bilt voor elke dag weergeven:
 
-
 - <http://www.nikhef.nl/~ivov/Python/KlimaatData/DeBiltTempMaxSUMMER2019.txt>
 - <http://www.nikhef.nl/~ivov/Python/KlimaatData/DeBiltTempMinSUMMER2019.txt>
 
 Download de bestanden, open ze en lees bovenin hoe de data gecodeerd is. We zien dat de maximum(minimum)-temperatuur op 1 januari 1901 -3.1(-6.8) graden Celsius was.
 
-> Let op! De datafiles bevatten ook allerlei uitleg. De bedoeling is dat je deze laat staan in het bestand. Je Python-programma moet zo geschreven zijn dat je deze regels netjes overslaat bij het verwerken!
+> Let op! De datafiles bevatten ook regels tekst met uitleg van de verschillende variabelen. De bedoeling is dat je deze laat staan in het bestand. Je Python-programma moet zo geschreven zijn dat je deze regels netjes overslaat bij het verwerken!
 
 Schrijf een programma **temperatuur.py** die de file regel voor regel inleest
 en beantwoord de volgende vragen.
@@ -35,7 +34,7 @@ Let op:
 
 ### Opdracht 2: de kleine ijstijd
 
-Maak een functie `Kleineijstijd()` die op zoek gaat naar de langste periode dat het aaneengesloten heeft gevroren (maximumtemperatuur onder 0◦C). Laat zien hoe lang deze periode duurde en geef ook aan wat de laatste dag was van deze periode
+Maak een functie `Kleineijstijd()` die op zoek gaat naar de langste periode dat het aaneengesloten heeft gevroren (maximumtemperatuur onder 0<sup>◦</sup>C). Laat zien hoe lang deze periode duurde en geef ook aan wat de laatste dag was van deze periode
 Meer expliciet: hoe lang (dagen) duurde deze periode en wat was de eerste en laatste dag van deze periode?  Zorg dat de output van je functie als volgt op het scherm wordt weergegeven:
 
      `De langste periode dat het aaneengesloten heeft gevroren duurde xxx dagen.`
