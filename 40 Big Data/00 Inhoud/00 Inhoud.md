@@ -22,6 +22,8 @@ In deze module gaan we leren hoe we informatie uit een grote data-set halen.
 1. <span class="badge badge-primary">Opdracht</span> Na het verwerken van bestaande data is het tijd om [zelf data te  verzamelen](/big-data/extra), te analyseren en te presenteren naar het grote publiek.
 
 
-#### Evaluatie
+#### Inleveren en evaluatie
+
+- Ga naar [deze pagina](/bigdata/inleveren) om je programma's in te leveren.
 
 Je bent klaar met deze module! Vul alsjeblieft de [evaluatie](https://goo.gl/forms/s3W7Nfrk0nXEcbji1){:target="_blank"} in.
