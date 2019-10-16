@@ -6,12 +6,13 @@ Laten we een steentje bijdragen aan de klimaatdiscussie en data analyseren die  
 
 De bestanden die respectievelijk de hoogste en laagste temperatuur in De Bilt voor elke dag weergeven:
 
+
 - <http://www.nikhef.nl/~ivov/Python/KlimaatData/DeBiltTempMaxSUMMER2019.txt>
 - <http://www.nikhef.nl/~ivov/Python/KlimaatData/DeBiltTempMinSUMMER2019.txt>
 
-Download de bestanden, open ze en lees bovenin hoe de data gecodeerd is. We zien dat de maximum(minimum)-temperatuur op 1 januari 1901 -3.1(-6.8) graden Celsius was.
+Download de bestanden, open ze en lees bovenin hoe de data gecodeerd is. We zien dat de maximum(minimum)-temperatuur op 1 januari 1901 -2.4(-6.5) graden Celsius was.
 
-> Let op! De datafiles bevatten ook regels tekst met uitleg van de verschillende variabelen. De bedoeling is dat je deze laat staan in het bestand. Je Python-programma moet zo geschreven zijn dat je deze regels netjes overslaat bij het verwerken!
+> Let op! De datafiles bevatten ook allerlei uitleg. De bedoeling is dat je deze laat staan in het bestand. Je Python-programma moet zo geschreven zijn dat je deze regels netjes overslaat bij het verwerken!
 
 Schrijf een programma **temperatuur.py** die de file regel voor regel inleest
 en beantwoord de volgende vragen.
@@ -34,22 +35,22 @@ Let op:
 
 ### Opdracht 2: de kleine ijstijd
 
-Maak een functie `Kleineijstijd()` die op zoek gaat naar de langste periode dat het aaneengesloten heeft gevroren (maximumtemperatuur onder 0<sup>◦</sup>C). Laat zien hoe lang deze periode duurde en geef ook aan wat de laatste dag was van deze periode
+Maak een functie `Kleineijstijd()` die op zoek gaat naar de langste periode dat het aaneengesloten heeft gevroren (maximumtemperatuur onder 0◦C). Laat zien hoe lang deze periode duurde en geef ook aan wat de laatste dag was van deze periode
 Meer expliciet: hoe lang (dagen) duurde deze periode en wat was de eerste en laatste dag van deze periode?  Zorg dat de output van je functie als volgt op het scherm wordt weergegeven:
 
-     De langste periode dat het aaneengesloten heeft gevroren duurde xxx dagen.
+     `De langste periode dat het aaneengesloten heeft gevroren duurde xxx dagen.`
      
-     Deze kleine ijstijd liep van <dag> <maand> <jaar> tot en met <dag> <maand> <jaar>.
+     `Deze kleine ijstijd liep van <dag> <maand> <jaar> tot en met <dag> <maand> <jaar>.`
 
-Gebruik bij het weergeven van de datum ook weer leesbare tekst door gebruik te maken van 
-de functie `Maand_als_string()` die je in opdracht 1 van deze module gemaakt hebt.
+Gebruik bij het weergeven van de datum ook weer leesbare tekst door gebruik te maken van de functie `Maand_als_string()`
+ die je eerder in opdracht 1 gemaakt hebt.
 
-**Extra:** we hebben nu gekeken naar de periode waarbij de maximumtemperatuur niet boven het vriespunt uitkwam. Door de maximale temperatuur als parameter in je code te verwerken, een kleine aanpassing, kun je vervolgens ook zoeken naar de periode dat de temperatuur niet boven de 30 graden uitkwam bijvoorbeeld.
+**Extra**: we hebben nu gekeken naar de periode waarbij de maximumtemperatuur niet boven het vriespunt uitkwam. Door de maximale temperatuur als parameter in je code te verwerken, een kleine aanpassing, kan je nu ook zoeken naar de periode dat de temperatuur niet boven de 30 graden uitkwam bijvoorbeeld.
 
  
 ### Opdracht 3: zomerse en tropische dagen
 
-Het KNMI spreekt van een ***warme dag*** als de maximumtemperatuur minimaal 20 graden Celcius was en van een ***zomerse dag*** als de maximumtemperatuur meer dan 25 graden Celcius was. Op een ***tropische dag*** was het in De Bilt zelfs meer dan 30 graden. 
+Het KNMI spreekt van een ***warme dag*** als de maximumtemperatuur minimaal 20 graden Celcius was en van een ***zomerse dag*** als de maximumtemperatuur meer dan 25 graden Celcius was. Op een ***tropische dag*** was het in de Bilt zelfs meer dan 30 graden. 
 
 Schrijf een functie `ZomerseDagen()` die voor elk jaar, van 1901 tot en met 2018, het aantal warme, zomerse en tropische dagen als volgt op het scherm print:
 
@@ -69,7 +70,8 @@ Een van de mensen die met grote regelmaat grafieken maakt en deelt
 over dezelfde data-set die wij in deze opdracht analyseren is 
 Stephan Okhuijsen. Op 1 september 2019 plaatste hij in een tweet onderstaande grafiek waarbij hij de het aantal warme, zomerse en tropische dagen laat zien voor elk jaar vanaf 1901 tot en met 2018. 
 
-**Optioneel:** We kunnen deze grafiek natuurlijk ook zelf maken. Hoewel Zoek op internet op hoe je zo'n staafdiagram kunt maken met behulp van de functie plt.hist() of gebruik [plt.bar](https://matplotlib.org/3.1.1/gallery/lines_bars_and_markers/bar_stacked.html#sphx-glr-gallery-lines-bars-and-markers-bar-stacked-py).
+We kunnen deze grafiek natuurlijk ook zelf maken. Zorg dat je programma na afloop 
+een soortgelijke grafiek laat zien. 
 
 
 ### Opdracht 4: Jaren met een dubbele hittegolf
@@ -81,7 +83,7 @@ We spreken in Nederland van een ***hittegolf*** als de maximumtemperatuur ten mi
 
 Het is handig om te beginnen met de code uit opdracht 3.
 
-In 2019 hadden we zelfs een dubbele hittegolf, iets waarvan gezegd werd dat het maar heel zelden had plaatsgevonden. We gaan in deze opdracht zelf uitzoeken hoe zeldzaam zo'n dubbele hittegolf precies is. Zorg dat je programma aan het eind ook een lijstje print van de jaren waarin er een dubbele (of misschien zelfs een driedubbele hittegolf) is geweest. Doe dat in het volgende format:
+In 2019 hadden we zelfs een dubbele hittegolf, iets dat blijkbaar maar een paar keer eerder had plaatsgevonden. We gaan in deze opdracht zelf uitzoeken hoe zeldzaam dat is. Zorg dat je programma aan het eind ook een lijstje print van de jaren waarin er een dubbele (of misschien zelfs een driedubbele hittegolf) is geweest. Doe dat in het volgende format:
 
     De jaren waarin er minimaal meerdere hittegolven zijn geweest zijn:
       - In het jaar <jaar> waren er <aantal> hittegolven
