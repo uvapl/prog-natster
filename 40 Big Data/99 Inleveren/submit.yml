@@ -5,3 +5,7 @@ files:
         - temperatuur.py
     extra:
         - mijndata.py
+check:
+    tool: checkpy
+    repo: uva/progns
+    args: -m bigdata
