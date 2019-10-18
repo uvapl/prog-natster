@@ -70,8 +70,8 @@ Een van de mensen die met grote regelmaat grafieken maakt en deelt
 over dezelfde data-set die wij in deze opdracht analyseren is 
 Stephan Okhuijsen. Op 1 september 2019 plaatste hij in een tweet onderstaande grafiek waarbij hij de het aantal warme, zomerse en tropische dagen laat zien voor elk jaar vanaf 1901 tot en met 2018. 
 
-We kunnen deze grafiek natuurlijk ook zelf maken. Zorg dat je programma na afloop 
-een soortgelijke grafiek laat zien. 
+**Optioneel**: Met alle Python kennis die we hebben opgedaan zouden we deze grafiek nu ook zelf moeten kunnen maken. Je moet dan wel even zelf op zoek naar de manier om een zogenaamd 'stacked' histogram te maken in Matplotlib. Gebruik in dit geval de documentatie van matplotlib zelf [hier](https://matplotlib.org/3.1.1/gallery/statistics/histogram_multihist.html) of doe wat de meeste van ons doen en Google gewoon en vind het [antwoord](https://www.weirdgeek.com/2018/11/plotting-stacked-histogram/)
+ dat anderen met dezelfde vraag al hebben uitgevogeld. Geen extra punten voor deze vraag, maar wel een goed gevoel natuurlijk als het je lukt.
 
 
 ### Opdracht 4: Jaren met een dubbele hittegolf
