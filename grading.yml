@@ -34,7 +34,7 @@ grades:
             extra: float
         automatic:
             scope: check_score.floor
-        calculation: ((scope / 14.0 * 5 + stijl) / 10.0 * 8 + extra + 1).round(1)
+        calculation: ((scope / 6.0 * 5 + stijl) / 10.0 * 8 + extra + 1).round(1)
     tent:
         type: float
         subgrades:
