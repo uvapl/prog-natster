@@ -44,7 +44,7 @@ grades:
         type: float
         subgrades:
             points: float
-        calculation: (points.to_f + 1.0).round(1)
+        calculation: (points.to_f / 10 * 9 + 1).round(1)
 
 calculation:
     resit:
