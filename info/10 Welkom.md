@@ -1,4 +1,4 @@
-# Programmeren voor Natuur- en Sterrenkunde<br><small>Versie 2019</small>
+# Wetenschappelijk Programmeren<br><small>Versie 2019</small>
 
 ![Python](python-logo.png){:.inline}  
 
