@@ -4,21 +4,17 @@ Om online te kunnen programmeren maken wij gebruik van een online integrated dev
 
 ## Aanmaken van de CS50 IDE
 
+De CS50 IDE heeft alles dat je nodig hebt om meteen Python code te schrijven. Het is één van de beste online programmeeromgevingen die we kennen. 
+
 Om toegang te krijgen tot de ontwikkelomgeving kun je het volgende doen:
 
-1. Registreer bij edX op [https://courses.edx.org/register](https://courses.edx.org/register). Je hoeft je niet aan te melden voor een cursus.
+1. Maak een account aan bij GitHub via [https://github.com/join](https://github.com/join). Op GitHub wordt door ontwikkelaars van over de hele wereld code gedeeld en samengewerkt. Veel wetenschappers gebruiken het ook! Voor nu gebruiken wij alleen de inlog-faciliteiten om toegang te krijgen tot de CS50 IDE.
 
-2. Bevestig je account via de link in je e-mail.
+2. Ga naar [https://ide.cs50.io/](https://ide.cs50.io/). Je zal worden doorverwezen naar GitHub. Log daar in met het account dat je net hebt aangemaakt. Je zal gevraagd worden toestemming te geven bepaalde informatie door te sturen naar CS50. Maak je geen zorgen! CS50 is een vak van Harvard en ze zullen je niet lastigvallen met spam.
 
-3. Login met jouw net aangemaakte account op [https://cs50.io/](https://cs50.io/).
+> Op dit moment werkt de CS50 IDE alleen in Chrome en FireFox, en niet in Safari. Mocht je een leeg scherm te zien krijgen, probeer dan even van browser te wisselen.
 
-4. Er wordt je wellicht gevraagd een nieuwe workspace aan te maken. Vul hiervoor de volgende gegevens in:
-
-    - Workspace name: ide50
-    - Description: CS50 IDE
-    - Template: Harvard's CS50 (*belangrijk*)
-
-Na het aanmaken van de workspace, zie je dit scherm in jouw browser:
+Na het inloggen en laden, zie je dit scherm in jouw browser:
 
 ![cs50](cs50.png)
 
@@ -42,7 +38,7 @@ Het commando `cd` is hier een afkorting van compact disc... uh, nee... *change d
 
     touch hello.py
 
-Nu hebben we een bestand aangemaakt genaamd `hello.py` binnen de map `week1`. Om dit te controleren voer nog een `ls` uit. Het commando `touch` kijkt of een file (in dit geval `hello.py`) bestaat, en zo niet, dan maakt het deze aan.
+Nu hebben we een bestand aangemaakt genaamd `hello.py` binnen de map `week1`. Om dit te controleren kan je nog een `ls` uitvoeren. Het commando `touch` kijkt of een file (in dit geval `hello.py`) bestaat, en zo niet, dan maakt het deze aan.
 
 Om de file `hello.py` te openen, ga je naar links bovenin je scherm waar je een map-icoontje ziet gevolgd door de tekst `~/workspace`. Druk op het driehoekje ernaast om de map `~/workspace` uit te klappen. Doe vervolgens hetzelfde bij de map `week1`, en dubbelklik dan op de file `hello.py`. Nu opent er een nieuwe tab genaamd `hello.py` en kunnen we meteen beginnen met programmeren!
 
