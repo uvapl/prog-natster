@@ -1,18 +1,18 @@
 Introduction: /getaltheorie
 "Deel 1: Aan de slag":
-    Basiselementen: /python/basiselementen
+    Basiselementen: /getaltheorie/basiselementen
     Rekenwonder: /getaltheorie/rekenwonder
 "Deel 2: Priemgetallen":
-    Algoritmen: /python/algoritmen
-    Priemgetallen: /numbers/primes
+    Algoritmen: /getaltheorie/algoritmen
+    Priemgetallen: /getaltheorie/priemgetallen
 "Deel 3: Getaltheorie":
-    Lijsten: /python/lijsten
+    Lijsten: /getaltheorie/lijsten
     Langste reeks: /getaltheorie/reeks
-    Goede code: /naslag/stijlgids
+    Goede code: /getaltheorie/stijlgids
     Goldbach: /getaltheorie/goldbach
 "Deel 4: Grafieken":
-    Modules: /python/modules
-    Grafieken: /technieken/plot
+    Modules: /getaltheorie/modules
+    Grafieken: /getaltheorie/plot
     Plot: /getaltheorie/grafieken
 Extra:
     Onderling priem: /getaltheorie/extra
