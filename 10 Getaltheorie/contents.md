@@ -15,23 +15,23 @@ Maar waarom programmeren? Kijk eens naar het filmpje hiernaast. [Mirjam Leunisse
 
 2. Oefen vervolgens goed met de [basiselementen](/getaltheorie/basiselementen) van Python
 
-3. <span class="badge badge-primary">Opdracht</span> Gebruik de computer als  [rekenwonder](/getaltheorie/rekenwonder)
+3. Gebruik de computer als  [rekenwonder](/getaltheorie/rekenwonder)
 
 ### Deel 2: priemgetallen
 
 1. Leer meer over [algoritmen](/getaltheorie/algoritmen)
 
-3. <span class="badge badge-primary">Opdracht</span> Ga op zoek naar [priemgetallen](/getaltheorie/priemgetallen)
+3. Ga op zoek naar [priemgetallen](/getaltheorie/priemgetallen)
 
 ### Deel 3: resultaten uit de getaltheorie
 
 1. Sla je data op in een [lijst](/getaltheorie/lijsten)
 
-2. <span class="badge badge-primary">Opdracht</span> Ga op zoek naar de [langste reeks niet-priemgetallen](/getaltheorie/reeks)
+2. Ga op zoek naar de [langste reeks niet-priemgetallen](/getaltheorie/reeks)
 
 3. Begrijp hoe je ["mooie code"](/getaltheorie/stijlgids) kunt schrijven --- en vanaf nu verwachten we ook dat je deze ideeën toepast in je eigen code!
 
-4. <span class="badge badge-primary">Opdracht</span> Vind (g)een tegenbewijs voor het vermoeden van [Goldbach](/getaltheorie/goldbach)
+4. Vind (g)een tegenbewijs voor het vermoeden van [Goldbach](/getaltheorie/goldbach)
 
 ### Deel 4: grafieken
 
@@ -39,7 +39,7 @@ Maar waarom programmeren? Kijk eens naar het filmpje hiernaast. [Mirjam Leunisse
 
 2. Zoek op hoe je data kunt [plotten](/getaltheorie/plot)
 
-3. <span class="badge badge-primary">Opdracht</span> Maak data inzichtelijk met [grafieken](/getaltheorie/grafieken)
+3. Maak data inzichtelijk met [grafieken](/getaltheorie/grafieken)
 
 ### Extra opdracht: onderling-priem paren
 

@@ -16,7 +16,7 @@ Kijk eerst eens naar het filmpje hiernaast. Egge van der Poel is "Data Scientist
 
 ### Deel 2: Een bijdrage aan de klimaatdiscussie
 
-Graaf in de [KNMI-temperatuurdata](/big-data/klimaatdiscussie) van de 20ste eeuw
+1. Graaf in de [KNMI-temperatuurdata](/big-data/klimaatdiscussie) van de 20ste eeuw
 
 ### Extra opdracht: data verzamelen, analyseren en presenteren
 

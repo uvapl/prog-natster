@@ -12,27 +12,27 @@ Kijk eerst eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalbers promo
 
 1. Leer over [functies](/integreren/functies) in Python
 
-3. <span class="badge badge-primary">Opdracht</span> Bepaal de [nulpunten](/integreren/nulpunten) van een polynoom
+3. Bepaal de [nulpunten](/integreren/nulpunten) van een polynoom
 
 ### Deel 2: de Riemannsom
 
-1. <span class="badge badge-primary">Opdracht</span> Gebruik computerkracht voor het bepalen van de [Riemannsom](/integreren/riemann)
+1. Gebruik computerkracht voor het bepalen van de [Riemannsom](/integreren/riemann)
 
 ### Deel 3: random
 
 1. Leer over het gebruik van  [random getallen](/integreren/random).
 
-2. <span class="badge badge-primary">Opdracht</span> [Random fact](/integreren/randomwiskunde).
+2. [Random fact](/integreren/randomwiskunde).
 
-3. <span class="badge badge-primary">Opdracht</span> Bereken de gemiddelde [afstand](/integreren/afstand) tussen twee punten in een vierkant
+3. Bereken de gemiddelde [afstand](/integreren/afstand) tussen twee punten in een vierkant
 
-3. <span class="badge badge-primary">Opdracht</span> Analyseer met een [histogram](/integreren/histogram) de uitvoer van de `random`-functie
+3. Analyseer met een [histogram](/integreren/histogram) de uitvoer van de `random`-functie
 
 ### Deel 4: Monte Carlo
 
-2. <span class="badge badge-primary">Opdracht:</span> Gebruik random waarden bij het berekenen van integralen met de  [Monte Carlo](/integreren/monte-carlo)-methode
+2. Gebruik random waarden bij het berekenen van integralen met de  [Monte Carlo](/integreren/monte-carlo)-methode
 
-3. <span class="badge badge-primary">Opdracht:</span> Bereken de oppervlakte van een vreemde vorm: [het Twitter-ei](/integreren/ei)
+3. Bereken de oppervlakte van een vreemde vorm: [het Twitter-ei](/integreren/ei)
 
 ### Extra opdracht: fractals
 
