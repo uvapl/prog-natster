@@ -10,35 +10,27 @@ Kijk eerst eens naar het filmpje hiernaast. Anne Kroon en Damian Trilling zijn c
 
 ### Deel 1: Animaties
 
-- Leer hoe je [animaties](/monopoly/animaties) maakt in Python
-
-- <span class="badge badge-primary">Opdracht</span> De [spiraliserende stip](/beweging/stip)
-
-- <span class="badge badge-primary">Opdracht</span> Laat zien hoe een [dronken student](/beweging/student) beweegt
+1. Leer hoe je [animaties](/simulaties/animaties) maakt in Python
+2. De [spiraliserende stip](/simulaties/stip)
+3. Laat zien hoe een [dronken student](/simulaties/student) beweegt
 
 ### Deel 2: Monopoly
 
-- Lees over [Monopoly](/monopoly/inleiding)
-
-- Check de tips voor het [debuggen](/python/debuggen) van een simulatie
-
-- <span class="badge badge-primary">Opdracht</span> Monopoly met 1 speler in [Donald Trump-mode](/monopoly/vrij-rondlopen)
-
-- <span class="badge badge-primary">Opdracht</span> Effect van een eindige hoeveelheid [startgeld](/monopoly/startgeld) in het spel
-
-- <span class="badge badge-primary">Opdracht</span> Voeg een tweede speler toe en herstel het [evenwicht](/monopoly/twee-spelers)
+1. Lees over [Monopoly](/simulaties/inleiding)
+2. Check de tips voor het [debuggen](/simulaties/debuggen) van een simulatie
+3. Monopoly met 1 speler in [Donald Trump-mode](/simulaties/vrij-rondlopen)
+4. Effect van een eindige hoeveelheid [startgeld](/simulaties/startgeld) in het spel
+5. Voeg een tweede speler toe en herstel het [evenwicht](/simulaties/twee-spelers)
 
 ### Deel 3: Natuurkunde
 
-- <span class="badge badge-primary">Opdracht</span> Bestudeer de beweging van een vallende [appel](/beweging/appel)
-
-- Lees nog even terug over het gebruiken van [meerdere grafieken](/technieken/plot)
-
-- <span class="badge badge-primary">Opdracht</span> Bestudeer de beweging van een [basejumper](/beweging/basejump)
+1. Bestudeer de beweging van een vallende [appel](/simulaties/appel)
+2. Lees nog even terug over het gebruiken van [meerdere grafieken](/simulaties/plot)
+3. Bestudeer de beweging van een [basejumper](/simulaties/basejump)
 
 ### Extra: deeltjes in een doos
 
-<span class="badge badge-primary">Opdracht</span> Bestudeer de beweging van [deeltjes in een doos](/monopoly/extra)
+Bestudeer de beweging van [deeltjes in een doos](/simulaties/extra)
 
 ### Afronding
 

@@ -14,7 +14,7 @@ Kijk eerst eens naar het filmpje hiernaast. Egge van der Poel is "Data Scientist
 
 2. Verwerk sensor-data van een  [autorit](/big-data/dataverwerken) van een wetenschapper op weg naar de UvA
 
-### Deel 2: Bijdrage leveren aan de klimaatdiscussie
+### Deel 2: Een bijdrage aan de klimaatdiscussie
 
 Graaf in de [KNMI-temperatuurdata](/big-data/klimaatdiscussie) van de 20ste eeuw
 
