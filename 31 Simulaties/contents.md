@@ -1,4 +1,4 @@
-# Monopoly
+# Simulaties
 
 <div style="width: 40%; float:right; margin-left: 2em;">
 ![embed](https://player.vimeo.com/video/233508920)
@@ -8,7 +8,7 @@ Na een korte kennismaking met animaties in Python gaan we het spel Monopoly simu
 
 Kijk eerst eens naar het filmpje hiernaast. Anne Kroon en Damian Trilling zijn communicatiewetenschappers bij de UvA, en gespecialiseerd in het maken en gebruiken van programma's om interessante informatie uit teksten te halen.
 
-### Animaties
+### Deel 1: Animaties
 
 - Leer hoe je [animaties](/monopoly/animaties) maakt in Python
 
@@ -16,7 +16,7 @@ Kijk eerst eens naar het filmpje hiernaast. Anne Kroon en Damian Trilling zijn c
 
 - <span class="badge badge-primary">Opdracht</span> Laat zien hoe een [dronken student](/beweging/student) beweegt
 
-### Monopoly deel 1
+### Deel 2: Monopoly
 
 - Lees over [Monopoly](/monopoly/inleiding)
 
@@ -24,21 +24,21 @@ Kijk eerst eens naar het filmpje hiernaast. Anne Kroon en Damian Trilling zijn c
 
 - <span class="badge badge-primary">Opdracht</span> Monopoly met 1 speler in [Donald Trump-mode](/monopoly/vrij-rondlopen)
 
-### Monopoly deel 2
+### Deel 3: Huizen kopen
 
-- <span class="badge badge-primary">Opdracht</span> Effect van een eindige hoeveelheid [startgeld](/monopoly/startgeld) in het spel
+<span class="badge badge-primary">Opdracht</span> Effect van een eindige hoeveelheid [startgeld](/monopoly/startgeld) in het spel
 
-### Monopoly deel 3
+### Deel 4: Twee spelers
 
-- <span class="badge badge-primary">Opdracht</span> Voeg een tweede speler toe en herstel het [evenwicht](/monopoly/twee-spelers)
+<span class="badge badge-primary">Opdracht</span> Voeg een tweede speler toe en herstel het [evenwicht](/monopoly/twee-spelers)
 
-### Natuurkunde-simulaties
+<!-- ### Natuurkunde-simulaties
 
 - <span class="badge badge-primary">Opdracht</span> Bestudeer de beweging van een vallende [appel](/beweging/appel)
 
 - Lees nog even terug over het gebruiken van [meerdere grafieken](/technieken/plot)
 
-- <span class="badge badge-primary">Opdracht</span> Bestudeer de beweging van een [basejumper](/beweging/basejump)
+- <span class="badge badge-primary">Opdracht</span> Bestudeer de beweging van een [basejumper](/beweging/basejump) -->
 
 ### Extra: deeltjes in een doos
 
