@@ -24,21 +24,17 @@ Kijk eerst eens naar het filmpje hiernaast. Anne Kroon en Damian Trilling zijn c
 
 - <span class="badge badge-primary">Opdracht</span> Monopoly met 1 speler in [Donald Trump-mode](/monopoly/vrij-rondlopen)
 
-### Deel 3: Huizen kopen
+- <span class="badge badge-primary">Opdracht</span> Effect van een eindige hoeveelheid [startgeld](/monopoly/startgeld) in het spel
 
-<span class="badge badge-primary">Opdracht</span> Effect van een eindige hoeveelheid [startgeld](/monopoly/startgeld) in het spel
+- <span class="badge badge-primary">Opdracht</span> Voeg een tweede speler toe en herstel het [evenwicht](/monopoly/twee-spelers)
 
-### Deel 4: Twee spelers
-
-<span class="badge badge-primary">Opdracht</span> Voeg een tweede speler toe en herstel het [evenwicht](/monopoly/twee-spelers)
-
-<!-- ### Natuurkunde-simulaties
+### Deel 3: Natuurkunde
 
 - <span class="badge badge-primary">Opdracht</span> Bestudeer de beweging van een vallende [appel](/beweging/appel)
 
 - Lees nog even terug over het gebruiken van [meerdere grafieken](/technieken/plot)
 
-- <span class="badge badge-primary">Opdracht</span> Bestudeer de beweging van een [basejumper](/beweging/basejump) -->
+- <span class="badge badge-primary">Opdracht</span> Bestudeer de beweging van een [basejumper](/beweging/basejump)
 
 ### Extra: deeltjes in een doos
 
