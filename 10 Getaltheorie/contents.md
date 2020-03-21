@@ -49,4 +49,4 @@ Van bovenstaande opdrachten verwachten we dat je ze allemaal helemaal doet. Er i
 
 <!-- 1. Ga naar [deze pagina](/getaltheorie/inleveren) om je programma's in te leveren. -->
 
-2. Vul daarna de [evaluatie](https://goo.gl/forms/gwRSgA3bBnpcAkME2){:target="_blank"} in.
+Vul de [evaluatie](https://goo.gl/forms/gwRSgA3bBnpcAkME2){:target="_blank"} in.
