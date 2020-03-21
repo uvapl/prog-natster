@@ -4,25 +4,25 @@
 ![embed](https://player.vimeo.com/video/235030111)
 </div>
 
-In deze module gaan we werken met *functies* en *random getallen*. Met deze onderdelen van Python kunnen we methoden implementeren die de integraal kunnen bepalen van zo'n beetje elke functie! Je hoeft geen calculus te hebben gedaan om deze module te volgen, maar enig gevoel bij wiskundige functies is wel belangrijk.
+In deze module gaan we werken met *functies* en *random getallen*. Met deze onderdelen van Python kunnen we methoden implementeren die de integraal kunnen bepalen van zo'n beetje elke functie! Je hoeft niet alles te weten over integreren om deze module te doen, maar enig gevoel bij wiskundige functies is wel belangrijk.
 
-Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalbers promoveerden bij het [Nikhef](http://www.nikhef.nl/) en vertellen over hun ervaring met programmeren en simuleren bij hun onderzoek.
+Kijk eerst eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalbers promoveerden bij het [Nikhef](http://www.nikhef.nl/) en vertellen over hun ervaring met programmeren en simuleren bij hun onderzoek.
 
-#### Dag 1: nulpunten
+### Deel 1: nulpunten
 
-1. Leer over [functies](/python/functies) in Python
+1. Leer over [functies](/integreren/functies) in Python
 
 3. <span class="badge badge-primary">Opdracht</span> Bepaal de [nulpunten](/integreren/nulpunten) van een polynoom
 
-#### Dag 2: Riemann
+### Deel 2: de Riemannsom
 
-1. Leer over de [Riemannsom](/technieken/riemannsom)
+1. Leer over de [Riemannsom](/integreren/riemannsom)
 
 1. <span class="badge badge-primary">Opdracht</span> Gebruik computerkracht voor het bepalen van de [Riemannsom](/integreren/riemann).
 
-#### Dag 3: random
+### Deel 3: random
 
-1. Leer over het gebruik van  [random getallen](/technieken/random).
+1. Leer over het gebruik van  [random getallen](/integreren/random).
 
 2. <span class="badge badge-primary">Opdracht</span> [Random fact](/integreren/randomwiskunde).
 
@@ -30,26 +30,20 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 3. <span class="badge badge-primary">Opdracht</span> Analyseer met een [histogram](/integreren/histogram) de uitvoer van de `random`-functie
 
-#### Dag 4: Monte Carlo
+### Deel 4: Monte Carlo
 
-1. Leer over de [Monte-Carlotechniek](/technieken/monte-carlo)
+1. Leer over de [Monte-Carlotechniek](/integreren/monte-carlo)
 
 2. <span class="badge badge-primary">Opdracht:</span> Gebruik random waarden voor het berekenen van integralen met de  [Monte Carlo](/integreren/monte-carlo)-methode
 
 3. <span class="badge badge-primary">Opdracht:</span> Bereken de oppervlakte van een vreemde vorm: [het Twitter-ei](/integreren/ei)
 
+### Extra opdracht: fractals
 
-#### Extra opdracht: fractals - de Mandelbrot set
+In de extra opgave bestuderen we de wiskunde achter fractals en gaan daarmee aan de slag om daarmee zelf de meest bekende fractal te reconstrueren en op het scherm te tekenen: de Mandelbrot set. Duik in de wereld van complexe getallen en [fractals](/integreren/extra).
 
-In de extra opgave voor module 2 bestuderen we eerst kort de wiskunde achter de fractals en gaan daarmee aan de slag om daarmee zelf de meest bekende fractal te reconstrueren en op het scherm te tekenen - de Mandelbrot set. Duik in de wereld van complexe getallen en [fractals](/integreren/extra).
+### Inleveren en evaluatie
 
-
-
-
-#### Inleveren en evaluatie
-
-1. Ga naar [deze pagina](/integreren/inleveren) om je programma's in te leveren.
+<!-- 1. Ga naar [deze pagina](/integreren/inleveren) om je programma's in te leveren. -->
 
 2. Vul daarna de [evaluatie](https://goo.gl/forms/X0HNmhNQbhAk81442){:target="_blank"} in.
-
-
