@@ -16,9 +16,7 @@ Kijk eerst eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalbers promo
 
 ### Deel 2: de Riemannsom
 
-1. Leer over de [Riemannsom](/integreren/riemannsom)
-
-1. <span class="badge badge-primary">Opdracht</span> Gebruik computerkracht voor het bepalen van de [Riemannsom](/integreren/riemann).
+1. <span class="badge badge-primary">Opdracht</span> Gebruik computerkracht voor het bepalen van de [Riemannsom](/integreren/riemann)
 
 ### Deel 3: random
 
@@ -32,9 +30,7 @@ Kijk eerst eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalbers promo
 
 ### Deel 4: Monte Carlo
 
-1. Leer over de [Monte-Carlotechniek](/integreren/monte-carlo)
-
-2. <span class="badge badge-primary">Opdracht:</span> Gebruik random waarden voor het berekenen van integralen met de  [Monte Carlo](/integreren/monte-carlo)-methode
+2. <span class="badge badge-primary">Opdracht:</span> Gebruik random waarden bij het berekenen van integralen met de  [Monte Carlo](/integreren/monte-carlo)-methode
 
 3. <span class="badge badge-primary">Opdracht:</span> Bereken de oppervlakte van een vreemde vorm: [het Twitter-ei](/integreren/ei)
 
