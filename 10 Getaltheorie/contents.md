@@ -11,8 +11,6 @@ Maar waarom programmeren? Kijk eens naar het filmpje hiernaast. [Mirjam Leunisse
 
 ### Deel 1: aan de slag
 
-1. [Installeer](/getaltheorie/installatie-computer) Python
-
 2. Oefen vervolgens goed met de [basiselementen](/getaltheorie/basiselementen) van Python
 
 3. Gebruik de computer als  [rekenwonder](/getaltheorie/rekenwonder)
