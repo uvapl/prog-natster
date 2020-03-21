@@ -9,8 +9,8 @@ acknowledgements:
 license: <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a> <span xmlns:dct="https://purl.org/dc/terms/" property="dct:title">This course</span> is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
 
 modules:
-    "0. Opstarten": /naslag/installatie-online
-    "1. Getaltheorie": /getaltheorie/inhoud
-    "2. Integreren": /integreren/inhoud
-    "3. Monopoly": /monopoly/inhoud
-    "4. Big Data": /big-data/inhoud
+    "0. Opstarten": /naslag/installatie
+    "1. Getaltheorie": /getaltheorie
+    "2. Integreren": /integreren
+    "3. Monopoly": /monopoly
+    "4. Big Data": /big-data
