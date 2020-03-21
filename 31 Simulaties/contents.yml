@@ -1,18 +1,17 @@
-Inleiding: /getaltheorie
-"Deel 1: Aan de slag":
-    Basiselementen: /getaltheorie/basiselementen
-    Rekenwonder: /getaltheorie/rekenwonder
-"Deel 2: Priemgetallen":
-    Algoritmen: /getaltheorie/algoritmen
-    Priemgetallen: /getaltheorie/priemgetallen
-"Deel 3: Getaltheorie":
-    Lijsten: /getaltheorie/lijsten
-    Langste reeks: /getaltheorie/reeks
-    Goede code: /getaltheorie/stijlgids
-    Goldbach: /getaltheorie/goldbach
-"Deel 4: Grafieken":
-    Modules: /getaltheorie/modules
-    Grafieken: /getaltheorie/plot
-    Plot: /getaltheorie/grafieken
+Inleiding: /simulaties
+"Deel 1: Animaties":
+    Animaties maken: /simulaties/animaties
+    Spiraliserende stip: /simulaties/stip
+    Dronken student: /simulaties/student
+"Deel 2: Monopoly":
+    Inleiding: /simulaties/inleiding
+    Debuggen: /simulaties/debuggen
+    Donald-Trump mode: /simulaties/vrij-rondlopen
+    Vast startgeld: /simulaties/startgeld
+    Evenwicht: /simulaties/evenwicht
+"Deel 3: Natuurkunde":
+    Appel: /simulaties/appel
+    Meerdere grafieken: /simulaties/plot
+    Basejumper: /simulaties/basejump
 Extra:
-    Onderling priem: /getaltheorie/extra
+    Deeltjes in een doos: /getaltheorie/extra

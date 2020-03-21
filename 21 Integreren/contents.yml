@@ -1,18 +1,16 @@
-Inleiding: /getaltheorie
-"Deel 1: Aan de slag":
-    Basiselementen: /getaltheorie/basiselementen
-    Rekenwonder: /getaltheorie/rekenwonder
-"Deel 2: Priemgetallen":
-    Algoritmen: /getaltheorie/algoritmen
-    Priemgetallen: /getaltheorie/priemgetallen
-"Deel 3: Getaltheorie":
-    Lijsten: /getaltheorie/lijsten
-    Langste reeks: /getaltheorie/reeks
-    Goede code: /getaltheorie/stijlgids
-    Goldbach: /getaltheorie/goldbach
-"Deel 4: Grafieken":
-    Modules: /getaltheorie/modules
-    Grafieken: /getaltheorie/plot
-    Plot: /getaltheorie/grafieken
+Inleiding: /integreren
+"Deel 1: Nulpunten":
+    Functies: /integreren/functies
+    Nulpunten: /integreren/nulpunten
+"Deel 2: de Riemannsom":
+    Riemannsom: /integreren/riemann
+"Deel 3: Random":
+    Random getallen: /integreren/random
+    Random fact: /integreren/randomwiskunde
+    Afstand: /integreren/afstand
+    Histogram: /integreren/histogram
+"Deel 4: Monte Carlo":
+    Monte Carlo: /integreren/monte-carlo
+    Twitter-Ei: /integreren/ei
 Extra:
-    Onderling priem: /getaltheorie/extra
+    Fractals: /integreren/extra

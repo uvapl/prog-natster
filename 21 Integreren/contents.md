@@ -8,7 +8,7 @@ In deze module gaan we werken met *functies* en *random getallen*. Met deze onde
 
 Kijk eerst eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalbers promoveerden bij het [Nikhef](http://www.nikhef.nl/) en vertellen over hun ervaring met programmeren en simuleren bij hun onderzoek.
 
-### Deel 1: nulpunten
+### Deel 1: Nulpunten
 
 1. Leer over [functies](/integreren/functies) in Python
 
@@ -18,7 +18,7 @@ Kijk eerst eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalbers promo
 
 1. Gebruik computerkracht voor het bepalen van de [Riemannsom](/integreren/riemann)
 
-### Deel 3: random
+### Deel 3: Random
 
 1. Leer over het gebruik van  [random getallen](/integreren/random).
 

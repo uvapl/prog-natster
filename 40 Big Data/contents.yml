@@ -1,18 +1,8 @@
-Inleiding: /getaltheorie
-"Deel 1: Aan de slag":
-    Basiselementen: /getaltheorie/basiselementen
-    Rekenwonder: /getaltheorie/rekenwonder
-"Deel 2: Priemgetallen":
-    Algoritmen: /getaltheorie/algoritmen
-    Priemgetallen: /getaltheorie/priemgetallen
-"Deel 3: Getaltheorie":
-    Lijsten: /getaltheorie/lijsten
-    Langste reeks: /getaltheorie/reeks
-    Goede code: /getaltheorie/stijlgids
-    Goldbach: /getaltheorie/goldbach
-"Deel 4: Grafieken":
-    Modules: /getaltheorie/modules
-    Grafieken: /getaltheorie/plot
-    Plot: /getaltheorie/grafieken
+Inleiding: /big-data
+"Deel 1: Data-analyse":
+    Databestanden: /big-data/files
+    Autorit: /big-data/dataverwerken
+"Deel 2: Klimaat":
+    KNMI: /big-data/klimaatdiscussie
 Extra:
-    Onderling priem: /getaltheorie/extra
+    Zelf verzamelen: /big-data/extra
