@@ -8,7 +8,7 @@ In deze module gaan we uitzoeken hoe we informatie uit een grote dataset halen. 
 
 Kijk eerst eens naar het filmpje hiernaast. Egge van der Poel is "Data Scientist" bij het Erasmus MC en vertelt over zijn ervaring met programmeren en dataverwerking in dit ziekenhuis.
 
-### Deel 1: Inlezen en verwerken van een data-set 
+### Deel 1: Inlezen en verwerken van een *dataset* 
 
 1. Leer een [dataset](/big-data/files) analyseren en verwerken
 

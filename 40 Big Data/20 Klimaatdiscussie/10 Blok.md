@@ -6,9 +6,8 @@ Laten we een steentje bijdragen aan de klimaatdiscussie en data analyseren die  
 
 De bestanden die respectievelijk de hoogste en laagste temperatuur in De Bilt voor elke dag weergeven:
 
-
-- <http://www.nikhef.nl/~ivov/Python/KlimaatData/DeBiltTempMaxSUMMER2019.txt>
-- <http://www.nikhef.nl/~ivov/Python/KlimaatData/DeBiltTempMinSUMMER2019.txt>
+- ![DeBiltTempMaxSUMMER2019.txt](DeBiltTempMaxSUMMER2019.txt)
+- ![DeBiltTempMinSUMMER2019.txt](DeBiltTempMinSUMMER2019.txt)
 
 Download de bestanden, open ze en lees bovenin hoe de data gecodeerd is. We zien dat de maximum(minimum)-temperatuur op 1 januari 1901 -2.4(-6.5) graden Celsius was.
 
@@ -17,11 +16,13 @@ Download de bestanden, open ze en lees bovenin hoe de data gecodeerd is. We zien
 Schrijf een programma **temperatuur.py** die de file regel voor regel inleest
 en beantwoord de volgende vragen.
 
-### Opdracht 1: extreme temperaturen
+## Opdracht 1: extreme temperaturen
 
 Schrijf een functie `ExtremeTemperatuur()` die de hoogste en laagste temperatuur vindt die in De Bilt is gemeten sinds het begin van de 20e eeuw. Zorg dat de functie de resultaten in een leesbaar formaat op het scherm print. Zeg dus niet: 
 
-     Max 34.5 op 19670513      , maar
+     Max 34.5 op 19670513
+
+maar
 
      De hoogste temperatuur ooit gemeten in de Bilt is 34.5 graden Celcius. Dat gebeurde op 13 mei 1967.
 
@@ -33,7 +34,7 @@ Let op:
    Zorg dat `ExtremeTemperatuur(1)` de hoogste temperatuur vindt en `ExtremeTemperatuur(-1)` de laagste.
 
 
-### Opdracht 2: de kleine ijstijd
+## Opdracht 2: de kleine ijstijd
 
 Maak een functie `Kleineijstijd()` die op zoek gaat naar de langste periode dat het aaneengesloten heeft gevroren (maximumtemperatuur onder 0◦C). Laat zien hoe lang deze periode duurde en geef ook aan wat de laatste dag was van deze periode
 Meer expliciet: hoe lang (dagen) duurde deze periode en wat was de eerste en laatste dag van deze periode?  Zorg dat de output van je functie als volgt op het scherm wordt weergegeven:
@@ -48,7 +49,7 @@ Gebruik bij het weergeven van de datum ook weer leesbare tekst door gebruik te m
 **Extra**: we hebben nu gekeken naar de periode waarbij de maximumtemperatuur niet boven het vriespunt uitkwam. Door de maximale temperatuur als parameter in je code te verwerken, een kleine aanpassing, kan je nu ook zoeken naar de periode dat de temperatuur niet boven de 30 graden uitkwam bijvoorbeeld.
 
  
-### Opdracht 3: zomerse en tropische dagen
+## Opdracht 3: zomerse en tropische dagen
 
 Het KNMI spreekt van een ***warme dag*** als de maximumtemperatuur minimaal 20 graden Celcius was en van een ***zomerse dag*** als de maximumtemperatuur meer dan 25 graden Celcius was. Op een ***tropische dag*** was het in de Bilt zelfs meer dan 30 graden. 
 
@@ -74,7 +75,7 @@ Stephan Okhuijsen. Op 1 september 2019 plaatste hij in een tweet onderstaande gr
  dat anderen met dezelfde vraag al hebben uitgevogeld. Geen extra punten voor deze vraag, maar wel een goed gevoel natuurlijk als het je lukt.
 
 
-### Opdracht 4: Jaren met een dubbele hittegolf
+## Opdracht 4: Jaren met een dubbele hittegolf
 
 We spreken in Nederland van een ***hittegolf*** als de maximumtemperatuur ten minste vijf dagen achtereen minstens 25,0°C was (zomerse dagen) waarvan ten minste op drie dagen 30,0°C of meer (tropische dagen). Schrijf als eerste stap in deze opdracht een functie `Hittegolf()` die net als in opdracht 3 het aantal zomerse en tropische dagen vermeldt, maar daarnaast ook het aantal hittegolven:
 
@@ -90,7 +91,6 @@ In 2019 hadden we zelfs een dubbele hittegolf, iets dat blijkbaar maar een paar 
       - In het jaar <jaar> waren er <aantal> hittegolven
       - ...
 
-
-### Nette code en nette uitvoer
+## Nette code en nette uitvoer
 
 Zorg dat de code van alle opdrachten in een functie of in functies staat. Gebruik geen globale variabelen (vraag indien nodig wat dit is)!
