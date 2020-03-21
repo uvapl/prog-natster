@@ -6,8 +6,8 @@ Laten we een steentje bijdragen aan de klimaatdiscussie en data analyseren die  
 
 De bestanden die respectievelijk de hoogste en laagste temperatuur in De Bilt voor elke dag weergeven:
 
-- ![DeBiltTempMaxSUMMER2019.txt](DeBiltTempMaxSUMMER2019.txt)
-- ![DeBiltTempMinSUMMER2019.txt](DeBiltTempMinSUMMER2019.txt)
+- [DeBiltTempMaxSUMMER2019.txt](DeBiltTempMaxSUMMER2019.txt)
+- [DeBiltTempMinSUMMER2019.txt](DeBiltTempMinSUMMER2019.txt)
 
 Download de bestanden, open ze en lees bovenin hoe de data gecodeerd is. We zien dat de maximum(minimum)-temperatuur op 1 januari 1901 -2.4(-6.5) graden Celsius was.
 
