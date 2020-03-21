@@ -4,11 +4,11 @@
 <div class="embed"><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/235029301"></iframe></div></div>
 </div>
 
-In deze module gaan we uitzoeken hoe we informatie uit een grote dataset halen. Er is vaak een hoop interessants te vinden in grote hoeveelheden informatie. De grote vraag is: hoe doe je dat efficiënt? Welke vragen zou je kunnen stellen en beantwoorden met de data?
+In deze module gaan we uitzoeken hoe we informatie uit een dataset halen. Er is vaak een hoop interessants te vinden in grote hoeveelheden data. De grote vraag is: hoe doe je dat efficiënt? Welke vragen kun je stellen en beantwoorden met de data?
 
 Kijk eerst eens naar het filmpje hiernaast. Egge van der Poel is "Data Scientist" bij het Erasmus MC en vertelt over zijn ervaring met programmeren en dataverwerking in dit ziekenhuis.
 
-### Deel 1: Inlezen en verwerken van een *dataset* 
+### Deel 1: Inlezen en verwerken van een dataset
 
 1. Leer een [dataset](/big-data/files) analyseren en verwerken
 
@@ -16,7 +16,7 @@ Kijk eerst eens naar het filmpje hiernaast. Egge van der Poel is "Data Scientist
 
 ### Deel 2: Bijdrage leveren aan de klimaatdiscussie
 
-<span class="badge badge-primary">Opdracht</span> Graven in de [KNMI temperatuur-data](/big-data/klimaatdiscussie) van de 20ste eeuw
+![Opdracht](/course/info/pencil-square.png) Graaf in de [KNMI-temperatuurdata](/big-data/klimaatdiscussie) van de 20ste eeuw
 
 ### Extra opdracht: data verzamelen, analyseren en presenteren
 
