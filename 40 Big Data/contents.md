@@ -1,4 +1,4 @@
-# Module 4: data-analyse - big data
+# Big data
 
 <div style="width: 40%; float:right; margin-left: 2em;">
 <div class="embed"><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/235029301"></iframe></div></div>
