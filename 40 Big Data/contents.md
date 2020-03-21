@@ -10,13 +10,13 @@ Kijk eerst eens naar het filmpje hiernaast. Egge van der Poel is "Data Scientist
 
 ### Deel 1: Inlezen en verwerken van een dataset
 
-1. ![Leeswerk](/course/info/book-half.svg) Leer een [dataset](/big-data/files) analyseren en verwerken
+1. Leer een [dataset](/big-data/files) analyseren en verwerken
 
-2. ![Opdracht](/course/info/pencil-square.svg) Verwerk sensor-data van een  [autorit](/big-data/dataverwerken) van een wetenschapper op weg naar de UvA
+2. Verwerk sensor-data van een  [autorit](/big-data/dataverwerken) van een wetenschapper op weg naar de UvA
 
 ### Deel 2: Bijdrage leveren aan de klimaatdiscussie
 
-![Opdracht](/course/info/pencil-square.svg) Graaf in de [KNMI-temperatuurdata](/big-data/klimaatdiscussie) van de 20ste eeuw
+Graaf in de [KNMI-temperatuurdata](/big-data/klimaatdiscussie) van de 20ste eeuw
 
 ### Extra opdracht: data verzamelen, analyseren en presenteren
 
