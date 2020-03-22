@@ -4,6 +4,8 @@ Om online te kunnen programmeren maken wij gebruik van een online integrated dev
 
 ## Aanmaken van de CS50 IDE
 
+> Op dit moment werkt de CS50 IDE alleen goed in Chrome en FireFox, en niet in Safari. Mocht je een leeg scherm te zien krijgen, probeer dan even van browser te wisselen.
+
 Zorg dat je een GitHub-account hebt!
 
 Ga vervolgens naar <https://ide.cs50.io/>. Je zal eerst worden doorverwezen naar GitHub, waar je moet inloggen met het account dat je hebt aangemaakt. Je zal gevraagd worden toestemming te geven bepaalde informatie door te sturen naar CS50. Maak je geen zorgen! CS50 is een vak van Harvard en ze zullen je niet lastigvallen met spam.
