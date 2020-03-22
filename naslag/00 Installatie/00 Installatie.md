@@ -1,6 +1,6 @@
 # Aan de slag met deze cursus
 
-Voor de start van de cursus moet je een aantal dingen voorbereiden:
+Welkom! We gebruiken bij deze cursus een aantal verschillende tools die gratis beschikbaar zijn gesteld. Voor de start van de cursus moet je een aantal dingen voorbereiden:
 
 - aanmaken van een account op GitHub, voor toegang tot de overige diensten
 - registreren bij Ed, voor vragen stellen en beantwoorden
