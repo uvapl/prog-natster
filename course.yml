@@ -8,6 +8,10 @@ acknowledgements:
 
 license: <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a> <span xmlns:dct="https://purl.org/dc/terms/" property="dct:title">This course</span> is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
 
+links:
+    "Ed Hulpforum": https://us.edstem.org/join/w3EGXy
+    "CS50 IDE": https://ide.cs50.io/
+
 modules:
     "0. Aan de slag": /naslag/installatie
     "1. Getaltheorie": /getaltheorie
