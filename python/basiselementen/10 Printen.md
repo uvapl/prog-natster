@@ -58,7 +58,8 @@ Hieronder vind je een lijstje van operators die je kunt gebruiken om formules sa
 | `2 - 1`  | aftrekken                 |  
 | `1 * 2`  | vermenigvuldigen          |  
 | `2 / 1`  | delen                     |  
+| `2 // 1` | delen van gehele getallen |  
 | `2 % 1`  | modulus (rest bij deling) |  
 | `2 ** 1` | machtsverheffen           |  
 
-Let op: als je twee gehele getallen deelt met de `/`-operator, zal er altijd een geheel getal uitkomen. Dan is `3/2` dus niet `1.5`, maar `1`. Dat is waarom de `%`-operator er mooi bijpast; die geeft de "rest", ofwel wat overblijft.
+Let op: als je twee gehele getallen deelt met de `//`-operator, zal er altijd een geheel getal uitkomen. Dan is `3 // 2` niet `1.5`, maar `1`. Dat is waarom de `%`-operator er mooi bijpast; die geeft de "rest", ofwel wat overblijft.
