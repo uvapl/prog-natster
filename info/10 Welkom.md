@@ -1,25 +1,19 @@
-# Wetenschappelijk Programmeren<br><small>Versie 2019</small>
+# Wetenschappelijk Programmeren<br><small>Versie 2020</small>
 
 ![Python](python-logo.png){:.inline}  
 
-Welkom bij deze cursus inleiding programmeren voor Natuur- en Sterrenkunde! We gaan aan de slag met de programmeertaal Python om te leren hoe we wetenschappelijke problemen uit de wis-, natuur- en sterrenkunde met behulp van een computer op kunnen lossen.
+Welkom bij deze cursus programmeren voor bèta's! We gaan aan de slag met de programmeertaal Python om te leren hoe we wetenschappelijke problemen uit de wis-, natuur- en sterrenkunde met hulp van een computer op kunnen lossen.
 
 Deze cursus is bedoeld voor mensen die nog helemaal geen ervaring hebben met programmeren, maar wel enige kennis hebben uit de bovenbouw van havo/vwo wiskunde en natuurkunde. Daarnaast is het bij programmeren best makkelijk om "vast te lopen". In dat geval is het verstandig om hulp te vragen!
 
-De cursus bestaat uit vier afzonderlijke modules. Gedurende de cursus leren we steeds meer over programmeren en de manier waarop we complexe problemen gestructureerd aan kunnen pakken. Elke module is opgedeeld in vier "dagdelen".
+De cursus bestaat uit vier modules met daarin oefeningen en opdrachten. Gedurende de cursus leer je steeds meer over programmeren en de manier waarop je complexe problemen gestructureerd aan kunt pakken. Je kunt hiernaast direct aan de slag met [Module 0: "Aan de slag"](/naslag/installatie)!
 
-## Docenten
+Wat ga je leren in de modules:
 
-Deze cursus is samengesteld en geschreven door Ivo van Vulpen (Nikhef/UvA) en Martijn Stegeman (UvA) met hulp van vele studenten en assistenten (zie ook onder). Maar: we geven bijna geen les bij deze cursus! Je kunt uitleg vinden in teksten en filmpjes die overal zijn bijgesloten.
-
-## Leerdoelen
-
-Wat willen we dat je kunt aan het einde van deze cursus?
-
-* Je kunt een omschrijving van een wetenschappelijk probleem omzetten naar werkende code
-* Je kunt enkele bijgeleverde bibliotheken gebruiken in je eigen programma's
-* Je kunt code overzichtelijk en beter leesbaar maken door een consistente stijl toe te passen
-* Je kunt enkele soorten programmeerfouten opsporen en verbeteren
+* een omschrijving van een wetenschappelijk probleem omzetten naar werkende code
+* bij Python bijgeleverde oplossingen hergebruiken in je eigen programma's
+* code overzichtelijk en beter leesbaar maken door een consistente stijl toe te passen
+* programmeerfouten opsporen en verbeteren
 
 ## Dankwoord
 
