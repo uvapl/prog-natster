@@ -22,7 +22,7 @@ Kijk eerst eens naar het filmpje hiernaast. Egge van der Poel is "Data Scientist
 
 Na het verwerken van bestaande data is het tijd om [zelf data te  verzamelen](/big-data/extra), te analyseren en te presenteren naar het grote publiek.
 
-### Inleveren en evaluatie
+### Afronding
 
 <!-- - Ga naar [deze pagina](/big-data/inleveren) om je programma's in te leveren. -->
 
