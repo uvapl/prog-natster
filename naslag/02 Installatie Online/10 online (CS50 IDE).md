@@ -24,17 +24,17 @@ Onderin het scherm zie je de terminal, een omgeving waarin je commando's kan uit
 
     ls
 
-Het commando `ls` is een afkorting van list. Dit commando geeft een lijst van alle bestanden en mappen in de "huidige" map. Standaard begint de terminal in de map `~/workspace`, en door het uitvoeren van het commando `ls` zie je alleen de map `week1` die je net hebt aangemaakt. Laten we nu de "huidige map" veranderen door middel van het volgende commando:
+Het commando `ls` is een afkorting van list. Dit commando geeft een lijst van alle bestanden en mappen in de "huidige" map. Standaard begint de terminal in de map `~/`, en door het uitvoeren van het commando `ls` zie je alleen de map `week1` die je net hebt aangemaakt. Laten we nu de "huidige map" veranderen door middel van het volgende commando:
 
     cd week1
 
-Het commando `cd` is hier een afkorting van compact disc... uh, nee... *change directory*. Het verandert dus de huidige map naar een andere map, in dit geval `week1`. Zou je nu `ls` nog een keer uitvoeren, dan zijn er geen resultaten (je krijgt dan ook letterlijk geen zichtbare resultaten). Laten we hier verandering in brengen door middel van het volgende commando:
+Het commando `cd` is hier een afkorting van compact disc... uh, nee... *change directory*. Hiermee open je een andere directory in je terminal (in je terminal moet je alles intikken, zoals je merkt, in plaats van klikken met de muis). Als je dit intikt dan is je terminal gewisseld naar een andere map, in dit geval `week1`. Zou je nu `ls` nog een keer uitvoeren, dan zijn er geen resultaten (je krijgt dan ook letterlijk geen zichtbare resultaten). Laten we hier verandering in brengen door middel van het volgende commando:
 
     touch hello.py
 
 Het commando `touch` kijkt of een bestand bestaat, en zo niet, dan wordt het bestand aangemaakt. Nu hebben we een bestand genaamd `hello.py` binnen de map `week1`. Gebruik nog een keer `ls` om dit te controleren.
 
-Om de file `hello.py` te openen, ga je naar links bovenin je scherm waar je een map-icoontje ziet gevolgd door de tekst `~/workspace`. Druk op het driehoekje ernaast om de map `~/workspace` uit te klappen. Doe vervolgens hetzelfde bij de map `week1`, en dubbelklik dan op de file `hello.py`. Nu opent er een nieuwe tab genaamd `hello.py` en kunnen we meteen beginnen met programmeren!
+Om de file `hello.py` te openen, ga je naar links bovenin je scherm waar je een map-icoontje ziet gevolgd door de tekst `~/`. Druk op het driehoekje ernaast om de map `~/` uit te klappen. Doe vervolgens hetzelfde bij de map `week1`, en dubbelklik dan op de file `hello.py`. Nu opent er een nieuwe tab genaamd `hello.py` en kunnen we meteen beginnen met programmeren!
 
 Voer in het bestand `hello.py` de volgende regel code in:
 
@@ -56,7 +56,7 @@ Hier staat `..` voor de map boven de huidige. Wil je verder omhoog? Dan kan dat 
 
     cd ~/week1
 
-Dat brengt je meteen naar de map `week1` binnen `workspace`.
+Dat brengt je meteen naar de map `week1` binnen `~/`.
 
 ## Installeren van Matplotlib en Checkpy
 
