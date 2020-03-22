@@ -8,7 +8,7 @@ Welkom! We gebruiken bij deze cursus een aantal verschillende tools die gratis b
 
 ## GitHub
 
-Maak allereerst een account bij GitHub. Op GitHub wordt door ontwikkelaars van over de hele wereld code gedeeld en samengewerkt. Veel wetenschappers gebruiken het ook! Voor nu gebruiken wij alleen de mogelijkheid om via GitHub in te loggen bij de volgende stappen.
+Maak allereerst een account bij GitHub. Op GitHub wordt door ontwikkelaars van over de hele wereld code gedeeld en samengewerkt. Veel wetenschappers gebruiken het ook! Voor nu gebruiken wij alleen de mogelijkheid om via GitHub in te loggen bij de volgende stappen. Als je wat meer programmeerervaring hebt kun je GitHub zelf ook gaan gebruiken om je code te delen.
 
 <https://github.com/join>
 
@@ -32,6 +32,6 @@ Zit je helemaal vast bij deze stap? Stuur gerust een [mailtje](mailto:help@mprog
 
 Mocht je al Python op je computer hebben, denk dan aan het volgende:
 
-- Check even of je de juiste versie hebt! Python 2 en Python 3 bestaan namelijk naast elkaar. Wij gebruiken de modernste versie, Python 3.
+- Check even of je de juiste versie hebt! Python 2 en Python 3 bestaan namelijk naast elkaar. Wij gebruiken de modernste versie, Python 3.7 of 3.8.
 
-- Installeer sowieso het programma `checkpy`. Kijk daarvoor bij de instructies voor je [eigen computer](/naslag/installatie-computer)
+- Installeer sowieso nog het programma `checkpy`. Kijk daarvoor bij de instructies voor je [eigen computer](/naslag/installatie-computer)
