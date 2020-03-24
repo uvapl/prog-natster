@@ -37,6 +37,13 @@ om in de plot aan te geven welke $$x$$-waardes en $$y$$-waardes we willen zien.
 
 > Je ziet dat we in de code de functie `pause()` aanroepen. Dat doen we om pyplot de gelegenheid te geven de nieuwe figuur op het scherm te tekenen. Dit wordt alleen gedaan tijdens de pauzes die we geven.
 
+### Animaties in de CS50 IDE
+Omdat de CS50 IDE normaal gesproken geen scherm heeft om de animaties in te tonen, zal je bij het opstarten van bovenstaand programma in eerste instantie een error te zien krijgen. Gelukkig hebben we daar een oplossing voor! Voer voordat je je programma opstart eerst het commando `gui50` uit. Je krijgt dan een link waar je op kan klikken om een speciale GUI te openen. Wanneer je vervolgens in de CS50 IDE in een nieuwe terminal je programma opstart, krijg je de animatie te zien in het andere tabblad.
+
+> `gui50` is op dit moment nog in beta. Mogelijk moet je af en toe de pagina opnieuw openen of op 'Connect' klikken. Mocht het niet werken, stel je vraag dan via Ed.
+
+![](gui50.gif)
+
 ## Een bewegende lijn
 
 Een grafiek tekenen we met behulp van lijsten: een lijst met $$x$$-waardes en

@@ -16,7 +16,7 @@ We beginnen met het plotten van wat punten waarvan we de x-waardes $$(0,1,2,3,4,
 
     # plot punten (y tegen x) met groene rondjes
     matplotlib.pyplot.plot(x_coords, y_coords, 'go')
-    matplotlib.pyplot.show()
+    matplotlib.pyplot.savefig('plot.png')
 
 We kiezen voor groene rondjes als 'markers', waarmee elk punt in de grafiek wordt weergegeven: dat is wat `'go'` betekent. Met het laatste commando wordt de plot opgeslagen als een bestand `plot.png`. Deze vind je na uitvoeren van het programma als los bestand bij je code.
 
@@ -34,7 +34,7 @@ Je kunt een lange modulenaam ook een kortere naam geven bij het importeren. In h
     y_coords = [0,1,4,9,16,25]
 
     plt.plot(x_coords, y_coords, 'go')
-    plt.show()
+    plt.savefig('plot.png')
 
 ## Meerdere grafieken en bijschriften
 
@@ -59,7 +59,7 @@ We breiden de plot wat uit: er komt een functie $$x^3$$ bij, we gebruiken een li
     # voeg losse tekst toe met LaTeX
     plt.text(4.00,100., "$x^3$", color = 'red', fontsize = 20)
 
-    plt.show()
+    plt.savefig('plot.png')
 
 ![](plotje2.png)
 
@@ -91,7 +91,7 @@ zelf in moet vullen. De grafiek ziet er dan ook wat hoekig uit. Om een scherpere
     plt.xlabel('x', fontsize = 20)
     plt.ylabel('sin(x)', fontsize = 20)
     plt.text(4.00, 0.50, "f(x) = sin(x)", color = 'black', fontsize = 20)
-    plt.show()
+    plt.savefig('plot.png')
 
 ![](plotje3.png)
 
@@ -130,4 +130,4 @@ Dit is de code die daarbij hoort:
     plt.plot(l_x, l_x2, 'g-')
 
     # teken beide grafieken op het scherm
-    plt.show()
+    plt.savefig('plot.png')
