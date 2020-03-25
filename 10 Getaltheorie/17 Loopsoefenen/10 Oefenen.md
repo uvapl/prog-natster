@@ -8,21 +8,21 @@ Maak een bestand loopsoefenen.py en implementeer daarin een paar van de ondersta
 
 ## Loops: de basis 
 
-Blabla
+We gaan eerst aan de slag met een aantal basis-elementen 
 
 #### Loops: de basis 
 
-Bla
+Een loop ...
 
     for x in range(1, 11):
         print("x heeft nu de waarde ",x)
     
 Dit programma heeft als output
-        x heeft nu de waarde 1
-        x heeft nu de waarde 2
-        x heeft nu de waarde 3
-        ...
-        x heeft nu de waarde 10
+    x heeft nu de waarde 1
+    x heeft nu de waarde 2
+    x heeft nu de waarde 3
+    ...
+    x heeft nu de waarde 10
 
 Het programma verandert steeds de waarde in de variabele x. Hij begint door de waarde van x op 1 te zetten en gaat vervolgens *alle* instructies uitvoeren die in de loop staan. Daarna wordt aan x de waarde 2 toegekend en worden opnieuw alle instructies uitgevoerd. Op dit moment is er maar een enkele instructie, namelijk: print de waarde van het getal.
 
