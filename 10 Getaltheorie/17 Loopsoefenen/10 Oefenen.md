@@ -65,7 +65,11 @@ Je kunt natuurlijk binnen loops ook gebruikmaken van conditionals. Als je bijvoo
 	
 ## 2. Loops in loops
 
-Het is ook mogelijk om loops in loops te maken. In het Engels worden dit 'nested loops' genoemd.
+In de bovenstaande voorbeelden verandert steeds de waarde van een enkele variabele, in dit geval x, en wordt er naast printen en dingen bewaren niet veel complex gedaan. Dat is niet altijd het geval. Loops worden vaak gebruik als onderdeel van ingewikkelder constructies. 
+
+#### Loops in loops
+
+Het is ook mogelijk om loops in loops te maken. In het Engels worden dit 'nested loops' genoemd. Als je voor elke waarde van x bijvoorbeeld een andere variabele wilt laten variëren van 1 tot en met 3 (denk hierbij bijvoorbeeld dat x het studentnummer is en y de cijfers voor drie verschillende opdrachten tijdens een tentamen), dan gebruiken we de volgende constructie. 
 
     for x in range(1, 6):
        for y in range(1, 4):
@@ -86,7 +90,7 @@ Dit programma heeft als output
 
 **opdracht 6:** Pas bovenstaand programma zo aan dat y niet van 1 tot 4 loopt, maar van 1 tot en met de waarde van x. 
 
-**opdracht 6:** Pas bovenstaand programma zo aan dat y niet van 1 tot 4 loopt, maar van 1 tot en met de waarde van x. Gebruik nu de while-constructie voor de waardes van y.
+**opdracht 7:** Pas bovenstaand programma zo aan dat y niet van 1 tot 4 loopt, maar van 1 tot en met de waarde van x. Gebruik nu de while-constructie voor de waardes van y.
 
 
 ## Oefenen en debuggen
