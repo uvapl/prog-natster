@@ -1,18 +1,20 @@
 # Oefenen oefenen oefenen
 
-Een belangrijk element in deze eerste module is het zoeken naar priemgetallen. We zullen dan voor elk getal moeten evalueren of het nou wel of niet deelbaar is door een van de getallen die kleiner zijn dan het getal zelf. Hoewel jullie in net wat gelezen hebben over algoritmen, voorwaardelijke instructies en loops is het goed om hier nog wat extra te oefenen voordat jullie in het diepe duiken. Vooral met het gebruik van loops. Het is belangrijk om die goed te begrijpen omdat die in de rest van deze cursus en in vrijwel elk Python programma een belangrijke rol spelen.  
+Een belangrijk element in deze eerste module is een stukje code dat kan bepalen of een getal een priemgetal is of niet. Om dat te doen  zullen we voor elk getal moeten evalueren of het nou wel of niet deelbaar is door een getal dat kleiner is dan het getal zelf. Hoewel we net wat geleerd hebben over algoritmen, voorwaardelijke instructies en loops is het goed om nog wat extra te oefenen voordat we in het diepe duiken en met de priemgetallen aan de slag gaan. Het is belangrijk om het concept van loops goed te begrijpen omdat die in de rest van deze cursus, en in vrijwel elk Python programma, een belangrijke rol spelen.  
 
-We lopen een paar basis-voorbeelden langs en vragen jullie bij elke stap om ook zelf een programmaatje te schrijven. Dit is allemaal voorbereiding voor het zeken naar priegetallen. Het is ook handig om naar deze pagina terug te keren als je ergens in de cursus tegen een for-loop aanloopt die je niet goed begrijpt.
+We lopen hieronder een paar basis-constructies langs en zullen bij elke stap ook zelf kleine aanpassingen maken om te oefenen met de loops. Hoewel we hier vooral for-loops zullen bekijken is het ook belangrijk om met de while-loop aan de slag te gaan. Mede daarom ook een paar opdrachten om daarmee te oefenen. 
+
+Deze pagina is ook handig om naar terug te keren als je ergens in de cursus tegen een for-loop aanloopt die je niet goed begrijpt. 
 
 Maak een bestand loopsoefenen.py en implementeer daarin een paar van de onderstaande voorbeelden en de opdrachten.
 
 ## 1. Loops - de basis 
 
-We gaan eerst aan de slag met een aantal basis-elementen. 
+Zoals altijd: de basis is het belangrijkst.De voorbeelden hieronder 
 
 #### De basis 
 
-Een loop gebruik je als je een set instructies wilt herhalen voor een aantal verschillende waardes van een variabele. Als je bijvoorbeeld op het scherm de waardes van de getallen 1 tot en met 10 wilt printen kan je dat met tien afzonderlijke print statements doen, maar ook als volgt:
+Een for-loop gebruik je als je een set instructies wilt herhalen voor een aantal verschillende waardes van een variabele. Als je bijvoorbeeld op het scherm de waardes van de getallen 1 tot en met 10 wilt printen kan je dat met tien afzonderlijke print statements doen, maar ook als volgt:
 
     for x in range(1, 11):
         print("x heeft nu de waarde ",x)
@@ -44,6 +46,9 @@ Zodra alle instructies zijn uitgevoerd voor de hoogste waarde die x kan aannemen
 
 **opdracht 2:** Op dit moment gaat het om de getallen van 1 tot en met 10. Probeer bovenstaand programma om te schrijven door op één plek bovenin het programma dit maximale getal te definiëren.
 
+**opdracht 3:** Maak een programma dat dezelfde werking heeft, maar gebruik nu de while-loop in plaats van de for-loop. 
+
+
 ### Loops - basis, tellers en conditionals
 
 Je kunt natuurlijk binnen loops ook gebruikmaken van conditionals. Als je bijvoorbeeld de loop wilt laten lopen van 1 tot en met 10 en alleen de getallen groter dan 15 en de getallen die deelbaar zijn door 3 wilt printen dan kan je dat als volgt doen?
@@ -54,7 +59,7 @@ Je kunt natuurlijk binnen loops ook gebruikmaken van conditionals. Als je bijvoo
         if x%3:
 		   print("Dit getal is precies deelbaar door 3, -> ", x)
 
-**opdracht 3:** Pas bovenstaand programma zo aan dat aan het eind van het programma op het scherm geprint wordt hoeveel getallen er precies deelbaar waren door 3. Je zult hiervoor een zogemaande 'teler' bij moeten houden. Een variabele die steeds met 1 opgehoogd wordt zodra je een 'goede' gevonden hebt. Doe de outpue netjes, dus laat je programma als output geven:
+**opdracht 4:** Pas bovenstaand programma zo aan dat aan het eind van het programma op het scherm geprint wordt hoeveel getallen er precies deelbaar waren door 3. Je zult hiervoor een zogemaande 'teler' bij moeten houden. Een variabele die steeds met 1 opgehoogd wordt zodra je een 'goede' gevonden hebt. Doe de outpue netjes, dus laat je programma als output geven:
 
     Van de getallen 1 tot en met 20 zijn er precies xxx deelbaar door 3.
 	
@@ -77,13 +82,14 @@ Dit programma heeft als output
     x = 6, y = 4 
 
 
-**opdracht 4:** Pas bovenstaand programma zo aan dat de printregel alleen geprint wordt als x+y groter is dan 6.
+**opdracht 5:** Pas bovenstaand programma zo aan dat de printregel alleen geprint wordt als x+y groter is dan 6.
 
-**opdracht 5:** Pas bovenstaand programma zo aan dat y (automatisch) loopt van 1 tot en met de waarde van x.
+**opdracht 6:** Pas bovenstaand programma zo aan dat y niet van 1 tot 4 loopt, maar van 1 tot en met de waarde van x. 
+
+**opdracht 6:** Pas bovenstaand programma zo aan dat y niet van 1 tot 4 loopt, maar van 1 tot en met de waarde van x. Gebruik nu de while-constructie voor de waardes van y.
 
 
+## Oefenen en debuggen
 
-## Probleemanalyse
-
-Dit programma voldoet aan het cliché van een standaard computerprogramma: het heeft *invoer*, *berekeningen*, en *uitvoer*. Probeer die drie onderdelen ook terug te laten komen in je code!
+In vrijwel elk programma dat we zullen schrijven in deze cursus zullen loops voorkomen. Belangrijk dat je deze techniek goed on der de knie hebt.
 
