@@ -88,9 +88,11 @@ Dit programma heeft als output
 
 **opdracht 5:** Pas bovenstaand programma zo aan dat de printregel alleen geprint wordt als x+y groter is dan 6.
 
-**opdracht 6:** Pas bovenstaand programma zo aan dat y niet van 1 tot 4 loopt, maar van 1 tot en met de waarde van x. 
+**opdracht 6:** Pas het bovenstaande programma zo aan dat vlak voor er een nieuwe waarde aan x wordt toegekend, dus net nadat de loop over y klaar is, op het scherm geprint wordt: 'x = <xxx> en we zijn net klaar met de loop over y'.  
+	
+**opdracht 7:** Pas bovenstaand programma zo aan dat y niet van 1 tot 4 loopt, maar van 1 tot en met de waarde van x. 
 
-**opdracht 7:** Pas bovenstaand programma zo aan dat y niet van 1 tot 4 loopt, maar van 1 tot en met de waarde van x. Gebruik nu de while-constructie voor de waardes van y.
+**opdracht 8:** Pas bovenstaand programma zo aan dat y niet van 1 tot 4 loopt, maar van 1 tot en met de waarde van x. Gebruik nu de while-constructie voor de waardes van y.
 
 
 ## Oefenen en debuggen
