@@ -18,7 +18,7 @@ en beantwoord de volgende vragen.
 
 ## Opdracht 1: extreme temperaturen
 
-Schrijf een functie `ExtremeTemperatuur()` die de hoogste en laagste temperatuur vindt die in De Bilt is gemeten sinds het begin van de 20e eeuw. Zorg dat de functie de resultaten in een leesbaar formaat op het scherm print. Zeg dus niet: 
+Schrijf een functie `extreme_temperatuur()` die de hoogste en laagste temperatuur vindt die in De Bilt is gemeten sinds het begin van de 20e eeuw. Zorg dat de functie de resultaten in een leesbaar formaat op het scherm print. Zeg dus niet: 
 
      Max 34.5 op 19670513
 
@@ -28,22 +28,22 @@ maar
 
 Let op: 
 
- - Maak een aparte functie `Maand_als_string(i_maand)` die de naam van de maand in letters teruggeeft als string corresponderend met de maand in het jaar die als input variabele `i_maand` meegegeven wordt. Dus: `Maand_als_string(9) = "September"`.
+ - Maak een aparte functie `maand_als_string(maand)` die de naam van de maand in letters teruggeeft als string corresponderend met de maand in het jaar die als inputvariabele `maand` meegegeven wordt. Dus: `maand_als_string(9) = "September"`.
  
- - geef de functie `ExtremeTemperatuur()` een inputparameter die de waarden -1 en +1 kan aannemen.   
-   Zorg dat `ExtremeTemperatuur(1)` de hoogste temperatuur vindt en `ExtremeTemperatuur(-1)` de laagste.
+ - geef de functie `extreme_temperatuur()` een inputparameter die de waarden -1 en +1 kan aannemen.   
+   Zorg dat `extreme_temperatuur(1)` de hoogste temperatuur vindt en `extreme_temperatuur(-1)` de laagste.
 
 
 ## Opdracht 2: de kleine ijstijd
 
-Maak een functie `Kleineijstijd()` die op zoek gaat naar de langste periode dat het aaneengesloten heeft gevroren (maximumtemperatuur onder 0◦C). Laat zien hoe lang deze periode duurde en geef ook aan wat de laatste dag was van deze periode
+Maak een functie `kleine_ijstijd()` die op zoek gaat naar de langste periode dat het aaneengesloten heeft gevroren (maximumtemperatuur onder 0◦C). Laat zien hoe lang deze periode duurde en geef ook aan wat de laatste dag was van deze periode
 Meer expliciet: hoe lang (dagen) duurde deze periode en wat was de eerste en laatste dag van deze periode?  Zorg dat de output van je functie als volgt op het scherm wordt weergegeven:
 
      `De langste periode dat het aaneengesloten heeft gevroren duurde xxx dagen.`
      
      `Deze kleine ijstijd liep van <dag> <maand> <jaar> tot en met <dag> <maand> <jaar>.`
 
-Gebruik bij het weergeven van de datum ook weer leesbare tekst door gebruik te maken van de functie `Maand_als_string()`
+Gebruik bij het weergeven van de datum ook weer leesbare tekst door gebruik te maken van de functie `maand_als_string()`
  die je eerder in opdracht 1 gemaakt hebt.
 
 **Extra**: we hebben nu gekeken naar de periode waarbij de maximumtemperatuur niet boven het vriespunt uitkwam. Door de maximale temperatuur als parameter in je code te verwerken, een kleine aanpassing, kan je nu ook zoeken naar de periode dat de temperatuur niet boven de 30 graden uitkwam bijvoorbeeld.
@@ -53,7 +53,7 @@ Gebruik bij het weergeven van de datum ook weer leesbare tekst door gebruik te m
 
 Het KNMI spreekt van een ***warme dag*** als de maximumtemperatuur minimaal 20 graden Celcius was en van een ***zomerse dag*** als de maximumtemperatuur meer dan 25 graden Celcius was. Op een ***tropische dag*** was het in de Bilt zelfs meer dan 30 graden. 
 
-Schrijf een functie `ZomerseDagen()` die voor elk jaar, van 1901 tot en met 2018, het aantal warme, zomerse en tropische dagen als volgt op het scherm print:
+Schrijf een functie `zomerse_dagen()` die voor elk jaar, van 1901 tot en met 2018, het aantal warme, zomerse en tropische dagen als volgt op het scherm print:
 
     jaar  1980  warm =  69 , zomers =  12  en tropisch =  0
     jaar  1981  warm =  63 , zomers =  14  en tropisch =  0
@@ -77,7 +77,7 @@ Stephan Okhuijsen. Op 1 september 2019 plaatste hij in een tweet onderstaande gr
 
 ## Opdracht 4: Jaren met een dubbele hittegolf
 
-We spreken in Nederland van een ***hittegolf*** als de maximumtemperatuur ten minste vijf dagen achtereen minstens 25,0°C was (zomerse dagen) waarvan ten minste op drie dagen 30,0°C of meer (tropische dagen). Schrijf als eerste stap in deze opdracht een functie `Hittegolf()` die net als in opdracht 3 het aantal zomerse en tropische dagen vermeldt, maar daarnaast ook het aantal hittegolven:
+We spreken in Nederland van een ***hittegolf*** als de maximumtemperatuur ten minste vijf dagen achtereen minstens 25,0°C was (zomerse dagen) waarvan ten minste op drie dagen 30,0°C of meer (tropische dagen). Schrijf als eerste stap in deze opdracht een functie `hittegolf()` die net als in opdracht 3 het aantal zomerse en tropische dagen vermeldt, maar daarnaast ook het aantal hittegolven:
 
     jaar  1980  warm =  69 , zomers =  12  en tropisch =  0  en hittegolven = 0
     jaar  1981  warm =  63 , zomers =  14  en tropisch =  0  en hittegolven = 0
