@@ -6,7 +6,7 @@ We lopen een paar basis-voorbeelden langs en vragen jullie bij elke stap om ook 
 
 Maak een bestand loopsoefenen.py en implementeer daarin een paar van de onderstaande voorbeelden en de opdrachten.
 
-## Loops: de basis 
+## 1. Loops - de basis 
 
 We gaan eerst aan de slag met een aantal basis-elementen. 
 
@@ -58,7 +58,7 @@ Je kunt natuurlijk binnen loops ook gebruikmaken van conditionals. Als je bijvoo
 
     Van de getallen 1 tot en met 20 zijn er precies xxx deelbaar door 3.
 	
-### Loops - loops in loops
+## 2. Loops in loops
 
 Het is ook mogelijk om loops in loops te maken. In het Engels worden dit 'nested loops' genoemd.
 
