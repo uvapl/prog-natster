@@ -4,8 +4,6 @@ Een belangrijk element in deze eerste module is een stukje code dat kan bepalen 
 
 We lopen hieronder een paar basis-constructies langs en zullen bij elke stap ook zelf kleine aanpassingen maken om te oefenen met de loops. Hoewel we hier vooral for-loops zullen bekijken is het ook belangrijk om met de while-loop aan de slag te gaan. Mede daarom ook een paar opdrachten om daarmee te oefenen. 
 
-Deze pagina is ook handig om naar terug te keren als je ergens in de cursus tegen een for-loop aanloopt die je niet goed begrijpt. 
-
 Maak een bestand loopsoefenen.py en implementeer daarin een paar van de onderstaande voorbeelden en de opdrachten.
 
 ## 1. Loops - de basis 
@@ -59,7 +57,7 @@ Je kunt natuurlijk binnen loops ook gebruikmaken van conditionals. Als je bijvoo
         if x%3:
 		   print("Dit getal is precies deelbaar door 3, -> ", x)
 
-**opdracht 4:** Pas bovenstaand programma zo aan dat aan het eind van het programma op het scherm geprint wordt hoeveel getallen er precies deelbaar waren door 3. Je zult hiervoor een zogemaande 'teler' bij moeten houden. Een variabele die steeds met 1 opgehoogd wordt zodra je een 'goede' gevonden hebt. Doe de outpue netjes, dus laat je programma als output geven:
+**opdracht 4:** Pas bovenstaand programma zo aan dat aan het eind van het programma op het scherm geprint wordt hoeveel getallen er precies deelbaar waren door 3. Je zult hiervoor een zogemaande 'teler' bij moeten houden. Een variabele die steeds met 1 opgehoogd wordt zodra je een 'goede' gevonden hebt. Doe de output netjes, dus laat je programma als printstatement weergeven:
 
     Van de getallen 1 tot en met 20 zijn er precies xxx deelbaar door 3.
 	
@@ -97,5 +95,5 @@ Dit programma heeft als output
 
 ## Oefenen en debuggen
 
-In vrijwel elk programma dat we zullen schrijven in deze cursus zullen loops voorkomen. Belangrijk dat je deze techniek goed on der de knie hebt.
+Omdat in vrijwel elk programma dat we zullen schrijven in deze cursus zullen loops voorkomen is het belangrijk dat je deze techniek goed onder de knie hebt. Deze pagina is ook handig om naar terug te keren als je ergens in de cursus een for-loop tegenkomt die je niet goed begrijpt. 
 
