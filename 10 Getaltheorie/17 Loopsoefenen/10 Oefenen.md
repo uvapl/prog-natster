@@ -46,6 +46,8 @@ Zodra alle instructies zijn uitgevoerd voor de hoogste waarde die x kan aannemen
 
 **opdracht 3:** Maak een programma dat dezelfde werking heeft, maar gebruik nu de while-loop in plaats van de for-loop. 
 
+**opdracht 4:** Gebruik een while-loop om te zorgen dat het programma getallen blijft printen (ook tot boven de 10) tot de som van de getallen groter is dan 123.
+
 
 ### Loops - basis, tellers en conditionals
 
@@ -57,7 +59,7 @@ Je kunt natuurlijk binnen loops ook gebruikmaken van conditionals. Als je bijvoo
         if x%3:
 		   print("Dit getal is precies deelbaar door 3, -> ", x)
 
-**opdracht 4:** Pas bovenstaand programma zo aan dat aan het eind van het programma op het scherm geprint wordt hoeveel getallen er precies deelbaar waren door 3. Je zult hiervoor een zogemaande 'teler' bij moeten houden. Een variabele die steeds met 1 opgehoogd wordt zodra je een 'goede' gevonden hebt. Doe de output netjes, dus laat je programma als printstatement weergeven:
+**opdracht 5:** Pas bovenstaand programma zo aan dat aan het eind van het programma op het scherm geprint wordt hoeveel getallen er precies deelbaar waren door 3. Je zult hiervoor een zogemaande 'teler' bij moeten houden. Een variabele die steeds met 1 opgehoogd wordt zodra je een 'goede' gevonden hebt. Doe de output netjes, dus laat je programma als printstatement weergeven:
 
     Van de getallen 1 tot en met 20 zijn er precies xxx deelbaar door 3.
 	
@@ -84,13 +86,13 @@ Dit programma heeft als output
     x = 6, y = 4 
 
 
-**opdracht 5:** Pas bovenstaand programma zo aan dat de printregel alleen geprint wordt als x+y groter is dan 6.
+**opdracht 6:** Pas bovenstaand programma zo aan dat de printregel alleen geprint wordt als x+y groter is dan 6.
 
-**opdracht 6:** Pas het bovenstaande programma zo aan dat vlak voor er een nieuwe waarde aan x wordt toegekend, dus net nadat de loop over y klaar is, op het scherm geprint wordt: 'x = <xxx> en we zijn net klaar met de loop over y'.  
+**opdracht 7:** Pas het bovenstaande programma zo aan dat vlak voor er een nieuwe waarde aan x wordt toegekend, dus net nadat de loop over y klaar is, op het scherm geprint wordt: 'x = <xxx> en we zijn net klaar met de loop over y'.  
 	
-**opdracht 7:** Pas bovenstaand programma zo aan dat y niet van 1 tot 4 loopt, maar van 1 tot en met de waarde van x. 
+**opdracht 8:** Pas bovenstaand programma zo aan dat y niet van 1 tot 4 loopt, maar van 1 tot en met de waarde van x. 
 
-**opdracht 8:** Pas bovenstaand programma zo aan dat y niet van 1 tot 4 loopt, maar van 1 tot en met de waarde van x. Gebruik nu de while-constructie voor de waardes van y.
+**opdracht 9:** Pas bovenstaand programma zo aan dat y niet van 1 tot 4 loopt, maar van 1 tot en met de waarde van x. Gebruik nu de while-constructie voor de waardes van y.
 
 
 ## Oefenen en debuggen
