@@ -6,9 +6,13 @@ We lopen een paar basis-voorbeelden langs en vragen jullie bij elke stap om ook 
 
 Maak een bestand loopsoefenen.py en implementeer daarin een paar van de onderstaannde voorbeelden.
 
-### Loops - basis 
+## Loops: de basis 
 
-Maak een bestand `rekenwonder.py` en implementeer een programma dat de gebruiker vraagt om twee gehele getallen, waarna het product van de getallen met `print` op het scherm wordt getoond.
+Blabla
+
+#### Loops: de basis 
+
+Bla
 
     for x in range(1, 11):
         print("x heeft nu de waarde ",x)
@@ -22,7 +26,7 @@ Dit programma heeft als output
 
 Het programma verandert steeds de waarde in de variabele x. Hij begint door de waarde van x op 1 te zetten en gaat vervolgens *alle* instructies uitvoeren die in de loop staan. Daarna wordt aan x de waarde 2 toegekend en worden opnieuw alle instructies uitgevoerd. Op dit moment is er maar een enkele instructie, namelijk: print de waarde van het getal.
 
-### Loops - basis,  meer instructies, variabelen manipuleren en het eind van de loop
+#### Meer instructies, variabelen manipuleren en het eind van de loop
 
 Je kunt natuurlijk meer instructies laten uitvoeren. Naast het printen van het getal kunnen we het ook optellen bij een variabele 'som' die we helemaal aan het begin van het programma op nul hebben gezet. Zodra alle instructies zijn uitgevoerd voor de hoogste waarde die x kan aannemen gaat het programma gewoon verder. In dit geval met het printen van de laatste regel waarin we de som van de getallen 
 
