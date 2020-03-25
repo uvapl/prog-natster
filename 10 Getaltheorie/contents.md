@@ -19,6 +19,8 @@ Maar waarom programmeren? Kijk eens naar het filmpje hiernaast. [Mirjam Leunisse
 
 1. Leer meer over [algoritmen](/getaltheorie/algoritmen)
 
+2. Oefen met [Loops en algoritmen](/getaltheorie/loopsoefenen)
+
 3. Ga op zoek naar [priemgetallen](/getaltheorie/priemgetallen)
 
 ### Deel 3: resultaten uit de getaltheorie
