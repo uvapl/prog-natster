@@ -20,7 +20,7 @@ Kijk eerst eens naar het filmpje hiernaast. Egge van der Poel is "Data Scientist
 
 ### Extra opdracht: data verzamelen, analyseren en presenteren
 
-Na het verwerken van bestaande data is het tijd om [zelf data te  verzamelen](/big-data/extra), te analyseren en te presenteren naar het grote publiek.
+Na het verwerken van bestaande data is het tijd om [zelf data te  verzamelen](/big-data/extra), te analyseren en te presenteren naar het brede publiek.
 
 ### Afronding
 
