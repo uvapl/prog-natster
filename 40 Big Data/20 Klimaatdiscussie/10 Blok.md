@@ -28,7 +28,7 @@ maar
 
 Let op: 
 
- - Maak een aparte functie `maand_als_string(maand)` die de naam van de maand in letters teruggeeft als string corresponderend met de maand in het jaar die als inputvariabele `maand` meegegeven wordt. Dus: `maand_als_string(9) = "September"`.
+ - Maak een aparte functie `maand_als_string(maand)` die de naam van de maand in letters teruggeeft als string corresponderend met de maand in het jaar die als inputvariabele `maand` meegegeven wordt. Dus: `maand_als_string(9) = "september"`.
  
  - geef de functie `extreme_temperatuur()` een inputparameter die de waarden -1 en +1 kan aannemen.   
    Zorg dat `extreme_temperatuur(1)` de hoogste temperatuur vindt en `extreme_temperatuur(-1)` de laagste.
@@ -36,7 +36,7 @@ Let op:
 
 ## Opdracht 2: de kleine ijstijd
 
-Maak een functie `kleine_ijstijd()` die op zoek gaat naar de langste periode dat het aaneengesloten heeft gevroren (maximumtemperatuur onder 0◦C). Laat zien hoe lang deze periode duurde en geef ook aan wat de laatste dag was van deze periode
+Maak een functie `kleine_ijstijd()` die op zoek gaat naar de langste periode dat het aaneengesloten heeft gevroren (maximumtemperatuur onder 0<sup>◦</sup>C). Laat zien hoe lang deze periode duurde en geef ook aan wat de laatste dag was van deze periode
 Meer expliciet: hoe lang (dagen) duurde deze periode en wat was de eerste en laatste dag van deze periode?  Zorg dat de output van je functie als volgt op het scherm wordt weergegeven:
 
      `De langste periode dat het aaneengesloten heeft gevroren duurde xxx dagen.`
