@@ -18,6 +18,7 @@ Een loop ...
         print("x heeft nu de waarde ",x)
     
 Dit programma heeft als output
+
     x heeft nu de waarde 1
     x heeft nu de waarde 2
     x heeft nu de waarde 3
