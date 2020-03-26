@@ -137,14 +137,17 @@ Dit programma heeft als output
 
 **opdracht 6:** Pas bovenstaand programma zo aan dat de printregel alleen geprint wordt als x+y groter is dan 6.
 
-**opdracht 7:** Pas het bovenstaande programma zo aan dat vlak voor er een nieuwe waarde aan x wordt toegekend, dus net nadat de loop over y klaar is, op het scherm geprint wordt: 'x = ... en we zijn net klaar met de loop over y'.  
+**opdracht 7:** Pas het bovenstaande programma zo aan dat vlak voor er een nieuwe waarde aan x wordt toegekend, dus net nadat de loop over y klaar is, op het scherm geprint wordt: 'de waarde van x = ... en we zijn net klaar met de loop over y'.  
 	
 **opdracht 8:** Pas bovenstaand programma zo aan dat y niet van 1 tot 4 loopt, maar van 1 tot en met de waarde van x. 
 
 **opdracht 9:** Pas bovenstaand programma zo aan dat y niet van 1 tot 4 loopt, maar van 1 tot en met de waarde van x. Gebruik nu de while-constructie voor de waardes van y.
 
+**opdracht 10:** Pas bovenstaand programma zo aan dat de loop over y alleen uitgevoerd wordt als x groter is dan 3. Zorg dat in de loop over x gewoon range(1,6) blijft staan, maar verzin een ander oplosisng met behulp van een if-statement. 
 
 ## Oefenen en debuggen
 
-Omdat in vrijwel elk programma dat we zullen schrijven in deze cursus zullen loops voorkomen is het belangrijk dat je deze techniek goed onder de knie hebt. Deze pagina is ook handig om naar terug te keren als je ergens in de cursus een for-loop tegenkomt die je niet goed begrijpt. 
+Omdat in vrijwel elk programma dat we zullen schrijven loops voor zullen komen is het belangrijk dat je deze techniek goed onder de knie hebt. Als je ergens in de cursus een for-loop tegenkomt die je niet goed begrijpt, lees dan nog een keer deze pagina door. en laatste tip: gebruik print-statements om te controleren of de loops wel echt doen wat jij denk dat je geïmplementeerd hebt.
+
+Ok, hiermee hebben we alles in handen om op zoek te gaan naar priemgetallen. Succes!
 
