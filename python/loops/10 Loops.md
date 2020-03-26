@@ -12,7 +12,7 @@ Het komt heel vaak voor dat je een set van instructies een groot aantal keer uit
 
 #### De basis - loops in Python
 
-Een for-loop gebruik je als je een set instructies wilt herhalen voor een aantal verschillende waardes van een variabele. Als je bijvoorbeeld op het scherm de waardes van de getallen 1 tot en met 10 wilt printen kan je dat met tien afzonderlijke print statements doen, maar ook als volgt:
+Een for-loop gebruik je als je een set instructies wilt herhalen voor een aantal verschillende waardes van een variabele. Als je bijvoorbeeld op het scherm de waardes van de getallen 1 tot en met 10 wilt printen kun je dat natuurlijk met tien afzonderlijke print statements doen, maar het kan ook als volgt:
 
     for x in range(1, 11):
         print("x heeft nu de waarde ",x)
@@ -25,7 +25,7 @@ Dit programma heeft namelijk als output
     ...
     x heeft nu de waarde 10
 
-Het programma verandert steeds de waarde die de variabele x heeft. Het loop begint door de waarde van x op 1 te zetten en gaat vervolgens *alle* instructies uitvoeren die in de loop staan. Daarna wordt aan x de waarde 2 toegekend en worden opnieuw alle instructies uitgevoerd. Op dit moment is er maar een enkele instructie, namelijk: print de waarde van het getal, maar dat kunnen we natuurlijk uitbreiden.
+De loop begint door de waarde van x op 1 te zetten en gaat vervolgens *alle* instructies uitvoeren die in de loop staan. Daarna wordt aan x de waarde 2 toegekend en worden opnieuw alle instructies uitgevoerd. Op dit moment is er maar een enkele instructie, namelijk: print de waarde van het getal, maar dat kunnen we natuurlijk uitbreiden. Belangrijkste is dus dat het programma automatisch de waarde die de variabele x heeft steeds verandert. 
 
 
 ![](Loopsuitleg.png){: style="width:75%"}
@@ -34,7 +34,11 @@ Het programma verandert steeds de waarde die de variabele x heeft. Het loop begi
 Er zijn een paar dingen on te onthouden:
 
    - **Let op:** dat Python telt *tot* het eindgetal in de functie range(): range(1,11) loopt dus van 1 *tot en met* 10. Dit is een veelgemaakte fout als je begint te programmeren in Python. Het voelt onlogisch, maar that's just the way it is.
-   - Je kunt met range ook de stapgrootte opgeven. Standaard neemt hij stapjes van 1, maar als je stapjes van 10 wilt nemen gebruik je de volgende syntax: for x in range (1,100, 10). Probeer dit zelf eens uit zodat je goed weet welke waarde x aanneemt.
+   - Je kunt met range ook de stapgrootte opgeven. Standaard neemt hij stapjes van 1, maar als je stapjes van 10 wilt nemen gebruik je de volgende syntax: 
+     
+	 for x in range (1,100, 10). 
+	 
+	 Probeer dit zelf eens uit zodat je goed weet welke waarde x aanneemt.
 
 
 
