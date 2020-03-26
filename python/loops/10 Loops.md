@@ -29,7 +29,7 @@ Het programma verandert steeds de waarde die de variabele x heeft. Het loop begi
 Kijk goed naar de instructies en paar syntax dingen dingen zijn 
 
 
-![](Loopsuitleg.png){: style="width:50%"}
+![](Loopsuitleg.png){: style="width:75%"}
 
 
 #### Meer instructies, variabelen manipuleren en het eind van de loop
