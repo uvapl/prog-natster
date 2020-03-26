@@ -19,7 +19,7 @@ Maar waarom programmeren? Kijk eens naar het filmpje hiernaast. [Mirjam Leunisse
 
 1. Leer meer over [algoritmen](/getaltheorie/algoritmen)
 
-2. Oefen met [Loops](/getaltheorie/loopsoefenen)
+2. Oefen met [Loops](/pyhton/loops)
 
 3. Ga op zoek naar [priemgetallen](/getaltheorie/priemgetallen)
 
