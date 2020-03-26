@@ -31,7 +31,8 @@ De loop begint door de waarde van x op 1 te zetten en gaat vervolgens *alle* ins
 ![](Loopsuitleg.png){: style="width:75%"}
 
 
-Er zijn een paar dingen on te onthouden:
+
+Er zijn een paar belangrijke dingen om te noemen:
 
    - **Let op:** dat Python telt *tot* het eindgetal in de functie range(): range(1,11) loopt dus van 1 *tot en met* 10. Dit is een veelgemaakte fout als je begint te programmeren in Python. Het voelt onlogisch, maar that's just the way it is.
    - Je kunt met range ook de stapgrootte opgeven. Standaard neemt hij stapjes van 1, maar als je stapjes van 10 wilt nemen gebruik je de volgende syntax: 
