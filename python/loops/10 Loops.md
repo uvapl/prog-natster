@@ -8,7 +8,7 @@ Maak een bestand loopsoefenen.py en implementeer daarin een paar van de ondersta
 
 ## 1. Loops - de basis 
 
-Het komt heel vaak voor dat je een set van instructies een groot aantal keer uit wilt voeren. De menier om dat te sturen is met behulp van loops.
+Het komt heel vaak voor dat je een set van instructies een groot aantal keer uit wilt voeren. De menier om dat te sturen is met behulp van loops. Onderaan dit blok staan een aantal video's waarin een paar voorbeelden uitgewerkt worden. Bekijk die ook.
 
 #### De basis - loops in Python
 
@@ -35,52 +35,14 @@ De loop begint door de waarde van x op 1 te zetten en gaat vervolgens *alle* ins
 Er zijn een paar belangrijke dingen om te noemen:
 
    - **Let op:** dat Python telt *tot* het eindgetal in de functie range(): range(1,11) loopt dus van 1 *tot en met* 10. Dit is een veelgemaakte fout als je begint te programmeren in Python. Het voelt onlogisch, maar that's just the way it is.
+   - In het bovensteende voorbeeld hebben we de variabale die verandert de naam 'x' gegeven, maar je had natuurlijk ook 'getal', 'i' of 'teler' kunnen gebruiken. Wat jij zelf handig vindt. 
    - Je kunt met range ook de stapgrootte opgeven. Standaard neemt hij stapjes van 1, maar als je stapjes van 10 wilt nemen gebruik je de volgende syntax: 
      
-	 for x in range (1,100, 10). 
+	     for x in range (1,100, 10). 
 	 
-	 Probeer dit zelf eens uit zodat je goed weet welke waarde x aanneemt.
+	 Probeer dit zelf eens uit zodat je goed weet welke waardes x aanneemt.
 
 
-
-#### Meer instructies, variabelen manipuleren en het eind van de loop
-
-Je kunt meer instructies laten uitvoeren voor elke waarde die de variabele aanneemt. We kunnen het getal ook telkens optellen bij een variabele die we aan het begin van het programma op nul hebben gezet. Aan het eind van dat programma bevat die variabele dan de som van alle getallen van 1 tot en met 10.
-
-Zodra alle instructies zijn uitgevoerd voor de hoogste waarde die x kan aannemen is de loop 'afgelopen' en gaat het programma gewoon verder. In dit geval laten we het programma de som van alle getallen printen op het scherm. Let ook goed op de indentatie van de laatste regel. 
-
-    som = 0 
-    for x in range(1, 11):
-        print("x heeft nu de waarde ",x)
-        som = som + x
-
-    print("De som van de getallen van ", 1, " tot en met ", 10 = ", som)
-
-**opdracht 1:** Pas bovenstaand programma eens aan door het paatste print-statement verder in te laten sprintenm tot het precies onder de regel 'som = som + x' staat. Run het programma en probeer te begrijpen wat er gebeurt. Dit is een veelgemaakte fout met loops dus belangrijk om dit goed te begrijpen.
-
-**opdracht 2:** Op dit moment gaat het om de getallen van 1 tot en met 10. Probeer bovenstaand programma om te schrijven door op één plek bovenin het programma dit maximale getal te definiëren.
-
-**opdracht 3:** Maak een programma dat dezelfde werking heeft, maar gebruik nu de while-loop in plaats van de for-loop. 
-
-**opdracht 4:** Gebruik een while-loop om te zorgen dat het programma getallen blijft printen (ook tot boven de 10) tot de som van de getallen groter is dan 123.
-
-
-### Loops - basis, tellers en conditionals
-
-Je kunt natuurlijk binnen loops ook gebruikmaken van conditionals. Als je bijvoorbeeld de loop wilt laten lopen van 1 tot en met 10 en alleen de getallen groter dan 15 en de getallen die deelbaar zijn door 3 wilt printen dan kan je dat als volgt doen?
-
-    for x in range(1, 20):
-        if x > 15:
-		   print("Dit getal is groter dan 15, namelijk ", x)
-        if x%3:
-		   print("Dit getal is precies deelbaar door 3, -> ", x)
-
-**opdracht 5:** Pas bovenstaand programma zo aan dat aan het eind van het programma op het scherm geprint wordt hoeveel getallen er precies deelbaar waren door 3. Je zult hiervoor een zogemaande 'teler' bij moeten houden. Een variabele die steeds met 1 opgehoogd wordt zodra je een 'goede' gevonden hebt. Doe de output netjes, dus laat je programma als printstatement weergeven:
-
-    Van de getallen 1 tot en met 20 zijn er precies xxx deelbaar door 3.
-	
-	
-	
 #### Twee soorten loops: for-loops en while-loops
 
 Er zijn in Python, net als in bijna elke programmeertaal, twee standaard constructies om te 'loopen': de **for-loop** en de **while-loop**. 
@@ -101,6 +63,47 @@ is gelijk aan de volgende `while`-loop:
 
 De `for`-loop is duidelijk wat compacter en zo sneller leesbaar. Dat is dus ook de loop die het meest gebruikt wordt. Maar toepassingen zoals gebruikersinvoer kun je eigenlijk alleen maar met een `while`-loop schrijven, dus deze heeft ook z'n nut.
 	
+
+#### Meer instructies, variabelen manipuleren en het eind van de loop
+
+In het eerste voorbeeld hadden we maar één instructie in de loop zelf, nameleijk 'print de waarde van x op het scherm', maar je kunt ook meer instructies laten uitvoeren voor elke waarde die x aanneemt. We kunnen het getal bijvoorbeeld ook telkens optellen bij een variabele die we aan het begin van het programma op nul hebben gezet. Aan het eind van dat programma bevat die variabele dan de som van alle getallen van 1 tot en met 10. En het is een peulenschil om daarna de som van 1 tot en met 712643 op te tellen simpel weg 11 in je programma te vervangen door 712644.
+
+Zodra alle instructies zijn uitgevoerd voor de hoogste waarde die x kan aannemen is de loop 'afgelopen' en gaat het programma gewoon verder. In dit geval laten we het programma de som van alle getallen printen op het scherm. Let ook goed op de indentatie van de laatste regel. 
+
+    som = 0 
+    for x in range(1, 11):
+        print("x heeft nu de waarde ",x)
+        som = som + x
+
+    print("De som van de getallen van ", 1, " tot en met ", 10 = ", som)
+
+
+**opdracht 1:** Pas bovenstaand programma eens aan door het laatste print-statement verder in te laten springen tot het precies onder de regel 'som = som + x' staat. Run het programma en probeer te begrijpen wat er gebeurt. Dit is een veelgemaakte fout met loops dus belangrijk om deze 'fout' een keer te zien zodat je het later goed herkent.
+
+**opdracht 2:** Op dit moment gaat het om de getallen van 1 tot en met 10. Probeer bovenstaand programma om te schrijven door op één plek bovenin het programma dit maximale getal te definiëren.
+
+**opdracht 3:** Maak een programma dat dezelfde werking heeft, maar gebruik nu de while-loop in plaats van de for-loop. 
+
+**opdracht 4:** Gebruik een while-loop om te zorgen dat het programma getallen blijft printen (ook tot boven de 10) tot de som van de getallen groter is dan 123.
+
+
+### Loops - tellers en conditionals
+
+Je kunt natuurlijk binnen loops ook gebruikmaken van conditionals. Als je bijvoorbeeld de loop wilt laten lopen van 1 tot en met 10 en alleen de getallen groter dan 15 en de getallen die deelbaar zijn door 3 wilt printen dan kan je dat als volgt doen?
+
+    for x in range(1, 20):
+        if x > 15:
+		   print("Dit getal is groter dan 15, namelijk ", x)
+        if x%3:
+		   print("Dit getal is precies deelbaar door 3, -> ", x)
+
+**opdracht 5:** Pas bovenstaand programma zo aan dat aan het eind van het programma op het scherm geprint wordt hoeveel getallen er precies deelbaar waren door 3. Je zult hiervoor een zogemaande 'teler' bij moeten houden. Een variabele die steeds met 1 opgehoogd wordt zodra je een 'goede' gevonden hebt. Doe de output netjes, dus laat je programma als printstatement weergeven:
+
+    Van de getallen 1 tot en met 20 zijn er precies xxx deelbaar door 3.
+	
+	
+	
+
 	
 #### Video van basiselementen in loops	
 
