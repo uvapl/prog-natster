@@ -1,7 +1,8 @@
 # Loops
-Een belangrijk element in deze eerste module is een stukje code dat kan bepalen of een getal een priemgetal is of niet. Om dat te doen  zullen we voor elk getal moeten evalueren of het nou wel of niet deelbaar is door een getal dat kleiner is dan het getal zelf. Hoewel we net wat geleerd hebben over algoritmen, voorwaardelijke instructies is het belangrijk om nóg een concept te behandelen en daarmee te oefenen voor we in het diepe duiken en met de priemgetallen aan de slag gaan. 
 
-Het is belangrijk om het concept van loops goed te begrijpen omdat die in de rest van deze cursus, en in vrijwel elk Python programma, een belangrijke rol spelen. We lopen hieronder een paar basis-constructies langs en zullen bij elke stap ook zelf kleine aanpassingen maken om te oefenen met de loops. Hoewel we hier vooral for-loops zullen bekijken is het ook belangrijk om met de while-loop aan de slag te gaan. Mede daarom ook een paar opdrachten om daarmee te oefenen. 
+Een belangrijk element in deze eerste module is een stukje code maken dat bepaalt of een bepaald getal een priemgetal is of niet. Die code zal voor het getal moeten evalueren of het wel of niet deelbaar is door een ander getal (kleiner dan het getal zelf). Hoewel we net wat geleerd hebben over algoritmen en voorwaardelijke instructies is het belangrijk om nóg een concept te behandelen en daarmee te oefenen voor we in het diepe duiken en met de priemgetallen aan de slag gaan: loops!
+
+Om een aantal instructies een aantal keer achter elkaar uit te laten voeren bestaat er in elke programmeertaal het concept loops. Het is belangrijk om dit concept goed te begrijpen omdat het in vrijwel elk Python programma een belangrijke rol speelt. We lopen hieronder een paar basis-constructies langs en zullen bij elke stap ook zelf kleine aanpassingen maken om te oefenen met de loops. Hoewel we hier vooral for-loops zullen bekijken is het ook belangrijk om met de while-loop aan de slag te gaan. Mede daarom ook een paar opdrachten om daarmee te oefenen. 
 
 Maak een bestand loopsoefenen.py en implementeer daarin een paar van de onderstaande voorbeelden en de opdrachten.
 
