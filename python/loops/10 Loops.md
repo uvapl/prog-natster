@@ -66,7 +66,9 @@ De `for`-loop is duidelijk wat compacter en zo sneller leesbaar. Dat is dus ook 
 
 #### Meer instructies, variabelen manipuleren en het eind van de loop
 
-In het eerste voorbeeld hadden we maar één instructie in de loop zelf, nameleijk 'print de waarde van x op het scherm', maar je kunt ook meer instructies laten uitvoeren voor elke waarde die x aanneemt. We kunnen het getal bijvoorbeeld ook telkens optellen bij een variabele die we aan het begin van het programma op nul hebben gezet. Aan het eind van dat programma bevat die variabele dan de som van alle getallen van 1 tot en met 10. En het is een peulenschil om daarna de som van 1 tot en met 712643 op te tellen simpel weg 11 in je programma te vervangen door 712644.
+In het eerste voorbeeld hadden we maar één instructie in de loop zelf, namelijk 'print de waarde van x op het scherm', maar je kunt ook meer instructies laten uitvoeren voor elke waarde die x aanneemt. 
+
+In onderstaande voorbeeld tellen we de waarde van x steeds op bij een variabele die we aan het begin van het programma op nul hebben gezet. Aan het eind van het programma bevat die variabele dan de som van alle getallen van 1 tot en met 10. Het is daarna een peulenschil om met een kleine aanpassing de som van 1 tot en met 712643 op te tellen in plaats van 1 tot en met 10.
 
 Zodra alle instructies zijn uitgevoerd voor de hoogste waarde die x kan aannemen is de loop 'afgelopen' en gaat het programma gewoon verder. In dit geval laten we het programma de som van alle getallen printen op het scherm. Let ook goed op de indentatie van de laatste regel. 
 
@@ -84,60 +86,58 @@ Zodra alle instructies zijn uitgevoerd voor de hoogste waarde die x kan aannemen
 
 **opdracht 3:** Maak een programma dat dezelfde werking heeft, maar gebruik nu de while-loop in plaats van de for-loop. 
 
-**opdracht 4:** Gebruik een while-loop om te zorgen dat het programma getallen blijft printen (ook tot boven de 10) tot de som van de getallen groter is dan 123.
+**opdracht 4:** Gebruik een while-loop om te zorgen dat het programma getallen blijft printen (ook tot boven de 10), maar stopt als de som van de getallen groter is dan 123.
 
 
 ### Loops - tellers en conditionals
 
-Je kunt natuurlijk binnen loops ook gebruikmaken van conditionals. Als je bijvoorbeeld de loop wilt laten lopen van 1 tot en met 10 en alleen de getallen groter dan 15 en de getallen die deelbaar zijn door 3 wilt printen dan kan je dat als volgt doen?
+Je kunt in het blok instructies binnen een loop ook gebruikmaken van conditionals. Als je bijvoorbeeld de loop wilt laten lopen van 1 tot en met 20 en alleen de getallen groter dan 15 en de getallen die deelbaar zijn door 3 wilt printen dan kan je dat als volgt doen?
 
-    for x in range(1, 20):
-        if x > 15:
-		   print("Dit getal is groter dan 15, namelijk ", x)
-        if x%3:
-		   print("Dit getal is precies deelbaar door 3, -> ", x)
+    for getal in range(1, 20):
+        if getal > 15:
+		   print("Dit getal is groter dan 15, namelijk ", getal)
+        if getal%3:
+		   print("Dit getal is precies deelbaar door 3, -> ", getal)
 
-**opdracht 5:** Pas bovenstaand programma zo aan dat aan het eind van het programma op het scherm geprint wordt hoeveel getallen er precies deelbaar waren door 3. Je zult hiervoor een zogemaande 'teler' bij moeten houden. Een variabele die steeds met 1 opgehoogd wordt zodra je een 'goede' gevonden hebt. Doe de output netjes, dus laat je programma als printstatement weergeven:
+We hebben al eerder verteld dat je de naam van je variabele zelf mag bepalen. Zoals jullie zien hebben we in bovenstaand programma 'x' vervangen door de naam 'getal'.
 
-    Van de getallen 1 tot en met 20 zijn er precies xxx deelbaar door 3.
+**opdracht 5:** Pas bovenstaand programma zo aan dat aan het eind van het programma op het scherm geprint wordt hoeveel getallen er precies deelbaar waren door 3. Je zult hiervoor een zogemaande 'teller' bij moeten houden. Een variabele die aan het begin van het programma op 0 wordt gezet steeds met 1 opgehoogd wordt zodra je een 'goede' gevonden hebt. Besteed ook aandacht aan het format van de output, dus laat je programma als printstatement weergeven:
+
+    Van de getallen 1 tot en met 20 zijn er precies ... deelbaar door 3.
 	
-	
-	
-
 	
 #### Video van basiselementen in loops	
 
-Een korte uitleg van een paar van de basis-elementen van loops kun je ook in de vier onderstaande filmpjes bekijken. 
+Een korte uitleg van een paar van de basis-elementen van loops kun je ook in de vier onderstaande filmpjes vinden. 
 
 ![embed](https://vimeo.com/album/5380755/embed)
 	
 	
 ## 2. Loops in loops
 
-In de bovenstaande voorbeelden verandert steeds de waarde van een enkele variabele, in dit geval x, en wordt er naast printen en dingen bewaren niet veel complex gedaan. Dat is niet altijd het geval. Loops worden vaak gebruik als onderdeel van ingewikkelder constructies. 
+In de voorbeelden bovenaan de pagina wordt er naast printen en dingen bewaren niet veel complex gedaan in de loop zelf. Dat is niet altijd het geval. Loops worden vaak gebruik als onderdeel van ingewikkelder constructies. 
 
 #### Loops in loops
 
-Het is ook mogelijk om loops in loops te maken. In het Engels worden dit 'nested loops' genoemd. Als je voor elke waarde van x bijvoorbeeld een andere variabele wilt laten variëren van 1 tot en met 3 (denk hierbij bijvoorbeeld dat x het studentnummer is en y de cijfers voor drie verschillende opdrachten tijdens een tentamen), dan gebruiken we de volgende constructie. 
+Het is ook mogelijk om loops in loops te maken. In het Engels worden dit *'nested loops'* genoemd. Als je voor elke waarde van x bijvoorbeeld een andere variabele wilt laten variëren van 1 tot en met 3 (denk hierbij bijvoorbeeld dat x het studentnummer is en y de cijfers voor drie verschillende opdrachten tijdens een tentamen), dan gebruiken we de volgende constructie. 
 
     for x in range(1, 6):
        for y in range(1, 4):
-           print("x  = ", x, " en  y = ", y)
+           print("x = ", x, " en  y = ", y)
 		   
 Dit programma heeft als output
 
-    x = 1, y = 1 
-    x = 1, y = 2 
-    x = 1, y = 3 
-    x = 2, y = 1 
+    x = 1,  y = 1 
+    x = 1,  y = 2 
+    x = 1,  y = 3 
+    x = 2,  y = 1 
     ...
-    x = 6, y = 3 
-    x = 6, y = 4 
-
+    x = 6,  y = 2 
+    x = 6,  y = 3 
 
 **opdracht 6:** Pas bovenstaand programma zo aan dat de printregel alleen geprint wordt als x+y groter is dan 6.
 
-**opdracht 7:** Pas het bovenstaande programma zo aan dat vlak voor er een nieuwe waarde aan x wordt toegekend, dus net nadat de loop over y klaar is, op het scherm geprint wordt: 'x = <xxx> en we zijn net klaar met de loop over y'.  
+**opdracht 7:** Pas het bovenstaande programma zo aan dat vlak voor er een nieuwe waarde aan x wordt toegekend, dus net nadat de loop over y klaar is, op het scherm geprint wordt: 'x = ... en we zijn net klaar met de loop over y'.  
 	
 **opdracht 8:** Pas bovenstaand programma zo aan dat y niet van 1 tot 4 loopt, maar van 1 tot en met de waarde van x. 
 
