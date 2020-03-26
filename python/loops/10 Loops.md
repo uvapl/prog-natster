@@ -32,7 +32,7 @@ Het programma verandert steeds de waarde die de variabele x heeft. Het loop begi
 
 Er zijn een paar dingen on te onthouden:
 
-   - Let op dat Python telt *tot* het eindgetal in de functie range(): range(1,11) loopt dus van 1 tot en met 10.   
+   - **Let op:** dat Python telt *tot* het eindgetal in de functie range(): range(1,11) loopt dus van 1 *tot en met* 10. Dit is een veelgemaakte fout als je begint te programmeren in Python. Het voelt onlogisch, maar that's just the way it is.
    - Je kunt met range ook de stapgrootte opgeven. Standaard neemt hij stapjes van 1, maar als je stapjes van 10 wilt nemen gebruik je de volgende syntax: for x in range (1,100, 10). Probeer dit zelf eens uit zodat je goed weet welke waarde x aanneemt.
 
 
@@ -74,32 +74,36 @@ Je kunt natuurlijk binnen loops ook gebruikmaken van conditionals. Als je bijvoo
     Van de getallen 1 tot en met 20 zijn er precies xxx deelbaar door 3.
 	
 	
-### Video van basiselementen in loops	
-
-![embed](https://vimeo.com/album/5380755/embed)
 	
+#### Twee soorten loops: for-loops en while-loops
 
-## 2. Twee soorten loops: for-loops en while-loops
+Er zijn in Python, net als in bijna elke programmeertaal, twee standaard constructies om te 'loopen': de **for-loop** en de **while-loop**. 
 
+Een for-loop gebruik je als je precies weet hoe vaak je een instructie uit wilt/moet voeren. In gevallen waar je dat niet weet en steeds bij elke stapt wilt kunnen besluiten of je nog verder wilt tellen gebruik je een while-loop. In de uitleg hieronder wordt daar ook iets meer over gezegd.
 
-
-
-	Afhankelijk van de toepassing kies je een soort loop, zoals je in de filmpjes hierboven hebt gezien. In feite zijn `for` en `while` ook uitwisselbaar. Deze `for`-loop:
+In feite zijn `for` en `while` ook uitwisselbaar. Deze for-loop 
 
 	    for i in range(100):
 	        print("hi")
 
-	is gelijk aan de volgende `while`-loop:
+is gelijk aan de volgende `while`-loop:
 
 	    i = 0
 	    while i < 100:
 	        print("hi")
 	        i = i + 1
 
-	De `for`-loop is duidelijk wat compacter en zo sneller leesbaar. Dat is dus ook de loop die het vaakst gebruikt wordt. Maar toepassingen zoals gebruikersinvoer kun je eigenlijk alleen maar met een `while`-loop schrijven, dus deze heeft ook z'n nut.
+De `for`-loop is duidelijk wat compacter en zo sneller leesbaar. Dat is dus ook de loop die het meest gebruikt wordt. Maar toepassingen zoals gebruikersinvoer kun je eigenlijk alleen maar met een `while`-loop schrijven, dus deze heeft ook z'n nut.
 	
 	
-## 3. Loops in loops
+#### Video van basiselementen in loops	
+
+Een korte uitleg van een paar van de basis-elementen van loops kun je ook in de vier onderstaande filmpjes bekijken. 
+
+	![embed](https://vimeo.com/album/5380755/embed)
+	
+	
+## 2. Loops in loops
 
 In de bovenstaande voorbeelden verandert steeds de waarde van een enkele variabele, in dit geval x, en wordt er naast printen en dingen bewaren niet veel complex gedaan. Dat is niet altijd het geval. Loops worden vaak gebruik als onderdeel van ingewikkelder constructies. 
 
