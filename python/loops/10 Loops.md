@@ -100,7 +100,7 @@ De `for`-loop is duidelijk wat compacter en zo sneller leesbaar. Dat is dus ook 
 
 Een korte uitleg van een paar van de basis-elementen van loops kun je ook in de vier onderstaande filmpjes bekijken. 
 
-	![embed](https://vimeo.com/album/5380755/embed)
+![embed](https://vimeo.com/album/5380755/embed)
 	
 	
 ## 2. Loops in loops
