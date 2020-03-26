@@ -31,8 +31,9 @@ Het programma verandert steeds de waarde die de variabele x heeft. Het loop begi
 
 
 Er zijn een paar dingen on te onthouden:
+
    - Let op dat Python telt *tot* het eindgetal in de functie range(): range(1,11) loopt dus van 1 tot en met 10.   
-   - Je kunt met range ook de stapgrootte opgeven. Standaard neemt hij stapjes van 1, maar als je stapjes van 10 wilt nemen gebruik je    de volgende syntax: for x in range (1,100, 10). Probeer dit zelf eens uit zodat je goed weet welke waarde x aanneemt.
+   - Je kunt met range ook de stapgrootte opgeven. Standaard neemt hij stapjes van 1, maar als je stapjes van 10 wilt nemen gebruik je de volgende syntax: for x in range (1,100, 10). Probeer dit zelf eens uit zodat je goed weet welke waarde x aanneemt.
 
 
 
