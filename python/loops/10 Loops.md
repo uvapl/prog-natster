@@ -1,14 +1,14 @@
 # Loops
 
-Een belangrijk element in deze eerste module is een stukje code maken dat bepaalt of een bepaald getal een priemgetal is of niet. Die code zal voor het getal moeten evalueren of het wel of niet deelbaar is door een ander getal (kleiner dan het getal zelf). Hoewel we net wat geleerd hebben over algoritmen en voorwaardelijke instructies is het belangrijk om nóg een concept te behandelen en daarmee te oefenen voor we in het diepe duiken en met de priemgetallen aan de slag gaan: loops!
+Een belangrijk element in deze eerste module is een stukje code maken dat bepaalt of een bepaald getal een priemgetal is of niet. Die code zal voor het getal moeten evalueren of het wel of niet deelbaar is door een ander getal (kleiner dan het getal zelf). Hoewel we net wat geleerd hebben over algoritmen en voorwaardelijke instructies is het belangrijk om nóg een concept te behandelen voordat we het diepe in kunnen duiken en aan de slag kunnen. Het gaat om de mogelijkheid om een aantal instructies een aantal keer achter elkaar uit te laten voeren. Dit is een constructie die in elke programmeertaal voorkomt en die 'loops' worden genoemd. Het is erg belangrijk om dit concept goed te begrijpen omdat het in vrijwel elk Python programma een belangrijke rol speelt. 
 
-Om een aantal instructies een aantal keer achter elkaar uit te laten voeren bestaat er in elke programmeertaal het concept loops. Het is belangrijk om dit concept goed te begrijpen omdat het in vrijwel elk Python programma een belangrijke rol speelt. We lopen hieronder een paar basis-constructies langs en zullen bij elke stap ook zelf kleine aanpassingen maken om te oefenen met de loops. Hoewel we hier vooral for-loops zullen bekijken is het ook belangrijk om met de while-loop aan de slag te gaan. Mede daarom ook een paar opdrachten om daarmee te oefenen. 
+Op de rest van deze pagina laten we de basis van het gebruik van loops zien. Omdat het belangrijk is dit goed in de vingers te hebben hebben we bij elke stap ook kleine oefeningen bedacht zodat jullie goed leren oefenen met de loops. Hoewel we hier vooral for-loops zullen bekijken is het ook belangrijk om met de while-loop aan de slag te gaan. Er zijn ook wat voorbeelden met while-loops.
 
 Maak een bestand loopsoefenen.py en implementeer daarin een paar van de onderstaande voorbeelden en de opdrachten.
 
 ## 1. Loops - de basis 
 
-Het komt heel vaak voor dat je een set van instructies een groot aantal keer uit wilt voeren.
+Het komt heel vaak voor dat je een set van instructies een groot aantal keer uit wilt voeren. De menier om dat te sturen is met behulp van loops.
 
 #### De basis - loops in Python
 
