@@ -47,19 +47,19 @@ Er zijn een paar belangrijke dingen om te noemen:
 
 Er zijn in Python, net als in bijna elke programmeertaal, twee standaard constructies om te 'loopen': de **for-loop** en de **while-loop**. 
 
-Een for-loop gebruik je als je precies weet hoe vaak je een instructie uit wilt/moet voeren. In gevallen waar je dat niet weet en steeds bij elke stapt wilt kunnen besluiten of je nog verder wilt tellen gebruik je een while-loop. In de uitleg hieronder wordt daar ook iets meer over gezegd.
+Een for-loop gebruik je als je precies weet hoe vaak je een instructie uit wilt/moet voeren. In gevallen waar je dat niet weet en steeds bij elke stap wilt kunnen besluiten of je nog verder wilt tellen gebruik je een while-loop. Net zoals bij de for-loop worden alle instructies in het blok uitgevoerd voor een bepaalde waarde van de variabele. Daarna wordt ge-evalueerd of het nogmaals uitgevoerd moet worden. While betekent immers 'zolang als'. In de filmpjes onderaan dit blok wordt het in iets meer detail uitgelegd.
 
 In feite zijn `for` en `while` ook uitwisselbaar. Deze for-loop 
 
-	    for i in range(100):
-	        print("hi")
+	    for x in range(100):
+	        print("x heeft nu de waarde ", x)
 
 is gelijk aan de volgende `while`-loop:
 
-	    i = 0
-	    while i < 100:
-	        print("hi")
-	        i = i + 1
+	    x = 0
+	    while x < 100:
+	        print("x heeft nu de waarde ", x)
+	        x = x + 1
 
 De `for`-loop is duidelijk wat compacter en zo sneller leesbaar. Dat is dus ook de loop die het meest gebruikt wordt. Maar toepassingen zoals gebruikersinvoer kun je eigenlijk alleen maar met een `while`-loop schrijven, dus deze heeft ook z'n nut.
 	
