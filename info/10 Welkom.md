@@ -1,4 +1,4 @@
-# Wetenschappelijk Programmeren<br><small>Versie 2020</small>
+# Wetenschappelijk Programmeren<br><small>Universiteit van Amsterdam<br>Versie 2020</small>
 
 Welkom bij deze cursus programmeren voor bèta's! We gaan aan de slag met de programmeertaal Python om te leren hoe we wetenschappelijke problemen uit de wis-, natuur- en sterrenkunde met hulp van een computer op kunnen lossen.
 
