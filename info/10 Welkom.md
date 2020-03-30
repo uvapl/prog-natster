@@ -1,10 +1,8 @@
 # Wetenschappelijk Programmeren<br><small>Universiteit van Amsterdam<br>Versie 2020</small>
 
-Welkom bij deze cursus programmeren voor bèta's! We gaan aan de slag met de programmeertaal Python om te leren hoe we wetenschappelijke problemen uit de wis-, natuur- en sterrenkunde met hulp van een computer op kunnen lossen.
+Welkom bij deze cursus programmeren voor bèta's! We gaan aan de slag met de programmeertaal Python om te leren hoe we wetenschappelijke problemen uit de wis-, natuur- en sterrenkunde met hulp van een computer op kunnen lossen. Deze cursus is bedoeld voor mensen die nog helemaal geen ervaring hebben met programmeren, maar wel enige kennis hebben uit de bovenbouw van havo/vwo wiskunde en natuurkunde.
 
 ![embed](https://player.vimeo.com/video/402139115)
-
-Deze cursus is bedoeld voor mensen die nog helemaal geen ervaring hebben met programmeren, maar wel enige kennis hebben uit de bovenbouw van havo/vwo wiskunde en natuurkunde. Daarnaast is het bij programmeren best makkelijk om "vast te lopen". In dat geval is het verstandig om hulp te vragen!
 
 De cursus bestaat uit vier modules met daarin oefeningen en opdrachten. Gedurende de cursus leer je steeds meer over programmeren en de manier waarop je complexe problemen gestructureerd aan kunt pakken. Je kunt hiernaast direct aan de slag met [Module 0: "Aan de slag"](/naslag/installatie)!
 
@@ -14,6 +12,8 @@ Wat ga je leren in de modules:
 * bij Python bijgeleverde oplossingen hergebruiken in je eigen programma's
 * code overzichtelijk en beter leesbaar maken door een consistente stijl toe te passen
 * programmeerfouten opsporen en verbeteren
+
+Het is het bij programmeren best makkelijk om "vast te lopen". In dat geval is het verstandig om hulp te vragen! Je kunt onder andere terecht op "Ed" voor vraag en antwoord tussen medestudenten. Zie de instructies onder "Aan de slag"!
 
 ## Dankwoord
 
