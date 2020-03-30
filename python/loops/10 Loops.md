@@ -12,6 +12,8 @@ Het komt heel vaak voor dat je een set van instructies een groot aantal keer uit
 
 #### De basis - loops in Python
 
+![embed](https://player.vimeo.com/video/287247060)
+
 Een for-loop gebruik je als je een set instructies wilt herhalen voor een aantal verschillende waardes van een variabele. Als je bijvoorbeeld op het scherm de waardes van de getallen 1 tot en met 10 wilt printen kun je dat natuurlijk met tien afzonderlijke print statements doen, maar het kan ook als volgt:
 
     for x in range(1, 11):
@@ -28,19 +30,21 @@ Dit programma heeft namelijk als output
 De loop begint door de waarde van x op 1 te zetten en gaat vervolgens *alle* instructies uitvoeren die in de loop staan. Daarna wordt aan x de waarde 2 toegekend en worden opnieuw alle instructies uitgevoerd. Op dit moment is er maar een enkele instructie, namelijk: print de waarde van het getal, maar dat kunnen we natuurlijk uitbreiden. Belangrijkste is dus dat het programma automatisch de waarde die de variabele x heeft steeds verandert. 
 
 
-![](Loopsuitleg.png){: style="width:75%"}
+![](Loopsuitleg.png){: style="max-width:500px;"}
 
 
 
 Er zijn een paar belangrijke dingen om te noemen:
 
-   - **Let op:** dat Python telt *tot* het eindgetal in de functie range(): range(1,11) loopt dus van 1 *tot en met* 10. Dit is een veelgemaakte fout als je begint te programmeren in Python. Het voelt onlogisch, maar that's just the way it is.
-   - In het bovensteende voorbeeld hebben we de variabale die verandert de naam 'x' gegeven, maar je had natuurlijk ook 'getal', 'i' of 'teler' kunnen gebruiken. Wat jij zelf handig vindt. 
-   - Je kunt met range ook de stapgrootte opgeven. Standaard neemt hij stapjes van 1, maar als je stapjes van 10 wilt nemen gebruik je de volgende syntax: 
-     
-	     for x in range (1,100, 10). 
-	 
-	 Probeer dit zelf eens uit zodat je goed weet welke waardes x aanneemt.
+-   **Let op:** dat Python telt *tot* het eindgetal in de functie range(): range(1,11) loopt dus van 1 *tot en met* 10. Dit is een veelgemaakte fout als je begint te programmeren in Python. Het voelt onlogisch, maar that's just the way it is.
+
+-   In het bovensteende voorbeeld hebben we de variabale die verandert de naam 'x' gegeven, maar je had natuurlijk ook 'getal', 'i' of 'teler' kunnen gebruiken. Wat jij zelf handig vindt.
+
+-   Je kunt met range ook de stapgrootte opgeven. Standaard neemt hij stapjes van 1, maar als je stapjes van 10 wilt nemen gebruik je de volgende syntax:
+    
+         for x in range (1,100, 10). 
+    
+    Probeer dit zelf eens uit zodat je goed weet welke waardes x aanneemt.
 
 
 #### Twee soorten loops: for-loops en while-loops
@@ -62,11 +66,14 @@ is gelijk aan de volgende `while`-loop:
 	        x = x + 1
 
 De `for`-loop is duidelijk wat compacter en zo sneller leesbaar. Dat is dus ook de loop die het meest gebruikt wordt. Maar toepassingen zoals gebruikersinvoer kun je eigenlijk alleen maar met een `while`-loop schrijven, dus deze heeft ook z'n nut.
-	
+
+![embed](https://player.vimeo.com/video/287247106)
 
 #### Meer instructies, variabelen manipuleren en het eind van de loop
 
-In het eerste voorbeeld hadden we maar één instructie in de loop zelf, namelijk 'print de waarde van x op het scherm', maar je kunt ook meer instructies laten uitvoeren voor elke waarde die x aanneemt. 
+In het eerste voorbeeld hadden we maar één instructie in de loop zelf, namelijk 'print de waarde van x op het scherm', maar je kunt ook meer instructies laten uitvoeren voor elke waarde die x aanneemt.
+
+![embed](https://player.vimeo.com/video/287247088)
 
 In onderstaande voorbeeld tellen we de waarde van x steeds op bij een variabele die we aan het begin van het programma op nul hebben gezet. Aan het eind van het programma bevat die variabele dan de som van alle getallen van 1 tot en met 10. Het is daarna een peulenschil om met een kleine aanpassing de som van 1 tot en met 712643 op te tellen in plaats van 1 tot en met 10.
 
@@ -91,7 +98,11 @@ Zodra alle instructies zijn uitgevoerd voor de hoogste waarde die x kan aannemen
 
 ### Loops - tellers en conditionals
 
-Je kunt in het blok instructies binnen een loop ook gebruikmaken van conditionals. Als je bijvoorbeeld de loop wilt laten lopen van 1 tot en met 20 en alleen de getallen groter dan 15 en de getallen die deelbaar zijn door 3 wilt printen dan kan je dat als volgt doen?
+Je kunt in het blok instructies binnen een loop ook gebruikmaken van conditionals.
+
+![embed](https://player.vimeo.com/video/287247135)
+
+Als je bijvoorbeeld de loop wilt laten lopen van 1 tot en met 20 en alleen de getallen groter dan 15 en de getallen die deelbaar zijn door 3 wilt printen dan kan je dat als volgt doen.
 
     for getal in range(1, 20):
         if getal > 15:
@@ -104,15 +115,8 @@ We hebben al eerder verteld dat je de naam van je variabele zelf mag bepalen. Zo
 **opdracht 5:** Pas bovenstaand programma zo aan dat aan het eind van het programma op het scherm geprint wordt hoeveel getallen er precies deelbaar waren door 3. Je zult hiervoor een zogemaande 'teller' bij moeten houden. Een variabele die aan het begin van het programma op 0 wordt gezet steeds met 1 opgehoogd wordt zodra je een 'goede' gevonden hebt. Besteed ook aandacht aan het format van de output, dus laat je programma als printstatement weergeven:
 
     Van de getallen 1 tot en met 20 zijn er precies ... deelbaar door 3.
-	
-	
-#### Video van basiselementen in loops	
 
-Een korte uitleg van een paar van de basis-elementen van loops kun je ook in de vier onderstaande filmpjes vinden. 
 
-![embed](https://vimeo.com/album/5380755/embed)
-	
-	
 ## 2. Loops in loops
 
 In de voorbeelden bovenaan de pagina wordt er naast printen en dingen bewaren niet veel complex gedaan in de loop zelf. Dat is niet altijd het geval. Loops worden vaak gebruik als onderdeel van ingewikkelder constructies. 
