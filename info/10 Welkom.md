@@ -1,6 +1,6 @@
 # Wetenschappelijk Programmeren<br><small>Versie 2020</small>
 
-![Python](python-logo.png){:.inline}  
+![embed](https://player.vimeo.com/video/402139115)
 
 Welkom bij deze cursus programmeren voor bèta's! We gaan aan de slag met de programmeertaal Python om te leren hoe we wetenschappelijke problemen uit de wis-, natuur- en sterrenkunde met hulp van een computer op kunnen lossen.
 
