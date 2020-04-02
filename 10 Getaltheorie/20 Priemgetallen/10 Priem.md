@@ -13,7 +13,9 @@ Zoals gezegd is een computer geweldig in het snel uitvoeren van een heleboel "do
 
 - Vraag de gebruiker om de rangorde van het priemgetal (het hoeveelste) in te voeren. Dit moet natuurlijk een geheel en positief getal zijn.
 
-- Als de gebruiker een rangorde invult die niet toegestaan is, dan vraag je de gebruiker opnieuw naar de rangorde. Net zo lang tot de gebruiker een geldige rangorde invult. Omdat je niet weet hoe vaak dat zal zijn, moet het een `while`-loop worden!
+- Als de gebruiker een rangorde invult die niet toegestaan is, dan vraag je de gebruiker opnieuw naar de rangorde. En herhalen tot de gebruiker een geldige rangorde invult. Omdat je niet weet hoe vaak dat zal zijn, moet het een `while`-loop worden!
+
+- Ofschoon je moet controleren of het om een positief getal gaat, mag je er wel vanuit gaan dat een geheel getal wordt ingevoerd (en geen kommagetal). Dat hoef je dus niet te controleren.
 
 - Zodra de rangorde bekend is, bereken het juiste priemgetal en rapporteer dit terug aan de gebruiker.
 
