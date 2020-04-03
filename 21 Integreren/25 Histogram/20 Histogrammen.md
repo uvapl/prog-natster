@@ -31,7 +31,7 @@ Hieronder een klein programma dat eerst 10.000 random getallen genereert en ze i
      # plot de frequentie-distributie (50 bins)
      plt.xlim(-0.1, 1.1)
      plt.hist(random_getallen, bins=50)
-     plt.show()
+     plt.savefig('plot.png')
 
 
 In Python gebruik je hiervoor de optie `plt.hist()` om de data te groeperen en laat het dan pas zien mbv `plt.show()`. Je kunt bij het groeperen opgeven in hoeveel stukjes (bins) je de data op wilt delen.

@@ -24,12 +24,6 @@ Schrijf een programma dat de volgende grafiek laat zien:
 
 		import matplotlib.pyplot as plt
 
-* Om `matplotlib` te gebruiken in de online IDE, heb je nog iets meer nodig:
-
-		import matplotlib
-		matplotlib.use('Agg')
-		import matplotlib.pyplot as plt
-
 * Gebruik je Windows en krijg je een foutmelding bij het plotten? Probeer dan dit:
 
 		import matplotlib
