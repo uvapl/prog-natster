@@ -38,13 +38,13 @@ Om de file `hello.py` te openen, ga je naar links bovenin je scherm waar je een 
 
 Voer in het bestand `hello.py` de volgende regel code in:
 
-    print("Hello, World!")
+    print("Hello, world!")
 
 Sla `hello.py` vervolgens op. Dit is jouw eerste (Python-)programma, en deze kunnen we uitvoeren door het volgende commando in de terminal te voeren:
 
     python hello.py
 
-Als het goed is zie je direct daaronder de woorden: `Hello, World!` staan.
+Als het goed is zie je direct daaronder de woorden: `Hello, world!` staan.
 
 ## Extra tips
 
