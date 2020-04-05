@@ -68,7 +68,7 @@ Om zowel `matplotlib` en `checkpy` te downloaden voer je in de terminal één vo
     pip install checkpy
     checkpy -d uva/progns
 
-Het kan best eventjes duren per commando, en er zal aardig wat tekst over je scherm ratelen (behalve bij het commando startend met `echo`). Mocht er weinig tekst staan, speur dan naar een eventuele foutmelding en vraag eventueel om hulp!
+Het kan best eventjes duren per commando, en er zal aardig wat tekst over je scherm ratelen. Mocht er weinig tekst staan, speur dan naar een eventuele foutmelding en vraag eventueel om hulp!
 
 Om te testen of alles werkt, en of `hello.py` klopt, voer je het volgende commando in de terminal uit:
 
