@@ -16,6 +16,9 @@ de code hieronder nemen we steeds stapjes in $$x$$, rekenen $$y$$ uit en
 tekenen het punt op het scherm. We gebruiken ook de commando's `xlim` en `ylim`
 om in de plot aan te geven welke $$x$$-waardes en $$y$$-waardes we willen zien.
 
+    import matplotlib
+    matplotlib.use('TkAgg')
+    
     import math
     import numpy as np
     import matplotlib.pyplot as plt
@@ -51,6 +54,9 @@ een lijst met $$y$$-waardes. Als je die lijsten steeds uitbreidt dan krijg je
 het onderstaande effect: de functie $$f(x) = sin(x)$$ getekend met een rode
 lijn.
 
+    import matplotlib
+    matplotlib.use('TkAgg')
+    
     import math
     import numpy as np
     import matplotlib.pyplot as plt
@@ -85,6 +91,9 @@ Zoals je ziet is de code maar drie regels veranderd ten opzichte van voorbeeld
 Je kan de stip en de lijn ook tegelijk tekenen en op het scherm ook informatie
 weergeven over de $$(x,y)$$ positie van het punt op het scherm.
 
+    import matplotlib
+    matplotlib.use('TkAgg')
+    
     import math
     import numpy as np
     import matplotlib.pyplot as plt

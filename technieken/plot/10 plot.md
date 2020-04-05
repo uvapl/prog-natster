@@ -8,6 +8,8 @@ Het is handig om je resultaten te visualiseren in een grafiek of zelfs een filmp
 
 We beginnen met het plotten van wat punten waarvan we de x-waardes $$(0,1,2,3,4,5)$$ en de y-waardes $$(0,1,4,9,16,25)$$ hebben. In dit geval is het precies de functie $$x^2$$, maar dat hoeft natuurlijk niet. Om daar een grafiek van te maken doen we het volgende:
 
+    import matplotlib
+    matplotlib.use('Agg')
     import matplotlib.pyplot
 
     # de coordinaten per punt
@@ -40,6 +42,9 @@ Je kunt een lange modulenaam ook een kortere naam geven bij het importeren. In h
 
 We breiden de plot wat uit: er komt een functie $$x^3$$ bij, we gebruiken een lijngrafiek en we voegen aslabels toe en een los tekstje:
 
+    import matplotlib
+    matplotlib.use('Agg')
+
     import matplotlib.pyplot as plt
 
     x_values  = [0,1,2,3,4,5]
@@ -69,6 +74,9 @@ We breiden de plot wat uit: er komt een functie $$x^3$$ bij, we gebruiken een li
 
 Hierboven hebben we een klein aantal punten gekozen waarbij je de waardes
 zelf in moet vullen. De grafiek ziet er dan ook wat hoekig uit. Om een scherpere grafiek te krijgen kun je de computer gewoon een heleboel y-waardes laten berekenen. Als we bijvoorbeeld de functie $$sin(x)$$ willen plotten in stapjes van $$0.01$$ tussen $$0$$ en $$2\pi$$ dan knopen we de verschillende dingen die we de dingen hiervoor aan elkaar en doen we het volgende:
+
+    import matplotlib
+    matplotlib.use('Agg')
 
     import numpy as np
     import math
@@ -105,6 +113,9 @@ Als voorbeeld gaan we zowel de cosinus als de sinus weergeven, en in een grafiek
 
 Dit is de code die daarbij hoort:
 
+    import matplotlib
+    matplotlib.use('Agg')
+    
     import math
     import numpy as np
     import matplotlib.pyplot as plt
