@@ -16,6 +16,9 @@ Het idee van een random getal is dat het uniform verdeeld is tussen 0 en 1. Om e
 
 Hieronder een klein programma dat eerst 10.000 random getallen genereert en ze in een lijst stopt. Bij het commando `plt.hist()` wordt opgegeven dat we de frequentie willen bepalen van getallen in gebieden van 0.02 (immers 50 bins tussen de minimale en maximale waarde die we verwachten: 0.00 en 1.00).
 
+    import matplotlib
+    matplotlib.use('Agg')
+    
     import random
     import matplotlib.pyplot as plt
 
