@@ -99,7 +99,7 @@ Als je bijvoorbeeld de loop wilt laten lopen van 1 tot en met 20 en alleen de ge
     for getal in range(1, 20):
         if getal > 15:
 		   print("Dit getal is groter dan 15, namelijk ", getal)
-        if getal % 3:
+        if (getal % 3) == 0 :
 		   print("Dit getal is precies deelbaar door 3, -> ", getal)
 
 We hebben al eerder verteld dat je de naam van je variabele zelf mag bepalen. Zoals jullie zien hebben we in bovenstaand programma 'x' vervangen door de naam 'getal'.
