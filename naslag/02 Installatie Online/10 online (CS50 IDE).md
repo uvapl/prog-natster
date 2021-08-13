@@ -2,6 +2,12 @@
 
 Om online te kunnen programmeren maken wij gebruik van een online integrated development environment, de CS50 IDE. Om toegang te krijgen tot deze omgeving moet je wat stappen door. Daarna kun je gelijk aan de slag!
 
+## GitHub
+
+Maak allereerst een account bij GitHub. Op GitHub wordt door ontwikkelaars van over de hele wereld code gedeeld en samengewerkt. Veel wetenschappers gebruiken het ook! Voor nu gebruiken wij alleen de mogelijkheid om via GitHub in te loggen bij de volgende stappen. Als je wat meer programmeerervaring hebt kun je GitHub zelf ook gaan gebruiken om je code te delen.
+
+<https://github.com/join>
+
 ## Aanmaken van de CS50 IDE
 
 > Op dit moment werkt de CS50 IDE alleen goed in Chrome en FireFox, en niet in Safari. Mocht je een leeg scherm te zien krijgen, probeer dan even van browser te wisselen.

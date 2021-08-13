@@ -6,18 +6,6 @@ Welkom! We gebruiken bij deze cursus een aantal verschillende tools die gratis b
 - registreren bij Ed, voor vragen stellen en beantwoorden
 - zorgen voor een werkende Python-omgeving, voor het doen van de opdrachten
 
-## GitHub
-
-Maak allereerst een account bij GitHub. Op GitHub wordt door ontwikkelaars van over de hele wereld code gedeeld en samengewerkt. Veel wetenschappers gebruiken het ook! Voor nu gebruiken wij alleen de mogelijkheid om via GitHub in te loggen bij de volgende stappen. Als je wat meer programmeerervaring hebt kun je GitHub zelf ook gaan gebruiken om je code te delen.
-
-<https://github.com/join>
-
-## Ed
-
-Vervolgens kun je je registreren bij Ed. Dit is een online forum voor vraag en antwoord over deze cursus. Je kunt daar ook anderen vinden die de cursus volgen en je misschien wel kunnen helpen bij jouw vragen.
-
-<https://us.edstem.org/join/w3EGXy>
-
 ## Python
 
 Python is niet alleen een programmeertaal, maar ook een programma dat je kunt installeren op je eigen computer. Je kunt Python ook gebruiken via allerlei online-diensten. We geven hier instructies voor beide opties:
