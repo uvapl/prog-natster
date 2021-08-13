@@ -37,9 +37,3 @@ Kijk eerst eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalbers promo
 ### Extra opdracht: fractals
 
 In de extra opgave bestuderen we de wiskunde achter fractals en gaan daarmee aan de slag om daarmee zelf de meest bekende fractal te reconstrueren en op het scherm te tekenen: de Mandelbrot set. Duik in de wereld van complexe getallen en [fractals](/integreren/extra).
-
-### Afronding
-
-<!-- 1. Ga naar [deze pagina](/integreren/inleveren) om je programma's in te leveren. -->
-
-Vul de [evaluatie](https://goo.gl/forms/X0HNmhNQbhAk81442){:target="_blank"} in.

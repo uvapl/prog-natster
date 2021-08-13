@@ -31,9 +31,3 @@ Kijk eerst eens naar het filmpje hiernaast. Anne Kroon en Damian Trilling zijn c
 ### Extra: deeltjes in een doos
 
 Bestudeer de beweging van [deeltjes in een doos](/simulaties/extra)
-
-### Afronding
-
-<!-- - Ga naar [deze pagina](/monopoly/inleveren) om je programma's in te leveren. -->
-
-Help ons de opdracht verbeteren: vul de [evaluatie](https://goo.gl/forms/bMEPwmQeLxMZ13qE2){:target="_blank"} in.

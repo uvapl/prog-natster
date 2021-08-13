@@ -44,9 +44,3 @@ Maar waarom programmeren? Kijk eens naar het filmpje hiernaast. [Mirjam Leunisse
 ### Extra opdracht: onderling-priem paren
 
 Van bovenstaande opdrachten verwachten we dat je ze allemaal helemaal doet. Er is ook een extra opdracht, waarmee je het laatste punt voor je cijfer van deze module kunt verdienen. Deze is bedoeld voor iedereen die goed uit alle bovenstaande opdrachten is gekomen en klaar is voor meer! In deze module: test stellingen uit de wiskunde over de frequentie van [onderling-priem paren](/getaltheorie/extra) ofwel co-primes.
-
-### Afronding
-
-<!-- 1. Ga naar [deze pagina](/getaltheorie/inleveren) om je programma's in te leveren. -->
-
-Vul de [evaluatie](https://goo.gl/forms/gwRSgA3bBnpcAkME2){:target="_blank"} in.

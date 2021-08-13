@@ -21,9 +21,3 @@ Kijk eerst eens naar het filmpje hiernaast. Egge van der Poel is "Data Scientist
 ### Extra opdracht: data verzamelen, analyseren en presenteren
 
 Na het verwerken van bestaande data is het tijd om [zelf data te  verzamelen](/big-data/extra), te analyseren en te presenteren naar het brede publiek.
-
-### Afronding
-
-<!-- - Ga naar [deze pagina](/big-data/inleveren) om je programma's in te leveren. -->
-
-Je bent klaar met deze module! Vul alsjeblieft de [evaluatie](https://goo.gl/forms/s3W7Nfrk0nXEcbji1){:target="_blank"} in.
