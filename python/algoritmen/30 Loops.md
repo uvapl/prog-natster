@@ -13,10 +13,6 @@ We gebruiken hier het commando `range()` met een begingetal en eindgetal om aan 
 
 Verder zie je dat we net als bij `if` weer kunnen inspringen om duidelijk te maken welke regel herhaald moet worden. Er staan hier vier spaties vóór `print`: dat is dus precies de instructie die meerdere malen uitgevoerd gaat worden.
 
-## Voorbeelden van loops
-
-![embed](https://vimeo.com/album/5380755/embed)
-
 ## Stapgrootte van een loop
 
 Je kunt met `range` ook de stapgrootte opgeven. `for` telt dan zoals voorheen van begin tot einde, en neemt niet stappen van 1, maar van de grootte die jij hebt ingesteld. Dit ziet er zo uit:
