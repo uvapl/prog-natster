@@ -2,8 +2,6 @@
 
 Welkom bij deze cursus programmeren voor bèta's! We gaan aan de slag met de programmeertaal Python om te leren hoe we wetenschappelijke problemen uit de wis-, natuur- en sterrenkunde met hulp van een computer op kunnen lossen. Deze cursus is bedoeld voor mensen die nog helemaal geen ervaring hebben met programmeren, maar wel enige kennis hebben uit de bovenbouw van havo/vwo wiskunde en natuurkunde.
 
-![embed](https://player.vimeo.com/video/402139115)
-
 De cursus bestaat uit vier modules met daarin oefeningen en opdrachten. Gedurende de cursus leer je steeds meer over programmeren en de manier waarop je complexe problemen gestructureerd aan kunt pakken. Je kunt hiernaast direct aan de slag met [Module 0: "Aan de slag"](/naslag/installatie)!
 
 Wat ga je leren in de modules:

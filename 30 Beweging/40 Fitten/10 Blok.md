@@ -1,7 +1,5 @@
 # Fitten van data en foutenbepaling 
 
-![embed](https://player.vimeo.com/video/138378099)
-
 Om de onderliggende fenomenen van (natuurkundige) verschijnselen te achterhalen
 wordt data verzameld om afhankelijkheden te onderzoeken. Dat kan de massa van
 het Higgs boson zijn, de vervaltijd van uranium, maar ook het aantal kinderen
