@@ -9,8 +9,7 @@ acknowledgements:
 license: <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a> <span xmlns:dct="https://purl.org/dc/terms/" property="dct:title">This course</span> is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
 
 links:
-    '<img src="/course/info/chat.svg" class="mr-1" style="vertical-align: -4px;" width="20" height="20"> Ed Hulpforum': https://us.edstem.org/join/w3EGXy
-    '<img src="/course/info/display.svg" class="mr-1" style="vertical-align: -4px;" width="20" height="20"> CS50 IDE': https://ide.cs50.io/
+    '[display] CS50 IDE': https://ide.cs50.io/
 
 modules:
     "0. Aan de slag": /naslag/installatie
