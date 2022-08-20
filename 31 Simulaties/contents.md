@@ -24,7 +24,7 @@ Kijk eerst eens naar het filmpje hiernaast. Anne Kroon en Damian Trilling zijn c
 
 ### Deel 3: Natuurkunde
 
-1. Bestudeer de beweging van een vallende [appel](/bewegen/appel)
+1. Bestudeer de beweging van een vallende [appel](/beweging/appel)
 2. Lees nog even terug over het gebruiken van [meerdere grafieken](/technieken/plot)
 3. Bestudeer de beweging van een [basejumper](/beweging/basejump)
 
