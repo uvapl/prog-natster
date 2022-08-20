@@ -10,7 +10,7 @@ Kijk eerst eens naar het filmpje hiernaast. Egge van der Poel is "Data Scientist
 
 ### Deel 1: Inlezen en verwerken van een dataset
 
-1. Leer een [dataset](/big-data/files) analyseren en verwerken
+1. Leer een [dataset](/python/files) analyseren en verwerken
 
 2. Verwerk sensor-data van een  [autorit](/big-data/dataverwerken) van een wetenschapper op weg naar de UvA
 

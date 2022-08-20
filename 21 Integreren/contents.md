@@ -10,7 +10,7 @@ Kijk eerst eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalbers promo
 
 ### Deel 1: Nulpunten
 
-1. Leer over [functies](/integreren/functies) in Python
+1. Leer over [functies](/python/functies) in Python
 
 3. Bepaal de [nulpunten](/integreren/nulpunten) van een polynoom
 
@@ -20,7 +20,7 @@ Kijk eerst eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalbers promo
 
 ### Deel 3: Random
 
-1. Leer over het gebruik van  [random getallen](/integreren/random).
+1. Leer over het gebruik van  [random getallen](/technieken/random).
 
 2. [Random fact](/integreren/randomwiskunde).
 

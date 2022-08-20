@@ -11,33 +11,33 @@ Maar waarom programmeren? Kijk eens naar het filmpje hiernaast. [Mirjam Leunisse
 
 ### Deel 1: aan de slag
 
-2. Oefen met de [basiselementen](/getaltheorie/basiselementen) van Python
+2. Oefen met de [basiselementen](/python/basiselementen) van Python
 
 3. Gebruik de computer als [rekenwonder](/getaltheorie/rekenwonder)
 
 ### Deel 2: priemgetallen
 
-1. Leer meer over [algoritmen](/getaltheorie/algoritmen)
+1. Leer meer over [algoritmen](/python/algoritmen)
 
-2. Code herhalen met [loops](/getaltheorie/loops)
+2. Code herhalen met [loops](/python/loops)
 
 3. Ga op zoek naar [priemgetallen](/getaltheorie/priemgetallen)
 
 ### Deel 3: resultaten uit de getaltheorie
 
-1. Sla je data op in een [lijst](/getaltheorie/lijsten)
+1. Sla je data op in een [lijst](/python/lijsten)
 
 2. Ga op zoek naar de [langste reeks niet-priemgetallen](/getaltheorie/reeks)
 
-3. Begrijp hoe je ["mooie code"](/getaltheorie/stijlgids) kunt schrijven --- en vanaf nu verwachten we ook dat je deze ideeën toepast in je eigen code!
+3. Begrijp hoe je ["mooie code"](/naslag/stijlgids) kunt schrijven --- en vanaf nu verwachten we ook dat je deze ideeën toepast in je eigen code!
 
 4. Vind (g)een tegenbewijs voor het vermoeden van [Goldbach](/getaltheorie/goldbach)
 
 ### Deel 4: grafieken
 
-1. Leer over het gebruiken van [modules](/getaltheorie/modules) in Python
+1. Leer over het gebruiken van [modules](/python/modules) in Python
 
-2. Zoek op hoe je data kunt [plotten](/getaltheorie/plot)
+2. Zoek op hoe je data kunt [plotten](/technieken/plot)
 
 3. Maak data inzichtelijk met [grafieken](/getaltheorie/grafieken)
 
